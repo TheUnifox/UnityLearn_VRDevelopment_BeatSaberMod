@@ -66,23 +66,14 @@ public class SongTimeSyncedVideoPlayer : LightWithIdMonoBehaviour
 
   public virtual void SetSpriteAndStopVideo(Sprite sprite)
   {
-    this._materialPropertyBlockController.materialPropertyBlock.SetTexture(SongTimeSyncedVideoPlayer._textureId, (Texture) sprite.texture);
-    if (sprite.packed)
-    {
-      Vector4 vector4;
-      ref Vector4 local = ref vector4;
-      double x = (double) sprite.textureRect.width / (double) sprite.texture.width;
-      Rect textureRect = sprite.textureRect;
-      double y = (double) textureRect.height / (double) sprite.texture.height;
-      textureRect = sprite.textureRect;
-      double z = (double) textureRect.x / (double) sprite.texture.width;
-      textureRect = sprite.textureRect;
-      double w = (double) textureRect.y / (double) sprite.texture.height;
-      local = new Vector4((float) x, (float) y, (float) z, (float) w);
-      this._materialPropertyBlockController.materialPropertyBlock.SetVector(SongTimeSyncedVideoPlayer._textureStId, vector4);
+        this._materialPropertyBlockController.materialPropertyBlock.SetTexture(SongTimeSyncedVideoPlayer._textureId, sprite.texture);
+        if (sprite.packed)
+        {
+            Vector4 value = new Vector4(sprite.textureRect.width / (float)sprite.texture.width, sprite.textureRect.height / (float)sprite.texture.height, sprite.textureRect.x / (float)sprite.texture.width, sprite.textureRect.y / (float)sprite.texture.height);
+            this._materialPropertyBlockController.materialPropertyBlock.SetVector(SongTimeSyncedVideoPlayer._textureStId, value);
+        }
+        this.StopVideoPlayer();
     }
-    this.StopVideoPlayer();
-  }
 
   public virtual void StopVideoPlayer()
   {
@@ -97,26 +88,11 @@ public class SongTimeSyncedVideoPlayer : LightWithIdMonoBehaviour
 
   public virtual IEnumerator WaitForDependenciesAndPlay()
   {
-    // ISSUE: reference to a compiler-generated field
-    int num = this.m_Cm_E1__state;
-    SongTimeSyncedVideoPlayer syncedVideoPlayer = this;
-    if (num != 0)
-    {
-      if (num != 1)
-        return false;
-      // ISSUE: reference to a compiler-generated field
-      this.m_Cm_E1__state = -1;
-      syncedVideoPlayer._videoPlayer.Play();
-      return false;
+        WaitUntil waitUntil = new WaitUntil(() => this._audioTimeSource.isReady && this._videoPlayer.clip != null);
+        yield return waitUntil;
+        this._videoPlayer.Play();
+        yield break;
     }
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E1__state = -1;
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E2__current = (object) new WaitUntil(new Func<bool>(syncedVideoPlayer.m_CWaitForDependenciesAndPlaym_Eb__17_0));
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E1__state = 1;
-    return true;
-  }
 
   [CompilerGenerated]
   public virtual bool m_CWaitForDependenciesAndPlaym_Eb__17_0() => this._audioTimeSource.isReady && (UnityEngine.Object) this._videoPlayer.clip != (UnityEngine.Object) null;

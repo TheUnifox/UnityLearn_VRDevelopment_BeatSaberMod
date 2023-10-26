@@ -150,7 +150,7 @@ public class AnnotatedBeatmapLevelCollectionsGridView :
     SelectableCell.TransitionType transition,
     object changeOwner)
   {
-    if (this == changeOwner || !selectableCell.selected)
+    if (this == (object)changeOwner || !selectableCell.selected)
       return;
     foreach (MonoBehaviour monoBehaviour in this._gridView.cellsEnumerator)
     {

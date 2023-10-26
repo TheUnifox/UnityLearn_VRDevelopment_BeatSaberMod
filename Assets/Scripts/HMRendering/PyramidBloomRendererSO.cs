@@ -87,13 +87,11 @@ public class PyramidBloomRendererSO : PersistentScriptableObject
     PyramidBloomRendererSO.Pass upsamplePass,
     PyramidBloomRendererSO.Pass finalUpsamplePass)
   {
-    RenderTextureDescriptor descriptor = dest.descriptor with
-    {
-      depthBufferBits = 0,
-      msaaSamples = 1,
-      vrUsage = VRTextureUsage.None
-    };
-    if (downsampleOnFirstPass)
+        RenderTextureDescriptor descriptor = dest.descriptor;
+        descriptor.depthBufferBits = 0;
+        descriptor.msaaSamples = 1;
+        descriptor.vrUsage = VRTextureUsage.None;
+        if (downsampleOnFirstPass)
     {
       descriptor.width /= 2;
       descriptor.height /= 2;

@@ -308,12 +308,13 @@ public class VRControllersRecorder : MonoBehaviour
   {
     BinaryFormatter binaryFormatter = new BinaryFormatter();
     binaryFormatter.Binder = (SerializationBinder) new VRControllersRecorder.TypeSerializationBinder();
-    savedData = (VRControllersRecorder.SavedData) null;
-    if ((bool) (UnityEngine.Object) this._recordingTextAsset)
+    VRControllersRecorder.SavedData savedData = null;
+    if ((bool) this._recordingTextAsset)
     {
       Stream serializationStream = (Stream) new MemoryStream(this._recordingTextAsset.bytes);
-      if (binaryFormatter.Deserialize(serializationStream) is VRControllersRecorder.SavedData savedData)
-        Debug.Log((object) ("Performance loaded from text asset " + (object) this._recordingTextAsset));
+            savedData = (binaryFormatter.Deserialize(serializationStream) as VRControllersRecorder.SavedData);
+      if (savedData != null)
+        Debug.Log("Performance loaded from text asset " +  this._recordingTextAsset);
     }
     else
     {
@@ -325,7 +326,7 @@ public class VRControllersRecorder : MonoBehaviour
       }
       catch
       {
-        savedData = (VRControllersRecorder.SavedData) null;
+        savedData = null;
       }
       finally
       {

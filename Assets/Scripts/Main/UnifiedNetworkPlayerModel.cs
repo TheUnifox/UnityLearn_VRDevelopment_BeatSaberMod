@@ -335,7 +335,7 @@ public class UnifiedNetworkPlayerModel :
         return;
       managerCreatedEvent((INetworkPlayerModel) this);
     }
-    else if (networkPlayerModel == this._localNetworkPlayerModel)
+    else if ((object)networkPlayerModel == this._localNetworkPlayerModel)
     {
       this._localNetworkPartyMessageHandler = new PartyMessageHandler(networkPlayerModel.connectedPlayerManager);
       networkPlayerModel.connectedPlayerManager.playerConnectedEvent += new System.Action<IConnectedPlayer>(this.HandleLocalPlayerConnected);
@@ -343,7 +343,7 @@ public class UnifiedNetworkPlayerModel :
     }
     else
     {
-      if (networkPlayerModel != this._platformNetworkPlayerModel)
+      if ((object)networkPlayerModel != this._platformNetworkPlayerModel)
         return;
       this._friendPartyMessageHandler = new PartyMessageHandler(networkPlayerModel.connectedPlayerManager);
       networkPlayerModel.connectedPlayerManager.playerConnectedEvent += new System.Action<IConnectedPlayer>(this.HandleFriendConnected);
@@ -366,14 +366,14 @@ public class UnifiedNetworkPlayerModel :
         return;
       managerDestroyedEvent((INetworkPlayerModel) this);
     }
-    else if (networkPlayerModel == this._localNetworkPlayerModel)
+    else if ((object)networkPlayerModel == this._localNetworkPlayerModel)
     {
       this._localNetworkPartyMessageHandler?.Dispose();
       this._localNetworkPartyMessageHandler = (PartyMessageHandler) null;
     }
     else
     {
-      if (networkPlayerModel != this._platformNetworkPlayerModel)
+      if ((object)networkPlayerModel != this._platformNetworkPlayerModel)
         return;
       this._friendPartyMessageHandler?.Dispose();
       this._friendPartyMessageHandler = (PartyMessageHandler) null;

@@ -131,41 +131,51 @@ public class BeatmapLevelsModel : MonoBehaviour
   {
     if (await this._additionalContentModel.GetLevelEntitlementStatusAsync(levelID, cancellationToken) == AdditionalContentModel.EntitlementStatus.Owned)
     {
-      if (this._loadedBeatmapLevels.IsInCache(levelID))
-      {
-        this._loadedBeatmapLevels.UpdateOrderInCache(levelID);
-        return new BeatmapLevelsModel.GetBeatmapLevelResult(false, this._loadedBeatmapLevels.GetFromCache(levelID));
-      }
-      if (!this._loadedPreviewBeatmapLevels.ContainsKey(levelID))
-        return new BeatmapLevelsModel.GetBeatmapLevelResult(true, (IBeatmapLevel) null);
-      IPreviewBeatmapLevel previewBeatmapLevel = this._loadedPreviewBeatmapLevels[levelID];
-      switch (previewBeatmapLevel)
-      {
-        case IBeatmapLevel beatmapLevel:
-          AudioClip audioClip1 = await this._audioClipAsyncLoader.LoadSong(beatmapLevel);
-          this._loadedBeatmapLevels.PutToCache(levelID, beatmapLevel);
-          return new BeatmapLevelsModel.GetBeatmapLevelResult(false, beatmapLevel);
-        case CustomPreviewBeatmapLevel _:
-          CustomBeatmapLevel customBeatmapLevel = await this._customLevelLoader.LoadCustomBeatmapLevelAsync((CustomPreviewBeatmapLevel) previewBeatmapLevel, cancellationToken);
-          if (customBeatmapLevel == null || customBeatmapLevel.beatmapLevelData == null)
-            return new BeatmapLevelsModel.GetBeatmapLevelResult(true, (IBeatmapLevel) null);
-          this._loadedBeatmapLevels.PutToCache(levelID, (IBeatmapLevel) customBeatmapLevel);
-          return new BeatmapLevelsModel.GetBeatmapLevelResult(false, (IBeatmapLevel) customBeatmapLevel);
-        default:
-          BeatmapLevelLoader.LoadBeatmapLevelResult loadLevelResult = await this._beatmapLevelLoader.LoadBeatmapLevelAsync(previewBeatmapLevel, cancellationToken);
-          if (loadLevelResult.isError)
-            return new BeatmapLevelsModel.GetBeatmapLevelResult(true, (IBeatmapLevel) null);
-          if (loadLevelResult.beatmapLevel != null)
-          {
-            AudioClip audioClip2 = await this._audioClipAsyncLoader.LoadSong(loadLevelResult.beatmapLevel);
-            this._loadedBeatmapLevels.PutToCache(levelID, loadLevelResult.beatmapLevel);
-            return new BeatmapLevelsModel.GetBeatmapLevelResult(false, loadLevelResult.beatmapLevel);
-          }
-          beatmapLevel = (IBeatmapLevel) null;
-          loadLevelResult = new BeatmapLevelLoader.LoadBeatmapLevelResult();
-          break;
-      }
-    }
+            if (this._loadedBeatmapLevels.IsInCache(levelID))
+            {
+                this._loadedBeatmapLevels.UpdateOrderInCache(levelID);
+                return new BeatmapLevelsModel.GetBeatmapLevelResult(false, this._loadedBeatmapLevels.GetFromCache(levelID));
+            }
+            if (!this._loadedPreviewBeatmapLevels.ContainsKey(levelID))
+            {
+                return new BeatmapLevelsModel.GetBeatmapLevelResult(true, null);
+            }
+            IPreviewBeatmapLevel previewBeatmapLevel = this._loadedPreviewBeatmapLevels[levelID];
+            IBeatmapLevel beatmapLevel;
+            if ((beatmapLevel = (previewBeatmapLevel as IBeatmapLevel)) != null)
+            {
+                await this._audioClipAsyncLoader.LoadSong(beatmapLevel);
+                this._loadedBeatmapLevels.PutToCache(levelID, beatmapLevel);
+                return new BeatmapLevelsModel.GetBeatmapLevelResult(false, beatmapLevel);
+            }
+            if (previewBeatmapLevel is CustomPreviewBeatmapLevel)
+            {
+                CustomPreviewBeatmapLevel customPreviewBeatmapLevel = (CustomPreviewBeatmapLevel)previewBeatmapLevel;
+                CustomBeatmapLevel customBeatmapLevel = await this._customLevelLoader.LoadCustomBeatmapLevelAsync(customPreviewBeatmapLevel, cancellationToken);
+                if (customBeatmapLevel == null || customBeatmapLevel.beatmapLevelData == null)
+                {
+                    return new BeatmapLevelsModel.GetBeatmapLevelResult(true, null);
+                }
+                this._loadedBeatmapLevels.PutToCache(levelID, customBeatmapLevel);
+                return new BeatmapLevelsModel.GetBeatmapLevelResult(false, customBeatmapLevel);
+            }
+            else
+            {
+                BeatmapLevelLoader.LoadBeatmapLevelResult loadLevelResult = await this._beatmapLevelLoader.LoadBeatmapLevelAsync(previewBeatmapLevel, cancellationToken);
+                if (loadLevelResult.isError)
+                {
+                    return new BeatmapLevelsModel.GetBeatmapLevelResult(true, null);
+                }
+                if (loadLevelResult.beatmapLevel != null)
+                {
+                    await this._audioClipAsyncLoader.LoadSong(loadLevelResult.beatmapLevel);
+                    this._loadedBeatmapLevels.PutToCache(levelID, loadLevelResult.beatmapLevel);
+                    return new BeatmapLevelsModel.GetBeatmapLevelResult(false, loadLevelResult.beatmapLevel);
+                }
+                beatmapLevel = null;
+                loadLevelResult = default(BeatmapLevelLoader.LoadBeatmapLevelResult);
+            }
+        }
     return new BeatmapLevelsModel.GetBeatmapLevelResult(true, (IBeatmapLevel) null);
   }
 

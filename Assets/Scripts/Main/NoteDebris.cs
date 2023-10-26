@@ -83,11 +83,9 @@ public class NoteDebris : MonoBehaviour
     float sqrMagnitude = rhs.sqrMagnitude;
     if ((double) sqrMagnitude > (double) this._maxCutPointCenterDistance * (double) this._maxCutPointCenterDistance)
       rhs = this._maxCutPointCenterDistance * rhs / Mathf.Sqrt(sqrMagnitude);
-    Vector4 vector4 = (Vector4) lhs with
-    {
-      w = -Vector3.Dot(lhs, rhs)
-    };
-    float num1 = Mathf.Sqrt(Vector3.Dot((Vector3) vector4, (Vector3) vector4));
+    Vector4 vector4 = lhs;
+        vector4.w = -Vector3.Dot(lhs, rhs);
+        float num1 = Mathf.Sqrt(Vector3.Dot((Vector3) vector4, (Vector3) vector4));
     Vector3 zero = Vector3.zero;
     int length = NoteDebris._meshVertices.Length;
     for (int index = 0; index < length; ++index)

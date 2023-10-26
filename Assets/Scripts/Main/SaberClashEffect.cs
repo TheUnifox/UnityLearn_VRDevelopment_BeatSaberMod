@@ -34,8 +34,10 @@ public class SaberClashEffect : MonoBehaviour
     this._glowParticleSystemEmmisionModule = this._glowParticleSystem.emission;
     this._glowParticleSystemEmmisionModule.enabled = false;
     Color color = Color.Lerp(this._colorManager.EffectsColorForSaberType(SaberType.SaberA), this._colorManager.EffectsColorForSaberType(SaberType.SaberB), 0.5f);
-    this._sparkleParticleSystem.main.startColor = (ParticleSystem.MinMaxGradient) color;
-    this._glowParticleSystem.main.startColor = (ParticleSystem.MinMaxGradient) color;
+        ParticleSystem.MainModule sparkleMain = this._sparkleParticleSystem.main;
+        ParticleSystem.MainModule glowMain = this._glowParticleSystem.main;
+    sparkleMain.startColor = (ParticleSystem.MinMaxGradient) color;
+    glowMain.startColor = (ParticleSystem.MinMaxGradient) color;
   }
 
   public virtual void OnDisable()

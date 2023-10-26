@@ -94,31 +94,27 @@ namespace BeatmapEditor3D.Views
       }
     }
 
-    private void UpdateNotes()
-    {
-      foreach (KeyValuePair<BeatmapEditorObjectId, NormalNoteView> noteObject in this._noteObjects)
-      {
-        float a = noteObject.Value.noteData.beat - this.beatmapState.beat;
-        Vector3 localPosition = noteObject.Value.transform.localPosition with
+        private void UpdateNotes()
         {
-          z = this.beatmapObjectPlacementHelper.BeatToPosition(noteObject.Value.noteData.beat)
-        };
-        noteObject.Value.transform.localPosition = localPosition;
-        noteObject.Value.SetState(Mathf.Approximately(a, 0.0f), (double) a < 0.0, this.beatmapObjectsSelectionState.IsNoteSelected(noteObject.Value.noteData.id));
-      }
-      foreach (KeyValuePair<BeatmapEditorObjectId, BombNoteView> bombObject in this._bombObjects)
-      {
-        float a = bombObject.Value.noteData.beat - this.beatmapState.beat;
-        Vector3 localPosition = bombObject.Value.transform.localPosition with
-        {
-          z = this.beatmapObjectPlacementHelper.BeatToPosition(bombObject.Value.noteData.beat)
-        };
-        bombObject.Value.transform.localPosition = localPosition;
-        bombObject.Value.SetState(Mathf.Approximately(a, 0.0f), (double) a < 0.0, this.beatmapObjectsSelectionState.IsNoteSelected(bombObject.Value.noteData.id));
-      }
-    }
+            foreach (KeyValuePair<BeatmapEditorObjectId, NormalNoteView> keyValuePair in this._noteObjects)
+            {
+                float num = keyValuePair.Value.noteData.beat - this.beatmapState.beat;
+                Vector3 localPosition = keyValuePair.Value.transform.localPosition;
+                localPosition.z = this.beatmapObjectPlacementHelper.BeatToPosition(keyValuePair.Value.noteData.beat);
+                keyValuePair.Value.transform.localPosition = localPosition;
+                keyValuePair.Value.SetState(Mathf.Approximately(num, 0f), num < 0f, this.beatmapObjectsSelectionState.IsNoteSelected(keyValuePair.Value.noteData.id));
+            }
+            foreach (KeyValuePair<BeatmapEditorObjectId, BombNoteView> keyValuePair2 in this._bombObjects)
+            {
+                float num2 = keyValuePair2.Value.noteData.beat - this.beatmapState.beat;
+                Vector3 localPosition2 = keyValuePair2.Value.transform.localPosition;
+                localPosition2.z = this.beatmapObjectPlacementHelper.BeatToPosition(keyValuePair2.Value.noteData.beat);
+                keyValuePair2.Value.transform.localPosition = localPosition2;
+                keyValuePair2.Value.SetState(Mathf.Approximately(num2, 0f), num2 < 0f, this.beatmapObjectsSelectionState.IsNoteSelected(keyValuePair2.Value.noteData.id));
+            }
+        }
 
-    private void InsertNotes(IReadOnlyCollection<NoteEditorData> notesToInsert)
+        private void InsertNotes(IReadOnlyCollection<NoteEditorData> notesToInsert)
     {
       if (notesToInsert == null || notesToInsert.Count == 0)
         return;

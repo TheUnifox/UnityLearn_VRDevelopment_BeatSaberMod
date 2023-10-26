@@ -271,36 +271,36 @@ namespace Zenject
 
         // Token: 0x040004FC RID: 1276
         [Inject(Optional = true, Source = InjectSources.Local)]
-        private readonly List<ITickable> _tickables;
+        private List<ITickable> _tickables;
 
         // Token: 0x040004FD RID: 1277
         [Inject(Optional = true, Source = InjectSources.Local)]
-        private readonly List<IFixedTickable> _fixedTickables;
+        private List<IFixedTickable> _fixedTickables;
 
         // Token: 0x040004FE RID: 1278
         [Inject(Optional = true, Source = InjectSources.Local)]
-        private readonly List<ILateTickable> _lateTickables;
+        private List<ILateTickable> _lateTickables;
 
         // Token: 0x040004FF RID: 1279
         [Inject(Optional = true, Source = InjectSources.Local)]
-        private readonly List<ModestTree.Util.ValuePair<Type, int>> _priorities;
+        private List<ModestTree.Util.ValuePair<Type, int>> _priorities;
 
         // Token: 0x04000500 RID: 1280
         [Inject(Optional = true, Id = "Fixed", Source = InjectSources.Local)]
-        private readonly List<ModestTree.Util.ValuePair<Type, int>> _fixedPriorities;
+        private List<ModestTree.Util.ValuePair<Type, int>> _fixedPriorities;
 
         // Token: 0x04000501 RID: 1281
         [Inject(Optional = true, Id = "Late", Source = InjectSources.Local)]
-        private readonly List<ModestTree.Util.ValuePair<Type, int>> _latePriorities;
+        private List<ModestTree.Util.ValuePair<Type, int>> _latePriorities;
 
         // Token: 0x04000502 RID: 1282
-        private readonly TickablesTaskUpdater _updater = new TickablesTaskUpdater();
+        private TickablesTaskUpdater _updater = new TickablesTaskUpdater();
 
         // Token: 0x04000503 RID: 1283
-        private readonly FixedTickablesTaskUpdater _fixedUpdater = new FixedTickablesTaskUpdater();
+        private FixedTickablesTaskUpdater _fixedUpdater = new FixedTickablesTaskUpdater();
 
         // Token: 0x04000504 RID: 1284
-        private readonly LateTickablesTaskUpdater _lateUpdater = new LateTickablesTaskUpdater();
+        private LateTickablesTaskUpdater _lateUpdater = new LateTickablesTaskUpdater();
 
         // Token: 0x04000505 RID: 1285
         private bool _isPaused;

@@ -31,9 +31,9 @@ namespace BeatmapEditor3D
     protected override void OnEnable()
     {
       base.OnEnable();
-      this._arcObjectsMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._arcObjectsMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._arcObjectsMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerHover);
+      this._arcObjectsMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerDown);
+      this._arcObjectsMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerUp);
+      this._arcObjectsMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerHover);
       this._arcObjectsMouseInputSource.arcObjectHeadMoveControlPointDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleArcObjectsMouseInputSourceHeadMoveControlPointDown);
       this._arcObjectsMouseInputSource.arcObjectControlPointChangeEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData, NoteCutDirection, float, Vector3, bool)>(this.HandleArcObjectsMouseInputSourceControlPointLengthChange);
       this._arcObjectsMouseInputSource.arcObjectTailMoveControlPointDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleArcObjectMouseInputSourceTailMoveControlPointDown);
@@ -46,9 +46,9 @@ namespace BeatmapEditor3D
     protected override void OnDisable()
     {
       base.OnDisable();
-      this._arcObjectsMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._arcObjectsMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._arcObjectsMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerHover);
+      this._arcObjectsMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerDown);
+      this._arcObjectsMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerUp);
+      this._arcObjectsMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerHover);
       this._arcObjectsMouseInputSource.arcObjectHeadMoveControlPointDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleArcObjectsMouseInputSourceHeadMoveControlPointDown);
       this._arcObjectsMouseInputSource.arcObjectControlPointChangeEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData, NoteCutDirection, float, Vector3, bool)>(this.HandleArcObjectsMouseInputSourceControlPointLengthChange);
       this._arcObjectsMouseInputSource.arcObjectTailMoveControlPointDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleArcObjectMouseInputSourceTailMoveControlPointDown);

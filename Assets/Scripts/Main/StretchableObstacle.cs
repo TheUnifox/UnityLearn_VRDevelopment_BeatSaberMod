@@ -65,14 +65,12 @@ public class StretchableObstacle : MonoBehaviour
       this._obstacleFakeGlow.color = color;
       this._obstacleFakeGlow.Refresh();
     }
-    Color color1 = (color * this._addColorMultiplier) with
-    {
-      a = 0.0f
-    };
-    foreach (MaterialPropertyBlockController propertyBlockController in this._materialPropertyBlockControllers)
+        Color value = color * this._addColorMultiplier;
+        value.a = 0f;
+        foreach (MaterialPropertyBlockController propertyBlockController in this._materialPropertyBlockControllers)
     {
       propertyBlockController.materialPropertyBlock.SetVector(StretchableObstacle._uvScaleID, (Vector4) vector3);
-      propertyBlockController.materialPropertyBlock.SetColor(StretchableObstacle._addColorID, color1);
+      propertyBlockController.materialPropertyBlock.SetColor(StretchableObstacle._addColorID, value);
       propertyBlockController.materialPropertyBlock.SetColor(StretchableObstacle._tintColorID, Color.Lerp(color, Color.white, this._obstacleCoreLerpToWhiteFactor));
       propertyBlockController.ApplyChanges();
     }

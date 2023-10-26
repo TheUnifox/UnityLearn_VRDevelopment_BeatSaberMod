@@ -168,7 +168,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
   protected override void TransitionDidStart()
   {
     base.TransitionDidStart();
-    if (!this.IsFlowCoordinatorInHierarchy((FlowCoordinator) this) || (UnityEngine.Object) this.childFlowCoordinator != (UnityEngine.Object) null)
+    if (!this.IsFlowCoordinatorInHierarchy(this) || (UnityEngine.Object) this.childFlowCoordinator != (UnityEngine.Object) null)
       return;
     this._multiplayerLobbyConnectionController.connectionSuccessEvent -= new System.Action(this.HandleMultiplayerLobbyConnectionControllerConnectionSuccess);
     this._multiplayerLobbyConnectionController.connectionFailedEvent -= new System.Action<MultiplayerLobbyConnectionController.LobbyConnectionType, ConnectionFailedReason>(this.HandleMultiplayerLobbyConnectionControllerConnectionFailed);
@@ -177,7 +177,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
   protected override void TransitionDidFinish()
   {
     base.TransitionDidFinish();
-    if (!this.IsFlowCoordinatorInHierarchy((FlowCoordinator) this) || (UnityEngine.Object) this.childFlowCoordinator != (UnityEngine.Object) null)
+    if (!this.IsFlowCoordinatorInHierarchy(this) || (UnityEngine.Object) this.childFlowCoordinator != (UnityEngine.Object) null)
       return;
     this._transitionFinishedTaskSource?.TrySetResult(true);
     switch (this._multiplayerLobbyConnectionController.connectionState)
@@ -228,7 +228,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     {
       case MultiplayerModeSelectionViewController.MenuButton.QuickPlay:
         this._joinQuickPlayViewController.Setup(this._quickPlaySetupData, this._playerDataModel.playerData.multiplayerModeSettings);
-        this.PresentViewController((ViewController) this._joinQuickPlayViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+        this.PresentViewController(this._joinQuickPlayViewController, animationDirection: ViewController.AnimationDirection.Vertical);
         BeatmapDifficulty beatmapDifficulty = this._playerDataModel.playerData.multiplayerModeSettings.quickPlayBeatmapDifficulty.FromMask();
         this._analyticsModel.LogImpression("Join Quick Play", new Dictionary<string, string>()
         {
@@ -238,7 +238,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
         break;
       case MultiplayerModeSelectionViewController.MenuButton.CreateServer:
         this._createServerViewController.Setup(this._playerDataModel.playerData.multiplayerModeSettings);
-        this.PresentViewController((ViewController) this._createServerViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+        this.PresentViewController(this._createServerViewController, animationDirection: ViewController.AnimationDirection.Vertical);
         this._analyticsModel.LogImpression("Create Server", new Dictionary<string, string>()
         {
           ["page"] = "Multiplayer",
@@ -246,14 +246,14 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
         });
         break;
       case MultiplayerModeSelectionViewController.MenuButton.JoinWithCode:
-        this.PresentViewController((ViewController) this._serverCodeEntryViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+        this.PresentViewController(this._serverCodeEntryViewController, animationDirection: ViewController.AnimationDirection.Vertical);
         this._analyticsModel.LogImpression("Join Via Code", new Dictionary<string, string>()
         {
           ["page"] = "Multiplayer"
         });
         break;
       case MultiplayerModeSelectionViewController.MenuButton.GameBrowser:
-        this.PresentFlowCoordinator((FlowCoordinator) this._gameServerBrowserFlowCoordinator);
+        this.PresentFlowCoordinator(this._gameServerBrowserFlowCoordinator);
         break;
     }
   }
@@ -261,7 +261,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
   public virtual void HandleGameServerBrowserFlowCoordinatorDidFinish(
     GameServerBrowserFlowCoordinator flowCoordinator)
   {
-    this.DismissFlowCoordinator((FlowCoordinator) flowCoordinator);
+    this.DismissFlowCoordinator(flowCoordinator);
   }
 
   public virtual void HandleJoiningLobbyViewControllerDidCancel()
@@ -285,7 +285,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     });
     if (!success)
     {
-      this.DismissViewController((ViewController) this._joinQuickPlayViewController, ViewController.AnimationDirection.Vertical);
+      this.DismissViewController(this._joinQuickPlayViewController, ViewController.AnimationDirection.Vertical);
     }
     else
     {
@@ -293,7 +293,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       this._joiningLobbyCancellationTokenSource = new CancellationTokenSource();
       this._multiplayerLobbyConnectionController.ConnectToMatchmaking(this._joinQuickPlayViewController.multiplayerModeSettings.quickPlayBeatmapDifficulty, this._songPackMaskModel.ToSongPackMask(this._joinQuickPlayViewController.multiplayerModeSettings.quickPlaySongPackMaskSerializedName), this._joinQuickPlayViewController.multiplayerModeSettings.quickPlayEnableLevelSelection);
       this._joiningLobbyViewController.Init(Localization.Get("LABEL_JOINING_QUICK_PLAY"));
-      this.ReplaceTopViewController((ViewController) this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+      this.ReplaceTopViewController(this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
     }
   }
 
@@ -301,7 +301,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
   {
     if (!success)
     {
-      this.DismissViewController((ViewController) this._serverCodeEntryViewController, ViewController.AnimationDirection.Vertical);
+      this.DismissViewController(this._serverCodeEntryViewController, ViewController.AnimationDirection.Vertical);
     }
     else
     {
@@ -309,7 +309,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       this._joiningLobbyCancellationTokenSource = new CancellationTokenSource();
       this._multiplayerLobbyConnectionController.ConnectToParty(code.ToUpper());
       this._joiningLobbyViewController.Init(Localization.Get("LABEL_JOINING_GAME"));
-      this.ReplaceTopViewController((ViewController) this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+      this.ReplaceTopViewController(this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
     }
   }
 
@@ -328,7 +328,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     });
     if (!success)
     {
-      this.DismissViewController((ViewController) this._createServerViewController, ViewController.AnimationDirection.Vertical);
+      this.DismissViewController(this._createServerViewController, ViewController.AnimationDirection.Vertical);
     }
     else
     {
@@ -336,7 +336,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       this._joiningLobbyCancellationTokenSource = new CancellationTokenSource();
       this._multiplayerLobbyConnectionController.CreateParty(data);
       this._joiningLobbyViewController.Init(Localization.Get("LABEL_CREATING_SERVER"));
-      this.ReplaceTopViewController((ViewController) this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+      this.ReplaceTopViewController(this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
     }
   }
 
@@ -345,7 +345,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     this._gameServerLobbyFlowCoordinator.didFinishEvent -= new System.Action(this.HandleGameServerLobbyFlowCoordinatorDidFinish);
     this._multiplayerLobbyConnectionController.LeaveLobby();
     this._lobbyDataModelsManager.Deactivate();
-    this.DismissFlowCoordinator((FlowCoordinator) this._gameServerLobbyFlowCoordinator, immediately: true);
+    this.DismissFlowCoordinator(this._gameServerLobbyFlowCoordinator, immediately: true);
     this._unifiedNetworkPlayerModel.ResetMasterServerReachability();
     this._fadeInOutController.FadeIn();
     if (!this._gameServerLobbyFlowCoordinator.rejoinQuickPlay)
@@ -353,7 +353,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     this._joiningLobbyCancellationTokenSource?.Cancel();
     this._joiningLobbyCancellationTokenSource = new CancellationTokenSource();
     this._joiningLobbyViewController.Init(Localization.Get("LABEL_JOINING_QUICK_PLAY"));
-    this.PresentViewController((ViewController) this._joiningLobbyViewController, immediately: true);
+    this.PresentViewController(this._joiningLobbyViewController, immediately: true);
     this._multiplayerLobbyConnectionController.ConnectToMatchmaking(this._joinQuickPlayViewController.multiplayerModeSettings.quickPlayBeatmapDifficulty, this._songPackMaskModel.ToSongPackMask(this._joinQuickPlayViewController.multiplayerModeSettings.quickPlaySongPackMaskSerializedName), this._joinQuickPlayViewController.multiplayerModeSettings.quickPlayEnableLevelSelection);
   }
 
@@ -376,15 +376,15 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     selectionFlowCoordinator.showBackButton = false;
     selectionFlowCoordinator.SetTitle(Localization.Get("LABEL_CHECKING_SERVER_STATUS"));
     selectionFlowCoordinator._transitionFinishedTaskSource = new TaskCompletionSource<bool>();
-    selectionFlowCoordinator.ProvideInitialViewControllers((ViewController) selectionFlowCoordinator._joiningLobbyViewController);
+    selectionFlowCoordinator.ProvideInitialViewControllers(selectionFlowCoordinator._joiningLobbyViewController);
     int num = await selectionFlowCoordinator._transitionFinishedTaskSource.Task ? 1 : 0;
-    MultiplayerStatusData multiplayerStatusData = (MultiplayerStatusData) null;
-    Exception exception = (Exception) null;
+    MultiplayerStatusData multiplayerStatusData = null;
+    Exception exception = null;
     try
     {
       multiplayerStatusData = await selectionFlowCoordinator._multiplayerStatusModel.GetMultiplayerStatusAsync(selectionFlowCoordinator._cancellationTokenSource.Token);
     }
-    catch (TaskCanceledException ex)
+    catch (TaskCanceledException)
     {
       System.Action<MultiplayerModeSelectionFlowCoordinator> didFinishEvent = selectionFlowCoordinator.didFinishEvent;
       if (didFinishEvent == null)
@@ -399,8 +399,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     MultiplayerUnavailableReason reason;
     if (MultiplayerUnavailableReasonMethods.TryGetMultiplayerUnavailableReason(multiplayerStatusData, out reason))
     {
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (selectionFlowCoordinator.PresentMasterServerUnavailableErrorDialog(reason, exception, multiplayerStatusData?.maintenanceEndTime, multiplayerStatusData.GetLocalizedMessage(Localization.Instance.SelectedLanguage)));
+      selectionFlowCoordinator.PresentMasterServerUnavailableErrorDialog(reason, exception, multiplayerStatusData?.maintenanceEndTime, multiplayerStatusData.GetLocalizedMessage(Localization.Instance.SelectedLanguage));
     }
     else
     {
@@ -409,7 +408,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
         QuickPlaySetupData quickPlaySetupAsync = await selectionFlowCoordinator._quickPlaySetupModel.GetQuickPlaySetupAsync(selectionFlowCoordinator._cancellationTokenSource.Token);
         selectionFlowCoordinator._quickPlaySetupData = quickPlaySetupAsync;
       }
-      catch (Exception ex)
+      catch (Exception)
       {
         selectionFlowCoordinator._quickPlaySetupData = new QuickPlaySetupData();
       }
@@ -417,11 +416,10 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       selectionFlowCoordinator._unifiedNetworkPlayerModel.connectedPlayerManagerCreatedEvent += new System.Action<INetworkPlayerModel>(selectionFlowCoordinator.HandleConnectedPlayerManagerCreated);
       if (selectionFlowCoordinator._unifiedNetworkPlayerModel.connectedPlayerManager != null)
       {
-        // ISSUE: explicit non-virtual call
-        __nonvirtual (selectionFlowCoordinator.HandleConnectedPlayerManagerCreated((INetworkPlayerModel) selectionFlowCoordinator._unifiedNetworkPlayerModel));
+        selectionFlowCoordinator.HandleConnectedPlayerManagerCreated(selectionFlowCoordinator._unifiedNetworkPlayerModel);
       }
       selectionFlowCoordinator._multiplayerModeSelectionViewController.SetData(multiplayerStatusData);
-      selectionFlowCoordinator.ReplaceTopViewController((ViewController) selectionFlowCoordinator._multiplayerModeSelectionViewController, new System.Action(selectionFlowCoordinator.ProcessDeeplinkingToLobby));
+      selectionFlowCoordinator.ReplaceTopViewController(selectionFlowCoordinator._multiplayerModeSelectionViewController, new System.Action(selectionFlowCoordinator.ProcessDeeplinkingToLobby));
     }
   }
 
@@ -434,11 +432,11 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       selectionFlowCoordinator._joiningLobbyViewController.HideLoading();
       selectionFlowCoordinator._fadeInOutController.FadeOut(new System.Action(selectionFlowCoordinator.m_CResolveAndPresentNextFlowCoordinatorm_Eb__50_0));
     }
-    catch (TaskCanceledException ex)
+    catch (TaskCanceledException)
     {
       selectionFlowCoordinator._multiplayerLobbyConnectionController.LeaveLobby();
       selectionFlowCoordinator._joiningLobbyViewController.HideLoading();
-      selectionFlowCoordinator.DismissViewController((ViewController) selectionFlowCoordinator._joiningLobbyViewController, ViewController.AnimationDirection.Vertical);
+      selectionFlowCoordinator.DismissViewController(selectionFlowCoordinator._joiningLobbyViewController, ViewController.AnimationDirection.Vertical);
     }
   }
 
@@ -450,8 +448,8 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     this._joiningLobbyViewController.HideLoading();
     if (reason == ConnectionFailedReason.InvalidPassword)
     {
-      this._simpleDialogPromptViewController.Init(Localization.Get("LABEL_CONNECTION_ERROR"), Localization.Get("TEXT_INVALID_PASSWORD"), Localization.Get("BUTTON_OK"), (System.Action<int>) (btnId => this.DismissViewController((ViewController) this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical)));
-      this.ReplaceTopViewController((ViewController) this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+      this._simpleDialogPromptViewController.Init(Localization.Get("LABEL_CONNECTION_ERROR"), Localization.Get("TEXT_INVALID_PASSWORD"), Localization.Get("BUTTON_OK"), (System.Action<int>) (btnId => this.DismissViewController(this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical)));
+      this.ReplaceTopViewController( this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
     }
     else if (reason != ConnectionFailedReason.ConnectionCanceled)
     {
@@ -466,11 +464,11 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
           string.Format("{0}", (object) connectionType)
         }
       });
-      this._simpleDialogPromptViewController.Init(Localization.Get("LABEL_CONNECTION_ERROR"), Localization.Get(reason.LocalizedKey()) + " (" + reason.ErrorCode() + ")", Localization.Get("BUTTON_OK"), (System.Action<int>) (btnId => this.DismissViewController((ViewController) this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical)));
-      this.ReplaceTopViewController((ViewController) this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+      this._simpleDialogPromptViewController.Init(Localization.Get("LABEL_CONNECTION_ERROR"), Localization.Get(reason.LocalizedKey()) + " (" + reason.ErrorCode() + ")", Localization.Get("BUTTON_OK"), (System.Action<int>) (btnId => this.DismissViewController(this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical)));
+      this.ReplaceTopViewController(this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
     }
     else
-      this.DismissViewController((ViewController) this._joiningLobbyViewController, ViewController.AnimationDirection.Vertical);
+      this.DismissViewController(this._joiningLobbyViewController, ViewController.AnimationDirection.Vertical);
   }
 
   public virtual void PresentMasterServerUnavailableErrorDialog(
@@ -509,7 +507,7 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
       didFinishEvent(this);
     });
     promptViewController.Init(title, message, buttonText, didFinishAction);
-    this.ReplaceTopViewController((ViewController) this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+    this.ReplaceTopViewController(this._simpleDialogPromptViewController, animationDirection: ViewController.AnimationDirection.Vertical);
   }
 
   public virtual void ProcessDeeplinkingToLobby()
@@ -521,8 +519,8 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     this._joiningLobbyCancellationTokenSource = new CancellationTokenSource();
     this._multiplayerLobbyConnectionController.CreateOrConnectToDestinationParty(this._lobbyDestination);
     this._joiningLobbyViewController.Init(Localization.Get("LABEL_JOINING_LOBBY"));
-    this.PresentViewController((ViewController) this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
-    this._lobbyDestination = (SelectMultiplayerLobbyDestination) null;
+    this.PresentViewController(this._joiningLobbyViewController, animationDirection: ViewController.AnimationDirection.Vertical);
+    this._lobbyDestination = null;
   }
 
   [CompilerGenerated]
@@ -533,14 +531,14 @@ public class MultiplayerModeSelectionFlowCoordinator : FlowCoordinator
     this._gameServerLobbyFlowCoordinator.didFinishEvent += new System.Action(this.HandleGameServerLobbyFlowCoordinatorDidFinish);
     this._gameServerLobbyFlowCoordinator.willFinishEvent -= new System.Action(this.HandleGameServerLobbyFlowCoordinatorWillFinish);
     this._gameServerLobbyFlowCoordinator.willFinishEvent += new System.Action(this.HandleGameServerLobbyFlowCoordinatorWillFinish);
-    this.PresentFlowCoordinator((FlowCoordinator) this._gameServerLobbyFlowCoordinator, immediately: true, replaceTopViewController: true);
+    this.PresentFlowCoordinator(this._gameServerLobbyFlowCoordinator, immediately: true, replaceTopViewController: true);
   }
 
   [CompilerGenerated]
-  public virtual void m_CPresentConnectionErrorDialogm_Eb__51_0(int btnId) => this.DismissViewController((ViewController) this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical);
+  public virtual void m_CPresentConnectionErrorDialogm_Eb__51_0(int btnId) => this.DismissViewController(this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical);
 
   [CompilerGenerated]
-  public virtual void m_CPresentConnectionErrorDialogm_Eb__51_1(int btnId) => this.DismissViewController((ViewController) this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical);
+  public virtual void m_CPresentConnectionErrorDialogm_Eb__51_1(int btnId) => this.DismissViewController(this._simpleDialogPromptViewController, ViewController.AnimationDirection.Vertical);
 
   [CompilerGenerated]
   public virtual void m_CPresentMasterServerUnavailableErrorDialogm_Eb__52_0(int btnId)

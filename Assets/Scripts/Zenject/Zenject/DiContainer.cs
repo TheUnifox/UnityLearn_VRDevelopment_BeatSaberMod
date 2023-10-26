@@ -1037,9 +1037,7 @@ namespace Zenject
                 {
                     yield return injectableInfo.MemberType;
                 }
-                IEnumerator<InjectableInfo> enumerator = null;
             }
-            yield break;
             yield break;
         }
 

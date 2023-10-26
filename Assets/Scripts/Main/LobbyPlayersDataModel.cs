@@ -279,7 +279,7 @@ public class LobbyPlayersDataModel :
         if (await this._additionalContentModel.GetPackEntitlementStatusAsync(dlcSongPack.packName, this._cancellationTokenSource.Token) == AdditionalContentModel.EntitlementStatus.Owned)
           songPackMask |= new SongPackMask(dlcSongPack.packID);
       }
-      catch (TaskCanceledException ex)
+      catch (TaskCanceledException)
       {
         return;
       }

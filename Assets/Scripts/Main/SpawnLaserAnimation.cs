@@ -34,18 +34,16 @@ public class SpawnLaserAnimation : MonoBehaviour
     this._centerDistance = (Object) this._centerThresholdTransform == (Object) null ? 40f : this.transform.InverseTransformPoint(this._centerThresholdTransform.position).z;
   }
 
-  public virtual void LateUpdate()
-  {
-    this.InitIfNeeded();
-    float num = Mathf.LerpUnclamped(0.0f, this._centerDistance, this._normalizedDistance);
-    this._horizontalLasersTransform.localPosition = this._horizontalLasersTransform.localPosition with
+    public virtual void LateUpdate()
     {
-      z = num
-    };
-    this._leftHorizontalLaser.length = this._rightHorizontalLaser.length = Mathf.Max(0.0f, Mathf.Min(this._laserLength, this._centerDistance - num));
-    this._leftHorizontalLaser.color = this._rightHorizontalLaser.color = this._leftHorizontalLaser.color with
-    {
-      a = (double) this._leftHorizontalLaser.length > 0.0 ? this._alphaMultiplier : 0.0f
-    };
-  }
+        this.InitIfNeeded();
+        float num = Mathf.LerpUnclamped(0f, this._centerDistance, this._normalizedDistance);
+        Vector3 localPosition = this._horizontalLasersTransform.localPosition;
+        localPosition.z = num;
+        this._horizontalLasersTransform.localPosition = localPosition;
+        this._leftHorizontalLaser.length = (this._rightHorizontalLaser.length = Mathf.Max(0f, Mathf.Min(this._laserLength, this._centerDistance - num)));
+        Color color = this._leftHorizontalLaser.color;
+        color.a = ((this._leftHorizontalLaser.length > 0f) ? this._alphaMultiplier : 0f);
+        this._leftHorizontalLaser.color = (this._rightHorizontalLaser.color = color);
+    }
 }

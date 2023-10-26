@@ -141,7 +141,7 @@ public class MultiplayerController : MonoBehaviour
     MultiplayerController multiplayerController = this;
     multiplayerController._localPlayerSyncStartState = localPlayerSyncState;
     // ISSUE: explicit non-virtual call
-    __nonvirtual (multiplayerController.ChangeState(MultiplayerController.State.SongStartSync));
+    multiplayerController.ChangeState(MultiplayerController.State.SongStartSync);
     if ((double) Time.time - (double) multiplayerController._startTime > 0.10000000149011612)
     {
       multiplayerController._fadeInOutController.FadeOut(1.3f);

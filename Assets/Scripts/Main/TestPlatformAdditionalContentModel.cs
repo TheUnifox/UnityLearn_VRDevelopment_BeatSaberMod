@@ -68,8 +68,7 @@ public class TestPlatformAdditionalContentModel : AdditionalContentModel
     await Task.Yield();
     token.ThrowIfCancellationRequested();
     Debug.Log((object) ("Opening test product store for levelId " + levelId));
-    // ISSUE: explicit non-virtual call
-    __nonvirtual (additionalContentModel.BuyLevel(levelId));
+    additionalContentModel.BuyLevel(levelId);
     additionalContentModel.InvalidateData();
     return AdditionalContentModel.OpenProductStoreResult.OK;
   }

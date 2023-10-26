@@ -53,21 +53,20 @@ public class BeatmapObjectsAvoidance : MonoBehaviour
     this._beatmapObjectSpawnController.didInitEvent -= new System.Action(this.HandleBeatmapObjectSpawnControllerDidInit);
   }
 
-  public virtual void Update()
-  {
-    this._avoidanceYOffsetEvaluatorProvider.ManualUpdate();
-    float jumpStartSongTime = this._avoidanceYOffsetEvaluatorProvider.GetJumpOffsetYAtJumpStartSongTime(Time.deltaTime);
-    Vector3 currentPathPosition = this._pathEvaluator.GetCurrentPathPosition();
-    float tiltAngle = this._tiltEvaluator.GetTiltAngle();
-    this._transform.position = currentPathPosition + Vector3.up * jumpStartSongTime;
-    this._transform.localRotation = Quaternion.Euler(0.0f, 0.0f, tiltAngle);
-    this._towardsPlayerWrapperTransform.LookAt(this._transform.TransformPoint(this._transform.InverseTransformPoint(this._playerTransforms.headWorldPos) with
+    public virtual void Update()
     {
-      y = 0.0f
-    }), this._transform.up);
-  }
+        this._avoidanceYOffsetEvaluatorProvider.ManualUpdate();
+        float jumpOffsetYAtJumpStartSongTime = this._avoidanceYOffsetEvaluatorProvider.GetJumpOffsetYAtJumpStartSongTime(Time.deltaTime);
+        Vector3 currentPathPosition = this._pathEvaluator.GetCurrentPathPosition();
+        float tiltAngle = this._tiltEvaluator.GetTiltAngle();
+        this._transform.position = currentPathPosition + Vector3.up * jumpOffsetYAtJumpStartSongTime;
+        this._transform.localRotation = Quaternion.Euler(0f, 0f, tiltAngle);
+        Vector3 position = this._transform.InverseTransformPoint(this._playerTransforms.headWorldPos);
+        position.y = 0f;
+        this._towardsPlayerWrapperTransform.LookAt(this._transform.TransformPoint(position), this._transform.up);
+    }
 
-  public virtual void SetupAndRun()
+    public virtual void SetupAndRun()
   {
     BeatmapObjectSpawnMovementData.NoteSpawnData jumpingNoteSpawnData = this._beatmapObjectSpawnController.beatmapObjectSpawnMovementData.GetJumpingNoteSpawnData(NoteData.CreateBasicNoteData(0.0f, 0, NoteLineLayer.Base, ColorType.None, NoteCutDirection.Any));
     float jumpMovementSpeed = this._beatmapObjectSpawnController.noteJumpMovementSpeed;
@@ -85,31 +84,29 @@ public class BeatmapObjectsAvoidance : MonoBehaviour
     this.enabled = true;
   }
 
-  public virtual bool BuildAnimationCurvePath()
-  {
-    BezierSpline spline = new BezierSpline();
-    int num = 0;
-    foreach (WaypointData beatmapDataItem in this._beatmapData.GetBeatmapDataItems<WaypointData>(0))
+    public virtual bool BuildAnimationCurvePath()
     {
-      Vector2 position = this._beatmapObjectSpawnController.Get2DNoteOffset(beatmapDataItem.lineIndex, beatmapDataItem.lineLayer) with
-      {
-        y = this._beatmapObjectSpawnController.JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(beatmapDataItem.lineLayer, this._zOffset)
-      };
-      this.AdjustPositionWithOffsetDirection(ref position, beatmapDataItem.lineIndex, beatmapDataItem.offsetDirection);
-      spline.AddPoint(beatmapDataItem.time, position);
-      ++num;
+        BezierSpline bezierSpline = new BezierSpline();
+        int num = 0;
+        foreach (WaypointData waypointData in this._beatmapData.GetBeatmapDataItems<WaypointData>(0))
+        {
+            Vector2 point = this._beatmapObjectSpawnController.Get2DNoteOffset(waypointData.lineIndex, waypointData.lineLayer);
+            point.y = this._beatmapObjectSpawnController.JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(waypointData.lineLayer, this._zOffset);
+            this.AdjustPositionWithOffsetDirection(ref point, waypointData.lineIndex, waypointData.offsetDirection);
+            bezierSpline.AddPoint(waypointData.time, point);
+            num++;
+        }
+        if (num > 0)
+        {
+            bezierSpline.AddArtificialStartAndFinishPoint();
+            bezierSpline.ComputeControlPoints();
+        }
+        this._pathBezierSplineEvaluator = new BezierSplineEvaluator(bezierSpline);
+        this._accelerationBezierSplineEvaluator = new BezierSplineEvaluator(bezierSpline);
+        return num > 0;
     }
-    if (num > 0)
-    {
-      spline.AddArtificialStartAndFinishPoint();
-      spline.ComputeControlPoints();
-    }
-    this._pathBezierSplineEvaluator = new BezierSplineEvaluator(spline);
-    this._accelerationBezierSplineEvaluator = new BezierSplineEvaluator(spline);
-    return num > 0;
-  }
 
-  public virtual void AdjustPositionWithOffsetDirection(
+    public virtual void AdjustPositionWithOffsetDirection(
     ref Vector2 position,
     int lineIndex,
     OffsetDirection offsetDirection)

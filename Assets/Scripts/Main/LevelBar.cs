@@ -100,7 +100,7 @@ public class LevelBar : MonoBehaviour
         this._artworkBackgroundImage.sprite = coverImageAsync;
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
   }

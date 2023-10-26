@@ -31,7 +31,7 @@ namespace BeatmapEditor3D.DataModels
       NoteCutDirection? cutDirection = null,
       int? angle = null)
     {
-      return NoteEditorData.CreateNewWithId(id ?? noteData.id, (float) ((double) beat ?? (double) noteData.beat), column ?? noteData.column, row ?? noteData.row, (ColorType) ((int) type ?? (int) noteData.type), (NoteType) ((int) noteType ?? (int) noteData.noteType), (NoteCutDirection) ((int) cutDirection ?? (int) noteData.cutDirection), angle ?? noteData.angle);
+      return NoteEditorData.CreateNewWithId(id ?? noteData.id, beat ?? noteData.beat, column ?? noteData.column, row ?? noteData.row, type ?? noteData.type, noteType ?? noteData.noteType, cutDirection ?? noteData.cutDirection, angle ?? noteData.angle);
     }
 
     public static NoteEditorData CreateNew(

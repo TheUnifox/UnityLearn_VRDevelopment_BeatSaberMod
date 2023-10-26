@@ -32,7 +32,7 @@ namespace BeatmapEditor3D.DataModels.Events.Conversion
         }
         return new BeatmapEventDataBoxGroup(eventBoxGroup.beat, (IReadOnlyCollection<BeatmapEventDataBox>) beatmapEventDataBoxList);
       }
-      catch (Exception ex)
+      catch (Exception)
       {
         Debug.LogWarning((object) string.Format("Unable to convert index filter on beat: {0}", (object) eventBoxGroup.beat));
       }

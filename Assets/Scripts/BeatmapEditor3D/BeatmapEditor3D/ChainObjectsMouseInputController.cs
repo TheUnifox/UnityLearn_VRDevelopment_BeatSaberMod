@@ -25,10 +25,10 @@ namespace BeatmapEditor3D
     protected override void OnEnable()
     {
       base.OnEnable();
-      this._chainObjectsMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._chainObjectsMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._chainObjectsMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerHover);
-      this._chainObjectsMouseInputSource.objectPointerScrollEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerScroll);
+      this._chainObjectsMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerDown);
+      this._chainObjectsMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerUp);
+      this._chainObjectsMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerHover);
+      this._chainObjectsMouseInputSource.objectPointerScrollEvent += new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerScroll);
       this.objectActions[AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>.HashInput(MouseInputEventOrigin.Object, MouseInputType.Middle, MouseEventType.Up, false, false, false)] = new Action<(BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleBeatmapObjectInvertColor);
       this.objectActions[AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>.HashInput(MouseInputEventOrigin.Object, MouseInputType.ScrollUp, MouseEventType.None, false, false, true)] = new Action<(BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleChainObjectIncreaseSliceCount);
       this.objectActions[AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>.HashInput(MouseInputEventOrigin.Object, MouseInputType.ScrollDown, MouseEventType.None, false, false, true)] = new Action<(BeatmapEditorObjectId, BeatmapObjectCellData)>(this.HandleChainObjectDecreaseSliceCount);
@@ -40,10 +40,10 @@ namespace BeatmapEditor3D
     protected override void OnDisable()
     {
       base.OnDisable();
-      this._chainObjectsMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._chainObjectsMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._chainObjectsMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerHover);
-      this._chainObjectsMouseInputSource.objectPointerScrollEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(((AbstractMouseInputController<(BeatmapEditorObjectId, BeatmapObjectCellData)>) this).HandleMouseInputEventSourceObjectPointerScroll);
+      this._chainObjectsMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerDown);
+      this._chainObjectsMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerUp);
+      this._chainObjectsMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerHover);
+      this._chainObjectsMouseInputSource.objectPointerScrollEvent -= new Action<MouseInputType, (BeatmapEditorObjectId, BeatmapObjectCellData)>(HandleMouseInputEventSourceObjectPointerScroll);
     }
 
     protected override void HandleMouseInputEventSourceObjectPointerHover(

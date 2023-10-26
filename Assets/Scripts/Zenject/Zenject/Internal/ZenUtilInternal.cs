@@ -56,8 +56,6 @@ namespace Zenject.Internal
                     yield return list[0];
                 }
             }
-            IEnumerator<Scene> enumerator = null;
-            yield break;
             yield break;
         }
 
@@ -104,34 +102,53 @@ namespace Zenject.Internal
         }
 
         // Token: 0x06001113 RID: 4371 RVA: 0x00030100 File Offset: 0x0002E300
-        private static void GetInjectableMonoBehavioursUnderGameObjectInternal(GameObject gameObject, List<MonoBehaviour> injectableComponents)
+        static void GetInjectableMonoBehavioursUnderGameObjectInternal(
+            GameObject gameObject, List<MonoBehaviour> injectableComponents)
         {
             if (gameObject == null)
             {
                 return;
             }
-            foreach (MonoBehaviour monoBehaviour in gameObject.GetComponents<MonoBehaviour>())
+
+            var monoBehaviours = gameObject.GetComponents<MonoBehaviour>();
+
+            for (int i = 0; i < monoBehaviours.Length; i++)
             {
-                if (monoBehaviour != null && monoBehaviour.GetType().DerivesFromOrEqual<GameObjectContext>())
+                var monoBehaviour = monoBehaviours[i];
+
+                // Can be null for broken component references
+                if (monoBehaviour != null
+                        && monoBehaviour.GetType().DerivesFromOrEqual<GameObjectContext>())
                 {
+                    // Need to make sure we don't inject on any MonoBehaviour's that are below a GameObjectContext
+                    // Since that is the responsibility of the GameObjectContext
+                    // BUT we do want to inject on the GameObjectContext itself
                     injectableComponents.Add(monoBehaviour);
                     return;
                 }
             }
-            for (int j = 0; j < gameObject.transform.childCount; j++)
+
+            // Recurse first so it adds components bottom up though it shouldn't really matter much
+            // because it should always inject in the dependency order
+            for (int i = 0; i < gameObject.transform.childCount; i++)
             {
-                Transform child = gameObject.transform.GetChild(j);
+                var child = gameObject.transform.GetChild(i);
+
                 if (child != null)
                 {
-                    ZenUtilInternal.GetInjectableMonoBehavioursUnderGameObjectInternal(child.gameObject, injectableComponents);
+                    GetInjectableMonoBehavioursUnderGameObjectInternal(child.gameObject, injectableComponents);
                 }
             }
-            MonoBehaviour[] components;
-            foreach (MonoBehaviour monoBehaviour2 in components)
+
+            for (int i = 0; i < monoBehaviours.Length; i++)
             {
-                if (monoBehaviour2 != null && ZenUtilInternal.IsInjectableMonoBehaviourType(monoBehaviour2.GetType()))
+                var monoBehaviour = monoBehaviours[i];
+
+                // Can be null for broken component references
+                if (monoBehaviour != null
+                    && IsInjectableMonoBehaviourType(monoBehaviour.GetType()))
                 {
-                    injectableComponents.Add(monoBehaviour2);
+                    injectableComponents.Add(monoBehaviour);
                 }
             }
         }

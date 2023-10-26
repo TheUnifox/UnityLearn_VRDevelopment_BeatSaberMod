@@ -74,8 +74,7 @@ public abstract class BeatmapLevelFilterModel
     for (int index = 0; index < beatmapLevelPackArray.Length; ++index)
     {
       IBeatmapLevelPack beatmapLevelPack = beatmapLevelPackArray[index];
-      // ISSUE: explicit non-virtual call
-      if (__nonvirtual (songPackMask.Contains((SongPackMask) beatmapLevelPack.packID)))
+      if (songPackMask.Contains((SongPackMask) beatmapLevelPack.packID))
       {
         foreach (IPreviewBeatmapLevel beatmapLevel in (IEnumerable<IPreviewBeatmapLevel>) beatmapLevelPack.beatmapLevelCollection.beatmapLevels)
         {

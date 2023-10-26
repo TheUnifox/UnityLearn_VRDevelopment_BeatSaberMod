@@ -67,45 +67,47 @@ public class SimpleVRNodeRecorder : MonoBehaviour
     this._keyframes.Add(new SimpleVRNodeRecorder.SavedData.NodeKeyframe(pos, rot, this._songTime.value));
   }
 
-  public virtual void Update()
-  {
-    if (this._mode == SimpleVRNodeRecorder.RecordMode.Record)
-      this.RecordNewKeyFrame();
-    if (this._mode != SimpleVRNodeRecorder.RecordMode.Playback || this._keyframes.Count < 2)
-      return;
-    float num = this._songTime.value;
-    while (this._keyframeIndex < this._keyframes.Count - 2 && (double) this._keyframes[this._keyframeIndex + 1].time < (double) num)
-      ++this._keyframeIndex;
-    SimpleVRNodeRecorder.SavedData.NodeKeyframe keyframe1 = this._keyframes[this._keyframeIndex];
-    SimpleVRNodeRecorder.SavedData.NodeKeyframe keyframe2 = this._keyframes[this._keyframeIndex + 1];
-    float t = (num - keyframe1.time) / Mathf.Max(1E-06f, keyframe2.time - keyframe1.time);
-    Vector3 pos1 = keyframe1.pos;
-    Vector3 pos2 = keyframe2.pos;
-    Quaternion rot1 = keyframe1.rot;
-    Quaternion rot2 = keyframe2.rot;
-    if ((double) this._smooth < 0.0)
+    public virtual void Update()
     {
-      this._playbackTransform.localPosition = Vector3.Lerp(pos1, pos2, t);
-      this._playbackTransform.localRotation = Quaternion.Slerp(rot1, rot2, t);
+        if (this._mode == SimpleVRNodeRecorder.RecordMode.Record)
+        {
+            this.RecordNewKeyFrame();
+        }
+        if (this._mode != SimpleVRNodeRecorder.RecordMode.Playback || this._keyframes.Count < 2)
+        {
+            return;
+        }
+        float value = this._songTime.value;
+        while (this._keyframeIndex < this._keyframes.Count - 2 && this._keyframes[this._keyframeIndex + 1].time < value)
+        {
+            this._keyframeIndex++;
+        }
+        SimpleVRNodeRecorder.SavedData.NodeKeyframe nodeKeyframe = this._keyframes[this._keyframeIndex];
+        SimpleVRNodeRecorder.SavedData.NodeKeyframe nodeKeyframe2 = this._keyframes[this._keyframeIndex + 1];
+        float t = (value - nodeKeyframe.time) / Mathf.Max(1E-06f, nodeKeyframe2.time - nodeKeyframe.time);
+        Vector3 pos = nodeKeyframe.pos;
+        Vector3 pos2 = nodeKeyframe2.pos;
+        Quaternion rot = nodeKeyframe.rot;
+        Quaternion rot2 = nodeKeyframe2.rot;
+        if (this._smooth < 0f)
+        {
+            this._playbackTransform.localPosition = Vector3.Lerp(pos, pos2, t);
+            this._playbackTransform.localRotation = Quaternion.Slerp(rot, rot2, t);
+            return;
+        }
+        Vector3 vector = Vector3.Lerp(this._prevPos, Vector3.Lerp(pos, pos2, t), Time.deltaTime * this._smooth);
+        Quaternion quaternion = Quaternion.Slerp(this._prevRot, Quaternion.Slerp(rot, rot2, t), Time.deltaTime * this._smooth);
+        Vector3 eulerAngles = quaternion.eulerAngles;
+        eulerAngles.z = 0f;
+        quaternion.eulerAngles = eulerAngles;
+        this._playbackTransform.localPosition = vector;
+        this._playbackTransform.localRotation = quaternion;
+        this._playbackTransform.localPosition += this._playbackTransform.forward * this._forwardOffset;
+        this._prevPos = vector;
+        this._prevRot = quaternion;
     }
-    else
-    {
-      Vector3 vector3 = Vector3.Lerp(this._prevPos, Vector3.Lerp(pos1, pos2, t), Time.deltaTime * this._smooth);
-      Quaternion quaternion = Quaternion.Slerp(this._prevRot, Quaternion.Slerp(rot1, rot2, t), Time.deltaTime * this._smooth);
-      Vector3 eulerAngles = quaternion.eulerAngles with
-      {
-        z = 0.0f
-      };
-      quaternion.eulerAngles = eulerAngles;
-      this._playbackTransform.localPosition = vector3;
-      this._playbackTransform.localRotation = quaternion;
-      this._playbackTransform.localPosition += this._playbackTransform.forward * this._forwardOffset;
-      this._prevPos = vector3;
-      this._prevRot = quaternion;
-    }
-  }
 
-  public virtual void Save()
+    public virtual void Save()
   {
     BinaryFormatter binaryFormatter = new BinaryFormatter();
     FileStream fileStream = File.Open(this._saveFilename, FileMode.OpenOrCreate);

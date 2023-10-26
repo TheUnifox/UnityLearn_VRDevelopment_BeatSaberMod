@@ -130,55 +130,48 @@ namespace BeatmapEditor3D.BpmEditor.UI
       }
     }
 
-    private void DisplayBpmRegionDividers(int startIndex, int endIndex, bool overrideInteractable)
-    {
-      int windowIndex1 = 0;
-      for (int index = startIndex; index <= endIndex; ++index)
-      {
-        BpmRegion region = this._bpmEditorDataModel.regions[index];
-        this.CalculateAndSetRegionDividerPosition(this.GetBpmRegionDividerView(windowIndex1, index, index - startIndex, overrideInteractable), region.startSampleIndex);
-        ++windowIndex1;
-      }
-      BpmRegion region1 = this._bpmEditorDataModel.regions[this._bpmEditorDataModel.regions.Count - 1];
-      int windowIndex2 = windowIndex1;
-      int num = windowIndex2 + 1;
-      RectTransform rectTransform = this.GetBpmRegionDividerView(windowIndex2, 0, endIndex + 1, false).rectTransform;
-      rectTransform.anchoredPosition = rectTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, region1.endSampleIndex, this._previewStartSample, this._previewEndSample) - 2f
-      };
-      for (int index = this._bpmRegionDividers.Count - 1; index >= num; --index)
-      {
-        this._bpmRegionDividerViewPool.Despawn(this._bpmRegionDividers[index]);
-        this._bpmRegionDividers.RemoveAt(index);
-      }
-    }
+        private void DisplayBpmRegionDividers(int startIndex, int endIndex, bool overrideInteractable)
+        {
+            int num = 0;
+            for (int i = startIndex; i <= endIndex; i++)
+            {
+                BpmRegion bpmRegion = this._bpmEditorDataModel.regions[i];
+                BpmRegionDividerView bpmRegionDividerView = this.GetBpmRegionDividerView(num, i, i - startIndex, overrideInteractable);
+                this.CalculateAndSetRegionDividerPosition(bpmRegionDividerView, bpmRegion.startSampleIndex);
+                num++;
+            }
+            BpmRegion bpmRegion2 = this._bpmEditorDataModel.regions[this._bpmEditorDataModel.regions.Count - 1];
+            RectTransform rectTransform = this.GetBpmRegionDividerView(num++, 0, endIndex + 1, false).rectTransform;
+            Vector2 anchoredPosition = rectTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, bpmRegion2.endSampleIndex, this._previewStartSample, this._previewEndSample) - 2f;
+            rectTransform.anchoredPosition = anchoredPosition;
+            for (int j = this._bpmRegionDividers.Count - 1; j >= num; j--)
+            {
+                this._bpmRegionDividerViewPool.Despawn(this._bpmRegionDividers[j]);
+                this._bpmRegionDividers.RemoveAt(j);
+            }
+        }
 
-    protected void CalculateAndSetRegionSizeAndPosition(BpmRegionView regionItem, BpmRegion region)
-    {
-      RectTransform rectTransform = regionItem.rectTransform;
-      rectTransform.anchoredPosition = rectTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, region.startSampleIndex, this._previewStartSample, this._previewEndSample)
-      };
-      rectTransform.sizeDelta = rectTransform.sizeDelta with
-      {
-        x = WaveformPlacementHelper.CalculateRegionWidth(this._containerTransform, region.startSampleIndex, region.endSampleIndex, this._previewStartSample, this._previewEndSample)
-      };
-    }
+        protected void CalculateAndSetRegionSizeAndPosition(BpmRegionView regionItem, BpmRegion region)
+        {
+            RectTransform rectTransform = regionItem.rectTransform;
+            Vector2 anchoredPosition = rectTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, region.startSampleIndex, this._previewStartSample, this._previewEndSample);
+            rectTransform.anchoredPosition = anchoredPosition;
+            Vector2 sizeDelta = rectTransform.sizeDelta;
+            sizeDelta.x = WaveformPlacementHelper.CalculateRegionWidth(this._containerTransform, region.startSampleIndex, region.endSampleIndex, this._previewStartSample, this._previewEndSample);
+            rectTransform.sizeDelta = sizeDelta;
+        }
 
-    protected void CalculateAndSetRegionDividerPosition(
-      BpmRegionDividerView dividerItem,
-      int sample)
-    {
-      RectTransform rectTransform = dividerItem.rectTransform;
-      rectTransform.anchoredPosition = rectTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, this._previewStartSample, this._previewEndSample)
-      };
-    }
+        protected void CalculateAndSetRegionDividerPosition(BpmRegionDividerView dividerItem, int sample)
+        {
+            RectTransform rectTransform = dividerItem.rectTransform;
+            Vector2 anchoredPosition = rectTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, this._previewStartSample, this._previewEndSample);
+            rectTransform.anchoredPosition = anchoredPosition;
+        }
 
-    private BpmRegionView GetBpmRegionView(int windowIndex)
+        private BpmRegionView GetBpmRegionView(int windowIndex)
     {
       if (windowIndex >= this._bpmRegions.Count)
       {

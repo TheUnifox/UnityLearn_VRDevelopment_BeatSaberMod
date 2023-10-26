@@ -81,10 +81,8 @@ public class FireworkItemController : MonoBehaviour
   {
     FireworkItemController fireworkItemController = this;
     float soundTimeToCenter = fireworkItemController.transform.position.magnitude / 343f;
-    // ISSUE: explicit non-virtual call
-    __nonvirtual (fireworkItemController.InitializeParticleSystem());
-    // ISSUE: explicit non-virtual call
-    __nonvirtual (fireworkItemController.SetLightsColor(0.0f));
+    fireworkItemController.InitializeParticleSystem();
+    fireworkItemController.SetLightsColor(0.0f);
     foreach (FireworkItemController.FireworkItemParticleSystem particleSystem in fireworkItemController._particleSystems)
     {
       if (!particleSystem._isSubemitter)
@@ -96,19 +94,16 @@ public class FireworkItemController : MonoBehaviour
     {
       if (!explosionSoundFired && (double) elapsedTime > (double) soundTimeToCenter)
       {
-        // ISSUE: explicit non-virtual call
-        __nonvirtual (fireworkItemController.PlayExplosionSound());
+        fireworkItemController.PlayExplosionSound();
         explosionSoundFired = true;
       }
       float time = elapsedTime / fireworkItemController._lightFlashDuration;
       float intensity = fireworkItemController._lightIntensityCurve.Evaluate(time) * fireworkItemController._lightIntensityMultiplier;
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (fireworkItemController.SetLightsColor(intensity));
+      fireworkItemController.SetLightsColor(intensity);
       elapsedTime += Time.deltaTime;
       yield return (object) null;
     }
-    // ISSUE: explicit non-virtual call
-    __nonvirtual (fireworkItemController.SetLightsColor(fireworkItemController._lightIntensityCurve.Evaluate(1f) * fireworkItemController._lightIntensityMultiplier));
+    fireworkItemController.SetLightsColor(fireworkItemController._lightIntensityCurve.Evaluate(1f) * fireworkItemController._lightIntensityMultiplier);
     System.Action<FireworkItemController> didFinishEvent = fireworkItemController.didFinishEvent;
     if (didFinishEvent != null)
       didFinishEvent(fireworkItemController);

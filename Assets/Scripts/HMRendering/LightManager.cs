@@ -46,8 +46,8 @@ public class LightManager : MonoBehaviour
       {
         DirectionalLight directionalLight = lights1[index];
         Transform transform = directionalLight.transform;
-        this._directionalLightPositions[index] = (Vector4) transform.position;
-        this._directionalLightDirections[index] = (Vector4) -transform.forward;
+        this._directionalLightPositions[index] = (Vector4)transform.position;
+        this._directionalLightDirections[index] = (Vector4)(-transform.forward);
         this._directionalLightColors[index] = (Vector4) (directionalLight.color * directionalLight.intensity).linear;
         this._directionalLightRadii[index] = directionalLight.radius;
       }

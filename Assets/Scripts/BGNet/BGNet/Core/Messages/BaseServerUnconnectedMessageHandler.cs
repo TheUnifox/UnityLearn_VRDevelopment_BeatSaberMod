@@ -212,7 +212,7 @@ namespace BGNet.Core.Messages
         // Token: 0x0600067D RID: 1661 RVA: 0x00011984 File Offset: 0x0000FB84
         private void RotateServerKeys()
         {
-            if (DateTime.UtcNow.Ticks < this._lastServerKeyPairRequestTime + (long)((ulong)-1294967296))
+            if (DateTime.UtcNow.Ticks < this._lastServerKeyPairRequestTime + (long)(-1294967296))
             {
                 return;
             }

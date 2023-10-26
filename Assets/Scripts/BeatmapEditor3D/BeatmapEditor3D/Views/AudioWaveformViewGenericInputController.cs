@@ -59,19 +59,20 @@ namespace BeatmapEditor3D.Views
       this._signalBus.Fire<UpdatePlayHeadSignal>(new UpdatePlayHeadSignal(this.ScreenPositionToIndex(eventData.position), snapType, true));
     }
 
-    protected void Update()
-    {
-      if (!this._mouseHovering)
-        return;
-      Vector2 localPoint;
-      RectTransformUtility.ScreenPointToLocalPointInRectangle(this._waveformTransform, (Vector2) Input.mousePosition, (Camera) null, out localPoint);
-      this._waveformHoverMarker.anchoredPosition = this._waveformHoverMarker.anchoredPosition with
-      {
-        x = localPoint.x + this._waveformTransform.rect.width / 2f
-      };
-    }
+        protected void Update()
+        {
+            if (!this._mouseHovering)
+            {
+                return;
+            }
+            Vector2 vector;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(this._waveformTransform, Input.mousePosition, null, out vector);
+            Vector2 anchoredPosition = this._waveformHoverMarker.anchoredPosition;
+            anchoredPosition.x = vector.x + this._waveformTransform.rect.width / 2f;
+            this._waveformHoverMarker.anchoredPosition = anchoredPosition;
+        }
 
-    protected virtual void OnEnable()
+        protected virtual void OnEnable()
     {
     }
 

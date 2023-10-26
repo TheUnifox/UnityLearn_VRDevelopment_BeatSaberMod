@@ -46,9 +46,11 @@ namespace BeatmapEditor3D.Views
       this._expandedGameObject.SetActive(type == BeatmapEditor3D.Types.WaveformType.Expanded);
     }
 
-    private void SetSmallWaveformSize(float size) => this._smallWaveformRectTransform.sizeDelta = this._smallWaveformRectTransform.sizeDelta with
-    {
-      y = size
-    };
-  }
+        private void SetSmallWaveformSize(float size)
+        {
+            Vector2 sizeDelta = this._smallWaveformRectTransform.sizeDelta;
+            sizeDelta.y = size;
+            this._smallWaveformRectTransform.sizeDelta = sizeDelta;
+        }
+    }
 }

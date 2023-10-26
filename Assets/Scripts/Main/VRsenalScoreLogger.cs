@@ -26,9 +26,8 @@ public class VRsenalScoreLogger : MonoBehaviour
     YieldInstruction yieldInstruction = (YieldInstruction) new WaitForSeconds(10f);
     while (true)
     {
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (vrsenalScoreLogger.LogScore());
-      yield return (object) yieldInstruction;
+      vrsenalScoreLogger.LogScore();
+      yield return yieldInstruction;
     }
   }
 

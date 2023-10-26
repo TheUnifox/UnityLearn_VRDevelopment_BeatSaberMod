@@ -204,8 +204,7 @@ public class PlatformLeaderboardViewController : LeaderboardViewController
     leaderboardViewController._refreshIsNeeded = false;
     if (clear)
     {
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (leaderboardViewController.ClearContent());
+      leaderboardViewController.ClearContent();
     }
     if (showLoadingIndicator)
       leaderboardViewController._loadingControl.ShowLoading();

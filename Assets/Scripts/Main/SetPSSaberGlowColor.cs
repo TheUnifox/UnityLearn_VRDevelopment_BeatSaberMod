@@ -15,5 +15,9 @@ public class SetPSSaberGlowColor : MonoBehaviour
   [SerializeField]
   protected ParticleSystem _particleSystem;
 
-  public virtual void Start() => this._particleSystem.main.startColor = (ParticleSystem.MinMaxGradient) this._colorManager.ColorForSaberType(this._saber.saberType);
+    public virtual void Start()
+    {
+        ParticleSystem.MainModule main = this._particleSystem.main;
+        main.startColor = (ParticleSystem.MinMaxGradient)this._colorManager.ColorForSaberType(this._saber.saberType);
+    }
 }

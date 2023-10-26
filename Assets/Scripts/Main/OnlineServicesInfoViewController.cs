@@ -60,7 +60,7 @@ public class OnlineServicesInfoViewController : ViewController
         this.AppendLine(string.Format("Entries: {0}", (object) leaderboardEntriesAsync.leaderboardEntries.Length));
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
       this.AppendLine("Canceled");
     }

@@ -58,8 +58,6 @@ namespace Zenject
                 {
                     yield return type;
                 }
-                List<Type>.Enumerator enumerator = default(List<Type>.Enumerator);
-                yield break;
                 yield break;
             }
         }

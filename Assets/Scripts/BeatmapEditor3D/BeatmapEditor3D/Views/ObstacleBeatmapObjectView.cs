@@ -81,10 +81,8 @@ namespace BeatmapEditor3D.Views
       foreach (KeyValuePair<BeatmapEditorObjectId, ObstacleView> obstacleObject in this._obstacleObjects)
       {
         float relativeNoteTime = obstacleObject.Value.obstacleData.beat - this.beatmapState.beat;
-        Vector3 localPosition = obstacleObject.Value.transform.localPosition with
-        {
-          z = this.beatmapObjectPlacementHelper.BeatToPosition(obstacleObject.Value.obstacleData.beat)
-        };
+        Vector3 localPosition = obstacleObject.Value.transform.localPosition;
+        localPosition.z = this.beatmapObjectPlacementHelper.BeatToPosition(obstacleObject.Value.obstacleData.beat);
         obstacleObject.Value.transform.localPosition = localPosition;
         AbstractBeatmapObjectView.BeatmapObjectEditState state = this.beatmapObjectsSelectionState.IsObstacleSelected(obstacleObject.Value.obstacleData.id) ? AbstractBeatmapObjectView.BeatmapObjectEditState.Selected : AbstractBeatmapObjectView.BeatmapObjectEditState.Default;
         obstacleObject.Value.SetState(BeatmapObjectViewColorHelper.GetBeatmapObjectColor(Color.cyan, state, relativeNoteTime));

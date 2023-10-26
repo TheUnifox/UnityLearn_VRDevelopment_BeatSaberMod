@@ -37,7 +37,7 @@ namespace BeatmapEditor3D
           return;
         beatmapEditorCommand1.TaskFinished(result);
       }
-      catch (TaskCanceledException ex)
+      catch (TaskCanceledException)
       {
       }
       catch (Exception ex)

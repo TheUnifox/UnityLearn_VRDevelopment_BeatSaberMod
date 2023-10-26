@@ -80,22 +80,22 @@ namespace BeatmapEditor3D.BpmEditor.UI.Tools
 
     private void HandleInputControllerMouseBeginDrag(int sample) => this._bpmRegionsView.regionDividerMouseUpEvent -= new Action<int, int>(this.HandleBpmRegionsViewRegionDividerMouseUp);
 
-    private void HandleInputControllerMouseDrag(int sample)
-    {
-      if (this._leftRegion == null)
-        return;
-      this._bpmMergeVisualGuideGo.SetActive(Mathf.Abs(this._leftRegion.endSampleIndex - sample) > 1000);
-      this._bpmMergeVisualGuideTransform.localScale = this._bpmMergeVisualGuideTransform.localScale with
-      {
-        x = sample <= this._leftRegion.endSampleIndex ? -1f : 1f
-      };
-      this._bpmMergeVisualGuideTransform.anchoredPosition = this._bpmMergeVisualGuideTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._inputController.containerTransform, this._leftRegion.endSampleIndex + 1, this._inputController.startSample, this._inputController.endSample) + 1f
-      };
-    }
+        private void HandleInputControllerMouseDrag(int sample)
+        {
+            if (this._leftRegion == null)
+            {
+                return;
+            }
+            this._bpmMergeVisualGuideGo.SetActive(Mathf.Abs(this._leftRegion.endSampleIndex - sample) > 1000);
+            Vector3 localScale = this._bpmMergeVisualGuideTransform.localScale;
+            localScale.x = (float)((sample <= this._leftRegion.endSampleIndex) ? -1 : 1);
+            this._bpmMergeVisualGuideTransform.localScale = localScale;
+            Vector2 anchoredPosition = this._bpmMergeVisualGuideTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._inputController.containerTransform, this._leftRegion.endSampleIndex + 1, this._inputController.startSample, this._inputController.endSample) + 1f;
+            this._bpmMergeVisualGuideTransform.anchoredPosition = anchoredPosition;
+        }
 
-    private void RemoveHandlers()
+        private void RemoveHandlers()
     {
       this._bpmRegionsView.regionDividerMouseUpEvent -= new Action<int, int>(this.HandleBpmRegionsViewRegionDividerMouseUp);
       this._inputController.mouseBeginDragEvent -= new Action<int>(this.HandleInputControllerMouseBeginDrag);

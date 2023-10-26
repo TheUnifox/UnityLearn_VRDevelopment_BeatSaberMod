@@ -16,8 +16,6 @@ public class VRCenterAdjust : MonoBehaviour
   [SerializeField]
   protected MainSettingsModelSO _mainSettingsModel;
 
-  public virtual void Awake() => XRDevice.SetTrackingSpaceType(TrackingSpaceType.RoomScale);
-
   public virtual void Start()
   {
     if ((double) this._roomCenter.value.magnitude > 5.0)

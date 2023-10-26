@@ -70,28 +70,27 @@ namespace BeatmapEditor3D
 
     protected void Update() => this._keyboardBinder.ManualUpdate();
 
-    private void SpawnCells()
-    {
-      this._currentPage = this._basicEventsState.currentEventsPage;
-      List<EnvironmentTracksDefinitionSO.BasicEventTrackInfo> basicEventTrackInfoList = this._beatmapDataModel.environmentTrackDefinition[this._basicEventsState.currentEventsPage];
-      float num = (float) ((double) basicEventTrackInfoList.Count * (double) this._trackWidth + (double) (basicEventTrackInfoList.Count - 1) * (double) this._trackSpacing);
-      this._canvasTransform.sizeDelta = this._canvasTransform.sizeDelta with
-      {
-        x = num
-      };
-      this._spawnedEventObjectSelectionCells = new Dictionary<EnvironmentTracksDefinitionSO.BasicEventTrackInfo, EventObjectSelectionCellView>(basicEventTrackInfoList.Count);
-      for (int index = 0; index < basicEventTrackInfoList.Count; ++index)
-      {
-        EventObjectSelectionCellView selectionCellView = this._eventObjectSelectionCellViewPool.Spawn(index);
-        this._spawnedEventObjectSelectionCells.Add(basicEventTrackInfoList[index], selectionCellView);
-        selectionCellView.pointerEnterEvent += new Action<int>(this.HandleEventObjectSelectionCellViewEnter);
-        selectionCellView.pointerExitEvent += new Action<int>(this.HandleEventObjectSelectionCellViewExit);
-        selectionCellView.pointerUpEvent += new Action<int>(this.HandleEventObjectSelectionCellViewUp);
-        selectionCellView.transform.SetParent((Transform) this._cellParent, false);
-      }
-    }
+        private void SpawnCells()
+        {
+            this._currentPage = this._basicEventsState.currentEventsPage;
+            List<EnvironmentTracksDefinitionSO.BasicEventTrackInfo> list = this._beatmapDataModel.environmentTrackDefinition[this._basicEventsState.currentEventsPage];
+            float x = (float)list.Count * this._trackWidth + (float)(list.Count - 1) * this._trackSpacing;
+            Vector2 sizeDelta = this._canvasTransform.sizeDelta;
+            sizeDelta.x = x;
+            this._canvasTransform.sizeDelta = sizeDelta;
+            this._spawnedEventObjectSelectionCells = new Dictionary<EnvironmentTracksDefinitionSO.BasicEventTrackInfo, EventObjectSelectionCellView>(list.Count);
+            for (int i = 0; i < list.Count; i++)
+            {
+                EventObjectSelectionCellView eventObjectSelectionCellView = this._eventObjectSelectionCellViewPool.Spawn(i);
+                this._spawnedEventObjectSelectionCells.Add(list[i], eventObjectSelectionCellView);
+                eventObjectSelectionCellView.pointerEnterEvent += this.HandleEventObjectSelectionCellViewEnter;
+                eventObjectSelectionCellView.pointerExitEvent += this.HandleEventObjectSelectionCellViewExit;
+                eventObjectSelectionCellView.pointerUpEvent += this.HandleEventObjectSelectionCellViewUp;
+                eventObjectSelectionCellView.transform.SetParent(this._cellParent, false);
+            }
+        }
 
-    private void ClearCells()
+        private void ClearCells()
     {
       foreach (KeyValuePair<EnvironmentTracksDefinitionSO.BasicEventTrackInfo, EventObjectSelectionCellView> objectSelectionCell in this._spawnedEventObjectSelectionCells)
       {

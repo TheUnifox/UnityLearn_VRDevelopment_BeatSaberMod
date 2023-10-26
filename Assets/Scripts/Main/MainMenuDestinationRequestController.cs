@@ -85,7 +85,7 @@ public class MainMenuDestinationRequestController : IInitializable, IDisposable
         requestController._gameScenesManager.installEarlyBindingsEvent += new System.Action<ScenesTransitionSetupDataSO, DiContainer>(requestController.HandleGameScenesManagerInstallEarlyBindings);
       }
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
   }

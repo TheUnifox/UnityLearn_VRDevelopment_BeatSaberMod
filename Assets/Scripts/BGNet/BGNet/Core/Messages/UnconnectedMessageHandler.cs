@@ -5,10 +5,12 @@ using System.Linq;
 using System.Net;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using BGNet.Logging;
 using LiteNetLib.Utils;
+using Org.BouncyCastle.Asn1.Crmf;
 
 namespace BGNet.Core.Messages
 {
@@ -480,6 +482,7 @@ namespace BGNet.Core.Messages
                 catch (TimeoutException obj1)
                 {
                     num = 1;
+                    obj = obj1;
                 }
                 if (num == 1)
                 {
@@ -539,7 +542,7 @@ namespace BGNet.Core.Messages
                         await sentRequest.task;
                     }
                 }
-                catch (TaskCanceledException obj1)
+                catch (TaskCanceledException)
                 {
                     sentRequest.Cancel();
                     throw;
@@ -613,17 +616,34 @@ namespace BGNet.Core.Messages
         // Token: 0x060006E3 RID: 1763 RVA: 0x000129A8 File Offset: 0x00010BA8
         private Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task> WrapOnSendFailedAwaitResponse<T>(UnconnectedMessageHandler.RequestResponseWaiter waiter, Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task<T>> onSendFailed) where T : IUnconnectedMessage
         {
-            if (onSendFailed == null)
+            UnconnectedMessageHandler.c__DisplayClass77_0<T> CS_8__locals1 = new UnconnectedMessageHandler.c__DisplayClass77_0<T>();
+            CS_8__locals1.waiter = waiter;
+            CS_8__locals1.onSendFailed = onSendFailed;
+            if (CS_8__locals1.onSendFailed == null)
 			{
                 return null;
             }
             return (uint protocolVersion, IPEndPoint remoteEndPoint, IUnconnectedReliableRequest message, CancellationToken cancellationToken) =>
             {
-                AsyncTaskMethodBuilder builder = AsyncTaskMethodBuilder.Create();
-                //state = -1;
+                UnconnectedMessageHandler.c__DisplayClass77_0<T>.WrapOnSendFailedAwaitResponse_b__0_d WrapOnSendFailedAwaitResponse_b__0_d = new();
 
-                builder.Start<onSendFailed>(ref onSendFailed);
-                return builder.Task;
+                WrapOnSendFailedAwaitResponse_b__0_d.m_this = CS_8__locals1;
+
+                WrapOnSendFailedAwaitResponse_b__0_d.protocolVersion = protocolVersion;
+
+                WrapOnSendFailedAwaitResponse_b__0_d.remoteEndPoint = remoteEndPoint;
+
+                WrapOnSendFailedAwaitResponse_b__0_d.message = message;
+
+                WrapOnSendFailedAwaitResponse_b__0_d.cancellationToken = cancellationToken;
+
+                WrapOnSendFailedAwaitResponse_b__0_d.t__builder = AsyncTaskMethodBuilder.Create();
+
+                WrapOnSendFailedAwaitResponse_b__0_d.m_state = -1;
+                AsyncTaskMethodBuilder t__builder = WrapOnSendFailedAwaitResponse_b__0_d.t__builder;
+
+                t__builder.Start<UnconnectedMessageHandler.c__DisplayClass77_0<T>.WrapOnSendFailedAwaitResponse_b__0_d>(ref WrapOnSendFailedAwaitResponse_b__0_d);
+                return WrapOnSendFailedAwaitResponse_b__0_d.t__builder.Task;
             };
         }
 
@@ -1056,6 +1076,11 @@ namespace BGNet.Core.Messages
                 BGNet.Logging.Debug.Log("[ConnectionState] " + message);
             }
 
+            // Token: 0x060008E4 RID: 2276 RVA: 0x00018D84 File Offset: 0x00016F84
+            public ConnectionState()
+            {
+            }
+
             // Token: 0x0400052B RID: 1323
             private const int kEpochBitOffset = 24;
 
@@ -1150,6 +1175,11 @@ namespace BGNet.Core.Messages
         {
             // Token: 0x060008E9 RID: 2281
             public abstract void Dispose();
+
+            // Token: 0x060008EA RID: 2282 RVA: 0x000024B7 File Offset: 0x000006B7
+            protected RequestWaiter()
+            {
+            }
         }
 
         // Token: 0x02000181 RID: 385
@@ -1341,8 +1371,8 @@ namespace BGNet.Core.Messages
                 }
                 for (int j = this._ranges.Count - 1; j >= 1; j--)
                 {
-                    (int, int) valueTuple = this._ranges[j];
-                    (int, int) valueTuple2 = this._ranges[j - 1];
+                    ValueTuple<int, int> valueTuple = this._ranges[j];
+                    ValueTuple<int, int> valueTuple2 = this._ranges[j - 1];
                     if (valueTuple2.Item1 + valueTuple2.Item2 >= valueTuple.Item1)
                     {
                         int item = valueTuple2.Item1;
@@ -1401,7 +1431,8 @@ namespace BGNet.Core.Messages
             // Token: 0x04000545 RID: 1349
             private int _length;
 
-            private readonly List<(int offset, int length)> _ranges = new List<(int, int)>();
+            // Token: 0x04000546 RID: 1350
+            private readonly List<(int offset, int range)> _ranges = new List<(int, int)>();
 
             // Token: 0x04000547 RID: 1351
             private bool _isComplete;
@@ -1426,5 +1457,1200 @@ namespace BGNet.Core.Messages
             // Token: 0x0400054A RID: 1354
             public readonly uint protocolVersion;
         }
-    }
+
+        // Token: 0x02000185 RID: 389
+        [CompilerGenerated]
+        private sealed class c__DisplayClass46_0<T>
+		{
+			// Token: 0x060008FF RID: 2303 RVA: 0x000024B7 File Offset: 0x000006B7
+			public c__DisplayClass46_0() { }
+
+            // Token: 0x06000900 RID: 2304 RVA: 0x00019250 File Offset: 0x00017450
+            internal T ObtainVersioned_b__0(UnconnectedMessageHandler.MessageOrigin origin)
+            {
+                return this.obtain(origin.protocolVersion);
+            }
+
+            // Token: 0x0400054B RID: 1355
+            public Func<uint, T> obtain;
+        }
+
+        // Token: 0x02000186 RID: 390
+        [CompilerGenerated]
+        private sealed class c__DisplayClass52_0<T> where T : IUnconnectedReliableRequest
+		{
+			// Token: 0x06000901 RID: 2305 RVA: 0x000024B7 File Offset: 0x000006B7
+			public c__DisplayClass52_0() { }
+
+            // Token: 0x06000902 RID: 2306 RVA: 0x00019263 File Offset: 0x00017463
+            internal void CustomResponseHandler_b__0(T packet, UnconnectedMessageHandler.MessageOrigin origin)
+            {
+                if (this.m_this.IsUnhandledMessage(packet, origin))
+				{
+                    this.customHandler(packet, origin);
+                }
+            }
+
+            // Token: 0x0400054C RID: 1356
+            public UnconnectedMessageHandler m_this;
+
+            // Token: 0x0400054D RID: 1357
+            public Action<T, UnconnectedMessageHandler.MessageOrigin> customHandler;
+        }
+
+        // Token: 0x02000187 RID: 391
+        [CompilerGenerated]
+        private sealed class c__DisplayClass53_0<T> where T : IUnconnectedUnreliableMessage
+		{
+            // Token: 0x06000903 RID: 2307 RVA: 0x000024B7 File Offset: 0x000006B7
+            public c__DisplayClass53_0() { }
+
+            // Token: 0x06000904 RID: 2308 RVA: 0x00019286 File Offset: 0x00017486
+            internal void CustomUnreliableResponseHandler_b__0(T packet, UnconnectedMessageHandler.MessageOrigin origin)
+
+            {
+                IAnalyticsManager analytics = this.m_this.analytics;
+                if (analytics != null)
+                {
+                    analytics.ReceivedUnreliableMessageEvent(packet);
+                }
+                this.customHandler(packet, origin);
+            }
+
+            // Token: 0x0400054E RID: 1358
+            public UnconnectedMessageHandler m_this;
+
+            // Token: 0x0400054F RID: 1359
+            public Action<T, UnconnectedMessageHandler.MessageOrigin> customHandler;
+		}
+
+		// Token: 0x02000188 RID: 392
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct GetAndSendResponse_d__57<TRequest, TResponse> : IAsyncStateMachine where TRequest : IUnconnectedReliableRequest where TResponse : IUnconnectedReliableResponse
+		{
+			// Token: 0x06000905 RID: 2309 RVA: 0x000192B4 File Offset: 0x000174B4
+			void IAsyncStateMachine.MoveNext()
+			{
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    try
+                    {
+                        TaskAwaiter awaiter;
+                        if (num != 0)
+                        {
+                            awaiter = unconnectedMessageHandler.GetAndSendResponseAsync<TRequest, TResponse>(this.request, this.origin, this.tryGetResponse, this.getFailureResponse).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                this.m_state = 0;
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.GetAndSendResponse_d__57<TRequest, TResponse>>(ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter = this.u__1;
+                            this.u__1 = default(TaskAwaiter);
+                            this.m_state = -1;
+                        }
+                        awaiter.GetResult();
+                    }
+                    catch (Exception exception)
+                    {
+                        IAnalyticsManager analytics = unconnectedMessageHandler.analytics;
+                        if (analytics != null)
+                        {
+                            analytics.IncrementCounter("ReceivedMessageException", 1L, AnalyticsMetricUnit.Count);
+                        }
+                        unconnectedMessageHandler.ReceivedMessageException(this.origin.endPoint, exception);
+                    }
+                }
+                catch (Exception exception2)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception2);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+
+            // Token: 0x06000906 RID: 2310 RVA: 0x000193C8 File Offset: 0x000175C8
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+
+            {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+
+            // Token: 0x04000550 RID: 1360
+            public int m_state;
+            
+            // Token: 0x04000551 RID: 1361
+            public AsyncVoidMethodBuilder t__builder;
+            
+            // Token: 0x04000552 RID: 1362
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000553 RID: 1363
+            public TRequest request;
+            
+            // Token: 0x04000554 RID: 1364
+            public UnconnectedMessageHandler.MessageOrigin origin;
+            
+            // Token: 0x04000555 RID: 1365
+            public Func<TRequest, UnconnectedMessageHandler.MessageOrigin, Task<TResponse>> tryGetResponse;
+            
+            // Token: 0x04000556 RID: 1366
+            public Func<TResponse> getFailureResponse;
+            
+            // Token: 0x04000557 RID: 1367
+            private TaskAwaiter u__1;
+		}
+
+		// Token: 0x02000189 RID: 393
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct GetAndSendResponseAsync_d__58<TRequest, TResponse> : IAsyncStateMachine where TRequest : IUnconnectedReliableRequest where TResponse : IUnconnectedReliableResponse
+		{
+			// Token: 0x06000907 RID: 2311 RVA: 0x000193D8 File Offset: 0x000175D8
+			void IAsyncStateMachine.MoveNext()
+			{
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    if (num != 0)
+                    {
+                        this.response_5__2 = default(TResponse);
+                    }
+                    try
+                    {
+                        TaskAwaiter<TResponse> awaiter;
+                        if (num != 0)
+                        {
+                            awaiter = this.tryGetResponse(this.request, this.origin).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                num = (this.m_state = 0);
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<TResponse>, UnconnectedMessageHandler.GetAndSendResponseAsync_d__58<TRequest, TResponse>> (ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter = this.u__1;
+                            this.u__1 = default(TaskAwaiter<TResponse>);
+                            num = (this.m_state = -1);
+                        }
+                        TResponse result = awaiter.GetResult();
+                        this.response_5__2 = result;
+                        if (this.response_5__2 == null)
+                        {
+                            this.response_5__2 = this.getFailureResponse();
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        this.response_5__2 = this.getFailureResponse();
+                        throw;
+                    }
+                    finally
+                    {
+                        if (num < 0)
+                        {
+                            unconnectedMessageHandler.SendReliableResponse(this.origin.protocolVersion, this.origin.endPoint, this.request, this.response_5__2, default(CancellationToken));
+                        }
+                    }
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+            
+            // Token: 0x06000908 RID: 2312 RVA: 0x0001956C File Offset: 0x0001776C
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+            
+                        {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+            
+            // Token: 0x04000558 RID: 1368
+            public int m_state;
+            
+            // Token: 0x04000559 RID: 1369
+            public AsyncTaskMethodBuilder t__builder;
+            
+            // Token: 0x0400055A RID: 1370
+            public Func<TRequest, UnconnectedMessageHandler.MessageOrigin, Task<TResponse>> tryGetResponse;
+            
+            // Token: 0x0400055B RID: 1371
+            public TRequest request;
+            
+            // Token: 0x0400055C RID: 1372
+            public UnconnectedMessageHandler.MessageOrigin origin;
+            
+            // Token: 0x0400055D RID: 1373
+            public Func<TResponse> getFailureResponse;
+            
+            // Token: 0x0400055E RID: 1374
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x0400055F RID: 1375
+            private TResponse response_5__2;
+            
+            // Token: 0x04000560 RID: 1376
+            private TaskAwaiter<TResponse> u__1;
+		}
+
+		// Token: 0x0200018A RID: 394
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct GetAndSendUnreilableResponse_d__59<TRequest, TResponse> : IAsyncStateMachine where TRequest : IUnconnectedUnreliableMessage where TResponse : IUnconnectedUnreliableMessage
+		{
+			// Token: 0x06000909 RID: 2313 RVA: 0x0001957C File Offset: 0x0001777C
+			void IAsyncStateMachine.MoveNext()
+			{
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    if (num != 0)
+                    {
+                        this.response_5__2 = default(TResponse);
+                    }
+                    try
+                    {
+                        TaskAwaiter<TResponse> awaiter;
+                        if (num != 0)
+                        {
+                            awaiter = this.tryGetResponse(this.request, this.origin).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                num = (this.m_state = 0);
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<TResponse>, UnconnectedMessageHandler.GetAndSendUnreilableResponse_d__59<TRequest, TResponse>>(ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter = this.u__1;
+                            this.u__1 = default(TaskAwaiter<TResponse>);
+                            num = (this.m_state = -1);
+                        }
+                        TResponse result = awaiter.GetResult();
+                        this.response_5__2 = result;
+                        if (this.response_5__2 == null)
+                        {
+                            this.response_5__2 = this.getFailureResponse();
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        this.response_5__2 = this.getFailureResponse();
+                    }
+                    finally
+                    {
+                        if (num < 0)
+                        {
+                            this.request.Release();
+                            unconnectedMessageHandler.SendUnreliableMessage(this.origin.protocolVersion, this.origin.endPoint, this.response_5__2);
+                        }
+                    }
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+            
+            // Token: 0x0600090A RID: 2314 RVA: 0x000196E8 File Offset: 0x000178E8
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+            
+                        {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+            
+            // Token: 0x04000561 RID: 1377
+            public int m_state;
+            
+            // Token: 0x04000562 RID: 1378
+            public AsyncVoidMethodBuilder t__builder;
+            
+            // Token: 0x04000563 RID: 1379
+            public Func<TRequest, UnconnectedMessageHandler.MessageOrigin, Task<TResponse>> tryGetResponse;
+            
+            // Token: 0x04000564 RID: 1380
+            public TRequest request;
+            
+            // Token: 0x04000565 RID: 1381
+            public UnconnectedMessageHandler.MessageOrigin origin;
+            
+            // Token: 0x04000566 RID: 1382
+            public Func<TResponse> getFailureResponse;
+            
+            // Token: 0x04000567 RID: 1383
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000568 RID: 1384
+            private TResponse response_5__2;
+            
+            // Token: 0x04000569 RID: 1385
+            private TaskAwaiter<TResponse>  u__1;
+		}
+
+		// Token: 0x0200018B RID: 395
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct SendMessageWithRetry_d__72: IAsyncStateMachine
+        {
+            // Token: 0x0600090B RID: 2315 RVA: 0x000196F8 File Offset: 0x000178F8
+            void IAsyncStateMachine.MoveNext()
+            {
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    try
+                    {
+                        TaskAwaiter awaiter;
+                        if (num != 0)
+                        {
+                            awaiter = unconnectedMessageHandler.SendMessageWithRetryAsync(this.protocolVersion, this.remoteEndPoint, this.message, null, this.cancellationToken).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                this.m_state = 0;
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMessageWithRetry_d__72>(ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter = this.u__1;
+                            this.u__1 = default(TaskAwaiter);
+                            this.m_state = -1;
+                        }
+                        awaiter.GetResult();
+                    }
+                    catch (TimeoutException)
+                    {
+                    }
+                    catch (TaskCanceledException)
+                    {
+                    }
+                    catch (Exception exception)
+                    {
+                        BGNet.Logging.Debug.LogException(exception, "Exception thrown sending message");
+                    }
+                }
+                catch (Exception exception2)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception2);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+        
+            // Token: 0x0600090C RID: 2316 RVA: 0x00019800 File Offset: 0x00017A00
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+            {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+        
+            // Token: 0x0400056A RID: 1386
+            public int m_state;
+        
+            // Token: 0x0400056B RID: 1387
+            public AsyncVoidMethodBuilder t__builder;
+        
+            // Token: 0x0400056C RID: 1388
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x0400056D RID: 1389
+            public uint protocolVersion;
+            
+            // Token: 0x0400056E RID: 1390
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x0400056F RID: 1391
+            public IUnconnectedReliableRequest message;
+            
+            // Token: 0x04000570 RID: 1392
+            public CancellationToken cancellationToken;
+            
+            // Token: 0x04000571 RID: 1393
+            private TaskAwaiter u__1;
+		}
+
+		// Token: 0x0200018C RID: 396
+		[CompilerGenerated]
+        private sealed class c__DisplayClass74_0
+		{
+            // Token: 0x0600090D RID: 2317 RVA: 0x000024B7 File Offset: 0x000006B7
+            public c__DisplayClass74_0() { }
+
+            // Token: 0x0600090E RID: 2318 RVA: 0x0001980E File Offset: 0x00017A0E
+            internal Task SendMultipartMessageWithRetryAsync_b__0(IUnconnectedReliableRequest mm)
+            {
+                return this.m_this.SendMessageWithRetryAsyncInternal(this.protocolVersion, this.remoteEndPoint, mm.WithRequestId(this.m_this.GetNextRequestId(this.remoteEndPoint)), null, this.cancellationToken);
+            }
+            
+            // Token: 0x04000572 RID: 1394
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000573 RID: 1395
+            public uint protocolVersion;
+            
+            // Token: 0x04000574 RID: 1396
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x04000575 RID: 1397
+            public CancellationToken cancellationToken;
+		}
+
+		// Token: 0x0200018D RID: 397
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct SendMultipartMessageWithRetryAsync_d__74: IAsyncStateMachine
+        {
+            // Token: 0x0600090F RID: 2319 RVA: 0x00019848 File Offset: 0x00017A48
+            void IAsyncStateMachine.MoveNext()
+        
+                    {
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    List<IUnconnectedReliableRequest> list = new List<IUnconnectedReliableRequest>();
+                    if (num > 1)
+                    {
+                        this.DC74 = new UnconnectedMessageHandler.c__DisplayClass74_0();
+                        this.DC74.m_this = this.m_this;
+                        this.DC74.protocolVersion = this.protocolVersion;
+                        this.DC74.remoteEndPoint = this.remoteEndPoint;
+                        this.DC74.cancellationToken = this.cancellationToken;
+                        uint nextRequestId = unconnectedMessageHandler.GetNextRequestId(this.DC74.remoteEndPoint);
+                        for (int i = 0; i < this.data.Length; i += 384)
+                        {
+                            BaseMultipartMessage multipartMessage = unconnectedMessageHandler.GetMultipartMessage(this.message);
+                            list.Add(multipartMessage.Init(nextRequestId, this.data.Data, i, Math.Min(384, this.data.Length - i), this.data.Length));
+                        }
+                        this.shouldReleaseMessage_5__2 = true;
+                    }
+                    try
+                    {
+                        TaskAwaiter awaiter;
+                        if (num != 0)
+                        {
+                            if (num == 1)
+                            {
+                                awaiter = this.u__1;
+                                this.u__1 = default(TaskAwaiter);
+                                num = (this.m_state = -1);
+                                goto IL_231;
+                            }
+                            this.m_wrap3 = 0;
+                        }
+                        try
+                        {
+                            if (num != 0)
+                            {
+                                awaiter = Task.WhenAll(list.Select(new Func<IUnconnectedReliableRequest, Task>(this.DC74.SendMultipartMessageWithRetryAsync_b__0))).GetAwaiter();
+                                if (!awaiter.IsCompleted)
+                                {
+                                    num = (this.m_state = 0);
+                                    this.u__1 = awaiter;
+                                    this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMultipartMessageWithRetryAsync_d__74>(ref awaiter, ref this);
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                awaiter = this.u__1;
+                                this.u__1 = default(TaskAwaiter);
+                                num = (this.m_state = -1);
+                            }
+                            awaiter.GetResult();
+                        }
+                        catch (TimeoutException ex)
+                        {
+                            this.m_wrap2 = ex;
+                            this.m_wrap3 = 1;
+                        }
+                        int num2 = this.m_wrap3;
+                        if (num2 != 1)
+                        {
+                            goto IL_259;
+                        }
+                        if (this.onSendFailed != null)
+                        {
+                            this.shouldReleaseMessage_5__2 = false;
+                            awaiter = this.onSendFailed(this.DC74.protocolVersion, this.DC74.remoteEndPoint, this.message, this.DC74.cancellationToken).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                num = (this.m_state = 1);
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMultipartMessageWithRetryAsync_d__74>(ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            Exception ex2 = this.m_wrap2;
+                            if (ex2 == null)
+                            {
+                                throw this.m_wrap2;
+                            }
+                            ExceptionDispatchInfo.Capture(ex2).Throw();
+                            goto IL_259;
+                        }
+                    IL_231:
+                        awaiter.GetResult();
+                    IL_259:
+                        this.m_wrap2 = null;
+                    }
+                    finally
+                    {
+                        if (num < 0 && this.shouldReleaseMessage_5__2)
+                        {
+                            this.message.Release();
+                        }
+                    }
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+        
+            // Token: 0x06000910 RID: 2320 RVA: 0x00019B4C File Offset: 0x00017D4C
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+        
+                    {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+        
+            // Token: 0x04000576 RID: 1398
+            public int m_state;
+        
+            // Token: 0x04000577 RID: 1399
+            public AsyncTaskMethodBuilder t__builder;
+        
+            // Token: 0x04000578 RID: 1400
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000579 RID: 1401
+            public uint protocolVersion;
+            
+            // Token: 0x0400057A RID: 1402
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x0400057B RID: 1403
+            public CancellationToken cancellationToken;
+            
+            // Token: 0x0400057C RID: 1404
+            public IUnconnectedReliableRequest message;
+            
+            // Token: 0x0400057D RID: 1405
+            public NetDataWriter data;
+            
+            // Token: 0x0400057E RID: 1406
+            public Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task> onSendFailed;
+            
+            // Token: 0x0400057F RID: 1407
+            private UnconnectedMessageHandler.c__DisplayClass74_0 DC74;
+            
+            // Token: 0x04000580 RID: 1408
+            private bool shouldReleaseMessage_5__2;
+            
+            // Token: 0x04000581 RID: 1409
+            private Exception m_wrap2;
+            
+            // Token: 0x04000582 RID: 1410
+            private int m_wrap3;
+            
+            // Token: 0x04000583 RID: 1411
+            private TaskAwaiter u__1;
+		}
+
+		// Token: 0x0200018E RID: 398
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct SendMessageWithRetryAsyncInternal_d__75: IAsyncStateMachine
+        {
+            // Token: 0x06000911 RID: 2321 RVA: 0x00019B5C File Offset: 0x00017D5C
+            void IAsyncStateMachine.MoveNext()
+        
+                    {
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                try
+                {
+                    if (num > 2)
+                    {
+                        this.sentRequest_5__2 = new UnconnectedMessageHandler.SentRequestWaiter(unconnectedMessageHandler._disposedTokenSource.Token, this.cancellationToken);
+                        this.waiterId_5__3 = new UnconnectedMessageHandler.RequestWaiterId(this.remoteEndPoint, this.message.requestId);
+                        unconnectedMessageHandler._sentRequestWaiters.Add(this.waiterId_5__3, this.sentRequest_5__2);
+                        this.shouldReleaseMessage_5__4 = true;
+                    }
+                    try
+                    {
+                        TaskAwaiter awaiter;
+                        if (num > 1)
+                        {
+                            if (num == 2)
+                            {
+                                awaiter = this.u__2;
+                                this.u__2 = default(TaskAwaiter);
+                                num = (this.m_state = -1);
+                                goto IL_2B3;
+                            }
+                            this.m_wrap5 = 0;
+                        }
+                        int num2;
+                        try
+                        {
+                            TaskAwaiter<Task> awaiter2;
+                            if (num != 0)
+                            {
+                                if (num != 1)
+                                {
+                                    this.i_5__7 = 0;
+                                    goto IL_14D;
+                                }
+                                awaiter = this.u__2;
+                                this.u__2 = default(TaskAwaiter);
+                                num = (this.m_state = -1);
+                                goto IL_1F5;
+                            }
+                            else
+                            {
+                                awaiter2 = this.u__1;
+                                this.u__1 = default(TaskAwaiter<Task>);
+                                num = (this.m_state = -1);
+                            }
+                        IL_135:
+                            awaiter2.GetResult();
+                            num2 = this.i_5__7;
+                            this.i_5__7 = num2 + 1;
+                        IL_14D:
+                            if (this.i_5__7 > 5 || !this.sentRequest_5__2.isWaiting)
+                            {
+                                if (!this.sentRequest_5__2.isWaiting)
+                                {
+                                    goto IL_1FC;
+                                }
+                                unconnectedMessageHandler._sender.SendUnconnectedMessage(this.remoteEndPoint, unconnectedMessageHandler.Write(this.protocolVersion, this.message));
+                                awaiter = this.sentRequest_5__2.task.GetAwaiter();
+                                if (!awaiter.IsCompleted)
+                                {
+                                    num = (this.m_state = 1);
+                                    this.u__2 = awaiter;
+                                    this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMessageWithRetryAsyncInternal_d__75>(ref awaiter, ref this);
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                unconnectedMessageHandler._sender.SendUnconnectedMessage(this.remoteEndPoint, unconnectedMessageHandler.Write(this.protocolVersion, this.message));
+                                awaiter2 = Task.WhenAny(new Task[]
+                                {
+                                            this.sentRequest_5__2.task,
+                                            unconnectedMessageHandler.WaitForRetry(this.i_5__7, this.cancellationToken)
+                                }).GetAwaiter();
+                                if (!awaiter2.IsCompleted)
+                                {
+                                    num = (this.m_state = 0);
+                                    this.u__1 = awaiter2;
+                                    this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<Task>, UnconnectedMessageHandler.SendMessageWithRetryAsyncInternal_d__75>(ref awaiter2, ref this);
+                                    return;
+                                }
+                                goto IL_135;
+                            }
+                        IL_1F5:
+                            awaiter.GetResult();
+                        IL_1FC:;
+                        }
+                        catch (TaskCanceledException)
+                        {
+                            this.sentRequest_5__2.Cancel();
+                            throw;
+                        }
+                        catch (TimeoutException ex)
+                        {
+                            this.m_wrap4 = ex;
+                            this.m_wrap5 = 1;
+                        }
+                        num2 = this.m_wrap5;
+                        if (num2 != 1)
+                        {
+                            goto IL_2DB;
+                        }
+                        if (this.onSendFailed != null)
+                        {
+                            this.shouldReleaseMessage_5__4 = false;
+                            awaiter = this.onSendFailed(this.protocolVersion, this.remoteEndPoint, this.message, this.cancellationToken).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                num = (this.m_state = 2);
+                                this.u__2 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMessageWithRetryAsyncInternal_d__75 > (ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            Exception ex2 = this.m_wrap4;
+                            if (ex2 == null)
+                            {
+                                throw this.m_wrap4;
+                            }
+                            ExceptionDispatchInfo.Capture(ex2).Throw();
+                            goto IL_2DB;
+                        }
+                    IL_2B3:
+                        awaiter.GetResult();
+                    IL_2DB:
+                        this.m_wrap4 = null;
+                    }
+                    finally
+                    {
+                        if (num < 0)
+                        {
+                            unconnectedMessageHandler._sentRequestWaiters.Remove(this.waiterId_5__3);
+                            if (this.shouldReleaseMessage_5__4)
+                            {
+                                this.message.Release();
+                            }
+                        }
+                    }
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult();
+            }
+        
+            // Token: 0x06000912 RID: 2322 RVA: 0x00019F0C File Offset: 0x0001810C
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+        
+                    {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+        
+            // Token: 0x04000584 RID: 1412
+            public int m_state;
+        
+            // Token: 0x04000585 RID: 1413
+            public AsyncTaskMethodBuilder t__builder;
+        
+            // Token: 0x04000586 RID: 1414
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000587 RID: 1415
+            public CancellationToken cancellationToken;
+            
+            // Token: 0x04000588 RID: 1416
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x04000589 RID: 1417
+            public IUnconnectedReliableRequest message;
+            
+            // Token: 0x0400058A RID: 1418
+            public uint protocolVersion;
+            
+            // Token: 0x0400058B RID: 1419
+            public Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task> onSendFailed;
+            
+            // Token: 0x0400058C RID: 1420
+            private UnconnectedMessageHandler.SentRequestWaiter sentRequest_5__2;
+            
+            // Token: 0x0400058D RID: 1421
+            private UnconnectedMessageHandler.RequestWaiterId waiterId_5__3;
+            
+            // Token: 0x0400058E RID: 1422
+            private bool shouldReleaseMessage_5__4;
+            
+            // Token: 0x0400058F RID: 1423
+            private Exception m_wrap4;
+            
+            // Token: 0x04000590 RID: 1424
+            private int m_wrap5;
+            
+            // Token: 0x04000591 RID: 1425
+            private int i_5__7;
+            
+            // Token: 0x04000592 RID: 1426
+            private TaskAwaiter<Task> u__1;
+            
+            // Token: 0x04000593 RID: 1427
+            private TaskAwaiter u__2;
+		}
+
+		// Token: 0x0200018F RID: 399
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct SendMessageWithRetryAwaitResponseAsync_d__76<T> : IAsyncStateMachine where T : IUnconnectedMessage
+		{
+			// Token: 0x06000913 RID: 2323 RVA: 0x00019F1C File Offset: 0x0001811C
+			void IAsyncStateMachine.MoveNext()
+			{
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                T result2;
+                try
+                {
+                    TaskAwaiter<IUnconnectedMessage> awaiter;
+                    if (num != 0)
+                    {
+                        if (num == 1)
+                        {
+                            awaiter = this.u__2;
+                            this.u__2 = default(TaskAwaiter<IUnconnectedMessage>);
+                            this.m_state = -1;
+                            goto IL_171;
+                        }
+                        this.request_5__2 = new UnconnectedMessageHandler.RequestResponseWaiter(unconnectedMessageHandler._disposedTokenSource.Token, this.cancellationToken);
+                        this.waiterId_5__3 = new UnconnectedMessageHandler.RequestWaiterId(this.remoteEndPoint, this.message.requestId);
+                        unconnectedMessageHandler._requestResponseWaiters.Add(this.waiterId_5__3, this.request_5__2);
+                    }
+                    try
+                    {
+                        TaskAwaiter awaiter2;
+                        if (num != 0)
+                        {
+                            awaiter2 = unconnectedMessageHandler.SendMessageWithRetryAsync(this.protocolVersion, this.remoteEndPoint, this.message, unconnectedMessageHandler.WrapOnSendFailedAwaitResponse<T>(this.request_5__2, this.onSendFailedAwaitResponse), this.cancellationToken).GetAwaiter();
+                            if (!awaiter2.IsCompleted)
+                            {
+                                this.m_state = 0;
+                                this.u__1 = awaiter2;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter, UnconnectedMessageHandler.SendMessageWithRetryAwaitResponseAsync_d__76<T>>(ref awaiter2, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter2 = this.u__1;
+                            this.u__1 = default(TaskAwaiter);
+                            this.m_state = -1;
+                        }
+                        awaiter2.GetResult();
+                    }
+                    catch (TaskCanceledException)
+                    {
+                        this.request_5__2.Cancel();
+                    }
+                    catch (Exception ex)
+                    {
+                        this.request_5__2.Fail(ex);
+                    }
+                    awaiter = this.request_5__2.task.GetAwaiter();
+                    if (!awaiter.IsCompleted)
+                    {
+                        this.m_state = 1;
+                        this.u__2 = awaiter;
+                        this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<IUnconnectedMessage>, UnconnectedMessageHandler.SendMessageWithRetryAwaitResponseAsync_d__76<T>>(ref awaiter, ref this);
+                        return;
+                    }
+                IL_171:
+                    IUnconnectedMessage result = awaiter.GetResult();
+                    unconnectedMessageHandler._requestResponseWaiters.Remove(this.waiterId_5__3);
+                    IUnconnectedMessage unconnectedMessage;
+                    if (!((unconnectedMessage = result) is T))
+                    {
+                        if (result != null)
+                        {
+                            result.Release();
+                        }
+                        throw new Exception("Received Unexpected response");
+                    }
+                    this.tResult_5__4 = (T)((object)unconnectedMessage);
+                    result2 = this.tResult_5__4;
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult(result2);
+            }
+            
+            // Token: 0x06000914 RID: 2324 RVA: 0x0001A164 File Offset: 0x00018364
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+            
+                        {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+            
+            // Token: 0x04000594 RID: 1428
+            public int m_state;
+            
+            // Token: 0x04000595 RID: 1429
+            public AsyncTaskMethodBuilder<T> t__builder;
+            
+            // Token: 0x04000596 RID: 1430
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x04000597 RID: 1431
+            public CancellationToken cancellationToken;
+            
+            // Token: 0x04000598 RID: 1432
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x04000599 RID: 1433
+            public IUnconnectedReliableRequest message;
+            
+            // Token: 0x0400059A RID: 1434
+            public uint protocolVersion;
+            
+            // Token: 0x0400059B RID: 1435
+            public Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task<T>> onSendFailedAwaitResponse;
+            
+            // Token: 0x0400059C RID: 1436
+            private UnconnectedMessageHandler.RequestResponseWaiter request_5__2;
+            
+            // Token: 0x0400059D RID: 1437
+            private UnconnectedMessageHandler.RequestWaiterId waiterId_5__3;
+            
+            // Token: 0x0400059E RID: 1438
+            private T tResult_5__4;
+            
+            // Token: 0x0400059F RID: 1439
+            private TaskAwaiter u__1;
+            
+            // Token: 0x040005A0 RID: 1440
+            private TaskAwaiter<IUnconnectedMessage> u__2;
+		}
+
+        // Token: 0x02000190 RID: 400
+        [CompilerGenerated]
+        private sealed class c__DisplayClass77_0<T> where T : IUnconnectedMessage
+        {
+            // Token: 0x06000915 RID: 2325 RVA: 0x000024B7 File Offset: 0x000006B7
+            public c__DisplayClass77_0() { }
+
+            // Token: 0x06000916 RID: 2326 RVA: 0x0001A174 File Offset: 0x00018374
+            internal async Task WrapOnSendFailedAwaitResponse_b__0(uint protocolVersion, IPEndPoint remoteEndPoint, IUnconnectedReliableRequest message, CancellationToken cancellationToken)
+            {
+                UnconnectedMessageHandler.RequestResponseWaiter requestResponseWaiter = this.waiter;
+                T t = await this.onSendFailed(protocolVersion, remoteEndPoint, message, cancellationToken);
+                requestResponseWaiter.Complete(t);
+                requestResponseWaiter = null;
+            }
+
+            // Token: 0x040005A1 RID: 1441
+            public UnconnectedMessageHandler.RequestResponseWaiter waiter;
+
+            // Token: 0x040005A2 RID: 1442
+            public Func<uint, IPEndPoint, IUnconnectedReliableRequest, CancellationToken, Task<T>> onSendFailed;
+
+
+            // Token: 0x0200019E RID: 414
+            [StructLayout(LayoutKind.Auto)]
+            public struct WrapOnSendFailedAwaitResponse_b__0_d : IAsyncStateMachine
+            {
+                // Token: 0x06000935 RID: 2357 RVA: 0x0001AF58 File Offset: 0x00019158
+                void IAsyncStateMachine.MoveNext()
+                {
+                    int num = this.m_state;
+                    UnconnectedMessageHandler.c__DisplayClass77_0<T> CS_8__locals1 = this.m_this;
+                    try
+                    {
+                        TaskAwaiter<T> awaiter;
+                        if (num != 0)
+                        {
+                            this.m_wrap1 = CS_8__locals1.waiter;
+                            awaiter = CS_8__locals1.onSendFailed(this.protocolVersion, this.remoteEndPoint, this.message, this.cancellationToken).GetAwaiter();
+                            if (!awaiter.IsCompleted)
+                            {
+                                this.m_state = 0;
+                                this.u__1 = awaiter;
+                                this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<T>, UnconnectedMessageHandler.c__DisplayClass77_0<T>.WrapOnSendFailedAwaitResponse_b__0_d>(ref awaiter, ref this);
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            awaiter = this.u__1;
+                            this.u__1 = default(TaskAwaiter<T>);
+                            this.m_state = -1;
+                        }
+                        T result = awaiter.GetResult();
+                        this.m_wrap1.Complete(result);
+                        this.m_wrap1 = null;
+                    }
+                    catch (Exception exception)
+                    {
+                        this.m_state = -2;
+                        this.t__builder.SetException(exception);
+                        return;
+                    }
+                    this.m_state = -2;
+                    this.t__builder.SetResult();
+                }
+
+                // Token: 0x06000936 RID: 2358 RVA: 0x0001B050 File Offset: 0x00019250
+                [DebuggerHidden]
+                void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+
+                {
+                    this.t__builder.SetStateMachine(stateMachine);
+                }
+
+                // Token: 0x040005E5 RID: 1509
+                public int m_state;
+
+                // Token: 0x040005E6 RID: 1510
+                public AsyncTaskMethodBuilder t__builder;
+
+                // Token: 0x040005E7 RID: 1511
+                public UnconnectedMessageHandler.c__DisplayClass77_0<T> m_this;
+
+                // Token: 0x040005E8 RID: 1512
+                public uint protocolVersion;
+
+                // Token: 0x040005E9 RID: 1513
+                public IPEndPoint remoteEndPoint;
+
+                // Token: 0x040005EA RID: 1514
+                public IUnconnectedReliableRequest message;
+
+                // Token: 0x040005EB RID: 1515
+                public CancellationToken cancellationToken;
+
+                // Token: 0x040005EC RID: 1516
+                private UnconnectedMessageHandler.RequestResponseWaiter m_wrap1;
+
+                // Token: 0x040005ED RID: 1517
+                private TaskAwaiter<T> u__1;
+            }
+        }
+	
+
+		// Token: 0x02000191 RID: 401
+		[CompilerGenerated]
+        [StructLayout(LayoutKind.Auto)]
+        private struct AwaitResponseAsync_d__78<T> : IAsyncStateMachine where T : IUnconnectedReliableResponse
+		{
+			    // Token: 0x06000917 RID: 2327 RVA: 0x0001A1DC File Offset: 0x000183DC
+			void IAsyncStateMachine.MoveNext()
+			{
+                int num = this.m_state;
+                UnconnectedMessageHandler unconnectedMessageHandler = this.m_this;
+                T result2;
+                try
+                {
+                    TaskAwaiter<IUnconnectedMessage> awaiter;
+                    if (num != 0)
+                    {
+                        UnconnectedMessageHandler.RequestResponseWaiter requestResponseWaiter = new UnconnectedMessageHandler.RequestResponseWaiter(unconnectedMessageHandler._disposedTokenSource.Token, this.cancellationToken);
+                        this.waiterId_5__2 = new UnconnectedMessageHandler.RequestWaiterId(this.remoteEndPoint, this.requestId);
+                        unconnectedMessageHandler._requestResponseWaiters.Add(this.waiterId_5__2, requestResponseWaiter);
+                        awaiter = requestResponseWaiter.task.GetAwaiter();
+                        if (!awaiter.IsCompleted)
+                        {
+                            this.m_state = 0;
+                            this.u__1 = awaiter;
+                            this.t__builder.AwaitUnsafeOnCompleted<TaskAwaiter<IUnconnectedMessage>, UnconnectedMessageHandler.AwaitResponseAsync_d__78<T>> (ref awaiter, ref this);
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        awaiter = this.u__1;
+                        this.u__1 = default(TaskAwaiter<IUnconnectedMessage>);
+                        this.m_state = -1;
+                    }
+                    IUnconnectedMessage result = awaiter.GetResult();
+                    unconnectedMessageHandler._requestResponseWaiters.Remove(this.waiterId_5__2);
+                    IUnconnectedMessage unconnectedMessage;
+                    if (!((unconnectedMessage = result) is T))
+                    {
+                        if (result != null)
+                        {
+                            result.Release();
+                        }
+                        throw new Exception("Received Unexpected response");
+                    }
+                    this.tResult_5__3 = (T)((object)unconnectedMessage);
+                    result2 = this.tResult_5__3;
+                }
+                catch (Exception exception)
+                {
+                    this.m_state = -2;
+                    this.t__builder.SetException(exception);
+                    return;
+                }
+                this.m_state = -2;
+                this.t__builder.SetResult(result2);
+            }
+            
+            // Token: 0x06000918 RID: 2328 RVA: 0x0001A324 File Offset: 0x00018524
+            [DebuggerHidden]
+            void IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine)
+            {
+                this.t__builder.SetStateMachine(stateMachine);
+            }
+                
+            // Token: 0x040005A3 RID: 1443
+            public int m_state;
+            
+            // Token: 0x040005A4 RID: 1444
+            public AsyncTaskMethodBuilder<T> t__builder;
+            
+            // Token: 0x040005A5 RID: 1445
+            public UnconnectedMessageHandler m_this;
+            
+            // Token: 0x040005A6 RID: 1446
+            public CancellationToken cancellationToken;
+            
+            // Token: 0x040005A7 RID: 1447
+            public IPEndPoint remoteEndPoint;
+            
+            // Token: 0x040005A8 RID: 1448
+            public uint requestId;
+            
+            // Token: 0x040005A9 RID: 1449
+            private UnconnectedMessageHandler.RequestWaiterId waiterId_5__2;
+            
+            // Token: 0x040005AA RID: 1450
+            private T tResult_5__3;
+            
+            // Token: 0x040005AB RID: 1451
+            private TaskAwaiter<IUnconnectedMessage> u__1;
+		}
+	}
 }

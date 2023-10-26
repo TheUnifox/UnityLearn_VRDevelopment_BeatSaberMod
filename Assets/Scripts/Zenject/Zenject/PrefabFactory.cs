@@ -49,7 +49,7 @@ namespace Zenject
 
         // Token: 0x0400030D RID: 781
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
     }
 
     public class PrefabFactory<P1, T> : IFactory<UnityEngine.Object, P1, T>, IFactory
@@ -95,7 +95,7 @@ namespace Zenject
 
         // Token: 0x0400030E RID: 782
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
     }
 
     public class PrefabFactory<P1, P2, T> : IFactory<UnityEngine.Object, P1, P2, T>, IFactory
@@ -141,7 +141,7 @@ namespace Zenject
 
         // Token: 0x0400030F RID: 783
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
     }
 
     public class PrefabFactory<P1, P2, P3, T> : IFactory<UnityEngine.Object, P1, P2, P3, T>, IFactory
@@ -187,7 +187,7 @@ namespace Zenject
 
         // Token: 0x04000310 RID: 784
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
     }
 
     public class PrefabFactory<P1, P2, P3, P4, T> : IFactory<UnityEngine.Object, P1, P2, P3, P4, T>, IFactory
@@ -233,6 +233,6 @@ namespace Zenject
 
         // Token: 0x04000311 RID: 785
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
     }
 }

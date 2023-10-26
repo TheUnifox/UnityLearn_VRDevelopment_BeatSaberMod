@@ -39,25 +39,31 @@ public class BeatmapLevelDataLoaderSO : PersistentScriptableObject
     return beatmapLevel;
   }
 
-  public virtual async Task<IBeatmapLevel> LoadBeatmapLevelAsync(string levelID)
-  {
-    int num;
-    if (num != 0 && !this._bundleLevelInfos.ContainsKey(levelID))
-      return (IBeatmapLevel) null;
-    try
+    public virtual async Task<IBeatmapLevel> LoadBeatmapLevelAsync(string levelID)
     {
-      BeatmapLevelDataSO beatmapLevelData = await this.LoadBeatmapLevelDataAsync(this._bundleLevelInfos[levelID].assetBundlePath, this._bundleLevelInfos[levelID].levelDataAssetName);
-      BeatmapLevelDataLoaderSO.BeatmapLevelFromPreview levelFromPreview = new BeatmapLevelDataLoaderSO.BeatmapLevelFromPreview(this._bundleLevelInfos[levelID].previewBeatmapLevel);
-      levelFromPreview.LoadData(this._allBeatmapCharacteristicCollection, beatmapLevelData);
-      return (IBeatmapLevel) levelFromPreview;
+        IBeatmapLevel result;
+        if (!this._bundleLevelInfos.ContainsKey(levelID))
+        {
+            result = null;
+        }
+        else
+        {
+            try
+            {
+                BeatmapLevelDataSO beatmapLevelData = await this.LoadBeatmapLevelDataAsync(this._bundleLevelInfos[levelID].assetBundlePath, this._bundleLevelInfos[levelID].levelDataAssetName);
+                BeatmapLevelDataLoaderSO.BeatmapLevelFromPreview beatmapLevelFromPreview = new BeatmapLevelDataLoaderSO.BeatmapLevelFromPreview(this._bundleLevelInfos[levelID].previewBeatmapLevel);
+                beatmapLevelFromPreview.LoadData(this._allBeatmapCharacteristicCollection, beatmapLevelData);
+                result = beatmapLevelFromPreview;
+            }
+            catch
+            {
+                result = null;
+            }
+        }
+        return result;
     }
-    catch
-    {
-      return (IBeatmapLevel) null;
-    }
-  }
 
-  public virtual async Task<BeatmapLevelDataSO> LoadBeatmapLevelDataAsync(
+    public virtual async Task<BeatmapLevelDataSO> LoadBeatmapLevelDataAsync(
     string assetBundlePath,
     string levelDataAssetName)
   {

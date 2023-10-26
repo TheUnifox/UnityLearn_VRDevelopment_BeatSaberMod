@@ -136,7 +136,7 @@ public class LevelSearchViewController : ViewController
       if (startLoadingEvent != null)
         startLoadingEvent(searchViewController);
       // ISSUE: explicit non-virtual call
-      searchViewController._filterParamsText.text = __nonvirtual (searchViewController.LocalizedLevelFilterParamsDescription(searchViewController._currentFilterParams));
+      searchViewController._filterParamsText.text = searchViewController.LocalizedLevelFilterParamsDescription(searchViewController._currentFilterParams);
       searchViewController._filterPlaceholder.SetActive(string.IsNullOrEmpty(searchViewController._filterParamsText.text));
       IBeatmapLevelCollection beatmapLevelCollection = await BeatmapLevelFilterModel.FilerBeatmapLevelPackCollectionAsync(searchViewController._beatmapLevelPacks, searchViewController._currentFilterParams, searchViewController._playerDataModel, searchViewController._additionalContentModel, token);
       searchViewController._beatmapLevelPackCollection = new LevelSearchViewController.BeatmapLevelPackCollection(beatmapLevelCollection);
@@ -146,7 +146,7 @@ public class LevelSearchViewController : ViewController
         return;
       levelCollectionEvent((IAnnotatedBeatmapLevelCollection) searchViewController._beatmapLevelPackCollection, searchViewController._preferredBeatmapCharacteristic);
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
     finally

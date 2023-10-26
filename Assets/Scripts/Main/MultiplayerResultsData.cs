@@ -30,9 +30,9 @@ public class MultiplayerResultsData
   {
     this._gameId = gameId;
     // ISSUE: explicit non-virtual call
-    List<MultiplayerPlayerResultsData> playerResults = new List<MultiplayerPlayerResultsData>((otherPlayersResultData != null ? __nonvirtual (otherPlayersResultData.Count) : 0) + 1);
+    List<MultiplayerPlayerResultsData> playerResults = new List<MultiplayerPlayerResultsData>((otherPlayersResultData != null ? otherPlayersResultData.Count : 0) + 1);
     // ISSUE: explicit non-virtual call
-    List<MultiplayerPlayerResultsData> playerResultsDataList = new List<MultiplayerPlayerResultsData>(otherPlayersResultData != null ? __nonvirtual (otherPlayersResultData.Count) : 0);
+    List<MultiplayerPlayerResultsData> playerResultsDataList = new List<MultiplayerPlayerResultsData>(otherPlayersResultData != null ? otherPlayersResultData.Count : 0);
     this._localPlayerResultData = new MultiplayerPlayerResultsData(multiplayerSessionManager.localPlayer, localPlayerResultData);
     if (localPlayerResultData.hasAnyResults)
       playerResults.Add(this._localPlayerResultData);

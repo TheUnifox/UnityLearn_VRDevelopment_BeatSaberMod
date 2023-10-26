@@ -78,7 +78,7 @@ namespace OnlineServices.API
         }
         webRequest.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
         await this.SendAndWaitAsync(webRequest, cancellationToken);
-        if (!webRequest.isNetworkError && !webRequest.isHttpError)
+        if ((webRequest.result != UnityWebRequest.Result.ConnectionError) && (webRequest.result != UnityWebRequest.Result.ProtocolError))
           return webRequest.downloadHandler.text;
         if (webRequest.responseCode == 401L)
           Debug.Log((object) "Unauthorized");

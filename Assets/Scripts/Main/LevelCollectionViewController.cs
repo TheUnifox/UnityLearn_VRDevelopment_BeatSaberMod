@@ -145,7 +145,7 @@ public class LevelCollectionViewController : ViewController
         return;
       this._songPlayerCrossFadingToLevelId = (string) null;
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
       if (!(this._songPlayerCrossFadingToLevelId == level.levelID))
         return;

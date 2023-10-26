@@ -51,18 +51,16 @@ namespace BeatmapEditor3D.BpmEditor.UI
 
     private void HandlePlayHeadZoomed() => this.SetPreviewPositionAndSize(this._bpmEditorState.sample);
 
-    private void SetPreviewPositionAndSize(int sample)
-    {
-      int num = Mathf.Max(0, sample - this._bpmEditorState.previewHalfSize);
-      int regionEndSample = Mathf.Min(this._bpmEditorSongPreviewController.samplesCount, sample + this._bpmEditorState.previewHalfSize);
-      this._previewTransform.anchoredPosition = this._previewTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, num, this._startSample, this._endSample) + 1f
-      };
-      this._previewTransform.sizeDelta = this._previewTransform.sizeDelta with
-      {
-        x = WaveformPlacementHelper.CalculateRegionWidth(this._containerTransform, num, regionEndSample, this._startSample, this._endSample)
-      };
+        private void SetPreviewPositionAndSize(int sample)
+        {
+            int num = Mathf.Max(0, sample - this._bpmEditorState.previewHalfSize);
+            int regionEndSample = Mathf.Min(this._bpmEditorSongPreviewController.samplesCount, sample + this._bpmEditorState.previewHalfSize);
+            Vector2 anchoredPosition = this._previewTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, num, this._startSample, this._endSample) + 1f;
+            this._previewTransform.anchoredPosition = anchoredPosition;
+            Vector2 sizeDelta = this._previewTransform.sizeDelta;
+            sizeDelta.x = WaveformPlacementHelper.CalculateRegionWidth(this._containerTransform, num, regionEndSample, this._startSample, this._endSample);
+            this._previewTransform.sizeDelta = sizeDelta;
+        }
     }
-  }
 }

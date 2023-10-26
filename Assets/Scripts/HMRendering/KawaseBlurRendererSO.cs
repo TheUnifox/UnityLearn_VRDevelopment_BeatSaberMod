@@ -180,89 +180,75 @@ public class KawaseBlurRendererSO : PersistentScriptableObject
     EssentialHelpers.SafeDestroy((UnityEngine.Object) this._tintMaterial);
   }
 
-  public virtual void Bloom(
-    RenderTexture src,
-    RenderTexture dest,
-    int iterationsStart,
-    int iterations,
-    float boost,
-    float alphaWeights,
-    KawaseBlurRendererSO.WeightsType blurStartWeightsType,
-    float[] bloomIterationWeights)
-  {
-    iterations = Mathf.Clamp(iterations, 1, Mathf.Min(this._bloomKernels.Length, 5));
-    RenderTextureDescriptor descriptor = dest.descriptor with
+    public virtual void Bloom(RenderTexture src, RenderTexture dest, int iterationsStart, int iterations, float boost, float alphaWeights, KawaseBlurRendererSO.WeightsType blurStartWeightsType, float[] bloomIterationWeights)
     {
-      depthBufferBits = 0,
-      msaaSamples = 1
-    };
-    RenderTexture renderTexture = src;
-    int startIdx = 0;
-    for (int index = iterationsStart; index < iterationsStart + iterations; ++index)
-    {
-      KawaseBlurRendererSO.BloomKernel bloomKernel = this._bloomKernels[index];
-      int[] blurKernel = this.GetBlurKernel(bloomKernel.kernelSize);
-      RenderTexture temporary = RenderTexture.GetTemporary(descriptor);
-      this.Blur((Texture) renderTexture, temporary, blurKernel, boost, 0, startIdx, bloomKernel.sharedPartWithNext - startIdx, alphaWeights, 1f, false, false, index == iterationsStart ? blurStartWeightsType : KawaseBlurRendererSO.WeightsType.None);
-      startIdx = bloomKernel.sharedPartWithNext;
-      this._blurTextures[index - iterationsStart] = RenderTexture.GetTemporary(descriptor);
-      this.Blur((Texture) temporary, this._blurTextures[index - iterationsStart], blurKernel, boost, 0, bloomKernel.sharedPartWithNext, blurKernel.Length - bloomKernel.sharedPartWithNext, 0.0f, 1f, false, false, KawaseBlurRendererSO.WeightsType.None);
-      if (index > iterationsStart)
+        iterations = Mathf.Clamp(iterations, 1, Mathf.Min(this._bloomKernels.Length, 5));
+        RenderTextureDescriptor descriptor = dest.descriptor;
+        descriptor.depthBufferBits = 0;
+        descriptor.msaaSamples = 1;
+        RenderTexture renderTexture = src;
+        int num = 0;
+        for (int i = iterationsStart; i < iterationsStart + iterations; i++)
+        {
+            KawaseBlurRendererSO.BloomKernel bloomKernel = this._bloomKernels[i];
+            int[] blurKernel = this.GetBlurKernel(bloomKernel.kernelSize);
+            RenderTexture temporary = RenderTexture.GetTemporary(descriptor);
+            this.Blur(renderTexture, temporary, blurKernel, boost, 0, num, bloomKernel.sharedPartWithNext - num, alphaWeights, 1f, false, false, (i == iterationsStart) ? blurStartWeightsType : KawaseBlurRendererSO.WeightsType.None);
+            num = bloomKernel.sharedPartWithNext;
+            this._blurTextures[i - iterationsStart] = RenderTexture.GetTemporary(descriptor);
+            this.Blur(temporary, this._blurTextures[i - iterationsStart], blurKernel, boost, 0, bloomKernel.sharedPartWithNext, blurKernel.Length - bloomKernel.sharedPartWithNext, 0f, 1f, false, false, KawaseBlurRendererSO.WeightsType.None);
+            if (i > iterationsStart)
+            {
+                RenderTexture.ReleaseTemporary(renderTexture);
+            }
+            renderTexture = temporary;
+        }
         RenderTexture.ReleaseTemporary(renderTexture);
-      renderTexture = temporary;
+        if (bloomIterationWeights == null)
+        {
+            bloomIterationWeights = KawaseBlurRendererSO.kBloomIterationWeights[iterations - 1];
+        }
+        for (int j = iterationsStart; j < iterationsStart + iterations; j++)
+        {
+            float num2 = bloomIterationWeights[j - iterationsStart];
+            if (j == iterationsStart)
+            {
+                this._tintMaterial.SetColor(KawaseBlurRendererSO._tintColorID, new Color(num2, num2, num2, num2));
+                Graphics.Blit(this._blurTextures[j - iterationsStart], dest, this._tintMaterial);
+            }
+            else
+            {
+                this._additiveMaterial.SetFloat(KawaseBlurRendererSO._alphaID, num2);
+                Graphics.Blit(this._blurTextures[j - iterationsStart], dest, this._additiveMaterial);
+            }
+            RenderTexture.ReleaseTemporary(this._blurTextures[j - iterationsStart]);
+        }
     }
-    RenderTexture.ReleaseTemporary(renderTexture);
-    if (bloomIterationWeights == null)
-      bloomIterationWeights = KawaseBlurRendererSO.kBloomIterationWeights[iterations - 1];
-    for (int index = iterationsStart; index < iterationsStart + iterations; ++index)
+
+    public virtual void DoubleBlur(RenderTexture src, RenderTexture dest, KawaseBlurRendererSO.KernelSize kernelSize0, float boost0, KawaseBlurRendererSO.KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection)
     {
-      float bloomIterationWeight = bloomIterationWeights[index - iterationsStart];
-      if (index == iterationsStart)
-      {
-        this._tintMaterial.SetColor(KawaseBlurRendererSO._tintColorID, new Color(bloomIterationWeight, bloomIterationWeight, bloomIterationWeight, bloomIterationWeight));
-        Graphics.Blit((Texture) this._blurTextures[index - iterationsStart], dest, this._tintMaterial);
-      }
-      else
-      {
-        this._additiveMaterial.SetFloat(KawaseBlurRendererSO._alphaID, bloomIterationWeight);
-        Graphics.Blit((Texture) this._blurTextures[index - iterationsStart], dest, this._additiveMaterial);
-      }
-      RenderTexture.ReleaseTemporary(this._blurTextures[index - iterationsStart]);
+        int[] blurKernel = this.GetBlurKernel(kernelSize0);
+        int[] blurKernel2 = this.GetBlurKernel(kernelSize1);
+        int num = 0;
+        while (num < blurKernel.Length && num < blurKernel2.Length && blurKernel[num] == blurKernel2[num])
+        {
+            num++;
+        }
+        int width = src.width >> downsample;
+        int height = src.height >> downsample;
+        RenderTextureDescriptor descriptor = src.descriptor;
+        descriptor.depthBufferBits = 0;
+        descriptor.msaaSamples = 1;
+        descriptor.width = width;
+        descriptor.height = height;
+        RenderTexture temporary = RenderTexture.GetTemporary(descriptor);
+        this.Blur(src, temporary, blurKernel, 0f, downsample, 0, num, 0f, 1f, false, false, KawaseBlurRendererSO.WeightsType.None);
+        this.Blur(temporary, dest, blurKernel, boost0, 0, num, blurKernel.Length - num, 0f, 1f, false, gammaCorrection, KawaseBlurRendererSO.WeightsType.None);
+        this.Blur(temporary, dest, blurKernel2, boost1, 0, num, blurKernel2.Length - num, 0f, secondBlurAlpha, true, gammaCorrection, KawaseBlurRendererSO.WeightsType.None);
+        RenderTexture.ReleaseTemporary(temporary);
     }
-  }
 
-  public virtual void DoubleBlur(
-    RenderTexture src,
-    RenderTexture dest,
-    KawaseBlurRendererSO.KernelSize kernelSize0,
-    float boost0,
-    KawaseBlurRendererSO.KernelSize kernelSize1,
-    float boost1,
-    float secondBlurAlpha,
-    int downsample,
-    bool gammaCorrection)
-  {
-    int[] blurKernel1 = this.GetBlurKernel(kernelSize0);
-    int[] blurKernel2 = this.GetBlurKernel(kernelSize1);
-    int index = 0;
-    while (index < blurKernel1.Length && index < blurKernel2.Length && blurKernel1[index] == blurKernel2[index])
-      ++index;
-    int num1 = src.width >> downsample;
-    int num2 = src.height >> downsample;
-    RenderTexture temporary = RenderTexture.GetTemporary(src.descriptor with
-    {
-      depthBufferBits = 0,
-      msaaSamples = 1,
-      width = num1,
-      height = num2
-    });
-    this.Blur((Texture) src, temporary, blurKernel1, 0.0f, downsample, 0, index, 0.0f, 1f, false, false, KawaseBlurRendererSO.WeightsType.None);
-    this.Blur((Texture) temporary, dest, blurKernel1, boost0, 0, index, blurKernel1.Length - index, 0.0f, 1f, false, gammaCorrection, KawaseBlurRendererSO.WeightsType.None);
-    this.Blur((Texture) temporary, dest, blurKernel2, boost1, 0, index, blurKernel2.Length - index, 0.0f, secondBlurAlpha, true, gammaCorrection, KawaseBlurRendererSO.WeightsType.None);
-    RenderTexture.ReleaseTemporary(temporary);
-  }
-
-  public virtual Texture2D Blur(
+    public virtual Texture2D Blur(
     Texture src,
     KawaseBlurRendererSO.KernelSize kernelSize,
     int downsample = 0)
@@ -286,77 +272,79 @@ public class KawaseBlurRendererSO : PersistentScriptableObject
     this.Blur(src, dest, blurKernel, boost, downsample, 0, blurKernel.Length, 0.0f, 1f, false, false, KawaseBlurRendererSO.WeightsType.None);
   }
 
-  public virtual void Blur(
-    Texture src,
-    RenderTexture dest,
-    int[] kernel,
-    float boost,
-    int downsample,
-    int startIdx,
-    int length,
-    float alphaWeights,
-    float additiveAlpha,
-    bool additivelyBlendToDest,
-    bool gammaCorrection,
-    KawaseBlurRendererSO.WeightsType blurStartWeightsType)
-  {
-    if (length == 0)
+    public virtual void Blur(Texture src, RenderTexture dest, int[] kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, KawaseBlurRendererSO.WeightsType blurStartWeightsType)
     {
-      Graphics.Blit(src, dest);
-    }
-    else
-    {
-      int num1 = src.width >> downsample;
-      int num2 = src.height >> downsample;
-      if (downsample == 0)
-      {
-        num1 = dest.width;
-        num2 = dest.height;
-      }
-      RenderTextureDescriptor descriptor = dest.descriptor with
-      {
-        depthBufferBits = 0,
-        width = num1,
-        height = num2,
-        msaaSamples = 1
-      };
-      this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._alphaWeightsID, alphaWeights);
-      Texture texture;
-      if (blurStartWeightsType == KawaseBlurRendererSO.WeightsType.AlphaAndDepthWeights)
-      {
-        texture = (Texture) RenderTexture.GetTemporary(descriptor);
-        Graphics.Blit(src, (RenderTexture) texture, this._kawaseBlurMaterial, 4);
-      }
-      else
-        texture = src;
-      int num3 = startIdx + length;
-      for (int index = startIdx; index < num3; ++index)
-      {
-        int pass = index != 0 || blurStartWeightsType != KawaseBlurRendererSO.WeightsType.AlphaWeights ? 1 : 3;
-        RenderTexture dest1;
-        if (index == num3 - 1)
+        if (length == 0)
         {
-          dest1 = dest;
-          if (additivelyBlendToDest)
-            pass = gammaCorrection ? 6 : 2;
-          else if (gammaCorrection)
-            pass = 5;
+            Graphics.Blit(src, dest);
+            return;
+        }
+        int width = src.width >> downsample;
+        int height = src.height >> downsample;
+        if (downsample == 0)
+        {
+            width = dest.width;
+            height = dest.height;
+        }
+        RenderTextureDescriptor descriptor = dest.descriptor;
+        descriptor.depthBufferBits = 0;
+        descriptor.width = width;
+        descriptor.height = height;
+        descriptor.msaaSamples = 1;
+        this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._alphaWeightsID, alphaWeights);
+        Texture texture;
+        if (blurStartWeightsType == KawaseBlurRendererSO.WeightsType.AlphaAndDepthWeights)
+        {
+            texture = RenderTexture.GetTemporary(descriptor);
+            Graphics.Blit(src, (RenderTexture)texture, this._kawaseBlurMaterial, 4);
         }
         else
-          dest1 = RenderTexture.GetTemporary(descriptor);
-        float num4 = (float) kernel[index] + 0.5f;
-        this._kawaseBlurMaterial.SetVector(KawaseBlurRendererSO._offsetID, new Vector4(num4, num4, -num4, num4));
-        this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._boostID, boost);
-        this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._additiveAlphaID, additiveAlpha);
-        Graphics.Blit(texture, dest1, this._kawaseBlurMaterial, pass);
-        if ((UnityEngine.Object) texture != (UnityEngine.Object) src)
-          RenderTexture.ReleaseTemporary((RenderTexture) texture);
-        texture = (Texture) dest1;
-      }
+        {
+            texture = src;
+        }
+        int num = startIdx + length;
+        for (int i = startIdx; i < num; i++)
+        {
+            int pass;
+            if (i == 0 && blurStartWeightsType == KawaseBlurRendererSO.WeightsType.AlphaWeights)
+            {
+                pass = 3;
+            }
+            else
+            {
+                pass = 1;
+            }
+            RenderTexture renderTexture;
+            if (i == num - 1)
+            {
+                renderTexture = dest;
+                if (additivelyBlendToDest)
+                {
+                    pass = (gammaCorrection ? 6 : 2);
+                }
+                else if (gammaCorrection)
+                {
+                    pass = 5;
+                }
+            }
+            else
+            {
+                renderTexture = RenderTexture.GetTemporary(descriptor);
+            }
+            float num2 = (float)kernel[i] + 0.5f;
+            this._kawaseBlurMaterial.SetVector(KawaseBlurRendererSO._offsetID, new Vector4(num2, num2, -num2, num2));
+            this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._boostID, boost);
+            this._kawaseBlurMaterial.SetFloat(KawaseBlurRendererSO._additiveAlphaID, additiveAlpha);
+            Graphics.Blit(texture, renderTexture, this._kawaseBlurMaterial, pass);
+            if (texture != src)
+            {
+                RenderTexture.ReleaseTemporary((RenderTexture)texture);
+            }
+            texture = renderTexture;
+        }
     }
-  }
 
-  public virtual void AlphaWeights(RenderTexture src, RenderTexture dest)
+    public virtual void AlphaWeights(RenderTexture src, RenderTexture dest)
   {
     float num = 0.5f;
     this._kawaseBlurMaterial.SetVector(KawaseBlurRendererSO._offsetID, new Vector4(num, num, -num, num));

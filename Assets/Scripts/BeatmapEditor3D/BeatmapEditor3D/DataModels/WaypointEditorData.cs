@@ -26,7 +26,7 @@ namespace BeatmapEditor3D.DataModels
       int? row = null,
       OffsetDirection? offsetDirection = null)
     {
-      return WaypointEditorData.CreateNewWithId(id ?? waypointData.id, (float) ((double) beat ?? (double) waypointData.beat), column ?? waypointData.column, row ?? waypointData.row, (OffsetDirection) ((int) offsetDirection ?? (int) waypointData.offsetDirection));
+      return WaypointEditorData.CreateNewWithId(id ?? waypointData.id, beat ?? waypointData.beat, column ?? waypointData.column, row ?? waypointData.row, offsetDirection ?? waypointData.offsetDirection);
     }
 
     public static WaypointEditorData CreateNew(

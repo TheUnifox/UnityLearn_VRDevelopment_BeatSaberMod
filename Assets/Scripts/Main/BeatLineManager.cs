@@ -82,20 +82,18 @@ public class BeatLineManager : MonoBehaviour
     }
   }
 
-  public virtual void HandleNoteWasSpawned(NoteController noteController)
-  {
-    Vector4 beatPos = (Vector4) noteController.beatPos with
+    public virtual void HandleNoteWasSpawned(NoteController noteController)
     {
-      z = -this._linesYPosition,
-      w = noteController.worldRotation.eulerAngles.y
-    };
-    BeatLine beatLine;
-    if (!this._activeBeatLines.TryGetValue(beatPos, out beatLine))
-    {
-      beatLine = this._beatLinePool.Spawn();
-      beatLine.Init((Vector3) beatPos, beatPos.w);
-      this._activeBeatLines[beatPos] = beatLine;
+        Vector4 vector = noteController.beatPos;
+        vector.z = -this._linesYPosition;
+        vector.w = noteController.worldRotation.eulerAngles.y;
+        BeatLine beatLine;
+        if (!this._activeBeatLines.TryGetValue(vector, out beatLine))
+        {
+            beatLine = this._beatLinePool.Spawn();
+            beatLine.Init(vector, vector.w);
+            this._activeBeatLines[vector] = beatLine;
+        }
+        beatLine.AddHighlight(noteController.moveStartTime, noteController.moveDuration, noteController.jumpDuration);
     }
-    beatLine.AddHighlight(noteController.moveStartTime, noteController.moveDuration, noteController.jumpDuration);
-  }
 }

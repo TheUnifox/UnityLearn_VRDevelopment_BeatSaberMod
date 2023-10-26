@@ -52,7 +52,7 @@ namespace BeatmapEditor3D.DataModels
       bool? usePreviousEventRotationValue = null,
       LightRotationDirection? rotationDirection = null)
     {
-      return LightRotationBaseEditorData.CreateNewWithId(id ?? original.id, (float) ((double) beat ?? (double) original.beat), (EaseType) ((int) easeType ?? (int) original.easeType), loopsCount ?? original.loopsCount, (float) ((double) rotation ?? (double) original.rotation), ((int) usePreviousEventRotationValue ?? (original.usePreviousEventRotationValue ? 1 : 0)) != 0, (LightRotationDirection) ((int) rotationDirection ?? (int) original.rotationDirection));
+      return LightRotationBaseEditorData.CreateNewWithId(id ?? original.id, beat ?? original.beat, easeType ?? original.easeType, loopsCount ?? original.loopsCount, rotation ?? original.rotation, usePreviousEventRotationValue ?? original.usePreviousEventRotationValue, rotationDirection ?? original.rotationDirection);
     }
 
     public static LightRotationBaseEditorData CreateExtension(float beat) => LightRotationBaseEditorData.CreateNew(beat, EaseType.None, 0, 0.0f, true, LightRotationDirection.Automatic);

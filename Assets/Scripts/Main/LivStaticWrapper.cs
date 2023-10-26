@@ -31,7 +31,7 @@ public abstract class LivStaticWrapper
       "Collider",
       "MainCamera"
     };
-    LivStaticWrapper._liv.spectatorLayerMask = (LayerMask) -1;
+    LivStaticWrapper._liv.spectatorLayerMask = (LayerMask)(-1);
     LIV.SDK.Unity.LIV liv1 = LivStaticWrapper._liv;
     liv1.spectatorLayerMask = (LayerMask) ((int) liv1.spectatorLayerMask & -1025);
     LIV.SDK.Unity.LIV liv2 = LivStaticWrapper._liv;

@@ -88,12 +88,12 @@ namespace BeatmapEditor3D.Controller
           for (int elementId = 0; elementId < boxGroupTrackInfo.lightGroup.numberOfElements; ++elementId)
           {
             this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightColorBeatmapEventData(beat, groupId, elementId, BeatmapEventTransitionType.Instant, global::EnvironmentColorType.Color0, 0.0f, 0));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.X, 0.0f, 0, LightRotationDirection.Automatic));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.Y, 0.0f, 0, LightRotationDirection.Automatic));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.Z, 0.0f, 0, LightRotationDirection.Automatic));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.X, 0.0f, 0.0f));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.Y, 0.0f, 0.0f));
-            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None, LightAxis.Z, 0.0f, 0.0f));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.X, 0.0f, 0, LightRotationDirection.Automatic));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.Y, 0.0f, 0, LightRotationDirection.Automatic));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightRotationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.Z, 0.0f, 0, LightRotationDirection.Automatic));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.X, 0.0f, 0.0f));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.Y, 0.0f, 0.0f));
+            this._beatmapCallbacksController.TriggerBeatmapEvent((BeatmapEventData) new LightTranslationBeatmapEventData(beat, groupId, elementId, false, EaseType.None.FromEaseType(), LightAxis.Z, 0.0f, 0.0f));
           }
         }
       }

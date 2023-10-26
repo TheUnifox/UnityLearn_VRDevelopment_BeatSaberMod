@@ -80,10 +80,9 @@ public class NoteCutCoreEffectsSpawner : MonoBehaviour
       Color color = this._colorManager.ColorForType(noteData.colorType).ColorWithAlpha(0.5f);
       Vector3 cutPoint = noteCutInfo.cutPoint;
       this._noteCutParticlesEffect.SpawnParticles(noteCutInfo.cutPoint, noteCutInfo.cutNormal, noteCutInfo.saberDir, noteCutInfo.saberSpeed, noteController.moveVec, (Color32) color, sparkleParticlesCount, explosionParticlesCount, Mathf.Clamp(noteData.timeToNextColorNote + 0.1f, 0.5f, 2f));
-      this._shockwaveEffect.SpawnShockwave(cutPoint with
-      {
-        y = this._shockWaveYPos
-      });
+            Vector3 pos = cutPoint;
+            pos.y = this._shockWaveYPos;
+            this._shockwaveEffect.SpawnShockwave(pos);
     }
     Transform noteTransform = noteController.noteTransform;
     this._noteDebrisSpawner.SpawnDebris(noteData.gameplayType, noteCutInfo.cutPoint, noteCutInfo.cutNormal, noteCutInfo.saberSpeed, noteCutInfo.saberDir, noteTransform.position, noteTransform.rotation, noteTransform.localScale, noteController.noteData.colorType, noteController.noteData.timeToNextColorNote, moveVec);
@@ -93,9 +92,8 @@ public class NoteCutCoreEffectsSpawner : MonoBehaviour
   {
     Vector3 cutPoint = noteCutInfo.cutPoint;
     this._bombExplosionEffect.SpawnExplosion(cutPoint);
-    this._shockwaveEffect.SpawnShockwave(cutPoint with
-    {
-      y = this._shockWaveYPos
-    });
+        Vector3 pos = cutPoint;
+        pos.y = this._shockWaveYPos;
+        this._shockwaveEffect.SpawnShockwave(pos);
   }
 }

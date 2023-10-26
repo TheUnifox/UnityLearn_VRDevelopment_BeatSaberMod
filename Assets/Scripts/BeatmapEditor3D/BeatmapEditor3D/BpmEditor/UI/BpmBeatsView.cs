@@ -187,17 +187,11 @@ namespace BeatmapEditor3D.BpmEditor.UI
       }
     }
 
-    private void CalculatePosition(
-      RectTransform rectTransform,
-      int sample,
-      int previewStartSample,
-      int previewEndSample)
-    {
-      Vector2 anchoredPosition = rectTransform.anchoredPosition with
-      {
-        x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, previewStartSample, previewEndSample)
-      };
-      rectTransform.anchoredPosition = anchoredPosition;
+        private void CalculatePosition(RectTransform rectTransform, int sample, int previewStartSample, int previewEndSample)
+        {
+            Vector2 anchoredPosition = rectTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, previewStartSample, previewEndSample);
+            rectTransform.anchoredPosition = anchoredPosition;
+        }
     }
-  }
 }

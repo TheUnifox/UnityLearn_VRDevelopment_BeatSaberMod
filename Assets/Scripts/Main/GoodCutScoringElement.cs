@@ -15,7 +15,7 @@ public class GoodCutScoringElement : ScoringElement, ICutScoreBufferDidFinishRec
     get
     {
       CutScoreBuffer cutScoreBuffer = this._cutScoreBuffer;
-      return cutScoreBuffer == null ? 0 : __nonvirtual (cutScoreBuffer.cutScore);
+      return cutScoreBuffer == null ? 0 : (cutScoreBuffer.cutScore);
     }
   }
 

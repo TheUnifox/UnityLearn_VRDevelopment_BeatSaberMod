@@ -232,7 +232,7 @@ public class CentralLeaderboardViewController : LeaderboardViewController
         return;
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
       return;
     }

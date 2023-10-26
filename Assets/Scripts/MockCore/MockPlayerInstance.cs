@@ -37,7 +37,7 @@ public class MockPlayerInstance : IStandaloneMonobehavior, IDisposable
     }
 
     // Token: 0x0600005C RID: 92 RVA: 0x000037E8 File Offset: 0x000019E8
-    public MockPlayerInstance(ITimeProvider timeProvider, ITaskUtility taskUtility, IMockBeatmapDataProvider beatmapDataProvider, IConnectionManager connectionManager)
+    public MockPlayerInstance(BGNet.Core.ITimeProvider timeProvider, ITaskUtility taskUtility, IMockBeatmapDataProvider beatmapDataProvider, IConnectionManager connectionManager)
     {
         this._timeProvider = timeProvider;
         this._taskUtility = taskUtility;
@@ -135,7 +135,7 @@ public class MockPlayerInstance : IStandaloneMonobehavior, IDisposable
     private readonly string _userName;
 
     // Token: 0x04000042 RID: 66
-    private readonly ITimeProvider _timeProvider;
+    private readonly BGNet.Core.ITimeProvider _timeProvider;
 
     // Token: 0x04000043 RID: 67
     private readonly ITaskUtility _taskUtility;

@@ -94,14 +94,14 @@ public class RecordingToolConfigurationProcessor
     return this.DeserializeConfigurationFile(this.LoadConfigurationFile(filePath));
   }
 
-  public static LayerMask GetDefaultMrcLayersMask() => (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask) -1 & -1025) & -65537) & -33554433) & -134217729) & int.MaxValue);
+  public static LayerMask GetDefaultMrcLayersMask() => (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask) ((int) (LayerMask)(-1) & -1025) & -65537) & -33554433) & -134217729) & int.MaxValue);
 
   public virtual LayerMask GetLayerMask(string layerName)
   {
     switch (layerName)
     {
       case "Everything":
-        return (LayerMask) -1;
+        return (LayerMask)(-1);
       case "Nothing":
         return (LayerMask) 0;
       case "DefaultMrcLayers":

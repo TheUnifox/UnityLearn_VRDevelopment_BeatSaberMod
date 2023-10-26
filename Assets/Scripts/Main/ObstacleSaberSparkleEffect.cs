@@ -15,14 +15,16 @@ public class ObstacleSaberSparkleEffect : MonoBehaviour
   protected ParticleSystem.EmissionModule _sparkleParticleSystemEmissionModule;
   protected ParticleSystem.EmissionModule _burnParticleSystemEmissionModule;
 
-  public Color color
-  {
-    set
+    public Color color
     {
-      this._sparkleParticleSystem.main.startColor = (ParticleSystem.MinMaxGradient) value;
-      this._burnParticleSystem.main.startColor = (ParticleSystem.MinMaxGradient) value;
+        set
+        {
+            var sparkleMain = _sparkleParticleSystem.main;
+            var burnMain = _burnParticleSystem.main;
+            sparkleMain.startColor = (ParticleSystem.MinMaxGradient) value;
+            burnMain.startColor = (ParticleSystem.MinMaxGradient) value;
+        }
     }
-  }
 
   public virtual void Awake()
   {

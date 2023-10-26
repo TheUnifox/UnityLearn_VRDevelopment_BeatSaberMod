@@ -491,7 +491,7 @@ public class BeatmapDataLoader
         BeatmapDataLoader.IndexFilterConvertor.Convert(indexFilter, groupSize);
         return true;
       }
-      catch (AssertionException ex)
+      catch (AssertionException)
       {
         return false;
       }

@@ -70,12 +70,14 @@ namespace BeatmapEditor3D
       pointerExitEvent(this._index);
     }
 
-    public void SetHighlighted(bool highlighted) => this._image.color = this._image.color with
-    {
-      a = highlighted ? 0.2f : 0.02f
-    };
+        public void SetHighlighted(bool highlighted)
+        {
+            Color color = this._image.color;
+            color.a = (highlighted ? 0.2f : 0.02f);
+            this._image.color = color;
+        }
 
-    private void Reinitialize(int index) => this._index = index;
+        private void Reinitialize(int index) => this._index = index;
 
     public class Pool : MonoMemoryPool<int, EventObjectSelectionCellView>
     {

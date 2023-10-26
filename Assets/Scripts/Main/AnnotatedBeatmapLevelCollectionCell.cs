@@ -113,14 +113,13 @@ public class AnnotatedBeatmapLevelCollectionCell : SelectableCell
         }
       }
 label_12:
-      IEnumerator<IPreviewBeatmapLevel> enumerator = (IEnumerator<IPreviewBeatmapLevel>) null;
       if (!error && numberOfOwnedLevels == 0)
         this.SetDownloadIconVisible(true);
       if (!error && numberOfOwnedLevels != this._annotatedBeatmapLevelCollection.beatmapLevelCollection.beatmapLevels.Count)
         this._infoText.text = this.GetInfoText(this._annotatedBeatmapLevelCollection.collectionName, this._annotatedBeatmapLevelCollection.beatmapLevelCollection.beatmapLevels.Count, numberOfOwnedLevels);
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
   }

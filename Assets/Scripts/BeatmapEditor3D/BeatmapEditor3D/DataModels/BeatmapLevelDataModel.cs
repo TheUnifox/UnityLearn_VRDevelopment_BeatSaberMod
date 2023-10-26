@@ -48,7 +48,7 @@ namespace BeatmapEditor3D.DataModels
       List<ChainEditorData> chains = null)
     {
       this.beatmapCharacteristic = (UnityEngine.Object) beatmapCharacteristic != (UnityEngine.Object) null ? beatmapCharacteristic : this.beatmapCharacteristic;
-      this.beatmapDifficulty = (BeatmapDifficulty) ((int) beatmapDifficulty ?? (int) this.beatmapDifficulty);
+      this.beatmapDifficulty = beatmapDifficulty ?? this.beatmapDifficulty;
       if (notes != null)
       {
         this._notesRepository.Clear();

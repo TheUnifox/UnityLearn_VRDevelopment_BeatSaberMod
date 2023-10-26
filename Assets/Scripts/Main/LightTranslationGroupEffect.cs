@@ -89,7 +89,7 @@ public class LightTranslationGroupEffect
       translationTween.Kill();
       float translation1 = LightTranslationGroupEffect.ComputeTranslation(currentEventData.translation, translationLimits, currentEventData.distribution, distributionLimits, mirrored);
       LightTranslationBeatmapEventData sameTypeEventData = (LightTranslationBeatmapEventData) currentEventData.nextSameTypeEventData;
-      if (sameTypeEventData == null || sameTypeEventData.easeType == EaseType.None)
+      if (sameTypeEventData == null || sameTypeEventData.easeType.ToEaseType() == EaseType.None)
       {
         LightTranslationGroupEffect.SetTweenData(translationTween, translation1, translation1, currentEventData.time, currentEventData.time, EaseType.Linear);
         translationTween.Update(0.0f);
@@ -97,7 +97,7 @@ public class LightTranslationGroupEffect
       else
       {
         float translation2 = LightTranslationGroupEffect.ComputeTranslation(sameTypeEventData.translation, translationLimits, sameTypeEventData.distribution, distributionLimits, mirrored);
-        LightTranslationGroupEffect.SetTweenData(translationTween, translation1, translation2, currentEventData.time, sameTypeEventData.time, sameTypeEventData.easeType);
+        LightTranslationGroupEffect.SetTweenData(translationTween, translation1, translation2, currentEventData.time, sameTypeEventData.time, sameTypeEventData.easeType.ToEaseType());
         this._tweeningManager.ResumeTween((Tween) translationTween, (object) this);
       }
     });

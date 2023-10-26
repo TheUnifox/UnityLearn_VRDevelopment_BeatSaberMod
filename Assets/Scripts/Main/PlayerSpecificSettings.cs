@@ -173,7 +173,26 @@ public class PlayerSpecificSettings
     EnvironmentEffectsFilterPreset? environmentEffectsFilterDefaultPreset = null,
     EnvironmentEffectsFilterPreset? environmentEffectsFilterExpertPlusPreset = null)
   {
-    return new PlayerSpecificSettings(((int) leftHanded ?? (this._leftHanded ? 1 : 0)) != 0, (float) ((double) playerHeight ?? (double) this._playerHeight), ((int) automaticPlayerHeight ?? (this._automaticPlayerHeight ? 1 : 0)) != 0, (float) ((double) sfxVolume ?? (double) this._sfxVolume), ((int) reduceDebris ?? (this._reduceDebris ? 1 : 0)) != 0, ((int) noTextsAndHuds ?? (this._noTextsAndHuds ? 1 : 0)) != 0, ((int) noFailEffects ?? (this._noFailEffects ? 1 : 0)) != 0, ((int) advancedHud ?? (this._advancedHud ? 1 : 0)) != 0, ((int) autoRestart ?? (this._autoRestart ? 1 : 0)) != 0, (float) ((double) saberTrailIntensity ?? (double) this._saberTrailIntensity), (NoteJumpDurationTypeSettings) ((int) noteJumpDurationTypeSettings ?? (int) this._noteJumpDurationTypeSettings), (float) ((double) noteJumpFixedDuration ?? (double) this._noteJumpFixedDuration), (float) ((double) noteJumpStartBeatOffset ?? (double) this._noteJumpStartBeatOffset), ((int) hideNoteSpawnEffect ?? (this._hideNoteSpawnEffect ? 1 : 0)) != 0, ((int) adaptiveSfx ?? (this._adaptiveSfx ? 1 : 0)) != 0, ((int) arcsHapticFeedback ?? (this._arcsHapticFeedback ? 1 : 0)) != 0, (ArcVisibilityType) ((int) arcsVisible ?? (int) this._arcsVisible), (EnvironmentEffectsFilterPreset) ((int) environmentEffectsFilterDefaultPreset ?? (int) this._environmentEffectsFilterDefaultPreset), (EnvironmentEffectsFilterPreset) ((int) environmentEffectsFilterExpertPlusPreset ?? (int) this._environmentEffectsFilterExpertPlusPreset));
+    return new PlayerSpecificSettings(
+        leftHanded ?? _leftHanded, 
+        playerHeight ?? _playerHeight, 
+        automaticPlayerHeight ?? _automaticPlayerHeight, 
+        sfxVolume ?? _sfxVolume, 
+        reduceDebris ?? _reduceDebris, 
+        noTextsAndHuds ?? _noTextsAndHuds, 
+        noFailEffects ?? _noFailEffects, 
+        advancedHud ?? _advancedHud, 
+        autoRestart ?? _autoRestart, 
+        saberTrailIntensity ?? _saberTrailIntensity, 
+        noteJumpDurationTypeSettings ?? _noteJumpDurationTypeSettings, 
+        noteJumpFixedDuration ?? _noteJumpFixedDuration, 
+        noteJumpStartBeatOffset ?? _noteJumpStartBeatOffset, 
+        hideNoteSpawnEffect ?? _hideNoteSpawnEffect, 
+        adaptiveSfx ?? _adaptiveSfx, 
+        arcsHapticFeedback ?? _arcsHapticFeedback, 
+        arcsVisible ?? _arcsVisible, 
+        environmentEffectsFilterDefaultPreset ?? _environmentEffectsFilterDefaultPreset, 
+        environmentEffectsFilterExpertPlusPreset ?? _environmentEffectsFilterExpertPlusPreset );
   }
 
   public virtual EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(

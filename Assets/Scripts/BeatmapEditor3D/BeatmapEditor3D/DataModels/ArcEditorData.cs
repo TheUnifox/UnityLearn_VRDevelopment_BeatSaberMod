@@ -32,7 +32,7 @@ namespace BeatmapEditor3D.DataModels
       float? tailControlPointLengthMultiplier = null,
       SliderMidAnchorMode? midAnchorMode = null)
     {
-      return ArcEditorData.CreateNewWithId(id ?? data.id, (ColorType) ((int) colorType ?? (int) data.colorType), (float) ((double) beat ?? (double) data.beat), column ?? data.column, row ?? data.row, (NoteCutDirection) ((int) cutDirection ?? (int) data.cutDirection), (float) ((double) controlPointLengthMultiplier ?? (double) data.controlPointLengthMultiplier), (float) ((double) tailBeat ?? (double) data.tailBeat), tailColumn ?? data.tailColumn, tailRow ?? data.tailRow, (NoteCutDirection) ((int) tailCutDirection ?? (int) data.tailCutDirection), (float) ((double) tailControlPointLengthMultiplier ?? (double) data.tailControlPointLengthMultiplier), (SliderMidAnchorMode) ((int) midAnchorMode ?? (int) data.midAnchorMode));
+      return ArcEditorData.CreateNewWithId(id ?? data.id, colorType ?? data.colorType, beat ?? data.beat, column ?? data.column, row ?? data.row, cutDirection ?? data.cutDirection, controlPointLengthMultiplier ?? data.controlPointLengthMultiplier, tailBeat ?? data.tailBeat, tailColumn ?? data.tailColumn, tailRow ?? data.tailRow, tailCutDirection ?? data.tailCutDirection, tailControlPointLengthMultiplier ?? data.tailControlPointLengthMultiplier, midAnchorMode ?? data.midAnchorMode);
     }
 
     public static ArcEditorData CreateNew(

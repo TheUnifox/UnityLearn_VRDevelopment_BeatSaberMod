@@ -94,7 +94,7 @@ namespace OnlineServices
           levelScoreResultToUpload = new LevelScoreResultsData();
         }
       }
-      catch (OperationCanceledException ex)
+      catch (OperationCanceledException)
       {
       }
       finally

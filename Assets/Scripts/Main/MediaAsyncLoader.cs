@@ -24,7 +24,7 @@ public class MediaAsyncLoader : IMediaAsyncLoader
         await Task.Delay(100);
       }
       cancellationToken.ThrowIfCancellationRequested();
-      text = www.isNetworkError || www.isHttpError ? (string) null : www.downloadHandler.text;
+      text = (www.result == UnityWebRequest.Result.ConnectionError) || (www.result == UnityWebRequest.Result.ProtocolError) ? (string) null : www.downloadHandler.text;
     }
     return text;
   }
@@ -39,7 +39,7 @@ public class MediaAsyncLoader : IMediaAsyncLoader
       AsyncOperation request = (AsyncOperation) www.SendWebRequest();
       while (!request.isDone)
         await Task.Delay(100);
-      content = www.isNetworkError || www.isHttpError ? (AudioClip) null : DownloadHandlerAudioClip.GetContent(www);
+      content = (www.result == UnityWebRequest.Result.ConnectionError) || (www.result == UnityWebRequest.Result.ProtocolError) ? (AudioClip) null : DownloadHandlerAudioClip.GetContent(www);
     }
     return content;
   }
@@ -58,7 +58,7 @@ public class MediaAsyncLoader : IMediaAsyncLoader
         await Task.Delay(100);
       }
       cancellationToken.ThrowIfCancellationRequested();
-      content = www.isNetworkError || www.isHttpError ? (Texture2D) null : DownloadHandlerTexture.GetContent(www);
+      content = (www.result == UnityWebRequest.Result.ConnectionError) || (www.result == UnityWebRequest.Result.ProtocolError) ? (Texture2D) null : DownloadHandlerTexture.GetContent(www);
     }
     return content;
   }
@@ -74,7 +74,7 @@ public class MediaAsyncLoader : IMediaAsyncLoader
         await Task.Delay(100);
       }
       cancellationToken.ThrowIfCancellationRequested();
-      if (www.isNetworkError || www.isHttpError)
+      if ((www.result == UnityWebRequest.Result.ConnectionError) || (www.result == UnityWebRequest.Result.ProtocolError))
         return (Sprite) null;
       Texture2D content = DownloadHandlerTexture.GetContent(www);
       content.hideFlags = HideFlags.DontSave;

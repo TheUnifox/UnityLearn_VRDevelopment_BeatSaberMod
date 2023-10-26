@@ -33,7 +33,7 @@ namespace BeatmapEditor3D.DataModels
       BeatmapLevelDataModel beatmapLevelDataModel,
       Dictionary<BeatmapEditorObjectId, (BeatmapEditorObjectId headNoteId, BeatmapEditorObjectId tailNoteId)> slidersToNotesMap)
     {
-      return (IEnumerable<(ArcEditorData, NoteEditorData, NoteEditorData)>) slidersToNotesMap.Select<KeyValuePair<BeatmapEditorObjectId, (BeatmapEditorObjectId, BeatmapEditorObjectId)>, (ArcEditorData, NoteEditorData, NoteEditorData)>((Func<KeyValuePair<BeatmapEditorObjectId, (BeatmapEditorObjectId, BeatmapEditorObjectId)>, (ArcEditorData, NoteEditorData, NoteEditorData)>) (item => (beatmapLevelDataModel.GetArcById(item.Key), beatmapLevelDataModel.GetNoteById(item.Value.headNoteId), beatmapLevelDataModel.GetNoteById(item.Value.tailNoteId)))).ToList<(ArcEditorData, NoteEditorData, NoteEditorData)>();
+      return (IEnumerable<(ArcEditorData, NoteEditorData, NoteEditorData)>) slidersToNotesMap.Select<KeyValuePair<BeatmapEditorObjectId, (BeatmapEditorObjectId, BeatmapEditorObjectId)>, (ArcEditorData, NoteEditorData, NoteEditorData)>((Func<KeyValuePair<BeatmapEditorObjectId, (BeatmapEditorObjectId, BeatmapEditorObjectId)>, (ArcEditorData, NoteEditorData, NoteEditorData)>) (item => (beatmapLevelDataModel.GetArcById(item.Key), beatmapLevelDataModel.GetNoteById(item.Value.Item1), beatmapLevelDataModel.GetNoteById(item.Value.Item2)))).ToList<(ArcEditorData, NoteEditorData, NoteEditorData)>();
     }
 
     public static void WalkArcsAndChains(

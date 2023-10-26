@@ -10,8 +10,8 @@ public abstract class VRPlatformUtils
 {
   public static XRDeviceModel GetXRDeviceModel()
   {
-    if (UnityEngine.XR.XRDevice.model.IndexOf("oculus", StringComparison.OrdinalIgnoreCase) >= 0)
+    if (UnityEngine.XR.XRSettings.loadedDeviceName.IndexOf("oculus", StringComparison.OrdinalIgnoreCase) >= 0)
       return XRDeviceModel.OculusRift;
-    return UnityEngine.XR.XRDevice.model.IndexOf("quest", StringComparison.OrdinalIgnoreCase) >= 0 ? XRDeviceModel.OculusQuestLink : XRDeviceModel.Other;
+    return UnityEngine.XR.XRSettings.loadedDeviceName.IndexOf("quest", StringComparison.OrdinalIgnoreCase) >= 0 ? XRDeviceModel.OculusQuestLink : XRDeviceModel.Other;
   }
 }

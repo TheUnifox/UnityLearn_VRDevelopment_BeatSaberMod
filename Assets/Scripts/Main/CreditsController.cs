@@ -85,8 +85,7 @@ public class CreditsController : MonoBehaviour
         yield return (object) null;
       }
       while (creditsController._didFinish || (double) posY <= -(double) contentHeight + (double) contentWrapperHeight + (double) creditsController._overflowHeight);
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (creditsController.Finish());
+      creditsController.Finish();
     }
   }
 

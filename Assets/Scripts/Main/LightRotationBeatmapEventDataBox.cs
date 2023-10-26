@@ -60,7 +60,7 @@ public class LightRotationBeatmapEventDataBox : BeatmapEventDataBox
       if ((double) beat <= (double) maxBeat)
       {
         float time = beatToTimeConvertor.ConvertBeatToTime(beat);
-        output.Add((BeatmapEventData) new LightRotationBeatmapEventData(time, groupId, elementId, rotationBaseData.usePreviousEventRotationValue, rotationBaseData.easeType, this._axis, (num3 + rotationBaseData.rotation) * this._rotationDirection, rotationBaseData.loopsCount + num2, rotationBaseData.rotationDirection));
+        output.Add((BeatmapEventData) new LightRotationBeatmapEventData(time, groupId, elementId, rotationBaseData.usePreviousEventRotationValue, rotationBaseData.easeType.FromEaseType(), this._axis, (num3 + rotationBaseData.rotation) * this._rotationDirection, rotationBaseData.loopsCount + num2, rotationBaseData.rotationDirection));
       }
     }
   }

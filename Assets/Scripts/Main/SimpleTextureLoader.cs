@@ -36,7 +36,7 @@ public abstract class SimpleTextureLoader
       using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(FileHelpers.GetEscapedURLForFilePath(filePath)))
       {
         yield return (object) uwr.SendWebRequest();
-        if (uwr.isNetworkError || uwr.isHttpError)
+        if ((uwr.result == UnityWebRequest.Result.ConnectionError) || (uwr.result == UnityWebRequest.Result.ProtocolError))
         {
           System.Action<Texture2D> action = finishedCallback;
           if (action != null)

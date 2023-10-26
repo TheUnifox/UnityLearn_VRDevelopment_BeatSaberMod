@@ -17,7 +17,8 @@ public class ShockwaveEffect : MonoBehaviour
 
   public virtual void Start()
   {
-    this._shockwavePS.main.maxParticles = (int) (ObservableVariableSO<int>) this._maxShockwaveParticles;
+    ParticleSystem.MainModule main = this._shockwavePS.main;
+    main.maxParticles = (int) (ObservableVariableSO<int>) this._maxShockwaveParticles;
     this._shockwavePSEmitParams = new ParticleSystem.EmitParams();
     this._shockwavePSEmitParams.position = Vector3.zero;
     this._shockwavePS.Emit(this._shockwavePSEmitParams, 1);

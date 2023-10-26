@@ -20,18 +20,13 @@ public class MultiplayerAvatarAudioController : MonoBehaviour
     set => this._connectedPlayer = value;
   }
 
-  public virtual IEnumerator Start()
-  {
-    // ISSUE: reference to a compiler-generated field
-    int num = this.m_Cm_E1__state;
-    MultiplayerAvatarAudioController avatarAudioController = this;
-    if (num != 0)
-      return false;
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E1__state = -1;
-    if (avatarAudioController._connectedPlayer != null && !avatarAudioController._connectedPlayer.isMe)
-      return false;
-    avatarAudioController.enabled = false;
-    return false;
-  }
+    public virtual IEnumerator Start()
+    {
+        if (this._connectedPlayer == null || this._connectedPlayer.isMe)
+        {
+            base.enabled = false;
+            yield break;
+        }
+        yield break;
+    }
 }

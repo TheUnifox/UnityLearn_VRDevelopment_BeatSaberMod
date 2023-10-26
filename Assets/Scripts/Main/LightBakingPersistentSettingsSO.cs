@@ -84,7 +84,7 @@ public class LightBakingPersistentSettingsSO : PersistentScriptableObject
 
   public bool mainEffectForBakingIsOn
   {
-    get => (Object) this._mainEffectContainer.mainEffect == (Object) this._mainEffectForBaking;
+    get => this._mainEffectContainer.mainEffect == this._mainEffectForBaking;
     set
     {
       if (value)

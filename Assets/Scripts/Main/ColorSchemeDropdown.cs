@@ -31,15 +31,15 @@ public class ColorSchemeDropdown : DropdownWithTableView, TableView.IDataSource
     if (this._initialized)
       return;
     this._initialized = true;
-    this.didSelectCellWithIdxEvent += new System.Action<DropdownWithTableView, int>(this.HandleDidSelectCellWithIdx);
-    base.Init((TableView.IDataSource) this);
-  }
+        base.didSelectCellWithIdxEvent += this.HandleDidSelectCellWithIdx;
+        base.Init(this);
+    }
 
   protected override void OnDestroy()
   {
     base.OnDestroy();
-    this.didSelectCellWithIdxEvent -= new System.Action<DropdownWithTableView, int>(this.HandleDidSelectCellWithIdx);
-  }
+        base.didSelectCellWithIdxEvent -= this.HandleDidSelectCellWithIdx;
+    }
 
   public new virtual void Init(TableView.IDataSource initTableViewDataSource) => throw new NotImplementedException();
 

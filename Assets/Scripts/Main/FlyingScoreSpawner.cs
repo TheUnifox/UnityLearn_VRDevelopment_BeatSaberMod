@@ -21,10 +21,10 @@ public class FlyingScoreSpawner : MonoBehaviour, IFlyingObjectEffectDidFinishEve
     FlyingScoreEffect flyingScoreEffect = this._flyingScoreEffectPool.Spawn();
     flyingScoreEffect.didFinishEvent.Add((IFlyingObjectEffectDidFinishEvent) this);
     flyingScoreEffect.transform.localPosition = cutPoint;
-    Vector3 vector3 = (noteCutInfo.inverseWorldRotation * cutPoint) with
-    {
-      z = 0.0f
-    };
+    Vector3 vector3 = noteCutInfo.cutPoint;
+    flyingScoreEffect.transform.localPosition = vector3;
+    vector3 = noteCutInfo.inverseWorldRotation * vector3;
+    vector3.z = 0f;
     float y = 0.0f;
     if (this._initData.spawnPosition == FlyingScoreSpawner.SpawnPosition.Underground)
     {

@@ -28,7 +28,7 @@ namespace BeatmapEditor3D.DataModels
       int? sliceCount = null,
       float? squishAmount = null)
     {
-      return ChainEditorData.CreateNewWithId(id ?? data.id, (float) ((double) beat ?? (double) data.beat), (ColorType) ((int) colorType ?? (int) data.colorType), column ?? data.column, row ?? data.row, (NoteCutDirection) ((int) cutDirection ?? (int) data.cutDirection), (float) ((double) tailBeat ?? (double) data.tailBeat), tailColumn ?? data.tailColumn, tailRow ?? data.tailRow, sliceCount ?? data.sliceCount, (float) ((double) squishAmount ?? (double) data.squishAmount));
+      return ChainEditorData.CreateNewWithId(id ?? data.id, beat ?? data.beat, colorType ?? data.colorType, column ?? data.column, row ?? data.row, cutDirection ?? data.cutDirection, tailBeat ?? data.tailBeat, tailColumn ?? data.tailColumn, tailRow ?? data.tailRow, sliceCount ?? data.sliceCount, squishAmount ?? data.squishAmount);
     }
 
     public static ChainEditorData CreateNew(

@@ -111,19 +111,19 @@ public class HTTPLeaderboardsModel : ILeaderboardsModel
   {
     string leaderboardId = this.GetLeaderboardId(levelResultsData.difficultyBeatmap);
     LevelScoreResult.GameplayModifiers[] dto = GameplayModifiersHelper.ToDTO(levelResultsData.gameplayModifiers);
-    int num = (int) await this._apiLeaderboardsModel.SendLevelScoreResultAsync(new LevelScoreResult()
-    {
-      leaderboardId = leaderboardId,
-      multipliedScore = levelResultsData.multipliedScore,
-      modifiedScore = levelResultsData.modifiedScore,
-      fullCombo = levelResultsData.fullCombo,
-      goodCutsCount = levelResultsData.goodCutsCount,
-      badCutsCount = levelResultsData.badCutsCount,
-      missedCount = levelResultsData.missedCount,
-      maxCombo = levelResultsData.maxCombo,
-      gameplayModifiers = dto,
-      deviceModel = XRDevice.model
-    }, cancellationToken);
+        int num = (int)await this._apiLeaderboardsModel.SendLevelScoreResultAsync(new LevelScoreResult()
+        {
+            leaderboardId = leaderboardId,
+            multipliedScore = levelResultsData.multipliedScore,
+            modifiedScore = levelResultsData.modifiedScore,
+            fullCombo = levelResultsData.fullCombo,
+            goodCutsCount = levelResultsData.goodCutsCount,
+            badCutsCount = levelResultsData.badCutsCount,
+            missedCount = levelResultsData.missedCount,
+            maxCombo = levelResultsData.maxCombo,
+            gameplayModifiers = dto,
+            deviceModel = XRSettings.loadedDeviceName
+        }, cancellationToken);
     if (num == 0)
     {
       System.Action<string> leaderboardDidUploadEvent = this.scoreForLeaderboardDidUploadEvent;

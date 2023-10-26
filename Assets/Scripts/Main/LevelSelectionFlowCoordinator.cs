@@ -123,7 +123,7 @@ public abstract class LevelSelectionFlowCoordinator : FlowCoordinator
       string actionButtonText = this.actionButtonText;
       IBeatmapLevelPack beatmapLevelPack = this._startState?.beatmapLevelPack;
       IPreviewBeatmapLevel previewBeatmapLevel = this._startState?.previewBeatmapLevel;
-      int startLevelCategory = (int) this._startState?.levelCategory ?? 0;
+      int startLevelCategory = (int)(this._startState?.levelCategory ?? 0);
       IPreviewBeatmapLevel beatmapLevelToBeSelectedAfterPresent = previewBeatmapLevel;
       int num3 = this.enableCustomLevels ? 1 : 0;
       navigationController.Setup(songPackMask, (BeatmapDifficultyMask) beatmapDifficultyMask, allowedCharacteristics, num1 != 0, num2 != 0, actionButtonText, beatmapLevelPack, (SelectLevelCategoryViewController.LevelCategory) startLevelCategory, beatmapLevelToBeSelectedAfterPresent, num3 != 0);

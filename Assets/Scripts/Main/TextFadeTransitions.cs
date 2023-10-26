@@ -69,14 +69,15 @@ public class TextFadeTransitions : MonoBehaviour
 
   public virtual void RefreshTextAlpha()
   {
-    if ((Object) this._canvasGroup != (Object) null)
-      this._canvasGroup.alpha = this._fade;
-    else
-      this._textLabel.color = this._textLabel.color with
-      {
-        a = this._fade
-      };
-    this._textLabel.enabled = (double) this._fade != 0.0;
+        if ((Object)this._canvasGroup != (Object)null)
+            this._canvasGroup.alpha = this._fade;
+        else
+        {
+            Color color = this._textLabel.color;
+            color.a = this._fade;
+            this._textLabel.color = color;
+        }
+        this._textLabel.enabled = (double) this._fade != 0.0;
   }
 
   public virtual void ShowText(string text)

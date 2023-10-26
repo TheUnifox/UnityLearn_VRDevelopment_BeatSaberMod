@@ -14,25 +14,13 @@ public class PS4Helper : PersistentSingleton<PS4Helper>
 
   public virtual void Update()
   {
-    if (false)
-    {
-      if (this._backgroundExecution)
-        return;
-      this._backgroundExecution = true;
-      System.Action backgroundExecutionEvent = this.didGoToBackgroundExecutionEvent;
-      if (backgroundExecutionEvent == null)
-        return;
-      backgroundExecutionEvent();
-    }
-    else
-    {
-      if (!this._backgroundExecution)
-        return;
-      this._backgroundExecution = false;
-      System.Action foregroundExecutionEvent = this.didGoToForegroundExecutionEvent;
-      if (foregroundExecutionEvent == null)
-        return;
-      foregroundExecutionEvent();
-    }
+    if (!this._backgroundExecution)
+      return;
+    this._backgroundExecution = false;
+    System.Action foregroundExecutionEvent = this.didGoToForegroundExecutionEvent;
+    if (foregroundExecutionEvent == null)
+      return;
+    foregroundExecutionEvent();
   }
+  
 }

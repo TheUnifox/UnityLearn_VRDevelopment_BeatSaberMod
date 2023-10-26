@@ -34,7 +34,7 @@ namespace BeatmapEditor3D
       {
         Action<AudioClip> action = finishCallback;
         if (action != null)
-          action((AudioClip) null);
+          action(null);
       }
       else
       {
@@ -44,12 +44,12 @@ namespace BeatmapEditor3D
         {
           yield return (object) www.SendWebRequest();
           this._isLoading = false;
-          AudioClip audioClip = (AudioClip) null;
-          if (!www.isNetworkError)
+          AudioClip audioClip = null;
+          if (www.result != UnityWebRequest.Result.ConnectionError)
           {
             audioClip = DownloadHandlerAudioClip.GetContent(www);
-            if ((UnityEngine.Object) audioClip != (UnityEngine.Object) null && audioClip.loadState != AudioDataLoadState.Loaded)
-              audioClip = (AudioClip) null;
+            if ( audioClip != null && audioClip.loadState != AudioDataLoadState.Loaded)
+              audioClip = null;
           }
           Action<AudioClip> action = finishCallback;
           if (action != null)

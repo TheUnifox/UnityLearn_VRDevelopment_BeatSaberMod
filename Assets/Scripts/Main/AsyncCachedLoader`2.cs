@@ -44,7 +44,6 @@ public class AsyncCachedLoader<TKey, TValue>
     {
       AsyncCachedLoader<TKey, TValue>.ScheduledTask scheduledTask = this._scheduledTaskList[this._scheduledTaskList.Count - 1];
       this._scheduledTaskList.Remove(scheduledTask);
-      TValue obj = default (TValue);
       if (scheduledTask.cancellationToken.IsCancellationRequested)
         scheduledTask.taskCompletionSource.TrySetCanceled();
       else if (this._cache.IsInCache(scheduledTask.keyId))
@@ -58,7 +57,7 @@ public class AsyncCachedLoader<TKey, TValue>
         {
           result = await this._resultValueFunc(scheduledTask.keyId, scheduledTask.cancellationToken);
         }
-        catch (OperationCanceledException ex)
+        catch (OperationCanceledException)
         {
           scheduledTask.taskCompletionSource.TrySetCanceled();
           continue;

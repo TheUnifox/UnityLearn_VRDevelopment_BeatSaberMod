@@ -48,9 +48,9 @@ namespace BeatmapEditor3D.DataModels
       int? nullable1 = endSampleIndex;
       this.endSampleIndex = nullable1 ?? other.endSampleIndex;
       float? nullable2 = startBeat;
-      this.startBeat = (float) ((double) nullable2 ?? (double) other.startBeat);
+      this.startBeat = nullable2 ?? other.startBeat;
       nullable2 = endBeat;
-      this.endBeat = (float) ((double) nullable2 ?? (double) other.endBeat);
+      this.endBeat = nullable2 ?? other.endBeat;
       this.beats = this.endBeat - this.startBeat;
       nullable1 = sampleFrequency;
       this.sampleFrequency = nullable1 ?? other.sampleFrequency;

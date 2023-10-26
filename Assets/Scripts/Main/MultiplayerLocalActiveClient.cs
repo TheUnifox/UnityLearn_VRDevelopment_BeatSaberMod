@@ -96,7 +96,7 @@ public class MultiplayerLocalActiveClient : MonoBehaviour
 
   public virtual void HandleNoteWasMissed(NoteController noteController) => this._rpcManager.NoteMissed(this._audioTimeSyncController.songTime, NoteMissInfoNetSerializable.Obtain().Init(noteController.noteData));
 
-  public virtual void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo) => this._rpcManager.NoteCut(this._audioTimeSyncController.songTime, NoteCutInfoNetSerializable.Obtain().Init(ref noteCutInfo, noteController.noteData, noteController.noteTransform.position, noteController.noteTransform.rotation, noteController.noteTransform.localScale, noteController.moveVec));
+  public virtual void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo) => this._rpcManager.NoteCut(this._audioTimeSyncController.songTime, NoteCutInfoNetSerializable.Obtain().Init(noteCutInfo, noteController.noteData, noteController.noteTransform.position, noteController.noteTransform.rotation, noteController.noteTransform.localScale, noteController.moveVec));
 
   public virtual void HandleComboDidChange(int combo) => this._scoreSyncStateManager.localState?.SetState(StandardScoreSyncState.Score.Combo, combo);
 

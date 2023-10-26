@@ -170,7 +170,7 @@ public class GameServerPlayerTableCell : TableCellWithSeparator
       this._useBeatmapButton.interactable = flag;
       this._useBeatmapButtonHoverHint.enabled = !flag;
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
     finally

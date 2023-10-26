@@ -173,7 +173,6 @@ public class MainSystemInit : MonoBehaviour
     Screen.fullScreen = (bool) (ObservableVariableSO<bool>) this._mainSettingsModel.fullscreen;
     XRSettings.renderViewportScale = 1f;
     XRSettings.eyeTextureResolutionScale = (float) (ObservableVariableSO<float>) this._mainSettingsModel.vrResolutionScale * (float) (ObservableVariableSO<float>) this._mainSettingsModel.menuVRResolutionScaleMultiplier;
-    XRDevice.SetTrackingSpaceType(TrackingSpaceType.RoomScale);
     if ((int) (ObservableVariableSO<int>) this._mainSettingsModel.mirrorGraphicsSettings >= this._mirrorRendererGraphicsSettingsPresets.presets.Length)
       this._mainSettingsModel.mirrorGraphicsSettings.value = this._mirrorRendererGraphicsSettingsPresets.presets.Length - 1;
     if ((int) (ObservableVariableSO<int>) this._mainSettingsModel.mainEffectGraphicsSettings >= this._mainEffectGraphicsSettingsPresets.presets.Length)

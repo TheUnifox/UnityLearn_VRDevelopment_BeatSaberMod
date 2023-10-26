@@ -67,7 +67,7 @@ namespace BeatmapEditor3D.DataModels
       {
         return Directory.GetLastWriteTime(path);
       }
-      catch (Exception ex)
+      catch (Exception)
       {
         return new DateTime();
       }

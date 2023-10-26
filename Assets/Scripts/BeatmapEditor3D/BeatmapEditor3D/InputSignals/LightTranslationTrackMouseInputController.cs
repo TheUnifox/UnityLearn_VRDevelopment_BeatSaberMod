@@ -29,13 +29,13 @@ namespace BeatmapEditor3D.InputSignals
 
     protected void OnEnable()
     {
-      this._eventTrackInputMouseInputSource.gridPointerDownEvent += new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerDown);
-      this._eventTrackInputMouseInputSource.gridPointerUpEvent += new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerUp);
-      this._eventTrackInputMouseInputSource.gridPointerHoverEvent += new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerHover);
-      this._eventTrackInputMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerHover);
-      this._eventTrackInputMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._eventTrackInputMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._eventTrackInputMouseInputSource.objectPointerScrollEvent += new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerScroll);
+      this._eventTrackInputMouseInputSource.gridPointerDownEvent += new Action<MouseInputType>(HandleMouseInputSelectionGridPointerDown);
+      this._eventTrackInputMouseInputSource.gridPointerUpEvent += new Action<MouseInputType>(HandleMouseInputSelectionGridPointerUp);
+      this._eventTrackInputMouseInputSource.gridPointerHoverEvent += new Action<MouseInputType>(HandleMouseInputSelectionGridPointerHover);
+      this._eventTrackInputMouseInputSource.objectPointerHoverEvent += new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerHover);
+      this._eventTrackInputMouseInputSource.objectPointerDownEvent += new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerDown);
+      this._eventTrackInputMouseInputSource.objectPointerUpEvent += new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerUp);
+      this._eventTrackInputMouseInputSource.objectPointerScrollEvent += new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerScroll);
       this.gridActions = new Dictionary<int, Action>()
       {
         {
@@ -79,13 +79,13 @@ namespace BeatmapEditor3D.InputSignals
     protected void OnDisable()
     {
       this.mouseBinder.ClearBindings();
-      this._eventTrackInputMouseInputSource.gridPointerDownEvent -= new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerDown);
-      this._eventTrackInputMouseInputSource.gridPointerUpEvent -= new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerUp);
-      this._eventTrackInputMouseInputSource.gridPointerHoverEvent -= new Action<MouseInputType>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputSelectionGridPointerHover);
-      this._eventTrackInputMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerHover);
-      this._eventTrackInputMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._eventTrackInputMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._eventTrackInputMouseInputSource.objectPointerScrollEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(((AbstractMouseInputController<BeatmapEditorObjectId>) this).HandleMouseInputEventSourceObjectPointerScroll);
+      this._eventTrackInputMouseInputSource.gridPointerDownEvent -= new Action<MouseInputType>(HandleMouseInputSelectionGridPointerDown);
+      this._eventTrackInputMouseInputSource.gridPointerUpEvent -= new Action<MouseInputType>(HandleMouseInputSelectionGridPointerUp);
+      this._eventTrackInputMouseInputSource.gridPointerHoverEvent -= new Action<MouseInputType>(HandleMouseInputSelectionGridPointerHover);
+      this._eventTrackInputMouseInputSource.objectPointerHoverEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerHover);
+      this._eventTrackInputMouseInputSource.objectPointerDownEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerDown);
+      this._eventTrackInputMouseInputSource.objectPointerUpEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerUp);
+      this._eventTrackInputMouseInputSource.objectPointerScrollEvent -= new Action<MouseInputType, BeatmapEditorObjectId>(HandleMouseInputEventSourceObjectPointerScroll);
     }
 
     protected override void HandleMouseInputEventSourceObjectPointerHover(

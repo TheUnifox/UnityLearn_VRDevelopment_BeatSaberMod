@@ -54,8 +54,7 @@ namespace BeatmapEditor3D.DataModels
     public bool IsEventTypeActive(BasicBeatmapEventType type)
     {
       List<BasicBeatmapEventType> activeEventTypes = this.activeEventTypes;
-      // ISSUE: explicit non-virtual call
-      return activeEventTypes != null && __nonvirtual (activeEventTypes.Contains(type));
+      return activeEventTypes != null && activeEventTypes.Contains(type);
     }
 
     public void Reset()

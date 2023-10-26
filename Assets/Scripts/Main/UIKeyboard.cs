@@ -96,11 +96,9 @@ public class UIKeyboard : MonoBehaviour
       transform.anchorMax = (Vector2) Vector3.one;
       transform.offsetMin = Vector2.zero;
       transform.offsetMax = Vector2.zero;
-      Navigation navigation = textMeshProButton.button.navigation with
-      {
-        mode = Navigation.Mode.None
-      };
-      textMeshProButton.button.navigation = navigation;
+            Navigation navigation = textMeshProButton.button.navigation;
+            navigation.mode = Navigation.Mode.None;
+            textMeshProButton.button.navigation = navigation;
       if (index < strArray.Length - 4)
       {
         string key = strArray[index];
@@ -165,5 +163,5 @@ public class UIKeyboard : MonoBehaviour
     if (keyWasPressedEvent == null)
       return;
     keyWasPressedEvent(' ');
-  }
+    }
 }

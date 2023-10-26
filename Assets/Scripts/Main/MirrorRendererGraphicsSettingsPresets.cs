@@ -20,7 +20,7 @@ public class MirrorRendererGraphicsSettingsPresets : NamedPresetsSO
   public class Preset : NamedPreset
   {
     public MirrorRendererGraphicsSettingsPresets.Preset.MirrorType mirrorType = MirrorRendererGraphicsSettingsPresets.Preset.MirrorType.RenderedMirror;
-    public LayerMask reflectLayers = (LayerMask) -1;
+    public LayerMask reflectLayers = (LayerMask)(-1);
     public int stereoTextureWidth = 2048;
     public int stereoTextureHeight = 1024;
     public int monoTextureWidth = 256;

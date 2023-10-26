@@ -57,8 +57,7 @@ public class OculusPlatformAdditionalContentModel : AdditionalContentModel
   {
     OculusPlatformAdditionalContentModel additionalContentModel = this;
     string sku = additionalContentModel._oculusLevelProductsModel.GetLevelProductData(levelId).sku;
-    // ISSUE: explicit non-virtual call
-    Message<Purchase> message = await __nonvirtual (additionalContentModel.LaunchCheckoutFlow(sku));
+    Message<Purchase> message = await additionalContentModel.LaunchCheckoutFlow(sku);
     if (message.IsError)
     {
       additionalContentModel.InvalidateData();
@@ -84,8 +83,7 @@ public class OculusPlatformAdditionalContentModel : AdditionalContentModel
   {
     OculusPlatformAdditionalContentModel additionalContentModel = this;
     string sku = additionalContentModel._oculusLevelProductsModel.GetLevelPackProductData(levelPackId).sku;
-    // ISSUE: explicit non-virtual call
-    Message<Purchase> message = await __nonvirtual (additionalContentModel.LaunchCheckoutFlow(sku));
+    Message<Purchase> message = await additionalContentModel.LaunchCheckoutFlow(sku);
     if (message.IsError)
     {
       additionalContentModel.InvalidateData();

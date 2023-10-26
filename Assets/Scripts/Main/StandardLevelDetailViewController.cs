@@ -377,9 +377,7 @@ public class StandardLevelDetailViewController : ViewController
       this._cancellationTokenSource = new CancellationTokenSource();
       await action(this._cancellationTokenSource.Token);
     }
-    catch (OperationCanceledException ex)
-    {
-    }
+    catch (OperationCanceledException) { }
   }
 
   [CompilerGenerated]

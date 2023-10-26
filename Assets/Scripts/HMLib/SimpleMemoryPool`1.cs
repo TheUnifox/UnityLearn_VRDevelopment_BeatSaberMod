@@ -26,7 +26,6 @@ public class SimpleMemoryPool<T> where T : class
 
   public virtual T Spawn()
   {
-    T obj1 = default (T);
     T obj2;
     if (this._inactiveElements.Count > 0)
     {

@@ -31,9 +31,9 @@ namespace BeatmapEditor3D.InputSignals
 
     protected void OnEnable()
     {
-      this._eventSource.pointerDownEvent += new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._eventSource.pointerUpEvent += new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._eventSource.pointerHoverEvent += new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerHover);
+      this._eventSource.pointerDownEvent += new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerDown);
+      this._eventSource.pointerUpEvent += new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerUp);
+      this._eventSource.pointerHoverEvent += new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerHover);
       this.mouseBinder.AddScrollBinding(new UnityAction<float>(this.HandleMouseScroll));
       this.mouseBinder.AddButtonBinding(MouseBinder.ButtonType.Primary, MouseBinder.MouseEventType.ButtonUp, new UnityAction(this.HandleEndEventTrackDrag));
       this.objectActions = new Dictionary<int, Action<BasicEventEditorData>>()
@@ -80,9 +80,9 @@ namespace BeatmapEditor3D.InputSignals
     protected void OnDisable()
     {
       this.mouseBinder.ClearBindings();
-      this._eventSource.pointerDownEvent -= new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerDown);
-      this._eventSource.pointerUpEvent -= new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerUp);
-      this._eventSource.pointerHoverEvent -= new Action<MouseInputType, BasicEventEditorData>(((AbstractMouseInputController<BasicEventEditorData>) this).HandleMouseInputEventSourceObjectPointerHover);
+      this._eventSource.pointerDownEvent -= new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerDown);
+      this._eventSource.pointerUpEvent -= new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerUp);
+      this._eventSource.pointerHoverEvent -= new Action<MouseInputType, BasicEventEditorData>(HandleMouseInputEventSourceObjectPointerHover);
     }
 
     private void HandleMouseScroll(float delta)

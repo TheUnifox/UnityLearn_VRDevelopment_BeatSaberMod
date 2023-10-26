@@ -42,7 +42,7 @@ public abstract class NetworkPlayerModel<T> : BaseNetworkPlayerModel, INetworkPl
     get
     {
       NetworkPlayerModel<T>.NetworkPlayer localPlayer = this._localPlayer;
-      return localPlayer != null && __nonvirtual (localPlayer.isMyPartyOwner);
+      return localPlayer != null && localPlayer.isMyPartyOwner;
     }
   }
 

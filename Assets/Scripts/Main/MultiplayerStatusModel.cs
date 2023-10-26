@@ -46,7 +46,7 @@ public class MultiplayerStatusModel : IMultiplayerStatusModel
     {
       stringAsync = await this._client.GetStringAsync(uriBuilder.Uri);
     }
-    catch (TaskCanceledException ex)
+    catch (TaskCanceledException)
     {
       throw new TimeoutException(string.Format("GET request to {0} timed out", (object) uriBuilder.Uri));
     }

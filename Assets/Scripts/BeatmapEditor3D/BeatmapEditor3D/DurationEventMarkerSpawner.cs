@@ -71,30 +71,26 @@ namespace BeatmapEditor3D
       }
     }
 
-    public void UpdateSpawnedEvents(float currentBeat)
-    {
-      for (int index = 0; index < this._eventMarkerObjects.Count; ++index)
-      {
-        float a = this._eventMarkerObjects[index].basicEventData.beat - currentBeat;
-        Vector3 localPosition = this._eventMarkerObjects[index].transform.localPosition with
+        public void UpdateSpawnedEvents(float currentBeat)
         {
-          z = this._beatmapObjectPlacementHelper.BeatToPosition(this._eventMarkerObjects[index].basicEventData.beat, currentBeat)
-        };
-        this._eventMarkerObjects[index].transform.localPosition = localPosition;
-        bool selected = this._eventsSelectionState.IsSelected(this._eventMarkerObjects[index].basicEventData.id);
-        this._eventMarkerObjects[index].SetState(AudioTimeHelper.IsBeatSame(a, 0.0f), (double) a < 0.0, selected);
-      }
-      for (int index = 0; index < this._durationEventMarkerObjects.Count; ++index)
-      {
-        Vector3 localPosition = this._durationEventMarkerObjects[index].transform.localPosition with
-        {
-          z = this._beatmapObjectPlacementHelper.BeatToPosition(this._durationEventMarkerObjects[index].basicEventData.beat, currentBeat)
-        };
-        this._durationEventMarkerObjects[index].transform.localPosition = localPosition;
-      }
-    }
+            for (int i = 0; i < this._eventMarkerObjects.Count; i++)
+            {
+                float num = this._eventMarkerObjects[i].basicEventData.beat - currentBeat;
+                Vector3 localPosition = this._eventMarkerObjects[i].transform.localPosition;
+                localPosition.z = this._beatmapObjectPlacementHelper.BeatToPosition(this._eventMarkerObjects[i].basicEventData.beat, currentBeat);
+                this._eventMarkerObjects[i].transform.localPosition = localPosition;
+                bool selected = this._eventsSelectionState.IsSelected(this._eventMarkerObjects[i].basicEventData.id);
+                this._eventMarkerObjects[i].SetState(AudioTimeHelper.IsBeatSame(num, 0f), num < 0f, selected);
+            }
+            for (int j = 0; j < this._durationEventMarkerObjects.Count; j++)
+            {
+                Vector3 localPosition2 = this._durationEventMarkerObjects[j].transform.localPosition;
+                localPosition2.z = this._beatmapObjectPlacementHelper.BeatToPosition(this._durationEventMarkerObjects[j].basicEventData.beat, currentBeat);
+                this._durationEventMarkerObjects[j].transform.localPosition = localPosition2;
+            }
+        }
 
-    public void SpawnAt(BasicEventEditorData data, float xPos, float currentBeat)
+        public void SpawnAt(BasicEventEditorData data, float xPos, float currentBeat)
     {
       BasicEventMarker basicEventMarker = this._eventMarkerPool.Spawn();
       this._eventMarkers.Add(basicEventMarker);

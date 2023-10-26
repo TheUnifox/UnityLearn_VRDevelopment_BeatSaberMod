@@ -68,7 +68,7 @@ namespace BeatmapEditor3D.Views
 
     protected override void ViewUpdate()
     {
-      while (this._currentMessages.Count > 0 && (double) Time.time >= (double) this._currentMessages.Last<(FlashMessageView, float)>().endTime || this._currentMessages.Count > this._maxItemsCount)
+      while (this._currentMessages.Count > 0 && (double) Time.time >= (double) this._currentMessages.Last<(FlashMessageView, float)>().Item2 || this._currentMessages.Count > this._maxItemsCount)
       {
         (FlashMessageView view, float endTime) tuple = this._currentMessages.Last<(FlashMessageView, float)>();
         this._currentMessages.Remove(tuple);
@@ -107,9 +107,11 @@ namespace BeatmapEditor3D.Views
       this.SetSize(this._expandedSize);
     }
 
-    private void SetSize(float size) => this._flashMessagesRectTransform.sizeDelta = this._flashMessagesRectTransform.sizeDelta with
-    {
-      x = size
-    };
-  }
+        private void SetSize(float size)
+        {
+            Vector2 sizeDelta = this._flashMessagesRectTransform.sizeDelta;
+            sizeDelta.x = size;
+            this._flashMessagesRectTransform.sizeDelta = sizeDelta;
+        }
+    }
 }

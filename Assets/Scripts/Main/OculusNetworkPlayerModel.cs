@@ -66,8 +66,7 @@ public class OculusNetworkPlayerModel : PlatformNetworkPlayerModel, INetworkPlay
     Rooms.SetUpdateNotificationCallback(new Message<Room>.Callback(playerModel.HandleRoomUpdate));
     Rooms.SetRoomInviteAcceptedNotificationCallback(new Message<string>.Callback(playerModel.HandleRoomInviteAccepted));
     Rooms.SetRoomInviteReceivedNotificationCallback(new Message<RoomInviteNotification>.Callback(playerModel.HandleRoomInviteReceived));
-    // ISSUE: explicit non-virtual call
-    __nonvirtual (playerModel.Refresh());
+    playerModel.Refresh();
   }
 
   protected override void Update()
@@ -161,12 +160,10 @@ public class OculusNetworkPlayerModel : PlatformNetworkPlayerModel, INetworkPlay
   public virtual async void HandleRoomInviteReceived(Message<RoomInviteNotification> message)
   {
     OculusNetworkPlayerModel playerModel = this;
-    // ISSUE: explicit non-virtual call
-    OculusNetworkPlayerModel.OculusNetworkPlayer player = __nonvirtual (playerModel.GetPlayer(message.Data.SenderID));
+    OculusNetworkPlayerModel.OculusNetworkPlayer player = playerModel.GetPlayer(message.Data.SenderID);
     if (player == null)
     {
-      // ISSUE: explicit non-virtual call
-      string userNameAsync = await __nonvirtual (playerModel.GetUserNameAsync(message.Data.SenderID));
+      string userNameAsync = await playerModel.GetUserNameAsync(message.Data.SenderID);
       if (userNameAsync == null)
         return;
       player = new OculusNetworkPlayerModel.OculusNetworkPlayer(playerModel, message.Data.SenderID, userNameAsync);
@@ -342,8 +339,7 @@ public class OculusNetworkPlayerModel : PlatformNetworkPlayerModel, INetworkPlay
     this._roomDataStore["currentPartySize"] = string.Concat((object) this.partyManager.currentPartySize);
     this._roomDataStore["difficulties"] = string.Concat((object) (int) this.partyManager.selectionMask.difficulties);
     this._roomDataStore["modifiers"] = string.Concat((object) (int) this.partyManager.selectionMask.modifiers);
-    // ISSUE: explicit non-virtual call
-    this._roomDataStore["songPacks"] = __nonvirtual (this.partyManager.selectionMask.songPacks.ToShortString());
+    this._roomDataStore["songPacks"] = this.partyManager.selectionMask.songPacks.ToShortString();
     this._roomDataStore["maxPlayerCount"] = string.Concat((object) this.partyManager.configuration.maxPlayerCount);
     this._roomDataStore["discoveryPolicy"] = string.Concat((object) (int) this.partyManager.configuration.discoveryPolicy);
     this._roomDataStore["invitePolicy"] = string.Concat((object) (int) this.partyManager.configuration.invitePolicy);
@@ -424,8 +420,7 @@ public class OculusNetworkPlayerModel : PlatformNetworkPlayerModel, INetworkPlay
   public virtual Task<bool> ShouldAcceptConnectionFromPlayer(ulong userId)
   {
     OculusNetworkPlayerModel.OculusNetworkPlayer player1 = this.GetPlayer(userId);
-    // ISSUE: explicit non-virtual call
-    if ((player1 != null ? (__nonvirtual (player1.SameRoomAs(this._localPlayer)) ? 1 : 0) : 0) != 0)
+    if ((player1 != null ? (player1.SameRoomAs(this._localPlayer) ? 1 : 0) : 0) != 0)
       return Task.FromResult<bool>(true);
     TaskCompletionSource<bool> tcs = new TaskCompletionSource<bool>();
     Rooms.GetCurrent().OnComplete((Message<Room>.Callback) (result =>
@@ -433,8 +428,7 @@ public class OculusNetworkPlayerModel : PlatformNetworkPlayerModel, INetworkPlay
       this.HandleRoomUpdate(result);
       TaskCompletionSource<bool> completionSource = tcs;
       OculusNetworkPlayerModel.OculusNetworkPlayer player2 = this.GetPlayer(userId);
-      // ISSUE: explicit non-virtual call
-      int num = player2 != null ? (__nonvirtual (player2.SameRoomAs(this._localPlayer)) ? 1 : 0) : 0;
+      int num = player2 != null ? (player2.SameRoomAs(this._localPlayer) ? 1 : 0) : 0;
       completionSource.SetResult(num != 0);
     }));
     return tcs.Task;

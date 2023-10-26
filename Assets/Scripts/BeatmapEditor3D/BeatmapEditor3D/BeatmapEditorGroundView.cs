@@ -52,16 +52,15 @@ namespace BeatmapEditor3D
 
     public bool wasDraggingThisFrame => this._wasDraggingThisFrame;
 
-    public void UpdateGroundScale(float width)
-    {
-      this._bounds = new Bounds(new Vector3(0.0f, 0.0f, 15f), new Vector3(width, 2f, 40f));
-      this._groundTransform.localScale = this._groundTransform.localScale with
-      {
-        x = width
-      };
-    }
+        public void UpdateGroundScale(float width)
+        {
+            this._bounds = new Bounds(new Vector3(0f, 0f, 15f), new Vector3(width, 2f, 40f));
+            Vector3 localScale = this._groundTransform.localScale;
+            localScale.x = width;
+            this._groundTransform.localScale = localScale;
+        }
 
-    protected void Start() => this._squaredDragDelta = this._initialDragDelta * this._initialDragDelta;
+        protected void Start() => this._squaredDragDelta = this._initialDragDelta * this._initialDragDelta;
 
     protected void OnEnable() => this._signalBus.Subscribe<BeatmapLevelStateTimeUpdated>(new Action(this.HandleBeatmapLevelStateTimeUpdated));
 

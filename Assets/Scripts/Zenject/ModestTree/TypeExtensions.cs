@@ -198,8 +198,6 @@ namespace ModestTree
             {
                 yield return type2;
             }
-            IEnumerator<Type> enumerator = null;
-            yield break;
             yield break;
         }
 

@@ -80,7 +80,7 @@ public class LevelListTableCell : TableCell
       this._coverImage.color = Color.white;
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
     finally
@@ -129,7 +129,7 @@ public class LevelListTableCell : TableCell
       this._refreshingAvailabilityLevelID = (string) null;
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
     finally

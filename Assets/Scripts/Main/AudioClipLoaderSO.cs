@@ -42,7 +42,7 @@ public class AudioClipLoaderSO : PersistentScriptableObject
         yield return (object) www.SendWebRequest();
         this._isLoading = false;
         AudioClip audioClip = (AudioClip) null;
-        if (!www.isNetworkError)
+        if (www.result != UnityWebRequest.Result.ConnectionError)
         {
           audioClip = DownloadHandlerAudioClip.GetContent(www);
           if ((UnityEngine.Object) audioClip != (UnityEngine.Object) null && audioClip.loadState != AudioDataLoadState.Loaded)

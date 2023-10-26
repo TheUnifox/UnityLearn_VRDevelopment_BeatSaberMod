@@ -378,16 +378,16 @@ public class PacketEncryptionLayer : PacketLayerBase
             return false;
         }
         byte[] array2 = new byte[length];
-        foreach (EncryptionUtility.IEncryptionState encryptionState in array)
+        foreach (EncryptionUtility.IEncryptionState encryptionState1 in array)
         {
             Array.Copy(data, offset, array2, 0, length);
             int sourceIndex = 0;
             int num = length;
-            if (encryptionState.TryDecryptData(array2, ref sourceIndex, ref num))
+            if (encryptionState1.TryDecryptData(array2, ref sourceIndex, ref num))
             {
                 Array.Copy(array2, sourceIndex, data, offset, num);
                 length = num;
-                this.PromotePendingEncryptionState(remoteEndPoint, encryptionState);
+                this.PromotePendingEncryptionState(remoteEndPoint, encryptionState1);
                 return true;
             }
         }

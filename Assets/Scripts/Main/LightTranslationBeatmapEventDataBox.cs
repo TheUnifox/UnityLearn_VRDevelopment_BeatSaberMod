@@ -56,7 +56,7 @@ public class LightTranslationBeatmapEventDataBox : BeatmapEventDataBox
       if ((double) beat <= (double) maxBeat)
       {
         float time = beatToTimeConvertor.ConvertBeatToTime(beat);
-        output.Add((BeatmapEventData) new LightTranslationBeatmapEventData(time, groupId, elementId, translationBaseData.usePreviousEventTranslationValue, translationBaseData.easeType, this._axis, translationBaseData.translation * this._translationDirection, distribution * this._translationDirection));
+        output.Add((BeatmapEventData) new LightTranslationBeatmapEventData(time, groupId, elementId, translationBaseData.usePreviousEventTranslationValue, translationBaseData.easeType.FromEaseType(), this._axis, translationBaseData.translation * this._translationDirection, distribution * this._translationDirection));
       }
     }
   }

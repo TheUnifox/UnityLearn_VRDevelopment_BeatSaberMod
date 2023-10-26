@@ -22,17 +22,15 @@ namespace BeatmapEditor3D.Views
 
     private void HandleLevelEditorStateTimeUpdated() => this.UpdateWaveformMarker((float) this._beatmapDataModel.bpmData.BeatToSample(this._beatmapState.beat), this._waveformCurrentTimeMarker);
 
-    private void UpdateWaveformMarker(float sample, RectTransform marker)
-    {
-      float num = Mathf.InverseLerp(0.0f, (float) this._beatmapState.previewData.maxLength, sample) * this._waveformTransform.rect.width;
-      Vector2 anchoredPosition = marker.anchoredPosition with
-      {
-        x = num
-      };
-      marker.anchoredPosition = anchoredPosition;
-    }
+        private void UpdateWaveformMarker(float sample, RectTransform marker)
+        {
+            float x = Mathf.InverseLerp(0f, (float)this._beatmapState.previewData.maxLength, sample) * this._waveformTransform.rect.width;
+            Vector2 anchoredPosition = marker.anchoredPosition;
+            anchoredPosition.x = x;
+            marker.anchoredPosition = anchoredPosition;
+        }
 
-    protected override int ScreenPositionToIndex(Vector2 screenPosition)
+        protected override int ScreenPositionToIndex(Vector2 screenPosition)
     {
       Vector2 localPoint;
       RectTransformUtility.ScreenPointToLocalPointInRectangle(this._waveformTransform, screenPosition, (Camera) null, out localPoint);

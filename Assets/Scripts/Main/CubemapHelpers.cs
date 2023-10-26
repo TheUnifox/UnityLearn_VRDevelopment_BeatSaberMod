@@ -82,44 +82,42 @@ public abstract class CubemapHelpers
     }
   }
 
-  public static RenderTexture CreateDownsampledCubemap(RenderTexture src, int count)
-  {
-    RenderTexture src1 = src;
-    RenderTexture dest = (RenderTexture) null;
-    int height = src.height;
-    RenderTextureDescriptor descriptor = src.descriptor with
+    public static RenderTexture CreateDownsampledCubemap(RenderTexture src, int count)
     {
-      msaaSamples = 1
-    };
-    for (int index = 0; index < count; ++index)
-    {
-      height /= 2;
-      descriptor.width = descriptor.height = height;
-      dest = index == count - 1 ? new RenderTexture(descriptor) : RenderTexture.GetTemporary(descriptor);
-      CubemapHelpers.Downsample((Texture) src1, dest);
-      RenderTexture temp = src1;
-      src1 = dest;
-      if ((Object) temp != (Object) src)
-        RenderTexture.ReleaseTemporary(temp);
+        RenderTexture renderTexture = src;
+        RenderTexture renderTexture2 = null;
+        int num = src.height;
+        RenderTextureDescriptor descriptor = src.descriptor;
+        descriptor.msaaSamples = 1;
+        for (int i = 0; i < count; i++)
+        {
+            num /= 2;
+            descriptor.width = (descriptor.height = num);
+            renderTexture2 = ((i == count - 1) ? new RenderTexture(descriptor) : RenderTexture.GetTemporary(descriptor));
+            CubemapHelpers.Downsample(renderTexture, renderTexture2);
+            RenderTexture renderTexture3 = renderTexture;
+            renderTexture = renderTexture2;
+            if (renderTexture3 != src)
+            {
+                RenderTexture.ReleaseTemporary(renderTexture3);
+            }
+        }
+        return renderTexture2;
     }
-    return dest;
-  }
 
-  public static RenderTexture Create2DTextureFromCubemap(RenderTexture src)
-  {
-    RenderTextureDescriptor descriptor = src.descriptor with
+    public static RenderTexture Create2DTextureFromCubemap(RenderTexture src)
     {
-      dimension = TextureDimension.Tex2D
-    };
-    descriptor.width *= 6;
-    descriptor.msaaSamples = 1;
-    RenderTexture dest = new RenderTexture(descriptor);
-    CubemapHelpers.cubemapHelpersMaterial.SetTexture(CubemapHelpers._cubePropertyId, (Texture) src);
-    Graphics.Blit((Texture) null, dest, CubemapHelpers.cubemapHelpersMaterial, 1);
-    return dest;
-  }
+        RenderTextureDescriptor descriptor = src.descriptor;
+        descriptor.dimension = TextureDimension.Tex2D;
+        descriptor.width *= 6;
+        descriptor.msaaSamples = 1;
+        RenderTexture renderTexture = new RenderTexture(descriptor);
+        CubemapHelpers.cubemapHelpersMaterial.SetTexture(CubemapHelpers._cubePropertyId, src);
+        Graphics.Blit(null, renderTexture, CubemapHelpers.cubemapHelpersMaterial, 1);
+        return renderTexture;
+    }
 
-  private static void DrawCubemapFace(Texture cubemap, CubemapFace cubemapFace)
+    private static void DrawCubemapFace(Texture cubemap, CubemapFace cubemapFace)
   {
     CubemapHelpers.cubemapHelpersMaterial.SetTexture(CubemapHelpers._cubePropertyId, cubemap);
     CubemapHelpers.cubemapHelpersMaterial.SetInt(CubemapHelpers._cubeFaceNumberId, CubemapHelpers._cubemapFaceToCubeFaceNumberDict[cubemapFace]);

@@ -33,9 +33,13 @@ public class ParticleSystemEventController : MonoBehaviour
     this._particleSystem.Simulate(0.0f, true, true);
   }
 
-  public virtual void InitSpeed(float simulationSpeedMultiplier) => this._particleSystem.main.simulationSpeed = 1f * simulationSpeedMultiplier;
+    public virtual void InitSpeed(float simulationSpeedMultiplier)
+    {
+        var main = this._particleSystem.main;
+        main.simulationSpeed = 1f * simulationSpeedMultiplier;
+    }
 
-  public virtual void Play() => this._particleSystem.Play();
+    public virtual void Play() => this._particleSystem.Play();
 
   public virtual void Pause() => this._particleSystem.Pause();
 

@@ -81,21 +81,21 @@ public class MultiplayerIntroCountdown : MonoBehaviour
       yield return (object) new WaitForSeconds(delay);
     float soundDelayAfterText = Mathf.Max(multiplayerIntroCountdown._textAppearDuration - 0.1f, 0.0f);
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._buildUpClip, (float) ((double) seconds * (double) durationMultiplier - 2.0) + soundDelayAfterText)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._buildUpClip, (float)((double)seconds * (double)durationMultiplier - 2.0) + soundDelayAfterText));
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._readyClip, soundDelayAfterText * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._readyClip, soundDelayAfterText * durationMultiplier));
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_READY"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._textDisappearDuration * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_READY"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._textDisappearDuration * durationMultiplier));
     yield return (object) new WaitForSeconds(seconds * 0.5f * durationMultiplier);
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._setClip, soundDelayAfterText * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._setClip, soundDelayAfterText * durationMultiplier));
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_SET"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._textDisappearDuration * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_SET"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._textDisappearDuration * durationMultiplier));
     yield return (object) new WaitForSeconds(seconds * 0.5f * durationMultiplier);
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._goClip, soundDelayAfterText * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PlayDelayed(multiplayerIntroCountdown._goClip, soundDelayAfterText * durationMultiplier));
     // ISSUE: explicit non-virtual call
-    multiplayerIntroCountdown.StartCoroutine(__nonvirtual (multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_GO"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._goDisappearDuration * durationMultiplier)));
+    multiplayerIntroCountdown.StartCoroutine(multiplayerIntroCountdown.PhaseRoutine(Localization.Get("COUNTDOWN_GO"), multiplayerIntroCountdown._textAppearDuration * durationMultiplier, multiplayerIntroCountdown._goDisappearDuration * durationMultiplier));
     multiplayerIntroCountdown._multiplayerOffsetByLocalPlayerPosition.SetEnabled(false);
   }
 

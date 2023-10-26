@@ -446,7 +446,7 @@ namespace Zenject
                 ModestTree.Assert.IsNotNull(ctx.ObjectInstance);
                 MonoBehaviour monoBehaviour = (MonoBehaviour)ctx.ObjectInstance;
                 IEnumerable<Component> source = from x in monoBehaviour.GetComponentsInChildren(concreteType, includeInactive)
-                                                where x != ctx.ObjectInstance
+                                                where x != (object)ctx.ObjectInstance
                                                 select x;
                 if (excludeSelf)
                 {
@@ -475,7 +475,7 @@ namespace Zenject
                 ModestTree.Assert.IsNotNull(ctx.ObjectInstance);
                 MonoBehaviour monoBehaviour = (MonoBehaviour)ctx.ObjectInstance;
                 IEnumerable<Component> source = from x in monoBehaviour.GetComponentsInParent(concreteType, includeInactive)
-                                                where x != ctx.ObjectInstance
+                                                where x != (object)ctx.ObjectInstance
                                                 select x;
                 if (excludeSelf)
                 {
@@ -509,7 +509,7 @@ namespace Zenject
                 ModestTree.Assert.IsNotNull(ctx.ObjectInstance);
                 MonoBehaviour monoBehaviour = (MonoBehaviour)ctx.ObjectInstance;
                 IEnumerable<Component> source = from x in monoBehaviour.GetComponentsInParent(concreteType, includeInactive)
-                                                where x != ctx.ObjectInstance
+                                                where x != (object)ctx.ObjectInstance
                                                 select x;
                 if (excludeSelf)
                 {

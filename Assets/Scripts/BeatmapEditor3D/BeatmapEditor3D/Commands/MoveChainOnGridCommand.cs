@@ -44,12 +44,12 @@ namespace BeatmapEditor3D.Commands
       this._originalChain = this.beatmapLevelDataModel.GetChainById(this._signal.id);
       if (this._originalChain == (ChainEditorData) null || this._signal.cellData == null)
         return;
-      bool flag = ((int) this._beatmapObjectsSelectionState.draggedHead ?? (this._signal.cellData.IsPositionSame((BaseBeatmapObjectEditorData) this._originalChain) ? 1 : 0)) != 0;
+      bool flag = this._beatmapObjectsSelectionState.draggedHead ?? this._signal.cellData.IsPositionSame(this._originalChain);
       this._beatmapObjectsSelectionState.draggedHead = new bool?(flag);
       if (flag)
       {
         this._newChain = ChainEditorData.CopyWithModifications(this._originalChain, column: new int?(this._signal.position.x), row: new int?(this._signal.position.y));
-        this._originalTailArc = this.beatmapLevelDataModel.GetArcByTail(new BeatmapObjectCellData((BaseBeatmapObjectEditorData) this._originalChain));
+        this._originalTailArc = this.beatmapLevelDataModel.GetArcByTail(new BeatmapObjectCellData( this._originalChain));
         if (!(this._originalTailArc != (ArcEditorData) null))
           return;
         ArcEditorData originalTailArc = this._originalTailArc;

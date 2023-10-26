@@ -28,37 +28,33 @@ public class AnnotatedBeatmapLevelCollectionsGridViewAnimator : MonoBehaviour
   protected Vector2Tween _viewportSizeTween;
   protected Vector2Tween _contentPositionTween;
 
-  public virtual void Init(float rowHeight, int rowCount)
-  {
-    this._rowHeight = rowHeight;
-    this._rowCount = rowCount;
-    this._selectedRow = 0;
-    this._contentTransform.sizeDelta = this._contentTransform.sizeDelta with
+    public virtual void Init(float rowHeight, int rowCount)
     {
-      y = this._rowHeight * (float) this._rowCount
-    };
-    this._contentTransform.anchoredPosition = this._contentTransform.anchoredPosition with
-    {
-      y = this.GetContentYOffset()
-    };
-    this._viewportTransform.sizeDelta = this._viewportTransform.sizeDelta with
-    {
-      y = this._rowHeight
-    };
-  }
+        this._rowHeight = rowHeight;
+        this._rowCount = rowCount;
+        this._selectedRow = 0;
+        Vector2 sizeDelta = this._contentTransform.sizeDelta;
+        sizeDelta.y = this._rowHeight * (float)this._rowCount;
+        this._contentTransform.sizeDelta = sizeDelta;
+        Vector2 anchoredPosition = this._contentTransform.anchoredPosition;
+        anchoredPosition.y = this.GetContentYOffset();
+        this._contentTransform.anchoredPosition = anchoredPosition;
+        Vector2 sizeDelta2 = this._viewportTransform.sizeDelta;
+        sizeDelta2.y = this._rowHeight;
+        this._viewportTransform.sizeDelta = sizeDelta2;
+    }
 
-  public virtual void OnDestroy() => this.DespawnAllActiveTweens();
+    public virtual void OnDestroy() => this.DespawnAllActiveTweens();
 
-  public virtual void ScrollToRowIdxInstant(int selectedRow)
-  {
-    this._selectedRow = selectedRow;
-    this._contentTransform.anchoredPosition = this._contentTransform.anchoredPosition with
+    public virtual void ScrollToRowIdxInstant(int selectedRow)
     {
-      y = this.GetContentYOffset()
-    };
-  }
+        this._selectedRow = selectedRow;
+        Vector2 anchoredPosition = this._contentTransform.anchoredPosition;
+        anchoredPosition.y = this.GetContentYOffset();
+        this._contentTransform.anchoredPosition = anchoredPosition;
+    }
 
-  public virtual void AnimateOpen(bool animated)
+    public virtual void AnimateOpen(bool animated)
   {
     this.DespawnAllActiveTweens();
     Vector2 sizeDelta = this._viewportTransform.sizeDelta;

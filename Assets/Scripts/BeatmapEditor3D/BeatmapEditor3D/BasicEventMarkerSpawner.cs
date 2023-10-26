@@ -54,22 +54,20 @@ namespace BeatmapEditor3D
       }
     }
 
-    public void UpdateSpawnedEvents(float currentBeat)
-    {
-      for (int index = 0; index < this._eventMarkerObjects.Count; ++index)
-      {
-        Vector3 localPosition = this._eventMarkerObjects[index].transform.localPosition with
+        public void UpdateSpawnedEvents(float currentBeat)
         {
-          z = this._beatmapObjectPlacementHelper.BeatToPosition(this._eventMarkerObjects[index].basicEventData.beat, currentBeat)
-        };
-        this._eventMarkerObjects[index].transform.localPosition = localPosition;
-        bool selected = this._eventsSelectionState.IsSelected(this._eventMarkerObjects[index].basicEventData.id);
-        float a = this._eventMarkerObjects[index].basicEventData.beat - currentBeat;
-        this._eventMarkerObjects[index].SetState(AudioTimeHelper.IsBeatSame(a, 0.0f), (double) a < 0.0, selected);
-      }
-    }
+            for (int i = 0; i < this._eventMarkerObjects.Count; i++)
+            {
+                Vector3 localPosition = this._eventMarkerObjects[i].transform.localPosition;
+                localPosition.z = this._beatmapObjectPlacementHelper.BeatToPosition(this._eventMarkerObjects[i].basicEventData.beat, currentBeat);
+                this._eventMarkerObjects[i].transform.localPosition = localPosition;
+                bool selected = this._eventsSelectionState.IsSelected(this._eventMarkerObjects[i].basicEventData.id);
+                float num = this._eventMarkerObjects[i].basicEventData.beat - currentBeat;
+                this._eventMarkerObjects[i].SetState(AudioTimeHelper.IsBeatSame(num, 0f), num < 0f, selected);
+            }
+        }
 
-    public void SpawnAt(BasicEventEditorData data, float xPos, float currentBeat)
+        public void SpawnAt(BasicEventEditorData data, float xPos, float currentBeat)
     {
       TextEventMarkerObject eventMarkerObject = this._textEventMarkerObjectPool.Spawn();
       this._eventMarkerObjects.Add(eventMarkerObject);

@@ -25,16 +25,15 @@ public class ShadowFollowController : MonoBehaviour
 
   public virtual void SetTargetTransform(Transform target) => this._targetTransform = target;
 
-  public virtual void Update()
-  {
-    Vector3 position = this._targetTransform.position;
-    float t = Mathf.InverseLerp(this._shadowHeightRange.x, this._shadowHeightRange.y, position.y);
-    float num = this._shadowSizeRange.y - Mathf.LerpUnclamped(this._shadowSizeRange.x, this._shadowSizeRange.y, t);
-    this._shadowTransform.localScale = new Vector3(num, num, num);
-    this._shadowTransform.position = new Vector3(position.x, 0.0f, position.z);
-    this._shadowSpriteRenderer.color = this._shadowSpriteRenderer.color with
+    public virtual void Update()
     {
-      a = this._shadowAlphaRange.y - Mathf.LerpUnclamped(this._shadowAlphaRange.x, this._shadowAlphaRange.y, t)
-    };
-  }
+        Vector3 position = this._targetTransform.position;
+        float t = Mathf.InverseLerp(this._shadowHeightRange.x, this._shadowHeightRange.y, position.y);
+        float num = this._shadowSizeRange.y - Mathf.LerpUnclamped(this._shadowSizeRange.x, this._shadowSizeRange.y, t);
+        this._shadowTransform.localScale = new Vector3(num, num, num);
+        this._shadowTransform.position = new Vector3(position.x, 0f, position.z);
+        Color color = this._shadowSpriteRenderer.color;
+        color.a = this._shadowAlphaRange.y - Mathf.LerpUnclamped(this._shadowAlphaRange.x, this._shadowAlphaRange.y, t);
+        this._shadowSpriteRenderer.color = color;
+    }
 }

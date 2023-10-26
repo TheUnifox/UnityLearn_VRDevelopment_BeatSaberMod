@@ -18,10 +18,7 @@ public class MockPlayerFiniteStateMachine : IDisposable
         {
             return Color.red;
         }
-        set
-        {
-            value = value;
-        }
+        set { }
     }
 
     // Token: 0x17000016 RID: 22
@@ -33,10 +30,7 @@ public class MockPlayerFiniteStateMachine : IDisposable
         {
             return Color.blue;
         }
-        set
-        {
-            value = value;
-        }
+        set { }
     }
 
     // Token: 0x17000017 RID: 23
@@ -48,10 +42,7 @@ public class MockPlayerFiniteStateMachine : IDisposable
         {
             return Color.white;
         }
-        set
-        {
-            value = value;
-        }
+        set { }
     }
 
     // Token: 0x17000018 RID: 24
@@ -63,10 +54,7 @@ public class MockPlayerFiniteStateMachine : IDisposable
         {
             return false;
         }
-        set
-        {
-            value = value;
-        }
+        set { }
     }
 
     // Token: 0x17000019 RID: 25
@@ -78,10 +66,7 @@ public class MockPlayerFiniteStateMachine : IDisposable
         {
             return false;
         }
-        set
-        {
-            value = value;
-        }
+        set { }
     }
 
     // Token: 0x1700001A RID: 26

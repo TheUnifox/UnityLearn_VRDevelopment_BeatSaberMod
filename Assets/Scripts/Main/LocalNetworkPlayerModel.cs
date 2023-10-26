@@ -72,8 +72,7 @@ public class LocalNetworkPlayerModel : BaseNetworkPlayerModel, INetworkPlayerMod
       playerModel._discoveryManager.inviteRequestedEvent += new LocalNetworkDiscoveryManager.InviteRequestedDelegate(playerModel.HandleInviteRequest);
       playerModel._discoveryManager.inviteRespondedEvent += new LocalNetworkDiscoveryManager.InviteRespondedDelegate(playerModel.HandleInviteResponse);
       playerModel._discoveryManager.Init(playerModel._networkConfig.discoveryPort, hashedUserId, NetworkUtility.EncryptName(playerModel._localPlayer.userName));
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (playerModel.RefreshLocalPlayer());
+      playerModel.RefreshLocalPlayer();
     }
   }
 

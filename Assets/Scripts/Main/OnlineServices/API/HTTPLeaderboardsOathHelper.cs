@@ -76,7 +76,7 @@ namespace OnlineServices.API
       {
         return JsonUtility.FromJson<UserAuthenticationResult>(await this.SendWebRequestAsync(uri, "POST", json, (string) null)).accessToken;
       }
-      catch (NullReferenceException ex)
+      catch (NullReferenceException)
       {
         return (AccessToken) null;
       }
@@ -104,10 +104,10 @@ namespace OnlineServices.API
         TaskCompletionSource<bool> taskComplitionSource = new TaskCompletionSource<bool>();
         Action<AsyncOperation> action = (Action<AsyncOperation>) (asyncOperation2 =>
         {
-          if (webRequest.isNetworkError || webRequest.isHttpError)
+          if ((webRequest.result == UnityWebRequest.Result.ConnectionError) || (webRequest.result == UnityWebRequest.Result.ProtocolError))
           {
             if (webRequest.responseCode == 401L)
-              closure_3._accessToken = (AccessToken) null;
+              this._accessToken = (AccessToken) null;
             taskComplitionSource.TrySetResult(false);
           }
           taskComplitionSource.TrySetResult(true);

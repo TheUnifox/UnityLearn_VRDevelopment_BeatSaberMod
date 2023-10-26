@@ -30,7 +30,6 @@ namespace Zenject
                 if (this._injectContext.Container.IsValidating && instance is ValidationMarker)
                 {
                     tvalue = default(TValue);
-                    tvalue = tvalue;
                 }
                 else
                 {

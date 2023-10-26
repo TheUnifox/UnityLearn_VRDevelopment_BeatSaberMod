@@ -78,22 +78,20 @@ namespace BeatmapEditor3D.Views
       }
     }
 
-    private void UpdateChains()
-    {
-      foreach (KeyValuePair<BeatmapEditorObjectId, ChainNoteView> chainObject in this._chainObjects)
-      {
-        float a1 = chainObject.Value.chainData.beat - this.beatmapState.beat;
-        float a2 = chainObject.Value.chainData.tailBeat - this.beatmapState.beat;
-        Vector3 localPosition = chainObject.Value.transform.localPosition with
+        private void UpdateChains()
         {
-          z = this.beatmapObjectPlacementHelper.BeatToPosition(chainObject.Value.chainData.beat)
-        };
-        chainObject.Value.transform.localPosition = localPosition;
-        chainObject.Value.SetState(Mathf.Approximately(a1, 0.0f), (double) a1 < 0.0, Mathf.Approximately(a2, 0.0f), (double) a2 < 0.0, false);
-      }
-    }
+            foreach (KeyValuePair<BeatmapEditorObjectId, ChainNoteView> keyValuePair in this._chainObjects)
+            {
+                float num = keyValuePair.Value.chainData.beat - this.beatmapState.beat;
+                float num2 = keyValuePair.Value.chainData.tailBeat - this.beatmapState.beat;
+                Vector3 localPosition = keyValuePair.Value.transform.localPosition;
+                localPosition.z = this.beatmapObjectPlacementHelper.BeatToPosition(keyValuePair.Value.chainData.beat);
+                keyValuePair.Value.transform.localPosition = localPosition;
+                keyValuePair.Value.SetState(Mathf.Approximately(num, 0f), num < 0f, Mathf.Approximately(num2, 0f), num2 < 0f, false);
+            }
+        }
 
-    private void InsertChains(
+        private void InsertChains(
       IReadOnlyCollection<ChainEditorData> chainsToInsert)
     {
       if (chainsToInsert == null || chainsToInsert.Count == 0)

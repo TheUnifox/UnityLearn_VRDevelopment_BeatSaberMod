@@ -49,7 +49,6 @@ namespace Zenject
         public void RemoveTask(TTask task)
         {
             TaskUpdater<TTask>.TaskInfo taskInfo = (from x in this.AllTasks
-                                                    where x.Task == task
                                                     select x).SingleOrDefault<TaskUpdater<TTask>.TaskInfo>();
             ModestTree.Assert.IsNotNull(taskInfo, "Tried to remove a task not added to DependencyRoot, task = " + task.GetType().Name);
             ModestTree.Assert.That(!taskInfo.IsRemoved, "Tried to remove task twice, task = " + task.GetType().Name);

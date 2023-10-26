@@ -9,26 +9,10 @@ using UnityEngine;
 
 public class DeactivateAfterFirstFrame : MonoBehaviour
 {
-  public virtual IEnumerator Start()
-  {
-    // ISSUE: reference to a compiler-generated field
-    int num = this.m_Cm_E1__state;
-    DeactivateAfterFirstFrame deactivateAfterFirstFrame = this;
-    if (num != 0)
+    public virtual IEnumerator Start()
     {
-      if (num != 1)
-        return false;
-      // ISSUE: reference to a compiler-generated field
-      this.m_Cm_E1__state = -1;
-      deactivateAfterFirstFrame.gameObject.SetActive(false);
-      return false;
+        yield return null;
+        base.gameObject.SetActive(false);
+        yield break;
     }
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E1__state = -1;
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E2__current = (object) null;
-    // ISSUE: reference to a compiler-generated field
-    this.m_Cm_E1__state = 1;
-    return true;
-  }
 }

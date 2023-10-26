@@ -322,7 +322,7 @@ namespace BGNet.Core.Messages
                     throw unconnectedMessageHandler._authenticationException;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 unconnectedMessageHandler.encryptionLayer.RemoveEncryptedEndpoint(endPoint, encryptionState);
                 throw;

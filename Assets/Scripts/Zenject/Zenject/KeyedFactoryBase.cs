@@ -127,17 +127,17 @@ namespace Zenject
 
         // Token: 0x040002BD RID: 701
         [Inject]
-        private readonly DiContainer _container;
+        private DiContainer _container;
 
         // Token: 0x040002BE RID: 702
         [InjectOptional]
-        private readonly List<ModestTree.Util.ValuePair<TKey, Type>> _typePairs;
+        private List<ModestTree.Util.ValuePair<TKey, Type>> _typePairs;
 
         // Token: 0x040002BF RID: 703
         private Dictionary<TKey, Type> _typeMap;
 
         // Token: 0x040002C0 RID: 704
         [InjectOptional]
-        private readonly Type _fallbackType;
+        private Type _fallbackType;
     }
 }

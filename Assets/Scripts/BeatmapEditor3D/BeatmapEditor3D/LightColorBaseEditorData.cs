@@ -49,7 +49,7 @@ namespace BeatmapEditor3D
       LightColorBaseEditorData.EnvironmentColorType? colorType = null,
       int? strobeFrequency = null)
     {
-      return LightColorBaseEditorData.CreateNewWithId(id ?? original.id, (float) ((double) beat ?? (double) original.beat), (float) ((double) brightness ?? (double) original.brightness), (LightColorBaseEditorData.TransitionType) ((int) transitionType ?? (int) original.transitionType), (LightColorBaseEditorData.EnvironmentColorType) ((int) colorType ?? (int) original.colorType), strobeFrequency ?? original.strobeBeatFrequency);
+      return LightColorBaseEditorData.CreateNewWithId(id ?? original.id, beat ?? original.beat, brightness ?? original.brightness, transitionType ?? original.transitionType, colorType ?? original.colorType, strobeFrequency ?? original.strobeBeatFrequency);
     }
 
     public static LightColorBaseEditorData CreateExtension(float beat) => LightColorBaseEditorData.CreateNew(beat, 0.0f, LightColorBaseEditorData.TransitionType.Extension, LightColorBaseEditorData.EnvironmentColorType.None, 0);

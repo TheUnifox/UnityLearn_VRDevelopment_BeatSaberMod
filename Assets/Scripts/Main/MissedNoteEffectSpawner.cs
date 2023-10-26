@@ -43,10 +43,11 @@ public class MissedNoteEffectSpawner : MonoBehaviour
   {
     if (noteController.hidden || (double) noteController.noteData.time + 0.5 < (double) this._audioTimeSyncController.songTime || noteController.noteData.colorType == ColorType.None)
       return;
-    Vector3 position = noteController.noteTransform.position;
-    this._missedNoteFlyingSpriteSpawner.SpawnFlyingSprite(noteController.worldRotation * (noteController.inverseWorldRotation * position) with
-    {
-      z = this._spawnPosZ
-    }, noteController.worldRotation, noteController.inverseWorldRotation);
-  }
+        Vector3 vector = noteController.noteTransform.position;
+        Quaternion worldRotation = noteController.worldRotation;
+        vector = noteController.inverseWorldRotation * vector;
+        vector.z = this._spawnPosZ;
+        vector = worldRotation * vector;
+        this._missedNoteFlyingSpriteSpawner.SpawnFlyingSprite(vector, noteController.worldRotation, noteController.inverseWorldRotation);
+    }
 }

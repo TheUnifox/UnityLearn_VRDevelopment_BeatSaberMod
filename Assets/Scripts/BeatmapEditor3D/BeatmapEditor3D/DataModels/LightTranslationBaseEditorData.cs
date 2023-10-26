@@ -50,7 +50,7 @@ namespace BeatmapEditor3D.DataModels
       float? translation = null,
       bool? usePreviousEventTranslationValue = null)
     {
-      return LightTranslationBaseEditorData.CreateNewWithId(id ?? original.id, (float) ((double) beat ?? (double) original.beat), (EaseType) ((int) easeType ?? (int) original.easeType), (float) ((double) translation ?? (double) original.translation), ((int) usePreviousEventTranslationValue ?? (original.usePreviousEventTranslationValue ? 1 : 0)) != 0);
+      return LightTranslationBaseEditorData.CreateNewWithId(id ?? original.id, beat ?? original.beat, easeType ?? original.easeType, translation ?? original.translation, usePreviousEventTranslationValue ?? original.usePreviousEventTranslationValue);
     }
 
     public static LightTranslationBaseEditorData CreateExtension(float beat) => LightTranslationBaseEditorData.CreateNew(beat, EaseType.None, 0.0f, true);

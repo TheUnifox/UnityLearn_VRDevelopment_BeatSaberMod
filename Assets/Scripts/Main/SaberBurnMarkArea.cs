@@ -63,11 +63,11 @@ public class SaberBurnMarkArea : MonoBehaviour
       for (int index = 0; index < 2; ++index)
       {
         Color color = this._colorManager.EffectsColorForSaberType(this._sabers[index].saberType);
-        this._lineRenderers[index] = Object.Instantiate<LineRenderer>(this._saberBurnMarkLinePrefab, Vector3.zero, Quaternion.identity, (Transform) null);
+        this._lineRenderers[index] = Instantiate<LineRenderer>(this._saberBurnMarkLinePrefab, Vector3.zero, Quaternion.identity, (Transform) null);
         this._lineRenderers[index].startColor = color;
         this._lineRenderers[index].endColor = color;
         this._lineRenderers[index].positionCount = 2;
-        new Quaternion().eulerAngles = new Vector3(-90f, 0.0f, 0.0f);
+        this._lineRenderers[index].gameObject.transform.rotation = Quaternion.Euler( new Vector3(-90f, 0f, 0f));
         this._prevBurnMarkPosValid[index] = false;
       }
       this._renderTextures = new RenderTexture[2];

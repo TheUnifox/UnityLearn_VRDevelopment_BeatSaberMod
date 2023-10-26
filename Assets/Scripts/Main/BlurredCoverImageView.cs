@@ -54,9 +54,7 @@ public class BlurredCoverImageView : MonoBehaviour
       this._coverImage.enabled = true;
       cancellationToken = new CancellationToken();
     }
-    catch (OperationCanceledException ex)
-    {
-    }
+    catch (OperationCanceledException) { }
     finally
     {
       if (this._settingTextureForLevelId == level.levelID)

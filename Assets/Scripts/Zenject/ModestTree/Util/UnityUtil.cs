@@ -116,8 +116,6 @@ namespace ModestTree.Util
             {
                 yield return transform2;
             }
-            IEnumerator<Transform> enumerator = null;
-            yield break;
             yield break;
         }
 
@@ -133,8 +131,6 @@ namespace ModestTree.Util
             {
                 yield return transform2;
             }
-            IEnumerator<Transform> enumerator = null;
-            yield break;
             yield break;
         }
 
@@ -173,8 +169,6 @@ namespace ModestTree.Util
                 Transform transform = (Transform)obj2;
                 yield return transform.gameObject;
             }
-            IEnumerator enumerator = null;
-            yield break;
             yield break;
         }
 
@@ -186,8 +180,6 @@ namespace ModestTree.Util
                 Transform transform = (Transform)obj2;
                 yield return transform.gameObject;
             }
-            IEnumerator enumerator = null;
-            yield break;
             yield break;
         }
 

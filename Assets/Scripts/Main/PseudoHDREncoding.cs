@@ -13,15 +13,16 @@ public abstract class PseudoHDREncoding
   [DoesNotRequireDomainReloadInit]
   private static Material _material;
 
-  public static RenderTexture CreatePseudoHDREncodedTexture(RenderTexture src)
-  {
-    RenderTexture dest = new RenderTexture(src.descriptor with
+    public static RenderTexture CreatePseudoHDREncodedTexture(RenderTexture src)
     {
-      sRGB = true
-    });
-    if ((Object) PseudoHDREncoding._material == (Object) null)
-      PseudoHDREncoding._material = new Material(Shader.Find("Hidden/PseudoHDREncoding"));
-    Graphics.Blit((Texture) src, dest, PseudoHDREncoding._material);
-    return dest;
-  }
+        RenderTextureDescriptor descriptor = src.descriptor;
+        descriptor.sRGB = true;
+        RenderTexture renderTexture = new RenderTexture(descriptor);
+        if (PseudoHDREncoding._material == null)
+        {
+            PseudoHDREncoding._material = new Material(Shader.Find("Hidden/PseudoHDREncoding"));
+        }
+        Graphics.Blit(src, renderTexture, PseudoHDREncoding._material);
+        return renderTexture;
+    }
 }

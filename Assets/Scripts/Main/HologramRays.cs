@@ -136,16 +136,15 @@ public class HologramRays : MonoBehaviour
     }
   }
 
-  public virtual void UpdateBounds()
-  {
-    Vector3 one = Vector3.one;
-    this._hologramRaysMesh.bounds = new Bounds((this._hologramRaysTransform.InverseTransformPoint(this._targetTransform.position) * 0.5f) with
+    public virtual void UpdateBounds()
     {
-      x = one.x = this.cachedExtent
-    }, one);
-  }
+        Vector3 one = Vector3.one;
+        Vector3 center = this._hologramRaysTransform.InverseTransformPoint(this._targetTransform.position) * 0.5f;
+        center.x = (one.x = this.cachedExtent);
+        this._hologramRaysMesh.bounds = new Bounds(center, one);
+    }
 
-  [CompilerGenerated]
+    [CompilerGenerated]
   public virtual void m_CAwakem_Eb__22_0(float f)
   {
     this._bloomLight.color = Color.Lerp(this._bloomTransparentColor, this._bloomColor, f);

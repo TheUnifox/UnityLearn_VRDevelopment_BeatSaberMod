@@ -61,15 +61,28 @@ namespace BeatmapEditor3D.Views
       this._loadImageCoroutine = this.StartCoroutine(this.LoadCoverImageCoroutine());
     }
 
-    private IEnumerator LoadCoverImageCoroutine()
-    {
-      RecentBeatmapView recentBeatmapView = this;
-      if (!string.IsNullOrEmpty(recentBeatmapView._beatmapInfoData.beatmapFolderPath) && !string.IsNullOrEmpty(recentBeatmapView._beatmapInfoData.coverImagePath) && BeatmapProjectFileHelper.FileExists(recentBeatmapView._beatmapInfoData.beatmapFolderPath, recentBeatmapView._beatmapInfoData.coverImagePath))
-      {
-        // ISSUE: reference to a compiler-generated method
-        yield return (object) SimpleTextureLoader.LoadTextureCoroutine(Path.Combine(recentBeatmapView._beatmapInfoData.beatmapFolderPath, recentBeatmapView._beatmapInfoData.coverImagePath), false, new Action<Texture2D>(recentBeatmapView.m_CLoadCoverImageCoroutinem_Eb__11_0));
-        recentBeatmapView._loadImageCoroutine = (Coroutine) null;
-      }
+        private IEnumerator LoadCoverImageCoroutine()
+        {
+            if (string.IsNullOrEmpty(this._beatmapInfoData.beatmapFolderPath) || string.IsNullOrEmpty(this._beatmapInfoData.coverImagePath))
+            {
+                yield break;
+            }
+            if (!BeatmapProjectFileHelper.FileExists(this._beatmapInfoData.beatmapFolderPath, this._beatmapInfoData.coverImagePath))
+            {
+                yield break;
+            }
+            string filePath = Path.Combine(this._beatmapInfoData.beatmapFolderPath, this._beatmapInfoData.coverImagePath);
+            yield return SimpleTextureLoader.LoadTextureCoroutine(filePath, false, delegate (Texture2D texture)
+            {
+                if (texture == null)
+                {
+                    return;
+                }
+                this._rawImage.texture = texture;
+                this._rawImage.color = Color.white;
+            });
+            this._loadImageCoroutine = null;
+            yield break;
+        }
     }
-  }
 }

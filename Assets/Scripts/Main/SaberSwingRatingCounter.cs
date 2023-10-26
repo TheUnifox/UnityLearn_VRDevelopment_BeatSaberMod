@@ -141,23 +141,23 @@ public class SaberSwingRatingCounter : ISaberSwingRatingCounter, ISaberMovementD
     this._finished = true;
   }
 
-  public virtual void DrawGizmos()
-  {
-    Gizmos.matrix = Matrix4x4.TRS(this._notePlaneCenter, Quaternion.LookRotation(this._notePlane.normal), Vector3.one);
-    Gizmos.color = (Color) ((Color32) Color.blue with
+    public virtual void DrawGizmos()
     {
-      a = (byte) 125
-    });
-    Gizmos.DrawCube(Vector3.zero, new Vector3(1f, 1f, 0.0001f));
-    Gizmos.matrix = Matrix4x4.identity;
-    Gizmos.color = Color.white;
-    Gizmos.color = Color.magenta;
-    Gizmos.DrawLine(this._beforeCutBottomPos, this._beforeCutTopPos);
-    Gizmos.color = Color.white;
-    Gizmos.DrawLine(this._afterCutBottomPos, this._afterCutTopPos);
-    Gizmos.color = Color.red;
-    Gizmos.DrawLine(this._notePlaneCenter, this._notePlaneCenter + this._newPlaneNormal);
-    Gizmos.color = Color.green;
-    Gizmos.DrawLine(this._cutTopPos, this._cutBottomPos);
-  }
+        Quaternion q = Quaternion.LookRotation(this._notePlane.normal);
+        Gizmos.matrix = Matrix4x4.TRS(this._notePlaneCenter, q, Vector3.one);
+        Color32 c = Color.blue;
+        c.a = 125;
+        Gizmos.color = c;
+        Gizmos.DrawCube(Vector3.zero, new Vector3(1f, 1f, 0.0001f));
+        Gizmos.matrix = Matrix4x4.identity;
+        Gizmos.color = Color.white;
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawLine(this._beforeCutBottomPos, this._beforeCutTopPos);
+        Gizmos.color = Color.white;
+        Gizmos.DrawLine(this._afterCutBottomPos, this._afterCutTopPos);
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(this._notePlaneCenter, this._notePlaneCenter + this._newPlaneNormal);
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(this._cutTopPos, this._cutBottomPos);
+    }
 }

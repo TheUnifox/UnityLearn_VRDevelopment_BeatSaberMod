@@ -47,7 +47,7 @@ namespace OnlineServices.API
       {
         return JsonUtility.FromJson<LeaderboardEntryDTO>(await this._httpLeaderboardsOathHelper.SendWebRequestWithOathAsync("/v1/Leaderboard/AddEntry", "POST", (object) levelScoreResult, cancellationToken)) != null ? Response.Success : Response.UnknownError;
       }
-      catch (NullReferenceException ex)
+      catch (NullReferenceException)
       {
         return Response.UnknownError;
       }

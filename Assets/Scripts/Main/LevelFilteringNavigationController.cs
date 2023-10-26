@@ -87,9 +87,9 @@ public class LevelFilteringNavigationController : NavigationController
       SelectLevelCategoryViewController.LevelCategory.MusicPacks
     };
     // ISSUE: explicit non-virtual call
-    this._ostBeatmapLevelPacks = ((IEnumerable<IBeatmapLevelPack>) this._beatmapLevelsModel.ostAndExtrasPackCollection.beatmapLevelPacks).Where<IBeatmapLevelPack>((Func<IBeatmapLevelPack, bool>) (pack => __nonvirtual (this._songPackMask.Contains((SongPackMask) pack.packID)))).ToArray<IBeatmapLevelPack>();
+    this._ostBeatmapLevelPacks = ((IEnumerable<IBeatmapLevelPack>) this._beatmapLevelsModel.ostAndExtrasPackCollection.beatmapLevelPacks).Where<IBeatmapLevelPack>((Func<IBeatmapLevelPack, bool>) (pack => this._songPackMask.Contains((SongPackMask) pack.packID))).ToArray<IBeatmapLevelPack>();
     // ISSUE: explicit non-virtual call
-    this._musicPacksBeatmapLevelPacks = ((IEnumerable<IBeatmapLevelPack>) this._beatmapLevelsModel.dlcBeatmapLevelPackCollection.beatmapLevelPacks).Reverse<IBeatmapLevelPack>().Where<IBeatmapLevelPack>((Func<IBeatmapLevelPack, bool>) (pack => __nonvirtual (this._songPackMask.Contains((SongPackMask) pack.packID)))).ToArray<IBeatmapLevelPack>();
+    this._musicPacksBeatmapLevelPacks = ((IEnumerable<IBeatmapLevelPack>) this._beatmapLevelsModel.dlcBeatmapLevelPackCollection.beatmapLevelPacks).Reverse<IBeatmapLevelPack>().Where<IBeatmapLevelPack>((Func<IBeatmapLevelPack, bool>) (pack => this._songPackMask.Contains((SongPackMask)pack.packID))).ToArray<IBeatmapLevelPack>();
     this._allOfficialBeatmapLevelPacks = ((IEnumerable<IBeatmapLevelPack>) this._ostBeatmapLevelPacks).Concat<IBeatmapLevelPack>((IEnumerable<IBeatmapLevelPack>) this._musicPacksBeatmapLevelPacks).ToArray<IBeatmapLevelPack>();
     if (this._enableCustomLevels)
     {
@@ -307,7 +307,7 @@ public class LevelFilteringNavigationController : NavigationController
       this._levelSearchViewController.Setup(this._allBeatmapLevelPacks);
       this.UpdateSecondChildControllerContent(this._selectLevelCategoryViewController.selectedLevelCategory);
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
     finally
@@ -318,8 +318,8 @@ public class LevelFilteringNavigationController : NavigationController
   }
 
   [CompilerGenerated]
-  public virtual bool m_CSetupBeatmapLevelPacksm_Eb__39_0(IBeatmapLevelPack pack) => __nonvirtual (this._songPackMask.Contains((SongPackMask) pack.packID));
+  public virtual bool m_CSetupBeatmapLevelPacksm_Eb__39_0(IBeatmapLevelPack pack) => this._songPackMask.Contains((SongPackMask)pack.packID);
 
   [CompilerGenerated]
-  public virtual bool m_CSetupBeatmapLevelPacksm_Eb__39_1(IBeatmapLevelPack pack) => __nonvirtual (this._songPackMask.Contains((SongPackMask) pack.packID));
+  public virtual bool m_CSetupBeatmapLevelPacksm_Eb__39_1(IBeatmapLevelPack pack) => this._songPackMask.Contains((SongPackMask)pack.packID);
 }

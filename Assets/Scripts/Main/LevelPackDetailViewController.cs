@@ -36,7 +36,7 @@ public class LevelPackDetailViewController : ViewController
   protected DlcPromoPanelModel _dlcPromoPanelModel;
   [Inject]
   protected IAnalyticsModel _analyticsModel;
-  protected EventBinder _eventBinder = new EventBinder();
+  protected EventBinder _eventBinder = new();
   protected CancellationTokenSource _cancellationTokenSource;
   protected IBeatmapLevelPack _pack;
   protected Sprite _blurredPackArtwork;
@@ -68,8 +68,8 @@ public class LevelPackDetailViewController : ViewController
     if (firstActivation)
     {
       this.buttonBinder.AddBinding(this._buyButton, new System.Action(this.BuyPackButtonWasPressed));
-      System.Action handleDidPressRefreshButton = (System.Action) (() => this.RefreshAvailabilityAsync());
-      this._eventBinder.Bind((System.Action) (() => this._loadingControl.didPressRefreshButtonEvent += handleDidPressRefreshButton), (System.Action) (() => this._loadingControl.didPressRefreshButtonEvent -= handleDidPressRefreshButton));
+            void handleDidPressRefreshButton() => this.RefreshAvailabilityAsync();
+            this._eventBinder.Bind((System.Action) (() => this._loadingControl.didPressRefreshButtonEvent += handleDidPressRefreshButton), (System.Action) (() => this._loadingControl.didPressRefreshButtonEvent -= handleDidPressRefreshButton));
     }
     this._additionalContentModel.didInvalidateDataEvent += new System.Action(this.HandleAdditionalContentModelDidInvalidateData);
     this.RefreshAvailabilityAsync();
@@ -101,27 +101,24 @@ public class LevelPackDetailViewController : ViewController
     try
     {
       // ISSUE: explicit non-virtual call
-      __nonvirtual (detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Loading));
+      detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Loading);
       detailViewController._cancellationTokenSource?.Cancel();
       detailViewController._cancellationTokenSource = new CancellationTokenSource();
       detailViewController._requireInternetContainer.SetActive(false);
       switch (await detailViewController._additionalContentModel.GetPackEntitlementStatusAsync(detailViewController._pack.packID, detailViewController._cancellationTokenSource.Token))
       {
         case AdditionalContentModel.EntitlementStatus.Owned:
-          // ISSUE: explicit non-virtual call
-          __nonvirtual (detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Owned));
+          detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Owned);
           break;
         case AdditionalContentModel.EntitlementStatus.NotOwned:
-          // ISSUE: explicit non-virtual call
-          __nonvirtual (detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Buy));
+          detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Buy);
           break;
         default:
-          // ISSUE: explicit non-virtual call
-          __nonvirtual (detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Error, "Error loading data."));
+          detailViewController.ShowContent(LevelPackDetailViewController.ContentType.Error, "Error loading data.");
           break;
       }
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
   }
@@ -142,7 +139,7 @@ public class LevelPackDetailViewController : ViewController
       int num = (int) await this._additionalContentModel.OpenLevelPackProductStoreAsync(this._pack.packID, this._cancellationTokenSource.Token);
       this.RefreshAvailabilityAsync();
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
     }
   }
@@ -152,7 +149,7 @@ public class LevelPackDetailViewController : ViewController
     string errorText = "")
   {
     this._detailWrapper.SetActive(contentType == LevelPackDetailViewController.ContentType.Owned || contentType == LevelPackDetailViewController.ContentType.Buy);
-    this._buyContainer.gameObject.SetActive(contentType == LevelPackDetailViewController.ContentType.Buy);
+    this._buyContainer.SetActive(contentType == LevelPackDetailViewController.ContentType.Buy);
     if (contentType == LevelPackDetailViewController.ContentType.Buy)
     {
       this._dlcPromoPanelModel.BuyPackButtonWasShown(this._pack, "Music Pack", "Buy " + this._pack.packName);
@@ -178,7 +175,7 @@ public class LevelPackDetailViewController : ViewController
   public virtual void HandleAdditionalContentModelDidInvalidateData() => this.RefreshAvailabilityAsync();
 
   [CompilerGenerated]
-  public virtual void m_CDidActivatem_Eb__16_0() => this.RefreshAvailabilityAsync();
+  public virtual void CDidActivatem_Eb__16_0() => this.RefreshAvailabilityAsync();
 
   public enum ContentType
   {

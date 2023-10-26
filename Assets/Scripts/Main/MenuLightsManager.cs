@@ -26,8 +26,7 @@ public class MenuLightsManager : MonoBehaviour
     yield return (object) null;
     if ((Object) menuLightsManager._preset == (Object) null)
     {
-      // ISSUE: explicit non-virtual call
-      __nonvirtual (menuLightsManager.SetColorPreset(menuLightsManager._defaultPreset, false));
+      menuLightsManager.SetColorPreset(menuLightsManager._defaultPreset, false);
     }
   }
 

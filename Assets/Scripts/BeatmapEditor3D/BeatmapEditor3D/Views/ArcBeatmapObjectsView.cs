@@ -106,24 +106,22 @@ namespace BeatmapEditor3D.Views
       }
     }
 
-    private void UpdateArcs()
-    {
-      foreach (BaseEditorData currentArc in this._currentArcs)
-      {
-        ArcView arcObject = this._arcObjects[currentArc.id];
-        Vector3 localPosition = arcObject.transform.localPosition with
+        private void UpdateArcs()
         {
-          z = this.beatmapObjectPlacementHelper.BeatToPosition(arcObject.arcData.beat)
-        };
-        arcObject.transform.localPosition = localPosition;
-        float a1 = arcObject.arcData.beat - this.beatmapState.beat;
-        float a2 = arcObject.arcData.tailBeat - this.beatmapState.beat;
-        float a3 = arcObject.arcData.beat + (float) (((double) arcObject.arcData.tailBeat - (double) arcObject.arcData.beat) * 0.5) - this.beatmapState.beat;
-        arcObject.SetState(AudioTimeHelper.IsBeatSame(a1, 0.0f), AudioTimeHelper.IsBeatSame(a2, 0.0f), AudioTimeHelper.IsBeatSame(a3, 0.0f));
-      }
-    }
+            foreach (ArcEditorData arcEditorData in this._currentArcs)
+            {
+                ArcView arcView = this._arcObjects[arcEditorData.id];
+                Vector3 localPosition = arcView.transform.localPosition;
+                localPosition.z = this.beatmapObjectPlacementHelper.BeatToPosition(arcView.arcData.beat);
+                arcView.transform.localPosition = localPosition;
+                float a = arcView.arcData.beat - this.beatmapState.beat;
+                float a2 = arcView.arcData.tailBeat - this.beatmapState.beat;
+                float a3 = arcView.arcData.beat + (arcView.arcData.tailBeat - arcView.arcData.beat) * 0.5f - this.beatmapState.beat;
+                arcView.SetState(AudioTimeHelper.IsBeatSame(a, 0f), AudioTimeHelper.IsBeatSame(a2, 0f), AudioTimeHelper.IsBeatSame(a3, 0f));
+            }
+        }
 
-    private void InsertArcs(IReadOnlyCollection<ArcEditorData> arcsToInsert)
+        private void InsertArcs(IReadOnlyCollection<ArcEditorData> arcsToInsert)
     {
       if (arcsToInsert == null || arcsToInsert.Count <= 0)
         return;

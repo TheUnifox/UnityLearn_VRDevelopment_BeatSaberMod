@@ -37,7 +37,7 @@ namespace BeatmapEditor3D.DataModels
       int? width = null,
       int? height = null)
     {
-      return ObstacleEditorData.CreateNewWithId(id ?? obstacleData.id, (float) ((double) beat ?? (double) obstacleData.beat), column ?? obstacleData.column, row ?? obstacleData.row, (float) ((double) duration ?? (double) obstacleData.duration), width ?? obstacleData.width, height ?? obstacleData.height);
+      return ObstacleEditorData.CreateNewWithId(id ?? obstacleData.id, beat ?? obstacleData.beat, column ?? obstacleData.column, row ?? obstacleData.row, duration ?? obstacleData.duration, width ?? obstacleData.width, height ?? obstacleData.height);
     }
 
     public static ObstacleEditorData CreateNew(

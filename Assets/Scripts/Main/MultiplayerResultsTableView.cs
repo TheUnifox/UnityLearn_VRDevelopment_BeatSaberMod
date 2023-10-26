@@ -122,12 +122,11 @@ public class MultiplayerResultsTableView : MonoBehaviour, TableView.IDataSource
     this._tweeningManager.KillAllTweens((object) this);
     if (this._layoutProvider.layout == MultiplayerPlayerLayout.Duel)
     {
-      this._tableViewRectTransform.anchoredPosition = this._tableViewRectTransform.anchoredPosition with
-      {
-        x = this._duelTablePosXOffset
-      };
-      this._tableViewRectTransform.localRotation = Quaternion.identity;
-    }
+            Vector2 anchoredPosition1 = this._tableViewRectTransform.anchoredPosition;
+            anchoredPosition1.x = this._duelTablePosXOffset;
+            this._tableViewRectTransform.anchoredPosition = anchoredPosition1;
+            this._tableViewRectTransform.localRotation = Quaternion.identity;
+        }
     this._multiplayerOffsetByLocalPlayerPosition.SetEnabled(true);
     foreach (TableCell visibleCell in this._tableView.visibleCells)
     {

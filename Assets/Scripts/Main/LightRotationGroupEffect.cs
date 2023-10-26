@@ -50,14 +50,14 @@ public class LightRotationGroupEffect
     this._rotationTween.Kill();
     this.SetRotation(num);
     LightRotationBeatmapEventData sameTypeEventData = (LightRotationBeatmapEventData) currentEventData.nextSameTypeEventData;
-    if (sameTypeEventData == null || sameTypeEventData.easeType == EaseType.None)
+    if (sameTypeEventData == null || sameTypeEventData.easeType.ToEaseType() == EaseType.None)
       return;
     float targetAngle = Mathf.Repeat(sameTypeEventData.rotation, 360f);
     int loopCount = sameTypeEventData.loopCount;
     this._rotationTween.fromValue = num;
     this._rotationTween.toValue = LightRotationGroupEffect.ComputeTargetAngle(num, targetAngle, loopCount, sameTypeEventData.rotationDirection);
     this._rotationTween.SetStartTimeAndEndTime(currentEventData.time, sameTypeEventData.time);
-    this._rotationTween.easeType = sameTypeEventData.easeType;
+    this._rotationTween.easeType = sameTypeEventData.easeType.ToEaseType();
     this._tweeningManager.ResumeTween((Tween) this._rotationTween, (object) this);
   }
 

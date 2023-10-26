@@ -31,9 +31,11 @@ namespace BeatmapEditor3D.BpmEditor.UI
       this.SetPosition(currentSample);
     }
 
-    protected void SetPosition(int sample) => this._markerTransform.anchoredPosition = this._markerTransform.anchoredPosition with
-    {
-      x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, this._startSample, this._endSample)
-    };
-  }
+        protected void SetPosition(int sample)
+        {
+            Vector2 anchoredPosition = this._markerTransform.anchoredPosition;
+            anchoredPosition.x = WaveformPlacementHelper.CalculateRegionPosition(this._containerTransform, sample, this._startSample, this._endSample);
+            this._markerTransform.anchoredPosition = anchoredPosition;
+        }
+    }
 }

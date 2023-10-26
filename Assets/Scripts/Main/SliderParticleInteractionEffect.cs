@@ -35,22 +35,37 @@ public class SliderParticleInteractionEffect : SliderInteractionEffect
 
   public virtual void SetPSStartColor(Color color)
   {
-    foreach (ParticleSystem particleSystem in this._particleSystems)
-      particleSystem.main.startColor = (ParticleSystem.MinMaxGradient) color;
-  }
+        ParticleSystem[] particleSystems = this._particleSystems;
+        ParticleSystem.MainModule main;
+        for (int i = 0; i < particleSystems.Length; i++)
+        {
+            main = particleSystems[i].main;
+            main.startColor = color;
+        }
+    }
 
   protected override void StartEffect(float saberInteractionParam)
   {
-    foreach (ParticleSystem particleSystem in this._particleSystems)
-      particleSystem.emission.enabled = true;
-    this.SetPSStartColor(this._startColor * saberInteractionParam);
-    this.enabled = true;
-  }
+        ParticleSystem[] particleSystems = this._particleSystems;
+        ParticleSystem.EmissionModule emission;
+        for (int i = 0; i < particleSystems.Length; i++)
+        {
+            emission = particleSystems[i].emission;
+            emission.enabled = true;
+        }
+        this.SetPSStartColor(this._startColor * saberInteractionParam);
+        base.enabled = true;
+    }
 
   protected override void EndEffect()
   {
-    foreach (ParticleSystem particleSystem in this._particleSystems)
-      particleSystem.emission.enabled = false;
-    this.enabled = false;
-  }
+        ParticleSystem[] particleSystems = this._particleSystems;
+        ParticleSystem.EmissionModule emission;
+        for (int i = 0; i < particleSystems.Length; i++)
+        {
+            emission = particleSystems[i].emission;
+            emission.enabled = false;
+        }
+        base.enabled = false;
+    }
 }

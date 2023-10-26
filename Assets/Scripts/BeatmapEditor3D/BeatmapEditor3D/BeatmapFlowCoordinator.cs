@@ -288,31 +288,15 @@ namespace BeatmapEditor3D
     private Action<bool> GetChangeLevelEditModeHandler(BeatmapEditingMode levelEditMode) => (Action<bool>) (pressed => this._signalBus.Fire<SwitchBeatmapEditingModeSignal>(new SwitchBeatmapEditingModeSignal(levelEditMode)));
 
     private IEnumerator OpenEnvironmentAndPresentEditor()
-    {
-      // ISSUE: reference to a compiler-generated field
-      int num = this.m_Cm_E1__state;
-      BeatmapFlowCoordinator beatmapFlowCoordinator = this;
-      if (num != 0)
-      {
-        if (num != 1)
-          return false;
-        // ISSUE: reference to a compiler-generated field
-        this.m_Cm_E1__state = -1;
-        beatmapFlowCoordinator._scrollInputController.Enable(beatmapFlowCoordinator._beatmapDataModel.bpmData.BeatToSample(beatmapFlowCoordinator._beatmapState.beat + 16f) - beatmapFlowCoordinator._beatmapDataModel.bpmData.BeatToSample(beatmapFlowCoordinator._beatmapState.beat));
-        beatmapFlowCoordinator._signalBus.Fire<UpdatePlayHeadSignal>(new UpdatePlayHeadSignal(beatmapFlowCoordinator._beatmapState.beat, UpdatePlayHeadSignal.SnapType.SmallestSubdivision));
-        beatmapFlowCoordinator.SetDialogScreenViewController((BeatmapEditorViewController) null);
-        return false;
-      }
-      // ISSUE: reference to a compiler-generated field
-      this.m_Cm_E1__state = -1;
-      // ISSUE: reference to a compiler-generated field
-      this.m_Cm_E2__current = (object) beatmapFlowCoordinator._beatmapEditorScenesManager.OpenEnvironmentDelayed(beatmapFlowCoordinator._currentEnvironment);
-      // ISSUE: reference to a compiler-generated field
-      this.m_Cm_E1__state = 1;
-      return true;
-    }
+        {
+            yield return this._beatmapEditorScenesManager.OpenEnvironmentDelayed(this._currentEnvironment);
+            this._scrollInputController.Enable(this._beatmapDataModel.bpmData.BeatToSample(this._beatmapState.beat + 16f) - this._beatmapDataModel.bpmData.BeatToSample(this._beatmapState.beat));
+            this._signalBus.Fire<UpdatePlayHeadSignal>(new UpdatePlayHeadSignal(this._beatmapState.beat, UpdatePlayHeadSignal.SnapType.SmallestSubdivision, false));
+            base.SetDialogScreenViewController(null);
+            yield break;
+        }
 
-    private IEnumerator StartTestLevel(bool closeEnvironment = true)
+        private IEnumerator StartTestLevel(bool closeEnvironment = true)
     {
       BeatmapFlowCoordinator beatmapFlowCoordinator = this;
       if (closeEnvironment)

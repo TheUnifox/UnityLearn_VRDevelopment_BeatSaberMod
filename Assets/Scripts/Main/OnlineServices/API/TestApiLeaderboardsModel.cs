@@ -19,7 +19,7 @@ namespace OnlineServices.API
       LeaderboardQuery leaderboardQueryDTO,
       CancellationToken cancellationToken)
     {
-      LeaderboardEntry[] leaderboardEntryArray = new LeaderboardEntry[10];
+            BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] leaderboardEntryArray = new BeatSaberAPI.DataTransferObjects.LeaderboardEntry[10];
       int num = Random.Range(0, 10);
       for (int index = 0; index < leaderboardEntryArray.Length; ++index)
       {
@@ -27,7 +27,7 @@ namespace OnlineServices.API
         {
           string str = " P " + (object) Random.Range(100000, 999999);
         }
-        leaderboardEntryArray[index] = new LeaderboardEntry()
+        leaderboardEntryArray[index] = new BeatSaberAPI.DataTransferObjects.LeaderboardEntry()
         {
           id = index
         };

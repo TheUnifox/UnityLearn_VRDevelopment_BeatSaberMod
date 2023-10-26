@@ -52,13 +52,12 @@ public class LeaderboardsModelLegacyWrapper : PlatformLeaderboardsHandler
     LeaderboardsModelLegacyWrapper.HMAsyncRequestWithCancellationToken asyncRequest,
     PlatformLeaderboardsModel.GetScoresCompletionHandler completionHandler)
   {
-    GetLeaderboardEntriesResult leaderboardEntriesResult = new GetLeaderboardEntriesResult();
     GetLeaderboardEntriesResult leaderboardEntriesAsync;
     try
     {
       leaderboardEntriesAsync = await this._leaderboardsModel.GetLeaderboardEntriesAsync(leaderboardFilterData, asyncRequest.cancellationTokenSource.Token);
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
       return;
     }
@@ -103,7 +102,7 @@ public class LeaderboardsModelLegacyWrapper : PlatformLeaderboardsHandler
     {
       leaderboardEntryResult = await this._leaderboardsModel.SendLevelScoreResultAsync(levelScoreResultsData, asyncRequest.cancellationTokenSource.Token);
     }
-    catch (OperationCanceledException ex)
+    catch (OperationCanceledException)
     {
       PlatformLeaderboardsModel.UploadScoreCompletionHandler completionHandler1 = completionHandler;
       if (completionHandler1 == null)

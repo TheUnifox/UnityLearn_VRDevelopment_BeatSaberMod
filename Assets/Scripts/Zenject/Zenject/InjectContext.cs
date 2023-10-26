@@ -248,8 +248,6 @@ namespace Zenject
                 {
                     yield return injectContext;
                 }
-                IEnumerator<InjectContext> enumerator = null;
-                yield break;
                 yield break;
             }
         }
@@ -265,8 +263,6 @@ namespace Zenject
                 {
                     yield return injectContext;
                 }
-                IEnumerator<InjectContext> enumerator = null;
-                yield break;
                 yield break;
             }
         }
@@ -284,8 +280,6 @@ namespace Zenject
                         yield return injectContext.ObjectType;
                     }
                 }
-                IEnumerator<InjectContext> enumerator = null;
-                yield break;
                 yield break;
             }
         }

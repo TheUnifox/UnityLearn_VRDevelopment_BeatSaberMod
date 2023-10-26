@@ -52,7 +52,8 @@ public class SaberBurnMarkSparkles : MonoBehaviour
           eulerAngles = new Vector3(-90f, 0.0f, 0.0f)
         }, (Transform) null);
         this._burnMarksEmissionModules[index] = this._burnMarksPS[index].emission;
-        this._burnMarksPS[index].main.startColor = (ParticleSystem.MinMaxGradient) this._colorManager.EffectsColorForSaberType(this._sabers[index].saberType);
+                ParticleSystem.MainModule main = this._burnMarksPS[index].main;
+        main.startColor = (ParticleSystem.MinMaxGradient) this._colorManager.EffectsColorForSaberType(this._sabers[index].saberType);
         this._prevBurnMarkPosValid[index] = false;
       }
     }
