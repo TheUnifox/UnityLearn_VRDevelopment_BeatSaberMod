@@ -14,7 +14,7 @@ Zenject.dll deconstructed into scripts \
 Colors.dll deconstructed into scripts \
 MockCore.dll deconstructed into scripts 
 
-### Oct. 24, 2023    3:30pm - 11:00 pm
+### Oct. 24, 2023    3:30pm - 11:00pm
 BGNet.dll deconstructed into scripts \
 BeatmapEditor3D.dll deconstructed into scripts \
 HMLib.dll deconstructed into scripts \
@@ -25,3 +25,13 @@ Main.dll deconstructed into scripts, just error fixing to do
 Some lambda functions may not have decompiled properly, so need to be rewritten. \
 Most errors currently will be easy to fix, it'll just take a while to work through them all. \
 Other errors, like the lambda functions that didn't decompile correctly, will take more work to fix.
+
+### Oct. 25, 2023    2:00pm - 12:00am
+HMUI.dll deconstructed into scripts \
+Rendering.dll deconstructed into scripts \
+VRUI.dll deconstructed into scripts \
+ALL ERRORS FIXED!!!
+
+Tomorrow will be the start of scene reconstruction. \
+Using a tool while the game is running to inspect each scene, and see all the GameObjects and what scripts are on them, to reconstruct the game. \
+Once reconstruction is done, I can implement the most popular mods into the game code, while testing to make sure things work.
