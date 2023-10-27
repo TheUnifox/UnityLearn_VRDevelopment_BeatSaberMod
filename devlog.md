@@ -35,3 +35,6 @@ ALL ERRORS FIXED!!!
 Tomorrow will be the start of scene reconstruction. \
 Using a tool while the game is running to inspect each scene, and see all the GameObjects and what scripts are on them, to reconstruct the game. \
 Once reconstruction is done, I can implement the most popular mods into the game code, while testing to make sure things work.
+
+### Oct. 26, 2023    3:00pm - 9:000pm
+Attempts at Deconstructing assets.
