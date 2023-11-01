@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -229948772, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MultiplayerMockSettings
+  m_EditorClassIdentifier:
+  _isEnabled: 1
+  _localPlayer:
+    _userName: ThisIsMe
+    _userId: 865080fb782ee5d4f9948ea10871c723
+    _sortIndex: 0
+    _latency: 30
+    _autoConnect: 0
+    _inactiveByDefault: 0
+    _movementType: 0
+    _recodingFile:
+    _aiCubeHitChance: 0
+    _leftHanded: 0
+    _saberAColor: {r: 0, g: 0, b: 0, a: 0}
+    _saberBColor: {r: 0, g: 0, b: 0, a: 0}
+    _obstaclesColor: {r: 0, g: 0, b: 0, a: 0}
+  _otherPlayers:
+  - _userName: Mock 1
+    _userId: 1c57e123b50bdf249ab50c2c26083b36
+    _sortIndex: 1
+    _latency: 12
+    _autoConnect: 1
+    _inactiveByDefault: 0
+    _movementType: 1
+    _recodingFile:
+    _aiCubeHitChance: 0.91
+    _leftHanded: 0
+    _saberAColor: {r: 0.13762355, g: 1, b: 0, a: 1}
+    _saberBColor: {r: 1, g: 0.5362388, b: 0, a: 1}
+    _obstaclesColor: {r: 1, g: 0.7027648, b: 0, a: 1}
+  - _userName: Mock 2
+    _userId: aef14b866a570664e97b245b023d8847
+    _sortIndex: 2
+    _latency: 37
+    _autoConnect: 0
+    _inactiveByDefault: 0
+    _movementType: 2
+    _recodingFile: TODO
+    _aiCubeHitChance: 0.66
+    _leftHanded: 1
+    _saberAColor: {r: 0, g: 0.14999938, b: 1, a: 1}
+    _saberBColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    _obstaclesColor: {r: 0, g: 1, b: 0.18741107, a: 1}
+  - _userName: Mock 3
+    _userId: cc26d97531306e347b35d6e4618b2b2e
+    _sortIndex: 3
+    _latency: 42
+    _autoConnect: 0
+    _inactiveByDefault: 0
+    _movementType: 0
+    _recodingFile:
+    _aiCubeHitChance: 0.72
+    _leftHanded: 0
+    _saberAColor: {r: 1, g: 0.8520418, b: 0, a: 1}
+    _saberBColor: {r: 0.99636745, g: 0, b: 1, a: 1}
+    _obstaclesColor: {r: 1, g: 0, b: 0.80811405, a: 1}
+  - _userName: Mock 4
+    _userId: f1ffe3d9dd62cd14281db512b0fb79e4
+    _sortIndex: 4
+    _latency: 11
+    _autoConnect: 1
+    _inactiveByDefault: 0
+    _movementType: 0
+    _recodingFile:
+    _aiCubeHitChance: 0.96
+    _leftHanded: 1
+    _saberAColor: {r: 1, g: 0, b: 0, a: 1}
+    _saberBColor: {r: 0, g: 0, b: 1, a: 1}
+    _obstaclesColor: {r: 1, g: 0, b: 0, a: 1}
+  _quickplayServer:
+    _userName:
+    _userId:
+    _sortIndex: 0
+    _latency: 0
+    _autoConnect: 0
+    _inactiveByDefault: 0
+    _movementType: 0
+    _recodingFile:
+    _aiCubeHitChance: 0
+    _leftHanded: 0
+    _saberAColor: {r: 0, g: 0, b: 0, a: 0}
+    _saberBColor: {r: 0, g: 0, b: 0, a: 0}
+    _obstaclesColor: {r: 0, g: 0, b: 0, a: 0}
+  _multiplayerStatusData:
+    minimumAppVersion:
+    status: 0
+    maintenanceStartTime: 0
+    maintenanceEndTime: 0
+    userMessage:
+      localizations: []
+    useGamelift: 0
+  _quickPlaySetupData:
+    quickPlayAvailablePacksOverride:
+      predefinedPackIds: []
+      localizedCustomPacks: []

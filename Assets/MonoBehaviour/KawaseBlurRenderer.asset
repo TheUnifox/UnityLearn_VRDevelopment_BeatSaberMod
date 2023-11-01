@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -402874510, guid: dbf7c1b241bc77c4316e2152e729a6b0, type: 3}
+  m_Name: KawaseBlurRenderer
+  m_EditorClassIdentifier:
+  _kawaseBlurShader: {fileID: 4800000, guid: 7d4b67c9cc70d2641b5f8f6d2ffd9a64, type: 3}
+  _additiveShader: {fileID: 4800000, guid: f05dfc84aec5d7c4bb3f675c59faddc7, type: 3}
+  _tintShader: {fileID: 4800000, guid: 9e127a55fb88e8548aa6b82ace589ce9, type: 3}

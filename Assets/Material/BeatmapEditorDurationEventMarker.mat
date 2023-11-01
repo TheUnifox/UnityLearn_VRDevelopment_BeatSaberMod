@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BeatmapEditorDurationEventMarker
+  m_Shader: {fileID: 4800000, guid: bd4140736b215b24296ebf2db01239f1, type: 3}
+  m_ShaderKeywords: FOG NOISE_DITHERING REFLECTION_PROBE_BOX_PROJECTION SQUARE_ALPHA VERTEX_COLOR _ALPHACHANNEL_ALPHA _FOGTYPE_NONE _RIMLIGHT_NONE _VERTEXCHANNELS_RGBA _WHITEBOOSTTYPE_ALWAYS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DitherTex:
+        m_Texture: {fileID: 2800000, guid: 9200d6c599039ec4eab195f71db207ec, type: 3}
+        m_Scale: {x: 8, y: 24}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaChannel: 0
+    - _AlphaMultiplier: 1
+    - _BlendDstFactor: 10
+    - _BlendDstFactorA: 0
+    - _BlendOp: 0
+    - _BlendSrcFactor: 5
+    - _BlendSrcFactorA: 0
+    - _BumpScale: 1
+    - _CloseToCameraFactor: 0.5
+    - _CloseToCameraOffset: 0.5
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _CutoutTexScale: 1
+    - _DetailNormalMapScale: 1
+    - _DirtDetailIntensity: 1
+    - _DirtIntensity: 1
+    - _DitherMult: 0.2
+    - _DstBlend: 0
+    - _EmissionThreshold: 0
+    - _EnableBothSidesDiffuse: 0
+    - _EnableBoxProjectionOffset: 0
+    - _EnableCloseToCameraDisappear: 0
+    - _EnableCutout: 0
+    - _EnableDiffuse: 0
+    - _EnableDiffuseTexture: 0
+    - _EnableDirt: 0
+    - _EnableDirtDetail: 0
+    - _EnableFog: 0
+    - _EnableGroundFade: 0
+    - _EnableHeightFog: 0
+    - _EnableHologram: 0
+    - _EnableLifetime: 0
+    - _EnableLightFalloff: 0
+    - _EnableLightmap: 0
+    - _EnableMask: 0
+    - _EnableNoiseDithering: 1
+    - _EnableNormalMap: 0
+    - _EnableReflectionProbe: 0
+    - _EnableReflectionTexture: 0
+    - _EnableRimDim: 0
+    - _EnableSoftParticles: 0
+    - _EnableSpecular: 0
+    - _EnableSpecularTexture: 0
+    - _EnableTextureColor: 0
+    - _EnableVertexColor: 1
+    - _EnableVertexEmission: 0
+    - _EnableViewAlignDisappear: 0
+    - _FogScale: 1
+    - _FogStartOffset: 0
+    - _FogType: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GreenVertexSpecular: 0
+    - _GroundFadeOffset: 1
+    - _GroundFadeScale: 0.5
+    - _HighlightSelection: 0
+    - _Intensity: 1
+    - _InvertDiffuseNormal: 0
+    - _InvertRimDim: 0
+    - _LinearToGamma: 0
+    - _MaskRedIsAlpha: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _Parallax: 0.02
+    - _PreciseFog: 0
+    - _PrivatePointLight: 0
+    - _RedIsVertexAlpha: 0
+    - _ReflectionProbeBoxProjection: 1
+    - _ReflectionProbeIntensity: 1
+    - _ReflectionTexIntensity: 1
+    - _RimCameraDistanceOffset: 2
+    - _RimCameraDistanceScale: 0.3
+    - _RimDarkening: 0
+    - _RimLight: 0
+    - _RimLightEdgeStart: 0.5
+    - _RimLightIntensity: 1
+    - _RimOffset: 1
+    - _RimScale: 1
+    - _SegmentToHighlight: -1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SoftFactor: 0
+    - _SpecularHardness: 64
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SphericalNormalOffsetIntensity: 0.5
+    - _SquareAlpha: 1
+    - _SquareVertexAlpha: 0
+    - _SrcBlend: 1
+    - _StencilComp: 8
+    - _StencilPass: 0
+    - _StencilRefValue: 0
+    - _UVColorSegments: 0
+    - _UVSec: 0
+    - _UseSphericalNormalOffset: 0
+    - _VertexChannels: 0
+    - _ViewAlignFactor: 1.5
+    - _WhiteBoostType: 2
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlowCutoutColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HologramColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskPanning: {r: 0, g: 0, b: 0, a: 0}
+    - _PrivatePointLightColor: {r: 1, g: 0, b: 0, a: 0}
+    - _PrivatePointLightPosition: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionProbeBoxProjectionPositionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionProbeBoxProjectionSizeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SphericalNormalOffsetCenter: {r: 0, g: 0, b: 0, a: 1}
+    - _UvPanning: {r: 0, g: 0, b: 0, a: 0}

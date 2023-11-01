@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: RocketLeaguePreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 57de36a01f50b6046a675185c0a281db, type: 2}
+  - {fileID: 11400000, guid: 1c162631062bb9143a4a64b761909fb7, type: 2}
+  - {fileID: 11400000, guid: ac19ae2ca09cec3488a9d8e8ea86ce3d, type: 2}
+  - {fileID: 11400000, guid: fb9e11f4dc360114b8dce1729dce9017, type: 2}
+  - {fileID: 11400000, guid: 18c03cd535a46724ca1a0cae30a674fb, type: 2}
+  - {fileID: 11400000, guid: 7d428e925ca42c94581b12c0eadeab6f, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -748349067, guid: 9688505df67260f8d14f502de3de1957, type: 3}
+  m_Name: GagaColorScheme
+  m_EditorClassIdentifier:
+  _colorScheme:
+    _colorSchemeId: Gaga
+    _colorSchemeNameLocalizationKey: _UNLOCALIZED_
+    _useNonLocalizedName: 1
+    _nonLocalizedName: Gaga
+    _isEditable: 0
+    _saberAColor: {r: 0.85, g: 0.43333334, b: 0.7833334, a: 1}
+    _saberBColor: {r: 0.47058824, g: 0.8, b: 0.40784314, a: 1}
+    _obstaclesColor: {r: 0.99215686, g: 0, b: 0.7719755, a: 1}
+    _environmentColor0: {r: 0.708, g: 0.649, b: 0.23947057, a: 1}
+    _environmentColor1: {r: 0.894, g: 0.16254546, b: 0.7485644, a: 1}
+    _environmentColorW: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}
+    _supportsEnvironmentColorBoost: 1
+    _environmentColor0Boost: {r: 0.754717, g: 0.36102444, b: 0.22071911, a: 1}
+    _environmentColor1Boost: {r: 0, g: 0.7058824, b: 1, a: 1}
+    _environmentColorWBoost: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}

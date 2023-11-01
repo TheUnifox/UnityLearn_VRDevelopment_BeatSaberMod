@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -347747739, guid: dbf7c1b241bc77c4316e2152e729a6b0, type: 3}
+  m_Name: BlueNoiseDithering
+  m_EditorClassIdentifier:
+  _noiseTexture: {fileID: 2800000, guid: f791f65515d432c498ce379250365299, type: 3}

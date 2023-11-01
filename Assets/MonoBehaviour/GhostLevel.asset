@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: GhostLevel
+  m_EditorClassIdentifier:
+  _levelID: Ghost
+  _songName: Ghost
+  _songSubName:
+  _songAuthorName: Camellia
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: ebc013ca825e2b74fb235d0ae929f09a, type: 3}
+  _beatsPerMinute: 220
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 82
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: d4dbff600874e0648b986008fc8ed7a4, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: f6fa05022faa4ae46a95c8b6d08a0f2a, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 8331ff5cec7341a4d85f82f94a732d67, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 75d1f16e5b72a044b99f1d9b9175b152, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 20e16daf5cd56f24bb0cd11ea2b85b63, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 137a0f7e00ec1494fa737b773e79befc, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 22
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: 31b8f8ff55be0ce4aa83a9e85ed538df, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 65a4d35c5a76b9f468e01cd2d16599d9, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: -1
+      _beatmapData: {fileID: 11400000, guid: b971a24e7619fa941b934811789e906e, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 21
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: b8e935c3a5bd54940ba6d3bb8e6b7df5, type: 2}
+  _ignore360MovementBeatmaps: 0

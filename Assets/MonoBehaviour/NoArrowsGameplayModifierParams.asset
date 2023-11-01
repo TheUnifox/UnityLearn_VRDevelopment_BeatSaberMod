@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1971316557, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: NoArrowsGameplayModifierParams
+  m_EditorClassIdentifier:
+  _modifierNameLocalizationKey: MODIFIER_NO_ARROWS
+  _descriptionLocalizationKey: MODIFIER_NO_ARROWS_HINT
+  _multiplier: -0.3
+  _multiplierConditionallyValid: 0
+  _icon: {fileID: 21300000, guid: 25e99422b1d08b5489f3cb1f5957348f, type: 2}
+  _mutuallyExclusives:
+  - {fileID: 11400000, guid: e462a118937f4f345b513645734c9296, type: 2}
+  - {fileID: 11400000, guid: 4b883252069cd3d4b87caaeb8718c3ea, type: 2}
+  - {fileID: 11400000, guid: 8cb080c3dc603dd41841e3ac840a8c58, type: 2}
+  _requires: []
+  _requiredBy: []
+  _isInBeta: 0

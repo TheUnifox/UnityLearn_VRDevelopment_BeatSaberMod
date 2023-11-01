@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -748349067, guid: 9688505df67260f8d14f502de3de1957, type: 3}
+  m_Name: CrabRaveColorScheme
+  m_EditorClassIdentifier:
+  _colorScheme:
+    _colorSchemeId: CrabRave
+    _colorSchemeNameLocalizationKey: _UNLOCALIZED_
+    _useNonLocalizedName: 1
+    _nonLocalizedName: Crab Rave
+    _isEditable: 0
+    _saberAColor: {r: 0, g: 0.71300006, b: 0.07806564, a: 1}
+    _saberBColor: {r: 0.048059516, g: 0.5068096, b: 0.734, a: 1}
+    _obstaclesColor: {r: 0, g: 0.8117648, b: 0.09019608, a: 1}
+    _environmentColor0: {r: 0.13456802, g: 0.756, b: 0.15575325, a: 1}
+    _environmentColor1: {r: 0.056470584, g: 0.6211764, b: 0.9, a: 1}
+    _environmentColorW: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}
+    _supportsEnvironmentColorBoost: 0
+    _environmentColor0Boost: {r: 0.13333334, g: 0.7568628, b: 0.15686275, a: 1}
+    _environmentColor1Boost: {r: 0.054901965, g: 0.61960787, b: 0.90196085, a: 1}
+    _environmentColorWBoost: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}

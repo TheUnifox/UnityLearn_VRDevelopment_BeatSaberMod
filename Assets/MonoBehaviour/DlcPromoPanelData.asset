@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 349470925, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: DlcPromoPanelData
+  m_EditorClassIdentifier:
+  _defaultMusicPackPromoIndex: 13
+  _musicPackPromoInfos:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 00fc024c88285964091d256b7b8163ce, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: e99a73a1e0af3ba44a75e59c4036e325, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 750926ffddec31442a5a9c3c84162f86, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: a51f1ca14ab102841b1a7b1ba5b995b6, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 11ea2651525c0a94599c7dbb6f9ed484, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 5beb5083e2d4ae94480cacf2614dedeb, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 7e13056a0bd89134fafe2de9e13eca56, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 50c279fab461c654fa73175d88a0322e, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 7a08d6cfb224b3946b129ecc1af68249, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 7244cf88bfe1ac94e9ec7688e58b02d6, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: a2fedac1e35905547beda9bfe5893b4c, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 1f4ab53d68ccce740aed012153c9fbb2, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: f8e96f6505274f4439d85f077bacedcf, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: abfc7dac80cfa254c9d786e76c7c760e, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 4d22bbe4debbfab4b91818b87309042d, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: d6ad51d4e1b52524394293f58e3cff80, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 9c40a04608a89114ea210b24a40092e6, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: a1d1b451af005364085c8818da8ff0f9, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: f1888d8e3128b834c880b83d7b26217a, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: ecf94eef37a088b4693b1358b5fdc10b, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 5e599322321f49d4a9aa0f3269e96a2f, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 4ee92c5d7cfeed1448bb43280d6e214b, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 2f30cc7bf54f33a4581c953a8a810fdc, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 129981375fe4aea4599e745ec1f28091, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: e0350a0edb2e5e44f899fedc029fe31a, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 125c0aad70129a040b6604f47801a9b4, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 2c7682672b01a3a4194906947d3a71b3, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 3a05f87d9de32e345872ed9a9adfafff, type: 2}
+    _bannerPromoText: 6 NEW SINGLES<br><size=110%>AVAILABLE NOW!</size>
+  - _beatmapLevelPack: {fileID: 11400000, guid: 80692cc24ad86b747b95e22ebe641bba, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 22bbf3cf3bd13ce41be09bf971932a99, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: c0616d92620438243bbf6e7faf388a7e, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: 4b0f0c017308df34b91ffec681ddf319, type: 2}
+    _bannerPromoText:
+  - _beatmapLevelPack: {fileID: 11400000, guid: 3b69145ffc7f4e8468a9f33a0421a363, type: 2}
+    _beatmapLevel: {fileID: 0}
+    _bannerImage: {fileID: 21300000, guid: c0709a520d7fdde41ad9aec1ff9d3057, type: 2}
+    _bannerPromoText:
+  _cutOffTest: 3
+  _minNumberOfNotOwnedPacks: 3

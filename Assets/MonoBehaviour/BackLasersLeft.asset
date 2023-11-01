@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1867863497, guid: dbf7c1b241bc77c4316e2152e729a6b0, type: 3}
+  m_Name: BackLasersLeft
+  m_EditorClassIdentifier:
+  _groupName: BackLasersLeft
+  _groupDescription:
+  _groupId: 0
+  _startLightId: 25
+  _numberOfElements: 5
+  _sameIdElements: 1
+  _ignoreLightGroupEffectManager: 0

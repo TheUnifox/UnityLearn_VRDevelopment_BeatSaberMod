@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: MultiplayerConnectedPlayerIntro
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: e9d3d17caf3970647b185a7ec178c177, type: 2}
+  - {fileID: 11400000, guid: 34c3c92d7286ff249ba8f0b58149efde, type: 2}
+  - {fileID: 11400000, guid: 0ab0185788afb824ab45543dfe7b3738, type: 2}
+  - {fileID: 11400000, guid: 353f036817a5d994fafb3319d8f82fc0, type: 2}
+  - {fileID: 11400000, guid: 01068b80e606203479a3729f80c81bcb, type: 2}
+  - {fileID: 11400000, guid: 351e8cdd859a65b40b5cb78a2dbc0f9b, type: 2}
+  - {fileID: 11400000, guid: 324fbab9f634d4f45929de8ce7556788, type: 2}
+  - {fileID: 11400000, guid: 2ce9251e1318bb146ae6d5405daf5299, type: 2}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 11400000, guid: c67bc2c8b883cdc43a302dea64335128, type: 2}

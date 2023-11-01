@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166845065, guid: a58da2d523ee9ae040c11d384ecb5ae5, type: 3}
+  m_Name: EDMTracksDefinition
+  m_EditorClassIdentifier:
+  _environmentInfo: {fileID: 11400000, guid: bc83b42c4810a3f4aa7f2f017e868ce6, type: 2}
+  _basicEventTrackInfos:
+  - _trackName: Player Place & Spectrogram
+    _beatmapEventType: 4
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Lane Lights Bottom
+    _beatmapEventType: 0
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Lane Lights Top
+    _beatmapEventType: 1
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Boost Colors
+    _beatmapEventType: 5
+    _trackToolbarType: 1
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  _eventBoxGroupPageInfos:
+  - _eventBoxGroupPageName: Circles
+    _eventBoxGroupTrackInfos:
+    - _groupName: Top Circle
+      _lightGroup: {fileID: 11400000, guid: 66fe1801a5cf8fa41ad0dc05a15ff1d3, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 66fe1801a5cf8fa41ad0dc05a15ff1d3, type: 2}
+    - _groupName: Close Circle
+      _lightGroup: {fileID: 11400000, guid: 8f2b9c2d9e3c47740b2b41219c8f73d4, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 66fe1801a5cf8fa41ad0dc05a15ff1d3, type: 2}
+    - _groupName: Distant Circle 1
+      _lightGroup: {fileID: 11400000, guid: adf918abeba6af24aa42b3ac5800d09b, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: abe4dc6d14522e0419a4106d5e798d5a, type: 2}
+    - _groupName: Distant Circle 2
+      _lightGroup: {fileID: 11400000, guid: abe4dc6d14522e0419a4106d5e798d5a, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: adf918abeba6af24aa42b3ac5800d09b, type: 2}
+  - _eventBoxGroupPageName: Single Source Lasers
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left (Up)
+      _lightGroup: {fileID: 11400000, guid: 108e156c1ec4a2a4f8d96f5933bc71e1, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: d223477df05bfff45bc72480d660c808, type: 2}
+      - {fileID: 11400000, guid: e28e156b8b068394c9c25a151ea6ac3e, type: 2}
+      - {fileID: 11400000, guid: f193e84368a58844e804a56abe1d022b, type: 2}
+    - _groupName: Left (Out)
+      _lightGroup: {fileID: 11400000, guid: 97c2c113aad267b4193806252ca62713, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: b118ef5491fe9e849ac43eebe7680a2a, type: 2}
+    - _groupName: Left (Down)
+      _lightGroup: {fileID: 11400000, guid: d223477df05bfff45bc72480d660c808, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 108e156c1ec4a2a4f8d96f5933bc71e1, type: 2}
+      - {fileID: 11400000, guid: e28e156b8b068394c9c25a151ea6ac3e, type: 2}
+      - {fileID: 11400000, guid: f193e84368a58844e804a56abe1d022b, type: 2}
+    - _groupName: Right (Up)
+      _lightGroup: {fileID: 11400000, guid: e28e156b8b068394c9c25a151ea6ac3e, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 108e156c1ec4a2a4f8d96f5933bc71e1, type: 2}
+      - {fileID: 11400000, guid: d223477df05bfff45bc72480d660c808, type: 2}
+      - {fileID: 11400000, guid: f193e84368a58844e804a56abe1d022b, type: 2}
+    - _groupName: Right (Out)
+      _lightGroup: {fileID: 11400000, guid: b118ef5491fe9e849ac43eebe7680a2a, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 97c2c113aad267b4193806252ca62713, type: 2}
+    - _groupName: Right (Down)
+      _lightGroup: {fileID: 11400000, guid: f193e84368a58844e804a56abe1d022b, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 108e156c1ec4a2a4f8d96f5933bc71e1, type: 2}
+      - {fileID: 11400000, guid: e28e156b8b068394c9c25a151ea6ac3e, type: 2}
+      - {fileID: 11400000, guid: d223477df05bfff45bc72480d660c808, type: 2}
+  - _eventBoxGroupPageName: Single Source Circles
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left Single Source Circle
+      _lightGroup: {fileID: 11400000, guid: 95b0a542630c5cb4e8b5f1a113877214, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Right Single Source Circle
+      _lightGroup: {fileID: 11400000, guid: c46348db58f18a34eaab7c80373373e1, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: c46348db58f18a34eaab7c80373373e1, type: 2}
+  - _eventBoxGroupPageName: Circle Rotations
+    _eventBoxGroupTrackInfos:
+    - _groupName: Top Circle
+      _lightGroup: {fileID: 11400000, guid: 6c0b6fe5e99c944428448d7e1b07c79b, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: c46348db58f18a34eaab7c80373373e1, type: 2}
+    - _groupName: Close Circle
+      _lightGroup: {fileID: 11400000, guid: 637e844ffb7b0484db3b27f21a76210a, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: c46348db58f18a34eaab7c80373373e1, type: 2}
+    - _groupName: Distant Circle 1
+      _lightGroup: {fileID: 11400000, guid: 5c2ff46110f2d444fb785b40970b5ead, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 586e772cd4e98114fb30858a402cbeb7, type: 2}
+    - _groupName: Distant Circle 2
+      _lightGroup: {fileID: 11400000, guid: 586e772cd4e98114fb30858a402cbeb7, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 5c2ff46110f2d444fb785b40970b5ead, type: 2}
+    - _groupName: Single Source Circle Left
+      _lightGroup: {fileID: 11400000, guid: 0540ee62ae7c69b468a26ba3bf386741, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 599ca27fa58d71448b9e7f65d8fe1a1a, type: 2}
+    - _groupName: Single Source Circle Right
+      _lightGroup: {fileID: 11400000, guid: 599ca27fa58d71448b9e7f65d8fe1a1a, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 0540ee62ae7c69b468a26ba3bf386741, type: 2}

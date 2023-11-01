@@ -1,0 +1,296 @@
+<size=6><mspace=3.5><align="center">RELEASE NOTES</align></mspace></size>
+
+<color=#888888>VERSION 1.11.1</color>
+
+-<indent=3>Fixed colors in Linkin Park environment.</indent>
+-<indent=3>Updated Linkin Park cover art.</indent>
+
+<color=#888888>VERSION 1.11.0</color>
+
+Linkin Park Music Pack is here! It comes with 11 new songs which are now available for purchase as additional content to the game.
+
+<color=#888888>VERSION 1.10.0</color>
+
+-<indent=3>Added 10 new 360/90 degree beatmaps and 26 new One Saber beatmaps.</indent>
+-<indent=3>Fixed controller's button mapping caused by incorrectly detected Oculus Rift device.</indent>
+-<indent=3>Fixed displaying invalid player name in leaderboards.</indent>
+-<indent=3>Fixed issue when sometimes grid in beatmap level editor was not shown.</indent>
+-<indent=3>Fixed bug causing losing audio and cover image files when saving project in beatmap level editor.</indent>
+
+<color=#888888>VERSION 1.9.1</color>
+
+-<indent=3>Fixed rare bug where submitted score was put in incorrect leaderboard.</indent>
+-<indent=3>Fixed selecting new songs from main menu.</indent>
+-<indent=3>Fixed issues when using Oculus Link.</indent>
+
+<color=#888888>VERSION 1.9.0</color>
+
+-<indent=3>Added FitBeat, our free new song.</indent>
+-<indent=3>Fixed screen distortion effect when smoke was disabled.</indent>
+-<indent=3>Fixed bug in Level Editor where some obstacles were incorrectly saved/loaded.</indent>
+
+<color=#888888>VERSION 1.8.0</color>
+
+Timbaland Music Pack is here! It comes with 5 new songs which are now available for purchase as additional content to the game.
+
+This update also comes with:
+-<indent=3>Basic Rich Presence functionality (shows more info about the game being played in Friends list).</indent>
+-<indent=3>Mixed reality capture integration improvements.</indent>
+-<indent=3>Added trail intensity into Player Settings.</indent>
+-<indent=3>Fixed height measurement.</indent>
+-<indent=3>Better alignment of cubes with "almost the same" cut direction.</indent>
+-<indent=3>Various tweaks and fixes.</indent>
+
+<color=#888888>VERSION 1.7.0</color>
+
+-<indent=3>Added 3 free new tracks by Camellia.</indent>
+-<indent=3>Grouped together all Camellia songs into one pack.</indent>
+-<indent=3>Added button to clear local leaderboards in Party mode.</indent>
+
+<color=#888888>VERSION 1.6.2</color>
+
+-<indent=3>Fixed bug when some notes were spawned incorrectly in 360/90 degree levels.</indent>
+-<indent=3>Tweaked settings for controller position and rotation offset.</indent>
+
+<color=#888888>VERSION 1.6.1</color>
+
+This is just a small hotfix addressing some issues we found in the game.
+
+-<indent=3>Enabled custom position and rotation offset for controllers.</indent>
+-<indent=3>Improved automatic sound effects volume.</indent>
+-<indent=3>Fixed rotation of controllers in pause menu in 360/90 degree levels.</indent>
+-<indent=3>Fixed wrong rotation of first notes in practice mode in 360/90 degree levels.</indent>
+-<indent=3>Disabled chevron if static lights option is turned on in 360/90 degree levels.</indent>
+-<indent=3>Improved performance across the gameplay.</indent>
+-<indent=3>Added better "no favorites" info to level selection.</indent>
+-<indent=3>Fixed double up note in Glide beatmaps.</indent>
+-<indent=3>Various tweaks and fixes.</indent>
+
+<color=#888888>VERSION 1.6.0</color>
+
+Green Day Music Pack is here! It features six of the band's most iconic hits & new singles.
+
+This update also comes with:
+-<indent=3>Brand new 360 and 90 Degree Levels.</indent>
+-<indent=3>Adaptive SFX volume.</indent>
+-<indent=3>Automatic player height detection.</indent>
+-<indent=3>UI improvements.</indent>
+-<indent=3>Graphics improvements.</indent>
+-<indent=3>Various tweaks and fixes.</indent>
+
+<color=#888888>VERSION 1.5.0</color>
+
+Rocket League x Monstercat Music Pack is here! It comes with 6 new songs which are now available for purchase as additional content to the game.
+
+<color=#888888>VERSION 1.4.2</color>
+
+Added achievements.
+
+<color=#888888>VERSION 1.4.1</color>
+
+Fixed beatmaps for easy, normal and hard difficulty for Panic! At The Disco - Emperor's New Clothes.
+
+<color=#888888>VERSION 1.4.0</color>
+
+Panic! At The Disco Music Pack is here! It comes with 4 new songs which are now available for purchase as an additional content to the game.
+
+This update also comes with:
+-<indent=3>Small fixes and tweaks.</indent>
+
+<color=#888888>VERSION 1.3.0</color>
+
+Hi players, another big content update here!
+
+-<indent=3>Original Soundtrack Vol.III with 6 free new songs.</indent>
+-<indent=3>Color scheme (for notes/sabers, obstacles and lights) override and customization.</indent>
+-<indent=3>Level environment override.</indent>
+-<indent=3>More precise swing angles detection.</indent>
+-<indent=3>Improved lighting.</indent>
+-<indent=3>Tweaked note jump start positions and speed in Expert+ difficulty for Crystallized, Cycle Hit and What the Cat.</indent>
+-<indent=3>Minor fixes in What the Cat beatmaps.</indent>
+-<indent=3>Fixed bug when game doesn't start properly if player data gets somehow corrupted.</indent>
+
+<color=#888888>VERSION 1.2.0</color>
+
+-<indent=3>Added 3 free new tracks by Camellia.</indent>
+-<indent=3>Added One Saber levels to Extras.</indent>
+
+<color=#888888>VERSION 1.1.0p1</color>
+
+Small hotfix which adjusts sabers to better position/orientation in your 'hands' when using Valve Index controllers.
+
+<color=#888888>VERSION 1.1.0</color>
+
+Hey players, big day today!
+We're officially bringing you one of the biggest bands in the world – Imagine Dragons! The new Music Pack is now available for purchase and includes 10 of the band's greatest hits and also a brand new environment.
+
+<color=#888888>VERSION 1.0.1</color>
+
+This is just a small hotfix addressing some issues we found in the game.
+
+-<indent=3>Fixed sound glitch in some Expert+ levels.</indent>
+-<indent=3>Removed ambient lighting. Total darkness is possible again.</indent>
+-<indent=3>Fixed mirror rendering bug.</indent>
+-<indent=3>New precise scoring system. This time for real!</indent>
+
+<color=#888888>VERSION 1.0.0</color>
+
+Hello everyone!
+We finally made it out of the Early Access. Does it mean we are done? Not at all! This is just the beginning. We have some great new free levels, downloadable music packs and new features coming to you this year. So stay tuned and enjoy the game.
+
+This update includes:
+-<indent=3>Beatmap Editor.</indent>
+-<indent=3>New graphic settings.</indent>
+-<indent=3>One saber levels for all OST I and II songs.</indent>
+-<indent=3>More realistic lighting.</indent>
+-<indent=3>Smaller bomb colliders. Bombs also turn off when they are behind you.</indent>
+-<indent=3>New precise scoring system.</indent>
+-<indent=3>Tweaked environments.</indent>
+-<indent=3>Few UI design changes and optimizations.</indent>
+-<indent=3>Tons of performance optimizations and small bug fixes.</indent>
+
+<color=#888888>VERSION 0.13.2</color>
+
+This is just a small hotfix addressing some issues we found in the game.
+
+-<indent=3>Fixed an issue with tracking on Oculus SDK introduced in v0.13.0.</indent>
+-<indent=3>Fixed a bug where second saber will appear when pausing and unpausing the game during One Saber level.</indent>
+-<indent=3>Fixed a bug with where mission results showed incorrect clear states when having two objectives of the same type.</indent>
+-<indent=3>Fixed a bug where score in missions was affected by gameplay modifiers' multiplier so it was impossible to pass a mission with Min Score objective and No Fail modifier.</indent>
+-<indent=3>Fixed some problems with displaying song time progress in advanced HUD.</indent>
+-<indent=3>Fixed an issue where continue button didn't show on healh and safety warning screen.</indent>
+-<indent=3>Updated OVRPlugin to v1.35.</indent>
+
+<color=#888888>VERSION 0.13.1</color>
+
+Hello everyone!
+
+You asked, we listened - 'Crab Rave' by Noisestorm has been brought to Beat Saber thanks to our friends at Monstercat today! So jump into the game and enjoy the rave!
+
+Additionally, this update comes with:
+-<indent=3>Few small fixes and tweaks here and there.</indent>
+
+<color=#888888>VERSION 0.13.0p1</color>
+
+Just a small hotfix to address some issues reported in last update.
+
+-<indent=3>Hot fix of unity bug #1112790 which caused bad performance over the time if Beat Saber window didn't have focus.</indent>
+-<indent=3>Fixed a bug where you were not able to open Steam store page for the Monstercat Music Pack bundle via Buy Music Pack button.</indent>
+-<indent=3>Smooth Camera added to settings.</indent>
+-<indent=3>Note jump start positions tweaked for some levels.</indent>
+-<indent=3>Support for complete darkness restored.</indent>
+
+<color=#888888>VERSION 0.13.0</color>
+
+Hi all!
+It's finally here - we proudly present you our biggest update ever! What's inside you ask? Let's start with 3 main parts:
+
+-<indent=3>Singleplayer Campaign mode with 51 missions including various objectives for you to clear and progress through!</indent>
+-<indent=3>5 great new songs from our OST Vol. 2 with all difficulties from Easy to Expert+ including No Arrows mode!</indent>
+-<indent=3>"Monstercat Music Pack Vol. 1", our very first music pack is here! It comes with 10 new songs which are now available for purchase as an additional content to the game.</indent>
+
+Additionally, this update comes with:
+-<indent=3>Ghost Notes modifier.</indent>
+-<indent=3>No Arrows modifier.</indent>
+-<indent=3>New UI style in menus.</indent>
+-<indent=3>Obstacle core is hidden in LIV camera.</indent>
+-<indent=3>Lighting fog is reflected in mirrors now.</indent>
+-<indent=3>Optimized rendering and many small graphic improvements.</indent>
+
+<color=#888888>VERSION 0.12.2</color>
+ 
+Big day, players!
+
+K/DA's hit POP/STARS is officially releasing in Beat Saber with this update! We have partnered with Riot Games to bring you one of the best tracks of this year together with the very first customized level in Beat Saber! Enjoy!
+
+Additionally, this update comes with:
+-<indent=3>Practice mode settings screen now plays audio preview when you change song start time.</indent>
+-<indent=3>Practice mode starts the level with a brief intro before a specified start time to avoid insta fail.</indent>
+
+<color=#888888>VERSION 0.12.1</color>
+ 
+We have little something for you guys! New track "One Hope" by KNOWER is exclusively releasing in Beat Saber today!
+
+We are super excited because KNOWER is one of our most favorite bands and this is a chance for us to bring you nice new music and something we really enjoy. Have fun!
+
+Additionally, this update comes with:
+-<indent=3>Cubes move and jump as in v0.11.2.</indent>
+-<indent=3>Practice mode now supports 200% speed.</indent>
+-<indent=3>Visual tweaks/changes.</indent>
+
+
+<color=#888888>VERSION 0.12.0p1</color>
+ 
+Just a small hotfix to address some issues reported in last update.
+
+-<indent=3>Fixed delayed cut effect sounds.</indent>
+-<indent=3>Reverted scoring algorithm, saber length, cube colliders and audio settings as they were in v0.11.2.</indent>
+
+
+<color=#888888>VERSION 0.12.0</color>
+ 
+We are back with another update. This time we improved and changed many things. Some of them are not visible, but will allow us to update game much more frequently.
+
+-<indent=3>Added Expert+ difficulty for all songs (standard mode only).</indent>
+-<indent=3>New fancy sabers.</indent>
+-<indent=3>New modifiers to spice the gameplay and to add multiplier to your final score.</indent>
+-<indent=3>'Practice mode' - you can start at any time of the song and also set it's speed.</indent>
+-<indent=3>Added options to swap sabers, to turn off in-game HUD, to turn off SFX and to reduce note cut debris.</indent>
+-<indent=3>New in-game UI for song progress, relative score, immediate rank and Full Combo indicator.</indent>
+-<indent=3>New UI style in menus.</indent>
+-<indent=3>Added full credits.</indent>
+-<indent=3>Lights and rendering optimizations.</indent>
+-<indent=3>Improved performance across the gameplay.</indent>
+-<indent=3>Basically tons of new stuff and optimizations...</indent>
+
+<color=#888888>VERSION 0.11.2</color>
+
+-<indent=3>Fixed critical bug when sound effects were not properly recycled which could sometimes cause performance problems or even crashes on some systems.</indent>
+-<indent=3>Fixed volume settings which were reset to default when restarting the game.</indent>
+-<indent=3>Fixed continuous rumble in haptics system.</indent>
+-<indent=3>Fixed losing combo when getting head into obstacle while paused.</indent>
+-<indent=3>Added animation to side screens.</indent>
+-<indent=3>Added full release notes.</indent>
+-<indent=3>Added health and safety warning.</indent>
+
+
+<color=#888888>VERSION 0.11.1</color>
+
+This minor update of Beat Saber adds Angel Voices by Virtual Self as a new track into the game and it is now available by default from the start. No need to "unlock" it by finding an Easter egg anymore.
+Additionally we also fixed incorrect BPM for $100 Bills level in One Saber mode which made it look like it ended in the middle of the level.
+
+
+<color=#888888>VERSION 0.11.0</color>
+
+Not only we added an easter egg with the new exclusive track. Also, we did some bug fixing and added some stuff. Additionally we did heavy refactoring of almost everything inside.
+
+-<indent=3>Settings for how in-game menu can be triggered added (instantly or long press).</indent>
+-<indent=3>Volume settings added.</indent>
+-<indent=3>Swap Colors settings added.</indent>
+-<indent=3>Static Lights gameplay options added.</indent>
+-<indent=3>No Obstacles gameplay options added.</indent>
+-<indent=3>"Cut in any direction" tutorial voiceover and text added.</indent>
+-<indent=3>Fixed simultaneous vibration of both Oculus Touch controllers (only with -vrmode oculus).</indent>
+-<indent=3>Fixed calculation of maximum possible score.</indent>
+-<indent=3>Fixed bug where you can spawn too far from the platform.</indent>
+-<indent=3>Legendary Hardcore Flying Car!</indent>
+
+
+<color=#888888>VERSION 0.10.2p1</color>
+
+This small patch should fix possible "black screen" bug on start which was caused by loading invalid config file.
+
+
+<color=#888888>VERSION 0.10.2</color>
+
+This is the first update of Beat Saber. We focused on fixing bugs and tweaking small details.
+
+-<indent=3>When using Oculus Touch controllers in-game pause is triggered by press of a thumbstick (OpenVR SDK) or long press of a left controller's menu button (Oculus SDK).</indent>
+-<indent=3>Adjustable player height settings added.</indent>
+-<indent=3>Audio volume settings added.</indent>
+-<indent=3>Fixed UI bug in leaderboards.</indent>
+-<indent=3>Fixed LIV SDK crashing bug.</indent>
+-<indent=3>Fixed few errors in some levels.</indent>
+-<indent=3>Fixed no arrows mode with mirror option turned on.</indent>
+-<indent=3>Room transformation now works with LIV plugin.</indent>
+-<indent=3>Small visual tweaks and few renamed labels.</indent>

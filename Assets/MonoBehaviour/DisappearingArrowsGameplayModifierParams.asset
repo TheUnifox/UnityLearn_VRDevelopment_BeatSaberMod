@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1971316557, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: DisappearingArrowsGameplayModifierParams
+  m_EditorClassIdentifier:
+  _modifierNameLocalizationKey: MODIFIER_DISAPPEARING_ARROWS
+  _descriptionLocalizationKey: MODIFIER_DISAPPEARING_ARROWS_HINT
+  _multiplier: 0.07
+  _multiplierConditionallyValid: 0
+  _icon: {fileID: 21300000, guid: 248aa22f606d06e4e9c618a48127ea4e, type: 2}
+  _mutuallyExclusives:
+  - {fileID: 11400000, guid: dd8b156505632544fb3f18346c1107a0, type: 2}
+  - {fileID: 11400000, guid: f177ad96c595a5148b5a46a671367c09, type: 2}
+  - {fileID: 11400000, guid: 8cb080c3dc603dd41841e3ac840a8c58, type: 2}
+  _requires: []
+  _requiredBy: []
+  _isInBeta: 0

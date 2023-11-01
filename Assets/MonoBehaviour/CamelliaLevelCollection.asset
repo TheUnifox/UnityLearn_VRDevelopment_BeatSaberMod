@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1784233892, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: CamelliaLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: a8fd28fa32f77d446ab83c7ab371a115, type: 2}
+  - {fileID: 11400000, guid: 03ca2edeaf5502f4696ace2c4452be73, type: 2}
+  - {fileID: 11400000, guid: 7e8b028475a140e4394e514bbe578c87, type: 2}
+  - {fileID: 11400000, guid: 671e15e8cdf4e0747ae7f31b05457ffe, type: 2}
+  - {fileID: 11400000, guid: e4fb738b6fd2ac04da486360a237d179, type: 2}
+  - {fileID: 11400000, guid: 18e9de649bce3cb4c8707f25f2940884, type: 2}

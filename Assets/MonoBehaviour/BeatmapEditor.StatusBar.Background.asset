@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1814934370, guid: 9688505df67260f8d14f502de3de1957, type: 3}
+  m_Name: BeatmapEditor.StatusBar.Background
+  m_EditorClassIdentifier:
+  _color: {r: 0.08627451, g: 0.09803922, b: 0.11372549, a: 1}

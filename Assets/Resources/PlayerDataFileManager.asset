@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -526167958, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PlayerDataFileManager
+  m_EditorClassIdentifier:
+  _beatmapCharacteristicCollection: {fileID: 11400000, guid: 8b33de254eb5e344d84a4fe2f42b520a, type: 2}
+  _defaultColorSchemes: {fileID: 11400000, guid: 8292c30a3ff221044aac4e98fa8775d1, type: 2}
+  _allEnvironmentInfos: {fileID: 11400000, guid: 094f12afa3c854948a8179b8c937821f, type: 2}
+  _normalEnvironmentType: {fileID: 11400000, guid: 8ef207d0495db254395643c71adee826, type: 2}
+  _a360DegreesEnvironmentType: {fileID: 11400000, guid: 4d92751600e2db94389ebf39c87528cb, type: 2}
+  _defaultLastSelectedBeatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+  _buildInSongPackSerializedName: BUILT_IN_LEVEL_PACKS
+  _allSongPackSerializedName: ALL_LEVEL_PACKS

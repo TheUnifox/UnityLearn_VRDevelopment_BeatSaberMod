@@ -1,0 +1,2025 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1805842698, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PS4LeaderboardIdsModel
+  m_EditorClassIdentifier:
+  _leaderboardIds:
+  - _ps4LeaderboardId: 1
+    _leaderboardId: 100BillsEasy
+  - _ps4LeaderboardId: 2
+    _leaderboardId: 100BillsNormal
+  - _ps4LeaderboardId: 3
+    _leaderboardId: 100BillsHard
+  - _ps4LeaderboardId: 4
+    _leaderboardId: 100BillsExpert
+  - _ps4LeaderboardId: 5
+    _leaderboardId: 100BillsOneSaberExpert
+  - _ps4LeaderboardId: 6
+    _leaderboardId: AngelVoicesHard
+  - _ps4LeaderboardId: 7
+    _leaderboardId: AngelVoicesExpert
+  - _ps4LeaderboardId: 8
+    _leaderboardId: BalearicPumpingEasy
+  - _ps4LeaderboardId: 9
+    _leaderboardId: BalearicPumpingNormal
+  - _ps4LeaderboardId: 10
+    _leaderboardId: BalearicPumpingHard
+  - _ps4LeaderboardId: 11
+    _leaderboardId: BalearicPumpingExpert
+  - _ps4LeaderboardId: 12
+    _leaderboardId: BeatSaberEasy
+  - _ps4LeaderboardId: 13
+    _leaderboardId: BeatSaberNormal
+  - _ps4LeaderboardId: 14
+    _leaderboardId: BeatSaberHard
+  - _ps4LeaderboardId: 15
+    _leaderboardId: BeatSaberExpert
+  - _ps4LeaderboardId: 16
+    _leaderboardId: BeatSaberOneSaberExpert
+  - _ps4LeaderboardId: 17
+    _leaderboardId: BeThereForYouEasy
+  - _ps4LeaderboardId: 18
+    _leaderboardId: BeThereForYouNormal
+  - _ps4LeaderboardId: 19
+    _leaderboardId: BeThereForYouHard
+  - _ps4LeaderboardId: 20
+    _leaderboardId: BeThereForYouExpert
+  - _ps4LeaderboardId: 21
+    _leaderboardId: BeThereForYouExpertPlus
+  - _ps4LeaderboardId: 22
+    _leaderboardId: RumNBassEasy
+  - _ps4LeaderboardId: 23
+    _leaderboardId: RumNBassNormal
+  - _ps4LeaderboardId: 24
+    _leaderboardId: RumNBassHard
+  - _ps4LeaderboardId: 25
+    _leaderboardId: RumNBassExpert
+  - _ps4LeaderboardId: 26
+    _leaderboardId: RumNBassExpertPlus
+  - _ps4LeaderboardId: 27
+    _leaderboardId: BreezerEasy
+  - _ps4LeaderboardId: 28
+    _leaderboardId: BreezerNormal
+  - _ps4LeaderboardId: 29
+    _leaderboardId: BreezerHard
+  - _ps4LeaderboardId: 30
+    _leaderboardId: BreezerExpert
+  - _ps4LeaderboardId: 31
+    _leaderboardId: CommercialPumpingEasy
+  - _ps4LeaderboardId: 32
+    _leaderboardId: CommercialPumpingNormal
+  - _ps4LeaderboardId: 33
+    _leaderboardId: CommercialPumpingHard
+  - _ps4LeaderboardId: 34
+    _leaderboardId: CommercialPumpingExpert
+  - _ps4LeaderboardId: 35
+    _leaderboardId: ElixiaEasy
+  - _ps4LeaderboardId: 36
+    _leaderboardId: ElixiaNormal
+  - _ps4LeaderboardId: 37
+    _leaderboardId: ElixiaHard
+  - _ps4LeaderboardId: 38
+    _leaderboardId: ElixiaExpert
+  - _ps4LeaderboardId: 39
+    _leaderboardId: EscapeEasy
+  - _ps4LeaderboardId: 40
+    _leaderboardId: EscapeNormal
+  - _ps4LeaderboardId: 41
+    _leaderboardId: EscapeHard
+  - _ps4LeaderboardId: 42
+    _leaderboardId: EscapeExpert
+  - _ps4LeaderboardId: 43
+    _leaderboardId: EscapeOneSaberExpert
+  - _ps4LeaderboardId: 44
+    _leaderboardId: INeedYouEasy
+  - _ps4LeaderboardId: 45
+    _leaderboardId: INeedYouNormal
+  - _ps4LeaderboardId: 46
+    _leaderboardId: INeedYouHard
+  - _ps4LeaderboardId: 47
+    _leaderboardId: INeedYouExpert
+  - _ps4LeaderboardId: 48
+    _leaderboardId: CountryRoundsEasy
+  - _ps4LeaderboardId: 49
+    _leaderboardId: CountryRoundsNormal
+  - _ps4LeaderboardId: 50
+    _leaderboardId: CountryRoundsHard
+  - _ps4LeaderboardId: 51
+    _leaderboardId: CountryRoundsExpert
+  - _ps4LeaderboardId: 52
+    _leaderboardId: LegendEasy
+  - _ps4LeaderboardId: 53
+    _leaderboardId: LegendNormal
+  - _ps4LeaderboardId: 54
+    _leaderboardId: LegendHard
+  - _ps4LeaderboardId: 55
+    _leaderboardId: LegendExpert
+  - _ps4LeaderboardId: 56
+    _leaderboardId: LegendOneSaberExpert
+  - _ps4LeaderboardId: 57
+    _leaderboardId: LvlInsaneEasy
+  - _ps4LeaderboardId: 58
+    _leaderboardId: LvlInsaneNormal
+  - _ps4LeaderboardId: 59
+    _leaderboardId: LvlInsaneHard
+  - _ps4LeaderboardId: 60
+    _leaderboardId: LvlInsaneExpert
+  - _ps4LeaderboardId: 61
+    _leaderboardId: TurnMeOnEasy
+  - _ps4LeaderboardId: 62
+    _leaderboardId: TurnMeOnNormal
+  - _ps4LeaderboardId: 63
+    _leaderboardId: TurnMeOnHard
+  - _ps4LeaderboardId: 64
+    _leaderboardId: TurnMeOnExpert
+  - _ps4LeaderboardId: 65
+    _leaderboardId: TurnMeOnOneSaberExpert
+  - _ps4LeaderboardId: 66
+    _leaderboardId: UnlimitedPowerEasy
+  - _ps4LeaderboardId: 67
+    _leaderboardId: UnlimitedPowerNormal
+  - _ps4LeaderboardId: 68
+    _leaderboardId: UnlimitedPowerHard
+  - _ps4LeaderboardId: 69
+    _leaderboardId: UnlimitedPowerExpert
+  - _ps4LeaderboardId: 70
+    _leaderboardId: 100BillsNoArrowsEasy
+  - _ps4LeaderboardId: 71
+    _leaderboardId: 100BillsNoArrowsNormal
+  - _ps4LeaderboardId: 72
+    _leaderboardId: 100BillsNoArrowsHard
+  - _ps4LeaderboardId: 73
+    _leaderboardId: 100BillsNoArrowsExpert
+  - _ps4LeaderboardId: 74
+    _leaderboardId: AngelVoicesNoArrowsHard
+  - _ps4LeaderboardId: 75
+    _leaderboardId: AngelVoicesNoArrowsExpert
+  - _ps4LeaderboardId: 76
+    _leaderboardId: BalearicPumpingNoArrowsEasy
+  - _ps4LeaderboardId: 77
+    _leaderboardId: BalearicPumpingNoArrowsNormal
+  - _ps4LeaderboardId: 78
+    _leaderboardId: BalearicPumpingNoArrowsHard
+  - _ps4LeaderboardId: 79
+    _leaderboardId: BalearicPumpingNoArrowsExpert
+  - _ps4LeaderboardId: 80
+    _leaderboardId: BeatSaberNoArrowsEasy
+  - _ps4LeaderboardId: 81
+    _leaderboardId: BeatSaberNoArrowsNormal
+  - _ps4LeaderboardId: 82
+    _leaderboardId: BeatSaberNoArrowsHard
+  - _ps4LeaderboardId: 83
+    _leaderboardId: BeatSaberNoArrowsExpert
+  - _ps4LeaderboardId: 84
+    _leaderboardId: BeThereForYouNoArrowsEasy
+  - _ps4LeaderboardId: 85
+    _leaderboardId: BeThereForYouNoArrowsNormal
+  - _ps4LeaderboardId: 86
+    _leaderboardId: BeThereForYouNoArrowsHard
+  - _ps4LeaderboardId: 87
+    _leaderboardId: BeThereForYouNoArrowsExpert
+  - _ps4LeaderboardId: 88
+    _leaderboardId: BeThereForYouNoArrowsExpertPlus
+  - _ps4LeaderboardId: 89
+    _leaderboardId: RumNBassNoArrowsEasy
+  - _ps4LeaderboardId: 90
+    _leaderboardId: RumNBassNoArrowsNormal
+  - _ps4LeaderboardId: 91
+    _leaderboardId: RumNBassNoArrowsHard
+  - _ps4LeaderboardId: 92
+    _leaderboardId: RumNBassNoArrowsExpert
+  - _ps4LeaderboardId: 93
+    _leaderboardId: RumNBassNoArrowsExpertPlus
+  - _ps4LeaderboardId: 94
+    _leaderboardId: BreezerNoArrowsEasy
+  - _ps4LeaderboardId: 95
+    _leaderboardId: BreezerNoArrowsNormal
+  - _ps4LeaderboardId: 96
+    _leaderboardId: BreezerNoArrowsHard
+  - _ps4LeaderboardId: 97
+    _leaderboardId: BreezerNoArrowsExpert
+  - _ps4LeaderboardId: 98
+    _leaderboardId: CommercialPumpingNoArrowsEasy
+  - _ps4LeaderboardId: 99
+    _leaderboardId: CommercialPumpingNoArrowsNormal
+  - _ps4LeaderboardId: 100
+    _leaderboardId: CommercialPumpingNoArrowsHard
+  - _ps4LeaderboardId: 101
+    _leaderboardId: CommercialPumpingNoArrowsExpert
+  - _ps4LeaderboardId: 102
+    _leaderboardId: CountryRoundsNoArrowsEasy
+  - _ps4LeaderboardId: 103
+    _leaderboardId: CountryRoundsNoArrowsNormal
+  - _ps4LeaderboardId: 104
+    _leaderboardId: CountryRoundsNoArrowsHard
+  - _ps4LeaderboardId: 105
+    _leaderboardId: CountryRoundsNoArrowsExpert
+  - _ps4LeaderboardId: 106
+    _leaderboardId: ElixiaNoArrowsEasy
+  - _ps4LeaderboardId: 107
+    _leaderboardId: ElixiaNoArrowsNormal
+  - _ps4LeaderboardId: 108
+    _leaderboardId: ElixiaNoArrowsHard
+  - _ps4LeaderboardId: 109
+    _leaderboardId: ElixiaNoArrowsExpert
+  - _ps4LeaderboardId: 110
+    _leaderboardId: EscapeNoArrowsEasy
+  - _ps4LeaderboardId: 111
+    _leaderboardId: EscapeNoArrowsNormal
+  - _ps4LeaderboardId: 112
+    _leaderboardId: EscapeNoArrowsHard
+  - _ps4LeaderboardId: 113
+    _leaderboardId: EscapeNoArrowsExpert
+  - _ps4LeaderboardId: 114
+    _leaderboardId: INeedYouNoArrowsEasy
+  - _ps4LeaderboardId: 115
+    _leaderboardId: INeedYouNoArrowsNormal
+  - _ps4LeaderboardId: 116
+    _leaderboardId: INeedYouNoArrowsHard
+  - _ps4LeaderboardId: 117
+    _leaderboardId: INeedYouNoArrowsExpert
+  - _ps4LeaderboardId: 118
+    _leaderboardId: LegendNoArrowsEasy
+  - _ps4LeaderboardId: 119
+    _leaderboardId: LegendNoArrowsNormal
+  - _ps4LeaderboardId: 120
+    _leaderboardId: LegendNoArrowsHard
+  - _ps4LeaderboardId: 121
+    _leaderboardId: LegendNoArrowsExpert
+  - _ps4LeaderboardId: 122
+    _leaderboardId: LvlInsaneNoArrowsEasy
+  - _ps4LeaderboardId: 123
+    _leaderboardId: LvlInsaneNoArrowsNormal
+  - _ps4LeaderboardId: 124
+    _leaderboardId: LvlInsaneNoArrowsHard
+  - _ps4LeaderboardId: 125
+    _leaderboardId: LvlInsaneNoArrowsExpert
+  - _ps4LeaderboardId: 126
+    _leaderboardId: TurnMeOnNoArrowsEasy
+  - _ps4LeaderboardId: 127
+    _leaderboardId: TurnMeOnNoArrowsNormal
+  - _ps4LeaderboardId: 128
+    _leaderboardId: TurnMeOnNoArrowsHard
+  - _ps4LeaderboardId: 129
+    _leaderboardId: TurnMeOnNoArrowsExpert
+  - _ps4LeaderboardId: 130
+    _leaderboardId: UnlimitedPowerNoArrowsEasy
+  - _ps4LeaderboardId: 131
+    _leaderboardId: UnlimitedPowerNoArrowsNormal
+  - _ps4LeaderboardId: 132
+    _leaderboardId: UnlimitedPowerNoArrowsHard
+  - _ps4LeaderboardId: 133
+    _leaderboardId: UnlimitedPowerNoArrowsExpert
+  - _ps4LeaderboardId: 134
+    _leaderboardId: CommercialPumpingOneSaberEasy
+  - _ps4LeaderboardId: 135
+    _leaderboardId: CommercialPumpingOneSaberNormal
+  - _ps4LeaderboardId: 136
+    _leaderboardId: CommercialPumpingOneSaberHard
+  - _ps4LeaderboardId: 137
+    _leaderboardId: CommercialPumpingOneSaberExpert
+  - _ps4LeaderboardId: 138
+    _leaderboardId: OneHopeEasy
+  - _ps4LeaderboardId: 139
+    _leaderboardId: OneHopeNormal
+  - _ps4LeaderboardId: 140
+    _leaderboardId: OneHopeHard
+  - _ps4LeaderboardId: 141
+    _leaderboardId: OneHopeExpert
+  - _ps4LeaderboardId: 142
+    _leaderboardId: PopStarsEasy
+  - _ps4LeaderboardId: 143
+    _leaderboardId: PopStarsNormal
+  - _ps4LeaderboardId: 144
+    _leaderboardId: PopStarsHard
+  - _ps4LeaderboardId: 145
+    _leaderboardId: PopStarsExpert
+  - _ps4LeaderboardId: 146
+    _leaderboardId: 100BillsExpertPlus
+  - _ps4LeaderboardId: 147
+    _leaderboardId: AngelVoicesExpertPlus
+  - _ps4LeaderboardId: 148
+    _leaderboardId: BalearicPumpingExpertPlus
+  - _ps4LeaderboardId: 149
+    _leaderboardId: BeatSaberExpertPlus
+  - _ps4LeaderboardId: 150
+    _leaderboardId: BreezerExpertPlus
+  - _ps4LeaderboardId: 151
+    _leaderboardId: CommercialPumpingExpertPlus
+  - _ps4LeaderboardId: 152
+    _leaderboardId: EscapeExpertPlus
+  - _ps4LeaderboardId: 153
+    _leaderboardId: CountryRoundsExpertPlus
+  - _ps4LeaderboardId: 154
+    _leaderboardId: LegendExpertPlus
+  - _ps4LeaderboardId: 155
+    _leaderboardId: LvlInsaneExpertPlus
+  - _ps4LeaderboardId: 156
+    _leaderboardId: TurnMeOnExpertPlus
+  - _ps4LeaderboardId: 157
+    _leaderboardId: PopStarsExpertPlus
+  - _ps4LeaderboardId: 158
+    _leaderboardId: OneHopeExpertPlus
+  - _ps4LeaderboardId: 159
+    _leaderboardId: UnlimitedPowerExpertPlus
+  - _ps4LeaderboardId: 160
+    _leaderboardId: INeedYouExpertPlus
+  - _ps4LeaderboardId: 161
+    _leaderboardId: ElixiaExpertPlus
+  - _ps4LeaderboardId: 162
+    _leaderboardId: BoundlessEasy
+  - _ps4LeaderboardId: 163
+    _leaderboardId: BoundlessNormal
+  - _ps4LeaderboardId: 164
+    _leaderboardId: BoundlessHard
+  - _ps4LeaderboardId: 165
+    _leaderboardId: BoundlessExpert
+  - _ps4LeaderboardId: 166
+    _leaderboardId: BoundlessExpertPlus
+  - _ps4LeaderboardId: 167
+    _leaderboardId: EmojiVIPEasy
+  - _ps4LeaderboardId: 168
+    _leaderboardId: EmojiVIPNormal
+  - _ps4LeaderboardId: 169
+    _leaderboardId: EmojiVIPHard
+  - _ps4LeaderboardId: 170
+    _leaderboardId: EmojiVIPExpert
+  - _ps4LeaderboardId: 171
+    _leaderboardId: EmojiVIPExpertPlus
+  - _ps4LeaderboardId: 172
+    _leaderboardId: EpicEasy
+  - _ps4LeaderboardId: 173
+    _leaderboardId: EpicNormal
+  - _ps4LeaderboardId: 174
+    _leaderboardId: EpicHard
+  - _ps4LeaderboardId: 175
+    _leaderboardId: EpicExpert
+  - _ps4LeaderboardId: 176
+    _leaderboardId: EpicExpertPlus
+  - _ps4LeaderboardId: 177
+    _leaderboardId: FeelingStrongerEasy
+  - _ps4LeaderboardId: 178
+    _leaderboardId: FeelingStrongerNormal
+  - _ps4LeaderboardId: 179
+    _leaderboardId: FeelingStrongerHard
+  - _ps4LeaderboardId: 180
+    _leaderboardId: FeelingStrongerExpert
+  - _ps4LeaderboardId: 181
+    _leaderboardId: FeelingStrongerExpertPlus
+  - _ps4LeaderboardId: 182
+    _leaderboardId: OverkillEasy
+  - _ps4LeaderboardId: 183
+    _leaderboardId: OverkillNormal
+  - _ps4LeaderboardId: 184
+    _leaderboardId: OverkillHard
+  - _ps4LeaderboardId: 185
+    _leaderboardId: OverkillExpert
+  - _ps4LeaderboardId: 186
+    _leaderboardId: OverkillExpertPlus
+  - _ps4LeaderboardId: 187
+    _leaderboardId: RattlesnakeEasy
+  - _ps4LeaderboardId: 188
+    _leaderboardId: RattlesnakeNormal
+  - _ps4LeaderboardId: 189
+    _leaderboardId: RattlesnakeHard
+  - _ps4LeaderboardId: 190
+    _leaderboardId: RattlesnakeExpert
+  - _ps4LeaderboardId: 191
+    _leaderboardId: RattlesnakeExpertPlus
+  - _ps4LeaderboardId: 192
+    _leaderboardId: StrongerEasy
+  - _ps4LeaderboardId: 193
+    _leaderboardId: StrongerNormal
+  - _ps4LeaderboardId: 194
+    _leaderboardId: StrongerHard
+  - _ps4LeaderboardId: 195
+    _leaderboardId: StrongerExpert
+  - _ps4LeaderboardId: 196
+    _leaderboardId: StrongerExpertPlus
+  - _ps4LeaderboardId: 197
+    _leaderboardId: ThisTimeEasy
+  - _ps4LeaderboardId: 198
+    _leaderboardId: ThisTimeNormal
+  - _ps4LeaderboardId: 199
+    _leaderboardId: ThisTimeHard
+  - _ps4LeaderboardId: 200
+    _leaderboardId: ThisTimeExpert
+  - _ps4LeaderboardId: 201
+    _leaderboardId: ThisTimeExpertPlus
+  - _ps4LeaderboardId: 202
+    _leaderboardId: TillItsOverEasy
+  - _ps4LeaderboardId: 203
+    _leaderboardId: TillItsOverNormal
+  - _ps4LeaderboardId: 204
+    _leaderboardId: TillItsOverHard
+  - _ps4LeaderboardId: 205
+    _leaderboardId: TillItsOverExpert
+  - _ps4LeaderboardId: 206
+    _leaderboardId: TillItsOverExpertPlus
+  - _ps4LeaderboardId: 207
+    _leaderboardId: WeWontBeAloneEasy
+  - _ps4LeaderboardId: 208
+    _leaderboardId: WeWontBeAloneNormal
+  - _ps4LeaderboardId: 209
+    _leaderboardId: WeWontBeAloneHard
+  - _ps4LeaderboardId: 210
+    _leaderboardId: WeWontBeAloneExpert
+  - _ps4LeaderboardId: 211
+    _leaderboardId: WeWontBeAloneExpertPlus
+  - _ps4LeaderboardId: 212
+    _leaderboardId: BoundlessNoArrowsEasy
+  - _ps4LeaderboardId: 213
+    _leaderboardId: BoundlessNoArrowsNormal
+  - _ps4LeaderboardId: 214
+    _leaderboardId: BoundlessNoArrowsHard
+  - _ps4LeaderboardId: 215
+    _leaderboardId: BoundlessNoArrowsExpert
+  - _ps4LeaderboardId: 216
+    _leaderboardId: EmojiVIPNoArrowsEasy
+  - _ps4LeaderboardId: 217
+    _leaderboardId: EmojiVIPNoArrowsNormal
+  - _ps4LeaderboardId: 218
+    _leaderboardId: EmojiVIPNoArrowsHard
+  - _ps4LeaderboardId: 219
+    _leaderboardId: EmojiVIPNoArrowsExpert
+  - _ps4LeaderboardId: 220
+    _leaderboardId: EpicNoArrowsEasy
+  - _ps4LeaderboardId: 221
+    _leaderboardId: EpicNoArrowsNormal
+  - _ps4LeaderboardId: 222
+    _leaderboardId: EpicNoArrowsHard
+  - _ps4LeaderboardId: 223
+    _leaderboardId: EpicNoArrowsExpert
+  - _ps4LeaderboardId: 224
+    _leaderboardId: FeelingStrongerNoArrowsEasy
+  - _ps4LeaderboardId: 225
+    _leaderboardId: FeelingStrongerNoArrowsNormal
+  - _ps4LeaderboardId: 226
+    _leaderboardId: FeelingStrongerNoArrowsHard
+  - _ps4LeaderboardId: 227
+    _leaderboardId: FeelingStrongerNoArrowsExpert
+  - _ps4LeaderboardId: 228
+    _leaderboardId: OverkillNoArrowsEasy
+  - _ps4LeaderboardId: 229
+    _leaderboardId: OverkillNoArrowsNormal
+  - _ps4LeaderboardId: 230
+    _leaderboardId: OverkillNoArrowsHard
+  - _ps4LeaderboardId: 231
+    _leaderboardId: OverkillNoArrowsExpert
+  - _ps4LeaderboardId: 232
+    _leaderboardId: RattlesnakeNoArrowsEasy
+  - _ps4LeaderboardId: 233
+    _leaderboardId: RattlesnakeNoArrowsNormal
+  - _ps4LeaderboardId: 234
+    _leaderboardId: RattlesnakeNoArrowsHard
+  - _ps4LeaderboardId: 235
+    _leaderboardId: RattlesnakeNoArrowsExpert
+  - _ps4LeaderboardId: 236
+    _leaderboardId: StrongerNoArrowsEasy
+  - _ps4LeaderboardId: 237
+    _leaderboardId: StrongerNoArrowsNormal
+  - _ps4LeaderboardId: 238
+    _leaderboardId: StrongerNoArrowsHard
+  - _ps4LeaderboardId: 239
+    _leaderboardId: StrongerNoArrowsExpert
+  - _ps4LeaderboardId: 240
+    _leaderboardId: ThisTimeNoArrowsEasy
+  - _ps4LeaderboardId: 241
+    _leaderboardId: ThisTimeNoArrowsNormal
+  - _ps4LeaderboardId: 242
+    _leaderboardId: ThisTimeNoArrowsHard
+  - _ps4LeaderboardId: 243
+    _leaderboardId: ThisTimeNoArrowsExpert
+  - _ps4LeaderboardId: 244
+    _leaderboardId: TillItsOverNoArrowsEasy
+  - _ps4LeaderboardId: 245
+    _leaderboardId: TillItsOverNoArrowsNormal
+  - _ps4LeaderboardId: 246
+    _leaderboardId: TillItsOverNoArrowsHard
+  - _ps4LeaderboardId: 247
+    _leaderboardId: TillItsOverNoArrowsExpert
+  - _ps4LeaderboardId: 248
+    _leaderboardId: WeWontBeAloneNoArrowsEasy
+  - _ps4LeaderboardId: 249
+    _leaderboardId: WeWontBeAloneNoArrowsNormal
+  - _ps4LeaderboardId: 250
+    _leaderboardId: WeWontBeAloneNoArrowsHard
+  - _ps4LeaderboardId: 251
+    _leaderboardId: WeWontBeAloneNoArrowsExpert
+  - _ps4LeaderboardId: 252
+    _leaderboardId: BadLiarEasy
+  - _ps4LeaderboardId: 253
+    _leaderboardId: BadLiarNormal
+  - _ps4LeaderboardId: 254
+    _leaderboardId: BadLiarHard
+  - _ps4LeaderboardId: 255
+    _leaderboardId: BadLiarExpert
+  - _ps4LeaderboardId: 256
+    _leaderboardId: BadLiarExpertPlus
+  - _ps4LeaderboardId: 257
+    _leaderboardId: BelieverEasy
+  - _ps4LeaderboardId: 258
+    _leaderboardId: BelieverNormal
+  - _ps4LeaderboardId: 259
+    _leaderboardId: BelieverHard
+  - _ps4LeaderboardId: 260
+    _leaderboardId: BelieverExpert
+  - _ps4LeaderboardId: 261
+    _leaderboardId: BelieverExpertPlus
+  - _ps4LeaderboardId: 262
+    _leaderboardId: DigitalEasy
+  - _ps4LeaderboardId: 263
+    _leaderboardId: DigitalNormal
+  - _ps4LeaderboardId: 264
+    _leaderboardId: DigitalHard
+  - _ps4LeaderboardId: 265
+    _leaderboardId: DigitalExpert
+  - _ps4LeaderboardId: 266
+    _leaderboardId: DigitalExpertPlus
+  - _ps4LeaderboardId: 267
+    _leaderboardId: ItsTimeEasy
+  - _ps4LeaderboardId: 268
+    _leaderboardId: ItsTimeNormal
+  - _ps4LeaderboardId: 269
+    _leaderboardId: ItsTimeHard
+  - _ps4LeaderboardId: 270
+    _leaderboardId: ItsTimeExpert
+  - _ps4LeaderboardId: 271
+    _leaderboardId: ItsTimeExpertPlus
+  - _ps4LeaderboardId: 272
+    _leaderboardId: MachineEasy
+  - _ps4LeaderboardId: 273
+    _leaderboardId: MachineNormal
+  - _ps4LeaderboardId: 274
+    _leaderboardId: MachineHard
+  - _ps4LeaderboardId: 275
+    _leaderboardId: MachineExpert
+  - _ps4LeaderboardId: 276
+    _leaderboardId: MachineExpertPlus
+  - _ps4LeaderboardId: 277
+    _leaderboardId: NaturalEasy
+  - _ps4LeaderboardId: 278
+    _leaderboardId: NaturalNormal
+  - _ps4LeaderboardId: 279
+    _leaderboardId: NaturalHard
+  - _ps4LeaderboardId: 280
+    _leaderboardId: NaturalExpert
+  - _ps4LeaderboardId: 281
+    _leaderboardId: NaturalExpertPlus
+  - _ps4LeaderboardId: 282
+    _leaderboardId: RadioactiveEasy
+  - _ps4LeaderboardId: 283
+    _leaderboardId: RadioactiveNormal
+  - _ps4LeaderboardId: 284
+    _leaderboardId: RadioactiveHard
+  - _ps4LeaderboardId: 285
+    _leaderboardId: RadioactiveExpert
+  - _ps4LeaderboardId: 286
+    _leaderboardId: RadioactiveExpertPlus
+  - _ps4LeaderboardId: 287
+    _leaderboardId: ThunderEasy
+  - _ps4LeaderboardId: 288
+    _leaderboardId: ThunderNormal
+  - _ps4LeaderboardId: 289
+    _leaderboardId: ThunderHard
+  - _ps4LeaderboardId: 290
+    _leaderboardId: ThunderExpert
+  - _ps4LeaderboardId: 291
+    _leaderboardId: ThunderExpertPlus
+  - _ps4LeaderboardId: 292
+    _leaderboardId: WarriorsEasy
+  - _ps4LeaderboardId: 293
+    _leaderboardId: WarriorsNormal
+  - _ps4LeaderboardId: 294
+    _leaderboardId: WarriorsHard
+  - _ps4LeaderboardId: 295
+    _leaderboardId: WarriorsExpert
+  - _ps4LeaderboardId: 296
+    _leaderboardId: WarriorsExpertPlus
+  - _ps4LeaderboardId: 297
+    _leaderboardId: WhateverItTakesEasy
+  - _ps4LeaderboardId: 298
+    _leaderboardId: WhateverItTakesNormal
+  - _ps4LeaderboardId: 299
+    _leaderboardId: WhateverItTakesHard
+  - _ps4LeaderboardId: 300
+    _leaderboardId: WhateverItTakesExpert
+  - _ps4LeaderboardId: 301
+    _leaderboardId: WhateverItTakesExpertPlus
+  - _ps4LeaderboardId: 302
+    _leaderboardId: BalearicPumpingOneSaberExpert
+  - _ps4LeaderboardId: 303
+    _leaderboardId: BreezerOneSaberExpert
+  - _ps4LeaderboardId: 304
+    _leaderboardId: CountryRoundsOneSaberExpert
+  - _ps4LeaderboardId: 305
+    _leaderboardId: LvlInsaneOneSaberExpert
+  - _ps4LeaderboardId: 306
+    _leaderboardId: BeThereForYouOneSaberExpert
+  - _ps4LeaderboardId: 307
+    _leaderboardId: ElixiaOneSaberExpert
+  - _ps4LeaderboardId: 308
+    _leaderboardId: INeedYouOneSaberExpert
+  - _ps4LeaderboardId: 309
+    _leaderboardId: RumNBassOneSaberExpert
+  - _ps4LeaderboardId: 310
+    _leaderboardId: UnlimitedPowerOneSaberExpert
+  - _ps4LeaderboardId: 311
+    _leaderboardId: AngelVoicesEasy
+  - _ps4LeaderboardId: 312
+    _leaderboardId: AngelVoicesNormal
+  - _ps4LeaderboardId: 313
+    _leaderboardId: AngelVoicesNoArrowsEasy
+  - _ps4LeaderboardId: 314
+    _leaderboardId: AngelVoicesNoArrowsNormal
+  - _ps4LeaderboardId: 315
+    _leaderboardId: CrabRaveEasy
+  - _ps4LeaderboardId: 316
+    _leaderboardId: CrabRaveNormal
+  - _ps4LeaderboardId: 317
+    _leaderboardId: CrabRaveHard
+  - _ps4LeaderboardId: 318
+    _leaderboardId: CrabRaveExpert
+  - _ps4LeaderboardId: 319
+    _leaderboardId: CrabRaveExpertPlus
+  - _ps4LeaderboardId: 320
+    _leaderboardId: CrystallizedEasy
+  - _ps4LeaderboardId: 321
+    _leaderboardId: CrystallizedNormal
+  - _ps4LeaderboardId: 322
+    _leaderboardId: CrystallizedHard
+  - _ps4LeaderboardId: 323
+    _leaderboardId: CrystallizedExpert
+  - _ps4LeaderboardId: 324
+    _leaderboardId: CrystallizedExpertPlus
+  - _ps4LeaderboardId: 325
+    _leaderboardId: CycleHitEasy
+  - _ps4LeaderboardId: 326
+    _leaderboardId: CycleHitNormal
+  - _ps4LeaderboardId: 327
+    _leaderboardId: CycleHitHard
+  - _ps4LeaderboardId: 328
+    _leaderboardId: CycleHitExpert
+  - _ps4LeaderboardId: 329
+    _leaderboardId: CycleHitExpertPlus
+  - _ps4LeaderboardId: 330
+    _leaderboardId: WhatTheCatEasy
+  - _ps4LeaderboardId: 331
+    _leaderboardId: WhatTheCatNormal
+  - _ps4LeaderboardId: 332
+    _leaderboardId: WhatTheCatHard
+  - _ps4LeaderboardId: 333
+    _leaderboardId: WhatTheCatExpert
+  - _ps4LeaderboardId: 334
+    _leaderboardId: WhatTheCatExpertPlus
+  - _ps4LeaderboardId: 335
+    _leaderboardId: CrabRaveOneSaberExpert
+  - _ps4LeaderboardId: 336
+    _leaderboardId: PopStarsOneSaberExpert
+  - _ps4LeaderboardId: 337
+    _leaderboardId: OneHopeOneSaberExpert
+  - _ps4LeaderboardId: 338
+    _leaderboardId: AngelVoicesOneSaberExpert
+  - _ps4LeaderboardId: 339
+    _leaderboardId: OriginsEasy
+  - _ps4LeaderboardId: 340
+    _leaderboardId: OriginsNormal
+  - _ps4LeaderboardId: 341
+    _leaderboardId: OriginsHard
+  - _ps4LeaderboardId: 342
+    _leaderboardId: OriginsExpert
+  - _ps4LeaderboardId: 343
+    _leaderboardId: OriginsExpertPlus
+  - _ps4LeaderboardId: 344
+    _leaderboardId: ReasonForLivingEasy
+  - _ps4LeaderboardId: 345
+    _leaderboardId: ReasonForLivingNormal
+  - _ps4LeaderboardId: 346
+    _leaderboardId: ReasonForLivingHard
+  - _ps4LeaderboardId: 347
+    _leaderboardId: ReasonForLivingExpert
+  - _ps4LeaderboardId: 348
+    _leaderboardId: ReasonForLivingExpertPlus
+  - _ps4LeaderboardId: 349
+    _leaderboardId: GiveALittleLoveEasy
+  - _ps4LeaderboardId: 350
+    _leaderboardId: GiveALittleLoveNormal
+  - _ps4LeaderboardId: 351
+    _leaderboardId: GiveALittleLoveHard
+  - _ps4LeaderboardId: 352
+    _leaderboardId: GiveALittleLoveExpert
+  - _ps4LeaderboardId: 353
+    _leaderboardId: GiveALittleLoveExpertPlus
+  - _ps4LeaderboardId: 354
+    _leaderboardId: FullChargeEasy
+  - _ps4LeaderboardId: 355
+    _leaderboardId: FullChargeNormal
+  - _ps4LeaderboardId: 356
+    _leaderboardId: FullChargeHard
+  - _ps4LeaderboardId: 357
+    _leaderboardId: FullChargeExpert
+  - _ps4LeaderboardId: 358
+    _leaderboardId: FullChargeExpertPlus
+  - _ps4LeaderboardId: 359
+    _leaderboardId: ImmortalEasy
+  - _ps4LeaderboardId: 360
+    _leaderboardId: ImmortalNormal
+  - _ps4LeaderboardId: 361
+    _leaderboardId: ImmortalHard
+  - _ps4LeaderboardId: 362
+    _leaderboardId: ImmortalExpert
+  - _ps4LeaderboardId: 363
+    _leaderboardId: ImmortalExpertPlus
+  - _ps4LeaderboardId: 364
+    _leaderboardId: BurningSandsEasy
+  - _ps4LeaderboardId: 365
+    _leaderboardId: BurningSandsNormal
+  - _ps4LeaderboardId: 366
+    _leaderboardId: BurningSandsHard
+  - _ps4LeaderboardId: 367
+    _leaderboardId: BurningSandsExpert
+  - _ps4LeaderboardId: 368
+    _leaderboardId: BurningSandsExpertPlus
+  - _ps4LeaderboardId: 369
+    _leaderboardId: TheGreatestShowEasy
+  - _ps4LeaderboardId: 370
+    _leaderboardId: TheGreatestShowNormal
+  - _ps4LeaderboardId: 371
+    _leaderboardId: TheGreatestShowHard
+  - _ps4LeaderboardId: 372
+    _leaderboardId: TheGreatestShowExpert
+  - _ps4LeaderboardId: 373
+    _leaderboardId: TheGreatestShowExpertPlus
+  - _ps4LeaderboardId: 374
+    _leaderboardId: VictoriousEasy
+  - _ps4LeaderboardId: 375
+    _leaderboardId: VictoriousNormal
+  - _ps4LeaderboardId: 376
+    _leaderboardId: VictoriousHard
+  - _ps4LeaderboardId: 377
+    _leaderboardId: VictoriousExpert
+  - _ps4LeaderboardId: 378
+    _leaderboardId: VictoriousExpertPlus
+  - _ps4LeaderboardId: 379
+    _leaderboardId: EmperorsNewClothesEasy
+  - _ps4LeaderboardId: 380
+    _leaderboardId: EmperorsNewClothesNormal
+  - _ps4LeaderboardId: 381
+    _leaderboardId: EmperorsNewClothesHard
+  - _ps4LeaderboardId: 382
+    _leaderboardId: EmperorsNewClothesExpert
+  - _ps4LeaderboardId: 383
+    _leaderboardId: EmperorsNewClothesExpertPlus
+  - _ps4LeaderboardId: 384
+    _leaderboardId: HighHopesEasy
+  - _ps4LeaderboardId: 385
+    _leaderboardId: HighHopesNormal
+  - _ps4LeaderboardId: 386
+    _leaderboardId: HighHopesHard
+  - _ps4LeaderboardId: 387
+    _leaderboardId: HighHopesExpert
+  - _ps4LeaderboardId: 388
+    _leaderboardId: HighHopesExpertPlus
+  - _ps4LeaderboardId: 389
+    _leaderboardId: PlayEasy
+  - _ps4LeaderboardId: 390
+    _leaderboardId: PlayNormal
+  - _ps4LeaderboardId: 391
+    _leaderboardId: PlayHard
+  - _ps4LeaderboardId: 392
+    _leaderboardId: PlayExpert
+  - _ps4LeaderboardId: 393
+    _leaderboardId: PlayExpertPlus
+  - _ps4LeaderboardId: 394
+    _leaderboardId: GlideEasy
+  - _ps4LeaderboardId: 395
+    _leaderboardId: GlideNormal
+  - _ps4LeaderboardId: 396
+    _leaderboardId: GlideHard
+  - _ps4LeaderboardId: 397
+    _leaderboardId: GlideExpert
+  - _ps4LeaderboardId: 398
+    _leaderboardId: GlideExpertPlus
+  - _ps4LeaderboardId: 399
+    _leaderboardId: LuvUNeedUEasy
+  - _ps4LeaderboardId: 400
+    _leaderboardId: LuvUNeedUNormal
+  - _ps4LeaderboardId: 401
+    _leaderboardId: LuvUNeedUHard
+  - _ps4LeaderboardId: 402
+    _leaderboardId: LuvUNeedUExpert
+  - _ps4LeaderboardId: 403
+    _leaderboardId: LuvUNeedUExpertPlus
+  - _ps4LeaderboardId: 404
+    _leaderboardId: RockItEasy
+  - _ps4LeaderboardId: 405
+    _leaderboardId: RockItNormal
+  - _ps4LeaderboardId: 406
+    _leaderboardId: RockItHard
+  - _ps4LeaderboardId: 407
+    _leaderboardId: RockItExpert
+  - _ps4LeaderboardId: 408
+    _leaderboardId: RockItExpertPlus
+  - _ps4LeaderboardId: 409
+    _leaderboardId: ShiawaseEasy
+  - _ps4LeaderboardId: 410
+    _leaderboardId: ShiawaseNormal
+  - _ps4LeaderboardId: 411
+    _leaderboardId: ShiawaseHard
+  - _ps4LeaderboardId: 412
+    _leaderboardId: ShiawaseExpert
+  - _ps4LeaderboardId: 413
+    _leaderboardId: ShiawaseExpertPlus
+  - _ps4LeaderboardId: 414
+    _leaderboardId: TestMeEasy
+  - _ps4LeaderboardId: 415
+    _leaderboardId: TestMeNormal
+  - _ps4LeaderboardId: 416
+    _leaderboardId: TestMeHard
+  - _ps4LeaderboardId: 417
+    _leaderboardId: TestMeExpert
+  - _ps4LeaderboardId: 418
+    _leaderboardId: TestMeExpertPlus
+  - _ps4LeaderboardId: 419
+    _leaderboardId: AmericanIdiotEasy
+  - _ps4LeaderboardId: 420
+    _leaderboardId: AmericanIdiotNormal
+  - _ps4LeaderboardId: 421
+    _leaderboardId: AmericanIdiotHard
+  - _ps4LeaderboardId: 422
+    _leaderboardId: AmericanIdiotExpert
+  - _ps4LeaderboardId: 423
+    _leaderboardId: AmericanIdiotExpertPlus
+  - _ps4LeaderboardId: 424
+    _leaderboardId: FatherOfAllEasy
+  - _ps4LeaderboardId: 425
+    _leaderboardId: FatherOfAllNormal
+  - _ps4LeaderboardId: 426
+    _leaderboardId: FatherOfAllHard
+  - _ps4LeaderboardId: 427
+    _leaderboardId: FatherOfAllExpert
+  - _ps4LeaderboardId: 428
+    _leaderboardId: FatherOfAllExpertPlus
+  - _ps4LeaderboardId: 429
+    _leaderboardId: FatherOfAll90DegreeNormal
+  - _ps4LeaderboardId: 430
+    _leaderboardId: BoulevardOfBrokenDreamsEasy
+  - _ps4LeaderboardId: 431
+    _leaderboardId: BoulevardOfBrokenDreamsNormal
+  - _ps4LeaderboardId: 432
+    _leaderboardId: BoulevardOfBrokenDreamsHard
+  - _ps4LeaderboardId: 433
+    _leaderboardId: BoulevardOfBrokenDreamsExpert
+  - _ps4LeaderboardId: 434
+    _leaderboardId: BoulevardOfBrokenDreamsExpertPlus
+  - _ps4LeaderboardId: 435
+    _leaderboardId: HolidayEasy
+  - _ps4LeaderboardId: 436
+    _leaderboardId: HolidayNormal
+  - _ps4LeaderboardId: 437
+    _leaderboardId: HolidayHard
+  - _ps4LeaderboardId: 438
+    _leaderboardId: HolidayExpert
+  - _ps4LeaderboardId: 439
+    _leaderboardId: HolidayExpertPlus
+  - _ps4LeaderboardId: 440
+    _leaderboardId: Holiday90DegreeHard
+  - _ps4LeaderboardId: 441
+    _leaderboardId: FireReadyAimEasy
+  - _ps4LeaderboardId: 442
+    _leaderboardId: FireReadyAimNormal
+  - _ps4LeaderboardId: 443
+    _leaderboardId: FireReadyAimHard
+  - _ps4LeaderboardId: 444
+    _leaderboardId: FireReadyAimExpert
+  - _ps4LeaderboardId: 445
+    _leaderboardId: FireReadyAimExpertPlus
+  - _ps4LeaderboardId: 446
+    _leaderboardId: MinorityEasy
+  - _ps4LeaderboardId: 447
+    _leaderboardId: MinorityNormal
+  - _ps4LeaderboardId: 448
+    _leaderboardId: MinorityHard
+  - _ps4LeaderboardId: 449
+    _leaderboardId: MinorityExpert
+  - _ps4LeaderboardId: 450
+    _leaderboardId: MinorityExpertPlus
+  - _ps4LeaderboardId: 451
+    _leaderboardId: 100Bills90DegreeNormal
+  - _ps4LeaderboardId: 452
+    _leaderboardId: BalearicPumping90DegreeExpertPlus
+  - _ps4LeaderboardId: 453
+    _leaderboardId: BeatSaber90DegreeEasy
+  - _ps4LeaderboardId: 454
+    _leaderboardId: Breezer90DegreeExpertPlus
+  - _ps4LeaderboardId: 455
+    _leaderboardId: CommercialPumping90DegreeNormal
+  - _ps4LeaderboardId: 456
+    _leaderboardId: CountryRounds90DegreeExpert
+  - _ps4LeaderboardId: 457
+    _leaderboardId: Legend90DegreeHard
+  - _ps4LeaderboardId: 458
+    _leaderboardId: LvlInsane90DegreeExpert
+  - _ps4LeaderboardId: 459
+    _leaderboardId: TurnMeOn90DegreeEasy
+  - _ps4LeaderboardId: 460
+    _leaderboardId: INeedYou90DegreeEasy
+  - _ps4LeaderboardId: 461
+    _leaderboardId: UnlimitedPower90DegreeExpert
+  - _ps4LeaderboardId: 462
+    _leaderboardId: Origins90DegreeNormal
+  - _ps4LeaderboardId: 463
+    _leaderboardId: Origins90DegreeExpert
+  - _ps4LeaderboardId: 464
+    _leaderboardId: Origins90DegreeExpertPlus
+  - _ps4LeaderboardId: 465
+    _leaderboardId: Immortal90DegreeNormal
+  - _ps4LeaderboardId: 466
+    _leaderboardId: CrabRave90DegreeHard
+  - _ps4LeaderboardId: 467
+    _leaderboardId: Epic90DegreeExpert
+  - _ps4LeaderboardId: 468
+    _leaderboardId: TillItsOver90DegreeEasy
+  - _ps4LeaderboardId: 469
+    _leaderboardId: Believer90DegreeNormal
+  - _ps4LeaderboardId: 470
+    _leaderboardId: Believer90DegreeHard
+  - _ps4LeaderboardId: 471
+    _leaderboardId: Thunder90DegreeHard
+  - _ps4LeaderboardId: 472
+    _leaderboardId: EmperorsNewClothes90DegreeExpert
+  - _ps4LeaderboardId: 473
+    _leaderboardId: HighHopes90DegreeHard
+  - _ps4LeaderboardId: 474
+    _leaderboardId: Glide90DegreeExpertPlus
+  - _ps4LeaderboardId: 475
+    _leaderboardId: Overkill90DegreeExpertPlus
+  - _ps4LeaderboardId: 476
+    _leaderboardId: ExitThisEarthsAtomosphereEasy
+  - _ps4LeaderboardId: 477
+    _leaderboardId: ExitThisEarthsAtomosphereNormal
+  - _ps4LeaderboardId: 478
+    _leaderboardId: ExitThisEarthsAtomosphereHard
+  - _ps4LeaderboardId: 479
+    _leaderboardId: ExitThisEarthsAtomosphereExpert
+  - _ps4LeaderboardId: 480
+    _leaderboardId: ExitThisEarthsAtomosphereExpertPlus
+  - _ps4LeaderboardId: 481
+    _leaderboardId: GhostEasy
+  - _ps4LeaderboardId: 482
+    _leaderboardId: GhostNormal
+  - _ps4LeaderboardId: 483
+    _leaderboardId: GhostHard
+  - _ps4LeaderboardId: 484
+    _leaderboardId: GhostExpert
+  - _ps4LeaderboardId: 485
+    _leaderboardId: GhostExpertPlus
+  - _ps4LeaderboardId: 486
+    _leaderboardId: LightItUpEasy
+  - _ps4LeaderboardId: 487
+    _leaderboardId: LightItUpNormal
+  - _ps4LeaderboardId: 488
+    _leaderboardId: LightItUpHard
+  - _ps4LeaderboardId: 489
+    _leaderboardId: LightItUpExpert
+  - _ps4LeaderboardId: 490
+    _leaderboardId: LightItUpExpertPlus
+  - _ps4LeaderboardId: 491
+    _leaderboardId: HasAMeaningEasy
+  - _ps4LeaderboardId: 492
+    _leaderboardId: HasAMeaningNormal
+  - _ps4LeaderboardId: 493
+    _leaderboardId: HasAMeaningHard
+  - _ps4LeaderboardId: 494
+    _leaderboardId: HasAMeaningExpert
+  - _ps4LeaderboardId: 495
+    _leaderboardId: HasAMeaningExpertPlus
+  - _ps4LeaderboardId: 496
+    _leaderboardId: DumbThingzEasy
+  - _ps4LeaderboardId: 497
+    _leaderboardId: DumbThingzNormal
+  - _ps4LeaderboardId: 498
+    _leaderboardId: DumbThingzHard
+  - _ps4LeaderboardId: 499
+    _leaderboardId: DumbThingzExpert
+  - _ps4LeaderboardId: 500
+    _leaderboardId: DumbThingzExpertPlus
+  - _ps4LeaderboardId: 501
+    _leaderboardId: WhileWereYoungEasy
+  - _ps4LeaderboardId: 502
+    _leaderboardId: WhileWereYoungNormal
+  - _ps4LeaderboardId: 503
+    _leaderboardId: WhileWereYoungHard
+  - _ps4LeaderboardId: 504
+    _leaderboardId: WhileWereYoungExpert
+  - _ps4LeaderboardId: 505
+    _leaderboardId: WhileWereYoungExpertPlus
+  - _ps4LeaderboardId: 506
+    _leaderboardId: WhatILikeEasy
+  - _ps4LeaderboardId: 507
+    _leaderboardId: WhatILikeNormal
+  - _ps4LeaderboardId: 508
+    _leaderboardId: WhatILikeHard
+  - _ps4LeaderboardId: 509
+    _leaderboardId: WhatILikeExpert
+  - _ps4LeaderboardId: 510
+    _leaderboardId: WhatILikeExpertPlus
+  - _ps4LeaderboardId: 511
+    _leaderboardId: FamousEasy
+  - _ps4LeaderboardId: 512
+    _leaderboardId: FamousNormal
+  - _ps4LeaderboardId: 513
+    _leaderboardId: FamousHard
+  - _ps4LeaderboardId: 514
+    _leaderboardId: FamousExpert
+  - _ps4LeaderboardId: 515
+    _leaderboardId: FamousExpertPlus
+  - _ps4LeaderboardId: 516
+    _leaderboardId: FitBeatEasy
+  - _ps4LeaderboardId: 517
+    _leaderboardId: FitBeatNormal
+  - _ps4LeaderboardId: 518
+    _leaderboardId: FitBeatHard
+  - _ps4LeaderboardId: 519
+    _leaderboardId: FitBeatExpert
+  - _ps4LeaderboardId: 520
+    _leaderboardId: FitBeatExpertPlus
+  - _ps4LeaderboardId: 521
+    _leaderboardId: FitBeatOneSaberExpert
+  - _ps4LeaderboardId: 522
+    _leaderboardId: FitBeat90DegreeNormal
+  - _ps4LeaderboardId: 523
+    _leaderboardId: FitBeat90DegreeHard
+  - _ps4LeaderboardId: 524
+    _leaderboardId: FitBeat90DegreeExpert
+  - _ps4LeaderboardId: 525
+    _leaderboardId: PopStars90DegreeExpertPlus
+  - _ps4LeaderboardId: 526
+    _leaderboardId: AmericanIdiotOneSaberNormal
+  - _ps4LeaderboardId: 527
+    _leaderboardId: AmericanIdiotOneSaberExpert
+  - _ps4LeaderboardId: 528
+    _leaderboardId: AmericanIdiotOneSaberExpertPlus
+  - _ps4LeaderboardId: 529
+    _leaderboardId: FireReadyAim90DegreeExpert
+  - _ps4LeaderboardId: 530
+    _leaderboardId: BelieverOneSaberNormal
+  - _ps4LeaderboardId: 531
+    _leaderboardId: BelieverOneSaberExpert
+  - _ps4LeaderboardId: 532
+    _leaderboardId: BelieverOneSaberExpertPlus
+  - _ps4LeaderboardId: 533
+    _leaderboardId: Digital90DegreeExpert
+  - _ps4LeaderboardId: 534
+    _leaderboardId: Rattlesnake90DegreeExpertPlus
+  - _ps4LeaderboardId: 535
+    _leaderboardId: ThisTimeOneSaberNormal
+  - _ps4LeaderboardId: 536
+    _leaderboardId: ThisTimeOneSaberExpert
+  - _ps4LeaderboardId: 537
+    _leaderboardId: ThisTimeOneSaberExpertPlus
+  - _ps4LeaderboardId: 538
+    _leaderboardId: Escape90DegreeExpert
+  - _ps4LeaderboardId: 539
+    _leaderboardId: RumNBass90DegreeExpertPlus
+  - _ps4LeaderboardId: 540
+    _leaderboardId: UnlimitedPowerOneSaberNormal
+  - _ps4LeaderboardId: 541
+    _leaderboardId: UnlimitedPowerOneSaberExpertPlus
+  - _ps4LeaderboardId: 542
+    _leaderboardId: OriginsOneSaberNormal
+  - _ps4LeaderboardId: 543
+    _leaderboardId: OriginsOneSaberExpert
+  - _ps4LeaderboardId: 544
+    _leaderboardId: OriginsOneSaberExpertPlus
+  - _ps4LeaderboardId: 545
+    _leaderboardId: ReasonForLivingOneSaberNormal
+  - _ps4LeaderboardId: 546
+    _leaderboardId: ReasonForLivingOneSaberExpert
+  - _ps4LeaderboardId: 547
+    _leaderboardId: ReasonForLivingOneSaberExpertPlus
+  - _ps4LeaderboardId: 548
+    _leaderboardId: ReasonForLiving90DegreeExpertPlus
+  - _ps4LeaderboardId: 549
+    _leaderboardId: TheGreatestShow90DegreeHard
+  - _ps4LeaderboardId: 550
+    _leaderboardId: HighHopesOneSaberNormal
+  - _ps4LeaderboardId: 551
+    _leaderboardId: HighHopesOneSaberExpert
+  - _ps4LeaderboardId: 552
+    _leaderboardId: HighHopesOneSaberExpertPlus
+  - _ps4LeaderboardId: 553
+    _leaderboardId: PlayOneSaberNormal
+  - _ps4LeaderboardId: 554
+    _leaderboardId: PlayOneSaberExpert
+  - _ps4LeaderboardId: 555
+    _leaderboardId: PlayOneSaberExpertPlus
+  - _ps4LeaderboardId: 556
+    _leaderboardId: LuvUNeedU90DegreeHard
+  - _ps4LeaderboardId: 557
+    _leaderboardId: HasAMeaning90DegreeHard
+  - _ps4LeaderboardId: 558
+    _leaderboardId: WhileWereYoungOneSaberNormal
+  - _ps4LeaderboardId: 559
+    _leaderboardId: WhileWereYoungOneSaberExpert
+  - _ps4LeaderboardId: 560
+    _leaderboardId: WhileWereYoungOneSaberExpertPlus
+  - _ps4LeaderboardId: 561
+    _leaderboardId: BleedItOutEasy
+  - _ps4LeaderboardId: 562
+    _leaderboardId: BleedItOutNormal
+  - _ps4LeaderboardId: 563
+    _leaderboardId: BleedItOutHard
+  - _ps4LeaderboardId: 564
+    _leaderboardId: BleedItOutExpert
+  - _ps4LeaderboardId: 565
+    _leaderboardId: BleedItOutExpertPlus
+  - _ps4LeaderboardId: 566
+    _leaderboardId: BreakingTheHabitEasy
+  - _ps4LeaderboardId: 567
+    _leaderboardId: BreakingTheHabitNormal
+  - _ps4LeaderboardId: 568
+    _leaderboardId: BreakingTheHabitHard
+  - _ps4LeaderboardId: 569
+    _leaderboardId: BreakingTheHabitExpert
+  - _ps4LeaderboardId: 570
+    _leaderboardId: BreakingTheHabitExpertPlus
+  - _ps4LeaderboardId: 571
+    _leaderboardId: FaintEasy
+  - _ps4LeaderboardId: 572
+    _leaderboardId: FaintNormal
+  - _ps4LeaderboardId: 573
+    _leaderboardId: FaintHard
+  - _ps4LeaderboardId: 574
+    _leaderboardId: FaintExpert
+  - _ps4LeaderboardId: 575
+    _leaderboardId: FaintExpertPlus
+  - _ps4LeaderboardId: 576
+    _leaderboardId: GivenUpEasy
+  - _ps4LeaderboardId: 577
+    _leaderboardId: GivenUpNormal
+  - _ps4LeaderboardId: 578
+    _leaderboardId: GivenUpHard
+  - _ps4LeaderboardId: 579
+    _leaderboardId: GivenUpExpert
+  - _ps4LeaderboardId: 580
+    _leaderboardId: GivenUpExpertPlus
+  - _ps4LeaderboardId: 581
+    _leaderboardId: InTheEndEasy
+  - _ps4LeaderboardId: 582
+    _leaderboardId: InTheEndNormal
+  - _ps4LeaderboardId: 583
+    _leaderboardId: InTheEndHard
+  - _ps4LeaderboardId: 584
+    _leaderboardId: InTheEndExpert
+  - _ps4LeaderboardId: 585
+    _leaderboardId: InTheEndExpertPlus
+  - _ps4LeaderboardId: 586
+    _leaderboardId: NewDivideEasy
+  - _ps4LeaderboardId: 587
+    _leaderboardId: NewDivideNormal
+  - _ps4LeaderboardId: 588
+    _leaderboardId: NewDivideHard
+  - _ps4LeaderboardId: 589
+    _leaderboardId: NewDivideExpert
+  - _ps4LeaderboardId: 590
+    _leaderboardId: NewDivideExpertPlus
+  - _ps4LeaderboardId: 591
+    _leaderboardId: NumbEasy
+  - _ps4LeaderboardId: 592
+    _leaderboardId: NumbNormal
+  - _ps4LeaderboardId: 593
+    _leaderboardId: NumbHard
+  - _ps4LeaderboardId: 594
+    _leaderboardId: NumbExpert
+  - _ps4LeaderboardId: 595
+    _leaderboardId: NumbExpertPlus
+  - _ps4LeaderboardId: 596
+    _leaderboardId: OneStepCloserEasy
+  - _ps4LeaderboardId: 597
+    _leaderboardId: OneStepCloserNormal
+  - _ps4LeaderboardId: 598
+    _leaderboardId: OneStepCloserHard
+  - _ps4LeaderboardId: 599
+    _leaderboardId: OneStepCloserExpert
+  - _ps4LeaderboardId: 600
+    _leaderboardId: OneStepCloserExpertPlus
+  - _ps4LeaderboardId: 601
+    _leaderboardId: PapercutEasy
+  - _ps4LeaderboardId: 602
+    _leaderboardId: PapercutNormal
+  - _ps4LeaderboardId: 603
+    _leaderboardId: PapercutHard
+  - _ps4LeaderboardId: 604
+    _leaderboardId: PapercutExpert
+  - _ps4LeaderboardId: 605
+    _leaderboardId: PapercutExpertPlus
+  - _ps4LeaderboardId: 606
+    _leaderboardId: SomewhereIBelongEasy
+  - _ps4LeaderboardId: 607
+    _leaderboardId: SomewhereIBelongNormal
+  - _ps4LeaderboardId: 608
+    _leaderboardId: SomewhereIBelongHard
+  - _ps4LeaderboardId: 609
+    _leaderboardId: SomewhereIBelongExpert
+  - _ps4LeaderboardId: 610
+    _leaderboardId: SomewhereIBelongExpertPlus
+  - _ps4LeaderboardId: 611
+    _leaderboardId: WhatIveDoneEasy
+  - _ps4LeaderboardId: 612
+    _leaderboardId: WhatIveDoneNormal
+  - _ps4LeaderboardId: 613
+    _leaderboardId: WhatIveDoneHard
+  - _ps4LeaderboardId: 614
+    _leaderboardId: WhatIveDoneExpert
+  - _ps4LeaderboardId: 615
+    _leaderboardId: WhatIveDoneExpertPlus
+  - _ps4LeaderboardId: 616
+    _leaderboardId: BloodSweatAndTearsEasy
+  - _ps4LeaderboardId: 617
+    _leaderboardId: BloodSweatAndTearsNormal
+  - _ps4LeaderboardId: 618
+    _leaderboardId: BloodSweatAndTearsHard
+  - _ps4LeaderboardId: 619
+    _leaderboardId: BloodSweatAndTearsExpert
+  - _ps4LeaderboardId: 620
+    _leaderboardId: BloodSweatAndTearsExpertPlus
+  - _ps4LeaderboardId: 621
+    _leaderboardId: BoyWithLuvEasy
+  - _ps4LeaderboardId: 622
+    _leaderboardId: BoyWithLuvNormal
+  - _ps4LeaderboardId: 623
+    _leaderboardId: BoyWithLuvHard
+  - _ps4LeaderboardId: 624
+    _leaderboardId: BoyWithLuvExpert
+  - _ps4LeaderboardId: 625
+    _leaderboardId: BoyWithLuvExpertPlus
+  - _ps4LeaderboardId: 626
+    _leaderboardId: BurningUpEasy
+  - _ps4LeaderboardId: 627
+    _leaderboardId: BurningUpNormal
+  - _ps4LeaderboardId: 628
+    _leaderboardId: BurningUpHard
+  - _ps4LeaderboardId: 629
+    _leaderboardId: BurningUpExpert
+  - _ps4LeaderboardId: 630
+    _leaderboardId: BurningUpExpertPlus
+  - _ps4LeaderboardId: 631
+    _leaderboardId: DionysusEasy
+  - _ps4LeaderboardId: 632
+    _leaderboardId: DionysusNormal
+  - _ps4LeaderboardId: 633
+    _leaderboardId: DionysusHard
+  - _ps4LeaderboardId: 634
+    _leaderboardId: DionysusExpert
+  - _ps4LeaderboardId: 635
+    _leaderboardId: DionysusExpertPlus
+  - _ps4LeaderboardId: 636
+    _leaderboardId: DnaEasy
+  - _ps4LeaderboardId: 637
+    _leaderboardId: DnaNormal
+  - _ps4LeaderboardId: 638
+    _leaderboardId: DnaHard
+  - _ps4LeaderboardId: 639
+    _leaderboardId: DnaExpert
+  - _ps4LeaderboardId: 640
+    _leaderboardId: DnaExpertPlus
+  - _ps4LeaderboardId: 641
+    _leaderboardId: DopeEasy
+  - _ps4LeaderboardId: 642
+    _leaderboardId: DopeNormal
+  - _ps4LeaderboardId: 643
+    _leaderboardId: DopeHard
+  - _ps4LeaderboardId: 644
+    _leaderboardId: DopeExpert
+  - _ps4LeaderboardId: 645
+    _leaderboardId: DopeExpertPlus
+  - _ps4LeaderboardId: 646
+    _leaderboardId: DynamiteEasy
+  - _ps4LeaderboardId: 647
+    _leaderboardId: DynamiteNormal
+  - _ps4LeaderboardId: 648
+    _leaderboardId: DynamiteHard
+  - _ps4LeaderboardId: 649
+    _leaderboardId: DynamiteExpert
+  - _ps4LeaderboardId: 650
+    _leaderboardId: DynamiteExpertPlus
+  - _ps4LeaderboardId: 651
+    _leaderboardId: FakeLoveEasy
+  - _ps4LeaderboardId: 652
+    _leaderboardId: FakeLoveNormal
+  - _ps4LeaderboardId: 653
+    _leaderboardId: FakeLoveHard
+  - _ps4LeaderboardId: 654
+    _leaderboardId: FakeLoveExpert
+  - _ps4LeaderboardId: 655
+    _leaderboardId: FakeLoveExpertPlus
+  - _ps4LeaderboardId: 656
+    _leaderboardId: IdolEasy
+  - _ps4LeaderboardId: 657
+    _leaderboardId: IdolNormal
+  - _ps4LeaderboardId: 658
+    _leaderboardId: IdolHard
+  - _ps4LeaderboardId: 659
+    _leaderboardId: IdolExpert
+  - _ps4LeaderboardId: 660
+    _leaderboardId: IdolExpertPlus
+  - _ps4LeaderboardId: 661
+    _leaderboardId: MicDropEasy
+  - _ps4LeaderboardId: 662
+    _leaderboardId: MicDropNormal
+  - _ps4LeaderboardId: 663
+    _leaderboardId: MicDropHard
+  - _ps4LeaderboardId: 664
+    _leaderboardId: MicDropExpert
+  - _ps4LeaderboardId: 665
+    _leaderboardId: MicDropExpertPlus
+  - _ps4LeaderboardId: 666
+    _leaderboardId: NotTodayEasy
+  - _ps4LeaderboardId: 667
+    _leaderboardId: NotTodayNormal
+  - _ps4LeaderboardId: 668
+    _leaderboardId: NotTodayHard
+  - _ps4LeaderboardId: 669
+    _leaderboardId: NotTodayExpert
+  - _ps4LeaderboardId: 670
+    _leaderboardId: NotTodayExpertPlus
+  - _ps4LeaderboardId: 671
+    _leaderboardId: UghEasy
+  - _ps4LeaderboardId: 672
+    _leaderboardId: UghNormal
+  - _ps4LeaderboardId: 673
+    _leaderboardId: UghHard
+  - _ps4LeaderboardId: 674
+    _leaderboardId: UghExpert
+  - _ps4LeaderboardId: 675
+    _leaderboardId: UghExpertPlus
+  - _ps4LeaderboardId: 676
+    _leaderboardId: IntoTheDreamEasy
+  - _ps4LeaderboardId: 677
+    _leaderboardId: IntoTheDreamNormal
+  - _ps4LeaderboardId: 678
+    _leaderboardId: IntoTheDreamHard
+  - _ps4LeaderboardId: 679
+    _leaderboardId: IntoTheDreamExpert
+  - _ps4LeaderboardId: 680
+    _leaderboardId: IntoTheDreamExpertPlus
+  - _ps4LeaderboardId: 681
+    _leaderboardId: ItTakesMeEasy
+  - _ps4LeaderboardId: 682
+    _leaderboardId: ItTakesMeNormal
+  - _ps4LeaderboardId: 683
+    _leaderboardId: ItTakesMeHard
+  - _ps4LeaderboardId: 684
+    _leaderboardId: ItTakesMeExpert
+  - _ps4LeaderboardId: 685
+    _leaderboardId: ItTakesMeExpertPlus
+  - _ps4LeaderboardId: 686
+    _leaderboardId: LudicrousPlusEasy
+  - _ps4LeaderboardId: 687
+    _leaderboardId: LudicrousPlusNormal
+  - _ps4LeaderboardId: 688
+    _leaderboardId: LudicrousPlusHard
+  - _ps4LeaderboardId: 689
+    _leaderboardId: LudicrousPlusExpert
+  - _ps4LeaderboardId: 690
+    _leaderboardId: LudicrousPlusExpertPlus
+  - _ps4LeaderboardId: 691
+    _leaderboardId: SpinEternallyEasy
+  - _ps4LeaderboardId: 692
+    _leaderboardId: SpinEternallyNormal
+  - _ps4LeaderboardId: 693
+    _leaderboardId: SpinEternallyHard
+  - _ps4LeaderboardId: 694
+    _leaderboardId: SpinEternallyExpert
+  - _ps4LeaderboardId: 695
+    _leaderboardId: SpinEternallyExpertPlus
+  - _ps4LeaderboardId: 696
+    _leaderboardId: CountingStarsEasy
+  - _ps4LeaderboardId: 697
+    _leaderboardId: CountingStarsNormal
+  - _ps4LeaderboardId: 698
+    _leaderboardId: CountingStarsHard
+  - _ps4LeaderboardId: 699
+    _leaderboardId: CountingStarsExpert
+  - _ps4LeaderboardId: 700
+    _leaderboardId: CountingStarsExpertPlus
+  - _ps4LeaderboardId: 701
+    _leaderboardId: DnaLamarEasy
+  - _ps4LeaderboardId: 702
+    _leaderboardId: DnaLamarNormal
+  - _ps4LeaderboardId: 703
+    _leaderboardId: DnaLamarHard
+  - _ps4LeaderboardId: 704
+    _leaderboardId: DnaLamarExpert
+  - _ps4LeaderboardId: 705
+    _leaderboardId: DnaLamarExpertPlus
+  - _ps4LeaderboardId: 706
+    _leaderboardId: DontChaEasy
+  - _ps4LeaderboardId: 707
+    _leaderboardId: DontChaNormal
+  - _ps4LeaderboardId: 708
+    _leaderboardId: DontChaHard
+  - _ps4LeaderboardId: 709
+    _leaderboardId: DontChaExpert
+  - _ps4LeaderboardId: 710
+    _leaderboardId: DontChaExpertPlus
+  - _ps4LeaderboardId: 711
+    _leaderboardId: PartyRockAnthemEasy
+  - _ps4LeaderboardId: 712
+    _leaderboardId: PartyRockAnthemNormal
+  - _ps4LeaderboardId: 713
+    _leaderboardId: PartyRockAnthemHard
+  - _ps4LeaderboardId: 714
+    _leaderboardId: PartyRockAnthemExpert
+  - _ps4LeaderboardId: 715
+    _leaderboardId: PartyRockAnthemExpertPlus
+  - _ps4LeaderboardId: 716
+    _leaderboardId: RollinEasy
+  - _ps4LeaderboardId: 717
+    _leaderboardId: RollinNormal
+  - _ps4LeaderboardId: 718
+    _leaderboardId: RollinHard
+  - _ps4LeaderboardId: 719
+    _leaderboardId: RollinExpert
+  - _ps4LeaderboardId: 720
+    _leaderboardId: RollinExpertPlus
+  - _ps4LeaderboardId: 721
+    _leaderboardId: SugarEasy
+  - _ps4LeaderboardId: 722
+    _leaderboardId: SugarNormal
+  - _ps4LeaderboardId: 723
+    _leaderboardId: SugarHard
+  - _ps4LeaderboardId: 724
+    _leaderboardId: SugarExpert
+  - _ps4LeaderboardId: 725
+    _leaderboardId: SugarExpertPlus
+  - _ps4LeaderboardId: 726
+    _leaderboardId: TheSweetEscapeEasy
+  - _ps4LeaderboardId: 727
+    _leaderboardId: TheSweetEscapeNormal
+  - _ps4LeaderboardId: 728
+    _leaderboardId: TheSweetEscapeHard
+  - _ps4LeaderboardId: 729
+    _leaderboardId: TheSweetEscapeExpert
+  - _ps4LeaderboardId: 730
+    _leaderboardId: TheSweetEscapeExpertPlus
+  - _ps4LeaderboardId: 731
+    _leaderboardId: BangarangEasy
+  - _ps4LeaderboardId: 732
+    _leaderboardId: BangarangNormal
+  - _ps4LeaderboardId: 733
+    _leaderboardId: BangarangHard
+  - _ps4LeaderboardId: 734
+    _leaderboardId: BangarangExpert
+  - _ps4LeaderboardId: 735
+    _leaderboardId: BangarangExpertPlus
+  - _ps4LeaderboardId: 736
+    _leaderboardId: ButterfliesEasy
+  - _ps4LeaderboardId: 737
+    _leaderboardId: ButterfliesNormal
+  - _ps4LeaderboardId: 738
+    _leaderboardId: ButterfliesHard
+  - _ps4LeaderboardId: 739
+    _leaderboardId: ButterfliesExpert
+  - _ps4LeaderboardId: 740
+    _leaderboardId: ButterfliesExpertPlus
+  - _ps4LeaderboardId: 741
+    _leaderboardId: DontGoEasy
+  - _ps4LeaderboardId: 742
+    _leaderboardId: DontGoNormal
+  - _ps4LeaderboardId: 743
+    _leaderboardId: DontGoHard
+  - _ps4LeaderboardId: 744
+    _leaderboardId: DontGoExpert
+  - _ps4LeaderboardId: 745
+    _leaderboardId: DontGoExpertPlus
+  - _ps4LeaderboardId: 746
+    _leaderboardId: FirstOfTheYearEasy
+  - _ps4LeaderboardId: 747
+    _leaderboardId: FirstOfTheYearNormal
+  - _ps4LeaderboardId: 748
+    _leaderboardId: FirstOfTheYearHard
+  - _ps4LeaderboardId: 749
+    _leaderboardId: FirstOfTheYearExpert
+  - _ps4LeaderboardId: 750
+    _leaderboardId: FirstOfTheYearExpertPlus
+  - _ps4LeaderboardId: 751
+    _leaderboardId: RaggaBombEasy
+  - _ps4LeaderboardId: 752
+    _leaderboardId: RaggaBombNormal
+  - _ps4LeaderboardId: 753
+    _leaderboardId: RaggaBombHard
+  - _ps4LeaderboardId: 754
+    _leaderboardId: RaggaBombExpert
+  - _ps4LeaderboardId: 755
+    _leaderboardId: RaggaBombExpertPlus
+  - _ps4LeaderboardId: 756
+    _leaderboardId: RockNRollEasy
+  - _ps4LeaderboardId: 757
+    _leaderboardId: RockNRollNormal
+  - _ps4LeaderboardId: 758
+    _leaderboardId: RockNRollHard
+  - _ps4LeaderboardId: 759
+    _leaderboardId: RockNRollExpert
+  - _ps4LeaderboardId: 760
+    _leaderboardId: RockNRollExpertPlus
+  - _ps4LeaderboardId: 761
+    _leaderboardId: ScaryMonstersAndNiceSpritesEasy
+  - _ps4LeaderboardId: 762
+    _leaderboardId: ScaryMonstersAndNiceSpritesNormal
+  - _ps4LeaderboardId: 763
+    _leaderboardId: ScaryMonstersAndNiceSpritesHard
+  - _ps4LeaderboardId: 764
+    _leaderboardId: ScaryMonstersAndNiceSpritesExpert
+  - _ps4LeaderboardId: 765
+    _leaderboardId: ScaryMonstersAndNiceSpritesExpertPlus
+  - _ps4LeaderboardId: 766
+    _leaderboardId: TheDevilsDenEasy
+  - _ps4LeaderboardId: 767
+    _leaderboardId: TheDevilsDenNormal
+  - _ps4LeaderboardId: 768
+    _leaderboardId: TheDevilsDenHard
+  - _ps4LeaderboardId: 769
+    _leaderboardId: TheDevilsDenExpert
+  - _ps4LeaderboardId: 770
+    _leaderboardId: TheDevilsDenExpertPlus
+  - _ps4LeaderboardId: 771
+    _leaderboardId: AllTheGoodGirlsGoToHellEasy
+  - _ps4LeaderboardId: 772
+    _leaderboardId: AllTheGoodGirlsGoToHellNormal
+  - _ps4LeaderboardId: 773
+    _leaderboardId: AllTheGoodGirlsGoToHellHard
+  - _ps4LeaderboardId: 774
+    _leaderboardId: AllTheGoodGirlsGoToHellExpert
+  - _ps4LeaderboardId: 775
+    _leaderboardId: AllTheGoodGirlsGoToHellExpertPlus
+  - _ps4LeaderboardId: 776
+    _leaderboardId: BadGuyEasy
+  - _ps4LeaderboardId: 777
+    _leaderboardId: BadGuyNormal
+  - _ps4LeaderboardId: 778
+    _leaderboardId: BadGuyHard
+  - _ps4LeaderboardId: 779
+    _leaderboardId: BadGuyExpert
+  - _ps4LeaderboardId: 780
+    _leaderboardId: BadGuyExpertPlus
+  - _ps4LeaderboardId: 781
+    _leaderboardId: BellyacheEasy
+  - _ps4LeaderboardId: 782
+    _leaderboardId: BellyacheNormal
+  - _ps4LeaderboardId: 783
+    _leaderboardId: BellyacheHard
+  - _ps4LeaderboardId: 784
+    _leaderboardId: BellyacheExpert
+  - _ps4LeaderboardId: 785
+    _leaderboardId: BellyacheExpertPlus
+  - _ps4LeaderboardId: 786
+    _leaderboardId: BuryAFriendEasy
+  - _ps4LeaderboardId: 787
+    _leaderboardId: BuryAFriendNormal
+  - _ps4LeaderboardId: 788
+    _leaderboardId: BuryAFriendHard
+  - _ps4LeaderboardId: 789
+    _leaderboardId: BuryAFriendExpert
+  - _ps4LeaderboardId: 790
+    _leaderboardId: BuryAFriendExpertPlus
+  - _ps4LeaderboardId: 791
+    _leaderboardId: HappierThanEverEasy
+  - _ps4LeaderboardId: 792
+    _leaderboardId: HappierThanEverNormal
+  - _ps4LeaderboardId: 793
+    _leaderboardId: HappierThanEverHard
+  - _ps4LeaderboardId: 794
+    _leaderboardId: HappierThanEverExpert
+  - _ps4LeaderboardId: 795
+    _leaderboardId: HappierThanEverExpertPlus
+  - _ps4LeaderboardId: 796
+    _leaderboardId: IDidntChangeMyNumberEasy
+  - _ps4LeaderboardId: 797
+    _leaderboardId: IDidntChangeMyNumberNormal
+  - _ps4LeaderboardId: 798
+    _leaderboardId: IDidntChangeMyNumberHard
+  - _ps4LeaderboardId: 799
+    _leaderboardId: IDidntChangeMyNumberExpert
+  - _ps4LeaderboardId: 800
+    _leaderboardId: IDidntChangeMyNumberExpertPlus
+  - _ps4LeaderboardId: 801
+    _leaderboardId: NDAEasy
+  - _ps4LeaderboardId: 802
+    _leaderboardId: NDANormal
+  - _ps4LeaderboardId: 803
+    _leaderboardId: NDAHard
+  - _ps4LeaderboardId: 804
+    _leaderboardId: NDAExpert
+  - _ps4LeaderboardId: 805
+    _leaderboardId: NDAExpertPlus
+  - _ps4LeaderboardId: 806
+    _leaderboardId: OxytocinEasy
+  - _ps4LeaderboardId: 807
+    _leaderboardId: OxytocinNormal
+  - _ps4LeaderboardId: 808
+    _leaderboardId: OxytocinHard
+  - _ps4LeaderboardId: 809
+    _leaderboardId: OxytocinExpert
+  - _ps4LeaderboardId: 810
+    _leaderboardId: OxytocinExpertPlus
+  - _ps4LeaderboardId: 811
+    _leaderboardId: ThereforeIAmEasy
+  - _ps4LeaderboardId: 812
+    _leaderboardId: ThereforeIAmNormal
+  - _ps4LeaderboardId: 813
+    _leaderboardId: ThereforeIAmHard
+  - _ps4LeaderboardId: 814
+    _leaderboardId: ThereforeIAmExpert
+  - _ps4LeaderboardId: 815
+    _leaderboardId: ThereforeIAmExpertPlus
+  - _ps4LeaderboardId: 816
+    _leaderboardId: YouShouldSeeMeInACrownEasy
+  - _ps4LeaderboardId: 817
+    _leaderboardId: YouShouldSeeMeInACrownNormal
+  - _ps4LeaderboardId: 818
+    _leaderboardId: YouShouldSeeMeInACrownHard
+  - _ps4LeaderboardId: 819
+    _leaderboardId: YouShouldSeeMeInACrownExpert
+  - _ps4LeaderboardId: 820
+    _leaderboardId: YouShouldSeeMeInACrownExpertPlus
+  - _ps4LeaderboardId: 821
+    _leaderboardId: SpookyBeatEasy
+  - _ps4LeaderboardId: 822
+    _leaderboardId: SpookyBeatNormal
+  - _ps4LeaderboardId: 823
+    _leaderboardId: SpookyBeatHard
+  - _ps4LeaderboardId: 824
+    _leaderboardId: SpookyBeatExpert
+  - _ps4LeaderboardId: 825
+    _leaderboardId: SpookyBeatExpertPlus
+  - _ps4LeaderboardId: 826
+    _leaderboardId: AlejandroEasy
+  - _ps4LeaderboardId: 827
+    _leaderboardId: AlejandroNormal
+  - _ps4LeaderboardId: 828
+    _leaderboardId: AlejandroHard
+  - _ps4LeaderboardId: 829
+    _leaderboardId: AlejandroExpert
+  - _ps4LeaderboardId: 830
+    _leaderboardId: AlejandroExpertPlus
+  - _ps4LeaderboardId: 831
+    _leaderboardId: BadRomanceEasy
+  - _ps4LeaderboardId: 832
+    _leaderboardId: BadRomanceNormal
+  - _ps4LeaderboardId: 833
+    _leaderboardId: BadRomanceHard
+  - _ps4LeaderboardId: 834
+    _leaderboardId: BadRomanceExpert
+  - _ps4LeaderboardId: 835
+    _leaderboardId: BadRomanceExpertPlus
+  - _ps4LeaderboardId: 836
+    _leaderboardId: BornThisWayEasy
+  - _ps4LeaderboardId: 837
+    _leaderboardId: BornThisWayNormal
+  - _ps4LeaderboardId: 838
+    _leaderboardId: BornThisWayHard
+  - _ps4LeaderboardId: 839
+    _leaderboardId: BornThisWayExpert
+  - _ps4LeaderboardId: 840
+    _leaderboardId: BornThisWayExpertPlus
+  - _ps4LeaderboardId: 841
+    _leaderboardId: JustDanceEasy
+  - _ps4LeaderboardId: 842
+    _leaderboardId: JustDanceNormal
+  - _ps4LeaderboardId: 843
+    _leaderboardId: JustDanceHard
+  - _ps4LeaderboardId: 844
+    _leaderboardId: JustDanceExpert
+  - _ps4LeaderboardId: 845
+    _leaderboardId: JustDanceExpertPlus
+  - _ps4LeaderboardId: 846
+    _leaderboardId: PaparazziEasy
+  - _ps4LeaderboardId: 847
+    _leaderboardId: PaparazziNormal
+  - _ps4LeaderboardId: 848
+    _leaderboardId: PaparazziHard
+  - _ps4LeaderboardId: 849
+    _leaderboardId: PaparazziExpert
+  - _ps4LeaderboardId: 850
+    _leaderboardId: PaparazziExpertPlus
+  - _ps4LeaderboardId: 851
+    _leaderboardId: PokerFaceEasy
+  - _ps4LeaderboardId: 852
+    _leaderboardId: PokerFaceNormal
+  - _ps4LeaderboardId: 853
+    _leaderboardId: PokerFaceHard
+  - _ps4LeaderboardId: 854
+    _leaderboardId: PokerFaceExpert
+  - _ps4LeaderboardId: 855
+    _leaderboardId: PokerFaceExpertPlus
+  - _ps4LeaderboardId: 856
+    _leaderboardId: RainOnMeEasy
+  - _ps4LeaderboardId: 857
+    _leaderboardId: RainOnMeNormal
+  - _ps4LeaderboardId: 858
+    _leaderboardId: RainOnMeHard
+  - _ps4LeaderboardId: 859
+    _leaderboardId: RainOnMeExpert
+  - _ps4LeaderboardId: 860
+    _leaderboardId: RainOnMeExpertPlus
+  - _ps4LeaderboardId: 861
+    _leaderboardId: StupidLoveEasy
+  - _ps4LeaderboardId: 862
+    _leaderboardId: StupidLoveNormal
+  - _ps4LeaderboardId: 863
+    _leaderboardId: StupidLoveHard
+  - _ps4LeaderboardId: 864
+    _leaderboardId: StupidLoveExpert
+  - _ps4LeaderboardId: 865
+    _leaderboardId: StupidLoveExpertPlus
+  - _ps4LeaderboardId: 866
+    _leaderboardId: TelephoneEasy
+  - _ps4LeaderboardId: 867
+    _leaderboardId: TelephoneNormal
+  - _ps4LeaderboardId: 868
+    _leaderboardId: TelephoneHard
+  - _ps4LeaderboardId: 869
+    _leaderboardId: TelephoneExpert
+  - _ps4LeaderboardId: 870
+    _leaderboardId: TelephoneExpertPlus
+  - _ps4LeaderboardId: 871
+    _leaderboardId: TheEdgeOfGloryEasy
+  - _ps4LeaderboardId: 872
+    _leaderboardId: TheEdgeOfGloryNormal
+  - _ps4LeaderboardId: 873
+    _leaderboardId: TheEdgeOfGloryHard
+  - _ps4LeaderboardId: 874
+    _leaderboardId: TheEdgeOfGloryExpert
+  - _ps4LeaderboardId: 875
+    _leaderboardId: TheEdgeOfGloryExpertPlus
+  - _ps4LeaderboardId: 876
+    _leaderboardId: DollarSeventyEightEasy
+  - _ps4LeaderboardId: 877
+    _leaderboardId: DollarSeventyEightNormal
+  - _ps4LeaderboardId: 878
+    _leaderboardId: DollarSeventyEightHard
+  - _ps4LeaderboardId: 879
+    _leaderboardId: DollarSeventyEightExpert
+  - _ps4LeaderboardId: 880
+    _leaderboardId: DollarSeventyEightExpertPlus
+  - _ps4LeaderboardId: 881
+    _leaderboardId: CurtainsAllNightLongEasy
+  - _ps4LeaderboardId: 882
+    _leaderboardId: CurtainsAllNightLongNormal
+  - _ps4LeaderboardId: 883
+    _leaderboardId: CurtainsAllNightLongHard
+  - _ps4LeaderboardId: 884
+    _leaderboardId: CurtainsAllNightLongExpert
+  - _ps4LeaderboardId: 885
+    _leaderboardId: CurtainsAllNightLongExpertPlus
+  - _ps4LeaderboardId: 886
+    _leaderboardId: FinalBossChanEasy
+  - _ps4LeaderboardId: 887
+    _leaderboardId: FinalBossChanNormal
+  - _ps4LeaderboardId: 888
+    _leaderboardId: FinalBossChanHard
+  - _ps4LeaderboardId: 889
+    _leaderboardId: FinalBossChanExpert
+  - _ps4LeaderboardId: 890
+    _leaderboardId: FinalBossChanExpertPlus
+  - _ps4LeaderboardId: 891
+    _leaderboardId: FirestarterEasy
+  - _ps4LeaderboardId: 892
+    _leaderboardId: FirestarterNormal
+  - _ps4LeaderboardId: 893
+    _leaderboardId: FirestarterHard
+  - _ps4LeaderboardId: 894
+    _leaderboardId: FirestarterExpert
+  - _ps4LeaderboardId: 895
+    _leaderboardId: FirestarterExpertPlus
+  - _ps4LeaderboardId: 896
+    _leaderboardId: IWannaBeAMachineEasy
+  - _ps4LeaderboardId: 897
+    _leaderboardId: IWannaBeAMachineNormal
+  - _ps4LeaderboardId: 898
+    _leaderboardId: IWannaBeAMachineHard
+  - _ps4LeaderboardId: 899
+    _leaderboardId: IWannaBeAMachineExpert
+  - _ps4LeaderboardId: 900
+    _leaderboardId: IWannaBeAMachineExpertPlus
+  - _ps4LeaderboardId: 901
+    _leaderboardId: MagicEasy
+  - _ps4LeaderboardId: 902
+    _leaderboardId: MagicNormal
+  - _ps4LeaderboardId: 903
+    _leaderboardId: MagicHard
+  - _ps4LeaderboardId: 904
+    _leaderboardId: MagicExpert
+  - _ps4LeaderboardId: 905
+    _leaderboardId: MagicExpertPlus
+  - _ps4LeaderboardId: 906
+    _leaderboardId: CenturiesEasy
+  - _ps4LeaderboardId: 907
+    _leaderboardId: CenturiesNormal
+  - _ps4LeaderboardId: 908
+    _leaderboardId: CenturiesHard
+  - _ps4LeaderboardId: 909
+    _leaderboardId: CenturiesExpert
+  - _ps4LeaderboardId: 910
+    _leaderboardId: CenturiesExpertPlus
+  - _ps4LeaderboardId: 911
+    _leaderboardId: DanceDanceEasy
+  - _ps4LeaderboardId: 912
+    _leaderboardId: DanceDanceNormal
+  - _ps4LeaderboardId: 913
+    _leaderboardId: DanceDanceHard
+  - _ps4LeaderboardId: 914
+    _leaderboardId: DanceDanceExpert
+  - _ps4LeaderboardId: 915
+    _leaderboardId: DanceDanceExpertPlus
+  - _ps4LeaderboardId: 916
+    _leaderboardId: IDontCareEasy
+  - _ps4LeaderboardId: 917
+    _leaderboardId: IDontCareNormal
+  - _ps4LeaderboardId: 918
+    _leaderboardId: IDontCareHard
+  - _ps4LeaderboardId: 919
+    _leaderboardId: IDontCareExpert
+  - _ps4LeaderboardId: 920
+    _leaderboardId: IDontCareExpertPlus
+  - _ps4LeaderboardId: 921
+    _leaderboardId: ImmortalsEasy
+  - _ps4LeaderboardId: 922
+    _leaderboardId: ImmortalsNormal
+  - _ps4LeaderboardId: 923
+    _leaderboardId: ImmortalsHard
+  - _ps4LeaderboardId: 924
+    _leaderboardId: ImmortalsExpert
+  - _ps4LeaderboardId: 925
+    _leaderboardId: ImmortalsExpertPlus
+  - _ps4LeaderboardId: 926
+    _leaderboardId: IrresistibleEasy
+  - _ps4LeaderboardId: 927
+    _leaderboardId: IrresistibleNormal
+  - _ps4LeaderboardId: 928
+    _leaderboardId: IrresistibleHard
+  - _ps4LeaderboardId: 929
+    _leaderboardId: IrresistibleExpert
+  - _ps4LeaderboardId: 930
+    _leaderboardId: IrresistibleExpertPlus
+  - _ps4LeaderboardId: 931
+    _leaderboardId: MySongsKnowEasy
+  - _ps4LeaderboardId: 932
+    _leaderboardId: MySongsKnowNormal
+  - _ps4LeaderboardId: 933
+    _leaderboardId: MySongsKnowHard
+  - _ps4LeaderboardId: 934
+    _leaderboardId: MySongsKnowExpert
+  - _ps4LeaderboardId: 935
+    _leaderboardId: MySongsKnowExpertPlus
+  - _ps4LeaderboardId: 936
+    _leaderboardId: ThisAintASceneEasy
+  - _ps4LeaderboardId: 937
+    _leaderboardId: ThisAintASceneNormal
+  - _ps4LeaderboardId: 938
+    _leaderboardId: ThisAintASceneHard
+  - _ps4LeaderboardId: 939
+    _leaderboardId: ThisAintASceneExpert
+  - _ps4LeaderboardId: 940
+    _leaderboardId: ThisAintASceneExpertPlus
+  - _ps4LeaderboardId: 941
+    _leaderboardId: ThnksFrThMmrsEasy
+  - _ps4LeaderboardId: 942
+    _leaderboardId: ThnksFrThMmrsNormal
+  - _ps4LeaderboardId: 943
+    _leaderboardId: ThnksFrThMmrsHard
+  - _ps4LeaderboardId: 944
+    _leaderboardId: ThnksFrThMmrsExpert
+  - _ps4LeaderboardId: 945
+    _leaderboardId: ThnksFrThMmrsExpertPlus
+  - _ps4LeaderboardId: 946
+    _leaderboardId: AloneEasy
+  - _ps4LeaderboardId: 947
+    _leaderboardId: AloneNormal
+  - _ps4LeaderboardId: 948
+    _leaderboardId: AloneHard
+  - _ps4LeaderboardId: 949
+    _leaderboardId: AloneExpert
+  - _ps4LeaderboardId: 950
+    _leaderboardId: AloneExpertPlus
+  - _ps4LeaderboardId: 951
+    _leaderboardId: AnimalsEasy
+  - _ps4LeaderboardId: 952
+    _leaderboardId: AnimalsNormal
+  - _ps4LeaderboardId: 953
+    _leaderboardId: AnimalsHard
+  - _ps4LeaderboardId: 954
+    _leaderboardId: AnimalsExpert
+  - _ps4LeaderboardId: 955
+    _leaderboardId: AnimalsExpertPlus
+  - _ps4LeaderboardId: 956
+    _leaderboardId: FreestylerEasy
+  - _ps4LeaderboardId: 957
+    _leaderboardId: FreestylerNormal
+  - _ps4LeaderboardId: 958
+    _leaderboardId: FreestylerHard
+  - _ps4LeaderboardId: 959
+    _leaderboardId: FreestylerExpert
+  - _ps4LeaderboardId: 960
+    _leaderboardId: FreestylerExpertPlus
+  - _ps4LeaderboardId: 961
+    _leaderboardId: GhostsNStuffEasy
+  - _ps4LeaderboardId: 962
+    _leaderboardId: GhostsNStuffNormal
+  - _ps4LeaderboardId: 963
+    _leaderboardId: GhostsNStuffHard
+  - _ps4LeaderboardId: 964
+    _leaderboardId: GhostsNStuffExpert
+  - _ps4LeaderboardId: 965
+    _leaderboardId: GhostsNStuffExpertPlus
+  - _ps4LeaderboardId: 966
+    _leaderboardId: IcarusEasy
+  - _ps4LeaderboardId: 967
+    _leaderboardId: IcarusNormal
+  - _ps4LeaderboardId: 968
+    _leaderboardId: IcarusHard
+  - _ps4LeaderboardId: 969
+    _leaderboardId: IcarusExpert
+  - _ps4LeaderboardId: 970
+    _leaderboardId: IcarusExpertPlus
+  - _ps4LeaderboardId: 971
+    _leaderboardId: SandstormEasy
+  - _ps4LeaderboardId: 972
+    _leaderboardId: SandstormNormal
+  - _ps4LeaderboardId: 973
+    _leaderboardId: SandstormHard
+  - _ps4LeaderboardId: 974
+    _leaderboardId: SandstormExpert
+  - _ps4LeaderboardId: 975
+    _leaderboardId: SandstormExpertPlus
+  - _ps4LeaderboardId: 976
+    _leaderboardId: StayTheNightEasy
+  - _ps4LeaderboardId: 977
+    _leaderboardId: StayTheNightNormal
+  - _ps4LeaderboardId: 978
+    _leaderboardId: StayTheNightHard
+  - _ps4LeaderboardId: 979
+    _leaderboardId: StayTheNightExpert
+  - _ps4LeaderboardId: 980
+    _leaderboardId: StayTheNightExpertPlus
+  - _ps4LeaderboardId: 981
+    _leaderboardId: TheRockafellerSkankEasy
+  - _ps4LeaderboardId: 982
+    _leaderboardId: TheRockafellerSkankNormal
+  - _ps4LeaderboardId: 983
+    _leaderboardId: TheRockafellerSkankHard
+  - _ps4LeaderboardId: 984
+    _leaderboardId: TheRockafellerSkankExpert
+  - _ps4LeaderboardId: 985
+    _leaderboardId: TheRockafellerSkankExpertPlus
+  - _ps4LeaderboardId: 986
+    _leaderboardId: WaitingAllNightEasy
+  - _ps4LeaderboardId: 987
+    _leaderboardId: WaitingAllNightNormal
+  - _ps4LeaderboardId: 988
+    _leaderboardId: WaitingAllNightHard
+  - _ps4LeaderboardId: 989
+    _leaderboardId: WaitingAllNightExpert
+  - _ps4LeaderboardId: 990
+    _leaderboardId: WaitingAllNightExpertPlus
+  - _ps4LeaderboardId: 991
+    _leaderboardId: WitchcraftEasy
+  - _ps4LeaderboardId: 992
+    _leaderboardId: WitchcraftNormal
+  - _ps4LeaderboardId: 993
+    _leaderboardId: WitchcraftHard
+  - _ps4LeaderboardId: 994
+    _leaderboardId: WitchcraftExpert
+  - _ps4LeaderboardId: 995
+    _leaderboardId: WitchcraftExpertPlus
+  - _ps4LeaderboardId: 996
+    _leaderboardId: 100BillsRemixEasy
+  - _ps4LeaderboardId: 997
+    _leaderboardId: 100BillsRemixNormal
+  - _ps4LeaderboardId: 998
+    _leaderboardId: 100BillsRemixHard
+  - _ps4LeaderboardId: 999
+    _leaderboardId: 100BillsRemixExpert
+  - _ps4LeaderboardId: 1000
+    _leaderboardId: 100BillsRemixExpertPlus
+  - _ps4LeaderboardId: 1001
+    _leaderboardId: EscapeRemixEasy
+  - _ps4LeaderboardId: 1002
+    _leaderboardId: EscapeRemixNormal
+  - _ps4LeaderboardId: 1003
+    _leaderboardId: EscapeRemixHard
+  - _ps4LeaderboardId: 1004
+    _leaderboardId: EscapeRemixExpert
+  - _ps4LeaderboardId: 1005
+    _leaderboardId: EscapeRemixExpertPlus

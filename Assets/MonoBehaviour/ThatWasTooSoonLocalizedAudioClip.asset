@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ThatWasTooSoonLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 28f329a79e64eb44298a90e0d93a8b3d, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 44659b50427a5624a8c98406bf3e7bee, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 494da9596c8eb3d42bd1ae8d4190ed4c, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 47503a2d4bf2c2c4da0d3ebd64775ca3, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 6b837b1253158584ab86804b37943ba2, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: c1812cdacba5d834fa952008f5987d86, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: WorshipPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: Worship
+  _songName: Worship
+  _songSubName:
+  _songAuthorName: Lizzo
+  _levelAuthorName: Zakka
+  _previewAudioClip: {fileID: 8300000, guid: 747ac384a9ec86e4391ec6e7474e3190, type: 3}
+  _beatsPerMinute: 125
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 179.28
+  _coverImage: {fileID: 21300000, guid: 3021e054c3f7e5b40875b1faab9ad4ba, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: bf3331dd67cba8e449ffe873526d4d3a, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

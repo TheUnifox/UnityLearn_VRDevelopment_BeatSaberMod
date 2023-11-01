@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: BeatSaberLevel
+  m_EditorClassIdentifier:
+  _levelID: BeatSaber
+  _songName: Beat Saber
+  _songSubName:
+  _songAuthorName: Jaroslav Beck
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 745d4959c04c3264cb312b9a11f37e44, type: 3}
+  _beatsPerMinute: 166
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 1
+  _previewStartTime: 26
+  _previewDuration: 12
+  _coverImage: {fileID: 21300000, guid: 45b195dd502df314485c6bd06af266d8, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: f7e58dd216b591e489e0070cd6695571, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 94fb8763d5fe79a4f8c9cae8997029fb, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: db5950bc960073e4b9701338a51fddf6, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 227af11eec009a54aa0afce578a82743, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: dfeaec471e360cc41897fabb20aefe7f, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: aa4f01536e3350b4891d5ee8d627463a, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 232fcb2c52fc7ca40933b686cf7beaa4, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 9222d81e81b91dc4882b25500984a5e8, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 3402f0d29e4cb204bbc3c6ce8ae3f8a4, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 323cd320a0f009b4c8a63a90ffb5b449, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 6dc7052fb340dda4ca9ae3a1f9fd6c7a, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: d49547900f3574b46a7b0564c52d8e10, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: fe79e57c7d22821498b4c5cfe3fa1f58, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: be54229afffd5d24aacd48c7c9b0467b, type: 2}
+  _ignore360MovementBeatmaps: 0

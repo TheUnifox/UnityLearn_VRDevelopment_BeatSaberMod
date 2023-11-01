@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ThnksFrThMmrsPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: ThnksFrThMmrs
+  _songName: Thnks fr th Mmrs
+  _songSubName:
+  _songAuthorName: Fall Out Boy
+  _levelAuthorName: Kolezan
+  _previewAudioClip: {fileID: 8300000, guid: 706511c0f41e9ec4aa3fa6ab0341cbcf, type: 3}
+  _beatsPerMinute: 156
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 194.04507
+  _coverImage: {fileID: 21300000, guid: ba6134a7ace676748a38dd90b285f236, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 61422e4bcd4aa7841aaca2a4cb7489d9, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

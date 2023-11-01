@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: WaitForTheBeatLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 5dd6f1fe96b87554c8ce98d1232a5b0a, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 924e297c7fc3a1147bfe4ac12c096afc, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 39de5156661670b4ca69277a8b2dc17a, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: fc6690b96382665479e25d4d89f8210e, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 7522eaf2856b9774c83df4b252248f70, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 9c5a5f846138dab4580fa9330d0a40df, type: 3}

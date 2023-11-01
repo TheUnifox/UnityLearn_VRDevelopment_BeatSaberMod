@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166845065, guid: a58da2d523ee9ae040c11d384ecb5ae5, type: 3}
+  m_Name: OriginsTracksDefinition
+  m_EditorClassIdentifier:
+  _environmentInfo: {fileID: 11400000, guid: d90e3b5f7699bc546a3df68fa8799a77, type: 2}
+  _basicEventTrackInfos:
+  - _trackName: Under Track X
+    _beatmapEventType: 0
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Ring Lights
+    _beatmapEventType: 1
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Left Lasers and\nLeft Lane Light
+    _beatmapEventType: 2
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Right Lasers and\nRight Lane Light
+    _beatmapEventType: 3
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Chevron
+    _beatmapEventType: 4
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Boost Colors
+    _beatmapEventType: 5
+    _trackToolbarType: 1
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Left Laser Speed
+    _beatmapEventType: 12
+    _trackToolbarType: 4
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Right Laser Speed
+    _beatmapEventType: 13
+    _trackToolbarType: 4
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  _eventBoxGroupPageInfos: []

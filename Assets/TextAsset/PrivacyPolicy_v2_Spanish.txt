@@ -1,0 +1,107 @@
+1. ¿Quiénes sois?
+1.1. En esta Política de privacidad se describen las prácticas que emplea Meta (en adelante, “nosotros”, “nuestro/s” o “nuestra/s”) para gestionar tu información personal cuando juegas a Beat Saber.
+1.2. Si tienes alguna duda sobre cualquier disposición de este documento, no dudes en escribirnos a privacy@beat-games.com.
+
+2. ¿Qué información encontraré en este documento?
+2.1. A continuación se explica por qué, en qué medida, para qué fin y durante cuánto tiempo tratamos tus datos personales. También se indica quién tendrá acceso a ellos y cuáles son tus derechos en relación con su tratamiento.
+2.2. Respetamos tu derecho a la privacidad y, aunque intentamos tratar tu información de manera anonimizada o pseudonimizada en la medida de lo posible, queremos que sepas que lo hacemos de forma segura.
+
+3. ¿Qué tipo de datos personales recopiláis sobre mí y por qué?
+3.1. Para que tú puedas jugar a Beat Saber, y nosotros reparar y mejorar el juego, recopilamos la siguiente información sobre ti: datos de identificación (avatar, apodo o identificador de usuario con el que te has registrado, etc.); datos técnicos (p. ej., información sobre tu dispositivo); y datos sobre el uso que haces de Beat Saber (cuándo y cómo usas el juego, y con qué resultados).
+
+Solo usamos estos datos personales para los dos fines descritos a continuación: posibilitar el funcionamiento de Beat Saber y crear estadísticas para mejorar el juego.
+3.2. En primer lugar, necesitamos los datos personales descritos (de identificación, técnicos y de uso del juego) para que Beat Saber sea funcional, incluidas las clasificaciones y otros elementos. Tratamos estos datos para cumplir el acuerdo entre tú y nosotros. En el caso de las personas menores de edad (menores de 18 años en la mayoría de los países de la Unión Europea) de la Unión Europea y el Reino Unido cuya capacidad para suscribir un contrato válido es limitada, realizamos el tratamiento en función de nuestros intereses legítimos.
+3.3. Debemos tratar algunos de tus datos personales para fines estadísticos, incluidos datos puramente técnicos (que no contienen información personal en absoluto) o el resto de los datos descritos anteriormente de manera pseudonimizada. Es decir, asignamos un número especial a los datos confidenciales de modo que nadie, salvo nosotros, pueda vincularlos con el identificador actual que usa dicho número. Este tratamiento obedece a nuestro legítimo interés, que es la mejora continuada del juego. Tienes derecho a oponerte a este tratamiento según se describe más adelante.
+
+4. ¿Cómo trataréis mis datos personales?
+4.1. Respecto a los propósitos antes mencionados, es evidente que no necesitamos trabajar con tus datos personales en un formato que nos permita identificarte. Por esta razón, los trataremos (en especial, las estadísticas) de forma agregada (no identificable) en la medida de lo posible y, cuando esto no sea factible, trataremos la información de manera pseudonimizada siempre que podamos.
+
+5. ¿Necesitáis mi consentimiento para realizar el tratamiento?
+5.1. En virtud del RGPD, no necesitamos tu consentimiento, ya que tenemos otros motivos legítimos (ya sea para cumplir el acuerdo que hemos suscrito o porque nos basamos en nuestro interés legítimo) para llevar a cabo todos los tipos de tratamiento.
+
+6. ¿Durante cuánto tiempo conservaréis mis datos personales?
+6.1. Conservaremos tus datos personales el tiempo que sea necesario para cumplir los fines que justifican su recopilación, según se ha descrito anteriormente y en virtud de la legislación aplicable. 
+
+Asimismo, los conservaremos mientras juegues a Beat Saber y el máximo tiempo posible hasta que elimines tu cuenta de cualquier plataforma que hayas usado para comprar nuestro juego, o bien hasta que garantices su completa eliminación de tu biblioteca o cualquier otra plataforma. En cualquier caso, la mayoría de los datos se conservan únicamente de forma agregada (no se te puede identificar con ellos) y solo durante el tiempo necesario.
+
+7. ¿Debo facilitaros mis datos personales? ¿Tenéis que realizar su tratamiento?
+7.1. Si quieres jugar a Beat Saber, necesitamos que nos proporciones los datos personales indicados en el párrafo 3 anterior para darte la posibilidad de jugar. Lamentablemente, no podemos hacerlo sin dichos datos.
+
+8. ¿A quién transferís mis datos personales?
+8.1. Conservamos los datos personales en nuestro poder todo el tiempo. Solo proporcionamos estadísticas agregadas (no datos personales) a algunos socios.
+8.2. No obstante, además de nosotros, también tratan tus datos personales las plataformas a través de las cuales hayas comprado nuestro juego. En tales circunstancias, el tratamiento de dichos datos se realizará de conformidad con el aviso de privacidad de la plataforma correspondiente:
+●        8.2.1. PlayStation
+●        8.2.2. Steam
+●        8.2.3. Oculus
+8.3. También trata tus datos personales Unity, que se encarga de crear y administrar estadísticas relacionadas con nuestro juego, en los términos mencionados anteriormente. (Política de privacidad disponible en https://unity3d.com/legal/privacy-policy).
+8.4. Compartimos información de forma global, en cumplimiento de esta Política de privacidad. La información que trate Meta en calidad de controlador de datos se transferirá o transmitirá a Estados Unidos o a otros países distintos de tu lugar de residencia, y se almacenará y tratará en estas ubicaciones, en relación con las finalidades descritas en esta Política de privacidad. Estas transferencias de datos son necesarias para proporcionar los servicios descritos en el Acuerdo de licencia de usuario final, así como para operar de forma global Beat Saber y poder ofrecértelo. Utilizamos cláusulas contractuales tipo aprobadas por la Comisión Europea y seguimos las decisiones de adecuación de este órgano sobre determinados países, según sea aplicable, en lo referente a las transferencias de datos desde el Espacio Económico Europeo (en adelante, “EEE”) a Estados Unidos y a otros países.
+
+9. ¿Qué derechos tengo?
+
+Contenido de esta sección
+9.1. Habida cuenta de que tratamos información sobre ti, puedes ejercer ciertos derechos que te explicamos en esta sección por correo postal (escribiendo a la dirección que figura más adelante) o electrónico (a través de privacy@beat-games.com).
+
+Derecho de acceso
+9.2. Tienes derecho a acceder a los datos personales que tratemos sobre ti.
+
+Derecho de rectificación
+9.3. Solo necesitamos tratar datos personales tuyos que sean correctos. Tienes derecho a rectificarlos si no son exactos o están incompletos.
+
+Derecho de supresión
+9.4. Por motivos determinados, puedes solicitar que se eliminen tus datos personales.
+9.5. Por ejemplo, puedes exigir que los eliminemos si crees que ya no son necesarios para los fines que justificaron su tratamiento o consideras que no los tratamos en virtud de la legalidad vigente.
+9.6. Sin embargo, esta eliminación no siempre será posible, ya que, en algunos casos, supondría la imposibilidad de seguir jugando a Beat Saber.
+
+Derecho a la portabilidad de los datos
+9.7. Si ejerces este derecho, entregaremos en un formato de uso habitual, estructurado y de lectura mecánica los datos personales que nos hayas proporcionado. O bien, si lo solicitas, los enviaremos a otro controlador de tu elección, siempre que dicha transferencia sea técnicamente posible.
+9.8. Si consideras que estamos tratando datos personales tuyos incorrectos, tienes derecho a exigir que se limite dicho tratamiento el tiempo necesario para verificar su precisión y rectificarlos si la situación lo requiere. Asimismo, puedes ejercer este derecho si consideras que el tratamiento de tus datos personales no se ajusta a la legalidad vigente, pero no deseas que se eliminen; si ya no necesitamos tus datos personales para los fines descritos anteriormente en relación con el tratamiento, pero exiges que se conserven a efectos de determinación, ejercicio o defensa en el marco de acciones judiciales en las que participes; o si te has opuesto al tratamiento de tus datos personales sobre la base de nuestro legítimo interés.
+
+Derecho a oponerte al tratamiento sobre la base del legítimo interés
+9.9. Tienes derecho a oponerte al tratamiento de algunos de tus datos personales sobre la base de nuestro legítimo interés en ciertos casos. En función de la objeción, consideraremos si el tratamiento de tus datos personales para el fin determinado se ajusta realmente a nuestro interés. Si determinamos que no prevalece sobre tus intereses, derechos o libertades motivo legítimo alguno de la debida trascendencia, cancelaremos el tratamiento de tus datos personales y los destruiremos.
+9.10. No obstante, tu objeción debe estar correctamente fundada. Por ello, recomendamos solicitar previamente toda la información necesaria a través de la dirección de correo electrónico indicada con anterioridad.
+
+Derecho a presentar una reclamación
+9.11. Para presentar una reclamación relacionada con la gestión que realizamos de tu información, escríbenos a privacy@beat-games.com. También puedes plantear el asunto ante el organismo regulador local en materia de protección de datos.  En los párrafos 10, 11 y 12 siguientes se incluye información adicional sobre la presentación de reclamaciones.
+
+10. Información de contacto para residentes en la Región Europea (incluido el Reino Unido)
+10.1. El responsable del tratamiento de tus datos es Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irlanda, (en adelante, “FIL”, “nosotros”, “nuestro/a[s]” o “nos”), con quien te puedes poner en contacto a través de internet o por correo postal en la siguiente dirección: 
+
+Meta Platforms Ireland Limited 
+ATTN: Privacy Operations 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Irlanda 
+
+También puedes ponerte en contacto con el delegado de protección de datos de Meta Platforms Ireland Limited. Asimismo, tienes derecho a interponer una queja ante la autoridad de control competente de Meta Platforms Ireland (la Comisión Irlandesa de Protección de Datos) o tu autoridad de control local.
+
+11. Aviso de privacidad para residentes de California
+11.1. Si resides en California, consulta el Aviso de privacidad relativo a dicho estado para obtener más información sobre tus derechos de privacidad como consumidor.
+
+12. Información de contacto de Privacy Agent para residentes en Corea
+12.1. Meta Platforms, Inc. es responsable de tu información y ha nombrado a Privacy Agent Korea Co., Ltd como nuestro agente local en Corea para todas las cuestiones vinculadas al tratamiento de las reclamaciones relacionadas con la privacidad de los usuarios coreanos. Puedes ejercer los derechos anteriores a través de tu agente o representante legal. Puedes ponerte en contacto con nuestro agente local a través de internet, por teléfono o en la siguiente dirección postal:
+
+Privacy Agent Korea Co., Ltd.
+ATTN: Representative director Chun Hee Park
+28, Saemunan-ro 5ga-gil, Jongno-gu, Seoul, Corea del Sur
+Teléfono: 02-737-0455
+Correo electrónico: korealocalagent@support.facebook.com
+
+
+Aviso de privacidad para Corea del Sur
+
+Medidas para proteger tu información
+Nos esforzamos por proteger tu información, para lo que aplicamos medidas administrativas y técnicas como las siguientes:
+
+Hemos establecido e implementado políticas internas para la administración de la información personal, como nombrar responsables en materia de privacidad y fijar unos requisitos de formación para los empleados y contratistas que se encargan de tratar esta información.
+Adoptamos medidas para controlar y restringir el acceso a la información personal, como establecer controles de acceso e inicio de sesión.
+Llevamos a cabo acciones para evitar la pérdida, el robo y el uso indebido de tu información, así como el acceso no autorizado a esta. Por ejemplo, aplicamos protecciones informáticas (como sistemas de detección y de prevención de intrusiones, software antivirus y cortafuegos) y contamos con controles físicos para acceder a nuestros edificios y archivos.
+
+Delegación del tratamiento de datos personales y transferencia de estos al extranjero
+Tal como se indica en nuestra Política de privacidad, compartimos datos personales con proveedores de servicios y otros terceros que pueden estar ubicados fuera de Corea del Sur.
+
+En la tabla siguiente figuran aquellos terceros que reciben datos personales que podrían pertenecer a ciudadanos surcoreanos. La tabla también incluye un resumen de algunos aspectos del acuerdo entre nosotros y estos terceros. Se trata de una tabla estática que se actualizará periódicamente.
+
+Nombre: UNITY INC
+Información de contacto: privacy@processunity.com        
+Datos personales que se transfieren: Datos de usuario        
+Finalidad de uso por parte del destinatario:  proporcionar mediciones, análisis y otros servicios para empresas
+País de destino: Estados Unidos      
+Fecha y método de transferencia de los datos: transferencia según se establece en el contrato
+Periodo de conservación y uso de los datos por parte del destinatario: el tiempo que sea necesario para proporcionar los servicios o el que se indique en el contrato de servicios"

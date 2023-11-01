@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1529953678, guid: 9688505df67260f8d14f502de3de1957, type: 3}
+  m_Name: EnvLightColor0Normal
+  m_EditorClassIdentifier:
+  _baseColor: {fileID: 11400000, guid: 3d7bff643872ac64283c4d0dceee9546, type: 2}
+  _multiplierColor: {r: 1, g: 1, b: 1, a: 0.7490196}

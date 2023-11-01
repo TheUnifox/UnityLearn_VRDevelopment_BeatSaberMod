@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ReasonForLivingLevel
+  m_EditorClassIdentifier:
+  _levelID: ReasonForLiving
+  _songName: Reason For Living
+  _songSubName:
+  _songAuthorName: Morgan Page
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: a594b904038604741877c794810c96bf, type: 3}
+  _beatsPerMinute: 128
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 1
+  _previewStartTime: 61
+  _previewDuration: 15
+  _coverImage: {fileID: 21300000, guid: b2844e9be682a91449b9a480b2d5a692, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: d90e3b5f7699bc546a3df68fa8799a77, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 5726d96c9a8cdec4899e4722f8cfa66e, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 570b2f32e2789d04580f006243f31ed9, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 71dad05d6eeb1ba4a8cfc7e431dabc54, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 13
+      _noteJumpStartBeatOffset: 0.75
+      _beatmapData: {fileID: 11400000, guid: 2bfbc2ec3c223d34fbe69bc175808f52, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 2b5a5e61aa1b5634580b94d8c6eebbb2, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 221d839b9eac0b94c861ee66e7d67935, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 13
+      _noteJumpStartBeatOffset: 0.75
+      _beatmapData: {fileID: 11400000, guid: 2ebf874904db4084ca58633a66af15da, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 4235640897562824cacd95121dd89ed4, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 495aa0eb7a1a0ef4a9468ddf9cf6f912, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 5c74d3086b6ba1b4baf823b789280d1d, type: 2}
+  _ignore360MovementBeatmaps: 0

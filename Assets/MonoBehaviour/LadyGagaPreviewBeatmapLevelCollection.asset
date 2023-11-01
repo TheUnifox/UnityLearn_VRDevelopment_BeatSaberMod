@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: LadyGagaPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 78bda0298a37ddd4491028e38d90239d, type: 2}
+  - {fileID: 11400000, guid: e5be3b2c7c5a580418b83a61aff9890d, type: 2}
+  - {fileID: 11400000, guid: 7a49ff428951d3a49910d96121a4d917, type: 2}
+  - {fileID: 11400000, guid: 9ebc9c3f1732bec4a8a5662b992ffe3b, type: 2}
+  - {fileID: 11400000, guid: b955cb768e1ac454ab995f3962008f63, type: 2}
+  - {fileID: 11400000, guid: 9815538371bee0c428dcb886d280e072, type: 2}
+  - {fileID: 11400000, guid: 4d413fbfe7692374e8dd95c92dcf8dd9, type: 2}
+  - {fileID: 11400000, guid: b3c750d02559ebb4d89fde0937dfc631, type: 2}
+  - {fileID: 11400000, guid: 5c1c740fd80a2d041b132e0d2d0d25e9, type: 2}
+  - {fileID: 11400000, guid: 62cc44237be817b478165cb3b037cf2a, type: 2}

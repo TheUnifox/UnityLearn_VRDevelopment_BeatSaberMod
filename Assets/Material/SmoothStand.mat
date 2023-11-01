@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SmoothStand
+  m_Shader: {fileID: 4800000, guid: 93e71761ca1baea4eb3f6cf45debe7e3, type: 3}
+  m_ShaderKeywords: DIFFUSE ENABLE_DIFFUSE ENABLE_FOG ENABLE_HEIGHT_FOG ENABLE_RIM_DIM ENABLE_RIM_LIGHT ENABLE_SPECULAR ENABLE_VERTEX_COLOR FOG HEIGHT_FOG REFLECTION_PROBE_BOX_PROJECTION REFLECTION_TEXTURE SPECULAR VERTEX_COLOR _ALPHABLEND_ON _COLOR_INSTANCING _EMISSION _ENABLE_CENTER_CUTOUT _ENABLE_CUTOUT _ENABLE_FOG _ENABLE_FOG_TINT _ENABLE_RIM_COLOR _ENABLE_RIM_DIM _RIMLIGHT_ADDITIVE _VERTEXMODE_COLOR _ZWRITE_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DecalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtDetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtTex:
+        m_Texture: {fileID: 2800000, guid: 303001403bc537a43958bb41d0ef9992, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveDisplacementTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionGradientTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvironmentReflectionCube:
+        m_Texture: {fileID: 8900000, guid: 15bc6ea635015604fa3ba415620fc642, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalSmoothnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PulseMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Aces_Approach: 0
+    - _AntiflickerDistanceOffset: 22
+    - _AntiflickerDistanceScale: 0.3
+    - _AntiflickerStrength: 1
+    - _BlendDstFactor: 0
+    - _BlendDstFactorA: 0
+    - _BlendSrcFactor: 1
+    - _BlendSrcFactorA: 0
+    - _BumpScale: 1
+    - _CloseToCameraCutoutOffset: 0.5
+    - _CloseToCameraCutoutScale: 0.5
+    - _ColorInstancing: 1
+    - _CubemapIntensity: 0.1
+    - _Cull: 2
+    - _CullMode: 2
+    - _CutPlaneEdgeGlowWidth: 0.01
+    - _CutTest: 0.013
+    - _Cutoff: 0.5
+    - _CutoutTexScale: 0.5
+    - _CutoutValue: 0
+    - _DarkeningIntensity: 1
+    - _DarkeningScale: 0.35
+    - _DecalBlend: 0
+    - _DecalReflection: 0
+    - _DetailNormalMapScale: 1
+    - _DirtDetailIntensity: 1
+    - _DirtIntensity: 0.05
+    - _DisplacementSpatial: 0
+    - _DisplacementStrength: 0.1
+    - _DissolveAxis: 0
+    - _DissolveDisplacementOverallSpeed: 1
+    - _DissolveDisplacementStrength: 0.1
+    - _DissolveEndValue: 10
+    - _DissolveGradientWidth: 5
+    - _DissolveProgress: 0
+    - _DissolveStartValue: 0
+    - _DissolveTextureInfluence: 0.2
+    - _DstBlend: 10
+    - _EmissionBloomIntensity: 1
+    - _EmissionBrightness: 1
+    - _EmissionColorType: 0
+    - _EmissionFogSuppression: 0
+    - _EmissionSampleTwice: 0
+    - _EmissionTexBloomIntensity: 1
+    - _EmissionTexWhiteboostMultiplier: 1
+    - _EmissionTexture: 0
+    - _EmissionThreshold: 0
+    - _EnableBothSidesDiffuse: 0
+    - _EnableBoxProjectionOffset: 0
+    - _EnableCenterCutout: 1
+    - _EnableCloseToCameraCutout: 0
+    - _EnableColorInstancing: 0
+    - _EnableCutout: 0
+    - _EnableDecalTexture: 0
+    - _EnableDiffuse: 1
+    - _EnableDiffuseTexture: 0
+    - _EnableDirt: 0
+    - _EnableDirtDetail: 0
+    - _EnableDissolve: 0
+    - _EnableDissolveDisplacement: 0
+    - _EnableDistanceDarkening: 0
+    - _EnableEmissionMask: 0
+    - _EnableFog: 1
+    - _EnableGroundFade: 0
+    - _EnableHeightFog: 1
+    - _EnableHeightFogSoften: 0
+    - _EnableHologram: 0
+    - _EnableLightFalloff: 0
+    - _EnableLightmap: 0
+    - _EnableMetalSmoothnessTex: 0
+    - _EnableNoiseDithering: 0
+    - _EnableNormalMap: 0
+    - _EnablePlaneCut: 0
+    - _EnableReflectionProbe: 0
+    - _EnableReflectionTexture: 1
+    - _EnableRimColor: 1
+    - _EnableRimDim: 1
+    - _EnableRimLight: 1
+    - _EnableSpecular: 1
+    - _EnableSpecularTexture: 0
+    - _EnableVertexColor: 1
+    - _EnableVertexEmission: 0
+    - _Fancy: 0
+    - _FinalColorMul: 1
+    - _FinalColorOffset: 0
+    - _FlipbookBlendingOff: 0
+    - _FlipbookColumns: 8
+    - _FlipbookNonloopableFrames: 0
+    - _FlipbookRows: 8
+    - _FlipbookSpeed: 1
+    - _FogHeightOffset: 0
+    - _FogHeightScale: 1
+    - _FogScale: 1
+    - _FogSoften: 1
+    - _FogSoftenOffset: 1
+    - _FogStartOffset: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _GreenVertexSpecular: 0
+    - _GroundFadeOffset: 0.12
+    - _GroundFadeScale: 0.2
+    - _HighlightSelection: 0
+    - _HologramGridSize: 3
+    - _InstancedPrivatePointLightColor: 0
+    - _InvertDiffuseNormal: 0
+    - _InvertPulseTexture: 0
+    - _InvertRimDim: 0
+    - _LinearToGamma: 0
+    - _MainEffectFogSuppression: 0
+    - _MeshPacking: 0
+    - _MeshPackingId: 1
+    - _Metallic: 0.173
+    - _Mode: 2
+    - _NormalScale: 1
+    - _NoteSize: 0.25
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PlaneEdgeGlowWidth: 0.02
+    - _PointLightPositionLocal: 0
+    - _PreciseNormal: 0
+    - _PrivatePointLight: 0
+    - _PulseMultiplyByTexture: 0
+    - _PulseSmooth: 0.02
+    - _PulseSpeed: 0.2
+    - _PulseWidth: 0.1
+    - _QuestWhiteboostMultiplier: 1
+    - _ReflectionIntensity: 13.1
+    - _ReflectionProbeBoxProjection: 1
+    - _ReflectionProbeIntensity: 1
+    - _ReflectionTexIntensity: 0.1
+    - _RimCameraDistanceOffset: 5
+    - _RimCameraDistanceScale: 0.03
+    - _RimDarkening: 0
+    - _RimDarkenning: 0.5
+    - _RimLight: 2
+    - _RimLightBloomIntensity: 1
+    - _RimLightEdgeStart: 0.41
+    - _RimLightIntensity: 0.07
+    - _RimLightWhiteboostMultiplier: 1
+    - _RimOffset: 0
+    - _RimParam: 1.2
+    - _RimScale: 5
+    - _Rotate_UV: 0
+    - _SegmentToHighlight: -1
+    - _Smoothness: 0.383
+    - _SmoothnessTextureChannel: 0
+    - _SpecularAntiflicker: 0
+    - _SpecularHardness: 5.91
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.3
+    - _SphericalNormalOffsetIntensity: 0.54
+    - _SrcBlend: 5
+    - _StencilComp: 8
+    - _StencilPass: 0
+    - _StencilRefValue: 0
+    - _Test: 0
+    - _UVColorSegments: 0
+    - _UVSec: 0
+    - _UseCubemap: 0
+    - _UseMainTex: 0
+    - _UseSongTime: 0
+    - _UseSpectrogram: 0
+    - _UseSphericalNormalOffset: 0
+    - _VertexMode: 1
+    - _WhiteBoostType: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AddColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.7905838, g: 0.8406123, b: 0.8867924, a: 1}
+    - _CubeMapTintColor: {r: 0, g: 0.2509804, b: 0.33333334, a: 1}
+    - _CutPlane: {r: 1, g: 0, b: 0, a: 0}
+    - _CutoutEdgeColor: {r: 0.03137255, g: 0.5019608, b: 1, a: 1}
+    - _CutoutTexCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutTexOffset: {r: 5, g: 0.772488, b: 9.79801, a: 0}
+    - _DarkeningCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _DarkeningDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _DisplacementAxisMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 0, g: 1, b: 1, a: 0}
+    - _DissolveDisplacementAxes: {r: 1, g: 1, b: 1, a: 0}
+    - _DissolveDisplacementPanning: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission2Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission2Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionMaskSpeed: {r: 0, g: 1, b: 0, a: 0}
+    - _EmissionTexColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionTexSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _GlowCutoutColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HologramColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Plane: {r: 1, g: 0, b: 0, a: 0}
+    - _PrivatePointLightColor: {r: 1, g: 0, b: 0, a: 0}
+    - _PrivatePointLightPosition: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionProbeBoxProjectionPositionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionProbeBoxProjectionSizeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.03137255, g: 0.5019608, b: 1, a: 1}
+    - _RimLightColor: {r: 0.36320752, g: 0.61337596, b: 1, a: 1}
+    - _SimpleColor: {r: 0.07542858, g: 0.45257136, b: 0.6, a: 0}
+    - _SphericalNormalOffsetCenter: {r: 0, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 0, g: 0.5019608, b: 1, a: 1}

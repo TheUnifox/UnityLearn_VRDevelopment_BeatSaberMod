@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1050650842, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OculusLevelProductsModel
+  m_EditorClassIdentifier:
+  _levelPackProductsData:
+  - _sku: P1
+    _levelPackId: Monstercat
+    _levelProductsData:
+    - _levelId: Boundless
+      _sku: P1S1
+    - _levelId: EmojiVIP
+      _sku: P1S2
+    - _levelId: Epic
+      _sku: P1S3
+    - _levelId: FeelingStronger
+      _sku: P1S4
+    - _levelId: Overkill
+      _sku: P1S5
+    - _levelId: Rattlesnake
+      _sku: P1S6
+    - _levelId: Stronger
+      _sku: P1S7
+    - _levelId: ThisTime
+      _sku: P1S8
+    - _levelId: TillItsOver
+      _sku: P1S9
+    - _levelId: WeWontBeAlone
+      _sku: P1S10
+  - _sku: P2V2
+    _levelPackId: ImagineDragons
+    _levelProductsData:
+    - _levelId: BadLiar
+      _sku: P2S1
+    - _levelId: Believer
+      _sku: P2S2
+    - _levelId: Digital
+      _sku: P2S3
+    - _levelId: ItsTime
+      _sku: P2S4
+    - _levelId: Machine
+      _sku: P2S5
+    - _levelId: Natural
+      _sku: P2S6
+    - _levelId: Radioactive
+      _sku: P2S7
+    - _levelId: Thunder
+      _sku: P2S8
+    - _levelId: Warriors
+      _sku: P2S9
+    - _levelId: WhateverItTakes
+      _sku: P2S10
+    - _levelId: Bones
+      _sku: P2S11
+    - _levelId: Enemy
+      _sku: P2S12
+  - _sku: P3V2
+    _levelPackId: PanicAtTheDisco
+    _levelProductsData:
+    - _levelId: TheGreatestShow
+      _sku: P3S1
+    - _levelId: Victorious
+      _sku: P3S2
+    - _levelId: EmperorsNewClothes
+      _sku: P3S3
+    - _levelId: HighHopes
+      _sku: P3S4
+    - _levelId: CrazyGenius
+      _sku: P3S5
+    - _levelId: DancingsNotACrime
+      _sku: P3S6
+    - _levelId: HeyLookMaIMadeIt
+      _sku: P3S7
+    - _levelId: SayAmen
+      _sku: P3S8
+    - _levelId: SugarSoaker
+      _sku: P3S9
+    - _levelId: VivaLasVengeance
+      _sku: P3S10
+  - _sku: P4
+    _levelPackId: RocketLeague
+    _levelProductsData:
+    - _levelId: Play
+      _sku: P4S1
+    - _levelId: Glide
+      _sku: P4S2
+    - _levelId: LuvUNeedU
+      _sku: P4S3
+    - _levelId: RockIt
+      _sku: P4S4
+    - _levelId: Shiawase
+      _sku: P4S5
+    - _levelId: TestMe
+      _sku: P4S6
+  - _sku: P5
+    _levelPackId: GreenDay
+    _levelProductsData:
+    - _levelId: AmericanIdiot
+      _sku: P5S1
+    - _levelId: FatherOfAll
+      _sku: P5S2
+    - _levelId: BoulevardOfBrokenDreams
+      _sku: P5S3
+    - _levelId: Holiday
+      _sku: P5S4
+    - _levelId: FireReadyAim
+      _sku: P5S5
+    - _levelId: Minority
+      _sku: P5S6
+  - _sku: P6
+    _levelPackId: Timbaland
+    _levelProductsData:
+    - _levelId: HasAMeaning
+      _sku: P6S1
+    - _levelId: DumbThingz
+      _sku: P6S2
+    - _levelId: WhileWereYoung
+      _sku: P6S3
+    - _levelId: WhatILike
+      _sku: P6S4
+    - _levelId: Famous
+      _sku: P6S5
+  - _sku: P7
+    _levelPackId: LinkinPark
+    _levelProductsData:
+    - _levelId: BleedItOut
+      _sku: P7S1
+    - _levelId: BreakingTheHabit
+      _sku: P7S2
+    - _levelId: Faint
+      _sku: P7S3
+    - _levelId: GivenUp
+      _sku: P7S4
+    - _levelId: InTheEnd
+      _sku: P7S5
+    - _levelId: NewDivide
+      _sku: P7S6
+    - _levelId: Numb
+      _sku: P7S7
+    - _levelId: OneStepCloser
+      _sku: P7S8
+    - _levelId: Papercut
+      _sku: P7S9
+    - _levelId: SomewhereIBelong
+      _sku: P7S10
+    - _levelId: WhatIveDone
+      _sku: P7S11
+  - _sku: P8
+    _levelPackId: BTS
+    _levelProductsData:
+    - _levelId: BloodSweatAndTears
+      _sku: P8S1
+    - _levelId: BoyWithLuv
+      _sku: P8S2
+    - _levelId: BurningUp
+      _sku: P8S3
+    - _levelId: Dionysus
+      _sku: P8S4
+    - _levelId: Dna
+      _sku: P8S5
+    - _levelId: Dope
+      _sku: P8S6
+    - _levelId: Dynamite
+      _sku: P8S7
+    - _levelId: FakeLove
+      _sku: P8S8
+    - _levelId: Idol
+      _sku: P8S9
+    - _levelId: MicDrop
+      _sku: P8S10
+    - _levelId: NotToday
+      _sku: P8S11
+    - _levelId: Ugh
+      _sku: P8S12
+  - _sku: P9
+    _levelPackId: Interscope
+    _levelProductsData:
+    - _levelId: CountingStars
+      _sku: P9S1
+    - _levelId: DnaLamar
+      _sku: P9S2
+    - _levelId: DontCha
+      _sku: P9S3
+    - _levelId: PartyRockAnthem
+      _sku: P9S4
+    - _levelId: Rollin
+      _sku: P9S5
+    - _levelId: Sugar
+      _sku: P9S6
+    - _levelId: TheSweetEscape
+      _sku: P9S7
+  - _sku: P10
+    _levelPackId: Skrillex
+    _levelProductsData:
+    - _levelId: Bangarang
+      _sku: P10S1
+    - _levelId: Butterflies
+      _sku: P10S2
+    - _levelId: DontGo
+      _sku: P10S3
+    - _levelId: FirstOfTheYear
+      _sku: P10S4
+    - _levelId: RaggaBomb
+      _sku: P10S5
+    - _levelId: RockNRoll
+      _sku: P10S6
+    - _levelId: ScaryMonstersAndNiceSprites
+      _sku: P10S7
+    - _levelId: TheDevilsDen
+      _sku: P10S8
+  - _sku: P11
+    _levelPackId: BillieEilish
+    _levelProductsData:
+    - _levelId: AllTheGoodGirlsGoToHell
+      _sku: P11S1
+    - _levelId: BadGuy
+      _sku: P11S2
+    - _levelId: Bellyache
+      _sku: P11S3
+    - _levelId: BuryAFriend
+      _sku: P11S4
+    - _levelId: HappierThanEver
+      _sku: P11S5
+    - _levelId: IDidntChangeMyNumber
+      _sku: P11S6
+    - _levelId: NDA
+      _sku: P11S7
+    - _levelId: Oxytocin
+      _sku: P11S8
+    - _levelId: ThereforeIAm
+      _sku: P11S9
+    - _levelId: YouShouldSeeMeInACrown
+      _sku: P11S10
+  - _sku: P12
+    _levelPackId: LadyGaga
+    _levelProductsData:
+    - _levelId: Alejandro
+      _sku: P12S1
+    - _levelId: BadRomance
+      _sku: P12S2
+    - _levelId: BornThisWay
+      _sku: P12S3
+    - _levelId: JustDance
+      _sku: P12S4
+    - _levelId: Paparazzi
+      _sku: P12S5
+    - _levelId: PokerFace
+      _sku: P12S6
+    - _levelId: RainOnMe
+      _sku: P12S7
+    - _levelId: StupidLove
+      _sku: P12S8
+    - _levelId: Telephone
+      _sku: P12S9
+    - _levelId: TheEdgeOfGlory
+      _sku: P12S10
+  - _sku: P13
+    _levelPackId: FallOutBoy
+    _levelProductsData:
+    - _levelId: Centuries
+      _sku: P13S1
+    - _levelId: DanceDance
+      _sku: P13S2
+    - _levelId: IDontCare
+      _sku: P13S3
+    - _levelId: Immortals
+      _sku: P13S4
+    - _levelId: Irresistible
+      _sku: P13S5
+    - _levelId: MySongsKnow
+      _sku: P13S6
+    - _levelId: ThisAintAScene
+      _sku: P13S7
+    - _levelId: ThnksFrThMmrs
+      _sku: P13S8
+  - _sku: P14
+    _levelPackId: EDM
+    _levelProductsData:
+    - _levelId: Alone
+      _sku: P14S1
+    - _levelId: Animals
+      _sku: P14S2
+    - _levelId: Freestyler
+      _sku: P14S3
+    - _levelId: GhostsNStuff
+      _sku: P14S4
+    - _levelId: Icarus
+      _sku: P14S5
+    - _levelId: Sandstorm
+      _sku: P14S6
+    - _levelId: StayTheNight
+      _sku: P14S7
+    - _levelId: TheRockafellerSkank
+      _sku: P14S8
+    - _levelId: WaitingAllNight
+      _sku: P14S9
+    - _levelId: Witchcraft
+      _sku: P14S10
+  - _sku: P15
+    _levelPackId: Lizzo
+    _levelProductsData:
+    - _levelId: 2BeLoved
+      _sku: P15S1
+    - _levelId: AboutDamnTime
+      _sku: P15S2
+    - _levelId: CuzILoveYou
+      _sku: P15S3
+    - _levelId: EverybodysGay
+      _sku: P15S4
+    - _levelId: GoodAsHell
+      _sku: P15S5
+    - _levelId: Juice
+      _sku: P15S6
+    - _levelId: Tempo
+      _sku: P15S7
+    - _levelId: TruthHurts
+      _sku: P15S8
+    - _levelId: Worship
+      _sku: P15S9
+  - _sku: P16
+    _levelPackId: TheWeeknd
+    _levelProductsData:
+    - _levelId: BlindingLights
+      _sku: P16S1
+    - _levelId: CantFeelMyFace
+      _sku: P16S2
+    - _levelId: HowDoIMakeYouLoveMe
+      _sku: P16S3
+    - _levelId: IFeelItComing
+      _sku: P16S4
+    - _levelId: PrayForMe
+      _sku: P16S5
+    - _levelId: Sacrifice
+      _sku: P16S6
+    - _levelId: SaveYourTears
+      _sku: P16S7
+    - _levelId: Starboy
+      _sku: P16S8
+    - _levelId: TakeMyBreath
+      _sku: P16S9
+    - _levelId: TheHills
+      _sku: P16S10
+  - _sku: P17
+    _levelPackId: RockMixtape
+    _levelProductsData:
+    - _levelId: BornToBeWild
+      _sku: P17S1
+    - _levelId: EyeOfTheTiger
+      _sku: P17S2
+    - _levelId: FreeBird
+      _sku: P17S3
+    - _levelId: IWasMadeLovingYou
+      _sku: P17S4
+    - _levelId: SevenNationArmy
+      _sku: P17S5
+    - _levelId: SmellsLikeTeenSpirit
+      _sku: P17S6
+    - _levelId: SweetChildOMine
+      _sku: P17S7
+    - _levelId: ThePretender
+      _sku: P17S8

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1282961402, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OstAndExtrasWithouCamelliaLevelPackCollection
+  m_EditorClassIdentifier:
+  _beatmapLevelPacks:
+  - {fileID: 11400000, guid: 6b6d673a21289c84cbe4238fca40da9f, type: 2}
+  - {fileID: 11400000, guid: d25bf65cd0d7434489749ad3b7b1e24f, type: 2}
+  - {fileID: 11400000, guid: dde8a1446c398db48890071e220b0b16, type: 2}
+  - {fileID: 11400000, guid: c62ac9d1bd5b1ec459ec384f0e317ee9, type: 2}
+  - {fileID: 11400000, guid: 6586387812cbb86478bd29f41723b273, type: 2}
+  - {fileID: 11400000, guid: 3ac3d21a77a2e514d9a8572d468fc0d3, type: 2}
+  _previewBeatmapLevelPack: []

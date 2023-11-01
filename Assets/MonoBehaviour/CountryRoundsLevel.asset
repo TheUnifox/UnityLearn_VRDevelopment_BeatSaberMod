@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: CountryRoundsLevel
+  m_EditorClassIdentifier:
+  _levelID: CountryRounds
+  _songName: Country Rounds
+  _songSubName: Sqeepo Remix
+  _songAuthorName: Jaroslav Beck, Kings & Folk
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 1a82311826f1b2142b1b60723df40eaa, type: 3}
+  _beatsPerMinute: 210
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 1
+  _previewStartTime: 87
+  _previewDuration: 12
+  _coverImage: {fileID: 21300000, guid: 01000c528d4e93941845210a0cbf6c53, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: f7e58dd216b591e489e0070cd6695571, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 1907b89d0a7dd3542af4cad1cc907a61, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 1e25bf79507362847a1b6177d2020fad, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: c8f55a9186d832d45a38cfb3feb6f263, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 8
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 6e10207934ecd3846956682d3c81db20, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: c8fbb975075233546a22ae596b9ee10f, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 2bcb5cd269fe706448fca9e2e2579415, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 9222d81e81b91dc4882b25500984a5e8, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 61eec2c34fe480448b21cad6fbab734d, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 773ee33ea526ea9408323894d1828e5b, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 8e8c5f692e9028c4da8fafa93b788390, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 8
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 64c922f917f9a4744be374e71fbab3f7, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 8
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: fa34f7fd35e188d42abfcbe43bb08fd1, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 8
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: ac601908f75749f419530f4592375ddd, type: 2}
+  _ignore360MovementBeatmaps: 0

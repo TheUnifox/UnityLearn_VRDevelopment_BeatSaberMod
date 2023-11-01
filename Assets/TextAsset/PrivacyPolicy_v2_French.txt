@@ -1,0 +1,107 @@
+1. Qui êtes-vous?
+1.1. La présente Politique de confidentialité décrit les pratiques de Meta («nous», «notre», «nos») pour la gestion de vos informations personnelles lorsque vous jouez à BeatSaber.
+1.2. Si vous avez des problèmes pour comprendre une partie de ce document, n’hésitez pas à nous contacter à privacy@beat-games.com.
+
+2. Que vais-je trouver dans ce document?
+2.1. Ci-dessous, vous apprendrez pourquoi, dans quelle mesure, à quelles fins et pendant combien de temps nous traitons vos données à caractère personnel. Vous découvrirez aussi les personnes qui auront accès à vos données à caractère personnel et vos droits concernant le traitement de vos données à caractère personnel.
+2.2. Nous respectons votre droit à la vie privée et, en dépit du fait que nous essayons de traiter autant d’informations que possible sous la forme de données anonymisées ou pseudonymisées, nous voulons que vous sachiez que vos données sont en sécurité chez nous.
+
+3. Quel type de données à caractère personnel recueillez-vous à mon sujet et pourquoi?
+3.1. Afin que vous puissiez jouer à Beat Saber et que nous soyons en mesure de réparer et d’améliorer le jeu, nous recueillons les données suivantes vous concernant : données d’identification (avatar, pseudo, ou userID sous lequel vous êtes enregistré, etc.) ; données techniques (données à propos de votre appareil, etc.) ; données concernant votre utilisation de Beat Saber (où et comment vous jouez au jeu, ainsi que votre degré de réussite).
+
+Nous n’utilisons ces données à caractère personnel qu’aux deux fins spécifiées ci-dessous : pour permettre le fonctionnement de Beat Saber et pour établir des statistiques qui contribuent à l’amélioration du jeu.
+3.2. Premièrement, nous avons besoin des données à caractère personnel décrites ci-dessus (données d’identification, données techniques et données d’utilisation du jeu) afin que le jeu soit fonctionnel, y compris les classements, etc. La raison d’un tel traitement est basée sur la nécessité d’exécuter l’accord conclu entre vous et nous. Pour les personnes de l’UE et du Royaume-Uni qui n’ont pas atteint l’âge de la majorité (moins de 18 ans dans la plupart des pays de l’UE) et qui disposent d’une capacité juridique limitée pour conclure un contrat exécutoire, la raison d’un tel traitement est basée sur nos intérêts légitimes.
+3.3. Nous avons besoin de traiter certaines de vos données à caractère personnel à des fins statistiques. Celles-ci incluent les données purement techniques (c.-à-d. des informations ne contenant absolument aucune donnée personnelle) ou les autres données décrites ci-dessus sous une forme pseudonymisée, c’est-à-dire des données hautement confidentielles auxquelles nous attribuons un numéro spécial de sorte que personne, sauf nous, ne soit en mesure de relier les données à l’identifiant existant en utilisant le numéro donné. Le traitement se base sur notre intérêt légitime qui est l’amélioration continue du jeu. Vous avez le droit de vous opposer à ce traitement de la manière décrite ci-dessous.
+
+4. Comment traiterez-vous mes données à caractère personnel?
+4.1. Au regard des finalités susmentionnées, il apparaît que nous n’avons pas besoin de vos données à caractère personnel sous une forme qui permet de vous identifier. C’est pourquoi nous allons traiter les informations (y compris les statistiques) sous forme agrégée (non identifiable) autant que possible et, si cela n’est pas possible, nous allons traiter les informations sous une forme pseudonymisée autant que possible.
+
+5. Avez-vous besoin de mon consentement pour le traitement?
+5.1. En réalité, nous n’avons pas besoin de votre consentement en vertu du RGPD, car nous avons d’autres raisons légitimes pour toutes les formes de traitement (car cela est nécessaire pour l’exécution de l’accord ou aux fins de notre intérêt légitime).
+
+6. Pendant combien de temps conserverez-vous mes données à caractère personnel?
+6.1. Nous conserverons vos données à caractère personnel aussi longtemps que nécessaire pour exécuter les fins auxquelles elles ont été recueillies, comme décrit ci-dessus et conformément à la loi applicable. 
+
+Seulement pour la durée pendant laquelle vous jouez à Beat Saber et au maximum jusqu’au moment où vous supprimez votre compte sur toute plateforme utilisée pour l’achat de notre jeu, voire jusqu’à ce que vous vous assuriez d’avoir totalement supprimé Beat Saber de votre bibliothèque sur toute plateforme donnée. Cependant, la plupart des données sont conservées dans un format agrégé seulement (qui ne permet pas de vous identifier) et uniquement pour la durée nécessaire.
+
+7. Dois-je vous confier mes données à caractère personnel? Devez-vous les traiter?
+7.1. Si vous souhaitez jouer à Beat Saber, nous avons besoin des données à caractère personnel mentionnées au paragraphe 3 ci-dessus afin de vous permettre de jouer. Malheureusement, cela n’est pas possible sans vos données à caractère personnel.
+
+8. À qui transférez-vous mes données à caractère personnel?
+8.1. Nous avons les données à caractère personnel en notre possession pendant toute cette période. Nous ne fournissons que des statistiques agrégées (et non des données à caractère personnel) à certains partenaires.
+8.2. Cependant, en plus de nous, les plateformes par le biais desquelles vous avez acheté notre jeu traitent également vos données à caractère personnel et, dans ces circonstances, le traitement de vos données à caractère personnel s’effectuera conformément à la politique de confidentialité de la plateforme pertinente:
+●        8.2.1. PlayStation
+●        8.2.2. Steam
+●        8.2.3. Oculus
+8.3. Vous données à caractère personnel sont également traitées par Unity, qui assure la création et la gestion de statistiques concernant notre jeu comme indiqué ci-dessus. (La politique de confidentialité est disponible sur: https://unity3d.com/legal/privacy-policy)
+8.4. Nous partageons des informations à l’échelle mondiale, et ce, conformément à cette Politique de confidentialité. Les informations contrôlées par Meta seront transférées ou transmises, ou stockées et traitées, aux États-Unis ou dans d’autres pays en dehors de celui où vous résidez, aux fins décrites dans la présente Politique de confidentialité. Les transferts de données sont nécessaires pour fournir les services décrits dans le Contrat de licence ainsi que pour gérer et vous fournir Beat Saber à l’échelle mondiale. Nous utilisons les clauses contractuelles types approuvées par la Commission européenne et nous nous appuyons sur les décisions d’adéquation de la Commission européenne concernant certains pays, le cas échéant, pour les transferts de données de l’Espace économique européen (« EEE ») vers les États-Unis et d’autres pays.
+
+9. Quels sont mes droits?
+
+Contenu de cette section
+9.1. Au regard du fait que nous traitons des informations vous concernant, vous pouvez faire valoir certains droits à propos desquels nous souhaitons vous informer dans cette section. Vous pouvez faire valoir tous les droits par écrit aux adresses postales indiquées ci-dessous ou par e-mail à privacy@beat-games.com.
+
+Droit d’accès
+9.2. Vous avez le droit d’accéder aux données à caractère personnel traitées vous concernant.
+
+Droit de rectification
+9.3. Nous ne devons traiter que des données à caractère personnel exactes. Vous pouvez bénéficier du droit de rectification de vos données à caractère personnel si elles sont inexactes ou incomplètes.
+
+Droit à l’effacement
+9.4. Vous pouvez avoir le droit, pour certains motifs, de demander que nous supprimions vos données à caractère personnel.
+9.5. Par exemple, si vous pensez que vos données à caractère personnel ne sont plus nécessaires au regard des finalités pour lesquelles elles ont été traitées ou si vous croyez que nous traitons vos données à caractère personnel illégalement, vous pouvez demander que nous supprimions vos données à caractère personnel.
+9.6. Cependant, il n’est pas toujours possible de supprimer les données à caractère personnel que vous avez fournies, notamment parce que leur suppression vous empêcherait de continuer à jouer à Beat Saber.
+
+Droit à la portabilité des données
+9.7. Un autre droit que vous pouvez faire valoir est le droit à la portabilité des données sur la base duquel nous remettrons les données à caractère personnel que vous avez fournies dans un format couramment utilisé, structuré et lisible par machine ou nous les transférerons, à votre demande, à un autre responsable de traitement de votre choix, lorsqu’un tel transfert est techniquement faisable.
+9.8. Si vous pensez que vos données à caractère personnel que nous traitons sont incorrectes, vous avez le droit de demander que nous limitions le traitement de vos données à caractère personnel durant une période nécessaire à la vérification de l’exactitude de vos données à caractère personnel et de les corriger si nécessaire. Vous bénéficiez du même droit si le traitement de vos données à caractère personnel est illicite, mais que vous ne souhaitez pas que celles-ci soient supprimées; si nous n’avons plus besoin de vos données à caractère personnel au regard des finalités de traitement susmentionnées, mais que vous demandez que vos données à caractère personnel soient conservées à des fins de constatation, d’exercice ou de défense de droits en justice; ou si vous vous êtes opposé au traitement de vos données à caractère personnel sur la base de notre intérêt légitime.
+
+Droit de s’opposer au traitement sur la base de l’intérêt légitime
+9.9. Étant donné que nous traitons certaines de vos données à caractère personnel sur la base de notre intérêt légitime, vous avez le droit de vous opposer à ce traitement. Sur la base de cette opposition, nous examinerons s’il est réellement dans notre intérêt de traiter vos données à caractère personnel pour la finalité donnée. Si nous concluons que nous n’avons pas de raisons légitimes qui prévalent sur vos intérêts, droits ou libertés, nous mettrons un terme au traitement de telles données à caractère personnel et les détruirons.
+9.10. Cependant, il est nécessaire de souligner qu’une telle opposition doit être fondée. Par conséquent, nous vous recommandons de d’abord obtenir l’ensemble des informations nécessaires à l’adresse e-mail mentionnée ci-dessus.
+
+Droit de déposer une réclamation
+9.11. Pour déposer une réclamation concernant la gestion de vos informations, veuillez nous écrire à privacy@beat-games.com. Vous pouvez également porter l’affaire devant votre autorité de contrôle nationale en matière de protection des données.  Les paragraphes 10, 11 et 12 ci-dessous fournissent informations supplémentaires sur l’introduction des réclamations.
+
+10. Coordonnées pour les résidents de la Région européenne (y compris les résidents du Royaume-Uni)
+10.1. Le responsable de traitement de vos informations est Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Ireland, («FIL» ou «nous» et «notre/nos») que vous pouvez contacter en ligne ou par courrier à l’adresse: 
+
+Meta Platforms Ireland Limited 
+À l’attention de: Privacy Operations 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Irlande 
+
+Vous pouvez également contacter le délégué à la protection des données de Meta Platforms Ireland Limited. Vous avez également le droit de déposer une réclamation auprès de l’autorité de contrôle principale de Meta Platforms Ireland, la Commission irlandaise de protection des données, ou de votre autorité de contrôle locale.
+
+11. Avis de confidentialité pour les résidents de Californie
+11.1 Si vous résidez en Californie, vous trouverez plus d’informations sur vos droits au respect de la vie privée en tant que consommateur dans l’Avis de confidentialité spécifique à la Californie.
+
+12. Coordonnées de Privacy Agent pour les résidents coréens
+12.1. Meta Platforms, Inc. est responsable de vos informations et a désigné Privacy Agent Korea Co., Ltd comme Agent local en Corée pour les questions relatives à notre traitement des réclamations des utilisateurs coréens liées à la protection des données. Les droits susmentionnés peuvent être exercés par le biais de votre agent ou représentant légal. Vous pouvez contacter votre agent local en ligne, par téléphone ou par courrier à l’aide des coordonnées suivantes :
+
+Privacy Agent Korea Co., Ltd.
+À l’attention de: Representative director Chun Hee Park
+28, Saemunan-ro 5ga-gil, Jongno-gu, Seoul
+Téléphone: 02-737-0455
+E-mail: korealocalagent@support.facebook.com
+
+
+Avis de confidentialité spécifique à la Corée du Sud
+
+Mesures en place pour garantir la sécurité de vos informations.
+Nous faisons de notre mieux pour assurer la sécurité de vos informations, en mettant en œuvre des mesures d’encadrement et techniques, notamment:
+
+Nous avons établi et mis en œuvre des politiques internes pour notre gestion des informations personnelles, y compris la nomination de cadres responsables de la protection de la vie privée et des exigences de formation pour les employés et les sous-traitants responsables du traitement des informations personnelles.
+Nous prenons des mesures pour contrôler et limiter l’accès aux informations personnelles, y compris la mise en place de contrôles d’accès et l’enregistrement des accès aux informations personnelles.
+Nous utilisons d’autres mesures pertinentes pour aider à protéger vos informations contre la perte, le vol, l’utilisation abusive et l’accès non autorisé. Ces mesures comprennent des protections informatiques, telles que des systèmes de prévention et de détection des intrusions, des logiciels antivirus et des pare-feu, ainsi que des contrôles d’accès physique à nos bâtiments et à nos fichiers.
+
+Délégation du traitement des données à caractère personnel et transfert à l’étranger des données à caractère personnel
+Comme indiqué dans notre Politique de confidentialité, nous partageons des données à caractère personnel avec des fournisseurs de services et d’autres tiers. Ces tiers peuvent être situés en dehors de la Corée.
+
+Les tiers qui reçoivent des données à caractère personnel pouvant concerner des personnes en Corée sont ceux indiqués dans le tableau ci-dessous. Le tableau comprend également un résumé de certains aspects des accords entre nous et les tiers. Ce tableau est un document évolutif et sera mis à jour périodiquement.
+
+Nom: UNITY INC
+Coordonnées: privacy@processunity.com        
+Éléments d’informations personnelles à transférer: données de l’utilisateur        
+Finalité d’utilisation du destinataire:  fournir des mesures, des analyses et d’autres services professionnels
+Pays de destination: États-Unis      
+Date et méthode de transfert: transmission telle que prévue dans le contrat
+Durée de conservation et d’utilisation par le destinataire: durant la période nécessaire pour fournir les services ou tel que convenu dans le contrat de service.

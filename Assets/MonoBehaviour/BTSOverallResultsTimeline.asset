@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: BTSOverallResultsTimeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: db436127141cc6a4abe4b62003d6a1ec, type: 2}
+  - {fileID: 11400000, guid: 483fbe913f6ec1544a288585e13f4df0, type: 2}
+  - {fileID: 11400000, guid: 239218c18ba1fdb498421008a0434f18, type: 2}
+  - {fileID: 11400000, guid: 687fccb2ffdefc941ba1f1b69ed392db, type: 2}
+  - {fileID: 11400000, guid: ec42cf27e51dc2544ba794d5d9023cfb, type: 2}
+  - {fileID: 11400000, guid: 8929ab5ece456c0449b3e2f91914d3a1, type: 2}
+  - {fileID: 11400000, guid: 34ac7242d141cad4991fb98048a643af, type: 2}
+  - {fileID: 11400000, guid: d834048f2529f4646a25ec7d7b35f5c6, type: 2}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 11400000, guid: af239dd229d7f6d41828276a73d2c267, type: 2}

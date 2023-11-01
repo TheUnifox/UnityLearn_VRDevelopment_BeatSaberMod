@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ItTakesMeLevel
+  m_EditorClassIdentifier:
+  _levelID: ItTakesMe
+  _songName: It Takes Me
+  _songSubName: ft. Waylon Reavis
+  _songAuthorName: Boom Kitty
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: bc0f09986fce44d47a467980a92461cf, type: 3}
+  _beatsPerMinute: 220
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 17
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 6538f2d36dee01e4aad212681dac421a, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 4155633639e1db24a90aed57ce21d521, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: d3f5ec08060e48e4cab4b1cdf9aa7679, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 2ae7cd6350229c74380bfe9e74cf0722, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 8988dabcd297ef94dac17b7f5823c463, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 459f1774cc4f01547b01c2463b9da286, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 22
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: f85e464b1464b584a8758afc4b3de759, type: 2}
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1648945902, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PrivacyPolicyLocalizedText_v2
+  m_EditorClassIdentifier:
+  _textInfos:
+  - language: 0
+    localizedText: {fileID: 4900000, guid: 61869bc1f38c4f84aa187dbf6e76455a, type: 3}
+  - language: 1
+    localizedText: {fileID: 4900000, guid: fe366a1add9b0e748ad5e3d955c4e3e9, type: 3}
+  - language: 3
+    localizedText: {fileID: 4900000, guid: 5b65f22ecd5b9dc46813c004417aab04, type: 3}
+  - language: 16
+    localizedText: {fileID: 4900000, guid: eec4ee4b909a47b4092b6626edd47eb7, type: 3}
+  - language: 19
+    localizedText: {fileID: 4900000, guid: 1e5fc0140bb62e343b137aca768bb68b, type: 3}
+  - language: 2
+    localizedText: {fileID: 4900000, guid: a716a061a1d41a0439a520e043a9a9d7, type: 3}

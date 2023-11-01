@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ThisAintAScenePreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: ThisAintAScene
+  _songName: This Ain't A Scene, It's An Arms Race
+  _songSubName:
+  _songAuthorName: Fall Out Boy
+  _levelAuthorName: ETAN
+  _previewAudioClip: {fileID: 8300000, guid: 916be1e53179c584cb95c76c0989c4a7, type: 3}
+  _beatsPerMinute: 100
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 203.99994
+  _coverImage: {fileID: 21300000, guid: 9745f862fdcbf4b489dea0510d4612c8, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 61422e4bcd4aa7841aaca2a4cb7489d9, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: DontTouchTheBombLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 6c9f43bd57e2d684eabee9ac23515ba8, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: b0e90d7b3acbd564dbc31ccc7580d098, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 702ed054326590e46b0b2919e7501b43, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: ab52618471cb2974ca61afa76130a896, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 47ff53d95f66cc0478a5b09fb021d892, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: aef8001ad460a984ba1312c2724f33db, type: 3}

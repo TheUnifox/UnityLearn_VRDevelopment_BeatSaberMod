@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -560322281, guid: aef9e8a6acd28164dc25a18a33342d03, type: 3}
+  m_Name: PyramidBloomMainEffectSO
+  m_EditorClassIdentifier:
+  _bloomRenderer: {fileID: 11400000, guid: 184adc67d7a0b6c42a77b4b944412091, type: 2}
+  _bloomFog: {fileID: 11400000, guid: e34dcb750ddb64b40b514bfc71ea0dba, type: 2}
+  _fadeShader: {fileID: 4800000, guid: 647d946fe94b8394cb295099904361b3, type: 3}
+  _mainEffectShader: {fileID: 4800000, guid: 494770a79eeb1e24eb634f53760a67eb, type: 3}
+  _bloomBlendFactor: 0.3
+  _bloomRadius: 5
+  _bloomIntensity: 1
+  _downBloomIntensityOffset: 1
+  _pyramidWeightsParam: 0.01
+  _alphaWeights: 4
+  _preFilterPass: 0
+  _downsamplePass: 2
+  _upsamplePass: 5
+  _finalUpsamplePass: 5
+  _bloomTextureWidth: 928
+  _baseColorBoost: 1
+  _baseColorBoostThreshold: 0

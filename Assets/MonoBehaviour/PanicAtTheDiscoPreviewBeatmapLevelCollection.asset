@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PanicAtTheDiscoPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: a1416c77a0735b947af3dcf6c458055f, type: 2}
+  - {fileID: 11400000, guid: c8eac37d70aed2048962dee806008458, type: 2}
+  - {fileID: 11400000, guid: a8f9e4c3798486449bd4de1ad5bf78a3, type: 2}
+  - {fileID: 11400000, guid: 2895ac30fadf52f48b975cbb26757454, type: 2}
+  - {fileID: 11400000, guid: 75717e2ab5c5f584886191a25bcc5319, type: 2}
+  - {fileID: 11400000, guid: b1ae0270f65b2f5438acbc027ea15da7, type: 2}
+  - {fileID: 11400000, guid: b4fcf09fdf285814dbb323c65964887e, type: 2}
+  - {fileID: 11400000, guid: 63c7360404e9e524f9f1ff77586baaa1, type: 2}
+  - {fileID: 11400000, guid: bd71eca0084049847b07e81c64dd7d83, type: 2}
+  - {fileID: 11400000, guid: 3f2a99393191bcd4a88821cb92b9ca39, type: 2}

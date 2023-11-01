@@ -1,0 +1,589 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166845065, guid: a58da2d523ee9ae040c11d384ecb5ae5, type: 3}
+  m_Name: RockMixtapeTracksDefinition
+  m_EditorClassIdentifier:
+  _environmentInfo: {fileID: 11400000, guid: 9497c319e1a6c5344958128e93f248e6, type: 2}
+  _basicEventTrackInfos:
+  - _trackName: Aurora
+    _beatmapEventType: 4
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Ambient
+    _beatmapEventType: 6
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Boost Colors
+    _beatmapEventType: 5
+    _trackToolbarType: 1
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: BG Bloom
+    _beatmapEventType: 3
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  _eventBoxGroupPageInfos:
+  - _eventBoxGroupPageName: Mountains
+    _eventBoxGroupTrackInfos:
+    - _groupName: Mountain 1
+      _lightGroup: {fileID: 11400000, guid: ee3d461b86aac3b4792bbd7cde01fa27, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 5ef09cf6a3f4492489c6733ee716f083, type: 2}
+    - _groupName: Mountain 2
+      _lightGroup: {fileID: 11400000, guid: 7a83e2071678a2a41b578cfd8f85417e, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 44608599c4ef0ad4da7d81abca758552, type: 2}
+    - _groupName: Mountain 3
+      _lightGroup: {fileID: 11400000, guid: 738c34b315ece1445b9d7ac39a64d8bb, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 8b897db4dbc2e0c47ad7854697cec483, type: 2}
+    - _groupName: Mountain 4
+      _lightGroup: {fileID: 11400000, guid: fede28bf7a7cc154783cabee4daffc13, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 940332295220c704bb92717aa79683f8, type: 2}
+    - _groupName: Mountain 5
+      _lightGroup: {fileID: 11400000, guid: 0370c5617172aef40a8d66a602b58142, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: eb72be98c41fd3d42bcb5bb23151ae5d, type: 2}
+    - _groupName: Mountain 6
+      _lightGroup: {fileID: 11400000, guid: a7c904cb518470243a060ec184c0ca59, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: f892cde8753054040abc38873782098a, type: 2}
+    - _groupName: Mountain 7
+      _lightGroup: {fileID: 11400000, guid: f892cde8753054040abc38873782098a, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: a7c904cb518470243a060ec184c0ca59, type: 2}
+    - _groupName: Mountain 8
+      _lightGroup: {fileID: 11400000, guid: eb72be98c41fd3d42bcb5bb23151ae5d, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 0370c5617172aef40a8d66a602b58142, type: 2}
+    - _groupName: Mountain 9
+      _lightGroup: {fileID: 11400000, guid: 940332295220c704bb92717aa79683f8, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: fede28bf7a7cc154783cabee4daffc13, type: 2}
+    - _groupName: Mountain 10
+      _lightGroup: {fileID: 11400000, guid: 8b897db4dbc2e0c47ad7854697cec483, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 738c34b315ece1445b9d7ac39a64d8bb, type: 2}
+    - _groupName: Mountain 11
+      _lightGroup: {fileID: 11400000, guid: 44608599c4ef0ad4da7d81abca758552, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 7a83e2071678a2a41b578cfd8f85417e, type: 2}
+    - _groupName: Mountain 12
+      _lightGroup: {fileID: 11400000, guid: 5ef09cf6a3f4492489c6733ee716f083, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: ee3d461b86aac3b4792bbd7cde01fa27, type: 2}
+  - _eventBoxGroupPageName: Face
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left
+      _lightGroup: {fileID: 11400000, guid: beb07aaf3efa22c4e9ae24753a94b534, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+    - _groupName: Right
+      _lightGroup: {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: beb07aaf3efa22c4e9ae24753a94b534, type: 2}
+    - _groupName: Movement
+      _lightGroup: {fileID: 11400000, guid: e0fd035ffa8557843852d4a7e930c9be, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: beb07aaf3efa22c4e9ae24753a94b534, type: 2}
+    - _groupName: Eyes
+      _lightGroup: {fileID: 11400000, guid: e417f57b489166d45819a76fe882f2ae, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: beb07aaf3efa22c4e9ae24753a94b534, type: 2}
+  - _eventBoxGroupPageName: Runway
+    _eventBoxGroupTrackInfos:
+    - _groupName: Strings
+      _lightGroup: {fileID: 11400000, guid: e20caf2974ca5af43b722abc6407e1af, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+    - _groupName: Frets
+      _lightGroup: {fileID: 11400000, guid: ffab836723bd26e42a453aa1563a5957, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+    - _groupName: Dots
+      _lightGroup: {fileID: 11400000, guid: f890fe58ee0ce3347bfcf981f02c3d89, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+    - _groupName: Equalizer
+      _lightGroup: {fileID: 11400000, guid: 4cfa6b2c699c7da408bcbdf0dc749d81, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+    - _groupName: Tunnel
+      _lightGroup: {fileID: 11400000, guid: 71c2942eb43c9c14b9a21e46ac21bd39, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48d455ee9b7d0ad4e94306cfbd0f1373, type: 2}
+  - _eventBoxGroupPageName: Spikes
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left
+      _lightGroup: {fileID: 11400000, guid: ca2e74faaa33fab45a838b0daf4c36c4, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: f706950e5dbccca48a65ad8cf2cfc2fe, type: 2}
+    - _groupName: Right
+      _lightGroup: {fileID: 11400000, guid: f706950e5dbccca48a65ad8cf2cfc2fe, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: ca2e74faaa33fab45a838b0daf4c36c4, type: 2}
+    - _groupName: Left Movement
+      _lightGroup: {fileID: 11400000, guid: 7262f60ee9c51c34c8169bc73c05ce1c, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: d23ee9d53051422448d976db8185fc02, type: 2}
+    - _groupName: Right Movement
+      _lightGroup: {fileID: 11400000, guid: d23ee9d53051422448d976db8185fc02, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 7262f60ee9c51c34c8169bc73c05ce1c, type: 2}
+  - _eventBoxGroupPageName: Lasers
+    _eventBoxGroupTrackInfos:
+    - _groupName: Side Left
+      _lightGroup: {fileID: 11400000, guid: 5c9e7d545d98c094cacea388b46cf0fe, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 48a39be4ea6ae1a46aa5ad46f54210ae, type: 2}
+    - _groupName: Side Right
+      _lightGroup: {fileID: 11400000, guid: 48a39be4ea6ae1a46aa5ad46f54210ae, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 5c9e7d545d98c094cacea388b46cf0fe, type: 2}
+    - _groupName: Side Left Rotation
+      _lightGroup: {fileID: 11400000, guid: d54e0d73f41581f47b736af31773bdd7, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: dd1fffb2aaa58c64285bbe36b5ce90eb, type: 2}
+    - _groupName: Side Right Rotation
+      _lightGroup: {fileID: 11400000, guid: dd1fffb2aaa58c64285bbe36b5ce90eb, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: d54e0d73f41581f47b736af31773bdd7, type: 2}
+    - _groupName: Side Z Translation
+      _lightGroup: {fileID: 11400000, guid: aacfd949a670c5840bf23c5014c1ab95, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 0
+      _targetLightGroups:
+      - {fileID: 11400000, guid: d54e0d73f41581f47b736af31773bdd7, type: 2}
+    - _groupName: Far Left
+      _lightGroup: {fileID: 11400000, guid: 360c3a5f8c64c6145b77d6e97770372d, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 8dd5dbb6d23b82046b2eba36c731bb22, type: 2}
+    - _groupName: Far Right
+      _lightGroup: {fileID: 11400000, guid: 8dd5dbb6d23b82046b2eba36c731bb22, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 360c3a5f8c64c6145b77d6e97770372d, type: 2}
+  - _eventBoxGroupPageName: Screens
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left 1
+      _lightGroup: {fileID: 11400000, guid: b52410ae4ed5ef64abd9383957e5d6a3, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 8370c7f0718958349863c3e4e171e864, type: 2}
+      - {fileID: 11400000, guid: 129687111a63e0343a7da8d84b847ff5, type: 2}
+      - {fileID: 11400000, guid: ba496b7d142aa8c42950dfa154adb2b2, type: 2}
+    - _groupName: Left 2
+      _lightGroup: {fileID: 11400000, guid: 8370c7f0718958349863c3e4e171e864, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: b52410ae4ed5ef64abd9383957e5d6a3, type: 2}
+      - {fileID: 11400000, guid: 129687111a63e0343a7da8d84b847ff5, type: 2}
+      - {fileID: 11400000, guid: ba496b7d142aa8c42950dfa154adb2b2, type: 2}
+    - _groupName: Right 1
+      _lightGroup: {fileID: 11400000, guid: 129687111a63e0343a7da8d84b847ff5, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: b52410ae4ed5ef64abd9383957e5d6a3, type: 2}
+      - {fileID: 11400000, guid: 8370c7f0718958349863c3e4e171e864, type: 2}
+      - {fileID: 11400000, guid: ba496b7d142aa8c42950dfa154adb2b2, type: 2}
+    - _groupName: Right 2
+      _lightGroup: {fileID: 11400000, guid: ba496b7d142aa8c42950dfa154adb2b2, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 1
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: b52410ae4ed5ef64abd9383957e5d6a3, type: 2}
+      - {fileID: 11400000, guid: 8370c7f0718958349863c3e4e171e864, type: 2}
+      - {fileID: 11400000, guid: 129687111a63e0343a7da8d84b847ff5, type: 2}
+    - _groupName: Left Screens Move
+      _lightGroup: {fileID: 11400000, guid: 82cd7d3caccb8a142bac1a68e4237057, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: aa0b8e9cf0fb9874d97d365ec8403897, type: 2}
+    - _groupName: Right Screens Move
+      _lightGroup: {fileID: 11400000, guid: aa0b8e9cf0fb9874d97d365ec8403897, type: 2}
+      _showColorTrack: 0
+      _showRotationXTrack: 1
+      _showRotationYTrack: 0
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 1
+      _showTranslationYTrack: 1
+      _showTranslationZTrack: 1
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 82cd7d3caccb8a142bac1a68e4237057, type: 2}

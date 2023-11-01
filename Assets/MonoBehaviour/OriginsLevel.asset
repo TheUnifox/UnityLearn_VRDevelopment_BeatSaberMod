@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OriginsLevel
+  m_EditorClassIdentifier:
+  _levelID: Origins
+  _songName: Origins
+  _songSubName: (ft. Mutrix)
+  _songAuthorName: Jaroslav Beck & Jan Ilavsky
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 5d85cb0f998f104419b5ca4f2037eb40, type: 3}
+  _beatsPerMinute: 175
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 1
+  _previewStartTime: 35
+  _previewDuration: 13
+  _coverImage: {fileID: 21300000, guid: ef021830ffaac4640b1ae581062dfc70, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: d90e3b5f7699bc546a3df68fa8799a77, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: ab9c6fc8435376a4a9cc381d682eb6ed, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: c438663060460be4894149ba7a7644e7, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 2aa55cbb3dc7a26438087a6282add6e2, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 12
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 6cddc79b104ef4546aafec6c644d1b98, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 19
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: 844e797c365398344b77a49ee0af32c5, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 4f360951a1037ac4b9f585da628c507e, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 0b63e0960b73efa43833230dd0c2b595, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: 46962ab448f15c94a99bde854d684ba3, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 7c8d653f3ee88274fb479f93e0534ca5, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 12
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: f0f9b19ca2a53714bb95efa2ba4171d3, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 19
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: 3a57c99f7e322c34a938f7e7b22a8a53, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: cd15b0cd392ee81468bc41baaf9a05ca, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 12
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: b037dbb6cbb1ee24ba5ad8da9d99c441, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 19
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: 14fcfd44ad05ce441afbb31f1722f2bd, type: 2}
+  _ignore360MovementBeatmaps: 0

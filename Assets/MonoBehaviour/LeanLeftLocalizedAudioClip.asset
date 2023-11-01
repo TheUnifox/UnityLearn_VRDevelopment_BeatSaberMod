@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: LeanLeftLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: de3f27cad7436a2449cec56e8a56809a, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: df3571031231be84b9c902c5bc46c46f, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 0cd20d94cfbd551498a172d36bef6cc7, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 855753fae776e154cb3848ac5dd849aa, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 0c52dbfc1b3d87443b383ce3cebd6e9f, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: d14b016fa21136749919a1eae40f9e11, type: 3}

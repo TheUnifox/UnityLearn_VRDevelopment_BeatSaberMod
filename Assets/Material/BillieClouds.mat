@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BillieClouds
+  m_Shader: {fileID: 4800000, guid: 806869e0a1128bf4284095acab76650a, type: 3}
+  m_ShaderKeywords: ALIGN_NORMALS_TO_WORLD_ORIGIN BACK_LIGHTING BOTTOM_FADE COLOR_FOG DECAL_ON DIFFUSE DIFFUSE_TEXTURE DISTORT_TEXTURE ENABLE_DIFFUSE ENABLE_NOISE_DITHERING ETC1_EXTERNAL_ALPHA FADE_BOTTOM FADE_CIRCLE FADE_RUNWAY REFLECTION_PROBE_BOX_PROJECTION UNITY_UI_CLIP_RECT VERTEX_WAVE _CURVE_VERTS _DEBUGCOLOR_OFF _DECALBLEND_ALPHABLEND _DISSOLVEAXIS_LOCALX _DISTORTTEXTURE_SIMPLE _DISTORTUVCHANNEL_ONE _DISTORT_WAVE_ON _EMISSION _EMISSIONCOLORTYPE_FLAT _EMISSIONTEXTURE_NONE _ENABLE_FOG _RIMLIGHT_NONE _ROTATE_UV_NONE _VERTEXMODE_ROTATELAYERS _WHITEBOOSTTYPE_NONE
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2500
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DecalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 2800000, guid: 8ac5102300180e2459c7698d66050764, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtDetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 7dbe9031d6f489b41be88f79c01ef2fe, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionGradientTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvironmentReflectionCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalSmoothnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PulseMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Decal: 1
+    - PixelSnap: 0
+    - _AlignNormalsToWorldOrigin: 1
+    - _Amplitude: 0
+    - _AntiflickerDistanceOffset: 21
+    - _AntiflickerDistanceScale: 0.1
+    - _AntiflickerStrength: 0.7
+    - _BackLightingBoost: 1.5
+    - _BlendDest: 10
+    - _BlendDstFactor: 10
+    - _BlendDstFactorA: 1
+    - _BlendSrc: 1
+    - _BlendSrcFactor: 5
+    - _BlendSrcFactorA: 0
+    - _BottomFadeMax: 4
+    - _BottomFadeMin: -4
+    - _BumpScale: 1
+    - _CURVE_VERTS: 1
+    - _ColorFog: 1
+    - _ColorFox: 1
+    - _Contrast: 1
+    - _Cull: 0
+    - _CullMode: 0
+    - _CurveAmount: 1
+    - _Cutoff: 0.5
+    - _CutoutTexScale: 1
+    - _DISTORT_WAVE: 1
+    - _DebugColor: 0
+    - _DebugDiscardAlpha: 0
+    - _DebugNegativeColor: 0
+    - _DebugVertexCurveEnableInfluence: 0
+    - _DebugVertexCurveInfluence: 1
+    - _DecalBlend: 0
+    - _DecalReflection: 0
+    - _DetailNormalMapScale: 1
+    - _DevCurveAmount: 1
+    - _DiffuseFogReflectivity: 100
+    - _DiffuseReflectivity: 30
+    - _DirtDetailIntensity: 1
+    - _DirtIntensity: 1
+    - _DissolveAxis: 0
+    - _DissolveEndValue: 10
+    - _DissolveGradientWidth: 5
+    - _DissolveProgress: 0
+    - _DissolveStartValue: 0
+    - _DissolveTextureInfluence: 0.2
+    - _DistortAmount: 0.01
+    - _DistortSpeed: 0.04
+    - _DistortTexture: 1
+    - _DistortUVChannel: 1
+    - _DistortWaveAmplitude: 0.17
+    - _DistortWaveFrequency: 2.12
+    - _DstBlend: 0
+    - _EmissionBrightness: 1
+    - _EmissionColorType: 0
+    - _EmissionSampleTwice: 0
+    - _EmissionTexture: 0
+    - _EmissionThreshold: 0
+    - _EnableBackLighting: 1
+    - _EnableBothSidesDiffuse: 0
+    - _EnableBottomFade: 1
+    - _EnableBoxProjectionOffset: 0
+    - _EnableCenterCutout: 0
+    - _EnableCutout: 0
+    - _EnableDecalTexture: 0
+    - _EnableDiffuse: 1
+    - _EnableDiffuseTexture: 1
+    - _EnableDirt: 0
+    - _EnableDirtDetail: 0
+    - _EnableDissolve: 0
+    - _EnableDistortTexture: 1
+    - _EnableEmissionMask: 0
+    - _EnableExposure: 0
+    - _EnableFadeCircle: 1
+    - _EnableFadeRim: 0
+    - _EnableFadeRunway: 1
+    - _EnableFog: 0
+    - _EnableGroundFade: 0
+    - _EnableHeightFog: 0
+    - _EnableHologram: 0
+    - _EnableLightFalloff: 0
+    - _EnableLightmap: 0
+    - _EnableMainEffectWhiteBoost: 0
+    - _EnableMetalSmoothnessTex: 0
+    - _EnableNoiseDithering: 0
+    - _EnableNormalMap: 0
+    - _EnableReflectionProbe: 0
+    - _EnableReflectionTexture: 0
+    - _EnableRimDim: 0
+    - _EnableSpecular: 0
+    - _EnableVertexCurve: 0
+    - _EnableVertexWave: 1
+    - _EnableWhiteBoost: 0
+    - _EnableWorldNoise: 0
+    - _EnableYAxisBillboard: 0
+    - _Exposure: 0
+    - _FadeBottomMax: 0
+    - _FadeBottomMin: -15
+    - _FadeCircleMax: 1
+    - _FadeCircleMin: 0
+    - _FadeCircleOffset: 1.74
+    - _Float1: 1
+    - _FogScale: 0.05
+    - _FogStartOffset: 0
+    - _Frequency: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GroundFadeOffset: 0.5
+    - _GroundFadeScale: 0.01
+    - _HeightFog: 1
+    - _HeightFogEndZ: 1
+    - _HeightFogHeight: 8.39
+    - _HeightFogOffset: 1
+    - _HeightFogStartY: -7.24
+    - _HeightFogStartZ: 10
+    - _HighCloudFogStrength: 0.996
+    - _HighCloudSpeed: 2.2
+    - _HighCloudThreshold: 9
+    - _HighFogStrength: 0.02
+    - _HighFogValue: 0.996
+    - _HighThreshold: 7
+    - _HighlightSelection: 0
+    - _HologramGridSize: 3
+    - _InvertDiffuseNormal: 0
+    - _InvertPulseTexture: 0
+    - _InvertRimDim: 0
+    - _LinearToGamma: 0
+    - _LowThreshold: 0.67
+    - _MainEffectWhiteBoostParam: 1
+    - _MainTexIntensity: 1
+    - _Metallic: 0
+    - _MinReflection: 0
+    - _MipScale: 0.25
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _OffsetSin: 0
+    - _Parallax: 0.02
+    - _PointLightPositionLocal: 0
+    - _PrivatePointLight: 0
+    - _PulseMultiplyByTexture: 0
+    - _PulseSmooth: 0.02
+    - _PulseSpeed: 0.2
+    - _PulseWidth: 0.1
+    - _ReflectionIntensity: 1
+    - _ReflectionProbeBoxProjection: 1
+    - _ReflectionProbeIntensity: 1
+    - _ReflectionTexIntensity: 1
+    - _RimCameraDistanceOffset: 2
+    - _RimCameraDistanceScale: 0.3
+    - _RimDarkening: 0
+    - _RimLight: 0
+    - _RimLightEdgeStart: 0.5
+    - _RimLightIntensity: 1
+    - _RimOffset: 1
+    - _RimScale: 1
+    - _Rotate_UV: 0
+    - _RunwayFadeOffset: -0.63
+    - _RunwayFadeOverallScale: 5.46
+    - _RunwayFadeScale: 10
+    - _SegmentToHighlight: -1
+    - _SmoothAlpha: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularAntiflicker: 0
+    - _SpecularHardness: 10000
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.15
+    - _Speed: 0.1
+    - _SphericalNormalOffsetIntensity: 0.5
+    - _SrcBlend: 1
+    - _StencilComp: 8
+    - _StencilPass: 0
+    - _StencilRefValue: 0
+    - _Temp1: 0
+    - _Temp1Scroll: 0.04
+    - _Temp2Scale: 0.388
+    - _Temp3EdgeMask: 1
+    - _Temp4WarpInner: 1
+    - _TempRotAngle: 0
+    - _TempUVNoiseScroll1: 0
+    - _Turbulence: 0.0096
+    - _UVColorSegments: 0
+    - _UVSec: 0
+    - _UseSphericalNormalOffset: 0
+    - _VertexCurveAmount: 1
+    - _VertexMode: 6
+    - _VertexWaveAmplitude: 0.06
+    - _VertexWaveFrequency: 4
+    - _VerticalAmplitude: 0.5
+    - _VerticalSpeed: 0.5
+    - _WARP_MASK: 0
+    - _WaveAmplitude: 0.01
+    - _WaveFrequency: 6.85
+    - _WhiteBoostOffset: 0
+    - _WhiteBoostType: 0
+    - _WorldNoiseIntensityOffset: -1
+    - _WorldNoiseIntensityScale: 2
+    - _WorldNoiseScale: 0
+    - _ZTest: 4
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.9027296, b: 0.8632076, a: 1}
+    - _Color2: {r: 0.5756052, g: 0.5977242, b: 0.6132076, a: 1}
+    - _Detail1_MaxScrollSpeed: {r: 0.75, g: 0, b: 0, a: 0}
+    - _Detail1_MinScrollSpeed: {r: 0.5, g: 0, b: 0, a: 0}
+    - _DetailScroll1_ScrollSpeed: {r: 0.05, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 0, g: 1, b: 1, a: 0}
+    - _DistortTexSpeed: {r: 0.4, g: 0, b: 0, a: 0}
+    - _Emission2Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission2Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionMaskSpeed: {r: 0, g: 1, b: 0, a: 0}
+    - _EmissionTexColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionTexSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _GlowCutoutColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HologramColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaxColor: {r: 0, g: 0, b: 1, a: 1}
+    - _PrivatePointLightColor: {r: 1, g: 0, b: 0, a: 0}
+    - _PrivatePointLightPosition: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionProbeBoxProjectionPositionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionProbeBoxProjectionSizeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RotateLayerSpeeds: {r: 4, g: 16, b: 24, a: 32}
+    - _RunwayFadeScaleVector: {r: 1.01, g: 1.07, b: 0, a: 0}
+    - _SphericalNormalOffsetCenter: {r: 0, g: 0.4, b: 0, a: 1}
+    - _VertOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _WorldNoiseScrolling: {r: 0.2, g: 0.2, b: 0, a: 1}

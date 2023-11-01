@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: FireReadyAimPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: FireReadyAim
+  _songName: Fire, Ready, Aim
+  _songSubName:
+  _songAuthorName: Green Day
+  _levelAuthorName:
+  _previewAudioClip: {fileID: 8300000, guid: 15e26303c19cdc547b8344ded01efe4a, type: 3}
+  _beatsPerMinute: 78
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 0
+  _previewDuration: 12
+  _songDuration: 113.580185
+  _coverImage: {fileID: 21300000, guid: 52944068f90753c4790b79ee3ddb2636, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: cbc836ee9ff49714a8d96ef8c4b9967e, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _beatmapDifficulties: 03000000
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _beatmapDifficulties: 03000000
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: $100BillsRemixLevel
+  m_EditorClassIdentifier:
+  _levelID: 100BillsRemix
+  _songName: $100 Bills
+  _songSubName: (Camellia's "215$-Step" Remix)
+  _songAuthorName: Jaroslav Beck, Camellia
+  _levelAuthorName: altrewin
+  _audioClip: {fileID: 8300000, guid: ca82cda3d214bb94b8ecc999eea6ce33, type: 3}
+  _beatsPerMinute: 215
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 22
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 3b488552861c39d4389fe4f964c635c3, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 0c8dd43f142314a44ac94798eb8dbae7, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: ea39c0d81994a024791d984072cb59e8, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 92aa29fd446c106478d3f27e907079be, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 23878fe3e7e29174da89f9a8741cd341, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16.5
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: 33e9e1c35c6577e498f5665ee354beb9, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 21
+      _noteJumpStartBeatOffset: -0.125
+      _beatmapData: {fileID: 11400000, guid: c0cb54ad154a48f4daea64d6d17e9f65, type: 2}
+  _ignore360MovementBeatmaps: 0

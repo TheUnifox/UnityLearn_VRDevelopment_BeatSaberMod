@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: StarboyPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: Starboy
+  _songName: Starboy
+  _songSubName: feat. Daft Punk
+  _songAuthorName: The Weeknd
+  _levelAuthorName: ConnorJC
+  _previewAudioClip: {fileID: 8300000, guid: 63d1d3468ed02604ba9c55a6cf1147c3, type: 3}
+  _beatsPerMinute: 186
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 224.0271
+  _coverImage: {fileID: 21300000, guid: 6fa82affa2cda274ba72445386a71436, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 65bca3771f8128943948ba491e430930, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HologramRaysLobby
+  m_Shader: {fileID: 4800000, guid: 58ec0122b03690043b9615eb1a56cd4e, type: 3}
+  m_ShaderKeywords: ENABLE_HOLOGRAM_NOISE ENABLE_VARIABLE_LENGTH ENABLE_WORLD_NOISE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Floats:
+    - _Alpha: 0.5
+    - _AlphaNoiseScale: 1.6
+    - _AlphaNoiseSpeed: 2
+    - _AlphaNoiseStrength: 0.397
+    - _AvatarScaleInverse: 0.15
+    - _BaseHeight: 17
+    - _BlendDstFactor: 1
+    - _BlendDstFactorA: 1
+    - _BlendOp: 0
+    - _BlendSrcFactor: 1
+    - _BlendSrcFactorA: 0
+    - _BottomPosition: -22
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableAlternative: 0
+    - _EnableHologramGrid: 0
+    - _EnableHologramNoise: 1
+    - _EnableVariableLength: 1
+    - _EnableWorldNoise: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HologramNoiseIntensity: 0.05
+    - _Length: 30
+    - _LengthNoiseScale: 6.32
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAlphaStrength: 2.15
+    - _NoiseOffsetScale: 3
+    - _NoiseScale: 6.1
+    - _NoiseSpeedScale: 2.35
+    - _NoiseStrength: 1
+    - _NoiseTimeScale: 0.2
+    - _OcclusionStrength: 1
+    - _Offset: 80
+    - _OneDirectional: 0
+    - _Parallax: 0.02
+    - _PositionMultiplier: 25
+    - _Scale: 0.04
+    - _ScaleInverse: 6.65
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.6
+    - _SrcBlend: 1
+    - _Test: 3.62
+    - _TopPosition: 22
+    - _UVSec: 0
+    - _VariableLengthMultiplier: 1.8
+    - _Width: 0.04
+    - _WorldNoiseIntensityOffset: -0.25
+    - _WorldNoiseIntensityScale: 1.5
+    - _WorldNoiseScale: 0.2
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.1254902, g: 0.7529412, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WidthStartEnd: {r: 1, g: 6.58, b: 0, a: 0}
+    - _WorldNoiseScrolling: {r: 0, g: -1, b: 1, a: 1}

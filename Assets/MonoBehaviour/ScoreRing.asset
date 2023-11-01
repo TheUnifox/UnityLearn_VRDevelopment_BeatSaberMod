@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: ScoreRing
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000, guid: a9d89407bd644584cbb0443997b0a667, type: 2}
+  m_Children:
+  - {fileID: 11400000, guid: dd6b342cf0bf6034abd735d69d6c0858, type: 2}
+  - {fileID: 11400000, guid: 078d76b5e009f7948ab96cdb895690ac, type: 2}
+  - {fileID: 11400000, guid: 3d75c3d0d40a18b429034542122e1245, type: 2}
+  - {fileID: 11400000, guid: bf52b7eb6882ffa4ca3ad776ab3b0bb7, type: 2}
+  - {fileID: 11400000, guid: 2b1f7f0029d63bd4898702b3586e7b32, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

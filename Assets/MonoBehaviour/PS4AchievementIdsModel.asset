@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1293763371, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PS4AchievementIdsModel
+  m_EditorClassIdentifier:
+  _achievementsIds:
+  - _trophyId: 1
+    _achievement: {fileID: 11400000, guid: 125025805c61dad4b9238a82f18d84cb, type: 2}
+  - _trophyId: 2
+    _achievement: {fileID: 11400000, guid: 4702346b962fb1843bc48dc67133c69c, type: 2}
+  - _trophyId: 3
+    _achievement: {fileID: 11400000, guid: 26ef9e31556b8664aa6a80a8581d688a, type: 2}
+  - _trophyId: 4
+    _achievement: {fileID: 11400000, guid: 7a5df83f145d0de47af7159b43e3ee5b, type: 2}
+  - _trophyId: 5
+    _achievement: {fileID: 11400000, guid: 9e7ff8b6aa6c70e41bb8af87170cbd2a, type: 2}
+  - _trophyId: 6
+    _achievement: {fileID: 11400000, guid: 144404eac80b3bf41b3a1a360a8dc2fc, type: 2}
+  - _trophyId: 7
+    _achievement: {fileID: 11400000, guid: e0d46e5323dbf7043bd7b531a83e3f32, type: 2}
+  - _trophyId: 8
+    _achievement: {fileID: 11400000, guid: bceb8ebf98c2efb419f9196d30148ce3, type: 2}
+  - _trophyId: 9
+    _achievement: {fileID: 11400000, guid: 6e2b21e625365264a8cd68201ba04ed6, type: 2}
+  - _trophyId: 10
+    _achievement: {fileID: 11400000, guid: 25ddd6ef32ab7074db2cd4edd462cf9c, type: 2}
+  - _trophyId: 11
+    _achievement: {fileID: 11400000, guid: 3ae8e5c3654029c4b99625d712b78e43, type: 2}
+  - _trophyId: 12
+    _achievement: {fileID: 11400000, guid: 1e59be16a8a31164fb24d2b62201298f, type: 2}
+  - _trophyId: 13
+    _achievement: {fileID: 11400000, guid: 6fd555596972c4045b73928ce298b2fb, type: 2}
+  - _trophyId: 14
+    _achievement: {fileID: 11400000, guid: ce3cf7f33ca4f644f9b3e6bb10754316, type: 2}
+  - _trophyId: 15
+    _achievement: {fileID: 11400000, guid: 3b59591b45835034bbc5bfbbdfabb283, type: 2}
+  - _trophyId: 16
+    _achievement: {fileID: 11400000, guid: 8dc19a89f223dd147bc9c159c5ffbdcf, type: 2}
+  - _trophyId: 17
+    _achievement: {fileID: 11400000, guid: 2aacf5aeaad61384d8182304b321c343, type: 2}
+  - _trophyId: 18
+    _achievement: {fileID: 11400000, guid: 3149a03190775974c95addf51adffb2a, type: 2}
+  - _trophyId: 19
+    _achievement: {fileID: 11400000, guid: 261ae6040e28d9c409f36dbe55f92bd2, type: 2}
+  - _trophyId: 20
+    _achievement: {fileID: 11400000, guid: 364117198c33a1b49a8ad3c3696853db, type: 2}
+  - _trophyId: 21
+    _achievement: {fileID: 11400000, guid: 63af7112da2df7a4ca5524a883caf72d, type: 2}
+  - _trophyId: 22
+    _achievement: {fileID: 11400000, guid: a0cf0a42b04ea29409d1ad251b6e5ec9, type: 2}
+  - _trophyId: 23
+    _achievement: {fileID: 11400000, guid: e6004de1f165e43498f6e4528c20c031, type: 2}
+  - _trophyId: 24
+    _achievement: {fileID: 11400000, guid: efe17faea4114144780ca8f633e15b71, type: 2}
+  - _trophyId: 25
+    _achievement: {fileID: 11400000, guid: 581f680234e121f4a9fb09ba42fcbf54, type: 2}
+  - _trophyId: 26
+    _achievement: {fileID: 11400000, guid: cca24b2775a282f458057f1ff0ba2175, type: 2}

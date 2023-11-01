@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1033116362, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: GhostEffectAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier:
+  _ghostEffectType: 1
+  arrayReference:
+    exposedName: -420915595
+    defaultValue: {fileID: 0}
+  template:
+    alphaCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sizeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.04090909
+      - serializedVersion: 3
+        time: 0.5
+        value: 2
+        inSlope: -6.815692
+        outSlope: -6.815692
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.054545403
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.08636361
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    distanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.06357193
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.13998613
+      - serializedVersion: 3
+        time: 0.24950638
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5176288
+        value: 1
+        inSlope: 11.046532
+        outSlope: -5.965594
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.03892674
+        outWeight: 0.040148865
+      - serializedVersion: 3
+        time: 0.999
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.030303001
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _distanceMultiplier: {x: 4, y: -4, z: 5}
+    _useStartTransform: 1
+    _useEndTransform: 0
+    _startLocalPosition: {x: -2.4, y: 4.7, z: 2.9000015}
+    _startTransform: {fileID: 0}
+    _endLocalPosition: {x: 0, y: 2.505, z: 0}
+    _endTransform: {fileID: 0}
+    _positionEasing: 16
+    _endBehavior: 1
+    progress: 0.46666667
+    textMeshPros: []
+    _canvasGroups:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    _ghostEffectType: 1
+    _ghostEffectTransform: {fileID: 0}

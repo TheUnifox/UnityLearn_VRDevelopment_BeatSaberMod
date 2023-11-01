@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: WrongColorLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 6a758fca3c153ae4886292e3ca534890, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 7cf1919f403b08b4b87a73cb1a356e19, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 5d318a2d168940c4d912e7e1dfdd1b5f, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 78b36bdaf8eb8424f813e180eba7352b, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 41d4238463a3cd74c93656d090b96871, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 101c0e423a1264c4484da9b8780310b3, type: 3}

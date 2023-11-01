@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 331693538, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: Jacket
+  m_EditorClassIdentifier:
+  _id: Jacket
+  _localizationKey: AVATAR_CLOTHES_JACKET
+  _partAsset: {fileID: 4300000, guid: f7b30d986df30d44c92c05f57a064cbb, type: 2}

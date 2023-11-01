@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PlayPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: Play
+  _songName: Play
+  _songSubName:
+  _songAuthorName: Tokyo Machine
+  _levelAuthorName:
+  _previewAudioClip: {fileID: 8300000, guid: 363253929e2a94c4e9a312b1d1342bc0, type: 3}
+  _beatsPerMinute: 128
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 0
+  _previewDuration: 14
+  _songDuration: 183.28125
+  _coverImage: {fileID: 21300000, guid: 1cce1ef593790054f901aae18ff3b312, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: ca4258a5d4d79d74a9fe582d5895f94f, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _beatmapDifficulties: 010000000300000004000000
+  _ignore360MovementBeatmaps: 0

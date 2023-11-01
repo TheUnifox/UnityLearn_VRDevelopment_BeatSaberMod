@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166845065, guid: a58da2d523ee9ae040c11d384ecb5ae5, type: 3}
+  m_Name: TheSecondTracksDefinition
+  m_EditorClassIdentifier:
+  _environmentInfo: {fileID: 11400000, guid: 0c8dd43f142314a44ac94798eb8dbae7, type: 2}
+  _basicEventTrackInfos:
+  - _trackName: Logo
+    _beatmapEventType: 1
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Runway
+    _beatmapEventType: 4
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Left Flags
+    _beatmapEventType: 2
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Right Flags
+    _beatmapEventType: 3
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Boost Colors
+    _beatmapEventType: 5
+    _trackToolbarType: 1
+    _trackDefinition: {fileID: 11400000, guid: f527d49f45544764a92acd66e3087d9a, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Ring Zoom
+    _beatmapEventType: 9
+    _trackToolbarType: 4
+    _trackDefinition: {fileID: 11400000, guid: 5a39d2bbe9230a34680d331e3ec68c71, type: 2}
+    _basicEventTrackPage: 0
+  - _trackName: Buildings
+    _beatmapEventType: 0
+    _trackToolbarType: 0
+    _trackDefinition: {fileID: 11400000, guid: eacb1ee7708ef704e9bdae6f94255537, type: 2}
+    _basicEventTrackPage: 0
+  _eventBoxGroupPageInfos:
+  - _eventBoxGroupPageName: Top Lasers
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left Bottom
+      _lightGroup: {fileID: 11400000, guid: 8e929254f0107314cabc7458786825d1, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Right Bottom
+      _lightGroup: {fileID: 11400000, guid: 2e8970def69c51c48b269f3fe3bba933, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Left Top
+      _lightGroup: {fileID: 11400000, guid: 410176ead7e0cc44cac19e4d888d69f1, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Right Top
+      _lightGroup: {fileID: 11400000, guid: c8d7d9221df5d104e926acea9f40bced, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+  - _eventBoxGroupPageName: Bottom Lasers
+    _eventBoxGroupTrackInfos:
+    - _groupName: Left Bottom
+      _lightGroup: {fileID: 11400000, guid: 4917566d512cba041938b4acb3505195, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Right Bottom
+      _lightGroup: {fileID: 11400000, guid: 1eafd6891725a05438fa713f3ff16769, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Left Top
+      _lightGroup: {fileID: 11400000, guid: feed14bd9761c4f4db8af66ccb919086, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Right Top
+      _lightGroup: {fileID: 11400000, guid: cb285ad228c29794389f9d3e2b411833, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+  - _eventBoxGroupPageName: Rings
+    _eventBoxGroupTrackInfos:
+    - _groupName: Big Ring
+      _lightGroup: {fileID: 11400000, guid: 542afddbc759bac4ca11821f3a8cbf21, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+    - _groupName: Small Ring
+      _lightGroup: {fileID: 11400000, guid: 039b4bda1be1f8e43abc39a647a174b3, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups: []
+  - _eventBoxGroupPageName: Runway
+    _eventBoxGroupTrackInfos:
+    - _groupName: Runway Left
+      _lightGroup: {fileID: 11400000, guid: 86bf346975755a64aa98beafddb602d4, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: d42832ede9af26e41823571236cc2af6, type: 2}
+    - _groupName: Runway Right
+      _lightGroup: {fileID: 11400000, guid: d42832ede9af26e41823571236cc2af6, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 0
+      _showRotationYTrack: 0
+      _showRotationZTrack: 0
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 86bf346975755a64aa98beafddb602d4, type: 2}
+    - _groupName: Spotlight Left
+      _lightGroup: {fileID: 11400000, guid: 43df74da839c0844a94baad4bfc9aa7e, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 3a2b355cffca57a48aa533ddaa0bc6c6, type: 2}
+    - _groupName: Spotlight Right
+      _lightGroup: {fileID: 11400000, guid: 3a2b355cffca57a48aa533ddaa0bc6c6, type: 2}
+      _showColorTrack: 1
+      _showRotationXTrack: 1
+      _showRotationYTrack: 1
+      _showRotationZTrack: 1
+      _overrideDefaultRotationAxis: 0
+      _showTranslationXTrack: 0
+      _showTranslationYTrack: 0
+      _showTranslationZTrack: 0
+      _overrideDefaultTranslationAxis: 0
+      _enableDuplicate: 1
+      _targetLightGroups:
+      - {fileID: 11400000, guid: 43df74da839c0844a94baad4bfc9aa7e, type: 2}

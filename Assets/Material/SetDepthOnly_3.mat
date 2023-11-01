@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SetDepthOnly
+  m_Shader: {fileID: 4800000, guid: b519270fb47dbf645a1e42e256e8522f, type: 3}
+  m_ShaderKeywords: ENABLE_DIFFUSE ENABLE_DIRT ENABLE_DIRT_DETAIL ENABLE_FOG ENABLE_SPECULAR FOG LIGHTMAP REFLECTION_PROBE _EMISSION _ENABLE_FOG_TINT _RIMLIGHT_NONE
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1960
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Floats:
+    - _BlendDstFactor: 0
+    - _BlendDstFactorA: 0
+    - _BlendSrcFactor: 1
+    - _BlendSrcFactorA: 0
+    - _BumpScale: 1
+    - _ColorInstancing: 0
+    - _CubemapIntensity: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Cutout: 0
+    - _CutoutTexScale: 1
+    - _CutoutValue: 0
+    - _DetailNormalMapScale: 1
+    - _DirtDetailIntensity: 0.5
+    - _DirtIntensity: 1
+    - _DstBlend: 0
+    - _EmissionThreshold: 0
+    - _EnableBothSidesDiffuse: 0
+    - _EnableCenterCutout: 0
+    - _EnableCutout: 0
+    - _EnableDiffuse: 0
+    - _EnableDiffuseTexture: 0
+    - _EnableDirt: 0
+    - _EnableDirtDetail: 0
+    - _EnableFog: 1
+    - _EnableGroundFade: 0
+    - _EnableHeightFog: 0
+    - _EnableHologram: 0
+    - _EnableLightmap: 1
+    - _EnableNoiseDithering: 0
+    - _EnableNormalMap: 0
+    - _EnableReflectionProbe: 1
+    - _EnableReflectionTexture: 0
+    - _EnableRimDim: 0
+    - _EnableRimLight: 0
+    - _EnableSpecular: 0
+    - _EnableSpecularTexture: 0
+    - _EnableVertexColor: 0
+    - _EnableVertexEmission: 0
+    - _FogLightingStrength: 0.15
+    - _FogScale: 1
+    - _FogStartOffset: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _GreenVertexSpecular: 0
+    - _GroundFadeOffset: 1
+    - _GroundFadeScale: 0.5
+    - _HighlightSelection: 0
+    - _InvertDiffuseNormal: 0
+    - _InvertRimDim: 0
+    - _LinearToGamma: 0
+    - _Metallic: 0.3
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PrivatePointLight: 0
+    - _ProbeLod: 0.95
+    - _ReflectionIntensity: 0.5
+    - _ReflectionProbeIntensity: 0.5
+    - _ReflectionTexIntensity: 1
+    - _RimCameraDistanceOffset: 2
+    - _RimCameraDistanceScale: 0.3
+    - _RimDarkening: 0
+    - _RimLight: 0
+    - _RimLightEdgeStart: 0.5
+    - _RimLightIntensity: 1
+    - _RimOffset: 1
+    - _RimScale: 1
+    - _SegmentToHighlight: -1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHardness: 64
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.3
+    - _SphericalNormalOffsetIntensity: 0.5
+    - _SrcBlend: 1
+    - _StencilComp: 8
+    - _StencilPass: 2
+    - _StencilRefValue: 2
+    - _UVColorSegments: 0
+    - _UVSec: 0
+    - _UseCubemap: 0
+    - _UseSphericalNormalOffset: 0
+    - _WhiteBoostType: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 0}
+    - _CubeMapTintColor: {r: 0, g: 0.1882353, b: 0.2509804, a: 1}
+    - _CutoutTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogLightPos: {r: 0, g: 7, b: 7, a: 1}
+    - _GlowCutoutColor: {r: 1, g: 0, b: 0, a: 1}
+    - _HologramColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PrivatePointLightColor: {r: 1, g: 0, b: 0, a: 0}
+    - _PrivatePointLightPosition: {r: 0, g: 0, b: 0, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SphericalNormalOffsetCenter: {r: 0, g: 0, b: 0, a: 1}

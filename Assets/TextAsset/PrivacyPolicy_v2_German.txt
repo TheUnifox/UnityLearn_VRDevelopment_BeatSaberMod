@@ -1,0 +1,107 @@
+1. Wer seid ihr?
+1.1. Diese Datenrichtlinie beschreibt die Praktiken von Meta („wir“, „unser/e/em/en/er/es“) beim Umgang mit deinen personenbezogenen Daten, wenn du Beat Saber spielst.
+1.2. Wenn du etwas in diesem Dokument nicht verstehst, kannst du uns gerne unter privacy@beat-games.com kontaktieren.
+
+2. Was steht in diesem Dokument?
+2.1. Im Folgenden erfährst du, warum, in welchem Umfang, zu welchem Zweck und wie lange wir deine personenbezogenen Daten verarbeiten. Du erfährst außerdem, wer Zugang zu deinen personenbezogenen Daten hat und welche Rechte du in Bezug auf die Verarbeitung der personenbezogenen Daten hast.
+2.2. Wir respektieren dein Recht auf Privatsphäre, und obwohl wir versuchen, so viele Informationen wie möglich in anonymisierter oder pseudonymisierter Form zu verarbeiten, sollst du wissen, dass deine Daten bei uns sicher sind.
+
+3. Welche Art von personenbezogenen Daten sammelt ihr über mich und warum?
+3.1. Damit du Beat Saber spielen kannst und damit wir das Spiel reparieren und verbessern können, sammeln wir die folgenden Daten über dich: Identifikationsdaten (Avatar, Spitznamen oder Nutzer-ID, unter der du registriert bist usw.); technische Daten (Daten über dein Gerät usw.); Daten über deine Nutzung von Beat Saber (wann und wie und wie erfolgreich du das Spiel spielst).
+
+Wir verwenden diese personenbezogenen Daten nur für die beiden unten genannten Zwecke: um das Funktionieren von Beat Saber zu ermöglichen und um Statistiken zu erstellen, die zur Verbesserung des Spiels beitragen.
+3.2. Zum einen benötigen wir deine oben beschriebenen personenbezogenen Daten (Identifikationsdaten, technische Daten und Spielnutzungsdaten), damit das Spiel, einschließlich der Bestenlisten usw., funktionieren kann. Der Grund für diese Verarbeitung beruht auf der Notwendigkeit, den Vertrag zwischen dir und uns zu erfüllen. In Bezug auf Personen in der EU und im Vereinigten Königreich, die noch nicht volljährig (in den meisten EU-Ländern also jünger als 18 Jahre) sind und nur eine beschränkte Geschäftsfähigkeit in Bezug auf den Abschluss eines durchsetzbaren Vertrags haben, sind die Grundlage für diese Verarbeitung unsere berechtigten Interessen.
+3.3. Einige deiner personenbezogenen Daten müssen wir für unsere statistischen Zwecke verarbeiten. Dabei handelt es sich entweder um rein technische Daten (d. h. Informationen, die keinerlei personenbezogene Daten enthalten) oder um die anderen oben beschriebenen Daten in pseudonymisierter Form, d. h. um streng vertrauliche Daten, denen wir eine spezielle Nummer zuordnen, so dass niemand außer uns in der Lage ist, die Daten anhand der gegebenen Nummer mit der vorhandenen ID abzugleichen. Die Grundlage für diese Verarbeitung ist unser berechtigtes Interesse an der kontinuierlichen Verbesserung des Spiels. Du hast das Recht, dieser Verarbeitung, so wie unten beschrieben, zu widersprechen.
+
+4. Wie verarbeitet ihr meine personenbezogen Daten?
+4.1. Im Hinblick auf die oben genannten Zwecke ist es offensichtlich, dass wir deine personenbezogenen Daten nicht in einer Form benötigen, die deine Identifizierung ermöglicht. Aus diesem Grund werden wir die Informationen (insbesondere Statistiken) so weit wie möglich in aggregierter (nicht identifizierbarer) Form verarbeiten, und wo dies nicht möglich ist, werden wir die Informationen so weit wie möglich in pseudonymisierter Form verarbeiten.
+
+5. Benötigt ihr meine Einwilligung für die Verarbeitung?
+5.1. Tatsächlich benötigen wir nach der DSGVO deine Einwilligung nicht, da wir für alle Formen der Verarbeitung andere berechtigte Gründe haben (weil dies für die Erfüllung des Vertrags notwendig ist oder in unserem berechtigten Interesse liegt).
+
+6. Wie lange speichert ihr meine personenbezogenen Daten?
+6.1. Wir bewahren deine personenbezogenen Daten so lange auf, wie es für die Erfüllung der Zwecke, für die sie wie oben beschrieben erhoben wurden, und in Übereinstimmung mit dem geltenden Recht erforderlich ist. 
+
+Nur für die Zeit, in der du Beat Saber spielst, und maximal bis du dein Konto auf der Plattform löschst, über die du unser Spiel erworben hast, oder bis du sicherstellst, dass Beat Saber vollständig aus deiner Bibliothek auf einer bestimmten Plattform gelöscht wird. Die meisten Daten werden jedoch nur in aggregierter Form (sodass du nicht identifiziert werden kannst) und nur so lange wie nötig aufbewahrt.
+
+7. Muss ich euch meine personenbezogenen Daten geben? Müsst ihr sie verarbeiten?
+7.1. Wenn du Beat Saber spielen möchtest, benötigen wir die besagten personenbezogenen Daten unter Absatz 3 oben, damit wir es dir ermöglichen können, das Spiel zu spielen. Das ist ohne deine personenbezogenen Daten leider nicht möglich.
+
+8. An wen gebt ihr meine personenbezogenen Daten weiter?
+8.1. Wir haben die personenbezogenen Daten die ganze Zeit in unserem Besitz. Einigen Partnern stellen wir nur aggregierte Statistiken (keine personenbezogenen Daten) zur Verfügung.
+8.2. Außer von uns werden deine personenbezogenen Daten jedoch auch von den Plattformen verarbeitet, über die du unser Spiel gekauft hast, und in diesen Fällen erfolgt die Verarbeitung deiner personenbezogenen Daten in Übereinstimmung mit den Datenschutzbestimmungen der jeweiligen Plattform:
+●        8.2.1. PlayStation
+●        8.2.2. Steam
+●        8.2.3. Oculus
+8.3. Deine personenbezogenen Daten werden auch von Unity verarbeitet, einem Unternehmen, das die Erstellung und Verwaltung von Statistiken über unser Spiel gewährleistet, wie oben erwähnt. (Datenschutzrichtlinie verfügbar unter: https://unity3d.com/legal/privacy-policy)
+8.4. Wir geben Informationen weltweit in Übereinstimmung mit dieser Datenrichtlinie weiter. Informationen, für die Meta verantwortlich ist, werden für die in dieser Datenrichtlinie beschriebenen Zwecke in die USA oder andere Drittländer übertragen oder übermittelt bzw. dort gespeichert und verarbeitet. Diese Datenübermittlungen sind erforderlich, um die in der Endnutzer-Lizenzvereinbarung dargelegten Dienste bereitzustellen und um global tätig zu sein und dir Beat Saber bereitzustellen. Wir verwenden Standardvertragsklauseln, die von der Europäischen Kommission genehmigt wurden, und verlassen uns für Datenübermittlungen aus dem Europäischen Wirtschaftsraum („EWR“) in die USA und andere Länder ggf. auf die von der Europäischen Kommission erlassenen Angemessenheitsbeschlüsse bezüglich bestimmter Länder.
+
+9. Welche Rechte habe ich?
+
+Inhalt dieses Abschnitts
+9.1. In Anbetracht der Tatsache, dass wir Informationen über dich verarbeiten, kannst du bestimmte Rechte geltend machen, über die wir dich in diesem Abschnitt informieren möchten. Du kannst alle Rechte schriftlich unter den unten angegebenen Postanschriften oder per E-Mail an privacy@beat-games.com geltend machen.
+
+Recht auf Zugriff
+9.2. Du hast das Recht auf Auskunft über die dich betreffenden verarbeiteten personenbezogenen Daten.
+
+Recht auf Berichtigung
+9.3. Es ist für uns nur erforderlich, korrekte personenbezogene Daten von dir zu verarbeiten. Du hast ggf. das Recht, dass deine personenbezogenen Daten, die unrichtig oder unvollständig sind, berichtigt werden.
+
+Recht auf Löschung
+9.4. Du hast unter bestimmten Umständen das Recht, die Löschung deiner personenbezogenen Daten zu verlangen.
+9.5. Wenn du beispielsweise denkst, dass deine personenbezogenen Daten für den Zweck, für den sie verarbeitet wurden, nicht mehr benötigt werden, oder wenn du glaubst, dass deine personenbezogenen Daten von uns unrechtmäßig verarbeitet werden, kannst du verlangen, dass wir deine personenbezogenen Daten löschen.
+9.6. Es ist jedoch nicht immer möglich, die von dir zur Verfügung gestellten personenbezogenen Daten zu löschen, z. B. weil du dann nicht mehr in der Lage wärst, Beat Saber zu spielen.
+
+Recht auf Datenübertragbarkeit
+9.7. Ein weiteres Recht, das du geltend machen kannst, ist das Recht auf Datenübertragbarkeit, auf dessen Grundlage wir die von dir zur Verfügung gestellten personenbezogenen Daten in einem gängigen, strukturierten und maschinenlesbaren Format aushändigen oder, falls du dies wünschst, an einen anderen Verantwortlichen deiner Wahl übermitteln, sofern dies technisch machbar ist.
+9.8. Wenn du der Meinung bist, dass deine von uns verarbeiteten personenbezogenen Daten unrichtig sind, hast du das Recht zu verlangen, dass wir die Verarbeitung deiner personenbezogenen Daten für einen Zeitraum einschränken, der erforderlich ist, um die Richtigkeit deiner personenbezogenen Daten zu überprüfen und sie gegebenenfalls zu berichtigen. Dieses Recht steht dir auch zu, wenn die Verarbeitung deiner personenbezogenen Daten rechtswidrig ist, du aber nicht wünschst, dass deine personenbezogenen Daten gelöscht werden; wenn wir deine personenbezogenen Daten für die oben genannten Verarbeitungszwecke nicht mehr benötigen, du aber verlangst, dass deine personenbezogenen Daten zur Geltendmachung, Ausübung oder Verteidigung deiner Rechtsansprüche aufbewahrt werden; oder wenn du der Verarbeitung deiner personenbezogenen Daten auf der Grundlage unserer berechtigten Interessen widersprochen hast.
+
+Recht auf Widerspruch gegen die Verarbeitung auf der Grundlage eines berechtigten Interesses
+9.9. Da wir einige deiner personenbezogenen Daten auf der Grundlage unseres berechtigten Interesses verarbeiten, hast du möglicherweise das Recht, dieser Verarbeitung zu widersprechen. Auf der Grundlage des Widerspruchs werden wir prüfen, ob es wirklich in unserem Interesse liegt, deine personenbezogenen Daten für den angegebenen Zweck zu verarbeiten. Wenn wir zu dem Schluss kommen, dass wir keine wichtigen berechtigten Gründe haben, die deine Interessen, Rechte oder Freiheiten überwiegen, werden wir die Verarbeitung dieser personenbezogenen Daten beenden und sie vernichten.
+9.10. Es muss jedoch betont werden, dass ein solcher Widerspruch wohlbegründet sein muss. Wir empfehlen dir daher, zunächst alle notwendigen Informationen über die oben genannte E-Mail-Adresse einzuholen.
+
+Recht auf Beschwerde
+9.11. Wenn du dich über unseren Umgang mit deinen Daten beschweren möchtest, schreibe uns bitte an privacy@beat-games.com. Du kannst die Angelegenheit auch bei deiner örtlichen Datenschutzbehörde vorbringen.  Weitere Informationen zur Einreichung von Beschwerden findest du in den Absätzen 10, 11 und 12 unten.
+
+10. Kontaktinformationen für Einwohner der europäischen Region (einschließlich Einwohner des Vereinigten Königreichs)
+10.1. Der Datenverantwortliche für deine Informationen ist Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Irland, („FIL“ oder „wir“ und „uns“), das du online oder per Post kontaktieren kannst unter: 
+
+Meta Platforms Ireland Limited 
+ATTN: Privacy Operations 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Ireland 
+
+Du kannst auch mit dem Datenschutzbeauftragten für Meta Platforms Ireland Limited Kontakt aufnehmen. Du hast außerdem das Recht, eine Beschwerde bei der federführenden Aufsichtsbehörde für Meta Platforms Ireland, der irischen Datenschutzkommission, oder bei deiner lokalen Aufsichtsbehörde einzureichen.
+
+11. Datenschutzhinweise für Bewohner von Kalifornien
+11.1 Wenn du in Kalifornien wohnst, erfährst du mehr über deine Datenschutzrechte als Verbraucher, indem du dir die Datenschutzhinweise für Kalifornien durchliest.
+
+12. Kontaktinformationen von Privacy Agent für Bewohner von Korea
+12.1. Meta Platforms, Inc. ist für deine Daten verantwortlich und hat Privacy Agent Korea Co., Ltd. als unseren lokalen Vertreter in Korea bestimmt für Fragen bezüglich unserer Bearbeitung von Beschwerden, die koreanische Nutzer im Zusammenhang mit dem Datenschutz einreichen. Die vorgenannten Rechte können durch deinen Bevollmächtigten oder gesetzlichen Vertreter ausgeübt werden. Du kannst unseren lokalen Vertreter online oder per Telefon kontaktieren oder per Post an:
+
+Privacy Agent Korea Co., Ltd.
+ATTN: Representative Director Chun Hee Park
+28, Saemunan-ro 5ga-gil, Jongno-gu, Seoul
+Tel.: 02-737-0455
+E-Mail: korealocalagent@support.facebook.com
+
+
+Privatsphäre-Hinweis für Korea
+
+Maßnahmen zur Gewährleistung der Sicherheit deiner Daten
+Wir bemühen uns nach besten Kräften, die Sicherheit deiner Daten zu gewährleisten, indem wir verwaltungstechnische und technische Maßnahmen ergreifen, unter anderem:
+
+Wir haben interne Richtlinien für die Verwaltung personenbezogener Daten aufgestellt und umgesetzt, einschließlich der Ernennung von Führungskräften, die für den Datenschutz verantwortlich sind, sowie Schulungsanforderungen für Mitarbeiter und Auftragnehmer, die für die Verarbeitung personenbezogener Daten zuständig sind.
+Wir ergreifen Maßnahmen, um den Zugang zu personenbezogenen Daten zu kontrollieren und zu beschränken, einschließlich der Einführung von Zugangskontrollen und der Protokollierung des Zugangs zu personenbezogenen Daten.
+Wir ergreifen weitere geeignete Maßnahmen, um deine Daten vor Verlust, Diebstahl, Missbrauch und unbefugtem Zugriff zu schützen. Zu diesen Maßnahmen gehören Computersicherheitsmaßnahmen wie Systeme zur Verhinderung und Erkennung von Eindringlingen, Antivirensoftware und Firewalls sowie physische Zugangskontrollen zu unseren Gebäuden und Dateien.
+
+Delegation der Verarbeitung personenbezogener Daten und Übermittlung personenbezogener Daten ins Ausland
+Wie in unserer Datenschutzrichtlinie dargelegt, geben wir personenbezogene Daten an Dienstleister und andere Dritte weiter. Diese Dritten können sich außerhalb Koreas befinden.
+
+Zu den Dritten, die personenbezogene Daten erhalten, die sich auf Personen in Korea beziehen können, gehören die in der nachstehenden Tabelle aufgeführten Drittpartner. Die Tabelle enthält auch eine Zusammenfassung bestimmter Aspekte der Vereinbarungen zwischen uns und diesen Dritten. Diese Tabelle ist statisch und wird in regelmäßigen Abständen aktualisiert.
+
+Name: UNITY INC
+Kontaktinformationen: privacy@processunity.com        
+Zu übermittelnde personenbezogene Daten: Nutzerdaten        
+Verwendungszweck seitens des Empfängers:  Bereitstellung von Messungen, Analysen und sonstigen Unternehmens-Services.
+Zielland: USA      
+Datum und Art der Übermittlung: Übermittlung wie im Vertrag vorgesehen
+Dauer der Aufbewahrung und Verwendung durch den Empfänger: So lange, wie es für die Erbringung der Dienstleistungen erforderlich ist oder wie im Dienstleistungsvertrag vereinbart.

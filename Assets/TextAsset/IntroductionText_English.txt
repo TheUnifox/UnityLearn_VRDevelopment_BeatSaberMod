@@ -1,0 +1,8 @@
+<size=8><align="center">WELCOME</align></size>
+
+Thanks for purchasing our game. We are a small team working hard to bring you the best VR rhythm experience possible.
+Beat Saber is not finished yet and is still in development. We will add many more things in upcoming weeks and months.
+Stay tuned, have fun and feel the rhythm!
+
+
+<align="center">Beat Saber Team</align>

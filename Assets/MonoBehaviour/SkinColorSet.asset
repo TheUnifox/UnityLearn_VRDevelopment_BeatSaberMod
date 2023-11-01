@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -812704200, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: SkinColorSet
+  m_EditorClassIdentifier:
+  _colors:
+  - {fileID: 11400000, guid: 75702f3d01fc359418215d6819f3c4fa, type: 2}
+  - {fileID: 11400000, guid: 350a26c9e0151da49b831413d172d501, type: 2}
+  - {fileID: 11400000, guid: 21d86649c365f344bafe0bc28af17d9b, type: 2}
+  - {fileID: 11400000, guid: 6e4b5a4084337b644879ac0da265e984, type: 2}
+  - {fileID: 11400000, guid: e2684b8cf360a884fb1cb50130924965, type: 2}
+  - {fileID: 11400000, guid: 63e8de718fe6f7a4d9a524f6886c7292, type: 2}
+  - {fileID: 11400000, guid: cba296e31b1ce404b9ec2e497be81a01, type: 2}
+  - {fileID: 11400000, guid: cf81e3e026de83f46a9ab05898d3d8a5, type: 2}
+  - {fileID: 11400000, guid: 52c671fdbd60f224985591a0aa038a6a, type: 2}
+  - {fileID: 11400000, guid: 077e13269593d5947b42208bc43fef38, type: 2}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1170583302, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: StandardLevelNoTransitionInstallerData
+  m_EditorClassIdentifier:
+  _beatmapLevel: {fileID: 11400000, guid: 19630accf42a07a4293e8e8709657700, type: 2}
+  _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+  _beatmapDifficulty: 3
+  _colorScheme: {fileID: 11400000, guid: 30abae975b9a8d24d9cdb9911cac9e4b, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: f7e58dd216b591e489e0070cd6695571, type: 2}
+  _gameplayModifiers:
+    _energyType: 0
+    _noFailOn0Energy: 0
+    _instaFail: 0
+    _failOnSaberClash: 0
+    _enabledObstacleType: 0
+    _fastNotes: 0
+    _strictAngles: 0
+    _disappearingArrows: 0
+    _ghostNotes: 0
+    _noBombs: 0
+    _songSpeed: 0
+    _noArrows: 0
+    _proMode: 0
+    _zenMode: 0
+    _smallCubes: 0
+  _playerSpecificSettings:
+    _leftHanded: 0
+    _playerHeight: 1.7
+    _automaticPlayerHeight: 1
+    _sfxVolume: 0.7
+    _reduceDebris: 0
+    _noTextsAndHuds: 0
+    _noFailEffects: 0
+    _advancedHud: 0
+    _autoRestart: 0
+    _saberTrailIntensity: 0.5
+    _noteJumpDurationTypeSettings: 0
+    _noteJumpFixedDuration: 0.5
+    _noteJumpStartBeatOffset: 0
+    _hideNoteSpawnEffect: 0
+    _adaptiveSfx: 1
+    _arcsHapticFeedback: 1
+    _arcsVisible: 2
+    _environmentEffectsFilterDefaultPreset: 1
+    _environmentEffectsFilterExpertPlusPreset: 0
+  _practiceSettings:
+    _startSongTime: 0
+    _songSpeedMul: 1
+  _backButtonText: Editor
+  _useTestNoteCutSoundEffects: 0

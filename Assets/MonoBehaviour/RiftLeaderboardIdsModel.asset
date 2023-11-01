@@ -1,0 +1,2587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 757361277, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: RiftLeaderboardIdsModel
+  m_EditorClassIdentifier:
+  _leaderboardIds:
+  - _difficultyBeatmapId: 100BillsEasy
+    _platformLeaderboardId: 100BillsEasy
+  - _difficultyBeatmapId: 100BillsNormal
+    _platformLeaderboardId: 100BillsNormal
+  - _difficultyBeatmapId: 100BillsHard
+    _platformLeaderboardId: 100BillsHard
+  - _difficultyBeatmapId: 100BillsExpert
+    _platformLeaderboardId: 100BillsExpert
+  - _difficultyBeatmapId: 100BillsExpertPlus
+    _platformLeaderboardId: 100BillsExpertPlus
+  - _difficultyBeatmapId: 100BillsNoArrowsEasy
+    _platformLeaderboardId: 100BillsNoArrowsEasy
+  - _difficultyBeatmapId: 100BillsNoArrowsNormal
+    _platformLeaderboardId: 100BillsNoArrowsNormal
+  - _difficultyBeatmapId: 100BillsNoArrowsHard
+    _platformLeaderboardId: 100BillsNoArrowsHard
+  - _difficultyBeatmapId: 100BillsNoArrowsExpert
+    _platformLeaderboardId: 100BillsNoArrowsExpert
+  - _difficultyBeatmapId: 100BillsOneSaberExpert
+    _platformLeaderboardId: 100BillsOneSaberExpert
+  - _difficultyBeatmapId: 100Bills360DegreeNormal
+    _platformLeaderboardId: 100Bills360DegreeNormal
+  - _difficultyBeatmapId: 100Bills90DegreeNormal
+    _platformLeaderboardId: 100Bills90DegreeNormal
+  - _difficultyBeatmapId: BalearicPumpingEasy
+    _platformLeaderboardId: BalearicPumpingEasy
+  - _difficultyBeatmapId: BalearicPumpingNormal
+    _platformLeaderboardId: BalearicPumpingNormal
+  - _difficultyBeatmapId: BalearicPumpingHard
+    _platformLeaderboardId: BalearicPumpingHard
+  - _difficultyBeatmapId: BalearicPumpingExpert
+    _platformLeaderboardId: BalearicPumpingExpert
+  - _difficultyBeatmapId: BalearicPumpingExpertPlus
+    _platformLeaderboardId: BalearicPumpingExpertPlus
+  - _difficultyBeatmapId: BalearicPumpingOneSaberExpert
+    _platformLeaderboardId: BalearicPumpingOneSaberExpert
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsEasy
+    _platformLeaderboardId: BalearicPumpingNoArrowsEasy
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsNormal
+    _platformLeaderboardId: BalearicPumpingNoArrowsNormal
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsHard
+    _platformLeaderboardId: BalearicPumpingNoArrowsHard
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsExpert
+    _platformLeaderboardId: BalearicPumpingNoArrowsExpert
+  - _difficultyBeatmapId: BalearicPumping360DegreeExpertPlus
+    _platformLeaderboardId: BalearicPumping360DegreeExpertPlus
+  - _difficultyBeatmapId: BalearicPumping90DegreeExpertPlus
+    _platformLeaderboardId: BalearicPumping90DegreeExpertPlus
+  - _difficultyBeatmapId: BeatSaberEasy
+    _platformLeaderboardId: BeatSaberEasy
+  - _difficultyBeatmapId: BeatSaberNormal
+    _platformLeaderboardId: BeatSaberNormal
+  - _difficultyBeatmapId: BeatSaberHard
+    _platformLeaderboardId: BeatSaberHard
+  - _difficultyBeatmapId: BeatSaberExpert
+    _platformLeaderboardId: BeatSaberExpert
+  - _difficultyBeatmapId: BeatSaberExpertPlus
+    _platformLeaderboardId: BeatSaberExpertPlus
+  - _difficultyBeatmapId: BeatSaberOneSaberExpert
+    _platformLeaderboardId: BeatSaberOneSaberExpert
+  - _difficultyBeatmapId: BeatSaberNoArrowsEasy
+    _platformLeaderboardId: BeatSaberNoArrowsEasy
+  - _difficultyBeatmapId: BeatSaberNoArrowsNormal
+    _platformLeaderboardId: BeatSaberNoArrowsNormal
+  - _difficultyBeatmapId: BeatSaberNoArrowsHard
+    _platformLeaderboardId: BeatSaberNoArrowsHard
+  - _difficultyBeatmapId: BeatSaberNoArrowsExpert
+    _platformLeaderboardId: BeatSaberNoArrowsExpert
+  - _difficultyBeatmapId: BeatSaber360DegreeEasy
+    _platformLeaderboardId: BeatSaber360DegreeEasy
+  - _difficultyBeatmapId: BeatSaber90DegreeEasy
+    _platformLeaderboardId: BeatSaber90DegreeEasy
+  - _difficultyBeatmapId: BreezerEasy
+    _platformLeaderboardId: BreezerEasy
+  - _difficultyBeatmapId: BreezerNormal
+    _platformLeaderboardId: BreezerNormal
+  - _difficultyBeatmapId: BreezerHard
+    _platformLeaderboardId: BreezerHard
+  - _difficultyBeatmapId: BreezerExpert
+    _platformLeaderboardId: BreezerExpert
+  - _difficultyBeatmapId: BreezerExpertPlus
+    _platformLeaderboardId: BreezerExpertPlus
+  - _difficultyBeatmapId: BreezerOneSaberExpert
+    _platformLeaderboardId: BreezerOneSaberExpert
+  - _difficultyBeatmapId: BreezerNoArrowsEasy
+    _platformLeaderboardId: BreezerNoArrowsEasy
+  - _difficultyBeatmapId: BreezerNoArrowsNormal
+    _platformLeaderboardId: BreezerNoArrowsNormal
+  - _difficultyBeatmapId: BreezerNoArrowsHard
+    _platformLeaderboardId: BreezerNoArrowsHard
+  - _difficultyBeatmapId: BreezerNoArrowsExpert
+    _platformLeaderboardId: BreezerNoArrowsExpert
+  - _difficultyBeatmapId: Breezer360DegreeExpertPlus
+    _platformLeaderboardId: Breezer360DegreeExpertPlus
+  - _difficultyBeatmapId: Breezer90DegreeExpertPlus
+    _platformLeaderboardId: Breezer90DegreeExpertPlus
+  - _difficultyBeatmapId: CommercialPumpingEasy
+    _platformLeaderboardId: CommercialPumpingEasy
+  - _difficultyBeatmapId: CommercialPumpingNormal
+    _platformLeaderboardId: CommercialPumpingNormal
+  - _difficultyBeatmapId: CommercialPumpingHard
+    _platformLeaderboardId: CommercialPumpingHard
+  - _difficultyBeatmapId: CommercialPumpingExpert
+    _platformLeaderboardId: CommercialPumpingExpert
+  - _difficultyBeatmapId: CommercialPumpingExpertPlus
+    _platformLeaderboardId: CommercialPumpingExpertPlus
+  - _difficultyBeatmapId: CommercialPumpingOneSaberExpert
+    _platformLeaderboardId: CommercialPumpingOneSaberExpert
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsEasy
+    _platformLeaderboardId: CommercialPumpingNoArrowsEasy
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsNormal
+    _platformLeaderboardId: CommercialPumpingNoArrowsNormal
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsHard
+    _platformLeaderboardId: CommercialPumpingNoArrowsHard
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsExpert
+    _platformLeaderboardId: CommercialPumpingNoArrowsExpert
+  - _difficultyBeatmapId: CommercialPumping360DegreeNormal
+    _platformLeaderboardId: CommercialPumping360DegreeNormal
+  - _difficultyBeatmapId: CommercialPumping90DegreeNormal
+    _platformLeaderboardId: CommercialPumping90DegreeNormal
+  - _difficultyBeatmapId: CountryRoundsEasy
+    _platformLeaderboardId: CountryRoundsEasy
+  - _difficultyBeatmapId: CountryRoundsNormal
+    _platformLeaderboardId: CountryRoundsNormal
+  - _difficultyBeatmapId: CountryRoundsHard
+    _platformLeaderboardId: CountryRoundsHard
+  - _difficultyBeatmapId: CountryRoundsExpert
+    _platformLeaderboardId: CountryRoundsExpert
+  - _difficultyBeatmapId: CountryRoundsExpertPlus
+    _platformLeaderboardId: CountryRoundsExpertPlus
+  - _difficultyBeatmapId: CountryRoundsOneSaberExpert
+    _platformLeaderboardId: CountryRoundsOneSaberExpert
+  - _difficultyBeatmapId: CountryRoundsNoArrowsEasy
+    _platformLeaderboardId: CountryRoundsNoArrowsEasy
+  - _difficultyBeatmapId: CountryRoundsNoArrowsNormal
+    _platformLeaderboardId: CountryRoundsNoArrowsNormal
+  - _difficultyBeatmapId: CountryRoundsNoArrowsHard
+    _platformLeaderboardId: CountryRoundsNoArrowsHard
+  - _difficultyBeatmapId: CountryRoundsNoArrowsExpert
+    _platformLeaderboardId: CountryRoundsNoArrowsExpert
+  - _difficultyBeatmapId: CountryRounds360DegreeExpert
+    _platformLeaderboardId: CountryRounds360DegreeExpert
+  - _difficultyBeatmapId: CountryRounds90DegreeExpert
+    _platformLeaderboardId: CountryRounds90DegreeExpert
+  - _difficultyBeatmapId: EscapeEasy
+    _platformLeaderboardId: EscapeEasy
+  - _difficultyBeatmapId: EscapeNormal
+    _platformLeaderboardId: EscapeNormal
+  - _difficultyBeatmapId: EscapeHard
+    _platformLeaderboardId: EscapeHard
+  - _difficultyBeatmapId: EscapeExpert
+    _platformLeaderboardId: EscapeExpert
+  - _difficultyBeatmapId: EscapeExpertPlus
+    _platformLeaderboardId: EscapeExpertPlus
+  - _difficultyBeatmapId: EscapeOneSaberExpert
+    _platformLeaderboardId: EscapeOneSaberExpert
+  - _difficultyBeatmapId: EscapeNoArrowsEasy
+    _platformLeaderboardId: EscapeNoArrowsEasy
+  - _difficultyBeatmapId: EscapeNoArrowsNormal
+    _platformLeaderboardId: EscapeNoArrowsNormal
+  - _difficultyBeatmapId: EscapeNoArrowsHard
+    _platformLeaderboardId: EscapeNoArrowsHard
+  - _difficultyBeatmapId: EscapeNoArrowsExpert
+    _platformLeaderboardId: EscapeNoArrowsExpert
+  - _difficultyBeatmapId: Escape360DegreeExpert
+    _platformLeaderboardId: Escape360DegreeExpert
+  - _difficultyBeatmapId: Escape90DegreeExpert
+    _platformLeaderboardId: Escape90DegreeExpert
+  - _difficultyBeatmapId: LegendEasy
+    _platformLeaderboardId: LegendEasy
+  - _difficultyBeatmapId: LegendNormal
+    _platformLeaderboardId: LegendNormal
+  - _difficultyBeatmapId: LegendHard
+    _platformLeaderboardId: LegendHard
+  - _difficultyBeatmapId: LegendExpert
+    _platformLeaderboardId: LegendExpert
+  - _difficultyBeatmapId: LegendExpertPlus
+    _platformLeaderboardId: LegendExpertPlus
+  - _difficultyBeatmapId: LegendNoArrowsEasy
+    _platformLeaderboardId: LegendNoArrowsEasy
+  - _difficultyBeatmapId: LegendNoArrowsNormal
+    _platformLeaderboardId: LegendNoArrowsNormal
+  - _difficultyBeatmapId: LegendNoArrowsHard
+    _platformLeaderboardId: LegendNoArrowsHard
+  - _difficultyBeatmapId: LegendNoArrowsExpert
+    _platformLeaderboardId: LegendNoArrowsExpert
+  - _difficultyBeatmapId: LegendOneSaberExpert
+    _platformLeaderboardId: LegendOneSaberExpert
+  - _difficultyBeatmapId: Legend360DegreeHard
+    _platformLeaderboardId: Legend360DegreeHard
+  - _difficultyBeatmapId: Legend90DegreeHard
+    _platformLeaderboardId: Legend90DegreeHard
+  - _difficultyBeatmapId: LvlInsaneEasy
+    _platformLeaderboardId: LvlInsaneEasy
+  - _difficultyBeatmapId: LvlInsaneNormal
+    _platformLeaderboardId: LvlInsaneNormal
+  - _difficultyBeatmapId: LvlInsaneHard
+    _platformLeaderboardId: LvlInsaneHard
+  - _difficultyBeatmapId: LvlInsaneExpert
+    _platformLeaderboardId: LvlInsaneExpert
+  - _difficultyBeatmapId: LvlInsaneExpertPlus
+    _platformLeaderboardId: LvlInsaneExpertPlus
+  - _difficultyBeatmapId: LvlInsaneOneSaberExpert
+    _platformLeaderboardId: LvlInsaneOneSaberExpert
+  - _difficultyBeatmapId: LvlInsaneNoArrowsEasy
+    _platformLeaderboardId: LvlInsaneNoArrowsEasy
+  - _difficultyBeatmapId: LvlInsaneNoArrowsNormal
+    _platformLeaderboardId: LvlInsaneNoArrowsNormal
+  - _difficultyBeatmapId: LvlInsaneNoArrowsHard
+    _platformLeaderboardId: LvlInsaneNoArrowsHard
+  - _difficultyBeatmapId: LvlInsaneNoArrowsExpert
+    _platformLeaderboardId: LvlInsaneNoArrowsExpert
+  - _difficultyBeatmapId: LvlInsane360DegreeExpert
+    _platformLeaderboardId: LvlInsane360DegreeExpert
+  - _difficultyBeatmapId: LvlInsane90DegreeExpert
+    _platformLeaderboardId: LvlInsane90DegreeExpert
+  - _difficultyBeatmapId: TurnMeOnEasy
+    _platformLeaderboardId: TurnMeOnEasy
+  - _difficultyBeatmapId: TurnMeOnNormal
+    _platformLeaderboardId: TurnMeOnNormal
+  - _difficultyBeatmapId: TurnMeOnHard
+    _platformLeaderboardId: TurnMeOnHard
+  - _difficultyBeatmapId: TurnMeOnExpert
+    _platformLeaderboardId: TurnMeOnExpert
+  - _difficultyBeatmapId: TurnMeOnExpertPlus
+    _platformLeaderboardId: TurnMeOnExpertPlus
+  - _difficultyBeatmapId: TurnMeOnNoArrowsEasy
+    _platformLeaderboardId: TurnMeOnNoArrowsEasy
+  - _difficultyBeatmapId: TurnMeOnNoArrowsNormal
+    _platformLeaderboardId: TurnMeOnNoArrowsNormal
+  - _difficultyBeatmapId: TurnMeOnNoArrowsHard
+    _platformLeaderboardId: TurnMeOnNoArrowsHard
+  - _difficultyBeatmapId: TurnMeOnNoArrowsExpert
+    _platformLeaderboardId: TurnMeOnNoArrowsExpert
+  - _difficultyBeatmapId: TurnMeOnOneSaberExpert
+    _platformLeaderboardId: TurnMeOnOneSaberExpert
+  - _difficultyBeatmapId: TurnMeOn360DegreeEasy
+    _platformLeaderboardId: TurnMeOn360DegreeEasy
+  - _difficultyBeatmapId: TurnMeOn90DegreeEasy
+    _platformLeaderboardId: TurnMeOn90DegreeEasy
+  - _difficultyBeatmapId: BeThereForYouEasy
+    _platformLeaderboardId: BeThereForYouEasy
+  - _difficultyBeatmapId: BeThereForYouNormal
+    _platformLeaderboardId: BeThereForYouNormal
+  - _difficultyBeatmapId: BeThereForYouHard
+    _platformLeaderboardId: BeThereForYouHard
+  - _difficultyBeatmapId: BeThereForYouExpert
+    _platformLeaderboardId: BeThereForYouExpert
+  - _difficultyBeatmapId: BeThereForYouExpertPlus
+    _platformLeaderboardId: BeThereForYouExpertPlus
+  - _difficultyBeatmapId: BeThereForYouOneSaberExpert
+    _platformLeaderboardId: BeThereForYouOneSaberExpert
+  - _difficultyBeatmapId: BeThereForYouNoArrowsEasy
+    _platformLeaderboardId: BeThereForYouNoArrowsEasy
+  - _difficultyBeatmapId: BeThereForYouNoArrowsNormal
+    _platformLeaderboardId: BeThereForYouNoArrowsNormal
+  - _difficultyBeatmapId: BeThereForYouNoArrowsHard
+    _platformLeaderboardId: BeThereForYouNoArrowsHard
+  - _difficultyBeatmapId: BeThereForYouNoArrowsExpert
+    _platformLeaderboardId: BeThereForYouNoArrowsExpert
+  - _difficultyBeatmapId: ElixiaEasy
+    _platformLeaderboardId: ElixiaEasy
+  - _difficultyBeatmapId: ElixiaNormal
+    _platformLeaderboardId: ElixiaNormal
+  - _difficultyBeatmapId: ElixiaHard
+    _platformLeaderboardId: ElixiaHard
+  - _difficultyBeatmapId: ElixiaExpert
+    _platformLeaderboardId: ElixiaExpert
+  - _difficultyBeatmapId: ElixiaExpertPlus
+    _platformLeaderboardId: ElixiaExpertPlus
+  - _difficultyBeatmapId: ElixiaOneSaberExpert
+    _platformLeaderboardId: ElixiaOneSaberExpert
+  - _difficultyBeatmapId: ElixiaNoArrowsEasy
+    _platformLeaderboardId: ElixiaNoArrowsEasy
+  - _difficultyBeatmapId: ElixiaNoArrowsNormal
+    _platformLeaderboardId: ElixiaNoArrowsNormal
+  - _difficultyBeatmapId: ElixiaNoArrowsHard
+    _platformLeaderboardId: ElixiaNoArrowsHard
+  - _difficultyBeatmapId: ElixiaNoArrowsExpert
+    _platformLeaderboardId: ElixiaNoArrowsExpert
+  - _difficultyBeatmapId: INeedYouEasy
+    _platformLeaderboardId: INeedYouEasy
+  - _difficultyBeatmapId: INeedYouNormal
+    _platformLeaderboardId: INeedYouNormal
+  - _difficultyBeatmapId: INeedYouHard
+    _platformLeaderboardId: INeedYouHard
+  - _difficultyBeatmapId: INeedYouExpert
+    _platformLeaderboardId: INeedYouExpert
+  - _difficultyBeatmapId: INeedYouExpertPlus
+    _platformLeaderboardId: INeedYouExpertPlus
+  - _difficultyBeatmapId: INeedYouOneSaberExpert
+    _platformLeaderboardId: INeedYouOneSaberExpert
+  - _difficultyBeatmapId: INeedYouNoArrowsEasy
+    _platformLeaderboardId: INeedYouNoArrowsEasy
+  - _difficultyBeatmapId: INeedYouNoArrowsNormal
+    _platformLeaderboardId: INeedYouNoArrowsNormal
+  - _difficultyBeatmapId: INeedYouNoArrowsHard
+    _platformLeaderboardId: INeedYouNoArrowsHard
+  - _difficultyBeatmapId: INeedYouNoArrowsExpert
+    _platformLeaderboardId: INeedYouNoArrowsExpert
+  - _difficultyBeatmapId: INeedYou360DegreeEasy
+    _platformLeaderboardId: INeedYou360DegreeEasy
+  - _difficultyBeatmapId: INeedYou90DegreeEasy
+    _platformLeaderboardId: INeedYou90DegreeEasy
+  - _difficultyBeatmapId: RumNBassEasy
+    _platformLeaderboardId: RumNBassEasy
+  - _difficultyBeatmapId: RumNBassNormal
+    _platformLeaderboardId: RumNBassNormal
+  - _difficultyBeatmapId: RumNBassHard
+    _platformLeaderboardId: RumNBassHard
+  - _difficultyBeatmapId: RumNBassExpert
+    _platformLeaderboardId: RumNBassExpert
+  - _difficultyBeatmapId: RumNBassExpertPlus
+    _platformLeaderboardId: RumNBassExpertPlus
+  - _difficultyBeatmapId: RumNBassOneSaberExpert
+    _platformLeaderboardId: RumNBassOneSaberExpert
+  - _difficultyBeatmapId: RumNBassNoArrowsEasy
+    _platformLeaderboardId: RumNBassNoArrowsEasy
+  - _difficultyBeatmapId: RumNBassNoArrowsNormal
+    _platformLeaderboardId: RumNBassNoArrowsNormal
+  - _difficultyBeatmapId: RumNBassNoArrowsHard
+    _platformLeaderboardId: RumNBassNoArrowsHard
+  - _difficultyBeatmapId: RumNBassNoArrowsExpert
+    _platformLeaderboardId: RumNBassNoArrowsExpert
+  - _difficultyBeatmapId: RumNBass360DegreeExpertPlus
+    _platformLeaderboardId: RumNBass360DegreeExpertPlus
+  - _difficultyBeatmapId: RumNBass90DegreeExpertPlus
+    _platformLeaderboardId: RumNBass90DegreeExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerEasy
+    _platformLeaderboardId: UnlimitedPowerEasy
+  - _difficultyBeatmapId: UnlimitedPowerNormal
+    _platformLeaderboardId: UnlimitedPowerNormal
+  - _difficultyBeatmapId: UnlimitedPowerHard
+    _platformLeaderboardId: UnlimitedPowerHard
+  - _difficultyBeatmapId: UnlimitedPowerExpert
+    _platformLeaderboardId: UnlimitedPowerExpert
+  - _difficultyBeatmapId: UnlimitedPowerExpertPlus
+    _platformLeaderboardId: UnlimitedPowerExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberNormal
+    _platformLeaderboardId: UnlimitedPowerOneSaberNormal
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberExpert
+    _platformLeaderboardId: UnlimitedPowerOneSaberExpert
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberExpertPlus
+    _platformLeaderboardId: UnlimitedPowerOneSaberExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsEasy
+    _platformLeaderboardId: UnlimitedPowerNoArrowsEasy
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsNormal
+    _platformLeaderboardId: UnlimitedPowerNoArrowsNormal
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsHard
+    _platformLeaderboardId: UnlimitedPowerNoArrowsHard
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsExpert
+    _platformLeaderboardId: UnlimitedPowerNoArrowsExpert
+  - _difficultyBeatmapId: UnlimitedPower360DegreeExpert
+    _platformLeaderboardId: UnlimitedPower360DegreeExpert
+  - _difficultyBeatmapId: UnlimitedPower90DegreeExpert
+    _platformLeaderboardId: UnlimitedPower90DegreeExpert
+  - _difficultyBeatmapId: OriginsEasy
+    _platformLeaderboardId: OriginsEasy
+  - _difficultyBeatmapId: OriginsNormal
+    _platformLeaderboardId: OriginsNormal
+  - _difficultyBeatmapId: OriginsHard
+    _platformLeaderboardId: OriginsHard
+  - _difficultyBeatmapId: OriginsExpert
+    _platformLeaderboardId: OriginsExpert
+  - _difficultyBeatmapId: OriginsExpertPlus
+    _platformLeaderboardId: OriginsExpertPlus
+  - _difficultyBeatmapId: OriginsOneSaberNormal
+    _platformLeaderboardId: OriginsOneSaberNormal
+  - _difficultyBeatmapId: OriginsOneSaberExpert
+    _platformLeaderboardId: OriginsOneSaberExpert
+  - _difficultyBeatmapId: OriginsOneSaberExpertPlus
+    _platformLeaderboardId: OriginsOneSaberExpertPlus
+  - _difficultyBeatmapId: Origins360DegreeNormal
+    _platformLeaderboardId: Origins360DegreeNormal
+  - _difficultyBeatmapId: Origins360DegreeExpert
+    _platformLeaderboardId: Origins360DegreeExpert
+  - _difficultyBeatmapId: Origins360DegreeExpertPlus
+    _platformLeaderboardId: Origins360DegreeExpertPlus
+  - _difficultyBeatmapId: Origins90DegreeNormal
+    _platformLeaderboardId: Origins90DegreeNormal
+  - _difficultyBeatmapId: Origins90DegreeExpert
+    _platformLeaderboardId: Origins90DegreeExpert
+  - _difficultyBeatmapId: Origins90DegreeExpertPlus
+    _platformLeaderboardId: Origins90DegreeExpertPlus
+  - _difficultyBeatmapId: ReasonForLivingEasy
+    _platformLeaderboardId: ReasonForLivingEasy
+  - _difficultyBeatmapId: ReasonForLivingNormal
+    _platformLeaderboardId: ReasonForLivingNormal
+  - _difficultyBeatmapId: ReasonForLivingHard
+    _platformLeaderboardId: ReasonForLivingHard
+  - _difficultyBeatmapId: ReasonForLivingExpert
+    _platformLeaderboardId: ReasonForLivingExpert
+  - _difficultyBeatmapId: ReasonForLivingExpertPlus
+    _platformLeaderboardId: ReasonForLivingExpertPlus
+  - _difficultyBeatmapId: ReasonForLivingOneSaberNormal
+    _platformLeaderboardId: ReasonForLivingOneSaberNormal
+  - _difficultyBeatmapId: ReasonForLivingOneSaberExpert
+    _platformLeaderboardId: ReasonForLivingOneSaberExpert
+  - _difficultyBeatmapId: ReasonForLivingOneSaberExpertPlus
+    _platformLeaderboardId: ReasonForLivingOneSaberExpertPlus
+  - _difficultyBeatmapId: ReasonForLiving360DegreeExpertPlus
+    _platformLeaderboardId: ReasonForLiving360DegreeExpertPlus
+  - _difficultyBeatmapId: ReasonForLiving90DegreeExpertPlus
+    _platformLeaderboardId: ReasonForLiving90DegreeExpertPlus
+  - _difficultyBeatmapId: GiveALittleLoveEasy
+    _platformLeaderboardId: GiveALittleLoveEasy
+  - _difficultyBeatmapId: GiveALittleLoveNormal
+    _platformLeaderboardId: GiveALittleLoveNormal
+  - _difficultyBeatmapId: GiveALittleLoveHard
+    _platformLeaderboardId: GiveALittleLoveHard
+  - _difficultyBeatmapId: GiveALittleLoveExpert
+    _platformLeaderboardId: GiveALittleLoveExpert
+  - _difficultyBeatmapId: GiveALittleLoveExpertPlus
+    _platformLeaderboardId: GiveALittleLoveExpertPlus
+  - _difficultyBeatmapId: FullChargeEasy
+    _platformLeaderboardId: FullChargeEasy
+  - _difficultyBeatmapId: FullChargeNormal
+    _platformLeaderboardId: FullChargeNormal
+  - _difficultyBeatmapId: FullChargeHard
+    _platformLeaderboardId: FullChargeHard
+  - _difficultyBeatmapId: FullChargeExpert
+    _platformLeaderboardId: FullChargeExpert
+  - _difficultyBeatmapId: FullChargeExpertPlus
+    _platformLeaderboardId: FullChargeExpertPlus
+  - _difficultyBeatmapId: ImmortalEasy
+    _platformLeaderboardId: ImmortalEasy
+  - _difficultyBeatmapId: ImmortalNormal
+    _platformLeaderboardId: ImmortalNormal
+  - _difficultyBeatmapId: ImmortalHard
+    _platformLeaderboardId: ImmortalHard
+  - _difficultyBeatmapId: ImmortalExpert
+    _platformLeaderboardId: ImmortalExpert
+  - _difficultyBeatmapId: ImmortalExpertPlus
+    _platformLeaderboardId: ImmortalExpertPlus
+  - _difficultyBeatmapId: Immortal360DegreeNormal
+    _platformLeaderboardId: Immortal360DegreeNormal
+  - _difficultyBeatmapId: Immortal90DegreeNormal
+    _platformLeaderboardId: Immortal90DegreeNormal
+  - _difficultyBeatmapId: BurningSandsEasy
+    _platformLeaderboardId: BurningSandsEasy
+  - _difficultyBeatmapId: BurningSandsNormal
+    _platformLeaderboardId: BurningSandsNormal
+  - _difficultyBeatmapId: BurningSandsHard
+    _platformLeaderboardId: BurningSandsHard
+  - _difficultyBeatmapId: BurningSandsExpert
+    _platformLeaderboardId: BurningSandsExpert
+  - _difficultyBeatmapId: BurningSandsExpertPlus
+    _platformLeaderboardId: BurningSandsExpertPlus
+  - _difficultyBeatmapId: IntoTheDreamEasy
+    _platformLeaderboardId: IntoTheDreamEasy
+  - _difficultyBeatmapId: IntoTheDreamNormal
+    _platformLeaderboardId: IntoTheDreamNormal
+  - _difficultyBeatmapId: IntoTheDreamHard
+    _platformLeaderboardId: IntoTheDreamHard
+  - _difficultyBeatmapId: IntoTheDreamExpert
+    _platformLeaderboardId: IntoTheDreamExpert
+  - _difficultyBeatmapId: IntoTheDreamExpertPlus
+    _platformLeaderboardId: IntoTheDreamExpertPlus
+  - _difficultyBeatmapId: IntoTheDreamOneSaberNormal
+    _platformLeaderboardId: IntoTheDreamOneSaberNormal
+  - _difficultyBeatmapId: IntoTheDreamOneSaberExpert
+    _platformLeaderboardId: IntoTheDreamOneSaberExpert
+  - _difficultyBeatmapId: IntoTheDreamOneSaberExpertPlus
+    _platformLeaderboardId: IntoTheDreamOneSaberExpertPlus
+  - _difficultyBeatmapId: ItTakesMeEasy
+    _platformLeaderboardId: ItTakesMeEasy
+  - _difficultyBeatmapId: ItTakesMeNormal
+    _platformLeaderboardId: ItTakesMeNormal
+  - _difficultyBeatmapId: ItTakesMeHard
+    _platformLeaderboardId: ItTakesMeHard
+  - _difficultyBeatmapId: ItTakesMeExpert
+    _platformLeaderboardId: ItTakesMeExpert
+  - _difficultyBeatmapId: ItTakesMeExpertPlus
+    _platformLeaderboardId: ItTakesMeExpertPlus
+  - _difficultyBeatmapId: LudicrousPlusEasy
+    _platformLeaderboardId: LudicrousPlusEasy
+  - _difficultyBeatmapId: LudicrousPlusNormal
+    _platformLeaderboardId: LudicrousPlusNormal
+  - _difficultyBeatmapId: LudicrousPlusHard
+    _platformLeaderboardId: LudicrousPlusHard
+  - _difficultyBeatmapId: LudicrousPlusExpert
+    _platformLeaderboardId: LudicrousPlusExpert
+  - _difficultyBeatmapId: LudicrousPlusExpertPlus
+    _platformLeaderboardId: LudicrousPlusExpertPlus
+  - _difficultyBeatmapId: LudicrousPlusOneSaberNormal
+    _platformLeaderboardId: LudicrousPlusOneSaberNormal
+  - _difficultyBeatmapId: LudicrousPlusOneSaberExpert
+    _platformLeaderboardId: LudicrousPlusOneSaberExpert
+  - _difficultyBeatmapId: LudicrousPlusOneSaberExpertPlus
+    _platformLeaderboardId: LudicrousPlusOneSaberExpertPlus
+  - _difficultyBeatmapId: SpinEternallyEasy
+    _platformLeaderboardId: SpinEternallyEasy
+  - _difficultyBeatmapId: SpinEternallyNormal
+    _platformLeaderboardId: SpinEternallyNormal
+  - _difficultyBeatmapId: SpinEternallyHard
+    _platformLeaderboardId: SpinEternallyHard
+  - _difficultyBeatmapId: SpinEternallyExpert
+    _platformLeaderboardId: SpinEternallyExpert
+  - _difficultyBeatmapId: SpinEternallyExpertPlus
+    _platformLeaderboardId: SpinEternallyExpertPlus
+  - _difficultyBeatmapId: DollarSeventyEightEasy
+    _platformLeaderboardId: DollarSeventyEightEasy
+  - _difficultyBeatmapId: DollarSeventyEightNormal
+    _platformLeaderboardId: DollarSeventyEightNormal
+  - _difficultyBeatmapId: DollarSeventyEightHard
+    _platformLeaderboardId: DollarSeventyEightHard
+  - _difficultyBeatmapId: DollarSeventyEightExpert
+    _platformLeaderboardId: DollarSeventyEightExpert
+  - _difficultyBeatmapId: DollarSeventyEightExpertPlus
+    _platformLeaderboardId: DollarSeventyEightExpertPlus
+  - _difficultyBeatmapId: CurtainsAllNightLongEasy
+    _platformLeaderboardId: CurtainsAllNightLongEasy
+  - _difficultyBeatmapId: CurtainsAllNightLongNormal
+    _platformLeaderboardId: CurtainsAllNightLongNormal
+  - _difficultyBeatmapId: CurtainsAllNightLongHard
+    _platformLeaderboardId: CurtainsAllNightLongHard
+  - _difficultyBeatmapId: CurtainsAllNightLongExpert
+    _platformLeaderboardId: CurtainsAllNightLongExpert
+  - _difficultyBeatmapId: CurtainsAllNightLongExpertPlus
+    _platformLeaderboardId: CurtainsAllNightLongExpertPlus
+  - _difficultyBeatmapId: FinalBossChanEasy
+    _platformLeaderboardId: FinalBossChanEasy
+  - _difficultyBeatmapId: FinalBossChanNormal
+    _platformLeaderboardId: FinalBossChanNormal
+  - _difficultyBeatmapId: FinalBossChanHard
+    _platformLeaderboardId: FinalBossChanHard
+  - _difficultyBeatmapId: FinalBossChanExpert
+    _platformLeaderboardId: FinalBossChanExpert
+  - _difficultyBeatmapId: FinalBossChanExpertPlus
+    _platformLeaderboardId: FinalBossChanExpertPlus
+  - _difficultyBeatmapId: FirestarterEasy
+    _platformLeaderboardId: FirestarterEasy
+  - _difficultyBeatmapId: FirestarterNormal
+    _platformLeaderboardId: FirestarterNormal
+  - _difficultyBeatmapId: FirestarterHard
+    _platformLeaderboardId: FirestarterHard
+  - _difficultyBeatmapId: FirestarterExpert
+    _platformLeaderboardId: FirestarterExpert
+  - _difficultyBeatmapId: FirestarterExpertPlus
+    _platformLeaderboardId: FirestarterExpertPlus
+  - _difficultyBeatmapId: FirestarterOneSaberNormal
+    _platformLeaderboardId: FirestarterOneSaberNormal
+  - _difficultyBeatmapId: FirestarterOneSaberExpert
+    _platformLeaderboardId: FirestarterOneSaberExpert
+  - _difficultyBeatmapId: FirestarterOneSaberExpertPlus
+    _platformLeaderboardId: FirestarterOneSaberExpertPlus
+  - _difficultyBeatmapId: IWannaBeAMachineEasy
+    _platformLeaderboardId: IWannaBeAMachineEasy
+  - _difficultyBeatmapId: IWannaBeAMachineNormal
+    _platformLeaderboardId: IWannaBeAMachineNormal
+  - _difficultyBeatmapId: IWannaBeAMachineHard
+    _platformLeaderboardId: IWannaBeAMachineHard
+  - _difficultyBeatmapId: IWannaBeAMachineExpert
+    _platformLeaderboardId: IWannaBeAMachineExpert
+  - _difficultyBeatmapId: IWannaBeAMachineExpertPlus
+    _platformLeaderboardId: IWannaBeAMachineExpertPlus
+  - _difficultyBeatmapId: MagicEasy
+    _platformLeaderboardId: MagicEasy
+  - _difficultyBeatmapId: MagicNormal
+    _platformLeaderboardId: MagicNormal
+  - _difficultyBeatmapId: MagicHard
+    _platformLeaderboardId: MagicHard
+  - _difficultyBeatmapId: MagicExpert
+    _platformLeaderboardId: MagicExpert
+  - _difficultyBeatmapId: MagicExpertPlus
+    _platformLeaderboardId: MagicExpertPlus
+  - _difficultyBeatmapId: MagicOneSaberNormal
+    _platformLeaderboardId: MagicOneSaberNormal
+  - _difficultyBeatmapId: MagicOneSaberExpert
+    _platformLeaderboardId: MagicOneSaberExpert
+  - _difficultyBeatmapId: MagicOneSaberExpertPlus
+    _platformLeaderboardId: MagicOneSaberExpertPlus
+  - _difficultyBeatmapId: 100BillsRemixEasy
+    _platformLeaderboardId: 100BillsRemixEasy
+  - _difficultyBeatmapId: 100BillsRemixNormal
+    _platformLeaderboardId: 100BillsRemixNormal
+  - _difficultyBeatmapId: 100BillsRemixHard
+    _platformLeaderboardId: 100BillsRemixHard
+  - _difficultyBeatmapId: 100BillsRemixExpert
+    _platformLeaderboardId: 100BillsRemixExpert
+  - _difficultyBeatmapId: 100BillsRemixExpertPlus
+    _platformLeaderboardId: 100BillsRemixExpertPlus
+  - _difficultyBeatmapId: EscapeRemixEasy
+    _platformLeaderboardId: EscapeRemixEasy
+  - _difficultyBeatmapId: EscapeRemixNormal
+    _platformLeaderboardId: EscapeRemixNormal
+  - _difficultyBeatmapId: EscapeRemixHard
+    _platformLeaderboardId: EscapeRemixHard
+  - _difficultyBeatmapId: EscapeRemixExpert
+    _platformLeaderboardId: EscapeRemixExpert
+  - _difficultyBeatmapId: EscapeRemixExpertPlus
+    _platformLeaderboardId: EscapeRemixExpertPlus
+  - _difficultyBeatmapId: SpookyBeatEasy
+    _platformLeaderboardId: SpookyBeatEasy
+  - _difficultyBeatmapId: SpookyBeatNormal
+    _platformLeaderboardId: SpookyBeatNormal
+  - _difficultyBeatmapId: SpookyBeatHard
+    _platformLeaderboardId: SpookyBeatHard
+  - _difficultyBeatmapId: SpookyBeatExpert
+    _platformLeaderboardId: SpookyBeatExpert
+  - _difficultyBeatmapId: SpookyBeatExpertPlus
+    _platformLeaderboardId: SpookyBeatExpertPlus
+  - _difficultyBeatmapId: FitBeatEasy
+    _platformLeaderboardId: FitBeatEasy
+  - _difficultyBeatmapId: FitBeatNormal
+    _platformLeaderboardId: FitBeatNormal
+  - _difficultyBeatmapId: FitBeatHard
+    _platformLeaderboardId: FitBeatHard
+  - _difficultyBeatmapId: FitBeatExpert
+    _platformLeaderboardId: FitBeatExpert
+  - _difficultyBeatmapId: FitBeatExpertPlus
+    _platformLeaderboardId: FitBeatExpertPlus
+  - _difficultyBeatmapId: FitBeatOneSaberExpert
+    _platformLeaderboardId: FitBeatOneSaberExpert
+  - _difficultyBeatmapId: FitBeat360DegreeNormal
+    _platformLeaderboardId: FitBeat360DegreeNormal
+  - _difficultyBeatmapId: FitBeat360DegreeHard
+    _platformLeaderboardId: FitBeat360DegreeHard
+  - _difficultyBeatmapId: FitBeat360DegreeExpert
+    _platformLeaderboardId: FitBeat360DegreeExpert
+  - _difficultyBeatmapId: FitBeat90DegreeNormal
+    _platformLeaderboardId: FitBeat90DegreeNormal
+  - _difficultyBeatmapId: FitBeat90DegreeHard
+    _platformLeaderboardId: FitBeat90DegreeHard
+  - _difficultyBeatmapId: FitBeat90DegreeExpert
+    _platformLeaderboardId: FitBeat90DegreeExpert
+  - _difficultyBeatmapId: CrabRaveEasy
+    _platformLeaderboardId: CrabRaveEasy
+  - _difficultyBeatmapId: CrabRaveNormal
+    _platformLeaderboardId: CrabRaveNormal
+  - _difficultyBeatmapId: CrabRaveHard
+    _platformLeaderboardId: CrabRaveHard
+  - _difficultyBeatmapId: CrabRaveExpert
+    _platformLeaderboardId: CrabRaveExpert
+  - _difficultyBeatmapId: CrabRaveExpertPlus
+    _platformLeaderboardId: CrabRaveExpertPlus
+  - _difficultyBeatmapId: CrabRaveOneSaberExpert
+    _platformLeaderboardId: CrabRaveOneSaberExpert
+  - _difficultyBeatmapId: CrabRave360DegreeHard
+    _platformLeaderboardId: CrabRave360DegreeHard
+  - _difficultyBeatmapId: CrabRave90DegreeHard
+    _platformLeaderboardId: CrabRave90DegreeHard
+  - _difficultyBeatmapId: PopStarsEasy
+    _platformLeaderboardId: PopStarsEasy
+  - _difficultyBeatmapId: PopStarsNormal
+    _platformLeaderboardId: PopStarsNormal
+  - _difficultyBeatmapId: PopStarsHard
+    _platformLeaderboardId: PopStarsHard
+  - _difficultyBeatmapId: PopStarsExpert
+    _platformLeaderboardId: PopStarsExpert
+  - _difficultyBeatmapId: PopStarsExpertPlus
+    _platformLeaderboardId: PopStarsExpertPlus
+  - _difficultyBeatmapId: PopStarsOneSaberExpert
+    _platformLeaderboardId: PopStarsOneSaberExpert
+  - _difficultyBeatmapId: PopStars360DegreeExpertPlus
+    _platformLeaderboardId: PopStars360DegreeExpertPlus
+  - _difficultyBeatmapId: PopStars90DegreeExpertPlus
+    _platformLeaderboardId: PopStars90DegreeExpertPlus
+  - _difficultyBeatmapId: OneHopeEasy
+    _platformLeaderboardId: OneHopeEasy
+  - _difficultyBeatmapId: OneHopeNormal
+    _platformLeaderboardId: OneHopeNormal
+  - _difficultyBeatmapId: OneHopeHard
+    _platformLeaderboardId: OneHopeHard
+  - _difficultyBeatmapId: OneHopeExpert
+    _platformLeaderboardId: OneHopeExpert
+  - _difficultyBeatmapId: OneHopeExpertPlus
+    _platformLeaderboardId: OneHopeExpertPlus
+  - _difficultyBeatmapId: OneHopeOneSaberExpert
+    _platformLeaderboardId: OneHopeOneSaberExpert
+  - _difficultyBeatmapId: AngelVoicesEasy
+    _platformLeaderboardId: AngelVoicesEasy
+  - _difficultyBeatmapId: AngelVoicesNormal
+    _platformLeaderboardId: AngelVoicesNormal
+  - _difficultyBeatmapId: AngelVoicesHard
+    _platformLeaderboardId: AngelVoicesHard
+  - _difficultyBeatmapId: AngelVoicesExpert
+    _platformLeaderboardId: AngelVoicesExpert
+  - _difficultyBeatmapId: AngelVoicesExpertPlus
+    _platformLeaderboardId: AngelVoicesExpertPlus
+  - _difficultyBeatmapId: AngelVoicesNoArrowsEasy
+    _platformLeaderboardId: AngelVoicesNoArrowsEasy
+  - _difficultyBeatmapId: AngelVoicesNoArrowsNormal
+    _platformLeaderboardId: AngelVoicesNoArrowsNormal
+  - _difficultyBeatmapId: AngelVoicesNoArrowsHard
+    _platformLeaderboardId: AngelVoicesNoArrowsHard
+  - _difficultyBeatmapId: AngelVoicesNoArrowsExpert
+    _platformLeaderboardId: AngelVoicesNoArrowsExpert
+  - _difficultyBeatmapId: AngelVoicesOneSaberExpert
+    _platformLeaderboardId: AngelVoicesOneSaberExpert
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereEasy
+    _platformLeaderboardId: ExitThisEarthsAtomosphereEasy
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereNormal
+    _platformLeaderboardId: ExitThisEarthsAtomosphereNormal
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereHard
+    _platformLeaderboardId: ExitThisEarthsAtomosphereHard
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereExpert
+    _platformLeaderboardId: ExitThisEarthsAtomosphereExpert
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereExpertPlus
+    _platformLeaderboardId: ExitThisEarthsAtomosphereExpertPlus
+  - _difficultyBeatmapId: GhostEasy
+    _platformLeaderboardId: GhostEasy
+  - _difficultyBeatmapId: GhostNormal
+    _platformLeaderboardId: GhostNormal
+  - _difficultyBeatmapId: GhostHard
+    _platformLeaderboardId: GhostHard
+  - _difficultyBeatmapId: GhostExpert
+    _platformLeaderboardId: GhostExpert
+  - _difficultyBeatmapId: GhostExpertPlus
+    _platformLeaderboardId: GhostExpertPlus
+  - _difficultyBeatmapId: GhostOneSaberNormal
+    _platformLeaderboardId: GhostOneSaberNormal
+  - _difficultyBeatmapId: GhostOneSaberExpert
+    _platformLeaderboardId: GhostOneSaberExpert
+  - _difficultyBeatmapId: GhostOneSaberExpertPlus
+    _platformLeaderboardId: GhostOneSaberExpertPlus
+  - _difficultyBeatmapId: LightItUpEasy
+    _platformLeaderboardId: LightItUpEasy
+  - _difficultyBeatmapId: LightItUpNormal
+    _platformLeaderboardId: LightItUpNormal
+  - _difficultyBeatmapId: LightItUpHard
+    _platformLeaderboardId: LightItUpHard
+  - _difficultyBeatmapId: LightItUpExpert
+    _platformLeaderboardId: LightItUpExpert
+  - _difficultyBeatmapId: LightItUpExpertPlus
+    _platformLeaderboardId: LightItUpExpertPlus
+  - _difficultyBeatmapId: CrystallizedEasy
+    _platformLeaderboardId: CrystallizedEasy
+  - _difficultyBeatmapId: CrystallizedNormal
+    _platformLeaderboardId: CrystallizedNormal
+  - _difficultyBeatmapId: CrystallizedHard
+    _platformLeaderboardId: CrystallizedHard
+  - _difficultyBeatmapId: CrystallizedExpert
+    _platformLeaderboardId: CrystallizedExpert
+  - _difficultyBeatmapId: CrystallizedExpertPlus
+    _platformLeaderboardId: CrystallizedExpertPlus
+  - _difficultyBeatmapId: CycleHitEasy
+    _platformLeaderboardId: CycleHitEasy
+  - _difficultyBeatmapId: CycleHitNormal
+    _platformLeaderboardId: CycleHitNormal
+  - _difficultyBeatmapId: CycleHitHard
+    _platformLeaderboardId: CycleHitHard
+  - _difficultyBeatmapId: CycleHitExpert
+    _platformLeaderboardId: CycleHitExpert
+  - _difficultyBeatmapId: CycleHitExpertPlus
+    _platformLeaderboardId: CycleHitExpertPlus
+  - _difficultyBeatmapId: CycleHitOneSaberNormal
+    _platformLeaderboardId: CycleHitOneSaberNormal
+  - _difficultyBeatmapId: CycleHitOneSaberExpert
+    _platformLeaderboardId: CycleHitOneSaberExpert
+  - _difficultyBeatmapId: CycleHitOneSaberExpertPlus
+    _platformLeaderboardId: CycleHitOneSaberExpertPlus
+  - _difficultyBeatmapId: WhatTheCatEasy
+    _platformLeaderboardId: WhatTheCatEasy
+  - _difficultyBeatmapId: WhatTheCatNormal
+    _platformLeaderboardId: WhatTheCatNormal
+  - _difficultyBeatmapId: WhatTheCatHard
+    _platformLeaderboardId: WhatTheCatHard
+  - _difficultyBeatmapId: WhatTheCatExpert
+    _platformLeaderboardId: WhatTheCatExpert
+  - _difficultyBeatmapId: WhatTheCatExpertPlus
+    _platformLeaderboardId: WhatTheCatExpertPlus
+  - _difficultyBeatmapId: 2BeLovedEasy
+    _platformLeaderboardId: 2BeLovedEasy
+  - _difficultyBeatmapId: 2BeLovedNormal
+    _platformLeaderboardId: 2BeLovedNormal
+  - _difficultyBeatmapId: 2BeLovedHard
+    _platformLeaderboardId: 2BeLovedHard
+  - _difficultyBeatmapId: 2BeLovedExpert
+    _platformLeaderboardId: 2BeLovedExpert
+  - _difficultyBeatmapId: 2BeLovedExpertPlus
+    _platformLeaderboardId: 2BeLovedExpertPlus
+  - _difficultyBeatmapId: 2BeLovedOneSaberNormal
+    _platformLeaderboardId: 2BeLovedOneSaberNormal
+  - _difficultyBeatmapId: 2BeLovedOneSaberExpert
+    _platformLeaderboardId: 2BeLovedOneSaberExpert
+  - _difficultyBeatmapId: 2BeLovedOneSaberExpertPlus
+    _platformLeaderboardId: 2BeLovedOneSaberExpertPlus
+  - _difficultyBeatmapId: AboutDamnTimeEasy
+    _platformLeaderboardId: AboutDamnTimeEasy
+  - _difficultyBeatmapId: AboutDamnTimeNormal
+    _platformLeaderboardId: AboutDamnTimeNormal
+  - _difficultyBeatmapId: AboutDamnTimeHard
+    _platformLeaderboardId: AboutDamnTimeHard
+  - _difficultyBeatmapId: AboutDamnTimeExpert
+    _platformLeaderboardId: AboutDamnTimeExpert
+  - _difficultyBeatmapId: AboutDamnTimeExpertPlus
+    _platformLeaderboardId: AboutDamnTimeExpertPlus
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberNormal
+    _platformLeaderboardId: AboutDamnTimeOneSaberNormal
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberExpert
+    _platformLeaderboardId: AboutDamnTimeOneSaberExpert
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberExpertPlus
+    _platformLeaderboardId: AboutDamnTimeOneSaberExpertPlus
+  - _difficultyBeatmapId: CuzILoveYouEasy
+    _platformLeaderboardId: CuzILoveYouEasy
+  - _difficultyBeatmapId: CuzILoveYouNormal
+    _platformLeaderboardId: CuzILoveYouNormal
+  - _difficultyBeatmapId: CuzILoveYouHard
+    _platformLeaderboardId: CuzILoveYouHard
+  - _difficultyBeatmapId: CuzILoveYouExpert
+    _platformLeaderboardId: CuzILoveYouExpert
+  - _difficultyBeatmapId: CuzILoveYouExpertPlus
+    _platformLeaderboardId: CuzILoveYouExpertPlus
+  - _difficultyBeatmapId: EverybodysGayEasy
+    _platformLeaderboardId: EverybodysGayEasy
+  - _difficultyBeatmapId: EverybodysGayNormal
+    _platformLeaderboardId: EverybodysGayNormal
+  - _difficultyBeatmapId: EverybodysGayHard
+    _platformLeaderboardId: EverybodysGayHard
+  - _difficultyBeatmapId: EverybodysGayExpert
+    _platformLeaderboardId: EverybodysGayExpert
+  - _difficultyBeatmapId: EverybodysGayExpertPlus
+    _platformLeaderboardId: EverybodysGayExpertPlus
+  - _difficultyBeatmapId: GoodAsHellEasy
+    _platformLeaderboardId: GoodAsHellEasy
+  - _difficultyBeatmapId: GoodAsHellNormal
+    _platformLeaderboardId: GoodAsHellNormal
+  - _difficultyBeatmapId: GoodAsHellHard
+    _platformLeaderboardId: GoodAsHellHard
+  - _difficultyBeatmapId: GoodAsHellExpert
+    _platformLeaderboardId: GoodAsHellExpert
+  - _difficultyBeatmapId: GoodAsHellExpertPlus
+    _platformLeaderboardId: GoodAsHellExpertPlus
+  - _difficultyBeatmapId: JuiceEasy
+    _platformLeaderboardId: JuiceEasy
+  - _difficultyBeatmapId: JuiceNormal
+    _platformLeaderboardId: JuiceNormal
+  - _difficultyBeatmapId: JuiceHard
+    _platformLeaderboardId: JuiceHard
+  - _difficultyBeatmapId: JuiceExpert
+    _platformLeaderboardId: JuiceExpert
+  - _difficultyBeatmapId: JuiceExpertPlus
+    _platformLeaderboardId: JuiceExpertPlus
+  - _difficultyBeatmapId: TempoEasy
+    _platformLeaderboardId: TempoEasy
+  - _difficultyBeatmapId: TempoNormal
+    _platformLeaderboardId: TempoNormal
+  - _difficultyBeatmapId: TempoHard
+    _platformLeaderboardId: TempoHard
+  - _difficultyBeatmapId: TempoExpert
+    _platformLeaderboardId: TempoExpert
+  - _difficultyBeatmapId: TempoExpertPlus
+    _platformLeaderboardId: TempoExpertPlus
+  - _difficultyBeatmapId: TruthHurtsEasy
+    _platformLeaderboardId: TruthHurtsEasy
+  - _difficultyBeatmapId: TruthHurtsNormal
+    _platformLeaderboardId: TruthHurtsNormal
+  - _difficultyBeatmapId: TruthHurtsHard
+    _platformLeaderboardId: TruthHurtsHard
+  - _difficultyBeatmapId: TruthHurtsExpert
+    _platformLeaderboardId: TruthHurtsExpert
+  - _difficultyBeatmapId: TruthHurtsExpertPlus
+    _platformLeaderboardId: TruthHurtsExpertPlus
+  - _difficultyBeatmapId: WorshipEasy
+    _platformLeaderboardId: WorshipEasy
+  - _difficultyBeatmapId: WorshipNormal
+    _platformLeaderboardId: WorshipNormal
+  - _difficultyBeatmapId: WorshipHard
+    _platformLeaderboardId: WorshipHard
+  - _difficultyBeatmapId: WorshipExpert
+    _platformLeaderboardId: WorshipExpert
+  - _difficultyBeatmapId: WorshipExpertPlus
+    _platformLeaderboardId: WorshipExpertPlus
+  - _difficultyBeatmapId: AloneEasy
+    _platformLeaderboardId: AloneEasy
+  - _difficultyBeatmapId: AloneNormal
+    _platformLeaderboardId: AloneNormal
+  - _difficultyBeatmapId: AloneHard
+    _platformLeaderboardId: AloneHard
+  - _difficultyBeatmapId: AloneExpert
+    _platformLeaderboardId: AloneExpert
+  - _difficultyBeatmapId: AloneExpertPlus
+    _platformLeaderboardId: AloneExpertPlus
+  - _difficultyBeatmapId: AnimalsEasy
+    _platformLeaderboardId: AnimalsEasy
+  - _difficultyBeatmapId: AnimalsNormal
+    _platformLeaderboardId: AnimalsNormal
+  - _difficultyBeatmapId: AnimalsHard
+    _platformLeaderboardId: AnimalsHard
+  - _difficultyBeatmapId: AnimalsExpert
+    _platformLeaderboardId: AnimalsExpert
+  - _difficultyBeatmapId: AnimalsExpertPlus
+    _platformLeaderboardId: AnimalsExpertPlus
+  - _difficultyBeatmapId: FreestylerEasy
+    _platformLeaderboardId: FreestylerEasy
+  - _difficultyBeatmapId: FreestylerNormal
+    _platformLeaderboardId: FreestylerNormal
+  - _difficultyBeatmapId: FreestylerHard
+    _platformLeaderboardId: FreestylerHard
+  - _difficultyBeatmapId: FreestylerExpert
+    _platformLeaderboardId: FreestylerExpert
+  - _difficultyBeatmapId: FreestylerExpertPlus
+    _platformLeaderboardId: FreestylerExpertPlus
+  - _difficultyBeatmapId: GhostsNStuffEasy
+    _platformLeaderboardId: GhostsNStuffEasy
+  - _difficultyBeatmapId: GhostsNStuffNormal
+    _platformLeaderboardId: GhostsNStuffNormal
+  - _difficultyBeatmapId: GhostsNStuffHard
+    _platformLeaderboardId: GhostsNStuffHard
+  - _difficultyBeatmapId: GhostsNStuffExpert
+    _platformLeaderboardId: GhostsNStuffExpert
+  - _difficultyBeatmapId: GhostsNStuffExpertPlus
+    _platformLeaderboardId: GhostsNStuffExpertPlus
+  - _difficultyBeatmapId: GhostsNStuffOneSaberNormal
+    _platformLeaderboardId: GhostsNStuffOneSaberNormal
+  - _difficultyBeatmapId: GhostsNStuffOneSaberExpert
+    _platformLeaderboardId: GhostsNStuffOneSaberExpert
+  - _difficultyBeatmapId: GhostsNStuffOneSaberExpertPlus
+    _platformLeaderboardId: GhostsNStuffOneSaberExpertPlus
+  - _difficultyBeatmapId: IcarusEasy
+    _platformLeaderboardId: IcarusEasy
+  - _difficultyBeatmapId: IcarusNormal
+    _platformLeaderboardId: IcarusNormal
+  - _difficultyBeatmapId: IcarusHard
+    _platformLeaderboardId: IcarusHard
+  - _difficultyBeatmapId: IcarusExpert
+    _platformLeaderboardId: IcarusExpert
+  - _difficultyBeatmapId: IcarusExpertPlus
+    _platformLeaderboardId: IcarusExpertPlus
+  - _difficultyBeatmapId: IcarusOneSaberNormal
+    _platformLeaderboardId: IcarusOneSaberNormal
+  - _difficultyBeatmapId: IcarusOneSaberExpert
+    _platformLeaderboardId: IcarusOneSaberExpert
+  - _difficultyBeatmapId: IcarusOneSaberExpertPlus
+    _platformLeaderboardId: IcarusOneSaberExpertPlus
+  - _difficultyBeatmapId: SandstormEasy
+    _platformLeaderboardId: SandstormEasy
+  - _difficultyBeatmapId: SandstormNormal
+    _platformLeaderboardId: SandstormNormal
+  - _difficultyBeatmapId: SandstormHard
+    _platformLeaderboardId: SandstormHard
+  - _difficultyBeatmapId: SandstormExpert
+    _platformLeaderboardId: SandstormExpert
+  - _difficultyBeatmapId: SandstormExpertPlus
+    _platformLeaderboardId: SandstormExpertPlus
+  - _difficultyBeatmapId: StayTheNightEasy
+    _platformLeaderboardId: StayTheNightEasy
+  - _difficultyBeatmapId: StayTheNightNormal
+    _platformLeaderboardId: StayTheNightNormal
+  - _difficultyBeatmapId: StayTheNightHard
+    _platformLeaderboardId: StayTheNightHard
+  - _difficultyBeatmapId: StayTheNightExpert
+    _platformLeaderboardId: StayTheNightExpert
+  - _difficultyBeatmapId: StayTheNightExpertPlus
+    _platformLeaderboardId: StayTheNightExpertPlus
+  - _difficultyBeatmapId: TheRockafellerSkankEasy
+    _platformLeaderboardId: TheRockafellerSkankEasy
+  - _difficultyBeatmapId: TheRockafellerSkankNormal
+    _platformLeaderboardId: TheRockafellerSkankNormal
+  - _difficultyBeatmapId: TheRockafellerSkankHard
+    _platformLeaderboardId: TheRockafellerSkankHard
+  - _difficultyBeatmapId: TheRockafellerSkankExpert
+    _platformLeaderboardId: TheRockafellerSkankExpert
+  - _difficultyBeatmapId: TheRockafellerSkankExpertPlus
+    _platformLeaderboardId: TheRockafellerSkankExpertPlus
+  - _difficultyBeatmapId: WaitingAllNightEasy
+    _platformLeaderboardId: WaitingAllNightEasy
+  - _difficultyBeatmapId: WaitingAllNightNormal
+    _platformLeaderboardId: WaitingAllNightNormal
+  - _difficultyBeatmapId: WaitingAllNightHard
+    _platformLeaderboardId: WaitingAllNightHard
+  - _difficultyBeatmapId: WaitingAllNightExpert
+    _platformLeaderboardId: WaitingAllNightExpert
+  - _difficultyBeatmapId: WaitingAllNightExpertPlus
+    _platformLeaderboardId: WaitingAllNightExpertPlus
+  - _difficultyBeatmapId: WitchcraftEasy
+    _platformLeaderboardId: WitchcraftEasy
+  - _difficultyBeatmapId: WitchcraftNormal
+    _platformLeaderboardId: WitchcraftNormal
+  - _difficultyBeatmapId: WitchcraftHard
+    _platformLeaderboardId: WitchcraftHard
+  - _difficultyBeatmapId: WitchcraftExpert
+    _platformLeaderboardId: WitchcraftExpert
+  - _difficultyBeatmapId: WitchcraftExpertPlus
+    _platformLeaderboardId: WitchcraftExpertPlus
+  - _difficultyBeatmapId: CenturiesEasy
+    _platformLeaderboardId: CenturiesEasy
+  - _difficultyBeatmapId: CenturiesNormal
+    _platformLeaderboardId: CenturiesNormal
+  - _difficultyBeatmapId: CenturiesHard
+    _platformLeaderboardId: CenturiesHard
+  - _difficultyBeatmapId: CenturiesExpert
+    _platformLeaderboardId: CenturiesExpert
+  - _difficultyBeatmapId: CenturiesExpertPlus
+    _platformLeaderboardId: CenturiesExpertPlus
+  - _difficultyBeatmapId: DanceDanceEasy
+    _platformLeaderboardId: DanceDanceEasy
+  - _difficultyBeatmapId: DanceDanceNormal
+    _platformLeaderboardId: DanceDanceNormal
+  - _difficultyBeatmapId: DanceDanceHard
+    _platformLeaderboardId: DanceDanceHard
+  - _difficultyBeatmapId: DanceDanceExpert
+    _platformLeaderboardId: DanceDanceExpert
+  - _difficultyBeatmapId: DanceDanceExpertPlus
+    _platformLeaderboardId: DanceDanceExpertPlus
+  - _difficultyBeatmapId: IDontCareEasy
+    _platformLeaderboardId: IDontCareEasy
+  - _difficultyBeatmapId: IDontCareNormal
+    _platformLeaderboardId: IDontCareNormal
+  - _difficultyBeatmapId: IDontCareHard
+    _platformLeaderboardId: IDontCareHard
+  - _difficultyBeatmapId: IDontCareExpert
+    _platformLeaderboardId: IDontCareExpert
+  - _difficultyBeatmapId: IDontCareExpertPlus
+    _platformLeaderboardId: IDontCareExpertPlus
+  - _difficultyBeatmapId: IDontCareOneSaberNormal
+    _platformLeaderboardId: IDontCareOneSaberNormal
+  - _difficultyBeatmapId: IDontCareOneSaberExpert
+    _platformLeaderboardId: IDontCareOneSaberExpert
+  - _difficultyBeatmapId: IDontCareOneSaberExpertPlus
+    _platformLeaderboardId: IDontCareOneSaberExpertPlus
+  - _difficultyBeatmapId: ImmortalsEasy
+    _platformLeaderboardId: ImmortalsEasy
+  - _difficultyBeatmapId: ImmortalsNormal
+    _platformLeaderboardId: ImmortalsNormal
+  - _difficultyBeatmapId: ImmortalsHard
+    _platformLeaderboardId: ImmortalsHard
+  - _difficultyBeatmapId: ImmortalsExpert
+    _platformLeaderboardId: ImmortalsExpert
+  - _difficultyBeatmapId: ImmortalsExpertPlus
+    _platformLeaderboardId: ImmortalsExpertPlus
+  - _difficultyBeatmapId: IrresistibleEasy
+    _platformLeaderboardId: IrresistibleEasy
+  - _difficultyBeatmapId: IrresistibleNormal
+    _platformLeaderboardId: IrresistibleNormal
+  - _difficultyBeatmapId: IrresistibleHard
+    _platformLeaderboardId: IrresistibleHard
+  - _difficultyBeatmapId: IrresistibleExpert
+    _platformLeaderboardId: IrresistibleExpert
+  - _difficultyBeatmapId: IrresistibleExpertPlus
+    _platformLeaderboardId: IrresistibleExpertPlus
+  - _difficultyBeatmapId: MySongsKnowEasy
+    _platformLeaderboardId: MySongsKnowEasy
+  - _difficultyBeatmapId: MySongsKnowNormal
+    _platformLeaderboardId: MySongsKnowNormal
+  - _difficultyBeatmapId: MySongsKnowHard
+    _platformLeaderboardId: MySongsKnowHard
+  - _difficultyBeatmapId: MySongsKnowExpert
+    _platformLeaderboardId: MySongsKnowExpert
+  - _difficultyBeatmapId: MySongsKnowExpertPlus
+    _platformLeaderboardId: MySongsKnowExpertPlus
+  - _difficultyBeatmapId: MySongsKnowOneSaberNormal
+    _platformLeaderboardId: MySongsKnowOneSaberNormal
+  - _difficultyBeatmapId: MySongsKnowOneSaberExpert
+    _platformLeaderboardId: MySongsKnowOneSaberExpert
+  - _difficultyBeatmapId: MySongsKnowOneSaberExpertPlus
+    _platformLeaderboardId: MySongsKnowOneSaberExpertPlus
+  - _difficultyBeatmapId: ThisAintASceneEasy
+    _platformLeaderboardId: ThisAintASceneEasy
+  - _difficultyBeatmapId: ThisAintASceneNormal
+    _platformLeaderboardId: ThisAintASceneNormal
+  - _difficultyBeatmapId: ThisAintASceneHard
+    _platformLeaderboardId: ThisAintASceneHard
+  - _difficultyBeatmapId: ThisAintASceneExpert
+    _platformLeaderboardId: ThisAintASceneExpert
+  - _difficultyBeatmapId: ThisAintASceneExpertPlus
+    _platformLeaderboardId: ThisAintASceneExpertPlus
+  - _difficultyBeatmapId: ThnksFrThMmrsEasy
+    _platformLeaderboardId: ThnksFrThMmrsEasy
+  - _difficultyBeatmapId: ThnksFrThMmrsNormal
+    _platformLeaderboardId: ThnksFrThMmrsNormal
+  - _difficultyBeatmapId: ThnksFrThMmrsHard
+    _platformLeaderboardId: ThnksFrThMmrsHard
+  - _difficultyBeatmapId: ThnksFrThMmrsExpert
+    _platformLeaderboardId: ThnksFrThMmrsExpert
+  - _difficultyBeatmapId: ThnksFrThMmrsExpertPlus
+    _platformLeaderboardId: ThnksFrThMmrsExpertPlus
+  - _difficultyBeatmapId: AlejandroEasy
+    _platformLeaderboardId: AlejandroEasy
+  - _difficultyBeatmapId: AlejandroNormal
+    _platformLeaderboardId: AlejandroNormal
+  - _difficultyBeatmapId: AlejandroHard
+    _platformLeaderboardId: AlejandroHard
+  - _difficultyBeatmapId: AlejandroExpert
+    _platformLeaderboardId: AlejandroExpert
+  - _difficultyBeatmapId: AlejandroExpertPlus
+    _platformLeaderboardId: AlejandroExpertPlus
+  - _difficultyBeatmapId: BadRomanceEasy
+    _platformLeaderboardId: BadRomanceEasy
+  - _difficultyBeatmapId: BadRomanceNormal
+    _platformLeaderboardId: BadRomanceNormal
+  - _difficultyBeatmapId: BadRomanceHard
+    _platformLeaderboardId: BadRomanceHard
+  - _difficultyBeatmapId: BadRomanceExpert
+    _platformLeaderboardId: BadRomanceExpert
+  - _difficultyBeatmapId: BadRomanceExpertPlus
+    _platformLeaderboardId: BadRomanceExpertPlus
+  - _difficultyBeatmapId: BornThisWayEasy
+    _platformLeaderboardId: BornThisWayEasy
+  - _difficultyBeatmapId: BornThisWayNormal
+    _platformLeaderboardId: BornThisWayNormal
+  - _difficultyBeatmapId: BornThisWayHard
+    _platformLeaderboardId: BornThisWayHard
+  - _difficultyBeatmapId: BornThisWayExpert
+    _platformLeaderboardId: BornThisWayExpert
+  - _difficultyBeatmapId: BornThisWayExpertPlus
+    _platformLeaderboardId: BornThisWayExpertPlus
+  - _difficultyBeatmapId: JustDanceEasy
+    _platformLeaderboardId: JustDanceEasy
+  - _difficultyBeatmapId: JustDanceNormal
+    _platformLeaderboardId: JustDanceNormal
+  - _difficultyBeatmapId: JustDanceHard
+    _platformLeaderboardId: JustDanceHard
+  - _difficultyBeatmapId: JustDanceExpert
+    _platformLeaderboardId: JustDanceExpert
+  - _difficultyBeatmapId: JustDanceExpertPlus
+    _platformLeaderboardId: JustDanceExpertPlus
+  - _difficultyBeatmapId: PaparazziEasy
+    _platformLeaderboardId: PaparazziEasy
+  - _difficultyBeatmapId: PaparazziNormal
+    _platformLeaderboardId: PaparazziNormal
+  - _difficultyBeatmapId: PaparazziHard
+    _platformLeaderboardId: PaparazziHard
+  - _difficultyBeatmapId: PaparazziExpert
+    _platformLeaderboardId: PaparazziExpert
+  - _difficultyBeatmapId: PaparazziExpertPlus
+    _platformLeaderboardId: PaparazziExpertPlus
+  - _difficultyBeatmapId: PokerFaceEasy
+    _platformLeaderboardId: PokerFaceEasy
+  - _difficultyBeatmapId: PokerFaceNormal
+    _platformLeaderboardId: PokerFaceNormal
+  - _difficultyBeatmapId: PokerFaceHard
+    _platformLeaderboardId: PokerFaceHard
+  - _difficultyBeatmapId: PokerFaceExpert
+    _platformLeaderboardId: PokerFaceExpert
+  - _difficultyBeatmapId: PokerFaceExpertPlus
+    _platformLeaderboardId: PokerFaceExpertPlus
+  - _difficultyBeatmapId: PokerFaceOneSaberNormal
+    _platformLeaderboardId: PokerFaceOneSaberNormal
+  - _difficultyBeatmapId: PokerFaceOneSaberExpert
+    _platformLeaderboardId: PokerFaceOneSaberExpert
+  - _difficultyBeatmapId: PokerFaceOneSaberExpertPlus
+    _platformLeaderboardId: PokerFaceOneSaberExpertPlus
+  - _difficultyBeatmapId: RainOnMeEasy
+    _platformLeaderboardId: RainOnMeEasy
+  - _difficultyBeatmapId: RainOnMeNormal
+    _platformLeaderboardId: RainOnMeNormal
+  - _difficultyBeatmapId: RainOnMeHard
+    _platformLeaderboardId: RainOnMeHard
+  - _difficultyBeatmapId: RainOnMeExpert
+    _platformLeaderboardId: RainOnMeExpert
+  - _difficultyBeatmapId: RainOnMeExpertPlus
+    _platformLeaderboardId: RainOnMeExpertPlus
+  - _difficultyBeatmapId: RainOnMeOneSaberNormal
+    _platformLeaderboardId: RainOnMeOneSaberNormal
+  - _difficultyBeatmapId: RainOnMeOneSaberExpert
+    _platformLeaderboardId: RainOnMeOneSaberExpert
+  - _difficultyBeatmapId: RainOnMeOneSaberExpertPlus
+    _platformLeaderboardId: RainOnMeOneSaberExpertPlus
+  - _difficultyBeatmapId: StupidLoveEasy
+    _platformLeaderboardId: StupidLoveEasy
+  - _difficultyBeatmapId: StupidLoveNormal
+    _platformLeaderboardId: StupidLoveNormal
+  - _difficultyBeatmapId: StupidLoveHard
+    _platformLeaderboardId: StupidLoveHard
+  - _difficultyBeatmapId: StupidLoveExpert
+    _platformLeaderboardId: StupidLoveExpert
+  - _difficultyBeatmapId: StupidLoveExpertPlus
+    _platformLeaderboardId: StupidLoveExpertPlus
+  - _difficultyBeatmapId: TelephoneEasy
+    _platformLeaderboardId: TelephoneEasy
+  - _difficultyBeatmapId: TelephoneNormal
+    _platformLeaderboardId: TelephoneNormal
+  - _difficultyBeatmapId: TelephoneHard
+    _platformLeaderboardId: TelephoneHard
+  - _difficultyBeatmapId: TelephoneExpert
+    _platformLeaderboardId: TelephoneExpert
+  - _difficultyBeatmapId: TelephoneExpertPlus
+    _platformLeaderboardId: TelephoneExpertPlus
+  - _difficultyBeatmapId: TheEdgeOfGloryEasy
+    _platformLeaderboardId: TheEdgeOfGloryEasy
+  - _difficultyBeatmapId: TheEdgeOfGloryNormal
+    _platformLeaderboardId: TheEdgeOfGloryNormal
+  - _difficultyBeatmapId: TheEdgeOfGloryHard
+    _platformLeaderboardId: TheEdgeOfGloryHard
+  - _difficultyBeatmapId: TheEdgeOfGloryExpert
+    _platformLeaderboardId: TheEdgeOfGloryExpert
+  - _difficultyBeatmapId: TheEdgeOfGloryExpertPlus
+    _platformLeaderboardId: TheEdgeOfGloryExpertPlus
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellEasy
+    _platformLeaderboardId: AllTheGoodGirlsGoToHellEasy
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellNormal
+    _platformLeaderboardId: AllTheGoodGirlsGoToHellNormal
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellHard
+    _platformLeaderboardId: AllTheGoodGirlsGoToHellHard
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellExpert
+    _platformLeaderboardId: AllTheGoodGirlsGoToHellExpert
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellExpertPlus
+    _platformLeaderboardId: AllTheGoodGirlsGoToHellExpertPlus
+  - _difficultyBeatmapId: BadGuyEasy
+    _platformLeaderboardId: BadGuyEasy
+  - _difficultyBeatmapId: BadGuyNormal
+    _platformLeaderboardId: BadGuyNormal
+  - _difficultyBeatmapId: BadGuyHard
+    _platformLeaderboardId: BadGuyHard
+  - _difficultyBeatmapId: BadGuyExpert
+    _platformLeaderboardId: BadGuyExpert
+  - _difficultyBeatmapId: BadGuyExpertPlus
+    _platformLeaderboardId: BadGuyExpertPlus
+  - _difficultyBeatmapId: BellyacheEasy
+    _platformLeaderboardId: BellyacheEasy
+  - _difficultyBeatmapId: BellyacheNormal
+    _platformLeaderboardId: BellyacheNormal
+  - _difficultyBeatmapId: BellyacheHard
+    _platformLeaderboardId: BellyacheHard
+  - _difficultyBeatmapId: BellyacheExpert
+    _platformLeaderboardId: BellyacheExpert
+  - _difficultyBeatmapId: BellyacheExpertPlus
+    _platformLeaderboardId: BellyacheExpertPlus
+  - _difficultyBeatmapId: BuryAFriendEasy
+    _platformLeaderboardId: BuryAFriendEasy
+  - _difficultyBeatmapId: BuryAFriendNormal
+    _platformLeaderboardId: BuryAFriendNormal
+  - _difficultyBeatmapId: BuryAFriendHard
+    _platformLeaderboardId: BuryAFriendHard
+  - _difficultyBeatmapId: BuryAFriendExpert
+    _platformLeaderboardId: BuryAFriendExpert
+  - _difficultyBeatmapId: BuryAFriendExpertPlus
+    _platformLeaderboardId: BuryAFriendExpertPlus
+  - _difficultyBeatmapId: HappierThanEverEasy
+    _platformLeaderboardId: HappierThanEverEasy
+  - _difficultyBeatmapId: HappierThanEverNormal
+    _platformLeaderboardId: HappierThanEverNormal
+  - _difficultyBeatmapId: HappierThanEverHard
+    _platformLeaderboardId: HappierThanEverHard
+  - _difficultyBeatmapId: HappierThanEverExpert
+    _platformLeaderboardId: HappierThanEverExpert
+  - _difficultyBeatmapId: HappierThanEverExpertPlus
+    _platformLeaderboardId: HappierThanEverExpertPlus
+  - _difficultyBeatmapId: HappierThanEverOneSaberNormal
+    _platformLeaderboardId: HappierThanEverOneSaberNormal
+  - _difficultyBeatmapId: HappierThanEverOneSaberExpert
+    _platformLeaderboardId: HappierThanEverOneSaberExpert
+  - _difficultyBeatmapId: HappierThanEverOneSaberExpertPlus
+    _platformLeaderboardId: HappierThanEverOneSaberExpertPlus
+  - _difficultyBeatmapId: IDidntChangeMyNumberEasy
+    _platformLeaderboardId: IDidntChangeMyNumberEasy
+  - _difficultyBeatmapId: IDidntChangeMyNumberNormal
+    _platformLeaderboardId: IDidntChangeMyNumberNormal
+  - _difficultyBeatmapId: IDidntChangeMyNumberHard
+    _platformLeaderboardId: IDidntChangeMyNumberHard
+  - _difficultyBeatmapId: IDidntChangeMyNumberExpert
+    _platformLeaderboardId: IDidntChangeMyNumberExpert
+  - _difficultyBeatmapId: IDidntChangeMyNumberExpertPlus
+    _platformLeaderboardId: IDidntChangeMyNumberExpertPlus
+  - _difficultyBeatmapId: NDAEasy
+    _platformLeaderboardId: NDAEasy
+  - _difficultyBeatmapId: NDANormal
+    _platformLeaderboardId: NDANormal
+  - _difficultyBeatmapId: NDAHard
+    _platformLeaderboardId: NDAHard
+  - _difficultyBeatmapId: NDAExpert
+    _platformLeaderboardId: NDAExpert
+  - _difficultyBeatmapId: NDAExpertPlus
+    _platformLeaderboardId: NDAExpertPlus
+  - _difficultyBeatmapId: OxytocinEasy
+    _platformLeaderboardId: OxytocinEasy
+  - _difficultyBeatmapId: OxytocinNormal
+    _platformLeaderboardId: OxytocinNormal
+  - _difficultyBeatmapId: OxytocinHard
+    _platformLeaderboardId: OxytocinHard
+  - _difficultyBeatmapId: OxytocinExpert
+    _platformLeaderboardId: OxytocinExpert
+  - _difficultyBeatmapId: OxytocinExpertPlus
+    _platformLeaderboardId: OxytocinExpertPlus
+  - _difficultyBeatmapId: ThereforeIAmEasy
+    _platformLeaderboardId: ThereforeIAmEasy
+  - _difficultyBeatmapId: ThereforeIAmNormal
+    _platformLeaderboardId: ThereforeIAmNormal
+  - _difficultyBeatmapId: ThereforeIAmHard
+    _platformLeaderboardId: ThereforeIAmHard
+  - _difficultyBeatmapId: ThereforeIAmExpert
+    _platformLeaderboardId: ThereforeIAmExpert
+  - _difficultyBeatmapId: ThereforeIAmExpertPlus
+    _platformLeaderboardId: ThereforeIAmExpertPlus
+  - _difficultyBeatmapId: ThereforeIAmOneSaberNormal
+    _platformLeaderboardId: ThereforeIAmOneSaberNormal
+  - _difficultyBeatmapId: ThereforeIAmOneSaberExpert
+    _platformLeaderboardId: ThereforeIAmOneSaberExpert
+  - _difficultyBeatmapId: ThereforeIAmOneSaberExpertPlus
+    _platformLeaderboardId: ThereforeIAmOneSaberExpertPlus
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownEasy
+    _platformLeaderboardId: YouShouldSeeMeInACrownEasy
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownNormal
+    _platformLeaderboardId: YouShouldSeeMeInACrownNormal
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownHard
+    _platformLeaderboardId: YouShouldSeeMeInACrownHard
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownExpert
+    _platformLeaderboardId: YouShouldSeeMeInACrownExpert
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownExpertPlus
+    _platformLeaderboardId: YouShouldSeeMeInACrownExpertPlus
+  - _difficultyBeatmapId: BangarangEasy
+    _platformLeaderboardId: BangarangEasy
+  - _difficultyBeatmapId: BangarangNormal
+    _platformLeaderboardId: BangarangNormal
+  - _difficultyBeatmapId: BangarangHard
+    _platformLeaderboardId: BangarangHard
+  - _difficultyBeatmapId: BangarangExpert
+    _platformLeaderboardId: BangarangExpert
+  - _difficultyBeatmapId: BangarangExpertPlus
+    _platformLeaderboardId: BangarangExpertPlus
+  - _difficultyBeatmapId: BangarangOneSaberNormal
+    _platformLeaderboardId: BangarangOneSaberNormal
+  - _difficultyBeatmapId: BangarangOneSaberExpert
+    _platformLeaderboardId: BangarangOneSaberExpert
+  - _difficultyBeatmapId: BangarangOneSaberExpertPlus
+    _platformLeaderboardId: BangarangOneSaberExpertPlus
+  - _difficultyBeatmapId: ButterfliesEasy
+    _platformLeaderboardId: ButterfliesEasy
+  - _difficultyBeatmapId: ButterfliesNormal
+    _platformLeaderboardId: ButterfliesNormal
+  - _difficultyBeatmapId: ButterfliesHard
+    _platformLeaderboardId: ButterfliesHard
+  - _difficultyBeatmapId: ButterfliesExpert
+    _platformLeaderboardId: ButterfliesExpert
+  - _difficultyBeatmapId: ButterfliesExpertPlus
+    _platformLeaderboardId: ButterfliesExpertPlus
+  - _difficultyBeatmapId: DontGoEasy
+    _platformLeaderboardId: DontGoEasy
+  - _difficultyBeatmapId: DontGoNormal
+    _platformLeaderboardId: DontGoNormal
+  - _difficultyBeatmapId: DontGoHard
+    _platformLeaderboardId: DontGoHard
+  - _difficultyBeatmapId: DontGoExpert
+    _platformLeaderboardId: DontGoExpert
+  - _difficultyBeatmapId: DontGoExpertPlus
+    _platformLeaderboardId: DontGoExpertPlus
+  - _difficultyBeatmapId: FirstOfTheYearEasy
+    _platformLeaderboardId: FirstOfTheYearEasy
+  - _difficultyBeatmapId: FirstOfTheYearNormal
+    _platformLeaderboardId: FirstOfTheYearNormal
+  - _difficultyBeatmapId: FirstOfTheYearHard
+    _platformLeaderboardId: FirstOfTheYearHard
+  - _difficultyBeatmapId: FirstOfTheYearExpert
+    _platformLeaderboardId: FirstOfTheYearExpert
+  - _difficultyBeatmapId: FirstOfTheYearExpertPlus
+    _platformLeaderboardId: FirstOfTheYearExpertPlus
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberNormal
+    _platformLeaderboardId: FirstOfTheYearOneSaberNormal
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberExpert
+    _platformLeaderboardId: FirstOfTheYearOneSaberExpert
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberExpertPlus
+    _platformLeaderboardId: FirstOfTheYearOneSaberExpertPlus
+  - _difficultyBeatmapId: RaggaBombEasy
+    _platformLeaderboardId: RaggaBombEasy
+  - _difficultyBeatmapId: RaggaBombNormal
+    _platformLeaderboardId: RaggaBombNormal
+  - _difficultyBeatmapId: RaggaBombHard
+    _platformLeaderboardId: RaggaBombHard
+  - _difficultyBeatmapId: RaggaBombExpert
+    _platformLeaderboardId: RaggaBombExpert
+  - _difficultyBeatmapId: RaggaBombExpertPlus
+    _platformLeaderboardId: RaggaBombExpertPlus
+  - _difficultyBeatmapId: RockNRollEasy
+    _platformLeaderboardId: RockNRollEasy
+  - _difficultyBeatmapId: RockNRollNormal
+    _platformLeaderboardId: RockNRollNormal
+  - _difficultyBeatmapId: RockNRollHard
+    _platformLeaderboardId: RockNRollHard
+  - _difficultyBeatmapId: RockNRollExpert
+    _platformLeaderboardId: RockNRollExpert
+  - _difficultyBeatmapId: RockNRollExpertPlus
+    _platformLeaderboardId: RockNRollExpertPlus
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesEasy
+    _platformLeaderboardId: ScaryMonstersAndNiceSpritesEasy
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesNormal
+    _platformLeaderboardId: ScaryMonstersAndNiceSpritesNormal
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesHard
+    _platformLeaderboardId: ScaryMonstersAndNiceSpritesHard
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesExpert
+    _platformLeaderboardId: ScaryMonstersAndNiceSpritesExpert
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesExpertPlus
+    _platformLeaderboardId: ScaryMonstersAndNiceSpritesExpertPlus
+  - _difficultyBeatmapId: TheDevilsDenEasy
+    _platformLeaderboardId: TheDevilsDenEasy
+  - _difficultyBeatmapId: TheDevilsDenNormal
+    _platformLeaderboardId: TheDevilsDenNormal
+  - _difficultyBeatmapId: TheDevilsDenHard
+    _platformLeaderboardId: TheDevilsDenHard
+  - _difficultyBeatmapId: TheDevilsDenExpert
+    _platformLeaderboardId: TheDevilsDenExpert
+  - _difficultyBeatmapId: TheDevilsDenExpertPlus
+    _platformLeaderboardId: TheDevilsDenExpertPlus
+  - _difficultyBeatmapId: CountingStarsEasy
+    _platformLeaderboardId: CountingStarsEasy
+  - _difficultyBeatmapId: CountingStarsNormal
+    _platformLeaderboardId: CountingStarsNormal
+  - _difficultyBeatmapId: CountingStarsHard
+    _platformLeaderboardId: CountingStarsHard
+  - _difficultyBeatmapId: CountingStarsExpert
+    _platformLeaderboardId: CountingStarsExpert
+  - _difficultyBeatmapId: CountingStarsExpertPlus
+    _platformLeaderboardId: CountingStarsExpertPlus
+  - _difficultyBeatmapId: DnaLamarEasy
+    _platformLeaderboardId: DnaLamarEasy
+  - _difficultyBeatmapId: DnaLamarNormal
+    _platformLeaderboardId: DnaLamarNormal
+  - _difficultyBeatmapId: DnaLamarHard
+    _platformLeaderboardId: DnaLamarHard
+  - _difficultyBeatmapId: DnaLamarExpert
+    _platformLeaderboardId: DnaLamarExpert
+  - _difficultyBeatmapId: DnaLamarExpertPlus
+    _platformLeaderboardId: DnaLamarExpertPlus
+  - _difficultyBeatmapId: DnaLamarOneSaberNormal
+    _platformLeaderboardId: DnaLamarOneSaberNormal
+  - _difficultyBeatmapId: DnaLamarOneSaberExpert
+    _platformLeaderboardId: DnaLamarOneSaberExpert
+  - _difficultyBeatmapId: DnaLamarOneSaberExpertPlus
+    _platformLeaderboardId: DnaLamarOneSaberExpertPlus
+  - _difficultyBeatmapId: DontChaEasy
+    _platformLeaderboardId: DontChaEasy
+  - _difficultyBeatmapId: DontChaNormal
+    _platformLeaderboardId: DontChaNormal
+  - _difficultyBeatmapId: DontChaHard
+    _platformLeaderboardId: DontChaHard
+  - _difficultyBeatmapId: DontChaExpert
+    _platformLeaderboardId: DontChaExpert
+  - _difficultyBeatmapId: DontChaExpertPlus
+    _platformLeaderboardId: DontChaExpertPlus
+  - _difficultyBeatmapId: PartyRockAnthemEasy
+    _platformLeaderboardId: PartyRockAnthemEasy
+  - _difficultyBeatmapId: PartyRockAnthemNormal
+    _platformLeaderboardId: PartyRockAnthemNormal
+  - _difficultyBeatmapId: PartyRockAnthemHard
+    _platformLeaderboardId: PartyRockAnthemHard
+  - _difficultyBeatmapId: PartyRockAnthemExpert
+    _platformLeaderboardId: PartyRockAnthemExpert
+  - _difficultyBeatmapId: PartyRockAnthemExpertPlus
+    _platformLeaderboardId: PartyRockAnthemExpertPlus
+  - _difficultyBeatmapId: RollinEasy
+    _platformLeaderboardId: RollinEasy
+  - _difficultyBeatmapId: RollinNormal
+    _platformLeaderboardId: RollinNormal
+  - _difficultyBeatmapId: RollinHard
+    _platformLeaderboardId: RollinHard
+  - _difficultyBeatmapId: RollinExpert
+    _platformLeaderboardId: RollinExpert
+  - _difficultyBeatmapId: RollinExpertPlus
+    _platformLeaderboardId: RollinExpertPlus
+  - _difficultyBeatmapId: SugarEasy
+    _platformLeaderboardId: SugarEasy
+  - _difficultyBeatmapId: SugarNormal
+    _platformLeaderboardId: SugarNormal
+  - _difficultyBeatmapId: SugarHard
+    _platformLeaderboardId: SugarHard
+  - _difficultyBeatmapId: SugarExpert
+    _platformLeaderboardId: SugarExpert
+  - _difficultyBeatmapId: SugarExpertPlus
+    _platformLeaderboardId: SugarExpertPlus
+  - _difficultyBeatmapId: SugarOneSaberNormal
+    _platformLeaderboardId: SugarOneSaberNormal
+  - _difficultyBeatmapId: SugarOneSaberExpert
+    _platformLeaderboardId: SugarOneSaberExpert
+  - _difficultyBeatmapId: SugarOneSaberExpertPlus
+    _platformLeaderboardId: SugarOneSaberExpertPlus
+  - _difficultyBeatmapId: TheSweetEscapeEasy
+    _platformLeaderboardId: TheSweetEscapeEasy
+  - _difficultyBeatmapId: TheSweetEscapeNormal
+    _platformLeaderboardId: TheSweetEscapeNormal
+  - _difficultyBeatmapId: TheSweetEscapeHard
+    _platformLeaderboardId: TheSweetEscapeHard
+  - _difficultyBeatmapId: TheSweetEscapeExpert
+    _platformLeaderboardId: TheSweetEscapeExpert
+  - _difficultyBeatmapId: TheSweetEscapeExpertPlus
+    _platformLeaderboardId: TheSweetEscapeExpertPlus
+  - _difficultyBeatmapId: BloodSweatAndTearsEasy
+    _platformLeaderboardId: BloodSweatAndTearsEasy
+  - _difficultyBeatmapId: BloodSweatAndTearsNormal
+    _platformLeaderboardId: BloodSweatAndTearsNormal
+  - _difficultyBeatmapId: BloodSweatAndTearsHard
+    _platformLeaderboardId: BloodSweatAndTearsHard
+  - _difficultyBeatmapId: BloodSweatAndTearsExpert
+    _platformLeaderboardId: BloodSweatAndTearsExpert
+  - _difficultyBeatmapId: BloodSweatAndTearsExpertPlus
+    _platformLeaderboardId: BloodSweatAndTearsExpertPlus
+  - _difficultyBeatmapId: BoyWithLuvEasy
+    _platformLeaderboardId: BoyWithLuvEasy
+  - _difficultyBeatmapId: BoyWithLuvNormal
+    _platformLeaderboardId: BoyWithLuvNormal
+  - _difficultyBeatmapId: BoyWithLuvHard
+    _platformLeaderboardId: BoyWithLuvHard
+  - _difficultyBeatmapId: BoyWithLuvExpert
+    _platformLeaderboardId: BoyWithLuvExpert
+  - _difficultyBeatmapId: BoyWithLuvExpertPlus
+    _platformLeaderboardId: BoyWithLuvExpertPlus
+  - _difficultyBeatmapId: BurningUpEasy
+    _platformLeaderboardId: BurningUpEasy
+  - _difficultyBeatmapId: BurningUpNormal
+    _platformLeaderboardId: BurningUpNormal
+  - _difficultyBeatmapId: BurningUpHard
+    _platformLeaderboardId: BurningUpHard
+  - _difficultyBeatmapId: BurningUpExpert
+    _platformLeaderboardId: BurningUpExpert
+  - _difficultyBeatmapId: BurningUpExpertPlus
+    _platformLeaderboardId: BurningUpExpertPlus
+  - _difficultyBeatmapId: DionysusEasy
+    _platformLeaderboardId: DionysusEasy
+  - _difficultyBeatmapId: DionysusNormal
+    _platformLeaderboardId: DionysusNormal
+  - _difficultyBeatmapId: DionysusHard
+    _platformLeaderboardId: DionysusHard
+  - _difficultyBeatmapId: DionysusExpert
+    _platformLeaderboardId: DionysusExpert
+  - _difficultyBeatmapId: DionysusExpertPlus
+    _platformLeaderboardId: DionysusExpertPlus
+  - _difficultyBeatmapId: DnaEasy
+    _platformLeaderboardId: DnaEasy
+  - _difficultyBeatmapId: DnaNormal
+    _platformLeaderboardId: DnaNormal
+  - _difficultyBeatmapId: DnaHard
+    _platformLeaderboardId: DnaHard
+  - _difficultyBeatmapId: DnaExpert
+    _platformLeaderboardId: DnaExpert
+  - _difficultyBeatmapId: DnaExpertPlus
+    _platformLeaderboardId: DnaExpertPlus
+  - _difficultyBeatmapId: DopeEasy
+    _platformLeaderboardId: DopeEasy
+  - _difficultyBeatmapId: DopeNormal
+    _platformLeaderboardId: DopeNormal
+  - _difficultyBeatmapId: DopeHard
+    _platformLeaderboardId: DopeHard
+  - _difficultyBeatmapId: DopeExpert
+    _platformLeaderboardId: DopeExpert
+  - _difficultyBeatmapId: DopeExpertPlus
+    _platformLeaderboardId: DopeExpertPlus
+  - _difficultyBeatmapId: DynamiteEasy
+    _platformLeaderboardId: DynamiteEasy
+  - _difficultyBeatmapId: DynamiteNormal
+    _platformLeaderboardId: DynamiteNormal
+  - _difficultyBeatmapId: DynamiteHard
+    _platformLeaderboardId: DynamiteHard
+  - _difficultyBeatmapId: DynamiteExpert
+    _platformLeaderboardId: DynamiteExpert
+  - _difficultyBeatmapId: DynamiteExpertPlus
+    _platformLeaderboardId: DynamiteExpertPlus
+  - _difficultyBeatmapId: DynamiteOneSaberNormal
+    _platformLeaderboardId: DynamiteOneSaberNormal
+  - _difficultyBeatmapId: DynamiteOneSaberExpert
+    _platformLeaderboardId: DynamiteOneSaberExpert
+  - _difficultyBeatmapId: DynamiteOneSaberExpertPlus
+    _platformLeaderboardId: DynamiteOneSaberExpertPlus
+  - _difficultyBeatmapId: FakeLoveEasy
+    _platformLeaderboardId: FakeLoveEasy
+  - _difficultyBeatmapId: FakeLoveNormal
+    _platformLeaderboardId: FakeLoveNormal
+  - _difficultyBeatmapId: FakeLoveHard
+    _platformLeaderboardId: FakeLoveHard
+  - _difficultyBeatmapId: FakeLoveExpert
+    _platformLeaderboardId: FakeLoveExpert
+  - _difficultyBeatmapId: FakeLoveExpertPlus
+    _platformLeaderboardId: FakeLoveExpertPlus
+  - _difficultyBeatmapId: IdolEasy
+    _platformLeaderboardId: IdolEasy
+  - _difficultyBeatmapId: IdolNormal
+    _platformLeaderboardId: IdolNormal
+  - _difficultyBeatmapId: IdolHard
+    _platformLeaderboardId: IdolHard
+  - _difficultyBeatmapId: IdolExpert
+    _platformLeaderboardId: IdolExpert
+  - _difficultyBeatmapId: IdolExpertPlus
+    _platformLeaderboardId: IdolExpertPlus
+  - _difficultyBeatmapId: MicDropEasy
+    _platformLeaderboardId: MicDropEasy
+  - _difficultyBeatmapId: MicDropNormal
+    _platformLeaderboardId: MicDropNormal
+  - _difficultyBeatmapId: MicDropHard
+    _platformLeaderboardId: MicDropHard
+  - _difficultyBeatmapId: MicDropExpert
+    _platformLeaderboardId: MicDropExpert
+  - _difficultyBeatmapId: MicDropExpertPlus
+    _platformLeaderboardId: MicDropExpertPlus
+  - _difficultyBeatmapId: MicDropOneSaberNormal
+    _platformLeaderboardId: MicDropOneSaberNormal
+  - _difficultyBeatmapId: MicDropOneSaberExpert
+    _platformLeaderboardId: MicDropOneSaberExpert
+  - _difficultyBeatmapId: MicDropOneSaberExpertPlus
+    _platformLeaderboardId: MicDropOneSaberExpertPlus
+  - _difficultyBeatmapId: NotTodayEasy
+    _platformLeaderboardId: NotTodayEasy
+  - _difficultyBeatmapId: NotTodayNormal
+    _platformLeaderboardId: NotTodayNormal
+  - _difficultyBeatmapId: NotTodayHard
+    _platformLeaderboardId: NotTodayHard
+  - _difficultyBeatmapId: NotTodayExpert
+    _platformLeaderboardId: NotTodayExpert
+  - _difficultyBeatmapId: NotTodayExpertPlus
+    _platformLeaderboardId: NotTodayExpertPlus
+  - _difficultyBeatmapId: UghEasy
+    _platformLeaderboardId: UghEasy
+  - _difficultyBeatmapId: UghNormal
+    _platformLeaderboardId: UghNormal
+  - _difficultyBeatmapId: UghHard
+    _platformLeaderboardId: UghHard
+  - _difficultyBeatmapId: UghExpert
+    _platformLeaderboardId: UghExpert
+  - _difficultyBeatmapId: UghExpertPlus
+    _platformLeaderboardId: UghExpertPlus
+  - _difficultyBeatmapId: BleedItOutEasy
+    _platformLeaderboardId: BleedItOutEasy
+  - _difficultyBeatmapId: BleedItOutNormal
+    _platformLeaderboardId: BleedItOutNormal
+  - _difficultyBeatmapId: BleedItOutHard
+    _platformLeaderboardId: BleedItOutHard
+  - _difficultyBeatmapId: BleedItOutExpert
+    _platformLeaderboardId: BleedItOutExpert
+  - _difficultyBeatmapId: BleedItOutExpertPlus
+    _platformLeaderboardId: BleedItOutExpertPlus
+  - _difficultyBeatmapId: BreakingTheHabitEasy
+    _platformLeaderboardId: BreakingTheHabitEasy
+  - _difficultyBeatmapId: BreakingTheHabitNormal
+    _platformLeaderboardId: BreakingTheHabitNormal
+  - _difficultyBeatmapId: BreakingTheHabitHard
+    _platformLeaderboardId: BreakingTheHabitHard
+  - _difficultyBeatmapId: BreakingTheHabitExpert
+    _platformLeaderboardId: BreakingTheHabitExpert
+  - _difficultyBeatmapId: BreakingTheHabitExpertPlus
+    _platformLeaderboardId: BreakingTheHabitExpertPlus
+  - _difficultyBeatmapId: FaintEasy
+    _platformLeaderboardId: FaintEasy
+  - _difficultyBeatmapId: FaintNormal
+    _platformLeaderboardId: FaintNormal
+  - _difficultyBeatmapId: FaintHard
+    _platformLeaderboardId: FaintHard
+  - _difficultyBeatmapId: FaintExpert
+    _platformLeaderboardId: FaintExpert
+  - _difficultyBeatmapId: FaintExpertPlus
+    _platformLeaderboardId: FaintExpertPlus
+  - _difficultyBeatmapId: GivenUpEasy
+    _platformLeaderboardId: GivenUpEasy
+  - _difficultyBeatmapId: GivenUpNormal
+    _platformLeaderboardId: GivenUpNormal
+  - _difficultyBeatmapId: GivenUpHard
+    _platformLeaderboardId: GivenUpHard
+  - _difficultyBeatmapId: GivenUpExpert
+    _platformLeaderboardId: GivenUpExpert
+  - _difficultyBeatmapId: GivenUpExpertPlus
+    _platformLeaderboardId: GivenUpExpertPlus
+  - _difficultyBeatmapId: InTheEndEasy
+    _platformLeaderboardId: InTheEndEasy
+  - _difficultyBeatmapId: InTheEndNormal
+    _platformLeaderboardId: InTheEndNormal
+  - _difficultyBeatmapId: InTheEndHard
+    _platformLeaderboardId: InTheEndHard
+  - _difficultyBeatmapId: InTheEndExpert
+    _platformLeaderboardId: InTheEndExpert
+  - _difficultyBeatmapId: InTheEndExpertPlus
+    _platformLeaderboardId: InTheEndExpertPlus
+  - _difficultyBeatmapId: NewDivideEasy
+    _platformLeaderboardId: NewDivideEasy
+  - _difficultyBeatmapId: NewDivideNormal
+    _platformLeaderboardId: NewDivideNormal
+  - _difficultyBeatmapId: NewDivideHard
+    _platformLeaderboardId: NewDivideHard
+  - _difficultyBeatmapId: NewDivideExpert
+    _platformLeaderboardId: NewDivideExpert
+  - _difficultyBeatmapId: NewDivideExpertPlus
+    _platformLeaderboardId: NewDivideExpertPlus
+  - _difficultyBeatmapId: NumbEasy
+    _platformLeaderboardId: NumbEasy
+  - _difficultyBeatmapId: NumbNormal
+    _platformLeaderboardId: NumbNormal
+  - _difficultyBeatmapId: NumbHard
+    _platformLeaderboardId: NumbHard
+  - _difficultyBeatmapId: NumbExpert
+    _platformLeaderboardId: NumbExpert
+  - _difficultyBeatmapId: NumbExpertPlus
+    _platformLeaderboardId: NumbExpertPlus
+  - _difficultyBeatmapId: NumbOneSaberNormal
+    _platformLeaderboardId: NumbOneSaberNormal
+  - _difficultyBeatmapId: NumbOneSaberExpert
+    _platformLeaderboardId: NumbOneSaberExpert
+  - _difficultyBeatmapId: NumbOneSaberExpertPlus
+    _platformLeaderboardId: NumbOneSaberExpertPlus
+  - _difficultyBeatmapId: OneStepCloserEasy
+    _platformLeaderboardId: OneStepCloserEasy
+  - _difficultyBeatmapId: OneStepCloserNormal
+    _platformLeaderboardId: OneStepCloserNormal
+  - _difficultyBeatmapId: OneStepCloserHard
+    _platformLeaderboardId: OneStepCloserHard
+  - _difficultyBeatmapId: OneStepCloserExpert
+    _platformLeaderboardId: OneStepCloserExpert
+  - _difficultyBeatmapId: OneStepCloserExpertPlus
+    _platformLeaderboardId: OneStepCloserExpertPlus
+  - _difficultyBeatmapId: PapercutEasy
+    _platformLeaderboardId: PapercutEasy
+  - _difficultyBeatmapId: PapercutNormal
+    _platformLeaderboardId: PapercutNormal
+  - _difficultyBeatmapId: PapercutHard
+    _platformLeaderboardId: PapercutHard
+  - _difficultyBeatmapId: PapercutExpert
+    _platformLeaderboardId: PapercutExpert
+  - _difficultyBeatmapId: PapercutExpertPlus
+    _platformLeaderboardId: PapercutExpertPlus
+  - _difficultyBeatmapId: SomewhereIBelongEasy
+    _platformLeaderboardId: SomewhereIBelongEasy
+  - _difficultyBeatmapId: SomewhereIBelongNormal
+    _platformLeaderboardId: SomewhereIBelongNormal
+  - _difficultyBeatmapId: SomewhereIBelongHard
+    _platformLeaderboardId: SomewhereIBelongHard
+  - _difficultyBeatmapId: SomewhereIBelongExpert
+    _platformLeaderboardId: SomewhereIBelongExpert
+  - _difficultyBeatmapId: SomewhereIBelongExpertPlus
+    _platformLeaderboardId: SomewhereIBelongExpertPlus
+  - _difficultyBeatmapId: WhatIveDoneEasy
+    _platformLeaderboardId: WhatIveDoneEasy
+  - _difficultyBeatmapId: WhatIveDoneNormal
+    _platformLeaderboardId: WhatIveDoneNormal
+  - _difficultyBeatmapId: WhatIveDoneHard
+    _platformLeaderboardId: WhatIveDoneHard
+  - _difficultyBeatmapId: WhatIveDoneExpert
+    _platformLeaderboardId: WhatIveDoneExpert
+  - _difficultyBeatmapId: WhatIveDoneExpertPlus
+    _platformLeaderboardId: WhatIveDoneExpertPlus
+  - _difficultyBeatmapId: WhatIveDoneOneSaberNormal
+    _platformLeaderboardId: WhatIveDoneOneSaberNormal
+  - _difficultyBeatmapId: WhatIveDoneOneSaberExpert
+    _platformLeaderboardId: WhatIveDoneOneSaberExpert
+  - _difficultyBeatmapId: WhatIveDoneOneSaberExpertPlus
+    _platformLeaderboardId: WhatIveDoneOneSaberExpertPlus
+  - _difficultyBeatmapId: HasAMeaningEasy
+    _platformLeaderboardId: HasAMeaningEasy
+  - _difficultyBeatmapId: HasAMeaningNormal
+    _platformLeaderboardId: HasAMeaningNormal
+  - _difficultyBeatmapId: HasAMeaningHard
+    _platformLeaderboardId: HasAMeaningHard
+  - _difficultyBeatmapId: HasAMeaningExpert
+    _platformLeaderboardId: HasAMeaningExpert
+  - _difficultyBeatmapId: HasAMeaningExpertPlus
+    _platformLeaderboardId: HasAMeaningExpertPlus
+  - _difficultyBeatmapId: HasAMeaning360DegreeHard
+    _platformLeaderboardId: HasAMeaning360DegreeHard
+  - _difficultyBeatmapId: HasAMeaning90DegreeHard
+    _platformLeaderboardId: HasAMeaning90DegreeHard
+  - _difficultyBeatmapId: DumbThingzEasy
+    _platformLeaderboardId: DumbThingzEasy
+  - _difficultyBeatmapId: DumbThingzNormal
+    _platformLeaderboardId: DumbThingzNormal
+  - _difficultyBeatmapId: DumbThingzHard
+    _platformLeaderboardId: DumbThingzHard
+  - _difficultyBeatmapId: DumbThingzExpert
+    _platformLeaderboardId: DumbThingzExpert
+  - _difficultyBeatmapId: DumbThingzExpertPlus
+    _platformLeaderboardId: DumbThingzExpertPlus
+  - _difficultyBeatmapId: DumbThingzOneSaberNormal
+    _platformLeaderboardId: DumbThingzOneSaberNormal
+  - _difficultyBeatmapId: DumbThingzOneSaberExpert
+    _platformLeaderboardId: DumbThingzOneSaberExpert
+  - _difficultyBeatmapId: DumbThingzOneSaberExpertPlus
+    _platformLeaderboardId: DumbThingzOneSaberExpertPlus
+  - _difficultyBeatmapId: WhileWereYoungEasy
+    _platformLeaderboardId: WhileWereYoungEasy
+  - _difficultyBeatmapId: WhileWereYoungNormal
+    _platformLeaderboardId: WhileWereYoungNormal
+  - _difficultyBeatmapId: WhileWereYoungHard
+    _platformLeaderboardId: WhileWereYoungHard
+  - _difficultyBeatmapId: WhileWereYoungExpert
+    _platformLeaderboardId: WhileWereYoungExpert
+  - _difficultyBeatmapId: WhileWereYoungExpertPlus
+    _platformLeaderboardId: WhileWereYoungExpertPlus
+  - _difficultyBeatmapId: WhileWereYoungOneSaberNormal
+    _platformLeaderboardId: WhileWereYoungOneSaberNormal
+  - _difficultyBeatmapId: WhileWereYoungOneSaberExpert
+    _platformLeaderboardId: WhileWereYoungOneSaberExpert
+  - _difficultyBeatmapId: WhileWereYoungOneSaberExpertPlus
+    _platformLeaderboardId: WhileWereYoungOneSaberExpertPlus
+  - _difficultyBeatmapId: WhatILikeEasy
+    _platformLeaderboardId: WhatILikeEasy
+  - _difficultyBeatmapId: WhatILikeNormal
+    _platformLeaderboardId: WhatILikeNormal
+  - _difficultyBeatmapId: WhatILikeHard
+    _platformLeaderboardId: WhatILikeHard
+  - _difficultyBeatmapId: WhatILikeExpert
+    _platformLeaderboardId: WhatILikeExpert
+  - _difficultyBeatmapId: WhatILikeExpertPlus
+    _platformLeaderboardId: WhatILikeExpertPlus
+  - _difficultyBeatmapId: FamousEasy
+    _platformLeaderboardId: FamousEasy
+  - _difficultyBeatmapId: FamousNormal
+    _platformLeaderboardId: FamousNormal
+  - _difficultyBeatmapId: FamousHard
+    _platformLeaderboardId: FamousHard
+  - _difficultyBeatmapId: FamousExpert
+    _platformLeaderboardId: FamousExpert
+  - _difficultyBeatmapId: FamousExpertPlus
+    _platformLeaderboardId: FamousExpertPlus
+  - _difficultyBeatmapId: AmericanIdiotEasy
+    _platformLeaderboardId: AmericanIdiotEasy
+  - _difficultyBeatmapId: AmericanIdiotNormal
+    _platformLeaderboardId: AmericanIdiotNormal
+  - _difficultyBeatmapId: AmericanIdiotHard
+    _platformLeaderboardId: AmericanIdiotHard
+  - _difficultyBeatmapId: AmericanIdiotExpert
+    _platformLeaderboardId: AmericanIdiotExpert
+  - _difficultyBeatmapId: AmericanIdiotExpertPlus
+    _platformLeaderboardId: AmericanIdiotExpertPlus
+  - _difficultyBeatmapId: AmericanIdiotOneSaberNormal
+    _platformLeaderboardId: AmericanIdiotOneSaberNormal
+  - _difficultyBeatmapId: AmericanIdiotOneSaberExpert
+    _platformLeaderboardId: AmericanIdiotOneSaberExpert
+  - _difficultyBeatmapId: AmericanIdiotOneSaberExpertPlus
+    _platformLeaderboardId: AmericanIdiotOneSaberExpertPlus
+  - _difficultyBeatmapId: FatherOfAllEasy
+    _platformLeaderboardId: FatherOfAllEasy
+  - _difficultyBeatmapId: FatherOfAllNormal
+    _platformLeaderboardId: FatherOfAllNormal
+  - _difficultyBeatmapId: FatherOfAllHard
+    _platformLeaderboardId: FatherOfAllHard
+  - _difficultyBeatmapId: FatherOfAllExpert
+    _platformLeaderboardId: FatherOfAllExpert
+  - _difficultyBeatmapId: FatherOfAllExpertPlus
+    _platformLeaderboardId: FatherOfAllExpertPlus
+  - _difficultyBeatmapId: FatherOfAll360DegreeNormal
+    _platformLeaderboardId: FatherOfAll360DegreeNormal
+  - _difficultyBeatmapId: FatherOfAll90DegreeNormal
+    _platformLeaderboardId: FatherOfAll90DegreeNormal
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsEasy
+    _platformLeaderboardId: BoulevardOfBrokenDreamsEasy
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsNormal
+    _platformLeaderboardId: BoulevardOfBrokenDreamsNormal
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsHard
+    _platformLeaderboardId: BoulevardOfBrokenDreamsHard
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsExpert
+    _platformLeaderboardId: BoulevardOfBrokenDreamsExpert
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsExpertPlus
+    _platformLeaderboardId: BoulevardOfBrokenDreamsExpertPlus
+  - _difficultyBeatmapId: HolidayEasy
+    _platformLeaderboardId: HolidayEasy
+  - _difficultyBeatmapId: HolidayNormal
+    _platformLeaderboardId: HolidayNormal
+  - _difficultyBeatmapId: HolidayHard
+    _platformLeaderboardId: HolidayHard
+  - _difficultyBeatmapId: HolidayExpert
+    _platformLeaderboardId: HolidayExpert
+  - _difficultyBeatmapId: HolidayExpertPlus
+    _platformLeaderboardId: HolidayExpertPlus
+  - _difficultyBeatmapId: Holiday360DegreeHard
+    _platformLeaderboardId: Holiday360DegreeHard
+  - _difficultyBeatmapId: Holiday90DegreeHard
+    _platformLeaderboardId: Holiday90DegreeHard
+  - _difficultyBeatmapId: HolidayOneSaberNormal
+    _platformLeaderboardId: HolidayOneSaberNormal
+  - _difficultyBeatmapId: HolidayOneSaberExpert
+    _platformLeaderboardId: HolidayOneSaberExpert
+  - _difficultyBeatmapId: HolidayOneSaberExpertPlus
+    _platformLeaderboardId: HolidayOneSaberExpertPlus
+  - _difficultyBeatmapId: FireReadyAimEasy
+    _platformLeaderboardId: FireReadyAimEasy
+  - _difficultyBeatmapId: FireReadyAimNormal
+    _platformLeaderboardId: FireReadyAimNormal
+  - _difficultyBeatmapId: FireReadyAimHard
+    _platformLeaderboardId: FireReadyAimHard
+  - _difficultyBeatmapId: FireReadyAimExpert
+    _platformLeaderboardId: FireReadyAimExpert
+  - _difficultyBeatmapId: FireReadyAimExpertPlus
+    _platformLeaderboardId: FireReadyAimExpertPlus
+  - _difficultyBeatmapId: FireReadyAim360DegreeExpert
+    _platformLeaderboardId: FireReadyAim360DegreeExpert
+  - _difficultyBeatmapId: FireReadyAim90DegreeExpert
+    _platformLeaderboardId: FireReadyAim90DegreeExpert
+  - _difficultyBeatmapId: MinorityEasy
+    _platformLeaderboardId: MinorityEasy
+  - _difficultyBeatmapId: MinorityNormal
+    _platformLeaderboardId: MinorityNormal
+  - _difficultyBeatmapId: MinorityHard
+    _platformLeaderboardId: MinorityHard
+  - _difficultyBeatmapId: MinorityExpert
+    _platformLeaderboardId: MinorityExpert
+  - _difficultyBeatmapId: MinorityExpertPlus
+    _platformLeaderboardId: MinorityExpertPlus
+  - _difficultyBeatmapId: PlayEasy
+    _platformLeaderboardId: PlayEasy
+  - _difficultyBeatmapId: PlayNormal
+    _platformLeaderboardId: PlayNormal
+  - _difficultyBeatmapId: PlayHard
+    _platformLeaderboardId: PlayHard
+  - _difficultyBeatmapId: PlayExpert
+    _platformLeaderboardId: PlayExpert
+  - _difficultyBeatmapId: PlayExpertPlus
+    _platformLeaderboardId: PlayExpertPlus
+  - _difficultyBeatmapId: PlayOneSaberNormal
+    _platformLeaderboardId: PlayOneSaberNormal
+  - _difficultyBeatmapId: PlayOneSaberExpert
+    _platformLeaderboardId: PlayOneSaberExpert
+  - _difficultyBeatmapId: PlayOneSaberExpertPlus
+    _platformLeaderboardId: PlayOneSaberExpertPlus
+  - _difficultyBeatmapId: GlideEasy
+    _platformLeaderboardId: GlideEasy
+  - _difficultyBeatmapId: GlideNormal
+    _platformLeaderboardId: GlideNormal
+  - _difficultyBeatmapId: GlideHard
+    _platformLeaderboardId: GlideHard
+  - _difficultyBeatmapId: GlideExpert
+    _platformLeaderboardId: GlideExpert
+  - _difficultyBeatmapId: GlideExpertPlus
+    _platformLeaderboardId: GlideExpertPlus
+  - _difficultyBeatmapId: Glide360DegreeExpertPlus
+    _platformLeaderboardId: Glide360DegreeExpertPlus
+  - _difficultyBeatmapId: Glide90DegreeExpertPlus
+    _platformLeaderboardId: Glide90DegreeExpertPlus
+  - _difficultyBeatmapId: LuvUNeedUEasy
+    _platformLeaderboardId: LuvUNeedUEasy
+  - _difficultyBeatmapId: LuvUNeedUNormal
+    _platformLeaderboardId: LuvUNeedUNormal
+  - _difficultyBeatmapId: LuvUNeedUHard
+    _platformLeaderboardId: LuvUNeedUHard
+  - _difficultyBeatmapId: LuvUNeedUExpert
+    _platformLeaderboardId: LuvUNeedUExpert
+  - _difficultyBeatmapId: LuvUNeedUExpertPlus
+    _platformLeaderboardId: LuvUNeedUExpertPlus
+  - _difficultyBeatmapId: LuvUNeedU360DegreeHard
+    _platformLeaderboardId: LuvUNeedU360DegreeHard
+  - _difficultyBeatmapId: LuvUNeedU90DegreeHard
+    _platformLeaderboardId: LuvUNeedU90DegreeHard
+  - _difficultyBeatmapId: LuvUNeedUOneSaberNormal
+    _platformLeaderboardId: LuvUNeedUOneSaberNormal
+  - _difficultyBeatmapId: LuvUNeedUOneSaberExpert
+    _platformLeaderboardId: LuvUNeedUOneSaberExpert
+  - _difficultyBeatmapId: LuvUNeedUOneSaberExpertPlus
+    _platformLeaderboardId: LuvUNeedUOneSaberExpertPlus
+  - _difficultyBeatmapId: RockItEasy
+    _platformLeaderboardId: RockItEasy
+  - _difficultyBeatmapId: RockItNormal
+    _platformLeaderboardId: RockItNormal
+  - _difficultyBeatmapId: RockItHard
+    _platformLeaderboardId: RockItHard
+  - _difficultyBeatmapId: RockItExpert
+    _platformLeaderboardId: RockItExpert
+  - _difficultyBeatmapId: RockItExpertPlus
+    _platformLeaderboardId: RockItExpertPlus
+  - _difficultyBeatmapId: ShiawaseEasy
+    _platformLeaderboardId: ShiawaseEasy
+  - _difficultyBeatmapId: ShiawaseNormal
+    _platformLeaderboardId: ShiawaseNormal
+  - _difficultyBeatmapId: ShiawaseHard
+    _platformLeaderboardId: ShiawaseHard
+  - _difficultyBeatmapId: ShiawaseExpert
+    _platformLeaderboardId: ShiawaseExpert
+  - _difficultyBeatmapId: ShiawaseExpertPlus
+    _platformLeaderboardId: ShiawaseExpertPlus
+  - _difficultyBeatmapId: TestMeEasy
+    _platformLeaderboardId: TestMeEasy
+  - _difficultyBeatmapId: TestMeNormal
+    _platformLeaderboardId: TestMeNormal
+  - _difficultyBeatmapId: TestMeHard
+    _platformLeaderboardId: TestMeHard
+  - _difficultyBeatmapId: TestMeExpert
+    _platformLeaderboardId: TestMeExpert
+  - _difficultyBeatmapId: TestMeExpertPlus
+    _platformLeaderboardId: TestMeExpertPlus
+  - _difficultyBeatmapId: TheGreatestShowEasy
+    _platformLeaderboardId: TheGreatestShowEasy
+  - _difficultyBeatmapId: TheGreatestShowNormal
+    _platformLeaderboardId: TheGreatestShowNormal
+  - _difficultyBeatmapId: TheGreatestShowHard
+    _platformLeaderboardId: TheGreatestShowHard
+  - _difficultyBeatmapId: TheGreatestShowExpert
+    _platformLeaderboardId: TheGreatestShowExpert
+  - _difficultyBeatmapId: TheGreatestShowExpertPlus
+    _platformLeaderboardId: TheGreatestShowExpertPlus
+  - _difficultyBeatmapId: TheGreatestShow360DegreeHard
+    _platformLeaderboardId: TheGreatestShow360DegreeHard
+  - _difficultyBeatmapId: TheGreatestShow90DegreeHard
+    _platformLeaderboardId: TheGreatestShow90DegreeHard
+  - _difficultyBeatmapId: TheGreatestShowOneSaberNormal
+    _platformLeaderboardId: TheGreatestShowOneSaberNormal
+  - _difficultyBeatmapId: TheGreatestShowOneSaberExpert
+    _platformLeaderboardId: TheGreatestShowOneSaberExpert
+  - _difficultyBeatmapId: TheGreatestShowOneSaberExpertPlus
+    _platformLeaderboardId: TheGreatestShowOneSaberExpertPlus
+  - _difficultyBeatmapId: VictoriousEasy
+    _platformLeaderboardId: VictoriousEasy
+  - _difficultyBeatmapId: VictoriousNormal
+    _platformLeaderboardId: VictoriousNormal
+  - _difficultyBeatmapId: VictoriousHard
+    _platformLeaderboardId: VictoriousHard
+  - _difficultyBeatmapId: VictoriousExpert
+    _platformLeaderboardId: VictoriousExpert
+  - _difficultyBeatmapId: VictoriousExpertPlus
+    _platformLeaderboardId: VictoriousExpertPlus
+  - _difficultyBeatmapId: EmperorsNewClothesEasy
+    _platformLeaderboardId: EmperorsNewClothesEasy
+  - _difficultyBeatmapId: EmperorsNewClothesNormal
+    _platformLeaderboardId: EmperorsNewClothesNormal
+  - _difficultyBeatmapId: EmperorsNewClothesHard
+    _platformLeaderboardId: EmperorsNewClothesHard
+  - _difficultyBeatmapId: EmperorsNewClothesExpert
+    _platformLeaderboardId: EmperorsNewClothesExpert
+  - _difficultyBeatmapId: EmperorsNewClothesExpertPlus
+    _platformLeaderboardId: EmperorsNewClothesExpertPlus
+  - _difficultyBeatmapId: EmperorsNewClothes360DegreeExpert
+    _platformLeaderboardId: EmperorsNewClothes360DegreeExpert
+  - _difficultyBeatmapId: EmperorsNewClothes90DegreeExpert
+    _platformLeaderboardId: EmperorsNewClothes90DegreeExpert
+  - _difficultyBeatmapId: HighHopesEasy
+    _platformLeaderboardId: HighHopesEasy
+  - _difficultyBeatmapId: HighHopesNormal
+    _platformLeaderboardId: HighHopesNormal
+  - _difficultyBeatmapId: HighHopesHard
+    _platformLeaderboardId: HighHopesHard
+  - _difficultyBeatmapId: HighHopesExpert
+    _platformLeaderboardId: HighHopesExpert
+  - _difficultyBeatmapId: HighHopesExpertPlus
+    _platformLeaderboardId: HighHopesExpertPlus
+  - _difficultyBeatmapId: HighHopesOneSaberNormal
+    _platformLeaderboardId: HighHopesOneSaberNormal
+  - _difficultyBeatmapId: HighHopesOneSaberExpert
+    _platformLeaderboardId: HighHopesOneSaberExpert
+  - _difficultyBeatmapId: HighHopesOneSaberExpertPlus
+    _platformLeaderboardId: HighHopesOneSaberExpertPlus
+  - _difficultyBeatmapId: HighHopes360DegreeHard
+    _platformLeaderboardId: HighHopes360DegreeHard
+  - _difficultyBeatmapId: HighHopes90DegreeHard
+    _platformLeaderboardId: HighHopes90DegreeHard
+  - _difficultyBeatmapId: BadLiarEasy
+    _platformLeaderboardId: BadLiarEasy
+  - _difficultyBeatmapId: BadLiarNormal
+    _platformLeaderboardId: BadLiarNormal
+  - _difficultyBeatmapId: BadLiarHard
+    _platformLeaderboardId: BadLiarHard
+  - _difficultyBeatmapId: BadLiarExpert
+    _platformLeaderboardId: BadLiarExpert
+  - _difficultyBeatmapId: BadLiarExpertPlus
+    _platformLeaderboardId: BadLiarExpertPlus
+  - _difficultyBeatmapId: BelieverEasy
+    _platformLeaderboardId: BelieverEasy
+  - _difficultyBeatmapId: BelieverNormal
+    _platformLeaderboardId: BelieverNormal
+  - _difficultyBeatmapId: BelieverHard
+    _platformLeaderboardId: BelieverHard
+  - _difficultyBeatmapId: BelieverExpert
+    _platformLeaderboardId: BelieverExpert
+  - _difficultyBeatmapId: BelieverExpertPlus
+    _platformLeaderboardId: BelieverExpertPlus
+  - _difficultyBeatmapId: BelieverOneSaberNormal
+    _platformLeaderboardId: BelieverOneSaberNormal
+  - _difficultyBeatmapId: BelieverOneSaberExpert
+    _platformLeaderboardId: BelieverOneSaberExpert
+  - _difficultyBeatmapId: BelieverOneSaberExpertPlus
+    _platformLeaderboardId: BelieverOneSaberExpertPlus
+  - _difficultyBeatmapId: Believer360DegreeNormal
+    _platformLeaderboardId: Believer360DegreeNormal
+  - _difficultyBeatmapId: Believer360DegreeHard
+    _platformLeaderboardId: Believer360DegreeHard
+  - _difficultyBeatmapId: Believer90DegreeNormal
+    _platformLeaderboardId: Believer90DegreeNormal
+  - _difficultyBeatmapId: Believer90DegreeHard
+    _platformLeaderboardId: Believer90DegreeHard
+  - _difficultyBeatmapId: DigitalEasy
+    _platformLeaderboardId: DigitalEasy
+  - _difficultyBeatmapId: DigitalNormal
+    _platformLeaderboardId: DigitalNormal
+  - _difficultyBeatmapId: DigitalHard
+    _platformLeaderboardId: DigitalHard
+  - _difficultyBeatmapId: DigitalExpert
+    _platformLeaderboardId: DigitalExpert
+  - _difficultyBeatmapId: DigitalExpertPlus
+    _platformLeaderboardId: DigitalExpertPlus
+  - _difficultyBeatmapId: Digital360DegreeExpert
+    _platformLeaderboardId: Digital360DegreeExpert
+  - _difficultyBeatmapId: Digital90DegreeExpert
+    _platformLeaderboardId: Digital90DegreeExpert
+  - _difficultyBeatmapId: ItsTimeEasy
+    _platformLeaderboardId: ItsTimeEasy
+  - _difficultyBeatmapId: ItsTimeNormal
+    _platformLeaderboardId: ItsTimeNormal
+  - _difficultyBeatmapId: ItsTimeHard
+    _platformLeaderboardId: ItsTimeHard
+  - _difficultyBeatmapId: ItsTimeExpert
+    _platformLeaderboardId: ItsTimeExpert
+  - _difficultyBeatmapId: ItsTimeExpertPlus
+    _platformLeaderboardId: ItsTimeExpertPlus
+  - _difficultyBeatmapId: MachineEasy
+    _platformLeaderboardId: MachineEasy
+  - _difficultyBeatmapId: MachineNormal
+    _platformLeaderboardId: MachineNormal
+  - _difficultyBeatmapId: MachineHard
+    _platformLeaderboardId: MachineHard
+  - _difficultyBeatmapId: MachineExpert
+    _platformLeaderboardId: MachineExpert
+  - _difficultyBeatmapId: MachineExpertPlus
+    _platformLeaderboardId: MachineExpertPlus
+  - _difficultyBeatmapId: NaturalEasy
+    _platformLeaderboardId: NaturalEasy
+  - _difficultyBeatmapId: NaturalNormal
+    _platformLeaderboardId: NaturalNormal
+  - _difficultyBeatmapId: NaturalHard
+    _platformLeaderboardId: NaturalHard
+  - _difficultyBeatmapId: NaturalExpert
+    _platformLeaderboardId: NaturalExpert
+  - _difficultyBeatmapId: NaturalExpertPlus
+    _platformLeaderboardId: NaturalExpertPlus
+  - _difficultyBeatmapId: RadioactiveEasy
+    _platformLeaderboardId: RadioactiveEasy
+  - _difficultyBeatmapId: RadioactiveNormal
+    _platformLeaderboardId: RadioactiveNormal
+  - _difficultyBeatmapId: RadioactiveHard
+    _platformLeaderboardId: RadioactiveHard
+  - _difficultyBeatmapId: RadioactiveExpert
+    _platformLeaderboardId: RadioactiveExpert
+  - _difficultyBeatmapId: RadioactiveExpertPlus
+    _platformLeaderboardId: RadioactiveExpertPlus
+  - _difficultyBeatmapId: ThunderEasy
+    _platformLeaderboardId: ThunderEasy
+  - _difficultyBeatmapId: ThunderNormal
+    _platformLeaderboardId: ThunderNormal
+  - _difficultyBeatmapId: ThunderHard
+    _platformLeaderboardId: ThunderHard
+  - _difficultyBeatmapId: ThunderExpert
+    _platformLeaderboardId: ThunderExpert
+  - _difficultyBeatmapId: ThunderExpertPlus
+    _platformLeaderboardId: ThunderExpertPlus
+  - _difficultyBeatmapId: Thunder360DegreeHard
+    _platformLeaderboardId: Thunder360DegreeHard
+  - _difficultyBeatmapId: Thunder90DegreeHard
+    _platformLeaderboardId: Thunder90DegreeHard
+  - _difficultyBeatmapId: WarriorsEasy
+    _platformLeaderboardId: WarriorsEasy
+  - _difficultyBeatmapId: WarriorsNormal
+    _platformLeaderboardId: WarriorsNormal
+  - _difficultyBeatmapId: WarriorsHard
+    _platformLeaderboardId: WarriorsHard
+  - _difficultyBeatmapId: WarriorsExpert
+    _platformLeaderboardId: WarriorsExpert
+  - _difficultyBeatmapId: WarriorsExpertPlus
+    _platformLeaderboardId: WarriorsExpertPlus
+  - _difficultyBeatmapId: WhateverItTakesEasy
+    _platformLeaderboardId: WhateverItTakesEasy
+  - _difficultyBeatmapId: WhateverItTakesNormal
+    _platformLeaderboardId: WhateverItTakesNormal
+  - _difficultyBeatmapId: WhateverItTakesHard
+    _platformLeaderboardId: WhateverItTakesHard
+  - _difficultyBeatmapId: WhateverItTakesExpert
+    _platformLeaderboardId: WhateverItTakesExpert
+  - _difficultyBeatmapId: WhateverItTakesExpertPlus
+    _platformLeaderboardId: WhateverItTakesExpertPlus
+  - _difficultyBeatmapId: WhateverItTakesOneSaberNormal
+    _platformLeaderboardId: WhateverItTakesOneSaberNormal
+  - _difficultyBeatmapId: WhateverItTakesOneSaberExpert
+    _platformLeaderboardId: WhateverItTakesOneSaberExpert
+  - _difficultyBeatmapId: WhateverItTakesOneSaberExpertPlus
+    _platformLeaderboardId: WhateverItTakesOneSaberExpertPlus
+  - _difficultyBeatmapId: BoundlessEasy
+    _platformLeaderboardId: BoundlessEasy
+  - _difficultyBeatmapId: BoundlessNormal
+    _platformLeaderboardId: BoundlessNormal
+  - _difficultyBeatmapId: BoundlessHard
+    _platformLeaderboardId: BoundlessHard
+  - _difficultyBeatmapId: BoundlessExpert
+    _platformLeaderboardId: BoundlessExpert
+  - _difficultyBeatmapId: BoundlessExpertPlus
+    _platformLeaderboardId: BoundlessExpertPlus
+  - _difficultyBeatmapId: BoundlessOneSaberNormal
+    _platformLeaderboardId: BoundlessOneSaberNormal
+  - _difficultyBeatmapId: BoundlessOneSaberExpert
+    _platformLeaderboardId: BoundlessOneSaberExpert
+  - _difficultyBeatmapId: BoundlessOneSaberExpertPlus
+    _platformLeaderboardId: BoundlessOneSaberExpertPlus
+  - _difficultyBeatmapId: EmojiVIPEasy
+    _platformLeaderboardId: EmojiVIPEasy
+  - _difficultyBeatmapId: EmojiVIPNormal
+    _platformLeaderboardId: EmojiVIPNormal
+  - _difficultyBeatmapId: EmojiVIPHard
+    _platformLeaderboardId: EmojiVIPHard
+  - _difficultyBeatmapId: EmojiVIPExpert
+    _platformLeaderboardId: EmojiVIPExpert
+  - _difficultyBeatmapId: EmojiVIPExpertPlus
+    _platformLeaderboardId: EmojiVIPExpertPlus
+  - _difficultyBeatmapId: EpicEasy
+    _platformLeaderboardId: EpicEasy
+  - _difficultyBeatmapId: EpicNormal
+    _platformLeaderboardId: EpicNormal
+  - _difficultyBeatmapId: EpicHard
+    _platformLeaderboardId: EpicHard
+  - _difficultyBeatmapId: EpicExpert
+    _platformLeaderboardId: EpicExpert
+  - _difficultyBeatmapId: EpicExpertPlus
+    _platformLeaderboardId: EpicExpertPlus
+  - _difficultyBeatmapId: Epic360DegreeExpert
+    _platformLeaderboardId: Epic360DegreeExpert
+  - _difficultyBeatmapId: Epic90DegreeExpert
+    _platformLeaderboardId: Epic90DegreeExpert
+  - _difficultyBeatmapId: FeelingStrongerEasy
+    _platformLeaderboardId: FeelingStrongerEasy
+  - _difficultyBeatmapId: FeelingStrongerNormal
+    _platformLeaderboardId: FeelingStrongerNormal
+  - _difficultyBeatmapId: FeelingStrongerHard
+    _platformLeaderboardId: FeelingStrongerHard
+  - _difficultyBeatmapId: FeelingStrongerExpert
+    _platformLeaderboardId: FeelingStrongerExpert
+  - _difficultyBeatmapId: FeelingStrongerExpertPlus
+    _platformLeaderboardId: FeelingStrongerExpertPlus
+  - _difficultyBeatmapId: OverkillEasy
+    _platformLeaderboardId: OverkillEasy
+  - _difficultyBeatmapId: OverkillNormal
+    _platformLeaderboardId: OverkillNormal
+  - _difficultyBeatmapId: OverkillHard
+    _platformLeaderboardId: OverkillHard
+  - _difficultyBeatmapId: OverkillExpert
+    _platformLeaderboardId: OverkillExpert
+  - _difficultyBeatmapId: OverkillExpertPlus
+    _platformLeaderboardId: OverkillExpertPlus
+  - _difficultyBeatmapId: Overkill360DegreeExpertPlus
+    _platformLeaderboardId: Overkill360DegreeExpertPlus
+  - _difficultyBeatmapId: Overkill90DegreeExpertPlus
+    _platformLeaderboardId: Overkill90DegreeExpertPlus
+  - _difficultyBeatmapId: OverkillOneSaberNormal
+    _platformLeaderboardId: OverkillOneSaberNormal
+  - _difficultyBeatmapId: OverkillOneSaberExpert
+    _platformLeaderboardId: OverkillOneSaberExpert
+  - _difficultyBeatmapId: OverkillOneSaberExpertPlus
+    _platformLeaderboardId: OverkillOneSaberExpertPlus
+  - _difficultyBeatmapId: RattlesnakeEasy
+    _platformLeaderboardId: RattlesnakeEasy
+  - _difficultyBeatmapId: RattlesnakeNormal
+    _platformLeaderboardId: RattlesnakeNormal
+  - _difficultyBeatmapId: RattlesnakeHard
+    _platformLeaderboardId: RattlesnakeHard
+  - _difficultyBeatmapId: RattlesnakeExpert
+    _platformLeaderboardId: RattlesnakeExpert
+  - _difficultyBeatmapId: RattlesnakeExpertPlus
+    _platformLeaderboardId: RattlesnakeExpertPlus
+  - _difficultyBeatmapId: Rattlesnake360DegreeExpertPlus
+    _platformLeaderboardId: Rattlesnake360DegreeExpertPlus
+  - _difficultyBeatmapId: Rattlesnake90DegreeExpertPlus
+    _platformLeaderboardId: Rattlesnake90DegreeExpertPlus
+  - _difficultyBeatmapId: StrongerEasy
+    _platformLeaderboardId: StrongerEasy
+  - _difficultyBeatmapId: StrongerNormal
+    _platformLeaderboardId: StrongerNormal
+  - _difficultyBeatmapId: StrongerHard
+    _platformLeaderboardId: StrongerHard
+  - _difficultyBeatmapId: StrongerExpert
+    _platformLeaderboardId: StrongerExpert
+  - _difficultyBeatmapId: StrongerExpertPlus
+    _platformLeaderboardId: StrongerExpertPlus
+  - _difficultyBeatmapId: ThisTimeEasy
+    _platformLeaderboardId: ThisTimeEasy
+  - _difficultyBeatmapId: ThisTimeNormal
+    _platformLeaderboardId: ThisTimeNormal
+  - _difficultyBeatmapId: ThisTimeHard
+    _platformLeaderboardId: ThisTimeHard
+  - _difficultyBeatmapId: ThisTimeExpert
+    _platformLeaderboardId: ThisTimeExpert
+  - _difficultyBeatmapId: ThisTimeExpertPlus
+    _platformLeaderboardId: ThisTimeExpertPlus
+  - _difficultyBeatmapId: ThisTimeOneSaberNormal
+    _platformLeaderboardId: ThisTimeOneSaberNormal
+  - _difficultyBeatmapId: ThisTimeOneSaberExpert
+    _platformLeaderboardId: ThisTimeOneSaberExpert
+  - _difficultyBeatmapId: ThisTimeOneSaberExpertPlus
+    _platformLeaderboardId: ThisTimeOneSaberExpertPlus
+  - _difficultyBeatmapId: TillItsOverEasy
+    _platformLeaderboardId: TillItsOverEasy
+  - _difficultyBeatmapId: TillItsOverNormal
+    _platformLeaderboardId: TillItsOverNormal
+  - _difficultyBeatmapId: TillItsOverHard
+    _platformLeaderboardId: TillItsOverHard
+  - _difficultyBeatmapId: TillItsOverExpert
+    _platformLeaderboardId: TillItsOverExpert
+  - _difficultyBeatmapId: TillItsOverExpertPlus
+    _platformLeaderboardId: TillItsOverExpertPlus
+  - _difficultyBeatmapId: TillItsOver360DegreeEasy
+    _platformLeaderboardId: TillItsOver360DegreeEasy
+  - _difficultyBeatmapId: TillItsOver90DegreeEasy
+    _platformLeaderboardId: TillItsOver90DegreeEasy
+  - _difficultyBeatmapId: WeWontBeAloneEasy
+    _platformLeaderboardId: WeWontBeAloneEasy
+  - _difficultyBeatmapId: WeWontBeAloneNormal
+    _platformLeaderboardId: WeWontBeAloneNormal
+  - _difficultyBeatmapId: WeWontBeAloneHard
+    _platformLeaderboardId: WeWontBeAloneHard
+  - _difficultyBeatmapId: WeWontBeAloneExpert
+    _platformLeaderboardId: WeWontBeAloneExpert
+  - _difficultyBeatmapId: WeWontBeAloneExpertPlus
+    _platformLeaderboardId: WeWontBeAloneExpertPlus
+  - _difficultyBeatmapId: BlindingLightsOneSaberNormal
+    _platformLeaderboardId: BlindingLightsOneSaberNormal
+  - _difficultyBeatmapId: BlindingLightsOneSaberExpert
+    _platformLeaderboardId: BlindingLightsOneSaberExpert
+  - _difficultyBeatmapId: BlindingLightsOneSaberExpertPlus
+    _platformLeaderboardId: BlindingLightsOneSaberExpertPlus
+  - _difficultyBeatmapId: BlindingLightsEasy
+    _platformLeaderboardId: BlindingLightsEasy
+  - _difficultyBeatmapId: BlindingLightsNormal
+    _platformLeaderboardId: BlindingLightsNormal
+  - _difficultyBeatmapId: BlindingLightsHard
+    _platformLeaderboardId: BlindingLightsHard
+  - _difficultyBeatmapId: BlindingLightsExpert
+    _platformLeaderboardId: BlindingLightsExpert
+  - _difficultyBeatmapId: BlindingLightsExpertPlus
+    _platformLeaderboardId: BlindingLightsExpertPlus
+  - _difficultyBeatmapId: CantFeelMyFaceEasy
+    _platformLeaderboardId: CantFeelMyFaceEasy
+  - _difficultyBeatmapId: CantFeelMyFaceNormal
+    _platformLeaderboardId: CantFeelMyFaceNormal
+  - _difficultyBeatmapId: CantFeelMyFaceHard
+    _platformLeaderboardId: CantFeelMyFaceHard
+  - _difficultyBeatmapId: CantFeelMyFaceExpert
+    _platformLeaderboardId: CantFeelMyFaceExpert
+  - _difficultyBeatmapId: CantFeelMyFaceExpertPlus
+    _platformLeaderboardId: CantFeelMyFaceExpertPlus
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeEasy
+    _platformLeaderboardId: HowDoIMakeYouLoveMeEasy
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeNormal
+    _platformLeaderboardId: HowDoIMakeYouLoveMeNormal
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeHard
+    _platformLeaderboardId: HowDoIMakeYouLoveMeHard
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeExpert
+    _platformLeaderboardId: HowDoIMakeYouLoveMeExpert
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeExpertPlus
+    _platformLeaderboardId: HowDoIMakeYouLoveMeExpertPlus
+  - _difficultyBeatmapId: IFeelItComingEasy
+    _platformLeaderboardId: IFeelItComingEasy
+  - _difficultyBeatmapId: IFeelItComingNormal
+    _platformLeaderboardId: IFeelItComingNormal
+  - _difficultyBeatmapId: IFeelItComingHard
+    _platformLeaderboardId: IFeelItComingHard
+  - _difficultyBeatmapId: IFeelItComingExpert
+    _platformLeaderboardId: IFeelItComingExpert
+  - _difficultyBeatmapId: IFeelItComingExpertPlus
+    _platformLeaderboardId: IFeelItComingExpertPlus
+  - _difficultyBeatmapId: PrayForMeEasy
+    _platformLeaderboardId: PrayForMeEasy
+  - _difficultyBeatmapId: PrayForMeNormal
+    _platformLeaderboardId: PrayForMeNormal
+  - _difficultyBeatmapId: PrayForMeHard
+    _platformLeaderboardId: PrayForMeHard
+  - _difficultyBeatmapId: PrayForMeExpert
+    _platformLeaderboardId: PrayForMeExpert
+  - _difficultyBeatmapId: PrayForMeExpertPlus
+    _platformLeaderboardId: PrayForMeExpertPlus
+  - _difficultyBeatmapId: SacrificeEasy
+    _platformLeaderboardId: SacrificeEasy
+  - _difficultyBeatmapId: SacrificeNormal
+    _platformLeaderboardId: SacrificeNormal
+  - _difficultyBeatmapId: SacrificeHard
+    _platformLeaderboardId: SacrificeHard
+  - _difficultyBeatmapId: SacrificeExpert
+    _platformLeaderboardId: SacrificeExpert
+  - _difficultyBeatmapId: SacrificeExpertPlus
+    _platformLeaderboardId: SacrificeExpertPlus
+  - _difficultyBeatmapId: SaveYourTearsEasy
+    _platformLeaderboardId: SaveYourTearsEasy
+  - _difficultyBeatmapId: SaveYourTearsNormal
+    _platformLeaderboardId: SaveYourTearsNormal
+  - _difficultyBeatmapId: SaveYourTearsHard
+    _platformLeaderboardId: SaveYourTearsHard
+  - _difficultyBeatmapId: SaveYourTearsExpert
+    _platformLeaderboardId: SaveYourTearsExpert
+  - _difficultyBeatmapId: SaveYourTearsExpertPlus
+    _platformLeaderboardId: SaveYourTearsExpertPlus
+  - _difficultyBeatmapId: SaveYourTearsOneSaberNormal
+    _platformLeaderboardId: SaveYourTearsOneSaberNormal
+  - _difficultyBeatmapId: SaveYourTearsOneSaberExpert
+    _platformLeaderboardId: SaveYourTearsOneSaberExpert
+  - _difficultyBeatmapId: SaveYourTearsOneSaberExpertPlus
+    _platformLeaderboardId: SaveYourTearsOneSaberExpertPlus
+  - _difficultyBeatmapId: StarboyEasy
+    _platformLeaderboardId: StarboyEasy
+  - _difficultyBeatmapId: StarboyNormal
+    _platformLeaderboardId: StarboyNormal
+  - _difficultyBeatmapId: StarboyHard
+    _platformLeaderboardId: StarboyHard
+  - _difficultyBeatmapId: StarboyExpert
+    _platformLeaderboardId: StarboyExpert
+  - _difficultyBeatmapId: StarboyExpertPlus
+    _platformLeaderboardId: StarboyExpertPlus
+  - _difficultyBeatmapId: TakeMyBreathEasy
+    _platformLeaderboardId: TakeMyBreathEasy
+  - _difficultyBeatmapId: TakeMyBreathNormal
+    _platformLeaderboardId: TakeMyBreathNormal
+  - _difficultyBeatmapId: TakeMyBreathHard
+    _platformLeaderboardId: TakeMyBreathHard
+  - _difficultyBeatmapId: TakeMyBreathExpert
+    _platformLeaderboardId: TakeMyBreathExpert
+  - _difficultyBeatmapId: TakeMyBreathExpertPlus
+    _platformLeaderboardId: TakeMyBreathExpertPlus
+  - _difficultyBeatmapId: TheHillsEasy
+    _platformLeaderboardId: TheHillsEasy
+  - _difficultyBeatmapId: TheHillsNormal
+    _platformLeaderboardId: TheHillsNormal
+  - _difficultyBeatmapId: TheHillsHard
+    _platformLeaderboardId: TheHillsHard
+  - _difficultyBeatmapId: TheHillsExpert
+    _platformLeaderboardId: TheHillsExpert
+  - _difficultyBeatmapId: TheHillsExpertPlus
+    _platformLeaderboardId: TheHillsExpertPlus
+  - _difficultyBeatmapId: BornToBeWildEasy
+    _platformLeaderboardId: fn2i2g462d913d6djfb3lg5n
+  - _difficultyBeatmapId: BornToBeWildNormal
+    _platformLeaderboardId: d85ke74dnn0bn4ac3fihd4dn
+  - _difficultyBeatmapId: BornToBeWildHard
+    _platformLeaderboardId: hb0nlgnb8flla7efedb1nnj2
+  - _difficultyBeatmapId: BornToBeWildExpert
+    _platformLeaderboardId: bj5ng6ng543me45f35n4j0j2
+  - _difficultyBeatmapId: BornToBeWildExpertPlus
+    _platformLeaderboardId: 093ck3ghneai1ab9dn22bec3
+  - _difficultyBeatmapId: BornToBeWildOneSaberNormal
+    _platformLeaderboardId: 6ed7jk6afen7fek7n58a8nhc
+  - _difficultyBeatmapId: BornToBeWildOneSaberExpert
+    _platformLeaderboardId: cf20ff0glbf781996l7b7df1
+  - _difficultyBeatmapId: BornToBeWildOneSaberExpertPlus
+    _platformLeaderboardId: d1f81a9ag9j08dgnim6d2nmh
+  - _difficultyBeatmapId: EyeOfTheTigerEasy
+    _platformLeaderboardId: 31372fmla097l1i61lljkbd7
+  - _difficultyBeatmapId: EyeOfTheTigerNormal
+    _platformLeaderboardId: 20a2jn8m78gniha937i85iff
+  - _difficultyBeatmapId: EyeOfTheTigerHard
+    _platformLeaderboardId: gcgfmc4k3h2ai6if1b47n9lf
+  - _difficultyBeatmapId: EyeOfTheTigerExpert
+    _platformLeaderboardId: l1j0l7aj7eh6a2l14b83jn56
+  - _difficultyBeatmapId: EyeOfTheTigerExpertPlus
+    _platformLeaderboardId: bm2biih3necc33lf0ek5437j
+  - _difficultyBeatmapId: FreeBirdEasy
+    _platformLeaderboardId: 31ddkikcmddeflibfn1559b2
+  - _difficultyBeatmapId: FreeBirdNormal
+    _platformLeaderboardId: icd5maaghb2d357058f1mgic
+  - _difficultyBeatmapId: FreeBirdHard
+    _platformLeaderboardId: 86ecf4l25en9g76g9a85jgbh
+  - _difficultyBeatmapId: FreeBirdExpert
+    _platformLeaderboardId: jm6cd5die5c9dmehdfl57i2h
+  - _difficultyBeatmapId: FreeBirdExpertPlus
+    _platformLeaderboardId: d23e1nna5jh80cacj3hk5bd3
+  - _difficultyBeatmapId: IWasMadeLovingYouEasy
+    _platformLeaderboardId: idkef061e3kge76666g9i4dm
+  - _difficultyBeatmapId: IWasMadeLovingYouNormal
+    _platformLeaderboardId: 1kcl95a6mh38l4933nj98ec5
+  - _difficultyBeatmapId: IWasMadeLovingYouHard
+    _platformLeaderboardId: mf808c59jmmamna7e0n9i143
+  - _difficultyBeatmapId: IWasMadeLovingYouExpert
+    _platformLeaderboardId: gnebdd4nlil927813ligll7l
+  - _difficultyBeatmapId: IWasMadeLovingYouExpertPlus
+    _platformLeaderboardId: kfik82faj56de0b0j78nl7l4
+  - _difficultyBeatmapId: SevenNationArmyEasy
+    _platformLeaderboardId: d112k8aicbei4i07a66mg85k
+  - _difficultyBeatmapId: SevenNationArmyNormal
+    _platformLeaderboardId: kmmna073h4hn5gl4gh818g83
+  - _difficultyBeatmapId: SevenNationArmyHard
+    _platformLeaderboardId: 41ai9igkhl3km8b43dhkhdnc
+  - _difficultyBeatmapId: SevenNationArmyExpert
+    _platformLeaderboardId: 592977cfh0040j07e265i4fe
+  - _difficultyBeatmapId: SevenNationArmyExpertPlus
+    _platformLeaderboardId: f4hlga903g2830hgda1l10nn
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritEasy
+    _platformLeaderboardId: 487bnmhhakbiek6m0lm1i8li
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritNormal
+    _platformLeaderboardId: g25l4gik4jg95k7ebk19jbb0
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritHard
+    _platformLeaderboardId: 2hb1lk1e5jjki608blhe6h23
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritExpert
+    _platformLeaderboardId: ace491elanh1k247gnkglk26
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritExpertPlus
+    _platformLeaderboardId: a649j059g3h83cckdj5fa8k6
+  - _difficultyBeatmapId: SweetChildOMineEasy
+    _platformLeaderboardId: 6bhf803721e6d10675k3f74n
+  - _difficultyBeatmapId: SweetChildOMineNormal
+    _platformLeaderboardId: gi8f9nach457c8m7g0bm0d36
+  - _difficultyBeatmapId: SweetChildOMineHard
+    _platformLeaderboardId: 15h1c57i81947eih6h4k0emm
+  - _difficultyBeatmapId: SweetChildOMineExpert
+    _platformLeaderboardId: a3gda745e7g1f47dfkkj6l19
+  - _difficultyBeatmapId: SweetChildOMineExpertPlus
+    _platformLeaderboardId: ffbn1dgclha2m6jc405n2mmm
+  - _difficultyBeatmapId: ThePretenderEasy
+    _platformLeaderboardId: bm1j0mnh1e7jj3b8k3a8kn48
+  - _difficultyBeatmapId: ThePretenderNormal
+    _platformLeaderboardId: eknkneb0nhfigm6fd43d02hb
+  - _difficultyBeatmapId: ThePretenderHard
+    _platformLeaderboardId: lmihi7gc40gcj8g6lme95n5d
+  - _difficultyBeatmapId: ThePretenderExpert
+    _platformLeaderboardId: 8g6e3e6nd7i7jhgm1k21j37n
+  - _difficultyBeatmapId: ThePretenderExpertPlus
+    _platformLeaderboardId: n2ninc15ahdd2mm8nn31657a
+  - _difficultyBeatmapId: ThePretenderOneSaberNormal
+    _platformLeaderboardId: eig062a790jelled5e143876
+  - _difficultyBeatmapId: ThePretenderOneSaberExpert
+    _platformLeaderboardId: 0l0c35adcb2glkdam541d40n
+  - _difficultyBeatmapId: ThePretenderOneSaberExpertPlus
+    _platformLeaderboardId: d3b8i41ecle8972gg94f3cgl
+  - _difficultyBeatmapId: BonesOneSaberNormal
+    _platformLeaderboardId: 6873ndn1865gen20k2aeag42
+  - _difficultyBeatmapId: BonesOneSaberExpert
+    _platformLeaderboardId: mc51j77jgk0e4e23lf646c1i
+  - _difficultyBeatmapId: BonesOneSaberExpertPlus
+    _platformLeaderboardId: 9m6bmb8m254c309d0anb7b8g
+  - _difficultyBeatmapId: BonesEasy
+    _platformLeaderboardId: 421bcj5ck3l5m59ag55cdm4d
+  - _difficultyBeatmapId: BonesNormal
+    _platformLeaderboardId: njea4h6iki37feg0lkhh8f0c
+  - _difficultyBeatmapId: BonesHard
+    _platformLeaderboardId: il11fl2gi6iefgh31khb29k6
+  - _difficultyBeatmapId: BonesExpert
+    _platformLeaderboardId: 96mnb7bdfb75an8hhghani5i
+  - _difficultyBeatmapId: BonesExpertPlus
+    _platformLeaderboardId: 71hg2febj73gainnjhd1fghj
+  - _difficultyBeatmapId: EnemyEasy
+    _platformLeaderboardId: ie9j8bli9al800jl6he0k777
+  - _difficultyBeatmapId: EnemyNormal
+    _platformLeaderboardId: 7mkac76nd2jhfek6jb9fmcmi
+  - _difficultyBeatmapId: EnemyHard
+    _platformLeaderboardId: b8hmbghm8ak7nm57hc0n6724
+  - _difficultyBeatmapId: EnemyExpert
+    _platformLeaderboardId: bdmk6bnnn205eckc05nd6234
+  - _difficultyBeatmapId: EnemyExpertPlus
+    _platformLeaderboardId: lhdkh7be8228gd2chic4i81k
+  - _difficultyBeatmapId: EnemyOneSaberNormal
+    _platformLeaderboardId: gi6dgmakmi469an703nk5595
+  - _difficultyBeatmapId: EnemyOneSaberExpert
+    _platformLeaderboardId: ad1fjji9f8jhdb0n6nfmg1nh
+  - _difficultyBeatmapId: EnemyOneSaberExpertPlus
+    _platformLeaderboardId: g404kkkif0mb3b84g7l6ji4c
+  - _difficultyBeatmapId: CrazyGeniusEasy
+    _platformLeaderboardId: fgim4e3iag47andgj1127l4a
+  - _difficultyBeatmapId: CrazyGeniusNormal
+    _platformLeaderboardId: f9jcdea6adm1beg54fnac1e9
+  - _difficultyBeatmapId: CrazyGeniusHard
+    _platformLeaderboardId: j17n8284g6bg8lblj014a96d
+  - _difficultyBeatmapId: CrazyGeniusExpert
+    _platformLeaderboardId: 0ghjg0md439f22mi7nb88gbl
+  - _difficultyBeatmapId: CrazyGeniusExpertPlus
+    _platformLeaderboardId: b5g466eh3ge56hi8jh32jg25
+  - _difficultyBeatmapId: DancingsNotACrimeEasy
+    _platformLeaderboardId: ceb3f8hb0dnadna66f09b14e
+  - _difficultyBeatmapId: DancingsNotACrimeNormal
+    _platformLeaderboardId: h45c046hik2e97d017n58b8b
+  - _difficultyBeatmapId: DancingsNotACrimeHard
+    _platformLeaderboardId: hmgfn67l4e9m8mab9fkgdefm
+  - _difficultyBeatmapId: DancingsNotACrimeExpert
+    _platformLeaderboardId: 2hi94j7cfjhb3l13i2eh14lf
+  - _difficultyBeatmapId: DancingsNotACrimeExpertPlus
+    _platformLeaderboardId: jccbekli0l8jd54e81k620i0
+  - _difficultyBeatmapId: HeyLookMaIMadeItEasy
+    _platformLeaderboardId: l40g81bijf36f0m2fjgkk0fd
+  - _difficultyBeatmapId: HeyLookMaIMadeItNormal
+    _platformLeaderboardId: ibb900agdagd14hhhhjnea3l
+  - _difficultyBeatmapId: HeyLookMaIMadeItHard
+    _platformLeaderboardId: 127bkbe4ldcn07n53jlmh776
+  - _difficultyBeatmapId: HeyLookMaIMadeItExpert
+    _platformLeaderboardId: 3833cka9le568d36keklgdl7
+  - _difficultyBeatmapId: HeyLookMaIMadeItExpertPlus
+    _platformLeaderboardId: bk69f7e78ij146844dncbm2f
+  - _difficultyBeatmapId: SayAmenEasy
+    _platformLeaderboardId: 65h74f7c7f66bmm13a7e0g42
+  - _difficultyBeatmapId: SayAmenNormal
+    _platformLeaderboardId: ag03a57cb7b390bk79ah9a74
+  - _difficultyBeatmapId: SayAmenHard
+    _platformLeaderboardId: ndfk24a919gem82fclh26l56
+  - _difficultyBeatmapId: SayAmenExpert
+    _platformLeaderboardId: n8lcmcc356idhe7834b0kb5l
+  - _difficultyBeatmapId: SayAmenExpertPlus
+    _platformLeaderboardId: achaffl7f476had749f2afh8
+  - _difficultyBeatmapId: SugarSoakerEasy
+    _platformLeaderboardId: k9l7jg8i9a86g0nhk69m786f
+  - _difficultyBeatmapId: SugarSoakerNormal
+    _platformLeaderboardId: g88idnjclmiemnekimcd5ghk
+  - _difficultyBeatmapId: SugarSoakerHard
+    _platformLeaderboardId: eg16fhdfd3edd9bnm4n5bdd5
+  - _difficultyBeatmapId: SugarSoakerExpert
+    _platformLeaderboardId: db54knll78ba6khlkclalmbh
+  - _difficultyBeatmapId: SugarSoakerExpertPlus
+    _platformLeaderboardId: n521kl7m8j448bfdnfh671f0
+  - _difficultyBeatmapId: VivaLasVengeanceEasy
+    _platformLeaderboardId: jdi0de383knl29b7agaa7kin
+  - _difficultyBeatmapId: VivaLasVengeanceNormal
+    _platformLeaderboardId: lcm96fm7dmgen7b0df672cbe
+  - _difficultyBeatmapId: VivaLasVengeanceHard
+    _platformLeaderboardId: 4k49k01g6966ajljj65c47cl
+  - _difficultyBeatmapId: VivaLasVengeanceExpert
+    _platformLeaderboardId: ib7fe977be2jdfnjfdh7ga18
+  - _difficultyBeatmapId: VivaLasVengeanceExpertPlus
+    _platformLeaderboardId: 5b7bie654f965mjeb34i0287
