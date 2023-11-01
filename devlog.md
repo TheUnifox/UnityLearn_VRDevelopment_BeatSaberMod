@@ -38,3 +38,10 @@ Once reconstruction is done, I can implement the most popular mods into the game
 
 ### Oct. 26, 2023    3:00pm - 9:000pm
 Attempts at Deconstructing assets.
+
+### Oct. 31, 2023    2:30pm - 11pm
+A lot of work reconstructing UI. \
+Mostly settings menu stuff that I have re-added the scripts onto.
+
+Gonna be at least a few days of this adding scripts onto objects, there's a lot to do. \
+After that will be possibly fixing shaders, then *maybe* a first test build.
