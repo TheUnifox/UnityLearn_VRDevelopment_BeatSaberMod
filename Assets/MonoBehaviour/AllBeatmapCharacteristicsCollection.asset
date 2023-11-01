@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1979050350, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: AllBeatmapCharacteristicsCollection
+  m_EditorClassIdentifier:
+  _ignore360MovementCharacteristics: 0
+  _beatmapCharacteristics:
+  - {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+  - {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+  - {fileID: 11400000, guid: 9222d81e81b91dc4882b25500984a5e8, type: 2}
+  - {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+  - {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}

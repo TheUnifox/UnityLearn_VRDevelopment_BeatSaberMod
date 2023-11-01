@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1139881501, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MultiplayerLevelScenesTransitionSetupDataSO
+  m_EditorClassIdentifier:
+  _multiplayerLevelSceneInfo: {fileID: 11400000, guid: a083c8cbfb00e454b80406996bc02dd9, type: 2}
+  _gameCoreSceneInfo: {fileID: 11400000, guid: 64f8123b07e86134a9f41cd6720f1d3e, type: 2}
+  _multiplayerEnvironmentInfo: {fileID: 11400000, guid: afb39a5a89ca85843b1042c6e3990b97, type: 2}
+  _mainSettingsModel: {fileID: 11400000, guid: f194bc9bd797f4a409d33c1752b85547, type: 2}

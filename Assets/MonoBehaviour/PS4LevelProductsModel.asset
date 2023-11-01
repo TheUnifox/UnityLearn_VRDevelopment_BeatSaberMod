@@ -1,0 +1,556 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 17351897, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PS4LevelProductsModel
+  m_EditorClassIdentifier:
+  _levelPackProductsData:
+  - _productLabel: P1XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: Monstercat
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P1S1XXXXXXXXXXXX
+      _productLabel: P1S1XXXXXXXXXXXX
+      _levelId: Boundless
+    - _entitlementLabel: P1S2XXXXXXXXXXXX
+      _productLabel: P1S2XXXXXXXXXXXX
+      _levelId: EmojiVIP
+    - _entitlementLabel: P1S3XXXXXXXXXXXX
+      _productLabel: P1S3XXXXXXXXXXXX
+      _levelId: Epic
+    - _entitlementLabel: P1S4XXXXXXXXXXXX
+      _productLabel: P1S4XXXXXXXXXXXX
+      _levelId: FeelingStronger
+    - _entitlementLabel: P1S5XXXXXXXXXXXX
+      _productLabel: P1S5XXXXXXXXXXXX
+      _levelId: Overkill
+    - _entitlementLabel: P1S6XXXXXXXXXXXX
+      _productLabel: P1S6XXXXXXXXXXXX
+      _levelId: Rattlesnake
+    - _entitlementLabel: P1S7XXXXXXXXXXXX
+      _productLabel: P1S7XXXXXXXXXXXX
+      _levelId: Stronger
+    - _entitlementLabel: P1S8XXXXXXXXXXXX
+      _productLabel: P1S8XXXXXXXXXXXX
+      _levelId: ThisTime
+    - _entitlementLabel: P1S9XXXXXXXXXXXX
+      _productLabel: P1S9XXXXXXXXXXXX
+      _levelId: TillItsOver
+    - _entitlementLabel: P1S10XXXXXXXXXXX
+      _productLabel: P1S10XXXXXXXXXXX
+      _levelId: WeWontBeAlone
+  - _productLabel: P2XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: ImagineDragons
+    _packLevelPriceDiscountMul: 0.627722
+    _levelProductsData:
+    - _entitlementLabel: P2S1XXXXXXXXXXXX
+      _productLabel: P2S1XXXXXXXXXXXX
+      _levelId: BadLiar
+    - _entitlementLabel: P2S2XXXXXXXXXXXX
+      _productLabel: P2S2XXXXXXXXXXXX
+      _levelId: Believer
+    - _entitlementLabel: P2S3XXXXXXXXXXXX
+      _productLabel: P2S3XXXXXXXXXXXX
+      _levelId: Digital
+    - _entitlementLabel: P2S4XXXXXXXXXXXX
+      _productLabel: P2S4XXXXXXXXXXXX
+      _levelId: ItsTime
+    - _entitlementLabel: P2S5XXXXXXXXXXXX
+      _productLabel: P2S5XXXXXXXXXXXX
+      _levelId: Machine
+    - _entitlementLabel: P2S6XXXXXXXXXXXX
+      _productLabel: P2S6XXXXXXXXXXXX
+      _levelId: Natural
+    - _entitlementLabel: P2S7XXXXXXXXXXXX
+      _productLabel: P2S7XXXXXXXXXXXX
+      _levelId: Radioactive
+    - _entitlementLabel: P2S8XXXXXXXXXXXX
+      _productLabel: P2S8XXXXXXXXXXXX
+      _levelId: Thunder
+    - _entitlementLabel: P2S9XXXXXXXXXXXX
+      _productLabel: P2S9XXXXXXXXXXXX
+      _levelId: Warriors
+    - _entitlementLabel: P2S10XXXXXXXXXXX
+      _productLabel: P2S10XXXXXXXXXXX
+      _levelId: WhateverItTakes
+    - _entitlementLabel: P2S11XXXXXXXXXXX
+      _productLabel: P2S11XXXXXXXXXXX
+      _levelId: Bones
+    - _entitlementLabel: P2S12XXXXXXXXXXX
+      _productLabel: P2S12XXXXXXXXXXX
+      _levelId: Enemy
+  - _productLabel: P3XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: PanicAtTheDisco
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P3S1XXXXXXXXXXXX
+      _productLabel: P3S1XXXXXXXXXXXX
+      _levelId: TheGreatestShow
+    - _entitlementLabel: P3S2XXXXXXXXXXXX
+      _productLabel: P3S2XXXXXXXXXXXX
+      _levelId: Victorious
+    - _entitlementLabel: P3S3XXXXXXXXXXXX
+      _productLabel: P3S3XXXXXXXXXXXX
+      _levelId: EmperorsNewClothes
+    - _entitlementLabel: P3S4XXXXXXXXXXXX
+      _productLabel: P3S4XXXXXXXXXXXX
+      _levelId: HighHopes
+    - _entitlementLabel: P3S5XXXXXXXXXXXX
+      _productLabel: P3S5XXXXXXXXXXXX
+      _levelId: CrazyGenius
+    - _entitlementLabel: P3S6XXXXXXXXXXXX
+      _productLabel: P3S6XXXXXXXXXXXX
+      _levelId: DancingsNotACrime
+    - _entitlementLabel: P3S7XXXXXXXXXXXX
+      _productLabel: P3S7XXXXXXXXXXXX
+      _levelId: HeyLookMaIMadeIt
+    - _entitlementLabel: P3S8XXXXXXXXXXXX
+      _productLabel: P3S8XXXXXXXXXXXX
+      _levelId: SayAmen
+    - _entitlementLabel: P3S9XXXXXXXXXXXX
+      _productLabel: P3S9XXXXXXXXXXXX
+      _levelId: SugarSoaker
+    - _entitlementLabel: P3S10XXXXXXXXXXX
+      _productLabel: P3S10XXXXXXXXXXX
+      _levelId: VivaLasVengeance
+  - _productLabel: P4XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: RocketLeague
+    _packLevelPriceDiscountMul: 0.7529313
+    _levelProductsData:
+    - _entitlementLabel: P4S1XXXXXXXXXXXX
+      _productLabel: P4S1XXXXXXXXXXXX
+      _levelId: Play
+    - _entitlementLabel: P4S2XXXXXXXXXXXX
+      _productLabel: P4S2XXXXXXXXXXXX
+      _levelId: Glide
+    - _entitlementLabel: P4S3XXXXXXXXXXXX
+      _productLabel: P4S3XXXXXXXXXXXX
+      _levelId: LuvUNeedU
+    - _entitlementLabel: P4S4XXXXXXXXXXXX
+      _productLabel: P4S4XXXXXXXXXXXX
+      _levelId: RockIt
+    - _entitlementLabel: P4S5XXXXXXXXXXXX
+      _productLabel: P4S5XXXXXXXXXXXX
+      _levelId: Shiawase
+    - _entitlementLabel: P4S6XXXXXXXXXXXX
+      _productLabel: P4S6XXXXXXXXXXXX
+      _levelId: TestMe
+  - _productLabel: P5XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: GreenDay
+    _packLevelPriceDiscountMul: 0.7529313
+    _levelProductsData:
+    - _entitlementLabel: P5S1XXXXXXXXXXXX
+      _productLabel: P5S1XXXXXXXXXXXX
+      _levelId: AmericanIdiot
+    - _entitlementLabel: P5S2XXXXXXXXXXXX
+      _productLabel: P5S2XXXXXXXXXXXX
+      _levelId: FatherOfAll
+    - _entitlementLabel: P5S3XXXXXXXXXXXX
+      _productLabel: P5S3XXXXXXXXXXXX
+      _levelId: BoulevardOfBrokenDreams
+    - _entitlementLabel: P5S4XXXXXXXXXXXX
+      _productLabel: P5S4XXXXXXXXXXXX
+      _levelId: Holiday
+    - _entitlementLabel: P5S5XXXXXXXXXXXX
+      _productLabel: P5S5XXXXXXXXXXXX
+      _levelId: FireReadyAim
+    - _entitlementLabel: P5S6XXXXXXXXXXXX
+      _productLabel: P5S6XXXXXXXXXXXX
+      _levelId: Minority
+  - _productLabel: P6XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: Timbaland
+    _packLevelPriceDiscountMul: 0.80301505
+    _levelProductsData:
+    - _entitlementLabel: P6S1XXXXXXXXXXXX
+      _productLabel: P6S1XXXXXXXXXXXX
+      _levelId: HasAMeaning
+    - _entitlementLabel: P6S2XXXXXXXXXXXX
+      _productLabel: P6S2XXXXXXXXXXXX
+      _levelId: DumbThingz
+    - _entitlementLabel: P6S3XXXXXXXXXXXX
+      _productLabel: P6S3XXXXXXXXXXXX
+      _levelId: WhileWereYoung
+    - _entitlementLabel: P6S4XXXXXXXXXXXX
+      _productLabel: P6S4XXXXXXXXXXXX
+      _levelId: WhatILike
+    - _entitlementLabel: P6S5XXXXXXXXXXXX
+      _productLabel: P6S5XXXXXXXXXXXX
+      _levelId: Famous
+  - _productLabel: P7XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: LinkinPark
+    _packLevelPriceDiscountMul: 0.6391046
+    _levelProductsData:
+    - _entitlementLabel: P7S1XXXXXXXXXXXX
+      _productLabel: P7S1XXXXXXXXXXXX
+      _levelId: BleedItOut
+    - _entitlementLabel: P7S2XXXXXXXXXXXX
+      _productLabel: P7S2XXXXXXXXXXXX
+      _levelId: BreakingTheHabit
+    - _entitlementLabel: P7S3XXXXXXXXXXXX
+      _productLabel: P7S3XXXXXXXXXXXX
+      _levelId: Faint
+    - _entitlementLabel: P7S4XXXXXXXXXXXX
+      _productLabel: P7S4XXXXXXXXXXXX
+      _levelId: GivenUp
+    - _entitlementLabel: P7S5XXXXXXXXXXXX
+      _productLabel: P7S5XXXXXXXXXXXX
+      _levelId: InTheEnd
+    - _entitlementLabel: P7S6XXXXXXXXXXXX
+      _productLabel: P7S6XXXXXXXXXXXX
+      _levelId: NewDivide
+    - _entitlementLabel: P7S7XXXXXXXXXXXX
+      _productLabel: P7S7XXXXXXXXXXXX
+      _levelId: Numb
+    - _entitlementLabel: P7S8XXXXXXXXXXXX
+      _productLabel: P7S8XXXXXXXXXXXX
+      _levelId: OneStepCloser
+    - _entitlementLabel: P7S9XXXXXXXXXXXX
+      _productLabel: P7S9XXXXXXXXXXXX
+      _levelId: Papercut
+    - _entitlementLabel: P7S10XXXXXXXXXXX
+      _productLabel: P7S10XXXXXXXXXXX
+      _levelId: SomewhereIBelong
+    - _entitlementLabel: P7S11XXXXXXXXXXX
+      _productLabel: P7S11XXXXXXXXXXX
+      _levelId: WhatIveDone
+  - _productLabel: P8XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: BTS
+    _packLevelPriceDiscountMul: 0.62772197
+    _levelProductsData:
+    - _entitlementLabel: P8S1XXXXXXXXXXXX
+      _productLabel: P8S1XXXXXXXXXXXX
+      _levelId: BloodSweatAndTears
+    - _entitlementLabel: P8S2XXXXXXXXXXXX
+      _productLabel: P8S2XXXXXXXXXXXX
+      _levelId: BoyWithLuv
+    - _entitlementLabel: P8S3XXXXXXXXXXXX
+      _productLabel: P8S3XXXXXXXXXXXX
+      _levelId: BurningUp
+    - _entitlementLabel: P8S4XXXXXXXXXXXX
+      _productLabel: P8S4XXXXXXXXXXXX
+      _levelId: Dionysus
+    - _entitlementLabel: P8S5XXXXXXXXXXXX
+      _productLabel: P8S5XXXXXXXXXXXX
+      _levelId: Dna
+    - _entitlementLabel: P8S6XXXXXXXXXXXX
+      _productLabel: P8S6XXXXXXXXXXXX
+      _levelId: Dope
+    - _entitlementLabel: P8S7XXXXXXXXXXXX
+      _productLabel: P8S7XXXXXXXXXXXX
+      _levelId: Dynamite
+    - _entitlementLabel: P8S8XXXXXXXXXXXX
+      _productLabel: P8S8XXXXXXXXXXXX
+      _levelId: FakeLove
+    - _entitlementLabel: P8S9XXXXXXXXXXXX
+      _productLabel: P8S9XXXXXXXXXXXX
+      _levelId: Idol
+    - _entitlementLabel: P8S10XXXXXXXXXXX
+      _productLabel: P8S10XXXXXXXXXXX
+      _levelId: MicDrop
+    - _entitlementLabel: P8S11XXXXXXXXXXX
+      _productLabel: P8S11XXXXXXXXXXX
+      _levelId: NotToday
+    - _entitlementLabel: P8S12XXXXXXXXXXX
+      _productLabel: P8S12XXXXXXXXXXX
+      _levelId: Ugh
+  - _productLabel: P9XXXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: Interscope
+    _packLevelPriceDiscountMul: 0.7171572
+    _levelProductsData:
+    - _entitlementLabel: P9S1XXXXXXXXXXXX
+      _productLabel: P9S1XXXXXXXXXXXX
+      _levelId: CountingStars
+    - _entitlementLabel: P9S2XXXXXXXXXXXX
+      _productLabel: P9S2XXXXXXXXXXXX
+      _levelId: DnaLamar
+    - _entitlementLabel: P9S3XXXXXXXXXXXX
+      _productLabel: P9S3XXXXXXXXXXXX
+      _levelId: DontCha
+    - _entitlementLabel: P9S4XXXXXXXXXXXX
+      _productLabel: P9S4XXXXXXXXXXXX
+      _levelId: PartyRockAnthem
+    - _entitlementLabel: P9S5XXXXXXXXXXXX
+      _productLabel: P9S5XXXXXXXXXXXX
+      _levelId: Rollin
+    - _entitlementLabel: P9S6XXXXXXXXXXXX
+      _productLabel: P9S6XXXXXXXXXXXX
+      _levelId: Sugar
+    - _entitlementLabel: P9S7XXXXXXXXXXXX
+      _productLabel: P9S7XXXXXXXXXXXX
+      _levelId: TheSweetEscape
+  - _productLabel: P10XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: Skrillex
+    _packLevelPriceDiscountMul: 0.69032663
+    _levelProductsData:
+    - _entitlementLabel: P10S1XXXXXXXXXXX
+      _productLabel: P10S1XXXXXXXXXXX
+      _levelId: Bangarang
+    - _entitlementLabel: P10S2XXXXXXXXXXX
+      _productLabel: P10S2XXXXXXXXXXX
+      _levelId: Butterflies
+    - _entitlementLabel: P10S3XXXXXXXXXXX
+      _productLabel: P10S3XXXXXXXXXXX
+      _levelId: DontGo
+    - _entitlementLabel: P10S4XXXXXXXXXXX
+      _productLabel: P10S4XXXXXXXXXXX
+      _levelId: FirstOfTheYear
+    - _entitlementLabel: P10S5XXXXXXXXXXX
+      _productLabel: P10S5XXXXXXXXXXX
+      _levelId: RaggaBomb
+    - _entitlementLabel: P10S6XXXXXXXXXXX
+      _productLabel: P10S6XXXXXXXXXXX
+      _levelId: RockNRoll
+    - _entitlementLabel: P10S7XXXXXXXXXXX
+      _productLabel: P10S7XXXXXXXXXXX
+      _levelId: ScaryMonstersAndNiceSprites
+    - _entitlementLabel: P10S8XXXXXXXXXXX
+      _productLabel: P10S8XXXXXXXXXXX
+      _levelId: TheDevilsDen
+  - _productLabel: P11XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: BillieEilish
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P11S1XXXXXXXXXXX
+      _productLabel: P11S1XXXXXXXXXXX
+      _levelId: AllTheGoodGirlsGoToHell
+    - _entitlementLabel: P11S2XXXXXXXXXXX
+      _productLabel: P11S2XXXXXXXXXXX
+      _levelId: BadGuy
+    - _entitlementLabel: P11S3XXXXXXXXXXX
+      _productLabel: P11S3XXXXXXXXXXX
+      _levelId: Bellyache
+    - _entitlementLabel: P11S4XXXXXXXXXXX
+      _productLabel: P11S4XXXXXXXXXXX
+      _levelId: BuryAFriend
+    - _entitlementLabel: P11S5XXXXXXXXXXX
+      _productLabel: P11S5XXXXXXXXXXX
+      _levelId: HappierThanEver
+    - _entitlementLabel: P11S6XXXXXXXXXXX
+      _productLabel: P11S6XXXXXXXXXXX
+      _levelId: IDidntChangeMyNumber
+    - _entitlementLabel: P11S7XXXXXXXXXXX
+      _productLabel: P11S7XXXXXXXXXXX
+      _levelId: NDA
+    - _entitlementLabel: P11S8XXXXXXXXXXX
+      _productLabel: P11S8XXXXXXXXXXX
+      _levelId: Oxytocin
+    - _entitlementLabel: P11S9XXXXXXXXXXX
+      _productLabel: P11S9XXXXXXXXXXX
+      _levelId: ThereforeIAm
+    - _entitlementLabel: P11S10XXXXXXXXXX
+      _productLabel: P11S10XXXXXXXXXX
+      _levelId: YouShouldSeeMeInACrown
+  - _productLabel: P12XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: LadyGaga
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P12S1XXXXXXXXXXX
+      _productLabel: P12S1XXXXXXXXXXX
+      _levelId: Alejandro
+    - _entitlementLabel: P12S2XXXXXXXXXXX
+      _productLabel: P12S2XXXXXXXXXXX
+      _levelId: BadRomance
+    - _entitlementLabel: P12S3XXXXXXXXXXX
+      _productLabel: P12S3XXXXXXXXXXX
+      _levelId: BornThisWay
+    - _entitlementLabel: P12S4XXXXXXXXXXX
+      _productLabel: P12S4XXXXXXXXXXX
+      _levelId: JustDance
+    - _entitlementLabel: P12S5XXXXXXXXXXX
+      _productLabel: P12S5XXXXXXXXXXX
+      _levelId: Paparazzi
+    - _entitlementLabel: P12S6XXXXXXXXXXX
+      _productLabel: P12S6XXXXXXXXXXX
+      _levelId: PokerFace
+    - _entitlementLabel: P12S7XXXXXXXXXXX
+      _productLabel: P12S7XXXXXXXXXXX
+      _levelId: RainOnMe
+    - _entitlementLabel: P12S8XXXXXXXXXXX
+      _productLabel: P12S8XXXXXXXXXXX
+      _levelId: StupidLove
+    - _entitlementLabel: P12S9XXXXXXXXXXX
+      _productLabel: P12S9XXXXXXXXXXX
+      _levelId: Telephone
+    - _entitlementLabel: P12S10XXXXXXXXXX
+      _productLabel: P12S10XXXXXXXXXX
+      _levelId: TheEdgeOfGlory
+  - _productLabel: P13XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: FallOutBoy
+    _packLevelPriceDiscountMul: 0.6903266
+    _levelProductsData:
+    - _entitlementLabel: P13S1XXXXXXXXXXX
+      _productLabel: P13S1XXXXXXXXXXX
+      _levelId: Centuries
+    - _entitlementLabel: P13S2XXXXXXXXXXX
+      _productLabel: P13S2XXXXXXXXXXX
+      _levelId: DanceDance
+    - _entitlementLabel: P13S3XXXXXXXXXXX
+      _productLabel: P13S3XXXXXXXXXXX
+      _levelId: IDontCare
+    - _entitlementLabel: P13S4XXXXXXXXXXX
+      _productLabel: P13S4XXXXXXXXXXX
+      _levelId: Immortals
+    - _entitlementLabel: P13S5XXXXXXXXXXX
+      _productLabel: P13S5XXXXXXXXXXX
+      _levelId: Irresistible
+    - _entitlementLabel: P13S6XXXXXXXXXXX
+      _productLabel: P13S6XXXXXXXXXXX
+      _levelId: MySongsKnow
+    - _entitlementLabel: P13S7XXXXXXXXXXX
+      _productLabel: P13S7XXXXXXXXXXX
+      _levelId: ThisAintAScene
+    - _entitlementLabel: P13S8XXXXXXXXXXX
+      _productLabel: P13S8XXXXXXXXXXX
+      _levelId: ThnksFrThMmrs
+  - _productLabel: P14XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: EDM
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P14S1XXXXXXXXXXX
+      _productLabel: P14S1XXXXXXXXXXX
+      _levelId: Alone
+    - _entitlementLabel: P14S2XXXXXXXXXXX
+      _productLabel: P14S2XXXXXXXXXXX
+      _levelId: Animals
+    - _entitlementLabel: P14S3XXXXXXXXXXX
+      _productLabel: P14S3XXXXXXXXXXX
+      _levelId: Freestyler
+    - _entitlementLabel: P14S4XXXXXXXXXXX
+      _productLabel: P14S4XXXXXXXXXXX
+      _levelId: GhostsNStuff
+    - _entitlementLabel: P14S5XXXXXXXXXXX
+      _productLabel: P14S5XXXXXXXXXXX
+      _levelId: Icarus
+    - _entitlementLabel: P14S6XXXXXXXXXXX
+      _productLabel: P14S6XXXXXXXXXXX
+      _levelId: Sandstorm
+    - _entitlementLabel: P14S7XXXXXXXXXXX
+      _productLabel: P14S7XXXXXXXXXXX
+      _levelId: StayTheNight
+    - _entitlementLabel: P14S8XXXXXXXXXXX
+      _productLabel: P14S8XXXXXXXXXXX
+      _levelId: TheRockafellerSkank
+    - _entitlementLabel: P14S9XXXXXXXXXXX
+      _productLabel: P14S9XXXXXXXXXXX
+      _levelId: WaitingAllNight
+    - _entitlementLabel: P14S10XXXXXXXXXX
+      _productLabel: P14S10XXXXXXXXXX
+      _levelId: Witchcraft
+  - _productLabel: P15XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: Lizzo
+    _packLevelPriceDiscountMul: 0.6694584
+    _levelProductsData:
+    - _entitlementLabel: P15S1XXXXXXXXXXX
+      _productLabel: P15S1XXXXXXXXXXX
+      _levelId: 2BeLoved
+    - _entitlementLabel: P15S2XXXXXXXXXXX
+      _productLabel: P15S2XXXXXXXXXXX
+      _levelId: AboutDamnTime
+    - _entitlementLabel: P15S3XXXXXXXXXXX
+      _productLabel: P15S3XXXXXXXXXXX
+      _levelId: CuzILoveYou
+    - _entitlementLabel: P15S4XXXXXXXXXXX
+      _productLabel: P15S4XXXXXXXXXXX
+      _levelId: EverybodysGay
+    - _entitlementLabel: P15S5XXXXXXXXXXX
+      _productLabel: P15S5XXXXXXXXXXX
+      _levelId: GoodAsHell
+    - _entitlementLabel: P15S6XXXXXXXXXXX
+      _productLabel: P15S6XXXXXXXXXXX
+      _levelId: Juice
+    - _entitlementLabel: P15S7XXXXXXXXXXX
+      _productLabel: P15S7XXXXXXXXXXX
+      _levelId: Tempo
+    - _entitlementLabel: P15S8XXXXXXXXXXX
+      _productLabel: P15S8XXXXXXXXXXX
+      _levelId: TruthHurts
+    - _entitlementLabel: P15S9XXXXXXXXXXX
+      _productLabel: P15S9XXXXXXXXXXX
+      _levelId: Worship
+  - _productLabel: P16XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: TheWeeknd
+    _packLevelPriceDiscountMul: 0.6527638
+    _levelProductsData:
+    - _entitlementLabel: P16S1XXXXXXXXXXX
+      _productLabel: P16S1XXXXXXXXXXX
+      _levelId: BlindingLights
+    - _entitlementLabel: P16S2XXXXXXXXXXX
+      _productLabel: P16S2XXXXXXXXXXX
+      _levelId: CantFeelMyFace
+    - _entitlementLabel: P16S3XXXXXXXXXXX
+      _productLabel: P16S3XXXXXXXXXXX
+      _levelId: HowDoIMakeYouLoveMe
+    - _entitlementLabel: P16S4XXXXXXXXXXX
+      _productLabel: P16S4XXXXXXXXXXX
+      _levelId: IFeelItComing
+    - _entitlementLabel: P16S5XXXXXXXXXXX
+      _productLabel: P16S5XXXXXXXXXXX
+      _levelId: PrayForMe
+    - _entitlementLabel: P16S6XXXXXXXXXXX
+      _productLabel: P16S6XXXXXXXXXXX
+      _levelId: Sacrifice
+    - _entitlementLabel: P16S7XXXXXXXXXXX
+      _productLabel: P16S7XXXXXXXXXXX
+      _levelId: SaveYourTears
+    - _entitlementLabel: P16S8XXXXXXXXXXX
+      _productLabel: P16S8XXXXXXXXXXX
+      _levelId: Starboy
+    - _entitlementLabel: P16S9XXXXXXXXXXX
+      _productLabel: P16S9XXXXXXXXXXX
+      _levelId: TakeMyBreath
+    - _entitlementLabel: P16S10XXXXXXXXXX
+      _productLabel: P16S10XXXXXXXXXX
+      _levelId: TheHills
+  - _productLabel: P17XXXXXXXXXXXXX
+    _categoryLabel:
+    _packId: RockMixtape
+    _packLevelPriceDiscountMul: 0.6903266
+    _levelProductsData:
+    - _entitlementLabel: P17S1XXXXXXXXXXX
+      _productLabel: P17S1XXXXXXXXXXX
+      _levelId: BornToBeWild
+    - _entitlementLabel: P17S2XXXXXXXXXXX
+      _productLabel: P17S2XXXXXXXXXXX
+      _levelId: EyeOfTheTiger
+    - _entitlementLabel: P17S3XXXXXXXXXXX
+      _productLabel: P17S3XXXXXXXXXXX
+      _levelId: FreeBird
+    - _entitlementLabel: P17S4XXXXXXXXXXX
+      _productLabel: P17S4XXXXXXXXXXX
+      _levelId: IWasMadeLovingYou
+    - _entitlementLabel: P17S5XXXXXXXXXXX
+      _productLabel: P17S5XXXXXXXXXXX
+      _levelId: SevenNationArmy
+    - _entitlementLabel: P17S6XXXXXXXXXXX
+      _productLabel: P17S6XXXXXXXXXXX
+      _levelId: SmellsLikeTeenSpirit
+    - _entitlementLabel: P17S7XXXXXXXXXXX
+      _productLabel: P17S7XXXXXXXXXXX
+      _levelId: SweetChildOMine
+    - _entitlementLabel: P17S8XXXXXXXXXXX
+      _productLabel: P17S8XXXXXXXXXXX
+      _levelId: ThePretender

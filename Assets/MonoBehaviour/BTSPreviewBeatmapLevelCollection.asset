@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: BTSPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 3d3162bf02dae954ca5494a53c936d09, type: 2}
+  - {fileID: 11400000, guid: 6d1d2c8559ece5e40bcb6d4cb3fa8f2c, type: 2}
+  - {fileID: 11400000, guid: cc444e699c4893c4c8b3cefaddccb887, type: 2}
+  - {fileID: 11400000, guid: 9acc07f903ddbac4abc006f5f2419236, type: 2}
+  - {fileID: 11400000, guid: 9743a5853c41f7149bd6f5e14c74dacb, type: 2}
+  - {fileID: 11400000, guid: fb5327bf1b4530340869b01949807386, type: 2}
+  - {fileID: 11400000, guid: b68784be59a6a6949ad26813d17281fa, type: 2}
+  - {fileID: 11400000, guid: 78bab9b802eef434194bbb423273c0f9, type: 2}
+  - {fileID: 11400000, guid: fefb765bd491b604bbb23e94e56dfe32, type: 2}
+  - {fileID: 11400000, guid: 31949214539768e45ada76639491194f, type: 2}
+  - {fileID: 11400000, guid: f70b9c49920816b4395c7e133e7c6c83, type: 2}
+  - {fileID: 11400000, guid: e0374560e83e68645be76d783cbaca66, type: 2}

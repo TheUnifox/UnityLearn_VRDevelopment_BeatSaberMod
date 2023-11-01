@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1973001839, guid: a58da2d523ee9ae040c11d384ecb5ae5, type: 3}
+  m_Name: BeatmapEditorLevelSceneTransitionSetupDataSO
+  m_EditorClassIdentifier:
+  _gameCoreSceneInfo: {fileID: 11400000, guid: 64f8123b07e86134a9f41cd6720f1d3e, type: 2}
+  _beatmapLevelEditorSceneInfo: {fileID: 11400000, guid: ac99e43e1471eb14cb573474eabc1746, type: 2}
+  _beatmapLevelEditorWorldUISceneInfo: {fileID: 11400000, guid: 81b5eaf71de1456488830aec8aa42a38, type: 2}

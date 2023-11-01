@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OneHopeLevel
+  m_EditorClassIdentifier:
+  _levelID: OneHope
+  _songName: One Hope
+  _songSubName: ft. David Binney
+  _songAuthorName: KNOWER
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 0ec719bef023bfc49a33316a2d9e85b9, type: 3}
+  _beatsPerMinute: 145
+  _songTimeOffset: 0
+  _shuffle: 0.04
+  _shufflePeriod: 0.5
+  _previewStartTime: 37
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: d4ea9aa2db7bdf545891d780e89a171d, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: a9d9525e43ac74547906846c73f349a2, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 1900b9765e9687a4dae3e8bb8706e035, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 0e46c223a6d7d8d448b7cc5c3f88edd7, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 209c9e44a2ca518418a58ec91c6b5d41, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 04a4677fef35e554bbc98204664ac214, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: bc7a3bc1df4a2c8478c5de31c110a2e7, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: a6d4bb94a225d4f4bb0b3418ed551ca0, type: 2}
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1078520183, guid: eedf37b6297fe60929846991cb416eb6, type: 3}
+  m_Name: LocalizationMain
+  m_EditorClassIdentifier:
+  customDocument:
+    docsId: 19GVl1VaDpvGn8BsJj42wKvzpstxj_Tq0DbVqm6QLlo0
+    sheetId: 0
+    format: 0
+    textAsset: {fileID: 4900000, guid: e21ed898af0098b4abed48ae046bcc78, type: 3}
+    downloadOnStart: 0
+  inputFiles:
+  - textAsset: {fileID: 4900000, guid: e21ed898af0098b4abed48ae046bcc78, type: 3}
+    format: 0
+  supportedLanguages: 000000000100000002000000030000001000000013000000
+  selectedLanguage: 0
+  fallbackLanguage: 0
+  Localize:
+    m_PersistentCalls:
+      m_Calls: []

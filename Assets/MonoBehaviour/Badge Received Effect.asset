@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Badge Received Effect
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000, guid: 1cea6b3706d9ae841a6f6093904dac55, type: 2}
+  m_Children:
+  - {fileID: 11400000, guid: 1f5ec9e7ecd865a44a28ce5053a69515, type: 2}
+  - {fileID: 11400000, guid: 8be87dae7a452de4b99730aa5a1ca043, type: 2}
+  - {fileID: 11400000, guid: ee88ade4bc329514b824ca2550aa1b0a, type: 2}
+  - {fileID: 11400000, guid: e55f82d9fbdbc294a8716725d4b22d7e, type: 2}
+  - {fileID: 11400000, guid: b318ad65fd1fc5a468b79e9b86b5c023, type: 2}
+  - {fileID: 11400000, guid: 008f0161bfa9b284090e1043dae5c518, type: 2}
+  - {fileID: 11400000, guid: 0a2fa434e380b2a41b831400e3e4ff1f, type: 2}
+  - {fileID: 11400000, guid: 7eef3fb955838cb46a1f86991af71329, type: 2}
+  - {fileID: 11400000, guid: e6d7dea14999cb442b0d404d2a3d1eed, type: 2}
+  - {fileID: 11400000, guid: 536cb2cf44b485d49a93c59bbfd200cb, type: 2}
+  - {fileID: 11400000, guid: 1839db2cd3afd5a43a0c0816f5d7371e, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

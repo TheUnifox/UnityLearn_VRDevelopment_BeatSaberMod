@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804293439, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: SteamLevelProductsModel
+  m_EditorClassIdentifier:
+  _levelPackProductsData:
+  - _bundleId: 10455
+    _levelPackId: Monstercat
+    _levelProductsData:
+    - _appId: 1048870
+      _levelId: Boundless
+    - _appId: 1048871
+      _levelId: EmojiVIP
+    - _appId: 1048872
+      _levelId: Epic
+    - _appId: 1048873
+      _levelId: FeelingStronger
+    - _appId: 1048874
+      _levelId: Overkill
+    - _appId: 1048875
+      _levelId: Rattlesnake
+    - _appId: 1048876
+      _levelId: Stronger
+    - _appId: 1048877
+      _levelId: ThisTime
+    - _appId: 1048878
+      _levelId: TillItsOver
+    - _appId: 1048879
+      _levelId: WeWontBeAlone
+  - _bundleId: 11221
+    _levelPackId: ImagineDragons
+    _levelProductsData:
+    - _appId: 1099560
+      _levelId: BadLiar
+    - _appId: 1099561
+      _levelId: Believer
+    - _appId: 1099562
+      _levelId: Digital
+    - _appId: 1099563
+      _levelId: ItsTime
+    - _appId: 1099580
+      _levelId: Machine
+    - _appId: 1099581
+      _levelId: Natural
+    - _appId: 1099582
+      _levelId: Radioactive
+    - _appId: 1099583
+      _levelId: Thunder
+    - _appId: 1099584
+      _levelId: Warriors
+    - _appId: 1099585
+      _levelId: WhateverItTakes
+    - _appId: 2271510
+      _levelId: Bones
+    - _appId: 2271511
+      _levelId: Enemy
+  - _bundleId: 12164
+    _levelPackId: PanicAtTheDisco
+    _levelProductsData:
+    - _appId: 1167660
+      _levelId: TheGreatestShow
+    - _appId: 1167661
+      _levelId: Victorious
+    - _appId: 1167662
+      _levelId: EmperorsNewClothes
+    - _appId: 1167663
+      _levelId: HighHopes
+    - _appId: 2350250
+      _levelId: CrazyGenius
+    - _appId: 2350251
+      _levelId: DancingsNotACrime
+    - _appId: 2350252
+      _levelId: HeyLookMaIMadeIt
+    - _appId: 2350253
+      _levelId: SayAmen
+    - _appId: 2350254
+      _levelId: SugarSoaker
+    - _appId: 2350255
+      _levelId: VivaLasVengeance
+  - _bundleId: 12420
+    _levelPackId: RocketLeague
+    _levelProductsData:
+    - _appId: 1181770
+      _levelId: Play
+    - _appId: 1181771
+      _levelId: Glide
+    - _appId: 1181772
+      _levelId: LuvUNeedU
+    - _appId: 1181773
+      _levelId: RockIt
+    - _appId: 1181774
+      _levelId: Shiawase
+    - _appId: 1181775
+      _levelId: TestMe
+  - _bundleId: 12899
+    _levelPackId: GreenDay
+    _levelProductsData:
+    - _appId: 1209130
+      _levelId: AmericanIdiot
+    - _appId: 1209131
+      _levelId: FatherOfAll
+    - _appId: 1209132
+      _levelId: BoulevardOfBrokenDreams
+    - _appId: 1209133
+      _levelId: Holiday
+    - _appId: 1209134
+      _levelId: FireReadyAim
+    - _appId: 1209135
+      _levelId: Minority
+  - _bundleId: 13797
+    _levelPackId: Timbaland
+    _levelProductsData:
+    - _appId: 1267590
+      _levelId: HasAMeaning
+    - _appId: 1267591
+      _levelId: DumbThingz
+    - _appId: 1267592
+      _levelId: WhileWereYoung
+    - _appId: 1267593
+      _levelId: WhatILike
+    - _appId: 1267594
+      _levelId: Famous
+  - _bundleId: 12900
+    _levelPackId: LinkinPark
+    _levelProductsData:
+    - _appId: 1375360
+      _levelId: BleedItOut
+    - _appId: 1375361
+      _levelId: BreakingTheHabit
+    - _appId: 1375362
+      _levelId: Faint
+    - _appId: 1375363
+      _levelId: GivenUp
+    - _appId: 1375364
+      _levelId: InTheEnd
+    - _appId: 1375365
+      _levelId: NewDivide
+    - _appId: 1375366
+      _levelId: Numb
+    - _appId: 1375367
+      _levelId: OneStepCloser
+    - _appId: 1375368
+      _levelId: Papercut
+    - _appId: 1375369
+      _levelId: SomewhereIBelong
+    - _appId: 1375370
+      _levelId: WhatIveDone
+  - _bundleId: 16776
+    _levelPackId: BTS
+    _levelProductsData:
+    - _appId: 1463160
+      _levelId: BloodSweatAndTears
+    - _appId: 1463190
+      _levelId: BoyWithLuv
+    - _appId: 1463220
+      _levelId: BurningUp
+    - _appId: 1463230
+      _levelId: Dionysus
+    - _appId: 1463240
+      _levelId: Dna
+    - _appId: 1463241
+      _levelId: Dope
+    - _appId: 1463250
+      _levelId: Dynamite
+    - _appId: 1463251
+      _levelId: FakeLove
+    - _appId: 1463260
+      _levelId: Idol
+    - _appId: 1463261
+      _levelId: MicDrop
+    - _appId: 1463270
+      _levelId: NotToday
+    - _appId: 1463271
+      _levelId: Ugh
+  - _bundleId: 21116
+    _levelPackId: Interscope
+    _levelProductsData:
+    - _appId: 1636340
+      _levelId: CountingStars
+    - _appId: 1636341
+      _levelId: DnaLamar
+    - _appId: 1636342
+      _levelId: DontCha
+    - _appId: 1636343
+      _levelId: PartyRockAnthem
+    - _appId: 1636344
+      _levelId: Rollin
+    - _appId: 1636345
+      _levelId: Sugar
+    - _appId: 1636346
+      _levelId: TheSweetEscape
+  - _bundleId: 22331
+    _levelPackId: Skrillex
+    _levelProductsData:
+    - _appId: 1725500
+      _levelId: Bangarang
+    - _appId: 1725501
+      _levelId: Butterflies
+    - _appId: 1725502
+      _levelId: DontGo
+    - _appId: 1725503
+      _levelId: FirstOfTheYear
+    - _appId: 1725504
+      _levelId: RaggaBomb
+    - _appId: 1725505
+      _levelId: RockNRoll
+    - _appId: 1725506
+      _levelId: ScaryMonstersAndNiceSprites
+    - _appId: 1725507
+      _levelId: TheDevilsDen
+  - _bundleId: 22672
+    _levelPackId: BillieEilish
+    _levelProductsData:
+    - _appId: 1753520
+      _levelId: AllTheGoodGirlsGoToHell
+    - _appId: 1753521
+      _levelId: BadGuy
+    - _appId: 1753522
+      _levelId: Bellyache
+    - _appId: 1753523
+      _levelId: BuryAFriend
+    - _appId: 1753524
+      _levelId: HappierThanEver
+    - _appId: 1753525
+      _levelId: IDidntChangeMyNumber
+    - _appId: 1753526
+      _levelId: NDA
+    - _appId: 1753527
+      _levelId: Oxytocin
+    - _appId: 1753528
+      _levelId: ThereforeIAm
+    - _appId: 1753529
+      _levelId: YouShouldSeeMeInACrown
+  - _bundleId: 23736
+    _levelPackId: LadyGaga
+    _levelProductsData:
+    - _appId: 1812880
+      _levelId: Alejandro
+    - _appId: 1812881
+      _levelId: BadRomance
+    - _appId: 1812882
+      _levelId: BornThisWay
+    - _appId: 1812883
+      _levelId: JustDance
+    - _appId: 1812884
+      _levelId: Paparazzi
+    - _appId: 1812885
+      _levelId: PokerFace
+    - _appId: 1812886
+      _levelId: RainOnMe
+    - _appId: 1812887
+      _levelId: StupidLove
+    - _appId: 1812888
+      _levelId: Telephone
+    - _appId: 1812889
+      _levelId: TheEdgeOfGlory
+  - _bundleId: 25297
+    _levelPackId: FallOutBoy
+    _levelProductsData:
+    - _appId: 1939830
+      _levelId: Centuries
+    - _appId: 1939831
+      _levelId: DanceDance
+    - _appId: 1939832
+      _levelId: IDontCare
+    - _appId: 1939833
+      _levelId: Immortals
+    - _appId: 1939834
+      _levelId: Irresistible
+    - _appId: 1939835
+      _levelId: MySongsKnow
+    - _appId: 1939836
+      _levelId: ThisAintAScene
+    - _appId: 1939837
+      _levelId: ThnksFrThMmrs
+  - _bundleId: 25667
+    _levelPackId: EDM
+    _levelProductsData:
+    - _appId: 1967800
+      _levelId: Alone
+    - _appId: 1967801
+      _levelId: Animals
+    - _appId: 1967802
+      _levelId: Freestyler
+    - _appId: 1967803
+      _levelId: GhostsNStuff
+    - _appId: 1967804
+      _levelId: Icarus
+    - _appId: 1967805
+      _levelId: Sandstorm
+    - _appId: 1967806
+      _levelId: StayTheNight
+    - _appId: 1967807
+      _levelId: TheRockafellerSkank
+    - _appId: 1967808
+      _levelId: WaitingAllNight
+    - _appId: 1967809
+      _levelId: Witchcraft
+  - _bundleId: 27552
+    _levelPackId: Lizzo
+    _levelProductsData:
+    - _appId: 2122140
+      _levelId: 2BeLoved
+    - _appId: 2122141
+      _levelId: AboutDamnTime
+    - _appId: 2122142
+      _levelId: CuzILoveYou
+    - _appId: 2122143
+      _levelId: EverybodysGay
+    - _appId: 2122144
+      _levelId: GoodAsHell
+    - _appId: 2122160
+      _levelId: Juice
+    - _appId: 2122161
+      _levelId: Tempo
+    - _appId: 2122161
+      _levelId: TruthHurts
+    - _appId: 2122161
+      _levelId: Worship
+  - _bundleId: 28660
+    _levelPackId: TheWeeknd
+    _levelProductsData:
+    - _appId: 2195470
+      _levelId: BlindingLights
+    - _appId: 2195471
+      _levelId: CantFeelMyFace
+    - _appId: 2195472
+      _levelId: HowDoIMakeYouLoveMe
+    - _appId: 2195473
+      _levelId: IFeelItComing
+    - _appId: 2195474
+      _levelId: PrayForMe
+    - _appId: 2195475
+      _levelId: Sacrifice
+    - _appId: 2195476
+      _levelId: SaveYourTears
+    - _appId: 2195477
+      _levelId: Starboy
+    - _appId: 2195478
+      _levelId: TakeMyBreath
+    - _appId: 2195479
+      _levelId: TheHills
+  - _bundleId: 29324
+    _levelPackId: RockMixtape
+    _levelProductsData:
+    - _appId: 2233130
+      _levelId: BornToBeWild
+    - _appId: 2233131
+      _levelId: EyeOfTheTiger
+    - _appId: 2233132
+      _levelId: FreeBird
+    - _appId: 2233133
+      _levelId: IWasMadeLovingYou
+    - _appId: 2233134
+      _levelId: SevenNationArmy
+    - _appId: 2233135
+      _levelId: SmellsLikeTeenSpirit
+    - _appId: 2233136
+      _levelId: SweetChildOMine
+    - _appId: 2233137
+      _levelId: ThePretender

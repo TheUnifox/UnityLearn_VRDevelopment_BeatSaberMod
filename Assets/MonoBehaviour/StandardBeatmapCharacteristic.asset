@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -247312371, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: StandardBeatmapCharacteristic
+  m_EditorClassIdentifier:
+  _icon: {fileID: 21300000, guid: c7b79227d84ec4b43bf28b4122f98e99, type: 2}
+  _descriptionLocalizationKey: LEVEL_STANDARD_HINT
+  _characteristicNameLocalizationKey: LEVEL_STANDARD
+  _serializedName: Standard
+  _compoundIdPartName:
+  _sortingOrder: 0
+  _containsRotationEvents: 0
+  _requires360Movement: 0
+  _numberOfColors: 2

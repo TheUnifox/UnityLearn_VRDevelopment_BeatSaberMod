@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: RumNBassLevel
+  m_EditorClassIdentifier:
+  _levelID: RumNBass
+  _songName: Rum n' Bass
+  _songSubName:
+  _songAuthorName: Boom Kitty
+  _levelAuthorName: Freek & Split
+  _audioClip: {fileID: 8300000, guid: 886da0d915a3d274bad3d2678a607ad6, type: 3}
+  _beatsPerMinute: 132
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 67
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 2e90d2be0e0d10b4dbf0270b8809f8f0, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: a9d9525e43ac74547906846c73f349a2, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 4cb3d471efa2cc340aea4b98533d7773, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: dc92a0b9bc4765f428869736e9b28463, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: dba9e1c1ae93ad64fad9ab44ccf88225, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: db9bed1a4d0f2f446b58e24e6d34bab9, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 15
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 87e74dfa46474494488c752ad966021d, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 56784d2a1d81e34428b350df102548f4, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 9222d81e81b91dc4882b25500984a5e8, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 7afc907439f6b6340950a455267d0e06, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: b1e079c6a37156f48921fa1cc6fa5a8d, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: e1a66c552cb9b264f9d89e4a6434cae6, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: aff167d3378ddf846a30abd2efc01440, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 571f694b35f63ed44a6f91c1be7d4b05, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 17
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: aa1c2fb409ae4184f858b64154082f84, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 3c0f560e243eb624190930476d5fb29d, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 17
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: d37ce2578462f8a499cb20c68bdf275b, type: 2}
+  _ignore360MovementBeatmaps: 0

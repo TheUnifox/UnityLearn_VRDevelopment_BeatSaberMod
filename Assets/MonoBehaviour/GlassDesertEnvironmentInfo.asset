@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129817688, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: GlassDesertEnvironmentInfo
+  m_EditorClassIdentifier:
+  _environmentName: Glass Desert
+  _colorScheme: {fileID: 11400000, guid: 24c549545602e844fa5b49cb571b1a84, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: 5bc4844f4ba44da45b1fc746da6cb3df, type: 2}
+  _serializedName: GlassDesertEnvironment
+  _environmentAssetDirectory: GlassDesert
+  _environmentType: {fileID: 11400000, guid: 4d92751600e2db94389ebf39c87528cb, type: 2}
+  _environmentSizeData:
+    _floorType: 1
+    _ceilingType: 0
+    _trackLaneType: 1
+  _environmentIntensityReductionOptions:
+    _compressExpand: 0
+    _rotateRings: 0
+  _environmentKeywords: []
+  _lightGroups:
+    _lightGroupSOList: []
+  _defaultEnvironmentEvents:
+    _basicBeatmapEvents: []
+    _lightGroupEvents: []

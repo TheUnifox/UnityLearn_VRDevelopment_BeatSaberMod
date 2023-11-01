@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1440566794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MultiplayerCountdownMenuLightsPreset
+  m_EditorClassIdentifier:
+  _playersPlaceNeonsColor: {fileID: 11400000, guid: b5ae4db0aa6ef93428811473125dc5e8, type: 2}
+  _playersPlaceNeonsIntensity: 0.2
+  _lightIdColorPairs:
+  - lightId: 0
+    baseColor: {fileID: 11400000, guid: b5ae4db0aa6ef93428811473125dc5e8, type: 2}
+    intensity: 0.5
+  - lightId: 1
+    baseColor: {fileID: 11400000, guid: b5ae4db0aa6ef93428811473125dc5e8, type: 2}
+    intensity: 0.4
+  - lightId: 2
+    baseColor: {fileID: 11400000, guid: b5ae4db0aa6ef93428811473125dc5e8, type: 2}
+    intensity: 0.8
+  - lightId: 4
+    baseColor: {fileID: 11400000, guid: b5ae4db0aa6ef93428811473125dc5e8, type: 2}
+    intensity: 0.2

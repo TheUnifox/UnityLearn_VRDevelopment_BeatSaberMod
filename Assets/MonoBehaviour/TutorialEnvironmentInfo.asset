@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129817688, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: TutorialEnvironmentInfo
+  m_EditorClassIdentifier:
+  _environmentName: Tutorial
+  _colorScheme: {fileID: 11400000, guid: 30abae975b9a8d24d9cdb9911cac9e4b, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: c215e0dca312afb4aa99a00581c62f28, type: 2}
+  _serializedName: TutorialEnvironment
+  _environmentAssetDirectory: Tutorial
+  _environmentType: {fileID: 11400000, guid: d8a2080614a80864d96f82c8a3faa9b9, type: 2}
+  _environmentSizeData:
+    _floorType: 0
+    _ceilingType: 0
+    _trackLaneType: 1
+  _environmentIntensityReductionOptions:
+    _compressExpand: 0
+    _rotateRings: 0
+  _environmentKeywords: []
+  _lightGroups:
+    _lightGroupSOList: []
+  _defaultEnvironmentEvents:
+    _basicBeatmapEvents: []
+    _lightGroupEvents: []

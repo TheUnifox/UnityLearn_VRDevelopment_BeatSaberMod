@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1911036106, guid: aef9e8a6acd28164dc25a18a33342d03, type: 3}
+  m_Name: BloomPrePassHDBloomTextureEffect
+  m_EditorClassIdentifier:
+  _textureWidth: 512
+  _textureHeight: 512
+  _fov: {x: 130, y: 130}
+  _linesWidth: 0.02
+  _radius: 10
+  _intensity: 0.75
+  _downBloomIntensityOffset: 1
+  _uniformPyramidWeights: 0
+  _pyramidWeightsParam: 1
+  _firstUpsampleBrightness: 1.2
+  _finalUpsampleBrightness: 0.25
+  _prefilterPass: 3
+  _downsamplePass: 3
+  _upsamplePass: 5
+  _finalUpsamplePass: 13
+  _bloomRenderer: {fileID: 11400000, guid: 184adc67d7a0b6c42a77b4b944412091, type: 2}
+  _bloomFog: {fileID: 11400000, guid: e34dcb750ddb64b40b514bfc71ea0dba, type: 2}

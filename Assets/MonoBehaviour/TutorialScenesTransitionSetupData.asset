@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1803819732, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: TutorialScenesTransitionSetupData
+  m_EditorClassIdentifier:
+  _environmentInfo: {fileID: 11400000, guid: b548838628235d24091135a223a027d5, type: 2}
+  _tutorialSceneInfo: {fileID: 11400000, guid: 09c5877ebadcb474787a6467317be003, type: 2}
+  _gameCoreSceneInfo: {fileID: 11400000, guid: 64f8123b07e86134a9f41cd6720f1d3e, type: 2}

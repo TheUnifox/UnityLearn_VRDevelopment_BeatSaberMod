@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129817688, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: WeaveEnvironmentInfo
+  m_EditorClassIdentifier:
+  _environmentName: Weave
+  _colorScheme: {fileID: 11400000, guid: c694cbb3965c65343933be350f07d567, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: 97be3aa56d1ce7c4989d24953563fc9c, type: 2}
+  _serializedName: WeaveEnvironment
+  _environmentAssetDirectory: Weave
+  _environmentType: {fileID: 11400000, guid: 8ef207d0495db254395643c71adee826, type: 2}
+  _environmentSizeData:
+    _floorType: 0
+    _ceilingType: 0
+    _trackLaneType: 0
+  _environmentIntensityReductionOptions:
+    _compressExpand: 0
+    _rotateRings: 0
+  _environmentKeywords: []
+  _lightGroups:
+    _lightGroupSOList:
+    - {fileID: 11400000, guid: 95e5e2c097aad9c4bbbe7f3d5a7e5359, type: 2}
+    - {fileID: 11400000, guid: 4ed1a0b7405677d4d87821cb9a523ebf, type: 2}
+    - {fileID: 11400000, guid: dee2093daf745be43a72b907609ef776, type: 2}
+    - {fileID: 11400000, guid: 49bea579f18f7954ebc49a97173eabe2, type: 2}
+    - {fileID: 11400000, guid: 8a795d00e4ba3d84e841cfdfcfcd2a60, type: 2}
+    - {fileID: 11400000, guid: 03c0855e1227fd345b5139a8e801694a, type: 2}
+    - {fileID: 11400000, guid: 7a256a9a4e1065748a5d19d6a8c7422a, type: 2}
+    - {fileID: 11400000, guid: 162ea664e686c3a4fa93743eb61dc62b, type: 2}
+    - {fileID: 11400000, guid: 7ff7e1537020aef44ad39fa5d259c9df, type: 2}
+    - {fileID: 11400000, guid: 7b65825a1fcaf694b817144b74258708, type: 2}
+    - {fileID: 11400000, guid: a1fa1f9492b6fb843893fc8694d1f47e, type: 2}
+    - {fileID: 11400000, guid: 6e4adc5e86a1af240b5fc70901b6fe3d, type: 2}
+    - {fileID: 11400000, guid: aa36b9c83e800b249936d13f41f3f782, type: 2}
+    - {fileID: 11400000, guid: e9e643ae5080eb341a898e7fdb63d828, type: 2}
+    - {fileID: 11400000, guid: 9c4b6d790e4d3b248b6c08f07a58bffd, type: 2}
+    - {fileID: 11400000, guid: 30c5344fec351404d989240f9f63ae14, type: 2}
+  _defaultEnvironmentEvents:
+    _basicBeatmapEvents:
+    - _eventType: 4
+      _value: 5
+      _floatValue: 1
+    _lightGroupEvents:
+    - _lightGroup: {fileID: 11400000, guid: e9e643ae5080eb341a898e7fdb63d828, type: 2}
+      _environmentColorType: 0
+      _brightness: 1
+      _brightnessDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _brightnessFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _rotationX: 0
+      _rotationY: 0
+      _rotationZ: 0
+      _rotationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _translationX: 0
+      _translationY: 0
+      _translationZ: 0
+      _translationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+    - _lightGroup: {fileID: 11400000, guid: 8a795d00e4ba3d84e841cfdfcfcd2a60, type: 2}
+      _environmentColorType: 0
+      _brightness: 1
+      _brightnessDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _brightnessFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _rotationX: 85
+      _rotationY: 0
+      _rotationZ: 0
+      _rotationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _translationX: 0
+      _translationY: 0
+      _translationZ: 0
+      _translationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+    - _lightGroup: {fileID: 11400000, guid: 03c0855e1227fd345b5139a8e801694a, type: 2}
+      _environmentColorType: 0
+      _brightness: 1
+      _brightnessDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _brightnessFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _rotationX: 85
+      _rotationY: 0
+      _rotationZ: 0
+      _rotationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _rotationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0
+      _translationX: 0
+      _translationY: 0
+      _translationZ: 0
+      _translationXDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationYDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationZDistribution:
+        _useDistribution: 0
+        _distributionParam: 0
+        _distributionParamType: 0
+      _translationFiltering:
+        _useFiltering: 0
+        _randomType: 0
+        _limit: 0
+        _alsoAffectType: 0
+        _seed: 0

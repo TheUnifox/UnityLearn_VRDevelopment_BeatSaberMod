@@ -1,0 +1,6 @@
+v2,cb970bfb5d4d4758444f1e2b59754342,2
+*deviceconfig_main_shared,,741f
+is_employee,
+*beatsaber_experiments,-1,96b6
+test_parameter,
+END

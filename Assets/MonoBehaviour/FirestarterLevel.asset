@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: FirestarterLevel
+  m_EditorClassIdentifier:
+  _levelID: Firestarter
+  _songName: Firestarter
+  _songSubName:
+  _songAuthorName: Tanger
+  _levelAuthorName: ETAN
+  _audioClip: {fileID: 8300000, guid: a64d1db4609c3584589473da93844874, type: 3}
+  _beatsPerMinute: 135
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 66
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 4ca131d25151fcb408532d2fd65c884b, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 329d5f07beb0ca3409ebf1dc0981aa5d, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: -1
+      _beatmapData: {fileID: 11400000, guid: b6df625089529e24cb5c21a1aa7602a3, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: -1
+      _beatmapData: {fileID: 11400000, guid: c32937324e1b5274682b0c32bc27fa1f, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: -1
+      _beatmapData: {fileID: 11400000, guid: 04c4018ea087c5749a60e2e4c0d6545d, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 4bdcb0d388c63474cb31ffd4006b3039, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 21
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: df3b0488b683dfd47a3ebf31802f2ae4, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: -1
+      _beatmapData: {fileID: 11400000, guid: 8da03bf944755df4498a648cfeb710ec, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 065bc655b9d5ca64096b46d7bc40a8ec, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 18
+      _noteJumpStartBeatOffset: -0.5
+      _beatmapData: {fileID: 11400000, guid: fd0f1dd962b6b3541a99fe574325096b, type: 2}
+  _ignore360MovementBeatmaps: 0

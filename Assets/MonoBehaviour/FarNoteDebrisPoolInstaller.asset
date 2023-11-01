@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1115000530, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: FarNoteDebrisPoolInstaller
+  m_EditorClassIdentifier:
+  _normalNoteDebrisHDPrefab: {fileID: 114671503445722332, guid: ea844356f947daa4dac999936b2c5a3f, type: 2}
+  _normalNoteDebrisLWPrefab: {fileID: 114974559187525454, guid: f594a108ee9bad247b5a94f7b37fe031, type: 2}
+  _burstSliderHeadNoteDebrisHDPrefab: {fileID: 114501081187350261, guid: a1141e5b0509e014c9fd1d236bb32a07, type: 2}
+  _burstSliderHeadNoteDebrisLWPrefab: {fileID: 114114468477897798, guid: 3591d341a12753540aea0ec7ba34fe5a, type: 2}
+  _burstSliderElementNoteHDPrefab: {fileID: 114599802855638833, guid: 68e4e350b1f307f4291ee25edbeb12f8, type: 2}
+  _burstSliderElementNoteLWPrefab: {fileID: 114039363291610957, guid: 224798ae3552f8948a4136c6a5abe162, type: 2}
+  _noteDebrisHDConditionVariable: {fileID: 11400000, guid: 968f42a4fe70b2c4fbe6b84bb7f16ff2, type: 2}

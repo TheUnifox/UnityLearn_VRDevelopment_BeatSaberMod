@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: SpinEternallyLevel
+  m_EditorClassIdentifier:
+  _levelID: SpinEternally
+  _songName: Spin Eternally
+  _songSubName:
+  _songAuthorName: Camellia
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 650d9af0669779a40a99db83ef8d8da7, type: 3}
+  _beatsPerMinute: 222
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0.5
+  _previewStartTime: 192
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 82a21991f8e1466478fcee0b8e102e6b, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 4155633639e1db24a90aed57ce21d521, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: c50f8d5a29648bd47957423d3f0e95c9, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 323811fd03bf2834aa63d87c6a42e547, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 6a3ac603ca778ba4a8a706869465a6e6, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 6df640b315eb0af43b89d9f57469a0de, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 23
+      _noteJumpStartBeatOffset: 0.25
+      _beatmapData: {fileID: 11400000, guid: faea62c705edcb048b13841175355ff0, type: 2}
+  _ignore360MovementBeatmaps: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129817688, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: FitBeatEnvironment
+  m_EditorClassIdentifier:
+  _environmentName: Fit Beat
+  _colorScheme: {fileID: 11400000, guid: 250787b5cece4274aaec1c81756a3c4c, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: c03e9268038f9cc4cabb9695a3599abd, type: 2}
+  _serializedName: FitBeatEnvironment
+  _environmentAssetDirectory: FitBeat
+  _environmentType: {fileID: 11400000, guid: 8ef207d0495db254395643c71adee826, type: 2}
+  _environmentSizeData:
+    _floorType: 0
+    _ceilingType: 0
+    _trackLaneType: 1
+  _environmentIntensityReductionOptions:
+    _compressExpand: 0
+    _rotateRings: 0
+  _environmentKeywords: []
+  _lightGroups:
+    _lightGroupSOList: []
+  _defaultEnvironmentEvents:
+    _basicBeatmapEvents: []
+    _lightGroupEvents: []

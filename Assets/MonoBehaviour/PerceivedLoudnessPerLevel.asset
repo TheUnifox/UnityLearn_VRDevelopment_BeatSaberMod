@@ -1,0 +1,630 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 33689524, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PerceivedLoudnessPerLevel
+  m_EditorClassIdentifier:
+  perceivedLoudnessPerLevel:
+  - _levelId: AvoidanceTest
+    _perceivedLoudness: -5
+    _checkSum:
+  - _levelId: LongNotesTest
+    _perceivedLoudness: -5
+    _checkSum:
+  - _levelId: Metronome
+    _perceivedLoudness: -5
+    _checkSum:
+  - _levelId: PerformanceTest
+    _perceivedLoudness: -5
+    _checkSum:
+  - _levelId: ChainSFXTest
+    _perceivedLoudness: 0
+    _checkSum:
+  - _levelId: OriginsTrailer
+    _perceivedLoudness: -9.8
+    _checkSum: c2a0a3b2613ed2cce452485d2de154ff
+  - _levelId: RocketLeagueTrailer
+    _perceivedLoudness: -8.6
+    _checkSum: dff3f9b43cbab1562607627166cabdfc
+  - _levelId: SliderTest
+    _perceivedLoudness: -5
+    _checkSum:
+  - _levelId: BloodSweatAndTears
+    _perceivedLoudness: -6.6
+    _checkSum: 9f9a9ba2b91fc2206d41ce78832ad6b6
+  - _levelId: BoyWithLuv
+    _perceivedLoudness: -8
+    _checkSum: d37759ebd2af3331dadd4289317a3a6c
+  - _levelId: BurningUp
+    _perceivedLoudness: -5.8
+    _checkSum: c6a5212604ee585323ecf9e78960dbbf
+  - _levelId: Dionysus
+    _perceivedLoudness: -6.3
+    _checkSum: 94b48b211ccc2924471aacb675e6896e
+  - _levelId: Dna
+    _perceivedLoudness: -6.6
+    _checkSum: fb3f6cce4fbda26bdea9cf5153e4529d
+  - _levelId: Dope
+    _perceivedLoudness: -5
+    _checkSum: 2fb1808535688e3fbb01b19164aa57f2
+  - _levelId: Dynamite
+    _perceivedLoudness: -7.1
+    _checkSum: b0856b7180d436dafe0175cb6eff1036
+  - _levelId: FakeLove
+    _perceivedLoudness: -7.6
+    _checkSum: a9f9e076e3a666e101b9aea4c2bfde13
+  - _levelId: Idol
+    _perceivedLoudness: -7
+    _checkSum: d0dba1fab572ba249a3d4eee0385e2fb
+  - _levelId: MicDrop
+    _perceivedLoudness: -7.4
+    _checkSum: 0f176513bd65a2e658316c08a2bcbc7c
+  - _levelId: NotToday
+    _perceivedLoudness: -6
+    _checkSum: 5a74b51d49c1a2bbf4a7a5af2647bda3
+  - _levelId: Ugh
+    _perceivedLoudness: -8.7
+    _checkSum: 20db330928dfb24d076090efcc6618a4
+  - _levelId: AmericanIdiot
+    _perceivedLoudness: -8.4
+    _checkSum: a8f95798c9b7079c90466555b1616c98
+  - _levelId: BoulevardOfBrokenDreams
+    _perceivedLoudness: -9.2
+    _checkSum: b6b99bb98544e4673949072c36664ae5
+  - _levelId: FatherOfAll
+    _perceivedLoudness: -9.2
+    _checkSum: 823aa54bfd65310c15d4dc03631172c9
+  - _levelId: FireReadyAim
+    _perceivedLoudness: -8.7
+    _checkSum: fcd83f344100e957510ea82a0b4aae64
+  - _levelId: Holiday
+    _perceivedLoudness: -8.9
+    _checkSum: 48f2df8dd70bc29755468000fb272ce4
+  - _levelId: Minority
+    _perceivedLoudness: -8.9
+    _checkSum: 4f4560e3a885c14a677660c9ca190110
+  - _levelId: BadLiar
+    _perceivedLoudness: -8.9
+    _checkSum: f715b2c299169713a69fae921137e2bb
+  - _levelId: Believer
+    _perceivedLoudness: -7.7
+    _checkSum: d0254b6e1671553d3c2519fd7a843b66
+  - _levelId: Digital
+    _perceivedLoudness: -7.8
+    _checkSum: 76736ec96cdfcf20754347ea3cc61214
+  - _levelId: ItsTime
+    _perceivedLoudness: -6.8
+    _checkSum: bd953e28d1f40d63ecbfddaaa2504678
+  - _levelId: Machine
+    _perceivedLoudness: -8.1
+    _checkSum: 2db85753625c55db7f82e6051ece97b1
+  - _levelId: Natural
+    _perceivedLoudness: -9.6
+    _checkSum: 3d9ab66da04b78da5293da982a333fc1
+  - _levelId: Radioactive
+    _perceivedLoudness: -5.5
+    _checkSum: 24136b8007b866057a46635a2b26f7fd
+  - _levelId: Thunder
+    _perceivedLoudness: -7.7
+    _checkSum: 13805ce2e85e029c19186143b3acc74f
+  - _levelId: Warriors
+    _perceivedLoudness: -7.5
+    _checkSum: 535c4c9015900b29e230a85adf83f36b
+  - _levelId: WhateverItTakes
+    _perceivedLoudness: -8.5
+    _checkSum: 26a40ba140dd02bbf656ca5ca3ad7351
+  - _levelId: CountingStars
+    _perceivedLoudness: -7.6
+    _checkSum: 7e19f8c2aafebd9a8eeb241c44a7314c
+  - _levelId: DnaLamar
+    _perceivedLoudness: -10.7
+    _checkSum: a85d32b11d434a673b5d598b1ac3f4d4
+  - _levelId: DontCha
+    _perceivedLoudness: -8.7
+    _checkSum: d6711e2b91f1b6e385db1611dd920ace
+  - _levelId: PartyRockAnthem
+    _perceivedLoudness: -5.9
+    _checkSum: cabf4f39ebb1c8345ec8d815aaff3e98
+  - _levelId: Rollin
+    _perceivedLoudness: -7.2
+    _checkSum: d4ec85f9fe27bbc8de1837943e4eb304
+  - _levelId: Sugar
+    _perceivedLoudness: -9.5
+    _checkSum: 3799aa8d7937d7bfa7251067824f3563
+  - _levelId: TheSweetEscape
+    _perceivedLoudness: -8.1
+    _checkSum: 2ce22183cf0f0e5cedb50da37ee6f9e3
+  - _levelId: BleedItOut
+    _perceivedLoudness: -6.7
+    _checkSum: bdb0e3928d699d5705b6197836c41f7e
+  - _levelId: BreakingTheHabit
+    _perceivedLoudness: -6.7
+    _checkSum: e307dbd8c28c6c0d15be6660999908c9
+  - _levelId: Faint
+    _perceivedLoudness: -6.2
+    _checkSum: 66881a095f72c55c30e64d6a76cd2943
+  - _levelId: GivenUp
+    _perceivedLoudness: -7.1
+    _checkSum: 366f682a2eca46df9922576292ffd069
+  - _levelId: InTheEnd
+    _perceivedLoudness: -8.6
+    _checkSum: 20351850f7dccc51c9a8023350e7dee3
+  - _levelId: NewDivide
+    _perceivedLoudness: -6.5
+    _checkSum: bd5b0beef00fddd407967585f582692a
+  - _levelId: Numb
+    _perceivedLoudness: -6.3
+    _checkSum: 1ab8dea00f40fce264f8e94d690a4b5b
+  - _levelId: OneStepCloser
+    _perceivedLoudness: -6.4
+    _checkSum: 7676a5c6f63d64c14b39eac953d5deb5
+  - _levelId: Papercut
+    _perceivedLoudness: -6.6
+    _checkSum: 26368e826afe115bc5a32ca11d2e090d
+  - _levelId: SomewhereIBelong
+    _perceivedLoudness: -6.4
+    _checkSum: 138b4010af89f2e48ffba1ce7e9658af
+  - _levelId: WhatIveDone
+    _perceivedLoudness: -7.3
+    _checkSum: 5cb0272125b49667b8a09f0b8068a699
+  - _levelId: Boundless
+    _perceivedLoudness: -8.6
+    _checkSum: 53a4d877ba8699a4f1df99b0562d4c0b
+  - _levelId: EmojiVIP
+    _perceivedLoudness: -5.6
+    _checkSum: 8cdcd07ccd97f8c069fca8d9806f6848
+  - _levelId: Epic
+    _perceivedLoudness: -5.4
+    _checkSum: dd61ec6d78a533f1aa4fe4fb0cfa19ed
+  - _levelId: FeelingStronger
+    _perceivedLoudness: -5.4
+    _checkSum: 76fad5d097a0a4ec9217fc1abaef64a1
+  - _levelId: Overkill
+    _perceivedLoudness: -3.2
+    _checkSum: 23487f91515b389e745583e8a7618258
+  - _levelId: Rattlesnake
+    _perceivedLoudness: -5.6
+    _checkSum: 0d02b930edc43675627e1d584560273d
+  - _levelId: Stronger
+    _perceivedLoudness: -5.3
+    _checkSum: 54e3d9747ed6a7e6beea691b1e2b2a21
+  - _levelId: ThisTime
+    _perceivedLoudness: -5.8
+    _checkSum: ed3dc30e68639744e12baf6d66f76bd5
+  - _levelId: TillItsOver
+    _perceivedLoudness: -8.1
+    _checkSum: bf746ce52cc526b88185eb0f1f4863c9
+  - _levelId: WeWontBeAlone
+    _perceivedLoudness: -6.8
+    _checkSum: 17d524142a566a7e797cdd40eb2950d7
+  - _levelId: EmperorsNewClothes
+    _perceivedLoudness: -7.7
+    _checkSum: b089f58b397bf872f6b1b0a83f502cd5
+  - _levelId: HighHopes
+    _perceivedLoudness: -6
+    _checkSum: 023cf79a1c6441aef35a19552f4d7df6
+  - _levelId: TheGreatestShow
+    _perceivedLoudness: -7.1
+    _checkSum: 19d49d2f04aaec277fe622fe75df4705
+  - _levelId: Victorious
+    _perceivedLoudness: -7.3
+    _checkSum: 0cacaec9b52c89ce576a051466fb19c2
+  - _levelId: Glide
+    _perceivedLoudness: -4.8
+    _checkSum: c2541f87b85efad4d51e045988e6a5d2
+  - _levelId: LuvUNeedU
+    _perceivedLoudness: -6.5
+    _checkSum: 2c3af3a522b592010bb694359c996036
+  - _levelId: Play
+    _perceivedLoudness: -4.2
+    _checkSum: 5399f766e3bd2ffd2036942a78935c1f
+  - _levelId: RockIt
+    _perceivedLoudness: -7.2
+    _checkSum: 234be9923ff04d8e54623642078878eb
+  - _levelId: Shiawase
+    _perceivedLoudness: -5
+    _checkSum: f173347e4dae001f99f3c3cea9c33064
+  - _levelId: TestMe
+    _perceivedLoudness: -2.9
+    _checkSum: 9493bf0410c8eb7098952eea7a49af4c
+  - _levelId: DumbThingz
+    _perceivedLoudness: -9.3
+    _checkSum: d269065ab87523e230c5ed92dd3cea90
+  - _levelId: Famous
+    _perceivedLoudness: -8.7
+    _checkSum: 9f3394a2d723672b426523e83be5827b
+  - _levelId: HasAMeaning
+    _perceivedLoudness: -8.1
+    _checkSum: f56147055a7b5f07a64d65f93c4e4c5f
+  - _levelId: WhatILike
+    _perceivedLoudness: -7.9
+    _checkSum: dab06738c518bcd9753d642f3ea05114
+  - _levelId: WhileWereYoung
+    _perceivedLoudness: -7.3
+    _checkSum: 7cdce27201b77162319c354b9d5effcd
+  - _levelId: 100Bills
+    _perceivedLoudness: -6.5
+    _checkSum:
+  - _levelId: AngelVoices
+    _perceivedLoudness: -8.1
+    _checkSum: 617637c70cb4d8964abd55f91a4d194c
+  - _levelId: BalearicPumping
+    _perceivedLoudness: -8.7
+    _checkSum: dfcc0c4e01b4a5ce01a0076cb6f880e4
+  - _levelId: BeatSaber
+    _perceivedLoudness: -6.2
+    _checkSum: 76417ec18a582a027c873a2b7660c0b1
+  - _levelId: BeThereForYou
+    _perceivedLoudness: -8.8
+    _checkSum: aa41a7c99409a4d386fc640d3f71bd7c
+  - _levelId: Breezer
+    _perceivedLoudness: -5.1
+    _checkSum: e08850e2a1399e1721c73c490e6f5a3a
+  - _levelId: BurningSands
+    _perceivedLoudness: -5.9
+    _checkSum: 099c613639bc77cb67b90cf29b99be22
+  - _levelId: CommercialPumping
+    _perceivedLoudness: -7.1
+    _checkSum: 7f263df445e82498a61766fe8bca0730
+  - _levelId: CountryRounds
+    _perceivedLoudness: -6.6
+    _checkSum: 5128a762112a22ce6bdae394eab579f5
+  - _levelId: CrabRave
+    _perceivedLoudness: -5.6
+    _checkSum: 1175f9484efa077cc35056871a00ff84
+  - _levelId: Crystallized
+    _perceivedLoudness: -5.8
+    _checkSum: 0afb1a18871cbbcebf89daa4f2bbeb20
+  - _levelId: CycleHit
+    _perceivedLoudness: -4.6
+    _checkSum: ee007ab18ec20f1e7aea1c774eb5fe8c
+  - _levelId: Elixia
+    _perceivedLoudness: -10.1
+    _checkSum: 551df03cfa51cea8920a8f49a0683f80
+  - _levelId: Escape
+    _perceivedLoudness: -7.2
+    _checkSum: caccf24a20cb6c47704b0e6c0c1a2738
+  - _levelId: ExitThisEarthsAtomosphere
+    _perceivedLoudness: -4.5
+    _checkSum: 8d283ca5ecf8e40dee92780a0c9a9d89
+  - _levelId: FitBeat
+    _perceivedLoudness: -7.6
+    _checkSum: dab1bd6b10eb29e867d7abb9b81083df
+  - _levelId: FullCharge
+    _perceivedLoudness: -8.7
+    _checkSum: bc220839a57b61ea6d29157901f95113
+  - _levelId: Ghost
+    _perceivedLoudness: -4.4
+    _checkSum: 67237592ef1c0d0b0c77e9c91b929f6f
+  - _levelId: GiveALittleLove
+    _perceivedLoudness: -7.9
+    _checkSum: f1ebbf7ffc68485354aadba1373787c8
+  - _levelId: Immortal
+    _perceivedLoudness: -7.1
+    _checkSum: e19e8997f984fbc07017685142d9bc89
+  - _levelId: INeedYou
+    _perceivedLoudness: -8.8
+    _checkSum: ad22366e388fd3986f0a9b808fabd4d9
+  - _levelId: IntoTheDream
+    _perceivedLoudness: -5.6
+    _checkSum: 39bda3878d2b86a0c1126facb3955fe2
+  - _levelId: ItTakesMe
+    _perceivedLoudness: -7.7
+    _checkSum: 6b13ea6d9afbfd1f24d1658ead38c102
+  - _levelId: Legend
+    _perceivedLoudness: -6
+    _checkSum: c77a17bfe309f28e80fc3d21e1663c92
+  - _levelId: LightItUp
+    _perceivedLoudness: -6.1
+    _checkSum: ed32cbdcffa62f5fb13abcaaa1f74af9
+  - _levelId: LudicrousPlus
+    _perceivedLoudness: -6.1
+    _checkSum: a0e06f77980f57c61b4d9f0853339836
+  - _levelId: LvlInsane
+    _perceivedLoudness: -7.6
+    _checkSum: 08bf21639c575581027c061c27cdaa8c
+  - _levelId: OneHope
+    _perceivedLoudness: -6.7
+    _checkSum: bc6fdb3e448a063014fb983260f0b446
+  - _levelId: Origins
+    _perceivedLoudness: -6.2
+    _checkSum: 2776b7997beb23ef59bb14a74cb63a2c
+  - _levelId: PopStars
+    _perceivedLoudness: -6.6
+    _checkSum: 92e736f25c09032c7c886a3d6abfc272
+  - _levelId: ReasonForLiving
+    _perceivedLoudness: -7.9
+    _checkSum: ee4d500617deb8caca16e17cb02c94ac
+  - _levelId: RumNBass
+    _perceivedLoudness: -7.5
+    _checkSum: f6bd1857f1a790216a289cc6f7e0b718
+  - _levelId: SpinEternally
+    _perceivedLoudness: -3.8
+    _checkSum: b1d1f74d07ce71a2dbe552728229b3be
+  - _levelId: TurnMeOn
+    _perceivedLoudness: -6.7
+    _checkSum: 36bcde15754422b9d987dbd54f4ef616
+  - _levelId: UnlimitedPower
+    _perceivedLoudness: -7.4
+    _checkSum: 791319b2408b35ac7a05aceacc2a59cb
+  - _levelId: WhatTheCat
+    _perceivedLoudness: -4.9
+    _checkSum: 768c1212e54f0061597e3c62fc875744
+  - _levelId: Bangarang
+    _perceivedLoudness: -6.3
+    _checkSum: c83d4984f1f9f3480e7bec28256bf0ea
+  - _levelId: Butterflies
+    _perceivedLoudness: -7.5
+    _checkSum: be9e1e847398503265e09af63d12450f
+  - _levelId: DontGo
+    _perceivedLoudness: -9.9
+    _checkSum: fa8fbbda69434c7882cbb13a50df5f42
+  - _levelId: FirstOfTheYear
+    _perceivedLoudness: -6.5
+    _checkSum: 274e90fa0985c7094ff52464b80f7536
+  - _levelId: RaggaBomb
+    _perceivedLoudness: -6.3
+    _checkSum: ae809a364aa10235c348c38d261e25d4
+  - _levelId: RockNRoll
+    _perceivedLoudness: -5
+    _checkSum: ce03a34f17eb6942cb535520eb55551e
+  - _levelId: ScaryMonstersAndNiceSprites
+    _perceivedLoudness: -5.5
+    _checkSum: 353261f9ee2002049a6afb0f2b51bf4b
+  - _levelId: TheDevilsDen
+    _perceivedLoudness: -6
+    _checkSum: fa12dd2e2d4942ae83b6f7078edbe2f7
+  - _levelId: AllTheGoodGirlsGoToHell
+    _perceivedLoudness: -8.7
+    _checkSum: b403fbc13421ca328914c4bf231f18f8
+  - _levelId: BadGuy
+    _perceivedLoudness: -7.8
+    _checkSum: 8f0aa17e19206c6f24c7fa4ff081aa8f
+  - _levelId: Bellyache
+    _perceivedLoudness: -11
+    _checkSum: 329e9a3dd2e974ddb40daa9dc77dd766
+  - _levelId: BuryAFriend
+    _perceivedLoudness: -8.6
+    _checkSum: 4d8d52324913d10f8d06eb154081b3bb
+  - _levelId: HappierThanEver
+    _perceivedLoudness: -6
+    _checkSum: a59713a55737a3830dd1aef6d4f2dfcd
+  - _levelId: IDidntChangeMyNumber
+    _perceivedLoudness: -6.9
+    _checkSum: 4dd7fdf42a6c68863a38f26661050742
+  - _levelId: NDA
+    _perceivedLoudness: -7.5
+    _checkSum: 446b353c0f7c309f9df10bda54112b6c
+  - _levelId: Oxytocin
+    _perceivedLoudness: -8
+    _checkSum: a62ee82f4b9912054fc2c4e2b4f7fe1c
+  - _levelId: ThereforeIAm
+    _perceivedLoudness: -7.8
+    _checkSum: de09925af8013260f6dd9f265ac59005
+  - _levelId: YouShouldSeeMeInACrown
+    _perceivedLoudness: -7.9
+    _checkSum: 07f6134c0ff06c3b7a51f34e4c958ff3
+  - _levelId: SpookyBeat
+    _perceivedLoudness: -10.2
+    _checkSum: 2b72976bc258dca92adb9955d0241afe
+  - _levelId: StupidLove
+    _perceivedLoudness: -7.4
+    _checkSum: 058eb0f299ed77f1dd8a47db6ff51881
+  - _levelId: Alejandro
+    _perceivedLoudness: -8
+    _checkSum: bf2550fe842b42ac4faaf5bdde25f93f
+  - _levelId: BadRomance
+    _perceivedLoudness: -7.3
+    _checkSum: 9044a32f6516accc542743be3bb3fb63
+  - _levelId: BornThisWay
+    _perceivedLoudness: -8
+    _checkSum: d312354eb2d6c6b8129f326854730310
+  - _levelId: JustDance
+    _perceivedLoudness: -8.3
+    _checkSum: 17261c90edb1c29a279415dba08d2530
+  - _levelId: Paparazzi
+    _perceivedLoudness: -6.4
+    _checkSum: bcb1af18e0d15a645bb9d3eb56b61af6
+  - _levelId: PokerFace
+    _perceivedLoudness: -7.5
+    _checkSum: 1b53049cbb7ad00791f03c5b704673d1
+  - _levelId: RainOnMe
+    _perceivedLoudness: -7.5
+    _checkSum: e0366a2465faf6909217ae04b865a2fd
+  - _levelId: Telephone
+    _perceivedLoudness: -7.3
+    _checkSum: cd7795234adee9ff086be3bcb283ee21
+  - _levelId: TheEdgeOfGlory
+    _perceivedLoudness: -9.3
+    _checkSum: 3eaa5a86104218af42446b38602be4a8
+  - _levelId: DollarSeventyEight
+    _perceivedLoudness: -10
+    _checkSum: 38128deb1db4dd936dc53b6b81f6f975
+  - _levelId: CurtainsAllNightLong
+    _perceivedLoudness: -9.9
+    _checkSum: 5d889a535eb2b5cbc106766d645ab9df
+  - _levelId: FinalBossChan
+    _perceivedLoudness: -10
+    _checkSum: 27d5848900f1894935d2e561f429b858
+  - _levelId: Firestarter
+    _perceivedLoudness: -10
+    _checkSum: 7ce39b9a883c1dd279e7fd22d1044bff
+  - _levelId: IWannaBeAMachine
+    _perceivedLoudness: -10
+    _checkSum: 119aae3ad2c33104548d7188bf5b8d52
+  - _levelId: Magic
+    _perceivedLoudness: -9.9
+    _checkSum: 71f151da0c486481a6042590fdaa9e93
+  - _levelId: Centuries
+    _perceivedLoudness: -6.7
+    _checkSum: 55bfdcdba629f61ded8b9b8a16feb321
+  - _levelId: DanceDance
+    _perceivedLoudness: -9.3
+    _checkSum: ce365b20188ccd20163c31416c0db14a
+  - _levelId: IDontCare
+    _perceivedLoudness: -6.4
+    _checkSum: 276807ca7c588a946a61a77bdf325857
+  - _levelId: Immortals
+    _perceivedLoudness: -6.5
+    _checkSum: 1e19bff0752b6da28541894bb092cd81
+  - _levelId: Irresistible
+    _perceivedLoudness: -10.8
+    _checkSum: 38d51789f368de70468a6586c1eff033
+  - _levelId: MySongsKnow
+    _perceivedLoudness: -8.5
+    _checkSum: 8f7012a8ad04e1099f2c9fa977c8edca
+  - _levelId: ThisAintAScene
+    _perceivedLoudness: -6.9
+    _checkSum: 10831dc526cf7b58dfbe949a2f79911c
+  - _levelId: ThnksFrThMmrs
+    _perceivedLoudness: -7.2
+    _checkSum: eb891fa56457526b5365237b59b4e611
+  - _levelId: Alone
+    _perceivedLoudness: -6.5
+    _checkSum: 19b3e8582a3c8005b662c83f51b397cc
+  - _levelId: Animals
+    _perceivedLoudness: -6.2
+    _checkSum: f02a27dea69774195eb7424e2b697dad
+  - _levelId: Freestyler
+    _perceivedLoudness: -10.9
+    _checkSum: a60787178973ed13262dfd417d5123df
+  - _levelId: GhostsNStuff
+    _perceivedLoudness: -11
+    _checkSum: ee4503d4013b2ca4dcc714ecac16ed7a
+  - _levelId: Icarus
+    _perceivedLoudness: -6.6
+    _checkSum: 3ce44a38aa92e3a809e9a6e5c46b25d9
+  - _levelId: Sandstorm
+    _perceivedLoudness: -8.6
+    _checkSum: 1485dc23925e0eb6ed200f4d29eb1bb6
+  - _levelId: StayTheNight
+    _perceivedLoudness: -8
+    _checkSum: 2cce9d884ca34abb24286c1b0332d354
+  - _levelId: TheRockafellerSkank
+    _perceivedLoudness: -8.8
+    _checkSum: f5b09b91642ee4791c26c55a5e667e41
+  - _levelId: WaitingAllNight
+    _perceivedLoudness: -8.2
+    _checkSum: 8b73d1ba1c2f14916d24f77976336e3d
+  - _levelId: Witchcraft
+    _perceivedLoudness: -6.6
+    _checkSum: c6b0ebbbc4290840a8de978182a6e942
+  - _levelId: 100BillsRemix
+    _perceivedLoudness: -3.9
+    _checkSum: 661b51cebd324aae37044e285eadc15c
+  - _levelId: EscapeRemix
+    _perceivedLoudness: -5.1
+    _checkSum: d211ca6ddab11a0c94192356e6aa000e
+  - _levelId: AboutDamnTime
+    _perceivedLoudness: -11.8
+    _checkSum: 0357652b7d8a66b6ab49b18df2b945e9
+  - _levelId: 2BeLoved
+    _perceivedLoudness: -8.4
+    _checkSum: 8f04c55b0ee88474406d6743fec15c7f
+  - _levelId: Tempo
+    _perceivedLoudness: -15
+    _checkSum: e111788501e2ffb80635db031f6dd403
+  - _levelId: CuzILoveYou
+    _perceivedLoudness: -7.3
+    _checkSum: d1978a476656b3659f1aa327728987e8
+  - _levelId: Juice
+    _perceivedLoudness: -6.6
+    _checkSum: bf217f362fe09fc72901e6d76bd5798d
+  - _levelId: EverybodysGay
+    _perceivedLoudness: -10
+    _checkSum: 296ce355171fb543c56d8f2e52a4c06f
+  - _levelId: TruthHurts
+    _perceivedLoudness: -7.8
+    _checkSum: 3586af5302f5f3dd0fe3bdccae751282
+  - _levelId: GoodAsHell
+    _perceivedLoudness: -7.7
+    _checkSum: a67115aa3c35c1e92856f76724dc2efe
+  - _levelId: Worship
+    _perceivedLoudness: -12.1
+    _checkSum: 35721d40a478683a703fa9472ab13922
+  - _levelId: CantFeelMyFace
+    _perceivedLoudness: -8.4
+    _checkSum: 6eeb17df6add1107bfdba48a5cc0a485
+  - _levelId: BlindingLights
+    _perceivedLoudness: -8.4
+    _checkSum: a554f7b860dd220ff15639bb9cd1ea21
+  - _levelId: Sacrifice
+    _perceivedLoudness: -7.8
+    _checkSum: e3dcb8b4e5d757d8bc9c44b56c5fbbd4
+  - _levelId: SaveYourTears
+    _perceivedLoudness: -7.8
+    _checkSum: a57308d85ff5a8dd43b06c3916242b79
+  - _levelId: PrayForMe
+    _perceivedLoudness: -7.2
+    _checkSum: 789990ebac20c995f7549dc8a0f41e7c
+  - _levelId: TheHills
+    _perceivedLoudness: -9.7
+    _checkSum: b3387c6648a577b527fafe69b5533289
+  - _levelId: Starboy
+    _perceivedLoudness: -8.8
+    _checkSum: c6f36224baa7db4b4b2d9faf26a302a3
+  - _levelId: HowDoIMakeYouLoveMe
+    _perceivedLoudness: -9.1
+    _checkSum: 006548705107fbc0886c26af929ed7c7
+  - _levelId: TakeMyBreath
+    _perceivedLoudness: -9
+    _checkSum: bd208936dc1de671be5851cbba5a6010
+  - _levelId: IFeelItComing
+    _perceivedLoudness: -7.3
+    _checkSum: 7f2c835487102ae18a9d6e11a7e26e81
+  - _levelId: FreeBird
+    _perceivedLoudness: -10.6
+    _checkSum: b0287abdd373a606b91bad854b0e3d97
+  - _levelId: SevenNationArmy
+    _perceivedLoudness: -9.9
+    _checkSum: 775cafa53db1e69f109b0f97144c0e48
+  - _levelId: IWasMadeLovingYou
+    _perceivedLoudness: -10.6
+    _checkSum: 50f023aada2aa02da13d8812d4584269
+  - _levelId: BornToBeWild
+    _perceivedLoudness: -13.5
+    _checkSum: 6d6cc79ce58b763fd9be0c1d5b236815
+  - _levelId: EyeOfTheTiger
+    _perceivedLoudness: -20.1
+    _checkSum: f9c81c40515b53ad5b9ef868abcf5b7a
+  - _levelId: SmellsLikeTeenSpirit
+    _perceivedLoudness: -7.9
+    _checkSum: fd3cc3ef2415a35503e33a2383851bab
+  - _levelId: SweetChildOMine
+    _perceivedLoudness: -10.2
+    _checkSum: 73690901606e49017fe5b3f9ea6c4574
+  - _levelId: ThePretender
+    _perceivedLoudness: -6.4
+    _checkSum: ebcd6abb45407a122ec8d5efa10b5f5f
+  - _levelId: Enemy
+    _perceivedLoudness: -8.2
+    _checkSum: 1f5198c1b1ac9cdb20c7a0ea7bafc780
+  - _levelId: Bones
+    _perceivedLoudness: -8.4
+    _checkSum: 416dc3029c078724c383298fdffe7198
+  - _levelId: CrazyGenius
+    _perceivedLoudness: -8.3
+    _checkSum: 80aa1ca67486ad4c62101902781acd2b
+  - _levelId: DancingsNotACrime
+    _perceivedLoudness: -4.2
+    _checkSum: 7f5947fd9b06734143a30a5303ee8f8a
+  - _levelId: HeyLookMaIMadeIt
+    _perceivedLoudness: -6.3
+    _checkSum: f930a5e7049b0923ffb4332aeac77932
+  - _levelId: SayAmen
+    _perceivedLoudness: -5.7
+    _checkSum: 80433c61ff7bb1773c3e37a0fb7dbc34
+  - _levelId: SugarSoaker
+    _perceivedLoudness: -9
+    _checkSum: b35d32d9dc759e2806a134d659d2176b
+  - _levelId: VivaLasVengeance
+    _perceivedLoudness: -7.2
+    _checkSum: e32f2a4aae69cf2f5095b286d9450da3

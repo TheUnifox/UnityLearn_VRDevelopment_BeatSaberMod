@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: RockMixtapePreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: d1a3f494dc8536742a7a1be07e5ca5d2, type: 2}
+  - {fileID: 11400000, guid: f57545b4ceb64b34e861a448e65006c3, type: 2}
+  - {fileID: 11400000, guid: 391989ec538503c40b5798c7ba4afb27, type: 2}
+  - {fileID: 11400000, guid: 3a0b3cc908c63e64d956eb6aca527ee1, type: 2}
+  - {fileID: 11400000, guid: 77097e4c6acbcdd4f93204218c78ab4d, type: 2}
+  - {fileID: 11400000, guid: ff4d764ab48ccec44857389e4937de9e, type: 2}
+  - {fileID: 11400000, guid: 22c13a7811af7464ea94f4635a89247b, type: 2}
+  - {fileID: 11400000, guid: eb1f8de5ac0384e43966141b18a7bb96, type: 2}

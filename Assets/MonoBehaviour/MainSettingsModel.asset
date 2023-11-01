@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1074785821, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MainSettingsModel
+  m_EditorClassIdentifier:
+  vrResolutionScale: {fileID: 11400000, guid: ad30e2fa4931a0a4bae0382275aa33ac, type: 2}
+  menuVRResolutionScaleMultiplier: {fileID: 11400000, guid: cf3c6a09694d49c4199f5ced7aa854de, type: 2}
+  useFixedFoveatedRenderingDuringGameplay: {fileID: 11400000, guid: 88424cd3da7b3854da2a6bb06cc48174, type: 2}
+  windowResolution: {fileID: 11400000, guid: b5f854aeb62df07499a10a5143c8547d, type: 2}
+  editorWindowResolution: {fileID: 11400000, guid: 7f85c62c8352bd44eb974c630ea10ed7, type: 2}
+  fullscreen: {fileID: 11400000, guid: f79db3b6e6c19bb4a923ba8a18e7aa8d, type: 2}
+  antiAliasingLevel: {fileID: 11400000, guid: bb0ecd1f05083d54fb20f0aa0cc1c2b0, type: 2}
+  volume: {fileID: 11400000, guid: a80e391ee537e454299ab402f2eceffb, type: 2}
+  ambientVolumeScale: {fileID: 11400000, guid: aca52c055dd2efb47bc6f2f5828ef68b, type: 2}
+  controllersRumbleEnabled: {fileID: 11400000, guid: 60c1aa64ddb9877409074716193ea1db, type: 2}
+  roomCenter: {fileID: 11400000, guid: 6e93afd589e734142aec23cc37d93527, type: 2}
+  roomRotation: {fileID: 11400000, guid: 033f38224151ebe4a8b46a55462b89a5, type: 2}
+  controllerPosition: {fileID: 11400000, guid: 68ebdaf36b13b7249b89222e2a6c1dd1, type: 2}
+  controllerRotation: {fileID: 11400000, guid: a99d421653c2c4b46b9dd31e7d551537, type: 2}
+  mirrorGraphicsSettings: {fileID: 11400000, guid: e8f4f6791a1f98c4993414eda2b48021, type: 2}
+  mainEffectGraphicsSettings: {fileID: 11400000, guid: 1dbe4a85184bf6a43bf0bc0abad41f1d, type: 2}
+  bloomPrePassGraphicsSettings: {fileID: 11400000, guid: 6d4defc763b70e24aa947d6980c91f1c, type: 2}
+  smokeGraphicsSettings: {fileID: 11400000, guid: 52689d371718d6d4abce18defb95e260, type: 2}
+  enableAlphaFeatures: {fileID: 11400000, guid: aa058964f5919434cb234d8e819735f5, type: 2}
+  pauseButtonPressDurationLevel: {fileID: 11400000, guid: 45f8bff2bd0aa87428072cef8648f421, type: 2}
+  burnMarkTrailsEnabled: {fileID: 11400000, guid: 717c63b355ab8b7448e8f0310f3faf4d, type: 2}
+  screenDisplacementEffectsEnabled: {fileID: 11400000, guid: 4f53ba9459f4cd04a82ab6b0dc14346c, type: 2}
+  smoothCameraEnabled: {fileID: 11400000, guid: 3783b68cd6403e44d9b8de84d31d255c, type: 2}
+  smoothCameraFieldOfView: {fileID: 11400000, guid: 3e476bd97c903f64cbae3c569535fa2f, type: 2}
+  smoothCameraThirdPersonPosition: {fileID: 11400000, guid: 94dcb30319af2ce4bb2efec49309ebc0, type: 2}
+  smoothCameraThirdPersonEulerAngles: {fileID: 11400000, guid: eec869574d5417d40998497e006ce858, type: 2}
+  smoothCameraThirdPersonEnabled: {fileID: 11400000, guid: def8a153a3db0f64eba534b49c245170, type: 2}
+  smoothCameraRotationSmooth: {fileID: 11400000, guid: 130b368fe1afa5a43bb6133999b479dd, type: 2}
+  smoothCameraPositionSmooth: {fileID: 11400000, guid: 59b8e587b1bd6e24e817f420affa4ae2, type: 2}
+  overrideAudioLatency: {fileID: 11400000, guid: 7735360ced9c6c54bb1765b813e5e842, type: 2}
+  audioLatency: {fileID: 11400000, guid: 534144fcde5faf4498cf3824a50df928, type: 2}
+  maxShockwaveParticles: {fileID: 11400000, guid: f6528c1cfd0f0a848b0a05d796399ad0, type: 2}
+  maxNumberOfCutSoundEffects: {fileID: 11400000, guid: 280a3cddfe9b2094cbdf788a39a4bb08, type: 2}
+  onlineServicesEnabled: {fileID: 11400000, guid: 923d9bddaa8652943bae6adde53dbfc2, type: 2}
+  openVrThreadedHaptics: {fileID: 11400000, guid: 4a314cfc334980b4b965db56f16ac4a6, type: 2}
+  language: {fileID: 11400000, guid: cc8f93b7db0bf40479e40713c9faf4bb, type: 2}
+  useCustomServerEnvironment: {fileID: 11400000, guid: 5ecb96ce756510f49b3d9dc557d70bbf, type: 2}
+  forceGameLiftServerEnvironment: {fileID: 11400000, guid: b12ec02432b1c7148b90c8e5a008fabc, type: 2}
+  customServerHostName: {fileID: 11400000, guid: c738914fc0a6bbe43b598ebf1f034013, type: 2}
+  enableFPSCounter: {fileID: 11400000, guid: 8e7894458a52869409753e3798b17c5f, type: 2}
+  depthTextureEnabled: {fileID: 11400000, guid: a52b2b1b36ad547488252010a84e8cf8, type: 2}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: DollarSeventyEightLevel
+  m_EditorClassIdentifier:
+  _levelID: DollarSeventyEight
+  _songName: $1.78
+  _songSubName:
+  _songAuthorName: Schwank
+  _levelAuthorName: altrewin
+  _audioClip: {fileID: 8300000, guid: 11510a4be88d33c43988cbc28c4055f9, type: 3}
+  _beatsPerMinute: 200
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 33
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: b66b62ca59b42ba43bf47056786bf1b3, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 329d5f07beb0ca3409ebf1dc0981aa5d, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 5f7848eb7c11ef04ea80581ae3589a3d, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 05638e99a5168bd42bf0cee390bd6476, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: e9835865b05bb6a47a7fbc71057a631a, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 15.5
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: e560d5d3ca22877419980da155d98c5b, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 19
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: ce1aaa7628d4dde489c9cea0d03a9d40, type: 2}
+  _ignore360MovementBeatmaps: 0

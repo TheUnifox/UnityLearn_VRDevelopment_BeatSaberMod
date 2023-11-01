@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: InterscopePreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 36b2b1605413101429bc42d895d12662, type: 2}
+  - {fileID: 11400000, guid: be4013c1dea3e53479ba3bbf12db6a3e, type: 2}
+  - {fileID: 11400000, guid: 0ae341ebc7e232147b5a6c4124e1e017, type: 2}
+  - {fileID: 11400000, guid: afd3d0afd7d692d4d866ad48d4f46ed8, type: 2}
+  - {fileID: 11400000, guid: b637c737dcd6ba34bafed533b18cbab0, type: 2}
+  - {fileID: 11400000, guid: b3edb4c4dc6f9fa4396c59304c4f59dc, type: 2}
+  - {fileID: 11400000, guid: 5a3cb4f675bb60d43afd905de14e4d38, type: 2}

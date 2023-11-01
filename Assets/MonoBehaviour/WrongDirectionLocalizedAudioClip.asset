@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: WrongDirectionLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: cad95cb6152783741aa4f2e3c0111f5a, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 95203efee7da60f41b321e984e7fc1b0, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 5bfd1e9fcc128ab43aa947ee4879a330, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 738a382b48f737e4a8e95f30ffcf101d, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 34e23011d92c07f42a391c6a0b55df94, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 6d7797523154e8542adad622e9d388f0, type: 3}

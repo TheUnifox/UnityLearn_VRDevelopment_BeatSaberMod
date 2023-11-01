@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 586749011, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MissionData5B
+  m_EditorClassIdentifier:
+  _level: {fileID: 11400000, guid: 56d2416630d58b44f8f82de3da51919c, type: 2}
+  _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+  _beatmapDifficulty: 1
+  _missionObjectives:
+  - _type: {fileID: 11400000, guid: a668571527facef49b00a6ac45f87c14, type: 2}
+    _referenceValueComparisonType: 2
+    _referenceValue: 5
+  - _type: {fileID: 11400000, guid: 005f4c0860ce0724cbc7e3e5a9ba5cf7, type: 2}
+    _referenceValueComparisonType: 2
+    _referenceValue: 5
+  _gameplayModifiers:
+    _energyType: 0
+    _noFailOn0Energy: 0
+    _instaFail: 0
+    _failOnSaberClash: 0
+    _enabledObstacleType: 0
+    _fastNotes: 0
+    _strictAngles: 0
+    _disappearingArrows: 0
+    _ghostNotes: 0
+    _noBombs: 0
+    _songSpeed: 0
+    _noArrows: 0
+    _proMode: 0
+    _zenMode: 0
+    _smallCubes: 0
+  _missionHelp: {fileID: 11400000, guid: 73510f58e8c8fbe42bec7c1488362b54, type: 2}

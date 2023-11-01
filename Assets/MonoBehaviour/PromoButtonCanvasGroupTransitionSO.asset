@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1780760793, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PromoButtonCanvasGroupTransitionSO
+  m_EditorClassIdentifier:
+  _transitionTiming: {fileID: 11400000, guid: 72a7fb84abfbe3f4da0e844953f7f6a4, type: 2}
+  _normalAlpha: 0.5
+  _highlightedAlpha: 1
+  _pressedAlpha: 1
+  _disabledAlpha: 0.2
+  _selectedAlpha: 1
+  _selectedAndHighlightedAlpha: 1

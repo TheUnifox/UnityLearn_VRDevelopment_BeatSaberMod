@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: TutorialIntroInstructionsLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 9b93f7a50f26e394e8642590efdc5b8e, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 5b933b321ac9b234d88f4471043d5cc7, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 949879c3b97d4ae4d9d5b79f9ce8566b, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: fbd6bd27102d1d847b270cf174320e1a, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 4ceb488dd58ca174cad3c99823ec5fa1, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 7d166b73c1a4ddf458f858105541e2ff, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -247312371, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OneColorBeatmapCharacteristic
+  m_EditorClassIdentifier:
+  _icon: {fileID: 21300000, guid: bea3219c53f68644fbb7749fa0d94eb8, type: 2}
+  _descriptionLocalizationKey: LEVEL_ONE_SABER_HINT
+  _characteristicNameLocalizationKey: LEVEL_ONE_SABER
+  _serializedName: OneSaber
+  _compoundIdPartName: OneSaber
+  _sortingOrder: 1
+  _containsRotationEvents: 0
+  _requires360Movement: 0
+  _numberOfColors: 1

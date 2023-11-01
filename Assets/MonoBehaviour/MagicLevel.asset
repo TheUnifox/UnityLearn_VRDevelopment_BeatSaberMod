@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MagicLevel
+  m_EditorClassIdentifier:
+  _levelID: Magic
+  _songName: Magic
+  _songSubName: ft. Meredith Bull
+  _songAuthorName: Jaroslav Beck
+  _levelAuthorName: Freeek
+  _audioClip: {fileID: 8300000, guid: 7b12d04c520c98a47a2f368e7f659397, type: 3}
+  _beatsPerMinute: 208
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 46
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: ce56e3ba3cda26542b399a3ebb3689fb, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 329d5f07beb0ca3409ebf1dc0981aa5d, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 9c86652372f8d2749bcf40d861e486f6, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 973fba20e09ddbb4d918acfcae633a09, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 71873cdc8f6223d4d859efc1a204274a, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 9c00497eaba1f594e83eaa5124e3a724, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 18
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: 6233ad55682336a4db7ba76fbefd0957, type: 2}
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: d5f14f7bad144714a90b3a34522673c8, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 03a5fb347cadbf64ebabc5261640d746, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 18
+      _noteJumpStartBeatOffset: 0.5
+      _beatmapData: {fileID: 11400000, guid: 5d19a58a9000fc246b7cf86b28192303, type: 2}
+  _ignore360MovementBeatmaps: 0

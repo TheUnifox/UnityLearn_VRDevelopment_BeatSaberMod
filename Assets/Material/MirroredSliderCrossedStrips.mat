@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MirroredSliderCrossedStrips
+  m_Shader: {fileID: 4800000, guid: 1b9e6cf79fb78cf41b58e1fe0fe2dfb4, type: 3}
+  m_ShaderKeywords: ATTRACT FAKE_MIRROR_TRANSPARENCY MASK2_RED_IS_ALPHA MASK_RED_IS_ALPHA ROTATE_MAIN_ONLY VERTEX_COLOR VERTICAL_MIRROR _ALPHACHANNEL_RED _FOGTYPE_NONE _ROTATE_UV_90_CW _VERTEXCHANNELS_RGBA _WHITEBOOSTTYPE_ALWAYS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1954
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: 8489444fb822c4a4c8c0401748da94e4, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 94cd6ea26b8a8494180fa2e459a5be30, type: 3}
+        m_Scale: {x: 0.1, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaChannel: 1
+    - _AlphaMultiplier: 1
+    - _AtractObject: 0
+    - _Attract: 1
+    - _AttractColorA: 0
+    - _AttractMaxDistance: 7.89
+    - _AttractMinDistance: 0
+    - _AttractObject: 0
+    - _AttractPow: 2
+    - _AttractRed: 0
+    - _AttractorAttack: 0.1
+    - _AttractorFadeLength: 0.5
+    - _AttractorFadeOffset: 0
+    - _AttractorFadeWidth: 0.5
+    - _BeatmapEditorOnly: 0
+    - _BlendDstFactor: 1
+    - _BlendDstFactorA: 1
+    - _BlendOp: 0
+    - _BlendSrcFactor: 1
+    - _BlendSrcFactorA: 0
+    - _BumpScale: 1
+    - _CloseToCameraFactor: 1
+    - _CloseToCameraOffset: 0.1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dissolve: 0
+    - _DstBlend: 0
+    - _EnableCloseToCameraDisappear: 0
+    - _EnableColorGradient: 0
+    - _EnableFlowmap: 0
+    - _EnableHeightFog: 0
+    - _EnableHologram: 0
+    - _EnableLifetime: 0
+    - _EnableMask: 0
+    - _EnableMask2: 0
+    - _EnableNoiseDithering: 0
+    - _EnableSoftParticles: 0
+    - _EnableTextureColor: 0
+    - _EnableVertexColor: 1
+    - _EnableViewAlignDisappear: 0
+    - _EndpointStiffnessWidth: 0.3
+    - _FakeMirrorTransparencyEnabled: 1
+    - _FakeMirrorTransparencyMultiplier: 1
+    - _FarFadeWidth: 0
+    - _FlowSpeed: 0
+    - _FlowStrength: 0.1
+    - _FogScale: 1
+    - _FogStartOffset: 0
+    - _FogType: 0
+    - _FullOpacityDistance: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 1
+    - _Mask2MinValue: 0.5
+    - _Mask2RedIsAlpha: 1
+    - _MaskAdditive: 0
+    - _MaskRedIsAlpha: 1
+    - _MaskStrength: 0.47
+    - _MaxXOffset: 2
+    - _MaxYPosition: 10
+    - _Metallic: 0
+    - _MinYPosition: 0.05
+    - _Mode: 0
+    - _NoteFadeStart: 2.06
+    - _NoteFadeWidth: 0.01
+    - _OcclusionStrength: 1
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _Parallax: 0.02
+    - _PreciseFog: 0
+    - _RedIsVertexAlpha: 0
+    - _RotateMainUVOnly: 1
+    - _Rotate_UV: 1
+    - _SmoothnessTextureChannel: 0
+    - _SoftFactor: 0
+    - _SpecularHighlights: 1
+    - _SquareAlpha: 0
+    - _SquareVertexAlpha: 0
+    - _SrcBlend: 1
+    - _StencilComp: 3
+    - _StencilPass: 0
+    - _StencilRefValue: 1
+    - _UVSec: 0
+    - _VertexChannels: 0
+    - _VerticalMirror: 1
+    - _ViewAlignEnd: 0.15
+    - _ViewAlignFactor: 0.01
+    - _ViewAlignLength: 0.1
+    - _ViewAlignStart: 0.01
+    - _WhiteBoostType: 2
+    - _Width: 0.15
+    - _XClampOffset: 1
+    - _XClampParam: 1.5
+    - _XClampParam0: 1
+    - _XClampParam1: 10
+    - _XTransitionWidth: 1
+    - _YClampOffset: 1
+    - _YClampParam: 1.5
+    - _YClampParam0: 1
+    - _YClampParam1: 5
+    - _YTransitionWidth: 0.3
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _AttractPoint1: {r: -0.04218444, g: 0.24437308, b: 0.6709792, a: 0}
+    - _AttractPoint2: {r: -1.54, g: 1.5, b: 3.06, a: 0}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowAdd: {r: 0, g: 0, b: 0, a: 0}
+    - _FlowPanning: {r: 0, g: 0, b: 0, a: 0}
+    - _HologramColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Mask2Panning: {r: 0.15, g: -0.28, b: 0, a: 0}
+    - _MaskPanning: {r: -0.47, g: -0.01, b: 0, a: 0}
+    - _UvPanning: {r: 1.8, g: 0.17, b: 0, a: 0}

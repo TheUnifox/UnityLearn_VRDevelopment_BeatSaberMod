@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2090149975, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MirrorRendererGraphicsSettingsPresets
+  m_EditorClassIdentifier:
+  _presets:
+  - _presetNameLocalizationKey: SETTINGS_OFF
+    mirrorType: 0
+    reflectLayers:
+      serializedVersion: 2
+      m_Bits: 0
+    stereoTextureWidth: 2
+    stereoTextureHeight: 2
+    monoTextureWidth: 2
+    monoTextureHeight: 2
+    maxAntiAliasing: 1
+    enableBloomPrePassFog: 0
+  - _presetNameLocalizationKey: SETTINGS_LOW
+    mirrorType: 1
+    reflectLayers:
+      serializedVersion: 2
+      m_Bits: 0
+    stereoTextureWidth: 2
+    stereoTextureHeight: 2
+    monoTextureWidth: 2
+    monoTextureHeight: 2
+    maxAntiAliasing: 1
+    enableBloomPrePassFog: 0
+  - _presetNameLocalizationKey: SETTINGS_MEDIUM
+    mirrorType: 2
+    reflectLayers:
+      serializedVersion: 2
+      m_Bits: 536885504
+    stereoTextureWidth: 1200
+    stereoTextureHeight: 500
+    monoTextureWidth: 512
+    monoTextureHeight: 512
+    maxAntiAliasing: 2
+    enableBloomPrePassFog: 1
+  - _presetNameLocalizationKey: SETTINGS_HIGH
+    mirrorType: 2
+    reflectLayers:
+      serializedVersion: 2
+      m_Bits: 537952032
+    stereoTextureWidth: 2400
+    stereoTextureHeight: 1000
+    monoTextureWidth: 1024
+    monoTextureHeight: 1024
+    maxAntiAliasing: 2
+    enableBloomPrePassFog: 1

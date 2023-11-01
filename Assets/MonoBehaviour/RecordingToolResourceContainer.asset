@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 726834685, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: RecordingToolResourceContainer
+  m_EditorClassIdentifier:
+  _dlcLevelPackCollection: {fileID: 11400000, guid: 5ccf754e6a58de244a5006c0e92e3d04, type: 2}
+  _ostAndExtrasPackCollection: {fileID: 11400000, guid: 553dc037b3c86ab4a9ac05e843b5b289, type: 2}
+  _beatmapCharacteristicCollection: {fileID: 11400000, guid: 8b33de254eb5e344d84a4fe2f42b520a, type: 2}
+  _environmentsList: {fileID: 11400000, guid: fce6c342404805c48be055b14151e09a, type: 2}

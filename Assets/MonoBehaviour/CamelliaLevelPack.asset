@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2114552767, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: CamelliaLevelPack
+  m_EditorClassIdentifier:
+  _packID: Camellia
+  _packName: Camellia Music Pack
+  _shortPackName: Camellia
+  _coverImage: {fileID: 21300000, guid: 8527630924fdcd543a5d5d544adbbf0b, type: 2}
+  _smallCoverImage: {fileID: 21300000, guid: 9521b84cf77573b418fa5ad8a989c4a3, type: 2}
+  _beatmapLevelCollection: {fileID: 11400000, guid: 5fd579cbfd6ec5f4bb137ec097c7838b, type: 2}

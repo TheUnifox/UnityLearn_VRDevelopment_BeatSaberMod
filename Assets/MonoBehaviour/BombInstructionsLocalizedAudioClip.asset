@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: BombInstructionsLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: e586bf04af5cdd8468d9656e84dfd064, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: d1828c21761ef3e499c59e0d6334cbef, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 1fcc52b2c82e82c4d916be6b142bd587, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 215e97795df155940be7e7ed32f8f1ee, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 46e5d2c3e9aa84b4ca48351351e0ac06, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 02d0e21bec934cb45b24344feea11eab, type: 3}

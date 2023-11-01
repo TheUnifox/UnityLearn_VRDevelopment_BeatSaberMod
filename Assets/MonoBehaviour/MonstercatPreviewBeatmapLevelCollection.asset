@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MonstercatPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 2c74b6ec88e9c2841813a097141dc479, type: 2}
+  - {fileID: 11400000, guid: d98293ad0251b384e9e0544c8bfad833, type: 2}
+  - {fileID: 11400000, guid: a58a9e451b1d3be469773f43d15bb6df, type: 2}
+  - {fileID: 11400000, guid: f9b193e585e70d144bf44d9728402e4c, type: 2}
+  - {fileID: 11400000, guid: eaaf1b6b06db3684aa7c0747a0536e8a, type: 2}
+  - {fileID: 11400000, guid: 189afa0df6cfb46498e49f289cf65592, type: 2}
+  - {fileID: 11400000, guid: 73f335cba31a6954eb698f3fa831c48b, type: 2}
+  - {fileID: 11400000, guid: c3794c847967d3743ba74948cf2ccd77, type: 2}
+  - {fileID: 11400000, guid: 2d2ee742da68c9d4bb176a59b6433261, type: 2}
+  - {fileID: 11400000, guid: 1ba6adf30b95d044c91decc3d7475b91, type: 2}

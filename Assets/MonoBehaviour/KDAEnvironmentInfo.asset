@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 129817688, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: KDAEnvironmentInfo
+  m_EditorClassIdentifier:
+  _environmentName: KDA
+  _colorScheme: {fileID: 11400000, guid: e41a00713f1fe4945bb0cb8ddf9a5504, type: 2}
+  _sceneInfo: {fileID: 11400000, guid: 21b9f36d326d707448a83854e19f0666, type: 2}
+  _serializedName: KDAEnvironment
+  _environmentAssetDirectory: KDA
+  _environmentType: {fileID: 11400000, guid: 8ef207d0495db254395643c71adee826, type: 2}
+  _environmentSizeData:
+    _floorType: 0
+    _ceilingType: 0
+    _trackLaneType: 1
+  _environmentIntensityReductionOptions:
+    _compressExpand: 0
+    _rotateRings: 0
+  _environmentKeywords: []
+  _lightGroups:
+    _lightGroupSOList: []
+  _defaultEnvironmentEvents:
+    _basicBeatmapEvents: []
+    _lightGroupEvents: []

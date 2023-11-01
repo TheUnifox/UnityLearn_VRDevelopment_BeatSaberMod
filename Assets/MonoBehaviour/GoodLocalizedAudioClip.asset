@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: GoodLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 891bffa0987ea8d42afd7ba63b99bf67, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: 7fa71b88247fc5446ae056de58248ee1, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 5ac06f540dc13fa4cb6661c743899843, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 14d8e029a4106b04d826f4aaedb10316, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: 00e5891f27abc3c4bb7dd4687061de36, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: 78c456e826cbe9a49a51255c2c2a9763, type: 3}

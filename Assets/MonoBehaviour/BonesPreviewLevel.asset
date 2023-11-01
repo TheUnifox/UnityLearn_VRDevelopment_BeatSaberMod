@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: BonesPreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: Bones
+  _songName: Bones
+  _songSubName:
+  _songAuthorName: Imagine Dragons
+  _levelAuthorName: ETAN
+  _previewAudioClip: {fileID: 8300000, guid: 6ee144c3aa0b2e64291f10797bae3069, type: 3}
+  _beatsPerMinute: 114
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 160.05046
+  _coverImage: {fileID: 21300000, guid: ed6412be8129b584a9f934efb392f564, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: a8fc6a450affb034a95f9626be35b47c, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 95525b8058e01454b9b024293cc416de, type: 2}
+    _beatmapDifficulties: 010000000300000004000000
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

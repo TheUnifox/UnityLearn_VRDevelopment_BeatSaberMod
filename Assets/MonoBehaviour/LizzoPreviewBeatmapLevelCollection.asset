@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: LizzoPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 44bc40f951a9c084c97007ba2e14281f, type: 2}
+  - {fileID: 11400000, guid: a831f292cceaedc488cef47f1ab91b73, type: 2}
+  - {fileID: 11400000, guid: 614ce5a51dfc4314f80f1e6f61a3c270, type: 2}
+  - {fileID: 11400000, guid: 1b0284de3af44594c9916530bb3ffb76, type: 2}
+  - {fileID: 11400000, guid: c93082df2e17d0f43b8e482a3f284710, type: 2}
+  - {fileID: 11400000, guid: 9906703083ff4444a95460a1d599b774, type: 2}
+  - {fileID: 11400000, guid: 6c50839318a1adf419f8b6ee47c698f5, type: 2}
+  - {fileID: 11400000, guid: 9e98afbe60779a141a79ad93f935e931, type: 2}
+  - {fileID: 11400000, guid: 32d616f8eb7494d438096de2098b968b, type: 2}

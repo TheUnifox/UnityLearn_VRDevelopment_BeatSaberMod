@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1044111418, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: SongPackMaskModelSO
+  m_EditorClassIdentifier:
+  _defaultSongPackMaskItems:
+  - BUILT_IN_LEVEL_PACKS
+  - ALL_LEVEL_PACKS
+  _customSongPackMaskItems:
+  - _type: 4
+    _beatmapLevelPack: {fileID: 0}
+    _previewBeatmapLevelPack: {fileID: 0}
+    _serializedName: BUILT_IN_LEVEL_PACKS
+    _levelPackCollection: {fileID: 11400000, guid: 553dc037b3c86ab4a9ac05e843b5b289, type: 2}
+    _beatmapLevelPacks: []
+    _previewBeatmapLevelPacks: []
+    _levelPackCollections: []
+  - _type: 4
+    _beatmapLevelPack: {fileID: 0}
+    _previewBeatmapLevelPack: {fileID: 0}
+    _serializedName: BUILT_IN_NO_CAMELLIA_LEVEL_PACKS
+    _levelPackCollection: {fileID: 11400000, guid: 73182ae98466f784abefea3ad014f032, type: 2}
+    _beatmapLevelPacks: []
+    _previewBeatmapLevelPacks: []
+    _levelPackCollections: []
+  - _type: 4
+    _beatmapLevelPack: {fileID: 0}
+    _previewBeatmapLevelPack: {fileID: 0}
+    _serializedName: DLC_ONLY_LEVEL_PACKS
+    _levelPackCollection: {fileID: 11400000, guid: 5ccf754e6a58de244a5006c0e92e3d04, type: 2}
+    _beatmapLevelPacks: []
+    _previewBeatmapLevelPacks: []
+    _levelPackCollections: []
+  - _type: 5
+    _beatmapLevelPack: {fileID: 0}
+    _previewBeatmapLevelPack: {fileID: 0}
+    _serializedName: ALL_LEVEL_PACKS
+    _levelPackCollection: {fileID: 0}
+    _beatmapLevelPacks: []
+    _previewBeatmapLevelPacks: []
+    _levelPackCollections:
+    - {fileID: 11400000, guid: 553dc037b3c86ab4a9ac05e843b5b289, type: 2}
+    - {fileID: 11400000, guid: 5ccf754e6a58de244a5006c0e92e3d04, type: 2}
+  _ostAndExtrasCollection: {fileID: 11400000, guid: 553dc037b3c86ab4a9ac05e843b5b289, type: 2}
+  _dlcCollection: {fileID: 11400000, guid: 5ccf754e6a58de244a5006c0e92e3d04, type: 2}

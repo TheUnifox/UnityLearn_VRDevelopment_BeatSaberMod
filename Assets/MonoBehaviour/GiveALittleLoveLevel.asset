@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1360184101, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: GiveALittleLoveLevel
+  m_EditorClassIdentifier:
+  _levelID: GiveALittleLove
+  _songName: Give a Little Love
+  _songSubName:
+  _songAuthorName: Pegboard Nerds
+  _levelAuthorName:
+  _audioClip: {fileID: 8300000, guid: 12775e3a8cf562148832318dbb272c56, type: 3}
+  _beatsPerMinute: 128
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 1
+  _previewStartTime: 128.5
+  _previewDuration: 10
+  _coverImage: {fileID: 21300000, guid: 04f351c75dcc270448684af4dbc83d68, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: d90e3b5f7699bc546a3df68fa8799a77, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _difficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _difficultyBeatmaps:
+    - _difficulty: 0
+      _difficultyRank: 1
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: 8c9e2ed6b7de7c8429ddf985731a173d, type: 2}
+    - _difficulty: 1
+      _difficultyRank: 3
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: c29d98022346c8a4ba1c9bf2827b4864, type: 2}
+    - _difficulty: 2
+      _difficultyRank: 5
+      _noteJumpMovementSpeed: 0
+      _noteJumpStartBeatOffset: 1
+      _beatmapData: {fileID: 11400000, guid: ec2d0a9d9a030a348bd547effaf80e8b, type: 2}
+    - _difficulty: 3
+      _difficultyRank: 7
+      _noteJumpMovementSpeed: 13
+      _noteJumpStartBeatOffset: 0.75
+      _beatmapData: {fileID: 11400000, guid: 7ad2e2b06937839478e0132aa89f2373, type: 2}
+    - _difficulty: 4
+      _difficultyRank: 9
+      _noteJumpMovementSpeed: 16
+      _noteJumpStartBeatOffset: 0
+      _beatmapData: {fileID: 11400000, guid: 575616ca0eccba847963e89d32d0aab5, type: 2}
+  _ignore360MovementBeatmaps: 0

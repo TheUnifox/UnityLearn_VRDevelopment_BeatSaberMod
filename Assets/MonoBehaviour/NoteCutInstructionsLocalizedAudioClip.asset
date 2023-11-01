@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -450801794, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: NoteCutInstructionsLocalizedAudioClip
+  m_EditorClassIdentifier:
+  _localizedAudioClipInfo:
+  - language: 0
+    localizedAudioClip: {fileID: 8300000, guid: 585adc8c58b8f1e4ca1b0a6e4f1356a5, type: 3}
+  - language: 1
+    localizedAudioClip: {fileID: 8300000, guid: fd9fcf71507a56a4d977ef0543ef7764, type: 3}
+  - language: 3
+    localizedAudioClip: {fileID: 8300000, guid: 7a1418250ac03ab429fd89554c354ccf, type: 3}
+  - language: 16
+    localizedAudioClip: {fileID: 8300000, guid: 4bc0bc63de2873949b1c64a2ba0ba9ad, type: 3}
+  - language: 19
+    localizedAudioClip: {fileID: 8300000, guid: d1a0afa730f93524c9c1347c86909626, type: 3}
+  - language: 2
+    localizedAudioClip: {fileID: 8300000, guid: ada2bf6d132bc6a46bb7247d89305c4f, type: 3}

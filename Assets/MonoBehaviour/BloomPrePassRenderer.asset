@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1420142277, guid: dbf7c1b241bc77c4316e2152e729a6b0, type: 3}
+  m_Name: BloomPrePassRenderer
+  m_EditorClassIdentifier:
+  _bloomFog: {fileID: 11400000, guid: e34dcb750ddb64b40b514bfc71ea0dba, type: 2}
+  _preallocationData:
+  - lightType: {fileID: 11400000, guid: 00e43040566471f469cfc7bb231066dc, type: 2}
+    preallocateCount: 579
+  - lightType: {fileID: 11400000, guid: d0fbd2cf4a2c08042a496975185518d5, type: 2}
+    preallocateCount: 192

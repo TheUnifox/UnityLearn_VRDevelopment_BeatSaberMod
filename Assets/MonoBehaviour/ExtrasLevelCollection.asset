@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1784233892, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ExtrasLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 42ed26586cf8c9447bdc902ee08ba156, type: 2}
+  - {fileID: 11400000, guid: 0035606d28ed7f84780c6c2d50fd2f83, type: 2}
+  - {fileID: 11400000, guid: 7e9accbf09786ea41988fe4b90a21cf3, type: 2}
+  - {fileID: 11400000, guid: 0bded1d25b1a0bc4ab1879692fee670b, type: 2}
+  - {fileID: 11400000, guid: f9f671656e4ed2f4393fad782ec26d4a, type: 2}
+  - {fileID: 11400000, guid: 422c1b414efe42c46aec6defedd492fc, type: 2}
+  - {fileID: 11400000, guid: 3ec0869009892834c9b8adaecaa64305, type: 2}
+  - {fileID: 11400000, guid: 7d548fda2c2b6aa449c7b24034be4b53, type: 2}

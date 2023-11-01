@@ -1,0 +1,12 @@
+Font: Teko  Style: Medium
+Point Size: 86   SP/PD Ratio: 5.8%
+
+Characters included: 97/97
+Missing characters: 0
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+
+Characters excluded from packing:
+----------------------------------------

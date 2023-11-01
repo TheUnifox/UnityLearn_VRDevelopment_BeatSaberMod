@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: SkrillexPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: 205f9b1b000ac7a4eaf6b4c5c2737107, type: 2}
+  - {fileID: 11400000, guid: 42a7cb330c9e9cd4e92eea9bec6283c2, type: 2}
+  - {fileID: 11400000, guid: 7e6acdfea766534439a462a39586b40e, type: 2}
+  - {fileID: 11400000, guid: f304a0fab6d343348a56f87ba96a356c, type: 2}
+  - {fileID: 11400000, guid: 901beb61e480971478d1651b4b4da20f, type: 2}
+  - {fileID: 11400000, guid: 4f7cba2829b5047469fec1c432e212de, type: 2}
+  - {fileID: 11400000, guid: e943f06a4a8bff44b913d289a4c9b69c, type: 2}
+  - {fileID: 11400000, guid: d4c2a8fd1710d7c46919a2cf20d65f5d, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: MultiplayerDuelConnectedPlayerOutro
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 11400000, guid: 20691b5b1949931438d0d1902b5211ff, type: 2}
+  - {fileID: 11400000, guid: ca3b05864ec596248872c7b595919b9b, type: 2}
+  - {fileID: 11400000, guid: f626cf1f2eb37a645beb0cdb08c7416b, type: 2}
+  - {fileID: 11400000, guid: 8abbf68cf23a814489e0184bded823d2, type: 2}
+  - {fileID: 11400000, guid: e96554c655894d1448c36e409a04ff5b, type: 2}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 11400000, guid: 1876e3b7e6c386c43acbe059e0a0f98c, type: 2}

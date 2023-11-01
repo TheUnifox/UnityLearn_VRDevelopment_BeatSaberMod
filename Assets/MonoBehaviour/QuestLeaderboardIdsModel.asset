@@ -1,0 +1,2587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 757361277, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: QuestLeaderboardIdsModel
+  m_EditorClassIdentifier:
+  _leaderboardIds:
+  - _difficultyBeatmapId: 100BillsEasy
+    _platformLeaderboardId: Quest100BillsEasy
+  - _difficultyBeatmapId: 100BillsNormal
+    _platformLeaderboardId: Quest100BillsNormal
+  - _difficultyBeatmapId: 100BillsHard
+    _platformLeaderboardId: Quest100BillsHard
+  - _difficultyBeatmapId: 100BillsExpert
+    _platformLeaderboardId: Quest100BillsExpert
+  - _difficultyBeatmapId: 100BillsExpertPlus
+    _platformLeaderboardId: Quest100BillsExpertPlus
+  - _difficultyBeatmapId: 100BillsNoArrowsEasy
+    _platformLeaderboardId: Quest100BillsNoArrowsEasy
+  - _difficultyBeatmapId: 100BillsNoArrowsNormal
+    _platformLeaderboardId: Quest100BillsNoArrowsNormal
+  - _difficultyBeatmapId: 100BillsNoArrowsHard
+    _platformLeaderboardId: Quest100BillsNoArrowsHard
+  - _difficultyBeatmapId: 100BillsNoArrowsExpert
+    _platformLeaderboardId: Quest100BillsNoArrowsExpert
+  - _difficultyBeatmapId: 100BillsOneSaberExpert
+    _platformLeaderboardId: Quest100BillsOneSaberExpert
+  - _difficultyBeatmapId: 100Bills360DegreeNormal
+    _platformLeaderboardId: Quest100Bills360DegreeNormal
+  - _difficultyBeatmapId: 100Bills90DegreeNormal
+    _platformLeaderboardId: Quest100Bills90DegreeNormal
+  - _difficultyBeatmapId: BalearicPumpingEasy
+    _platformLeaderboardId: QuestBalearicPumpingEasy
+  - _difficultyBeatmapId: BalearicPumpingNormal
+    _platformLeaderboardId: QuestBalearicPumpingNormal
+  - _difficultyBeatmapId: BalearicPumpingHard
+    _platformLeaderboardId: QuestBalearicPumpingHard
+  - _difficultyBeatmapId: BalearicPumpingExpert
+    _platformLeaderboardId: QuestBalearicPumpingExpert
+  - _difficultyBeatmapId: BalearicPumpingExpertPlus
+    _platformLeaderboardId: QuestBalearicPumpingExpertPlus
+  - _difficultyBeatmapId: BalearicPumpingOneSaberExpert
+    _platformLeaderboardId: QuestBalearicPumpingOneSaberExpert
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsEasy
+    _platformLeaderboardId: QuestBalearicPumpingNoArrowsEasy
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsNormal
+    _platformLeaderboardId: QuestBalearicPumpingNoArrowsNormal
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsHard
+    _platformLeaderboardId: QuestBalearicPumpingNoArrowsHard
+  - _difficultyBeatmapId: BalearicPumpingNoArrowsExpert
+    _platformLeaderboardId: QuestBalearicPumpingNoArrowsExpert
+  - _difficultyBeatmapId: BalearicPumping360DegreeExpertPlus
+    _platformLeaderboardId: QuestBalearicPumping360DegreeExpertPlus
+  - _difficultyBeatmapId: BalearicPumping90DegreeExpertPlus
+    _platformLeaderboardId: QuestBalearicPumping90DegreeExpertPlus
+  - _difficultyBeatmapId: BeatSaberEasy
+    _platformLeaderboardId: QuestBeatSaberEasy
+  - _difficultyBeatmapId: BeatSaberNormal
+    _platformLeaderboardId: QuestBeatSaberNormal
+  - _difficultyBeatmapId: BeatSaberHard
+    _platformLeaderboardId: QuestBeatSaberHard
+  - _difficultyBeatmapId: BeatSaberExpert
+    _platformLeaderboardId: QuestBeatSaberExpert
+  - _difficultyBeatmapId: BeatSaberExpertPlus
+    _platformLeaderboardId: QuestBeatSaberExpertPlus
+  - _difficultyBeatmapId: BeatSaberOneSaberExpert
+    _platformLeaderboardId: QuestBeatSaberOneSaberExpert
+  - _difficultyBeatmapId: BeatSaberNoArrowsEasy
+    _platformLeaderboardId: QuestBeatSaberNoArrowsEasy
+  - _difficultyBeatmapId: BeatSaberNoArrowsNormal
+    _platformLeaderboardId: QuestBeatSaberNoArrowsNormal
+  - _difficultyBeatmapId: BeatSaberNoArrowsHard
+    _platformLeaderboardId: QuestBeatSaberNoArrowsHard
+  - _difficultyBeatmapId: BeatSaberNoArrowsExpert
+    _platformLeaderboardId: QuestBeatSaberNoArrowsExpert
+  - _difficultyBeatmapId: BeatSaber360DegreeEasy
+    _platformLeaderboardId: QuestBeatSaber360DegreeEasy
+  - _difficultyBeatmapId: BeatSaber90DegreeEasy
+    _platformLeaderboardId: QuestBeatSaber90DegreeEasy
+  - _difficultyBeatmapId: BreezerEasy
+    _platformLeaderboardId: QuestBreezerEasy
+  - _difficultyBeatmapId: BreezerNormal
+    _platformLeaderboardId: QuestBreezerNormal
+  - _difficultyBeatmapId: BreezerHard
+    _platformLeaderboardId: QuestBreezerHard
+  - _difficultyBeatmapId: BreezerExpert
+    _platformLeaderboardId: QuestBreezerExpert
+  - _difficultyBeatmapId: BreezerExpertPlus
+    _platformLeaderboardId: QuestBreezerExpertPlus
+  - _difficultyBeatmapId: BreezerOneSaberExpert
+    _platformLeaderboardId: QuestBreezerOneSaberExpert
+  - _difficultyBeatmapId: BreezerNoArrowsEasy
+    _platformLeaderboardId: QuestBreezerNoArrowsEasy
+  - _difficultyBeatmapId: BreezerNoArrowsNormal
+    _platformLeaderboardId: QuestBreezerNoArrowsNormal
+  - _difficultyBeatmapId: BreezerNoArrowsHard
+    _platformLeaderboardId: QuestBreezerNoArrowsHard
+  - _difficultyBeatmapId: BreezerNoArrowsExpert
+    _platformLeaderboardId: QuestBreezerNoArrowsExpert
+  - _difficultyBeatmapId: Breezer360DegreeExpertPlus
+    _platformLeaderboardId: QuestBreezer360DegreeExpertPlus
+  - _difficultyBeatmapId: Breezer90DegreeExpertPlus
+    _platformLeaderboardId: QuestBreezer90DegreeExpertPlus
+  - _difficultyBeatmapId: CommercialPumpingEasy
+    _platformLeaderboardId: QuestCommercialPumpingEasy
+  - _difficultyBeatmapId: CommercialPumpingNormal
+    _platformLeaderboardId: QuestCommercialPumpingNormal
+  - _difficultyBeatmapId: CommercialPumpingHard
+    _platformLeaderboardId: QuestCommercialPumpingHard
+  - _difficultyBeatmapId: CommercialPumpingExpert
+    _platformLeaderboardId: QuestCommercialPumpingExpert
+  - _difficultyBeatmapId: CommercialPumpingExpertPlus
+    _platformLeaderboardId: QuestCommercialPumpingExpertPlus
+  - _difficultyBeatmapId: CommercialPumpingOneSaberExpert
+    _platformLeaderboardId: QuestCommercialPumpingOneSaberExpert
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsEasy
+    _platformLeaderboardId: QuestCommercialPumpingNoArrowsEasy
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsNormal
+    _platformLeaderboardId: QuestCommercialPumpingNoArrowsNormal
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsHard
+    _platformLeaderboardId: QuestCommercialPumpingNoArrowsHard
+  - _difficultyBeatmapId: CommercialPumpingNoArrowsExpert
+    _platformLeaderboardId: QuestCommercialPumpingNoArrowsExpert
+  - _difficultyBeatmapId: CommercialPumping360DegreeNormal
+    _platformLeaderboardId: QuestCommercialPumping360DegreeNormal
+  - _difficultyBeatmapId: CommercialPumping90DegreeNormal
+    _platformLeaderboardId: QuestCommercialPumping90DegreeNormal
+  - _difficultyBeatmapId: CountryRoundsEasy
+    _platformLeaderboardId: QuestCountryRoundsEasy
+  - _difficultyBeatmapId: CountryRoundsNormal
+    _platformLeaderboardId: QuestCountryRoundsNormal
+  - _difficultyBeatmapId: CountryRoundsHard
+    _platformLeaderboardId: QuestCountryRoundsHard
+  - _difficultyBeatmapId: CountryRoundsExpert
+    _platformLeaderboardId: QuestCountryRoundsExpert
+  - _difficultyBeatmapId: CountryRoundsExpertPlus
+    _platformLeaderboardId: QuestCountryRoundsExpertPlus
+  - _difficultyBeatmapId: CountryRoundsOneSaberExpert
+    _platformLeaderboardId: QuestCountryRoundsOneSaberExpert
+  - _difficultyBeatmapId: CountryRoundsNoArrowsEasy
+    _platformLeaderboardId: QuestCountryRoundsNoArrowsEasy
+  - _difficultyBeatmapId: CountryRoundsNoArrowsNormal
+    _platformLeaderboardId: QuestCountryRoundsNoArrowsNormal
+  - _difficultyBeatmapId: CountryRoundsNoArrowsHard
+    _platformLeaderboardId: QuestCountryRoundsNoArrowsHard
+  - _difficultyBeatmapId: CountryRoundsNoArrowsExpert
+    _platformLeaderboardId: QuestCountryRoundsNoArrowsExpert
+  - _difficultyBeatmapId: CountryRounds360DegreeExpert
+    _platformLeaderboardId: QuestCountryRounds360DegreeExpert
+  - _difficultyBeatmapId: CountryRounds90DegreeExpert
+    _platformLeaderboardId: QuestCountryRounds90DegreeExpert
+  - _difficultyBeatmapId: EscapeEasy
+    _platformLeaderboardId: QuestEscapeEasy
+  - _difficultyBeatmapId: EscapeNormal
+    _platformLeaderboardId: QuestEscapeNormal
+  - _difficultyBeatmapId: EscapeHard
+    _platformLeaderboardId: QuestEscapeHard
+  - _difficultyBeatmapId: EscapeExpert
+    _platformLeaderboardId: QuestEscapeExpert
+  - _difficultyBeatmapId: EscapeExpertPlus
+    _platformLeaderboardId: QuestEscapeExpertPlus
+  - _difficultyBeatmapId: EscapeOneSaberExpert
+    _platformLeaderboardId: QuestEscapeOneSaberExpert
+  - _difficultyBeatmapId: EscapeNoArrowsEasy
+    _platformLeaderboardId: QuestEscapeNoArrowsEasy
+  - _difficultyBeatmapId: EscapeNoArrowsNormal
+    _platformLeaderboardId: QuestEscapeNoArrowsNormal
+  - _difficultyBeatmapId: EscapeNoArrowsHard
+    _platformLeaderboardId: QuestEscapeNoArrowsHard
+  - _difficultyBeatmapId: EscapeNoArrowsExpert
+    _platformLeaderboardId: QuestEscapeNoArrowsExpert
+  - _difficultyBeatmapId: Escape360DegreeExpert
+    _platformLeaderboardId: QuestEscape360DegreeExpert
+  - _difficultyBeatmapId: Escape90DegreeExpert
+    _platformLeaderboardId: QuestEscape90DegreeExpert
+  - _difficultyBeatmapId: LegendEasy
+    _platformLeaderboardId: QuestLegendEasy
+  - _difficultyBeatmapId: LegendNormal
+    _platformLeaderboardId: QuestLegendNormal
+  - _difficultyBeatmapId: LegendHard
+    _platformLeaderboardId: QuestLegendHard
+  - _difficultyBeatmapId: LegendExpert
+    _platformLeaderboardId: QuestLegendExpert
+  - _difficultyBeatmapId: LegendExpertPlus
+    _platformLeaderboardId: QuestLegendExpertPlus
+  - _difficultyBeatmapId: LegendNoArrowsEasy
+    _platformLeaderboardId: QuestLegendNoArrowsEasy
+  - _difficultyBeatmapId: LegendNoArrowsNormal
+    _platformLeaderboardId: QuestLegendNoArrowsNormal
+  - _difficultyBeatmapId: LegendNoArrowsHard
+    _platformLeaderboardId: QuestLegendNoArrowsHard
+  - _difficultyBeatmapId: LegendNoArrowsExpert
+    _platformLeaderboardId: QuestLegendNoArrowsExpert
+  - _difficultyBeatmapId: LegendOneSaberExpert
+    _platformLeaderboardId: QuestLegendOneSaberExpert
+  - _difficultyBeatmapId: Legend360DegreeHard
+    _platformLeaderboardId: QuestLegend360DegreeHard
+  - _difficultyBeatmapId: Legend90DegreeHard
+    _platformLeaderboardId: QuestLegend90DegreeHard
+  - _difficultyBeatmapId: LvlInsaneEasy
+    _platformLeaderboardId: QuestLvlInsaneEasy
+  - _difficultyBeatmapId: LvlInsaneNormal
+    _platformLeaderboardId: QuestLvlInsaneNormal
+  - _difficultyBeatmapId: LvlInsaneHard
+    _platformLeaderboardId: QuestLvlInsaneHard
+  - _difficultyBeatmapId: LvlInsaneExpert
+    _platformLeaderboardId: QuestLvlInsaneExpert
+  - _difficultyBeatmapId: LvlInsaneExpertPlus
+    _platformLeaderboardId: QuestLvlInsaneExpertPlus
+  - _difficultyBeatmapId: LvlInsaneOneSaberExpert
+    _platformLeaderboardId: QuestLvlInsaneOneSaberExpert
+  - _difficultyBeatmapId: LvlInsaneNoArrowsEasy
+    _platformLeaderboardId: QuestLvlInsaneNoArrowsEasy
+  - _difficultyBeatmapId: LvlInsaneNoArrowsNormal
+    _platformLeaderboardId: QuestLvlInsaneNoArrowsNormal
+  - _difficultyBeatmapId: LvlInsaneNoArrowsHard
+    _platformLeaderboardId: QuestLvlInsaneNoArrowsHard
+  - _difficultyBeatmapId: LvlInsaneNoArrowsExpert
+    _platformLeaderboardId: QuestLvlInsaneNoArrowsExpert
+  - _difficultyBeatmapId: LvlInsane360DegreeExpert
+    _platformLeaderboardId: QuestLvlInsane360DegreeExpert
+  - _difficultyBeatmapId: LvlInsane90DegreeExpert
+    _platformLeaderboardId: QuestLvlInsane90DegreeExpert
+  - _difficultyBeatmapId: TurnMeOnEasy
+    _platformLeaderboardId: QuestTurnMeOnEasy
+  - _difficultyBeatmapId: TurnMeOnNormal
+    _platformLeaderboardId: QuestTurnMeOnNormal
+  - _difficultyBeatmapId: TurnMeOnHard
+    _platformLeaderboardId: QuestTurnMeOnHard
+  - _difficultyBeatmapId: TurnMeOnExpert
+    _platformLeaderboardId: QuestTurnMeOnExpert
+  - _difficultyBeatmapId: TurnMeOnExpertPlus
+    _platformLeaderboardId: QuestTurnMeOnExpertPlus
+  - _difficultyBeatmapId: TurnMeOnNoArrowsEasy
+    _platformLeaderboardId: QuestTurnMeOnNoArrowsEasy
+  - _difficultyBeatmapId: TurnMeOnNoArrowsNormal
+    _platformLeaderboardId: QuestTurnMeOnNoArrowsNormal
+  - _difficultyBeatmapId: TurnMeOnNoArrowsHard
+    _platformLeaderboardId: QuestTurnMeOnNoArrowsHard
+  - _difficultyBeatmapId: TurnMeOnNoArrowsExpert
+    _platformLeaderboardId: QuestTurnMeOnNoArrowsExpert
+  - _difficultyBeatmapId: TurnMeOnOneSaberExpert
+    _platformLeaderboardId: QuestTurnMeOnOneSaberExpert
+  - _difficultyBeatmapId: TurnMeOn360DegreeEasy
+    _platformLeaderboardId: QuestTurnMeOn360DegreeEasy
+  - _difficultyBeatmapId: TurnMeOn90DegreeEasy
+    _platformLeaderboardId: QuestTurnMeOn90DegreeEasy
+  - _difficultyBeatmapId: BeThereForYouEasy
+    _platformLeaderboardId: QuestBeThereForYouEasy
+  - _difficultyBeatmapId: BeThereForYouNormal
+    _platformLeaderboardId: QuestBeThereForYouNormal
+  - _difficultyBeatmapId: BeThereForYouHard
+    _platformLeaderboardId: QuestBeThereForYouHard
+  - _difficultyBeatmapId: BeThereForYouExpert
+    _platformLeaderboardId: QuestBeThereForYouExpert
+  - _difficultyBeatmapId: BeThereForYouExpertPlus
+    _platformLeaderboardId: QuestBeThereForYouExpertPlus
+  - _difficultyBeatmapId: BeThereForYouOneSaberExpert
+    _platformLeaderboardId: QuestBeThereForYouOneSaberExpert
+  - _difficultyBeatmapId: BeThereForYouNoArrowsEasy
+    _platformLeaderboardId: QuestBeThereForYouNoArrowsEasy
+  - _difficultyBeatmapId: BeThereForYouNoArrowsNormal
+    _platformLeaderboardId: QuestBeThereForYouNoArrowsNormal
+  - _difficultyBeatmapId: BeThereForYouNoArrowsHard
+    _platformLeaderboardId: QuestBeThereForYouNoArrowsHard
+  - _difficultyBeatmapId: BeThereForYouNoArrowsExpert
+    _platformLeaderboardId: QuestBeThereForYouNoArrowsExpert
+  - _difficultyBeatmapId: ElixiaEasy
+    _platformLeaderboardId: QuestElixiaEasy
+  - _difficultyBeatmapId: ElixiaNormal
+    _platformLeaderboardId: QuestElixiaNormal
+  - _difficultyBeatmapId: ElixiaHard
+    _platformLeaderboardId: QuestElixiaHard
+  - _difficultyBeatmapId: ElixiaExpert
+    _platformLeaderboardId: QuestElixiaExpert
+  - _difficultyBeatmapId: ElixiaExpertPlus
+    _platformLeaderboardId: QuestElixiaExpertPlus
+  - _difficultyBeatmapId: ElixiaOneSaberExpert
+    _platformLeaderboardId: QuestElixiaOneSaberExpert
+  - _difficultyBeatmapId: ElixiaNoArrowsEasy
+    _platformLeaderboardId: QuestElixiaNoArrowsEasy
+  - _difficultyBeatmapId: ElixiaNoArrowsNormal
+    _platformLeaderboardId: QuestElixiaNoArrowsNormal
+  - _difficultyBeatmapId: ElixiaNoArrowsHard
+    _platformLeaderboardId: QuestElixiaNoArrowsHard
+  - _difficultyBeatmapId: ElixiaNoArrowsExpert
+    _platformLeaderboardId: QuestElixiaNoArrowsExpert
+  - _difficultyBeatmapId: INeedYouEasy
+    _platformLeaderboardId: QuestINeedYouEasy
+  - _difficultyBeatmapId: INeedYouNormal
+    _platformLeaderboardId: QuestINeedYouNormal
+  - _difficultyBeatmapId: INeedYouHard
+    _platformLeaderboardId: QuestINeedYouHard
+  - _difficultyBeatmapId: INeedYouExpert
+    _platformLeaderboardId: QuestINeedYouExpert
+  - _difficultyBeatmapId: INeedYouExpertPlus
+    _platformLeaderboardId: QuestINeedYouExpertPlus
+  - _difficultyBeatmapId: INeedYouOneSaberExpert
+    _platformLeaderboardId: QuestINeedYouOneSaberExpert
+  - _difficultyBeatmapId: INeedYouNoArrowsEasy
+    _platformLeaderboardId: QuestINeedYouNoArrowsEasy
+  - _difficultyBeatmapId: INeedYouNoArrowsNormal
+    _platformLeaderboardId: QuestINeedYouNoArrowsNormal
+  - _difficultyBeatmapId: INeedYouNoArrowsHard
+    _platformLeaderboardId: QuestINeedYouNoArrowsHard
+  - _difficultyBeatmapId: INeedYouNoArrowsExpert
+    _platformLeaderboardId: QuestINeedYouNoArrowsExpert
+  - _difficultyBeatmapId: INeedYou360DegreeEasy
+    _platformLeaderboardId: QuestINeedYou360DegreeEasy
+  - _difficultyBeatmapId: INeedYou90DegreeEasy
+    _platformLeaderboardId: QuestINeedYou90DegreeEasy
+  - _difficultyBeatmapId: RumNBassEasy
+    _platformLeaderboardId: QuestRumNBassEasy
+  - _difficultyBeatmapId: RumNBassNormal
+    _platformLeaderboardId: QuestRumNBassNormal
+  - _difficultyBeatmapId: RumNBassHard
+    _platformLeaderboardId: QuestRumNBassHard
+  - _difficultyBeatmapId: RumNBassExpert
+    _platformLeaderboardId: QuestRumNBassExpert
+  - _difficultyBeatmapId: RumNBassExpertPlus
+    _platformLeaderboardId: QuestRumNBassExpertPlus
+  - _difficultyBeatmapId: RumNBassOneSaberExpert
+    _platformLeaderboardId: QuestRumNBassOneSaberExpert
+  - _difficultyBeatmapId: RumNBassNoArrowsEasy
+    _platformLeaderboardId: QuestRumNBassNoArrowsEasy
+  - _difficultyBeatmapId: RumNBassNoArrowsNormal
+    _platformLeaderboardId: QuestRumNBassNoArrowsNormal
+  - _difficultyBeatmapId: RumNBassNoArrowsHard
+    _platformLeaderboardId: QuestRumNBassNoArrowsHard
+  - _difficultyBeatmapId: RumNBassNoArrowsExpert
+    _platformLeaderboardId: QuestRumNBassNoArrowsExpert
+  - _difficultyBeatmapId: RumNBass360DegreeExpertPlus
+    _platformLeaderboardId: QuestRumNBass360DegreeExpertPlus
+  - _difficultyBeatmapId: RumNBass90DegreeExpertPlus
+    _platformLeaderboardId: QuestRumNBass90DegreeExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerEasy
+    _platformLeaderboardId: QuestUnlimitedPowerEasy
+  - _difficultyBeatmapId: UnlimitedPowerNormal
+    _platformLeaderboardId: QuestUnlimitedPowerNormal
+  - _difficultyBeatmapId: UnlimitedPowerHard
+    _platformLeaderboardId: QuestUnlimitedPowerHard
+  - _difficultyBeatmapId: UnlimitedPowerExpert
+    _platformLeaderboardId: QuestUnlimitedPowerExpert
+  - _difficultyBeatmapId: UnlimitedPowerExpertPlus
+    _platformLeaderboardId: QuestUnlimitedPowerExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberNormal
+    _platformLeaderboardId: QuestUnlimitedPowerOneSaberNormal
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberExpert
+    _platformLeaderboardId: QuestUnlimitedPowerOneSaberExpert
+  - _difficultyBeatmapId: UnlimitedPowerOneSaberExpertPlus
+    _platformLeaderboardId: QuestUnlimitedPowerOneSaberExpertPlus
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsEasy
+    _platformLeaderboardId: QuestUnlimitedPowerNoArrowsEasy
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsNormal
+    _platformLeaderboardId: QuestUnlimitedPowerNoArrowsNormal
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsHard
+    _platformLeaderboardId: QuestUnlimitedPowerNoArrowsHard
+  - _difficultyBeatmapId: UnlimitedPowerNoArrowsExpert
+    _platformLeaderboardId: QuestUnlimitedPowerNoArrowsExpert
+  - _difficultyBeatmapId: UnlimitedPower360DegreeExpert
+    _platformLeaderboardId: QuestUnlimitedPower360DegreeExpert
+  - _difficultyBeatmapId: UnlimitedPower90DegreeExpert
+    _platformLeaderboardId: QuestUnlimitedPower90DegreeExpert
+  - _difficultyBeatmapId: OriginsEasy
+    _platformLeaderboardId: QuestOriginsEasy
+  - _difficultyBeatmapId: OriginsNormal
+    _platformLeaderboardId: QuestOriginsNormal
+  - _difficultyBeatmapId: OriginsHard
+    _platformLeaderboardId: QuestOriginsHard
+  - _difficultyBeatmapId: OriginsExpert
+    _platformLeaderboardId: QuestOriginsExpert
+  - _difficultyBeatmapId: OriginsExpertPlus
+    _platformLeaderboardId: QuestOriginsExpertPlus
+  - _difficultyBeatmapId: OriginsOneSaberNormal
+    _platformLeaderboardId: QuestOriginsOneSaberNormal
+  - _difficultyBeatmapId: OriginsOneSaberExpert
+    _platformLeaderboardId: QuestOriginsOneSaberExpert
+  - _difficultyBeatmapId: OriginsOneSaberExpertPlus
+    _platformLeaderboardId: QuestOriginsOneSaberExpertPlus
+  - _difficultyBeatmapId: Origins360DegreeNormal
+    _platformLeaderboardId: QuestOrigins360DegreeNormal
+  - _difficultyBeatmapId: Origins360DegreeExpert
+    _platformLeaderboardId: QuestOrigins360DegreeExpert
+  - _difficultyBeatmapId: Origins360DegreeExpertPlus
+    _platformLeaderboardId: QuestOrigins360DegreeExpertPlus
+  - _difficultyBeatmapId: Origins90DegreeNormal
+    _platformLeaderboardId: QuestOrigins90DegreeNormal
+  - _difficultyBeatmapId: Origins90DegreeExpert
+    _platformLeaderboardId: QuestOrigins90DegreeExpert
+  - _difficultyBeatmapId: Origins90DegreeExpertPlus
+    _platformLeaderboardId: QuestOrigins90DegreeExpertPlus
+  - _difficultyBeatmapId: ReasonForLivingEasy
+    _platformLeaderboardId: QuestReasonForLivingEasy
+  - _difficultyBeatmapId: ReasonForLivingNormal
+    _platformLeaderboardId: QuestReasonForLivingNormal
+  - _difficultyBeatmapId: ReasonForLivingHard
+    _platformLeaderboardId: QuestReasonForLivingHard
+  - _difficultyBeatmapId: ReasonForLivingExpert
+    _platformLeaderboardId: QuestReasonForLivingExpert
+  - _difficultyBeatmapId: ReasonForLivingExpertPlus
+    _platformLeaderboardId: QuestReasonForLivingExpertPlus
+  - _difficultyBeatmapId: ReasonForLivingOneSaberNormal
+    _platformLeaderboardId: QuestReasonForLivingOneSaberNormal
+  - _difficultyBeatmapId: ReasonForLivingOneSaberExpert
+    _platformLeaderboardId: QuestReasonForLivingOneSaberExpert
+  - _difficultyBeatmapId: ReasonForLivingOneSaberExpertPlus
+    _platformLeaderboardId: QuestReasonForLivingOneSaberExpertPlus
+  - _difficultyBeatmapId: ReasonForLiving360DegreeExpertPlus
+    _platformLeaderboardId: QuestReasonForLiving360DegreeExpertPlus
+  - _difficultyBeatmapId: ReasonForLiving90DegreeExpertPlus
+    _platformLeaderboardId: QuestReasonForLiving90DegreeExpertPlus
+  - _difficultyBeatmapId: GiveALittleLoveEasy
+    _platformLeaderboardId: QuestGiveALittleLoveEasy
+  - _difficultyBeatmapId: GiveALittleLoveNormal
+    _platformLeaderboardId: QuestGiveALittleLoveNormal
+  - _difficultyBeatmapId: GiveALittleLoveHard
+    _platformLeaderboardId: QuestGiveALittleLoveHard
+  - _difficultyBeatmapId: GiveALittleLoveExpert
+    _platformLeaderboardId: QuestGiveALittleLoveExpert
+  - _difficultyBeatmapId: GiveALittleLoveExpertPlus
+    _platformLeaderboardId: QuestGiveALittleLoveExpertPlus
+  - _difficultyBeatmapId: FullChargeEasy
+    _platformLeaderboardId: QuestFullChargeEasy
+  - _difficultyBeatmapId: FullChargeNormal
+    _platformLeaderboardId: QuestFullChargeNormal
+  - _difficultyBeatmapId: FullChargeHard
+    _platformLeaderboardId: QuestFullChargeHard
+  - _difficultyBeatmapId: FullChargeExpert
+    _platformLeaderboardId: QuestFullChargeExpert
+  - _difficultyBeatmapId: FullChargeExpertPlus
+    _platformLeaderboardId: QuestFullChargeExpertPlus
+  - _difficultyBeatmapId: ImmortalEasy
+    _platformLeaderboardId: QuestImmortalEasy
+  - _difficultyBeatmapId: ImmortalNormal
+    _platformLeaderboardId: QuestImmortalNormal
+  - _difficultyBeatmapId: ImmortalHard
+    _platformLeaderboardId: QuestImmortalHard
+  - _difficultyBeatmapId: ImmortalExpert
+    _platformLeaderboardId: QuestImmortalExpert
+  - _difficultyBeatmapId: ImmortalExpertPlus
+    _platformLeaderboardId: QuestImmortalExpertPlus
+  - _difficultyBeatmapId: Immortal360DegreeNormal
+    _platformLeaderboardId: QuestImmortal360DegreeNormal
+  - _difficultyBeatmapId: Immortal90DegreeNormal
+    _platformLeaderboardId: QuestImmortal90DegreeNormal
+  - _difficultyBeatmapId: BurningSandsEasy
+    _platformLeaderboardId: QuestBurningSandsEasy
+  - _difficultyBeatmapId: BurningSandsNormal
+    _platformLeaderboardId: QuestBurningSandsNormal
+  - _difficultyBeatmapId: BurningSandsHard
+    _platformLeaderboardId: QuestBurningSandsHard
+  - _difficultyBeatmapId: BurningSandsExpert
+    _platformLeaderboardId: QuestBurningSandsExpert
+  - _difficultyBeatmapId: BurningSandsExpertPlus
+    _platformLeaderboardId: QuestBurningSandsExpertPlus
+  - _difficultyBeatmapId: IntoTheDreamEasy
+    _platformLeaderboardId: QuestIntoTheDreamEasy
+  - _difficultyBeatmapId: IntoTheDreamNormal
+    _platformLeaderboardId: QuestIntoTheDreamNormal
+  - _difficultyBeatmapId: IntoTheDreamHard
+    _platformLeaderboardId: QuestIntoTheDreamHard
+  - _difficultyBeatmapId: IntoTheDreamExpert
+    _platformLeaderboardId: QuestIntoTheDreamExpert
+  - _difficultyBeatmapId: IntoTheDreamExpertPlus
+    _platformLeaderboardId: QuestIntoTheDreamExpertPlus
+  - _difficultyBeatmapId: IntoTheDreamOneSaberNormal
+    _platformLeaderboardId: QuestIntoTheDreamOneSaberNormal
+  - _difficultyBeatmapId: IntoTheDreamOneSaberExpert
+    _platformLeaderboardId: QuestIntoTheDreamOneSaberExpert
+  - _difficultyBeatmapId: IntoTheDreamOneSaberExpertPlus
+    _platformLeaderboardId: QuestIntoTheDreamOneSaberExpertPlus
+  - _difficultyBeatmapId: ItTakesMeEasy
+    _platformLeaderboardId: QuestItTakesMeEasy
+  - _difficultyBeatmapId: ItTakesMeNormal
+    _platformLeaderboardId: QuestItTakesMeNormal
+  - _difficultyBeatmapId: ItTakesMeHard
+    _platformLeaderboardId: QuestItTakesMeHard
+  - _difficultyBeatmapId: ItTakesMeExpert
+    _platformLeaderboardId: QuestItTakesMeExpert
+  - _difficultyBeatmapId: ItTakesMeExpertPlus
+    _platformLeaderboardId: QuestItTakesMeExpertPlus
+  - _difficultyBeatmapId: LudicrousPlusEasy
+    _platformLeaderboardId: QuestLudicrousPlusEasy
+  - _difficultyBeatmapId: LudicrousPlusNormal
+    _platformLeaderboardId: QuestLudicrousPlusNormal
+  - _difficultyBeatmapId: LudicrousPlusHard
+    _platformLeaderboardId: QuestLudicrousPlusHard
+  - _difficultyBeatmapId: LudicrousPlusExpert
+    _platformLeaderboardId: QuestLudicrousPlusExpert
+  - _difficultyBeatmapId: LudicrousPlusExpertPlus
+    _platformLeaderboardId: QuestLudicrousPlusExpertPlus
+  - _difficultyBeatmapId: LudicrousPlusOneSaberNormal
+    _platformLeaderboardId: QuestLudicrousPlusOneSaberNormal
+  - _difficultyBeatmapId: LudicrousPlusOneSaberExpert
+    _platformLeaderboardId: QuestLudicrousPlusOneSaberExpert
+  - _difficultyBeatmapId: LudicrousPlusOneSaberExpertPlus
+    _platformLeaderboardId: QuestLudicrousPlusOneSaberExpertPlus
+  - _difficultyBeatmapId: SpinEternallyEasy
+    _platformLeaderboardId: QuestSpinEternallyEasy
+  - _difficultyBeatmapId: SpinEternallyNormal
+    _platformLeaderboardId: QuestSpinEternallyNormal
+  - _difficultyBeatmapId: SpinEternallyHard
+    _platformLeaderboardId: QuestSpinEternallyHard
+  - _difficultyBeatmapId: SpinEternallyExpert
+    _platformLeaderboardId: QuestSpinEternallyExpert
+  - _difficultyBeatmapId: SpinEternallyExpertPlus
+    _platformLeaderboardId: QuestSpinEternallyExpertPlus
+  - _difficultyBeatmapId: DollarSeventyEightEasy
+    _platformLeaderboardId: QuestDollarSeventyEightEasy
+  - _difficultyBeatmapId: DollarSeventyEightNormal
+    _platformLeaderboardId: QuestDollarSeventyEightNormal
+  - _difficultyBeatmapId: DollarSeventyEightHard
+    _platformLeaderboardId: QuestDollarSeventyEightHard
+  - _difficultyBeatmapId: DollarSeventyEightExpert
+    _platformLeaderboardId: QuestDollarSeventyEightExpert
+  - _difficultyBeatmapId: DollarSeventyEightExpertPlus
+    _platformLeaderboardId: QuestDollarSeventyEightExpertPlus
+  - _difficultyBeatmapId: CurtainsAllNightLongEasy
+    _platformLeaderboardId: QuestCurtainsAllNightLongEasy
+  - _difficultyBeatmapId: CurtainsAllNightLongNormal
+    _platformLeaderboardId: QuestCurtainsAllNightLongNormal
+  - _difficultyBeatmapId: CurtainsAllNightLongHard
+    _platformLeaderboardId: QuestCurtainsAllNightLongHard
+  - _difficultyBeatmapId: CurtainsAllNightLongExpert
+    _platformLeaderboardId: QuestCurtainsAllNightLongExpert
+  - _difficultyBeatmapId: CurtainsAllNightLongExpertPlus
+    _platformLeaderboardId: QuestCurtainsAllNightLongExpertPlus
+  - _difficultyBeatmapId: FinalBossChanEasy
+    _platformLeaderboardId: QuestFinalBossChanEasy
+  - _difficultyBeatmapId: FinalBossChanNormal
+    _platformLeaderboardId: QuestFinalBossChanNormal
+  - _difficultyBeatmapId: FinalBossChanHard
+    _platformLeaderboardId: QuestFinalBossChanHard
+  - _difficultyBeatmapId: FinalBossChanExpert
+    _platformLeaderboardId: QuestFinalBossChanExpert
+  - _difficultyBeatmapId: FinalBossChanExpertPlus
+    _platformLeaderboardId: QuestFinalBossChanExpertPlus
+  - _difficultyBeatmapId: FirestarterEasy
+    _platformLeaderboardId: QuestFirestarterEasy
+  - _difficultyBeatmapId: FirestarterNormal
+    _platformLeaderboardId: QuestFirestarterNormal
+  - _difficultyBeatmapId: FirestarterHard
+    _platformLeaderboardId: QuestFirestarterHard
+  - _difficultyBeatmapId: FirestarterExpert
+    _platformLeaderboardId: QuestFirestarterExpert
+  - _difficultyBeatmapId: FirestarterExpertPlus
+    _platformLeaderboardId: QuestFirestarterExpertPlus
+  - _difficultyBeatmapId: FirestarterOneSaberNormal
+    _platformLeaderboardId: QuestFirestarterOneSaberNormal
+  - _difficultyBeatmapId: FirestarterOneSaberExpert
+    _platformLeaderboardId: QuestFirestarterOneSaberExpert
+  - _difficultyBeatmapId: FirestarterOneSaberExpertPlus
+    _platformLeaderboardId: QuestFirestarterOneSaberExpertPlus
+  - _difficultyBeatmapId: IWannaBeAMachineEasy
+    _platformLeaderboardId: QuestIWannaBeAMachineEasy
+  - _difficultyBeatmapId: IWannaBeAMachineNormal
+    _platformLeaderboardId: QuestIWannaBeAMachineNormal
+  - _difficultyBeatmapId: IWannaBeAMachineHard
+    _platformLeaderboardId: QuestIWannaBeAMachineHard
+  - _difficultyBeatmapId: IWannaBeAMachineExpert
+    _platformLeaderboardId: QuestIWannaBeAMachineExpert
+  - _difficultyBeatmapId: IWannaBeAMachineExpertPlus
+    _platformLeaderboardId: QuestIWannaBeAMachineExpertPlus
+  - _difficultyBeatmapId: MagicEasy
+    _platformLeaderboardId: QuestMagicEasy
+  - _difficultyBeatmapId: MagicNormal
+    _platformLeaderboardId: QuestMagicNormal
+  - _difficultyBeatmapId: MagicHard
+    _platformLeaderboardId: QuestMagicHard
+  - _difficultyBeatmapId: MagicExpert
+    _platformLeaderboardId: QuestMagicExpert
+  - _difficultyBeatmapId: MagicExpertPlus
+    _platformLeaderboardId: QuestMagicExpertPlus
+  - _difficultyBeatmapId: MagicOneSaberNormal
+    _platformLeaderboardId: QuestMagicOneSaberNormal
+  - _difficultyBeatmapId: MagicOneSaberExpert
+    _platformLeaderboardId: QuestMagicOneSaberExpert
+  - _difficultyBeatmapId: MagicOneSaberExpertPlus
+    _platformLeaderboardId: QuestMagicOneSaberExpertPlus
+  - _difficultyBeatmapId: 100BillsRemixEasy
+    _platformLeaderboardId: Quest100BillsRemixEasy
+  - _difficultyBeatmapId: 100BillsRemixNormal
+    _platformLeaderboardId: Quest100BillsRemixNormal
+  - _difficultyBeatmapId: 100BillsRemixHard
+    _platformLeaderboardId: Quest100BillsRemixHard
+  - _difficultyBeatmapId: 100BillsRemixExpert
+    _platformLeaderboardId: Quest100BillsRemixExpert
+  - _difficultyBeatmapId: 100BillsRemixExpertPlus
+    _platformLeaderboardId: Quest100BillsRemixExpertPlus
+  - _difficultyBeatmapId: EscapeRemixEasy
+    _platformLeaderboardId: QuestEscapeRemixEasy
+  - _difficultyBeatmapId: EscapeRemixNormal
+    _platformLeaderboardId: QuestEscapeRemixNormal
+  - _difficultyBeatmapId: EscapeRemixHard
+    _platformLeaderboardId: QuestEscapeRemixHard
+  - _difficultyBeatmapId: EscapeRemixExpert
+    _platformLeaderboardId: QuestEscapeRemixExpert
+  - _difficultyBeatmapId: EscapeRemixExpertPlus
+    _platformLeaderboardId: QuestEscapeRemixExpertPlus
+  - _difficultyBeatmapId: SpookyBeatEasy
+    _platformLeaderboardId: QuestSpookyBeatEasy
+  - _difficultyBeatmapId: SpookyBeatNormal
+    _platformLeaderboardId: QuestSpookyBeatNormal
+  - _difficultyBeatmapId: SpookyBeatHard
+    _platformLeaderboardId: QuestSpookyBeatHard
+  - _difficultyBeatmapId: SpookyBeatExpert
+    _platformLeaderboardId: QuestSpookyBeatExpert
+  - _difficultyBeatmapId: SpookyBeatExpertPlus
+    _platformLeaderboardId: QuestSpookyBeatExpertPlus
+  - _difficultyBeatmapId: FitBeatEasy
+    _platformLeaderboardId: QuestFitBeatEasy
+  - _difficultyBeatmapId: FitBeatNormal
+    _platformLeaderboardId: QuestFitBeatNormal
+  - _difficultyBeatmapId: FitBeatHard
+    _platformLeaderboardId: QuestFitBeatHard
+  - _difficultyBeatmapId: FitBeatExpert
+    _platformLeaderboardId: QuestFitBeatExpert
+  - _difficultyBeatmapId: FitBeatExpertPlus
+    _platformLeaderboardId: QuestFitBeatExpertPlus
+  - _difficultyBeatmapId: FitBeatOneSaberExpert
+    _platformLeaderboardId: QuestFitBeatOneSaberExpert
+  - _difficultyBeatmapId: FitBeat360DegreeNormal
+    _platformLeaderboardId: QuestFitBeat360DegreeNormal
+  - _difficultyBeatmapId: FitBeat360DegreeHard
+    _platformLeaderboardId: QuestFitBeat360DegreeHard
+  - _difficultyBeatmapId: FitBeat360DegreeExpert
+    _platformLeaderboardId: QuestFitBeat360DegreeExpert
+  - _difficultyBeatmapId: FitBeat90DegreeNormal
+    _platformLeaderboardId: QuestFitBeat90DegreeNormal
+  - _difficultyBeatmapId: FitBeat90DegreeHard
+    _platformLeaderboardId: QuestFitBeat90DegreeHard
+  - _difficultyBeatmapId: FitBeat90DegreeExpert
+    _platformLeaderboardId: QuestFitBeat90DegreeExpert
+  - _difficultyBeatmapId: CrabRaveEasy
+    _platformLeaderboardId: QuestCrabRaveEasy
+  - _difficultyBeatmapId: CrabRaveNormal
+    _platformLeaderboardId: QuestCrabRaveNormal
+  - _difficultyBeatmapId: CrabRaveHard
+    _platformLeaderboardId: QuestCrabRaveHard
+  - _difficultyBeatmapId: CrabRaveExpert
+    _platformLeaderboardId: QuestCrabRaveExpert
+  - _difficultyBeatmapId: CrabRaveExpertPlus
+    _platformLeaderboardId: QuestCrabRaveExpertPlus
+  - _difficultyBeatmapId: CrabRaveOneSaberExpert
+    _platformLeaderboardId: QuestCrabRaveOneSaberExpert
+  - _difficultyBeatmapId: CrabRave360DegreeHard
+    _platformLeaderboardId: QuestCrabRave360DegreeHard
+  - _difficultyBeatmapId: CrabRave90DegreeHard
+    _platformLeaderboardId: QuestCrabRave90DegreeHard
+  - _difficultyBeatmapId: PopStarsEasy
+    _platformLeaderboardId: QuestPopStarsEasy
+  - _difficultyBeatmapId: PopStarsNormal
+    _platformLeaderboardId: QuestPopStarsNormal
+  - _difficultyBeatmapId: PopStarsHard
+    _platformLeaderboardId: QuestPopStarsHard
+  - _difficultyBeatmapId: PopStarsExpert
+    _platformLeaderboardId: QuestPopStarsExpert
+  - _difficultyBeatmapId: PopStarsExpertPlus
+    _platformLeaderboardId: QuestPopStarsExpertPlus
+  - _difficultyBeatmapId: PopStarsOneSaberExpert
+    _platformLeaderboardId: QuestPopStarsOneSaberExpert
+  - _difficultyBeatmapId: PopStars360DegreeExpertPlus
+    _platformLeaderboardId: QuestPopStars360DegreeExpertPlus
+  - _difficultyBeatmapId: PopStars90DegreeExpertPlus
+    _platformLeaderboardId: QuestPopStars90DegreeExpertPlus
+  - _difficultyBeatmapId: OneHopeEasy
+    _platformLeaderboardId: QuestOneHopeEasy
+  - _difficultyBeatmapId: OneHopeNormal
+    _platformLeaderboardId: QuestOneHopeNormal
+  - _difficultyBeatmapId: OneHopeHard
+    _platformLeaderboardId: QuestOneHopeHard
+  - _difficultyBeatmapId: OneHopeExpert
+    _platformLeaderboardId: QuestOneHopeExpert
+  - _difficultyBeatmapId: OneHopeExpertPlus
+    _platformLeaderboardId: QuestOneHopeExpertPlus
+  - _difficultyBeatmapId: OneHopeOneSaberExpert
+    _platformLeaderboardId: QuestOneHopeOneSaberExpert
+  - _difficultyBeatmapId: AngelVoicesEasy
+    _platformLeaderboardId: QuestAngelVoicesEasy
+  - _difficultyBeatmapId: AngelVoicesNormal
+    _platformLeaderboardId: QuestAngelVoicesNormal
+  - _difficultyBeatmapId: AngelVoicesHard
+    _platformLeaderboardId: QuestAngelVoicesHard
+  - _difficultyBeatmapId: AngelVoicesExpert
+    _platformLeaderboardId: QuestAngelVoicesExpert
+  - _difficultyBeatmapId: AngelVoicesExpertPlus
+    _platformLeaderboardId: QuestAngelVoicesExpertPlus
+  - _difficultyBeatmapId: AngelVoicesNoArrowsEasy
+    _platformLeaderboardId: QuestAngelVoicesNoArrowsEasy
+  - _difficultyBeatmapId: AngelVoicesNoArrowsNormal
+    _platformLeaderboardId: QuestAngelVoicesNoArrowsNormal
+  - _difficultyBeatmapId: AngelVoicesNoArrowsHard
+    _platformLeaderboardId: QuestAngelVoicesNoArrowsHard
+  - _difficultyBeatmapId: AngelVoicesNoArrowsExpert
+    _platformLeaderboardId: QuestAngelVoicesNoArrowsExpert
+  - _difficultyBeatmapId: AngelVoicesOneSaberExpert
+    _platformLeaderboardId: QuestAngelVoicesOneSaberExpert
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereEasy
+    _platformLeaderboardId: QuestExitThisEarthsAtomosphereEasy
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereNormal
+    _platformLeaderboardId: QuestExitThisEarthsAtomosphereNormal
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereHard
+    _platformLeaderboardId: QuestExitThisEarthsAtomosphereHard
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereExpert
+    _platformLeaderboardId: QuestExitThisEarthsAtomosphereExpert
+  - _difficultyBeatmapId: ExitThisEarthsAtomosphereExpertPlus
+    _platformLeaderboardId: QuestExitThisEarthsAtomosphereExpertPlus
+  - _difficultyBeatmapId: GhostEasy
+    _platformLeaderboardId: QuestGhostEasy
+  - _difficultyBeatmapId: GhostNormal
+    _platformLeaderboardId: QuestGhostNormal
+  - _difficultyBeatmapId: GhostHard
+    _platformLeaderboardId: QuestGhostHard
+  - _difficultyBeatmapId: GhostExpert
+    _platformLeaderboardId: QuestGhostExpert
+  - _difficultyBeatmapId: GhostExpertPlus
+    _platformLeaderboardId: QuestGhostExpertPlus
+  - _difficultyBeatmapId: GhostOneSaberNormal
+    _platformLeaderboardId: QuestGhostOneSaberNormal
+  - _difficultyBeatmapId: GhostOneSaberExpert
+    _platformLeaderboardId: QuestGhostOneSaberExpert
+  - _difficultyBeatmapId: GhostOneSaberExpertPlus
+    _platformLeaderboardId: QuestGhostOneSaberExpertPlus
+  - _difficultyBeatmapId: LightItUpEasy
+    _platformLeaderboardId: QuestLightItUpEasy
+  - _difficultyBeatmapId: LightItUpNormal
+    _platformLeaderboardId: QuestLightItUpNormal
+  - _difficultyBeatmapId: LightItUpHard
+    _platformLeaderboardId: QuestLightItUpHard
+  - _difficultyBeatmapId: LightItUpExpert
+    _platformLeaderboardId: QuestLightItUpExpert
+  - _difficultyBeatmapId: LightItUpExpertPlus
+    _platformLeaderboardId: QuestLightItUpExpertPlus
+  - _difficultyBeatmapId: CrystallizedEasy
+    _platformLeaderboardId: QuestCrystallizedEasy
+  - _difficultyBeatmapId: CrystallizedNormal
+    _platformLeaderboardId: QuestCrystallizedNormal
+  - _difficultyBeatmapId: CrystallizedHard
+    _platformLeaderboardId: QuestCrystallizedHard
+  - _difficultyBeatmapId: CrystallizedExpert
+    _platformLeaderboardId: QuestCrystallizedExpert
+  - _difficultyBeatmapId: CrystallizedExpertPlus
+    _platformLeaderboardId: QuestCrystallizedExpertPlus
+  - _difficultyBeatmapId: CycleHitEasy
+    _platformLeaderboardId: QuestCycleHitEasy
+  - _difficultyBeatmapId: CycleHitNormal
+    _platformLeaderboardId: QuestCycleHitNormal
+  - _difficultyBeatmapId: CycleHitHard
+    _platformLeaderboardId: QuestCycleHitHard
+  - _difficultyBeatmapId: CycleHitExpert
+    _platformLeaderboardId: QuestCycleHitExpert
+  - _difficultyBeatmapId: CycleHitExpertPlus
+    _platformLeaderboardId: QuestCycleHitExpertPlus
+  - _difficultyBeatmapId: CycleHitOneSaberNormal
+    _platformLeaderboardId: QuestCycleHitOneSaberNormal
+  - _difficultyBeatmapId: CycleHitOneSaberExpert
+    _platformLeaderboardId: QuestCycleHitOneSaberExpert
+  - _difficultyBeatmapId: CycleHitOneSaberExpertPlus
+    _platformLeaderboardId: QuestCycleHitOneSaberExpertPlus
+  - _difficultyBeatmapId: WhatTheCatEasy
+    _platformLeaderboardId: QuestWhatTheCatEasy
+  - _difficultyBeatmapId: WhatTheCatNormal
+    _platformLeaderboardId: QuestWhatTheCatNormal
+  - _difficultyBeatmapId: WhatTheCatHard
+    _platformLeaderboardId: QuestWhatTheCatHard
+  - _difficultyBeatmapId: WhatTheCatExpert
+    _platformLeaderboardId: QuestWhatTheCatExpert
+  - _difficultyBeatmapId: WhatTheCatExpertPlus
+    _platformLeaderboardId: QuestWhatTheCatExpertPlus
+  - _difficultyBeatmapId: 2BeLovedEasy
+    _platformLeaderboardId: Quest2BeLovedEasy
+  - _difficultyBeatmapId: 2BeLovedNormal
+    _platformLeaderboardId: Quest2BeLovedNormal
+  - _difficultyBeatmapId: 2BeLovedHard
+    _platformLeaderboardId: Quest2BeLovedHard
+  - _difficultyBeatmapId: 2BeLovedExpert
+    _platformLeaderboardId: Quest2BeLovedExpert
+  - _difficultyBeatmapId: 2BeLovedExpertPlus
+    _platformLeaderboardId: Quest2BeLovedExpertPlus
+  - _difficultyBeatmapId: 2BeLovedOneSaberNormal
+    _platformLeaderboardId: Quest2BeLovedOneSaberNormal
+  - _difficultyBeatmapId: 2BeLovedOneSaberExpert
+    _platformLeaderboardId: Quest2BeLovedOneSaberExpert
+  - _difficultyBeatmapId: 2BeLovedOneSaberExpertPlus
+    _platformLeaderboardId: Quest2BeLovedOneSaberExpertPlus
+  - _difficultyBeatmapId: AboutDamnTimeEasy
+    _platformLeaderboardId: QuestAboutDamnTimeEasy
+  - _difficultyBeatmapId: AboutDamnTimeNormal
+    _platformLeaderboardId: QuestAboutDamnTimeNormal
+  - _difficultyBeatmapId: AboutDamnTimeHard
+    _platformLeaderboardId: QuestAboutDamnTimeHard
+  - _difficultyBeatmapId: AboutDamnTimeExpert
+    _platformLeaderboardId: QuestAboutDamnTimeExpert
+  - _difficultyBeatmapId: AboutDamnTimeExpertPlus
+    _platformLeaderboardId: QuestAboutDamnTimeExpertPlus
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberNormal
+    _platformLeaderboardId: QuestAboutDamnTimeOneSaberNormal
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberExpert
+    _platformLeaderboardId: QuestAboutDamnTimeOneSaberExpert
+  - _difficultyBeatmapId: AboutDamnTimeOneSaberExpertPlus
+    _platformLeaderboardId: QuestAboutDamnTimeOneSaberExpertPlus
+  - _difficultyBeatmapId: CuzILoveYouEasy
+    _platformLeaderboardId: QuestCuzILoveYouEasy
+  - _difficultyBeatmapId: CuzILoveYouNormal
+    _platformLeaderboardId: QuestCuzILoveYouNormal
+  - _difficultyBeatmapId: CuzILoveYouHard
+    _platformLeaderboardId: QuestCuzILoveYouHard
+  - _difficultyBeatmapId: CuzILoveYouExpert
+    _platformLeaderboardId: QuestCuzILoveYouExpert
+  - _difficultyBeatmapId: CuzILoveYouExpertPlus
+    _platformLeaderboardId: QuestCuzILoveYouExpertPlus
+  - _difficultyBeatmapId: EverybodysGayEasy
+    _platformLeaderboardId: QuestEverybodysGayEasy
+  - _difficultyBeatmapId: EverybodysGayNormal
+    _platformLeaderboardId: QuestEverybodysGayNormal
+  - _difficultyBeatmapId: EverybodysGayHard
+    _platformLeaderboardId: QuestEverybodysGayHard
+  - _difficultyBeatmapId: EverybodysGayExpert
+    _platformLeaderboardId: QuestEverybodysGayExpert
+  - _difficultyBeatmapId: EverybodysGayExpertPlus
+    _platformLeaderboardId: QuestEverybodysGayExpertPlus
+  - _difficultyBeatmapId: GoodAsHellEasy
+    _platformLeaderboardId: QuestGoodAsHellEasy
+  - _difficultyBeatmapId: GoodAsHellNormal
+    _platformLeaderboardId: QuestGoodAsHellNormal
+  - _difficultyBeatmapId: GoodAsHellHard
+    _platformLeaderboardId: QuestGoodAsHellHard
+  - _difficultyBeatmapId: GoodAsHellExpert
+    _platformLeaderboardId: QuestGoodAsHellExpert
+  - _difficultyBeatmapId: GoodAsHellExpertPlus
+    _platformLeaderboardId: QuestGoodAsHellExpertPlus
+  - _difficultyBeatmapId: JuiceEasy
+    _platformLeaderboardId: QuestJuiceEasy
+  - _difficultyBeatmapId: JuiceNormal
+    _platformLeaderboardId: QuestJuiceNormal
+  - _difficultyBeatmapId: JuiceHard
+    _platformLeaderboardId: QuestJuiceHard
+  - _difficultyBeatmapId: JuiceExpert
+    _platformLeaderboardId: QuestJuiceExpert
+  - _difficultyBeatmapId: JuiceExpertPlus
+    _platformLeaderboardId: QuestJuiceExpertPlus
+  - _difficultyBeatmapId: TempoEasy
+    _platformLeaderboardId: QuestTempoEasy
+  - _difficultyBeatmapId: TempoNormal
+    _platformLeaderboardId: QuestTempoNormal
+  - _difficultyBeatmapId: TempoHard
+    _platformLeaderboardId: QuestTempoHard
+  - _difficultyBeatmapId: TempoExpert
+    _platformLeaderboardId: QuestTempoExpert
+  - _difficultyBeatmapId: TempoExpertPlus
+    _platformLeaderboardId: QuestTempoExpertPlus
+  - _difficultyBeatmapId: TruthHurtsEasy
+    _platformLeaderboardId: QuestTruthHurtsEasy
+  - _difficultyBeatmapId: TruthHurtsNormal
+    _platformLeaderboardId: QuestTruthHurtsNormal
+  - _difficultyBeatmapId: TruthHurtsHard
+    _platformLeaderboardId: QuestTruthHurtsHard
+  - _difficultyBeatmapId: TruthHurtsExpert
+    _platformLeaderboardId: QuestTruthHurtsExpert
+  - _difficultyBeatmapId: TruthHurtsExpertPlus
+    _platformLeaderboardId: QuestTruthHurtsExpertPlus
+  - _difficultyBeatmapId: WorshipEasy
+    _platformLeaderboardId: QuestWorshipEasy
+  - _difficultyBeatmapId: WorshipNormal
+    _platformLeaderboardId: QuestWorshipNormal
+  - _difficultyBeatmapId: WorshipHard
+    _platformLeaderboardId: QuestWorshipHard
+  - _difficultyBeatmapId: WorshipExpert
+    _platformLeaderboardId: QuestWorshipExpert
+  - _difficultyBeatmapId: WorshipExpertPlus
+    _platformLeaderboardId: QuestWorshipExpertPlus
+  - _difficultyBeatmapId: AloneEasy
+    _platformLeaderboardId: QuestAloneEasy
+  - _difficultyBeatmapId: AloneNormal
+    _platformLeaderboardId: QuestAloneNormal
+  - _difficultyBeatmapId: AloneHard
+    _platformLeaderboardId: QuestAloneHard
+  - _difficultyBeatmapId: AloneExpert
+    _platformLeaderboardId: QuestAloneExpert
+  - _difficultyBeatmapId: AloneExpertPlus
+    _platformLeaderboardId: QuestAloneExpertPlus
+  - _difficultyBeatmapId: AnimalsEasy
+    _platformLeaderboardId: QuestAnimalsEasy
+  - _difficultyBeatmapId: AnimalsNormal
+    _platformLeaderboardId: QuestAnimalsNormal
+  - _difficultyBeatmapId: AnimalsHard
+    _platformLeaderboardId: QuestAnimalsHard
+  - _difficultyBeatmapId: AnimalsExpert
+    _platformLeaderboardId: QuestAnimalsExpert
+  - _difficultyBeatmapId: AnimalsExpertPlus
+    _platformLeaderboardId: QuestAnimalsExpertPlus
+  - _difficultyBeatmapId: FreestylerEasy
+    _platformLeaderboardId: QuestFreestylerEasy
+  - _difficultyBeatmapId: FreestylerNormal
+    _platformLeaderboardId: QuestFreestylerNormal
+  - _difficultyBeatmapId: FreestylerHard
+    _platformLeaderboardId: QuestFreestylerHard
+  - _difficultyBeatmapId: FreestylerExpert
+    _platformLeaderboardId: QuestFreestylerExpert
+  - _difficultyBeatmapId: FreestylerExpertPlus
+    _platformLeaderboardId: QuestFreestylerExpertPlus
+  - _difficultyBeatmapId: GhostsNStuffEasy
+    _platformLeaderboardId: QuestGhostsNStuffEasy
+  - _difficultyBeatmapId: GhostsNStuffNormal
+    _platformLeaderboardId: QuestGhostsNStuffNormal
+  - _difficultyBeatmapId: GhostsNStuffHard
+    _platformLeaderboardId: QuestGhostsNStuffHard
+  - _difficultyBeatmapId: GhostsNStuffExpert
+    _platformLeaderboardId: QuestGhostsNStuffExpert
+  - _difficultyBeatmapId: GhostsNStuffExpertPlus
+    _platformLeaderboardId: QuestGhostsNStuffExpertPlus
+  - _difficultyBeatmapId: GhostsNStuffOneSaberNormal
+    _platformLeaderboardId: QuestGhostsNStuffOneSaberNormal
+  - _difficultyBeatmapId: GhostsNStuffOneSaberExpert
+    _platformLeaderboardId: QuestGhostsNStuffOneSaberExpert
+  - _difficultyBeatmapId: GhostsNStuffOneSaberExpertPlus
+    _platformLeaderboardId: QuestGhostsNStuffOneSaberExpertPlus
+  - _difficultyBeatmapId: IcarusEasy
+    _platformLeaderboardId: QuestIcarusEasy
+  - _difficultyBeatmapId: IcarusNormal
+    _platformLeaderboardId: QuestIcarusNormal
+  - _difficultyBeatmapId: IcarusHard
+    _platformLeaderboardId: QuestIcarusHard
+  - _difficultyBeatmapId: IcarusExpert
+    _platformLeaderboardId: QuestIcarusExpert
+  - _difficultyBeatmapId: IcarusExpertPlus
+    _platformLeaderboardId: QuestIcarusExpertPlus
+  - _difficultyBeatmapId: IcarusOneSaberNormal
+    _platformLeaderboardId: QuestIcarusOneSaberNormal
+  - _difficultyBeatmapId: IcarusOneSaberExpert
+    _platformLeaderboardId: QuestIcarusOneSaberExpert
+  - _difficultyBeatmapId: IcarusOneSaberExpertPlus
+    _platformLeaderboardId: QuestIcarusOneSaberExpertPlus
+  - _difficultyBeatmapId: SandstormEasy
+    _platformLeaderboardId: QuestSandstormEasy
+  - _difficultyBeatmapId: SandstormNormal
+    _platformLeaderboardId: QuestSandstormNormal
+  - _difficultyBeatmapId: SandstormHard
+    _platformLeaderboardId: QuestSandstormHard
+  - _difficultyBeatmapId: SandstormExpert
+    _platformLeaderboardId: QuestSandstormExpert
+  - _difficultyBeatmapId: SandstormExpertPlus
+    _platformLeaderboardId: QuestSandstormExpertPlus
+  - _difficultyBeatmapId: StayTheNightEasy
+    _platformLeaderboardId: QuestStayTheNightEasy
+  - _difficultyBeatmapId: StayTheNightNormal
+    _platformLeaderboardId: QuestStayTheNightNormal
+  - _difficultyBeatmapId: StayTheNightHard
+    _platformLeaderboardId: QuestStayTheNightHard
+  - _difficultyBeatmapId: StayTheNightExpert
+    _platformLeaderboardId: QuestStayTheNightExpert
+  - _difficultyBeatmapId: StayTheNightExpertPlus
+    _platformLeaderboardId: QuestStayTheNightExpertPlus
+  - _difficultyBeatmapId: TheRockafellerSkankEasy
+    _platformLeaderboardId: QuestTheRockafellerSkankEasy
+  - _difficultyBeatmapId: TheRockafellerSkankNormal
+    _platformLeaderboardId: QuestTheRockafellerSkankNormal
+  - _difficultyBeatmapId: TheRockafellerSkankHard
+    _platformLeaderboardId: QuestTheRockafellerSkankHard
+  - _difficultyBeatmapId: TheRockafellerSkankExpert
+    _platformLeaderboardId: QuestTheRockafellerSkankExpert
+  - _difficultyBeatmapId: TheRockafellerSkankExpertPlus
+    _platformLeaderboardId: QuestTheRockafellerSkankExpertPlus
+  - _difficultyBeatmapId: WaitingAllNightEasy
+    _platformLeaderboardId: QuestWaitingAllNightEasy
+  - _difficultyBeatmapId: WaitingAllNightNormal
+    _platformLeaderboardId: QuestWaitingAllNightNormal
+  - _difficultyBeatmapId: WaitingAllNightHard
+    _platformLeaderboardId: QuestWaitingAllNightHard
+  - _difficultyBeatmapId: WaitingAllNightExpert
+    _platformLeaderboardId: QuestWaitingAllNightExpert
+  - _difficultyBeatmapId: WaitingAllNightExpertPlus
+    _platformLeaderboardId: QuestWaitingAllNightExpertPlus
+  - _difficultyBeatmapId: WitchcraftEasy
+    _platformLeaderboardId: QuestWitchcraftEasy
+  - _difficultyBeatmapId: WitchcraftNormal
+    _platformLeaderboardId: QuestWitchcraftNormal
+  - _difficultyBeatmapId: WitchcraftHard
+    _platformLeaderboardId: QuestWitchcraftHard
+  - _difficultyBeatmapId: WitchcraftExpert
+    _platformLeaderboardId: QuestWitchcraftExpert
+  - _difficultyBeatmapId: WitchcraftExpertPlus
+    _platformLeaderboardId: QuestWitchcraftExpertPlus
+  - _difficultyBeatmapId: CenturiesEasy
+    _platformLeaderboardId: QuestCenturiesEasy
+  - _difficultyBeatmapId: CenturiesNormal
+    _platformLeaderboardId: QuestCenturiesNormal
+  - _difficultyBeatmapId: CenturiesHard
+    _platformLeaderboardId: QuestCenturiesHard
+  - _difficultyBeatmapId: CenturiesExpert
+    _platformLeaderboardId: QuestCenturiesExpert
+  - _difficultyBeatmapId: CenturiesExpertPlus
+    _platformLeaderboardId: QuestCenturiesExpertPlus
+  - _difficultyBeatmapId: DanceDanceEasy
+    _platformLeaderboardId: QuestDanceDanceEasy
+  - _difficultyBeatmapId: DanceDanceNormal
+    _platformLeaderboardId: QuestDanceDanceNormal
+  - _difficultyBeatmapId: DanceDanceHard
+    _platformLeaderboardId: QuestDanceDanceHard
+  - _difficultyBeatmapId: DanceDanceExpert
+    _platformLeaderboardId: QuestDanceDanceExpert
+  - _difficultyBeatmapId: DanceDanceExpertPlus
+    _platformLeaderboardId: QuestDanceDanceExpertPlus
+  - _difficultyBeatmapId: IDontCareEasy
+    _platformLeaderboardId: QuestIDontCareEasy
+  - _difficultyBeatmapId: IDontCareNormal
+    _platformLeaderboardId: QuestIDontCareNormal
+  - _difficultyBeatmapId: IDontCareHard
+    _platformLeaderboardId: QuestIDontCareHard
+  - _difficultyBeatmapId: IDontCareExpert
+    _platformLeaderboardId: QuestIDontCareExpert
+  - _difficultyBeatmapId: IDontCareExpertPlus
+    _platformLeaderboardId: QuestIDontCareExpertPlus
+  - _difficultyBeatmapId: IDontCareOneSaberNormal
+    _platformLeaderboardId: QuestIDontCareOneSaberNormal
+  - _difficultyBeatmapId: IDontCareOneSaberExpert
+    _platformLeaderboardId: QuestIDontCareOneSaberExpert
+  - _difficultyBeatmapId: IDontCareOneSaberExpertPlus
+    _platformLeaderboardId: QuestIDontCareOneSaberExpertPlus
+  - _difficultyBeatmapId: ImmortalsEasy
+    _platformLeaderboardId: QuestImmortalsEasy
+  - _difficultyBeatmapId: ImmortalsNormal
+    _platformLeaderboardId: QuestImmortalsNormal
+  - _difficultyBeatmapId: ImmortalsHard
+    _platformLeaderboardId: QuestImmortalsHard
+  - _difficultyBeatmapId: ImmortalsExpert
+    _platformLeaderboardId: QuestImmortalsExpert
+  - _difficultyBeatmapId: ImmortalsExpertPlus
+    _platformLeaderboardId: QuestImmortalsExpertPlus
+  - _difficultyBeatmapId: IrresistibleEasy
+    _platformLeaderboardId: QuestIrresistibleEasy
+  - _difficultyBeatmapId: IrresistibleNormal
+    _platformLeaderboardId: QuestIrresistibleNormal
+  - _difficultyBeatmapId: IrresistibleHard
+    _platformLeaderboardId: QuestIrresistibleHard
+  - _difficultyBeatmapId: IrresistibleExpert
+    _platformLeaderboardId: QuestIrresistibleExpert
+  - _difficultyBeatmapId: IrresistibleExpertPlus
+    _platformLeaderboardId: QuestIrresistibleExpertPlus
+  - _difficultyBeatmapId: MySongsKnowEasy
+    _platformLeaderboardId: QuestMySongsKnowEasy
+  - _difficultyBeatmapId: MySongsKnowNormal
+    _platformLeaderboardId: QuestMySongsKnowNormal
+  - _difficultyBeatmapId: MySongsKnowHard
+    _platformLeaderboardId: QuestMySongsKnowHard
+  - _difficultyBeatmapId: MySongsKnowExpert
+    _platformLeaderboardId: QuestMySongsKnowExpert
+  - _difficultyBeatmapId: MySongsKnowExpertPlus
+    _platformLeaderboardId: QuestMySongsKnowExpertPlus
+  - _difficultyBeatmapId: MySongsKnowOneSaberNormal
+    _platformLeaderboardId: QuestMySongsKnowOneSaberNormal
+  - _difficultyBeatmapId: MySongsKnowOneSaberExpert
+    _platformLeaderboardId: QuestMySongsKnowOneSaberExpert
+  - _difficultyBeatmapId: MySongsKnowOneSaberExpertPlus
+    _platformLeaderboardId: QuestMySongsKnowOneSaberExpertPlus
+  - _difficultyBeatmapId: ThisAintASceneEasy
+    _platformLeaderboardId: QuestThisAintASceneEasy
+  - _difficultyBeatmapId: ThisAintASceneNormal
+    _platformLeaderboardId: QuestThisAintASceneNormal
+  - _difficultyBeatmapId: ThisAintASceneHard
+    _platformLeaderboardId: QuestThisAintASceneHard
+  - _difficultyBeatmapId: ThisAintASceneExpert
+    _platformLeaderboardId: QuestThisAintASceneExpert
+  - _difficultyBeatmapId: ThisAintASceneExpertPlus
+    _platformLeaderboardId: QuestThisAintASceneExpertPlus
+  - _difficultyBeatmapId: ThnksFrThMmrsEasy
+    _platformLeaderboardId: QuestThnksFrThMmrsEasy
+  - _difficultyBeatmapId: ThnksFrThMmrsNormal
+    _platformLeaderboardId: QuestThnksFrThMmrsNormal
+  - _difficultyBeatmapId: ThnksFrThMmrsHard
+    _platformLeaderboardId: QuestThnksFrThMmrsHard
+  - _difficultyBeatmapId: ThnksFrThMmrsExpert
+    _platformLeaderboardId: QuestThnksFrThMmrsExpert
+  - _difficultyBeatmapId: ThnksFrThMmrsExpertPlus
+    _platformLeaderboardId: QuestThnksFrThMmrsExpertPlus
+  - _difficultyBeatmapId: AlejandroEasy
+    _platformLeaderboardId: QuestAlejandroEasy
+  - _difficultyBeatmapId: AlejandroNormal
+    _platformLeaderboardId: QuestAlejandroNormal
+  - _difficultyBeatmapId: AlejandroHard
+    _platformLeaderboardId: QuestAlejandroHard
+  - _difficultyBeatmapId: AlejandroExpert
+    _platformLeaderboardId: QuestAlejandroExpert
+  - _difficultyBeatmapId: AlejandroExpertPlus
+    _platformLeaderboardId: QuestAlejandroExpertPlus
+  - _difficultyBeatmapId: BadRomanceEasy
+    _platformLeaderboardId: QuestBadRomanceEasy
+  - _difficultyBeatmapId: BadRomanceNormal
+    _platformLeaderboardId: QuestBadRomanceNormal
+  - _difficultyBeatmapId: BadRomanceHard
+    _platformLeaderboardId: QuestBadRomanceHard
+  - _difficultyBeatmapId: BadRomanceExpert
+    _platformLeaderboardId: QuestBadRomanceExpert
+  - _difficultyBeatmapId: BadRomanceExpertPlus
+    _platformLeaderboardId: QuestBadRomanceExpertPlus
+  - _difficultyBeatmapId: BornThisWayEasy
+    _platformLeaderboardId: QuestBornThisWayEasy
+  - _difficultyBeatmapId: BornThisWayNormal
+    _platformLeaderboardId: QuestBornThisWayNormal
+  - _difficultyBeatmapId: BornThisWayHard
+    _platformLeaderboardId: QuestBornThisWayHard
+  - _difficultyBeatmapId: BornThisWayExpert
+    _platformLeaderboardId: QuestBornThisWayExpert
+  - _difficultyBeatmapId: BornThisWayExpertPlus
+    _platformLeaderboardId: QuestBornThisWayExpertPlus
+  - _difficultyBeatmapId: JustDanceEasy
+    _platformLeaderboardId: QuestJustDanceEasy
+  - _difficultyBeatmapId: JustDanceNormal
+    _platformLeaderboardId: QuestJustDanceNormal
+  - _difficultyBeatmapId: JustDanceHard
+    _platformLeaderboardId: QuestJustDanceHard
+  - _difficultyBeatmapId: JustDanceExpert
+    _platformLeaderboardId: QuestJustDanceExpert
+  - _difficultyBeatmapId: JustDanceExpertPlus
+    _platformLeaderboardId: QuestJustDanceExpertPlus
+  - _difficultyBeatmapId: PaparazziEasy
+    _platformLeaderboardId: QuestPaparazziEasy
+  - _difficultyBeatmapId: PaparazziNormal
+    _platformLeaderboardId: QuestPaparazziNormal
+  - _difficultyBeatmapId: PaparazziHard
+    _platformLeaderboardId: QuestPaparazziHard
+  - _difficultyBeatmapId: PaparazziExpert
+    _platformLeaderboardId: QuestPaparazziExpert
+  - _difficultyBeatmapId: PaparazziExpertPlus
+    _platformLeaderboardId: QuestPaparazziExpertPlus
+  - _difficultyBeatmapId: PokerFaceEasy
+    _platformLeaderboardId: QuestPokerFaceEasy
+  - _difficultyBeatmapId: PokerFaceNormal
+    _platformLeaderboardId: QuestPokerFaceNormal
+  - _difficultyBeatmapId: PokerFaceHard
+    _platformLeaderboardId: QuestPokerFaceHard
+  - _difficultyBeatmapId: PokerFaceExpert
+    _platformLeaderboardId: QuestPokerFaceExpert
+  - _difficultyBeatmapId: PokerFaceExpertPlus
+    _platformLeaderboardId: QuestPokerFaceExpertPlus
+  - _difficultyBeatmapId: PokerFaceOneSaberNormal
+    _platformLeaderboardId: QuestPokerFaceOneSaberNormal
+  - _difficultyBeatmapId: PokerFaceOneSaberExpert
+    _platformLeaderboardId: QuestPokerFaceOneSaberExpert
+  - _difficultyBeatmapId: PokerFaceOneSaberExpertPlus
+    _platformLeaderboardId: QuestPokerFaceOneSaberExpertPlus
+  - _difficultyBeatmapId: RainOnMeEasy
+    _platformLeaderboardId: QuestRainOnMeEasy
+  - _difficultyBeatmapId: RainOnMeNormal
+    _platformLeaderboardId: QuestRainOnMeNormal
+  - _difficultyBeatmapId: RainOnMeHard
+    _platformLeaderboardId: QuestRainOnMeHard
+  - _difficultyBeatmapId: RainOnMeExpert
+    _platformLeaderboardId: QuestRainOnMeExpert
+  - _difficultyBeatmapId: RainOnMeExpertPlus
+    _platformLeaderboardId: QuestRainOnMeExpertPlus
+  - _difficultyBeatmapId: RainOnMeOneSaberNormal
+    _platformLeaderboardId: QuestRainOnMeOneSaberNormal
+  - _difficultyBeatmapId: RainOnMeOneSaberExpert
+    _platformLeaderboardId: QuestRainOnMeOneSaberExpert
+  - _difficultyBeatmapId: RainOnMeOneSaberExpertPlus
+    _platformLeaderboardId: QuestRainOnMeOneSaberExpertPlus
+  - _difficultyBeatmapId: StupidLoveEasy
+    _platformLeaderboardId: QuestStupidLoveEasy
+  - _difficultyBeatmapId: StupidLoveNormal
+    _platformLeaderboardId: QuestStupidLoveNormal
+  - _difficultyBeatmapId: StupidLoveHard
+    _platformLeaderboardId: QuestStupidLoveHard
+  - _difficultyBeatmapId: StupidLoveExpert
+    _platformLeaderboardId: QuestStupidLoveExpert
+  - _difficultyBeatmapId: StupidLoveExpertPlus
+    _platformLeaderboardId: QuestStupidLoveExpertPlus
+  - _difficultyBeatmapId: TelephoneEasy
+    _platformLeaderboardId: QuestTelephoneEasy
+  - _difficultyBeatmapId: TelephoneNormal
+    _platformLeaderboardId: QuestTelephoneNormal
+  - _difficultyBeatmapId: TelephoneHard
+    _platformLeaderboardId: QuestTelephoneHard
+  - _difficultyBeatmapId: TelephoneExpert
+    _platformLeaderboardId: QuestTelephoneExpert
+  - _difficultyBeatmapId: TelephoneExpertPlus
+    _platformLeaderboardId: QuestTelephoneExpertPlus
+  - _difficultyBeatmapId: TheEdgeOfGloryEasy
+    _platformLeaderboardId: QuestTheEdgeOfGloryEasy
+  - _difficultyBeatmapId: TheEdgeOfGloryNormal
+    _platformLeaderboardId: QuestTheEdgeOfGloryNormal
+  - _difficultyBeatmapId: TheEdgeOfGloryHard
+    _platformLeaderboardId: QuestTheEdgeOfGloryHard
+  - _difficultyBeatmapId: TheEdgeOfGloryExpert
+    _platformLeaderboardId: QuestTheEdgeOfGloryExpert
+  - _difficultyBeatmapId: TheEdgeOfGloryExpertPlus
+    _platformLeaderboardId: QuestTheEdgeOfGloryExpertPlus
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellEasy
+    _platformLeaderboardId: QuestAllTheGoodGirlsGoToHellEasy
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellNormal
+    _platformLeaderboardId: QuestAllTheGoodGirlsGoToHellNormal
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellHard
+    _platformLeaderboardId: QuestAllTheGoodGirlsGoToHellHard
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellExpert
+    _platformLeaderboardId: QuestAllTheGoodGirlsGoToHellExpert
+  - _difficultyBeatmapId: AllTheGoodGirlsGoToHellExpertPlus
+    _platformLeaderboardId: QuestAllTheGoodGirlsGoToHellExpertPlus
+  - _difficultyBeatmapId: BadGuyEasy
+    _platformLeaderboardId: QuestBadGuyEasy
+  - _difficultyBeatmapId: BadGuyNormal
+    _platformLeaderboardId: QuestBadGuyNormal
+  - _difficultyBeatmapId: BadGuyHard
+    _platformLeaderboardId: QuestBadGuyHard
+  - _difficultyBeatmapId: BadGuyExpert
+    _platformLeaderboardId: QuestBadGuyExpert
+  - _difficultyBeatmapId: BadGuyExpertPlus
+    _platformLeaderboardId: QuestBadGuyExpertPlus
+  - _difficultyBeatmapId: BellyacheEasy
+    _platformLeaderboardId: QuestBellyacheEasy
+  - _difficultyBeatmapId: BellyacheNormal
+    _platformLeaderboardId: QuestBellyacheNormal
+  - _difficultyBeatmapId: BellyacheHard
+    _platformLeaderboardId: QuestBellyacheHard
+  - _difficultyBeatmapId: BellyacheExpert
+    _platformLeaderboardId: QuestBellyacheExpert
+  - _difficultyBeatmapId: BellyacheExpertPlus
+    _platformLeaderboardId: QuestBellyacheExpertPlus
+  - _difficultyBeatmapId: BuryAFriendEasy
+    _platformLeaderboardId: QuestBuryAFriendEasy
+  - _difficultyBeatmapId: BuryAFriendNormal
+    _platformLeaderboardId: QuestBuryAFriendNormal
+  - _difficultyBeatmapId: BuryAFriendHard
+    _platformLeaderboardId: QuestBuryAFriendHard
+  - _difficultyBeatmapId: BuryAFriendExpert
+    _platformLeaderboardId: QuestBuryAFriendExpert
+  - _difficultyBeatmapId: BuryAFriendExpertPlus
+    _platformLeaderboardId: QuestBuryAFriendExpertPlus
+  - _difficultyBeatmapId: HappierThanEverEasy
+    _platformLeaderboardId: QuestHappierThanEverEasy
+  - _difficultyBeatmapId: HappierThanEverNormal
+    _platformLeaderboardId: QuestHappierThanEverNormal
+  - _difficultyBeatmapId: HappierThanEverHard
+    _platformLeaderboardId: QuestHappierThanEverHard
+  - _difficultyBeatmapId: HappierThanEverExpert
+    _platformLeaderboardId: QuestHappierThanEverExpert
+  - _difficultyBeatmapId: HappierThanEverExpertPlus
+    _platformLeaderboardId: QuestHappierThanEverExpertPlus
+  - _difficultyBeatmapId: HappierThanEverOneSaberNormal
+    _platformLeaderboardId: QuestHappierThanEverOneSaberNormal
+  - _difficultyBeatmapId: HappierThanEverOneSaberExpert
+    _platformLeaderboardId: QuestHappierThanEverOneSaberExpert
+  - _difficultyBeatmapId: HappierThanEverOneSaberExpertPlus
+    _platformLeaderboardId: QuestHappierThanEverOneSaberExpertPlus
+  - _difficultyBeatmapId: IDidntChangeMyNumberEasy
+    _platformLeaderboardId: QuestIDidntChangeMyNumberEasy
+  - _difficultyBeatmapId: IDidntChangeMyNumberNormal
+    _platformLeaderboardId: QuestIDidntChangeMyNumberNormal
+  - _difficultyBeatmapId: IDidntChangeMyNumberHard
+    _platformLeaderboardId: QuestIDidntChangeMyNumberHard
+  - _difficultyBeatmapId: IDidntChangeMyNumberExpert
+    _platformLeaderboardId: QuestIDidntChangeMyNumberExpert
+  - _difficultyBeatmapId: IDidntChangeMyNumberExpertPlus
+    _platformLeaderboardId: QuestIDidntChangeMyNumberExpertPlus
+  - _difficultyBeatmapId: NDAEasy
+    _platformLeaderboardId: QuestNDAEasy
+  - _difficultyBeatmapId: NDANormal
+    _platformLeaderboardId: QuestNDANormal
+  - _difficultyBeatmapId: NDAHard
+    _platformLeaderboardId: QuestNDAHard
+  - _difficultyBeatmapId: NDAExpert
+    _platformLeaderboardId: QuestNDAExpert
+  - _difficultyBeatmapId: NDAExpertPlus
+    _platformLeaderboardId: QuestNDAExpertPlus
+  - _difficultyBeatmapId: OxytocinEasy
+    _platformLeaderboardId: QuestOxytocinEasy
+  - _difficultyBeatmapId: OxytocinNormal
+    _platformLeaderboardId: QuestOxytocinNormal
+  - _difficultyBeatmapId: OxytocinHard
+    _platformLeaderboardId: QuestOxytocinHard
+  - _difficultyBeatmapId: OxytocinExpert
+    _platformLeaderboardId: QuestOxytocinExpert
+  - _difficultyBeatmapId: OxytocinExpertPlus
+    _platformLeaderboardId: QuestOxytocinExpertPlus
+  - _difficultyBeatmapId: ThereforeIAmEasy
+    _platformLeaderboardId: QuestThereforeIAmEasy
+  - _difficultyBeatmapId: ThereforeIAmNormal
+    _platformLeaderboardId: QuestThereforeIAmNormal
+  - _difficultyBeatmapId: ThereforeIAmHard
+    _platformLeaderboardId: QuestThereforeIAmHard
+  - _difficultyBeatmapId: ThereforeIAmExpert
+    _platformLeaderboardId: QuestThereforeIAmExpert
+  - _difficultyBeatmapId: ThereforeIAmExpertPlus
+    _platformLeaderboardId: QuestThereforeIAmExpertPlus
+  - _difficultyBeatmapId: ThereforeIAmOneSaberNormal
+    _platformLeaderboardId: QuestThereforeIAmOneSaberNormal
+  - _difficultyBeatmapId: ThereforeIAmOneSaberExpert
+    _platformLeaderboardId: QuestThereforeIAmOneSaberExpert
+  - _difficultyBeatmapId: ThereforeIAmOneSaberExpertPlus
+    _platformLeaderboardId: QuestThereforeIAmOneSaberExpertPlus
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownEasy
+    _platformLeaderboardId: QuestYouShouldSeeMeInACrownEasy
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownNormal
+    _platformLeaderboardId: QuestYouShouldSeeMeInACrownNormal
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownHard
+    _platformLeaderboardId: QuestYouShouldSeeMeInACrownHard
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownExpert
+    _platformLeaderboardId: QuestYouShouldSeeMeInACrownExpert
+  - _difficultyBeatmapId: YouShouldSeeMeInACrownExpertPlus
+    _platformLeaderboardId: QuestYouShouldSeeMeInACrownExpertPlus
+  - _difficultyBeatmapId: BangarangEasy
+    _platformLeaderboardId: QuestBangarangEasy
+  - _difficultyBeatmapId: BangarangNormal
+    _platformLeaderboardId: QuestBangarangNormal
+  - _difficultyBeatmapId: BangarangHard
+    _platformLeaderboardId: QuestBangarangHard
+  - _difficultyBeatmapId: BangarangExpert
+    _platformLeaderboardId: QuestBangarangExpert
+  - _difficultyBeatmapId: BangarangExpertPlus
+    _platformLeaderboardId: QuestBangarangExpertPlus
+  - _difficultyBeatmapId: BangarangOneSaberNormal
+    _platformLeaderboardId: QuestBangarangOneSaberNormal
+  - _difficultyBeatmapId: BangarangOneSaberExpert
+    _platformLeaderboardId: QuestBangarangOneSaberExpert
+  - _difficultyBeatmapId: BangarangOneSaberExpertPlus
+    _platformLeaderboardId: QuestBangarangOneSaberExpertPlus
+  - _difficultyBeatmapId: ButterfliesEasy
+    _platformLeaderboardId: QuestButterfliesEasy
+  - _difficultyBeatmapId: ButterfliesNormal
+    _platformLeaderboardId: QuestButterfliesNormal
+  - _difficultyBeatmapId: ButterfliesHard
+    _platformLeaderboardId: QuestButterfliesHard
+  - _difficultyBeatmapId: ButterfliesExpert
+    _platformLeaderboardId: QuestButterfliesExpert
+  - _difficultyBeatmapId: ButterfliesExpertPlus
+    _platformLeaderboardId: QuestButterfliesExpertPlus
+  - _difficultyBeatmapId: DontGoEasy
+    _platformLeaderboardId: QuestDontGoEasy
+  - _difficultyBeatmapId: DontGoNormal
+    _platformLeaderboardId: QuestDontGoNormal
+  - _difficultyBeatmapId: DontGoHard
+    _platformLeaderboardId: QuestDontGoHard
+  - _difficultyBeatmapId: DontGoExpert
+    _platformLeaderboardId: QuestDontGoExpert
+  - _difficultyBeatmapId: DontGoExpertPlus
+    _platformLeaderboardId: QuestDontGoExpertPlus
+  - _difficultyBeatmapId: FirstOfTheYearEasy
+    _platformLeaderboardId: QuestFirstOfTheYearEasy
+  - _difficultyBeatmapId: FirstOfTheYearNormal
+    _platformLeaderboardId: QuestFirstOfTheYearNormal
+  - _difficultyBeatmapId: FirstOfTheYearHard
+    _platformLeaderboardId: QuestFirstOfTheYearHard
+  - _difficultyBeatmapId: FirstOfTheYearExpert
+    _platformLeaderboardId: QuestFirstOfTheYearExpert
+  - _difficultyBeatmapId: FirstOfTheYearExpertPlus
+    _platformLeaderboardId: QuestFirstOfTheYearExpertPlus
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberNormal
+    _platformLeaderboardId: QuestFirstOfTheYearOneSaberNormal
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberExpert
+    _platformLeaderboardId: QuestFirstOfTheYearOneSaberExpert
+  - _difficultyBeatmapId: FirstOfTheYearOneSaberExpertPlus
+    _platformLeaderboardId: QuestFirstOfTheYearOneSaberExpertPlus
+  - _difficultyBeatmapId: RaggaBombEasy
+    _platformLeaderboardId: QuestRaggaBombEasy
+  - _difficultyBeatmapId: RaggaBombNormal
+    _platformLeaderboardId: QuestRaggaBombNormal
+  - _difficultyBeatmapId: RaggaBombHard
+    _platformLeaderboardId: QuestRaggaBombHard
+  - _difficultyBeatmapId: RaggaBombExpert
+    _platformLeaderboardId: QuestRaggaBombExpert
+  - _difficultyBeatmapId: RaggaBombExpertPlus
+    _platformLeaderboardId: QuestRaggaBombExpertPlus
+  - _difficultyBeatmapId: RockNRollEasy
+    _platformLeaderboardId: QuestRockNRollEasy
+  - _difficultyBeatmapId: RockNRollNormal
+    _platformLeaderboardId: QuestRockNRollNormal
+  - _difficultyBeatmapId: RockNRollHard
+    _platformLeaderboardId: QuestRockNRollHard
+  - _difficultyBeatmapId: RockNRollExpert
+    _platformLeaderboardId: QuestRockNRollExpert
+  - _difficultyBeatmapId: RockNRollExpertPlus
+    _platformLeaderboardId: QuestRockNRollExpertPlus
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesEasy
+    _platformLeaderboardId: QuestScaryMonstersAndNiceSpritesEasy
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesNormal
+    _platformLeaderboardId: QuestScaryMonstersAndNiceSpritesNormal
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesHard
+    _platformLeaderboardId: QuestScaryMonstersAndNiceSpritesHard
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesExpert
+    _platformLeaderboardId: QuestScaryMonstersAndNiceSpritesExpert
+  - _difficultyBeatmapId: ScaryMonstersAndNiceSpritesExpertPlus
+    _platformLeaderboardId: QuestScaryMonstersAndNiceSpritesExpertPlus
+  - _difficultyBeatmapId: TheDevilsDenEasy
+    _platformLeaderboardId: QuestTheDevilsDenEasy
+  - _difficultyBeatmapId: TheDevilsDenNormal
+    _platformLeaderboardId: QuestTheDevilsDenNormal
+  - _difficultyBeatmapId: TheDevilsDenHard
+    _platformLeaderboardId: QuestTheDevilsDenHard
+  - _difficultyBeatmapId: TheDevilsDenExpert
+    _platformLeaderboardId: QuestTheDevilsDenExpert
+  - _difficultyBeatmapId: TheDevilsDenExpertPlus
+    _platformLeaderboardId: QuestTheDevilsDenExpertPlus
+  - _difficultyBeatmapId: CountingStarsEasy
+    _platformLeaderboardId: QuestCountingStarsEasy
+  - _difficultyBeatmapId: CountingStarsNormal
+    _platformLeaderboardId: QuestCountingStarsNormal
+  - _difficultyBeatmapId: CountingStarsHard
+    _platformLeaderboardId: QuestCountingStarsHard
+  - _difficultyBeatmapId: CountingStarsExpert
+    _platformLeaderboardId: QuestCountingStarsExpert
+  - _difficultyBeatmapId: CountingStarsExpertPlus
+    _platformLeaderboardId: QuestCountingStarsExpertPlus
+  - _difficultyBeatmapId: DnaLamarEasy
+    _platformLeaderboardId: QuestDnaLamarEasy
+  - _difficultyBeatmapId: DnaLamarNormal
+    _platformLeaderboardId: QuestDnaLamarNormal
+  - _difficultyBeatmapId: DnaLamarHard
+    _platformLeaderboardId: QuestDnaLamarHard
+  - _difficultyBeatmapId: DnaLamarExpert
+    _platformLeaderboardId: QuestDnaLamarExpert
+  - _difficultyBeatmapId: DnaLamarExpertPlus
+    _platformLeaderboardId: QuestDnaLamarExpertPlus
+  - _difficultyBeatmapId: DnaLamarOneSaberNormal
+    _platformLeaderboardId: QuestDnaLamarOneSaberNormal
+  - _difficultyBeatmapId: DnaLamarOneSaberExpert
+    _platformLeaderboardId: QuestDnaLamarOneSaberExpert
+  - _difficultyBeatmapId: DnaLamarOneSaberExpertPlus
+    _platformLeaderboardId: QuestDnaLamarOneSaberExpertPlus
+  - _difficultyBeatmapId: DontChaEasy
+    _platformLeaderboardId: QuestDontChaEasy
+  - _difficultyBeatmapId: DontChaNormal
+    _platformLeaderboardId: QuestDontChaNormal
+  - _difficultyBeatmapId: DontChaHard
+    _platformLeaderboardId: QuestDontChaHard
+  - _difficultyBeatmapId: DontChaExpert
+    _platformLeaderboardId: QuestDontChaExpert
+  - _difficultyBeatmapId: DontChaExpertPlus
+    _platformLeaderboardId: QuestDontChaExpertPlus
+  - _difficultyBeatmapId: PartyRockAnthemEasy
+    _platformLeaderboardId: QuestPartyRockAnthemEasy
+  - _difficultyBeatmapId: PartyRockAnthemNormal
+    _platformLeaderboardId: QuestPartyRockAnthemNormal
+  - _difficultyBeatmapId: PartyRockAnthemHard
+    _platformLeaderboardId: QuestPartyRockAnthemHard
+  - _difficultyBeatmapId: PartyRockAnthemExpert
+    _platformLeaderboardId: QuestPartyRockAnthemExpert
+  - _difficultyBeatmapId: PartyRockAnthemExpertPlus
+    _platformLeaderboardId: QuestPartyRockAnthemExpertPlus
+  - _difficultyBeatmapId: RollinEasy
+    _platformLeaderboardId: QuestRollinEasy
+  - _difficultyBeatmapId: RollinNormal
+    _platformLeaderboardId: QuestRollinNormal
+  - _difficultyBeatmapId: RollinHard
+    _platformLeaderboardId: QuestRollinHard
+  - _difficultyBeatmapId: RollinExpert
+    _platformLeaderboardId: QuestRollinExpert
+  - _difficultyBeatmapId: RollinExpertPlus
+    _platformLeaderboardId: QuestRollinExpertPlus
+  - _difficultyBeatmapId: SugarEasy
+    _platformLeaderboardId: QuestSugarEasy
+  - _difficultyBeatmapId: SugarNormal
+    _platformLeaderboardId: QuestSugarNormal
+  - _difficultyBeatmapId: SugarHard
+    _platformLeaderboardId: QuestSugarHard
+  - _difficultyBeatmapId: SugarExpert
+    _platformLeaderboardId: QuestSugarExpert
+  - _difficultyBeatmapId: SugarExpertPlus
+    _platformLeaderboardId: QuestSugarExpertPlus
+  - _difficultyBeatmapId: SugarOneSaberNormal
+    _platformLeaderboardId: QuestSugarOneSaberNormal
+  - _difficultyBeatmapId: SugarOneSaberExpert
+    _platformLeaderboardId: QuestSugarOneSaberExpert
+  - _difficultyBeatmapId: SugarOneSaberExpertPlus
+    _platformLeaderboardId: QuestSugarOneSaberExpertPlus
+  - _difficultyBeatmapId: TheSweetEscapeEasy
+    _platformLeaderboardId: QuestTheSweetEscapeEasy
+  - _difficultyBeatmapId: TheSweetEscapeNormal
+    _platformLeaderboardId: QuestTheSweetEscapeNormal
+  - _difficultyBeatmapId: TheSweetEscapeHard
+    _platformLeaderboardId: QuestTheSweetEscapeHard
+  - _difficultyBeatmapId: TheSweetEscapeExpert
+    _platformLeaderboardId: QuestTheSweetEscapeExpert
+  - _difficultyBeatmapId: TheSweetEscapeExpertPlus
+    _platformLeaderboardId: QuestTheSweetEscapeExpertPlus
+  - _difficultyBeatmapId: BloodSweatAndTearsEasy
+    _platformLeaderboardId: QuestBloodSweatAndTearsEasy
+  - _difficultyBeatmapId: BloodSweatAndTearsNormal
+    _platformLeaderboardId: QuestBloodSweatAndTearsNormal
+  - _difficultyBeatmapId: BloodSweatAndTearsHard
+    _platformLeaderboardId: QuestBloodSweatAndTearsHard
+  - _difficultyBeatmapId: BloodSweatAndTearsExpert
+    _platformLeaderboardId: QuestBloodSweatAndTearsExpert
+  - _difficultyBeatmapId: BloodSweatAndTearsExpertPlus
+    _platformLeaderboardId: QuestBloodSweatAndTearsExpertPlus
+  - _difficultyBeatmapId: BoyWithLuvEasy
+    _platformLeaderboardId: QuestBoyWithLuvEasy
+  - _difficultyBeatmapId: BoyWithLuvNormal
+    _platformLeaderboardId: QuestBoyWithLuvNormal
+  - _difficultyBeatmapId: BoyWithLuvHard
+    _platformLeaderboardId: QuestBoyWithLuvHard
+  - _difficultyBeatmapId: BoyWithLuvExpert
+    _platformLeaderboardId: QuestBoyWithLuvExpert
+  - _difficultyBeatmapId: BoyWithLuvExpertPlus
+    _platformLeaderboardId: QuestBoyWithLuvExpertPlus
+  - _difficultyBeatmapId: BurningUpEasy
+    _platformLeaderboardId: QuestBurningUpEasy
+  - _difficultyBeatmapId: BurningUpNormal
+    _platformLeaderboardId: QuestBurningUpNormal
+  - _difficultyBeatmapId: BurningUpHard
+    _platformLeaderboardId: QuestBurningUpHard
+  - _difficultyBeatmapId: BurningUpExpert
+    _platformLeaderboardId: QuestBurningUpExpert
+  - _difficultyBeatmapId: BurningUpExpertPlus
+    _platformLeaderboardId: QuestBurningUpExpertPlus
+  - _difficultyBeatmapId: DionysusEasy
+    _platformLeaderboardId: QuestDionysusEasy
+  - _difficultyBeatmapId: DionysusNormal
+    _platformLeaderboardId: QuestDionysusNormal
+  - _difficultyBeatmapId: DionysusHard
+    _platformLeaderboardId: QuestDionysusHard
+  - _difficultyBeatmapId: DionysusExpert
+    _platformLeaderboardId: QuestDionysusExpert
+  - _difficultyBeatmapId: DionysusExpertPlus
+    _platformLeaderboardId: QuestDionysusExpertPlus
+  - _difficultyBeatmapId: DnaEasy
+    _platformLeaderboardId: QuestDnaEasy
+  - _difficultyBeatmapId: DnaNormal
+    _platformLeaderboardId: QuestDnaNormal
+  - _difficultyBeatmapId: DnaHard
+    _platformLeaderboardId: QuestDnaHard
+  - _difficultyBeatmapId: DnaExpert
+    _platformLeaderboardId: QuestDnaExpert
+  - _difficultyBeatmapId: DnaExpertPlus
+    _platformLeaderboardId: QuestDnaExpertPlus
+  - _difficultyBeatmapId: DopeEasy
+    _platformLeaderboardId: QuestDopeEasy
+  - _difficultyBeatmapId: DopeNormal
+    _platformLeaderboardId: QuestDopeNormal
+  - _difficultyBeatmapId: DopeHard
+    _platformLeaderboardId: QuestDopeHard
+  - _difficultyBeatmapId: DopeExpert
+    _platformLeaderboardId: QuestDopeExpert
+  - _difficultyBeatmapId: DopeExpertPlus
+    _platformLeaderboardId: QuestDopeExpertPlus
+  - _difficultyBeatmapId: DynamiteEasy
+    _platformLeaderboardId: QuestDynamiteEasy
+  - _difficultyBeatmapId: DynamiteNormal
+    _platformLeaderboardId: QuestDynamiteNormal
+  - _difficultyBeatmapId: DynamiteHard
+    _platformLeaderboardId: QuestDynamiteHard
+  - _difficultyBeatmapId: DynamiteExpert
+    _platformLeaderboardId: QuestDynamiteExpert
+  - _difficultyBeatmapId: DynamiteExpertPlus
+    _platformLeaderboardId: QuestDynamiteExpertPlus
+  - _difficultyBeatmapId: DynamiteOneSaberNormal
+    _platformLeaderboardId: QuestDynamiteOneSaberNormal
+  - _difficultyBeatmapId: DynamiteOneSaberExpert
+    _platformLeaderboardId: QuestDynamiteOneSaberExpert
+  - _difficultyBeatmapId: DynamiteOneSaberExpertPlus
+    _platformLeaderboardId: QuestDynamiteOneSaberExpertPlus
+  - _difficultyBeatmapId: FakeLoveEasy
+    _platformLeaderboardId: QuestFakeLoveEasy
+  - _difficultyBeatmapId: FakeLoveNormal
+    _platformLeaderboardId: QuestFakeLoveNormal
+  - _difficultyBeatmapId: FakeLoveHard
+    _platformLeaderboardId: QuestFakeLoveHard
+  - _difficultyBeatmapId: FakeLoveExpert
+    _platformLeaderboardId: QuestFakeLoveExpert
+  - _difficultyBeatmapId: FakeLoveExpertPlus
+    _platformLeaderboardId: QuestFakeLoveExpertPlus
+  - _difficultyBeatmapId: IdolEasy
+    _platformLeaderboardId: QuestIdolEasy
+  - _difficultyBeatmapId: IdolNormal
+    _platformLeaderboardId: QuestIdolNormal
+  - _difficultyBeatmapId: IdolHard
+    _platformLeaderboardId: QuestIdolHard
+  - _difficultyBeatmapId: IdolExpert
+    _platformLeaderboardId: QuestIdolExpert
+  - _difficultyBeatmapId: IdolExpertPlus
+    _platformLeaderboardId: QuestIdolExpertPlus
+  - _difficultyBeatmapId: MicDropEasy
+    _platformLeaderboardId: QuestMicDropEasy
+  - _difficultyBeatmapId: MicDropNormal
+    _platformLeaderboardId: QuestMicDropNormal
+  - _difficultyBeatmapId: MicDropHard
+    _platformLeaderboardId: QuestMicDropHard
+  - _difficultyBeatmapId: MicDropExpert
+    _platformLeaderboardId: QuestMicDropExpert
+  - _difficultyBeatmapId: MicDropExpertPlus
+    _platformLeaderboardId: QuestMicDropExpertPlus
+  - _difficultyBeatmapId: MicDropOneSaberNormal
+    _platformLeaderboardId: QuestMicDropOneSaberNormal
+  - _difficultyBeatmapId: MicDropOneSaberExpert
+    _platformLeaderboardId: QuestMicDropOneSaberExpert
+  - _difficultyBeatmapId: MicDropOneSaberExpertPlus
+    _platformLeaderboardId: QuestMicDropOneSaberExpertPlus
+  - _difficultyBeatmapId: NotTodayEasy
+    _platformLeaderboardId: QuestNotTodayEasy
+  - _difficultyBeatmapId: NotTodayNormal
+    _platformLeaderboardId: QuestNotTodayNormal
+  - _difficultyBeatmapId: NotTodayHard
+    _platformLeaderboardId: QuestNotTodayHard
+  - _difficultyBeatmapId: NotTodayExpert
+    _platformLeaderboardId: QuestNotTodayExpert
+  - _difficultyBeatmapId: NotTodayExpertPlus
+    _platformLeaderboardId: QuestNotTodayExpertPlus
+  - _difficultyBeatmapId: UghEasy
+    _platformLeaderboardId: QuestUghEasy
+  - _difficultyBeatmapId: UghNormal
+    _platformLeaderboardId: QuestUghNormal
+  - _difficultyBeatmapId: UghHard
+    _platformLeaderboardId: QuestUghHard
+  - _difficultyBeatmapId: UghExpert
+    _platformLeaderboardId: QuestUghExpert
+  - _difficultyBeatmapId: UghExpertPlus
+    _platformLeaderboardId: QuestUghExpertPlus
+  - _difficultyBeatmapId: BleedItOutEasy
+    _platformLeaderboardId: QuestBleedItOutEasy
+  - _difficultyBeatmapId: BleedItOutNormal
+    _platformLeaderboardId: QuestBleedItOutNormal
+  - _difficultyBeatmapId: BleedItOutHard
+    _platformLeaderboardId: QuestBleedItOutHard
+  - _difficultyBeatmapId: BleedItOutExpert
+    _platformLeaderboardId: QuestBleedItOutExpert
+  - _difficultyBeatmapId: BleedItOutExpertPlus
+    _platformLeaderboardId: QuestBleedItOutExpertPlus
+  - _difficultyBeatmapId: BreakingTheHabitEasy
+    _platformLeaderboardId: QuestBreakingTheHabitEasy
+  - _difficultyBeatmapId: BreakingTheHabitNormal
+    _platformLeaderboardId: QuestBreakingTheHabitNormal
+  - _difficultyBeatmapId: BreakingTheHabitHard
+    _platformLeaderboardId: QuestBreakingTheHabitHard
+  - _difficultyBeatmapId: BreakingTheHabitExpert
+    _platformLeaderboardId: QuestBreakingTheHabitExpert
+  - _difficultyBeatmapId: BreakingTheHabitExpertPlus
+    _platformLeaderboardId: QuestBreakingTheHabitExpertPlus
+  - _difficultyBeatmapId: FaintEasy
+    _platformLeaderboardId: QuestFaintEasy
+  - _difficultyBeatmapId: FaintNormal
+    _platformLeaderboardId: QuestFaintNormal
+  - _difficultyBeatmapId: FaintHard
+    _platformLeaderboardId: QuestFaintHard
+  - _difficultyBeatmapId: FaintExpert
+    _platformLeaderboardId: QuestFaintExpert
+  - _difficultyBeatmapId: FaintExpertPlus
+    _platformLeaderboardId: QuestFaintExpertPlus
+  - _difficultyBeatmapId: GivenUpEasy
+    _platformLeaderboardId: QuestGivenUpEasy
+  - _difficultyBeatmapId: GivenUpNormal
+    _platformLeaderboardId: QuestGivenUpNormal
+  - _difficultyBeatmapId: GivenUpHard
+    _platformLeaderboardId: QuestGivenUpHard
+  - _difficultyBeatmapId: GivenUpExpert
+    _platformLeaderboardId: QuestGivenUpExpert
+  - _difficultyBeatmapId: GivenUpExpertPlus
+    _platformLeaderboardId: QuestGivenUpExpertPlus
+  - _difficultyBeatmapId: InTheEndEasy
+    _platformLeaderboardId: QuestInTheEndEasy
+  - _difficultyBeatmapId: InTheEndNormal
+    _platformLeaderboardId: QuestInTheEndNormal
+  - _difficultyBeatmapId: InTheEndHard
+    _platformLeaderboardId: QuestInTheEndHard
+  - _difficultyBeatmapId: InTheEndExpert
+    _platformLeaderboardId: QuestInTheEndExpert
+  - _difficultyBeatmapId: InTheEndExpertPlus
+    _platformLeaderboardId: QuestInTheEndExpertPlus
+  - _difficultyBeatmapId: NewDivideEasy
+    _platformLeaderboardId: QuestNewDivideEasy
+  - _difficultyBeatmapId: NewDivideNormal
+    _platformLeaderboardId: QuestNewDivideNormal
+  - _difficultyBeatmapId: NewDivideHard
+    _platformLeaderboardId: QuestNewDivideHard
+  - _difficultyBeatmapId: NewDivideExpert
+    _platformLeaderboardId: QuestNewDivideExpert
+  - _difficultyBeatmapId: NewDivideExpertPlus
+    _platformLeaderboardId: QuestNewDivideExpertPlus
+  - _difficultyBeatmapId: NumbEasy
+    _platformLeaderboardId: QuestNumbEasy
+  - _difficultyBeatmapId: NumbNormal
+    _platformLeaderboardId: QuestNumbNormal
+  - _difficultyBeatmapId: NumbHard
+    _platformLeaderboardId: QuestNumbHard
+  - _difficultyBeatmapId: NumbExpert
+    _platformLeaderboardId: QuestNumbExpert
+  - _difficultyBeatmapId: NumbExpertPlus
+    _platformLeaderboardId: QuestNumbExpertPlus
+  - _difficultyBeatmapId: NumbOneSaberNormal
+    _platformLeaderboardId: QuestNumbOneSaberNormal
+  - _difficultyBeatmapId: NumbOneSaberExpert
+    _platformLeaderboardId: QuestNumbOneSaberExpert
+  - _difficultyBeatmapId: NumbOneSaberExpertPlus
+    _platformLeaderboardId: QuestNumbOneSaberExpertPlus
+  - _difficultyBeatmapId: OneStepCloserEasy
+    _platformLeaderboardId: QuestOneStepCloserEasy
+  - _difficultyBeatmapId: OneStepCloserNormal
+    _platformLeaderboardId: QuestOneStepCloserNormal
+  - _difficultyBeatmapId: OneStepCloserHard
+    _platformLeaderboardId: QuestOneStepCloserHard
+  - _difficultyBeatmapId: OneStepCloserExpert
+    _platformLeaderboardId: QuestOneStepCloserExpert
+  - _difficultyBeatmapId: OneStepCloserExpertPlus
+    _platformLeaderboardId: QuestOneStepCloserExpertPlus
+  - _difficultyBeatmapId: PapercutEasy
+    _platformLeaderboardId: QuestPapercutEasy
+  - _difficultyBeatmapId: PapercutNormal
+    _platformLeaderboardId: QuestPapercutNormal
+  - _difficultyBeatmapId: PapercutHard
+    _platformLeaderboardId: QuestPapercutHard
+  - _difficultyBeatmapId: PapercutExpert
+    _platformLeaderboardId: QuestPapercutExpert
+  - _difficultyBeatmapId: PapercutExpertPlus
+    _platformLeaderboardId: QuestPapercutExpertPlus
+  - _difficultyBeatmapId: SomewhereIBelongEasy
+    _platformLeaderboardId: QuestSomewhereIBelongEasy
+  - _difficultyBeatmapId: SomewhereIBelongNormal
+    _platformLeaderboardId: QuestSomewhereIBelongNormal
+  - _difficultyBeatmapId: SomewhereIBelongHard
+    _platformLeaderboardId: QuestSomewhereIBelongHard
+  - _difficultyBeatmapId: SomewhereIBelongExpert
+    _platformLeaderboardId: QuestSomewhereIBelongExpert
+  - _difficultyBeatmapId: SomewhereIBelongExpertPlus
+    _platformLeaderboardId: QuestSomewhereIBelongExpertPlus
+  - _difficultyBeatmapId: WhatIveDoneEasy
+    _platformLeaderboardId: QuestWhatIveDoneEasy
+  - _difficultyBeatmapId: WhatIveDoneNormal
+    _platformLeaderboardId: QuestWhatIveDoneNormal
+  - _difficultyBeatmapId: WhatIveDoneHard
+    _platformLeaderboardId: QuestWhatIveDoneHard
+  - _difficultyBeatmapId: WhatIveDoneExpert
+    _platformLeaderboardId: QuestWhatIveDoneExpert
+  - _difficultyBeatmapId: WhatIveDoneExpertPlus
+    _platformLeaderboardId: QuestWhatIveDoneExpertPlus
+  - _difficultyBeatmapId: WhatIveDoneOneSaberNormal
+    _platformLeaderboardId: QuestWhatIveDoneOneSaberNormal
+  - _difficultyBeatmapId: WhatIveDoneOneSaberExpert
+    _platformLeaderboardId: QuestWhatIveDoneOneSaberExpert
+  - _difficultyBeatmapId: WhatIveDoneOneSaberExpertPlus
+    _platformLeaderboardId: QuestWhatIveDoneOneSaberExpertPlus
+  - _difficultyBeatmapId: HasAMeaningEasy
+    _platformLeaderboardId: QuestHasAMeaningEasy
+  - _difficultyBeatmapId: HasAMeaningNormal
+    _platformLeaderboardId: QuestHasAMeaningNormal
+  - _difficultyBeatmapId: HasAMeaningHard
+    _platformLeaderboardId: QuestHasAMeaningHard
+  - _difficultyBeatmapId: HasAMeaningExpert
+    _platformLeaderboardId: QuestHasAMeaningExpert
+  - _difficultyBeatmapId: HasAMeaningExpertPlus
+    _platformLeaderboardId: QuestHasAMeaningExpertPlus
+  - _difficultyBeatmapId: HasAMeaning360DegreeHard
+    _platformLeaderboardId: QuestHasAMeaning360DegreeHard
+  - _difficultyBeatmapId: HasAMeaning90DegreeHard
+    _platformLeaderboardId: QuestHasAMeaning90DegreeHard
+  - _difficultyBeatmapId: DumbThingzEasy
+    _platformLeaderboardId: QuestDumbThingzEasy
+  - _difficultyBeatmapId: DumbThingzNormal
+    _platformLeaderboardId: QuestDumbThingzNormal
+  - _difficultyBeatmapId: DumbThingzHard
+    _platformLeaderboardId: QuestDumbThingzHard
+  - _difficultyBeatmapId: DumbThingzExpert
+    _platformLeaderboardId: QuestDumbThingzExpert
+  - _difficultyBeatmapId: DumbThingzExpertPlus
+    _platformLeaderboardId: QuestDumbThingzExpertPlus
+  - _difficultyBeatmapId: DumbThingzOneSaberNormal
+    _platformLeaderboardId: QuestDumbThingzOneSaberNormal
+  - _difficultyBeatmapId: DumbThingzOneSaberExpert
+    _platformLeaderboardId: QuestDumbThingzOneSaberExpert
+  - _difficultyBeatmapId: DumbThingzOneSaberExpertPlus
+    _platformLeaderboardId: QuestDumbThingzOneSaberExpertPlus
+  - _difficultyBeatmapId: WhileWereYoungEasy
+    _platformLeaderboardId: QuestWhileWereYoungEasy
+  - _difficultyBeatmapId: WhileWereYoungNormal
+    _platformLeaderboardId: QuestWhileWereYoungNormal
+  - _difficultyBeatmapId: WhileWereYoungHard
+    _platformLeaderboardId: QuestWhileWereYoungHard
+  - _difficultyBeatmapId: WhileWereYoungExpert
+    _platformLeaderboardId: QuestWhileWereYoungExpert
+  - _difficultyBeatmapId: WhileWereYoungExpertPlus
+    _platformLeaderboardId: QuestWhileWereYoungExpertPlus
+  - _difficultyBeatmapId: WhileWereYoungOneSaberNormal
+    _platformLeaderboardId: QuestWhileWereYoungOneSaberNormal
+  - _difficultyBeatmapId: WhileWereYoungOneSaberExpert
+    _platformLeaderboardId: QuestWhileWereYoungOneSaberExpert
+  - _difficultyBeatmapId: WhileWereYoungOneSaberExpertPlus
+    _platformLeaderboardId: QuestWhileWereYoungOneSaberExpertPlus
+  - _difficultyBeatmapId: WhatILikeEasy
+    _platformLeaderboardId: QuestWhatILikeEasy
+  - _difficultyBeatmapId: WhatILikeNormal
+    _platformLeaderboardId: QuestWhatILikeNormal
+  - _difficultyBeatmapId: WhatILikeHard
+    _platformLeaderboardId: QuestWhatILikeHard
+  - _difficultyBeatmapId: WhatILikeExpert
+    _platformLeaderboardId: QuestWhatILikeExpert
+  - _difficultyBeatmapId: WhatILikeExpertPlus
+    _platformLeaderboardId: QuestWhatILikeExpertPlus
+  - _difficultyBeatmapId: FamousEasy
+    _platformLeaderboardId: QuestFamousEasy
+  - _difficultyBeatmapId: FamousNormal
+    _platformLeaderboardId: QuestFamousNormal
+  - _difficultyBeatmapId: FamousHard
+    _platformLeaderboardId: QuestFamousHard
+  - _difficultyBeatmapId: FamousExpert
+    _platformLeaderboardId: QuestFamousExpert
+  - _difficultyBeatmapId: FamousExpertPlus
+    _platformLeaderboardId: QuestFamousExpertPlus
+  - _difficultyBeatmapId: AmericanIdiotEasy
+    _platformLeaderboardId: QuestAmericanIdiotEasy
+  - _difficultyBeatmapId: AmericanIdiotNormal
+    _platformLeaderboardId: QuestAmericanIdiotNormal
+  - _difficultyBeatmapId: AmericanIdiotHard
+    _platformLeaderboardId: QuestAmericanIdiotHard
+  - _difficultyBeatmapId: AmericanIdiotExpert
+    _platformLeaderboardId: QuestAmericanIdiotExpert
+  - _difficultyBeatmapId: AmericanIdiotExpertPlus
+    _platformLeaderboardId: QuestAmericanIdiotExpertPlus
+  - _difficultyBeatmapId: AmericanIdiotOneSaberNormal
+    _platformLeaderboardId: QuestAmericanIdiotOneSaberNormal
+  - _difficultyBeatmapId: AmericanIdiotOneSaberExpert
+    _platformLeaderboardId: QuestAmericanIdiotOneSaberExpert
+  - _difficultyBeatmapId: AmericanIdiotOneSaberExpertPlus
+    _platformLeaderboardId: QuestAmericanIdiotOneSaberExpertPlus
+  - _difficultyBeatmapId: FatherOfAllEasy
+    _platformLeaderboardId: QuestFatherOfAllEasy
+  - _difficultyBeatmapId: FatherOfAllNormal
+    _platformLeaderboardId: QuestFatherOfAllNormal
+  - _difficultyBeatmapId: FatherOfAllHard
+    _platformLeaderboardId: QuestFatherOfAllHard
+  - _difficultyBeatmapId: FatherOfAllExpert
+    _platformLeaderboardId: QuestFatherOfAllExpert
+  - _difficultyBeatmapId: FatherOfAllExpertPlus
+    _platformLeaderboardId: QuestFatherOfAllExpertPlus
+  - _difficultyBeatmapId: FatherOfAll360DegreeNormal
+    _platformLeaderboardId: QuestFatherOfAll360DegreeNormal
+  - _difficultyBeatmapId: FatherOfAll90DegreeNormal
+    _platformLeaderboardId: QuestFatherOfAll90DegreeNormal
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsEasy
+    _platformLeaderboardId: QuestBoulevardOfBrokenDreamsEasy
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsNormal
+    _platformLeaderboardId: QuestBoulevardOfBrokenDreamsNormal
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsHard
+    _platformLeaderboardId: QuestBoulevardOfBrokenDreamsHard
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsExpert
+    _platformLeaderboardId: QuestBoulevardOfBrokenDreamsExpert
+  - _difficultyBeatmapId: BoulevardOfBrokenDreamsExpertPlus
+    _platformLeaderboardId: QuestBoulevardOfBrokenDreamsExpertPlus
+  - _difficultyBeatmapId: HolidayEasy
+    _platformLeaderboardId: QuestHolidayEasy
+  - _difficultyBeatmapId: HolidayNormal
+    _platformLeaderboardId: QuestHolidayNormal
+  - _difficultyBeatmapId: HolidayHard
+    _platformLeaderboardId: QuestHolidayHard
+  - _difficultyBeatmapId: HolidayExpert
+    _platformLeaderboardId: QuestHolidayExpert
+  - _difficultyBeatmapId: HolidayExpertPlus
+    _platformLeaderboardId: QuestHolidayExpertPlus
+  - _difficultyBeatmapId: Holiday360DegreeHard
+    _platformLeaderboardId: QuestHoliday360DegreeHard
+  - _difficultyBeatmapId: Holiday90DegreeHard
+    _platformLeaderboardId: QuestHoliday90DegreeHard
+  - _difficultyBeatmapId: HolidayOneSaberNormal
+    _platformLeaderboardId: QuestHolidayOneSaberNormal
+  - _difficultyBeatmapId: HolidayOneSaberExpert
+    _platformLeaderboardId: QuestHolidayOneSaberExpert
+  - _difficultyBeatmapId: HolidayOneSaberExpertPlus
+    _platformLeaderboardId: QuestHolidayOneSaberExpertPlus
+  - _difficultyBeatmapId: FireReadyAimEasy
+    _platformLeaderboardId: QuestFireReadyAimEasy
+  - _difficultyBeatmapId: FireReadyAimNormal
+    _platformLeaderboardId: QuestFireReadyAimNormal
+  - _difficultyBeatmapId: FireReadyAimHard
+    _platformLeaderboardId: QuestFireReadyAimHard
+  - _difficultyBeatmapId: FireReadyAimExpert
+    _platformLeaderboardId: QuestFireReadyAimExpert
+  - _difficultyBeatmapId: FireReadyAimExpertPlus
+    _platformLeaderboardId: QuestFireReadyAimExpertPlus
+  - _difficultyBeatmapId: FireReadyAim360DegreeExpert
+    _platformLeaderboardId: QuestFireReadyAim360DegreeExpert
+  - _difficultyBeatmapId: FireReadyAim90DegreeExpert
+    _platformLeaderboardId: QuestFireReadyAim90DegreeExpert
+  - _difficultyBeatmapId: MinorityEasy
+    _platformLeaderboardId: QuestMinorityEasy
+  - _difficultyBeatmapId: MinorityNormal
+    _platformLeaderboardId: QuestMinorityNormal
+  - _difficultyBeatmapId: MinorityHard
+    _platformLeaderboardId: QuestMinorityHard
+  - _difficultyBeatmapId: MinorityExpert
+    _platformLeaderboardId: QuestMinorityExpert
+  - _difficultyBeatmapId: MinorityExpertPlus
+    _platformLeaderboardId: QuestMinorityExpertPlus
+  - _difficultyBeatmapId: PlayEasy
+    _platformLeaderboardId: QuestPlayEasy
+  - _difficultyBeatmapId: PlayNormal
+    _platformLeaderboardId: QuestPlayNormal
+  - _difficultyBeatmapId: PlayHard
+    _platformLeaderboardId: QuestPlayHard
+  - _difficultyBeatmapId: PlayExpert
+    _platformLeaderboardId: QuestPlayExpert
+  - _difficultyBeatmapId: PlayExpertPlus
+    _platformLeaderboardId: QuestPlayExpertPlus
+  - _difficultyBeatmapId: PlayOneSaberNormal
+    _platformLeaderboardId: QuestPlayOneSaberNormal
+  - _difficultyBeatmapId: PlayOneSaberExpert
+    _platformLeaderboardId: QuestPlayOneSaberExpert
+  - _difficultyBeatmapId: PlayOneSaberExpertPlus
+    _platformLeaderboardId: QuestPlayOneSaberExpertPlus
+  - _difficultyBeatmapId: GlideEasy
+    _platformLeaderboardId: QuestGlideEasy
+  - _difficultyBeatmapId: GlideNormal
+    _platformLeaderboardId: QuestGlideNormal
+  - _difficultyBeatmapId: GlideHard
+    _platformLeaderboardId: QuestGlideHard
+  - _difficultyBeatmapId: GlideExpert
+    _platformLeaderboardId: QuestGlideExpert
+  - _difficultyBeatmapId: GlideExpertPlus
+    _platformLeaderboardId: QuestGlideExpertPlus
+  - _difficultyBeatmapId: Glide360DegreeExpertPlus
+    _platformLeaderboardId: QuestGlide360DegreeExpertPlus
+  - _difficultyBeatmapId: Glide90DegreeExpertPlus
+    _platformLeaderboardId: QuestGlide90DegreeExpertPlus
+  - _difficultyBeatmapId: LuvUNeedUEasy
+    _platformLeaderboardId: QuestLuvUNeedUEasy
+  - _difficultyBeatmapId: LuvUNeedUNormal
+    _platformLeaderboardId: QuestLuvUNeedUNormal
+  - _difficultyBeatmapId: LuvUNeedUHard
+    _platformLeaderboardId: QuestLuvUNeedUHard
+  - _difficultyBeatmapId: LuvUNeedUExpert
+    _platformLeaderboardId: QuestLuvUNeedUExpert
+  - _difficultyBeatmapId: LuvUNeedUExpertPlus
+    _platformLeaderboardId: QuestLuvUNeedUExpertPlus
+  - _difficultyBeatmapId: LuvUNeedU360DegreeHard
+    _platformLeaderboardId: QuestLuvUNeedU360DegreeHard
+  - _difficultyBeatmapId: LuvUNeedU90DegreeHard
+    _platformLeaderboardId: QuestLuvUNeedU90DegreeHard
+  - _difficultyBeatmapId: LuvUNeedUOneSaberNormal
+    _platformLeaderboardId: QuestLuvUNeedUOneSaberNormal
+  - _difficultyBeatmapId: LuvUNeedUOneSaberExpert
+    _platformLeaderboardId: QuestLuvUNeedUOneSaberExpert
+  - _difficultyBeatmapId: LuvUNeedUOneSaberExpertPlus
+    _platformLeaderboardId: QuestLuvUNeedUOneSaberExpertPlus
+  - _difficultyBeatmapId: RockItEasy
+    _platformLeaderboardId: QuestRockItEasy
+  - _difficultyBeatmapId: RockItNormal
+    _platformLeaderboardId: QuestRockItNormal
+  - _difficultyBeatmapId: RockItHard
+    _platformLeaderboardId: QuestRockItHard
+  - _difficultyBeatmapId: RockItExpert
+    _platformLeaderboardId: QuestRockItExpert
+  - _difficultyBeatmapId: RockItExpertPlus
+    _platformLeaderboardId: QuestRockItExpertPlus
+  - _difficultyBeatmapId: ShiawaseEasy
+    _platformLeaderboardId: QuestShiawaseEasy
+  - _difficultyBeatmapId: ShiawaseNormal
+    _platformLeaderboardId: QuestShiawaseNormal
+  - _difficultyBeatmapId: ShiawaseHard
+    _platformLeaderboardId: QuestShiawaseHard
+  - _difficultyBeatmapId: ShiawaseExpert
+    _platformLeaderboardId: QuestShiawaseExpert
+  - _difficultyBeatmapId: ShiawaseExpertPlus
+    _platformLeaderboardId: QuestShiawaseExpertPlus
+  - _difficultyBeatmapId: TestMeEasy
+    _platformLeaderboardId: QuestTestMeEasy
+  - _difficultyBeatmapId: TestMeNormal
+    _platformLeaderboardId: QuestTestMeNormal
+  - _difficultyBeatmapId: TestMeHard
+    _platformLeaderboardId: QuestTestMeHard
+  - _difficultyBeatmapId: TestMeExpert
+    _platformLeaderboardId: QuestTestMeExpert
+  - _difficultyBeatmapId: TestMeExpertPlus
+    _platformLeaderboardId: QuestTestMeExpertPlus
+  - _difficultyBeatmapId: TheGreatestShowEasy
+    _platformLeaderboardId: QuestTheGreatestShowEasy
+  - _difficultyBeatmapId: TheGreatestShowNormal
+    _platformLeaderboardId: QuestTheGreatestShowNormal
+  - _difficultyBeatmapId: TheGreatestShowHard
+    _platformLeaderboardId: QuestTheGreatestShowHard
+  - _difficultyBeatmapId: TheGreatestShowExpert
+    _platformLeaderboardId: QuestTheGreatestShowExpert
+  - _difficultyBeatmapId: TheGreatestShowExpertPlus
+    _platformLeaderboardId: QuestTheGreatestShowExpertPlus
+  - _difficultyBeatmapId: TheGreatestShow360DegreeHard
+    _platformLeaderboardId: QuestTheGreatestShow360DegreeHard
+  - _difficultyBeatmapId: TheGreatestShow90DegreeHard
+    _platformLeaderboardId: QuestTheGreatestShow90DegreeHard
+  - _difficultyBeatmapId: TheGreatestShowOneSaberNormal
+    _platformLeaderboardId: QuestTheGreatestShowOneSaberNormal
+  - _difficultyBeatmapId: TheGreatestShowOneSaberExpert
+    _platformLeaderboardId: QuestTheGreatestShowOneSaberExpert
+  - _difficultyBeatmapId: TheGreatestShowOneSaberExpertPlus
+    _platformLeaderboardId: QuestTheGreatestShowOneSaberExpertPlus
+  - _difficultyBeatmapId: VictoriousEasy
+    _platformLeaderboardId: QuestVictoriousEasy
+  - _difficultyBeatmapId: VictoriousNormal
+    _platformLeaderboardId: QuestVictoriousNormal
+  - _difficultyBeatmapId: VictoriousHard
+    _platformLeaderboardId: QuestVictoriousHard
+  - _difficultyBeatmapId: VictoriousExpert
+    _platformLeaderboardId: QuestVictoriousExpert
+  - _difficultyBeatmapId: VictoriousExpertPlus
+    _platformLeaderboardId: QuestVictoriousExpertPlus
+  - _difficultyBeatmapId: EmperorsNewClothesEasy
+    _platformLeaderboardId: QuestEmperorsNewClothesEasy
+  - _difficultyBeatmapId: EmperorsNewClothesNormal
+    _platformLeaderboardId: QuestEmperorsNewClothesNormal
+  - _difficultyBeatmapId: EmperorsNewClothesHard
+    _platformLeaderboardId: QuestEmperorsNewClothesHard
+  - _difficultyBeatmapId: EmperorsNewClothesExpert
+    _platformLeaderboardId: QuestEmperorsNewClothesExpert
+  - _difficultyBeatmapId: EmperorsNewClothesExpertPlus
+    _platformLeaderboardId: QuestEmperorsNewClothesExpertPlus
+  - _difficultyBeatmapId: EmperorsNewClothes360DegreeExpert
+    _platformLeaderboardId: QuestEmperorsNewClothes360DegreeExpert
+  - _difficultyBeatmapId: EmperorsNewClothes90DegreeExpert
+    _platformLeaderboardId: QuestEmperorsNewClothes90DegreeExpert
+  - _difficultyBeatmapId: HighHopesEasy
+    _platformLeaderboardId: QuestHighHopesEasy
+  - _difficultyBeatmapId: HighHopesNormal
+    _platformLeaderboardId: QuestHighHopesNormal
+  - _difficultyBeatmapId: HighHopesHard
+    _platformLeaderboardId: QuestHighHopesHard
+  - _difficultyBeatmapId: HighHopesExpert
+    _platformLeaderboardId: QuestHighHopesExpert
+  - _difficultyBeatmapId: HighHopesExpertPlus
+    _platformLeaderboardId: QuestHighHopesExpertPlus
+  - _difficultyBeatmapId: HighHopesOneSaberNormal
+    _platformLeaderboardId: QuestHighHopesOneSaberNormal
+  - _difficultyBeatmapId: HighHopesOneSaberExpert
+    _platformLeaderboardId: QuestHighHopesOneSaberExpert
+  - _difficultyBeatmapId: HighHopesOneSaberExpertPlus
+    _platformLeaderboardId: QuestHighHopesOneSaberExpertPlus
+  - _difficultyBeatmapId: HighHopes360DegreeHard
+    _platformLeaderboardId: QuestHighHopes360DegreeHard
+  - _difficultyBeatmapId: HighHopes90DegreeHard
+    _platformLeaderboardId: QuestHighHopes90DegreeHard
+  - _difficultyBeatmapId: BadLiarEasy
+    _platformLeaderboardId: QuestBadLiarEasy
+  - _difficultyBeatmapId: BadLiarNormal
+    _platformLeaderboardId: QuestBadLiarNormal
+  - _difficultyBeatmapId: BadLiarHard
+    _platformLeaderboardId: QuestBadLiarHard
+  - _difficultyBeatmapId: BadLiarExpert
+    _platformLeaderboardId: QuestBadLiarExpert
+  - _difficultyBeatmapId: BadLiarExpertPlus
+    _platformLeaderboardId: QuestBadLiarExpertPlus
+  - _difficultyBeatmapId: BelieverEasy
+    _platformLeaderboardId: QuestBelieverEasy
+  - _difficultyBeatmapId: BelieverNormal
+    _platformLeaderboardId: QuestBelieverNormal
+  - _difficultyBeatmapId: BelieverHard
+    _platformLeaderboardId: QuestBelieverHard
+  - _difficultyBeatmapId: BelieverExpert
+    _platformLeaderboardId: QuestBelieverExpert
+  - _difficultyBeatmapId: BelieverExpertPlus
+    _platformLeaderboardId: QuestBelieverExpertPlus
+  - _difficultyBeatmapId: BelieverOneSaberNormal
+    _platformLeaderboardId: QuestBelieverOneSaberNormal
+  - _difficultyBeatmapId: BelieverOneSaberExpert
+    _platformLeaderboardId: QuestBelieverOneSaberExpert
+  - _difficultyBeatmapId: BelieverOneSaberExpertPlus
+    _platformLeaderboardId: QuestBelieverOneSaberExpertPlus
+  - _difficultyBeatmapId: Believer360DegreeNormal
+    _platformLeaderboardId: QuestBeliever360DegreeNormal
+  - _difficultyBeatmapId: Believer360DegreeHard
+    _platformLeaderboardId: QuestBeliever360DegreeHard
+  - _difficultyBeatmapId: Believer90DegreeNormal
+    _platformLeaderboardId: QuestBeliever90DegreeNormal
+  - _difficultyBeatmapId: Believer90DegreeHard
+    _platformLeaderboardId: QuestBeliever90DegreeHard
+  - _difficultyBeatmapId: DigitalEasy
+    _platformLeaderboardId: QuestDigitalEasy
+  - _difficultyBeatmapId: DigitalNormal
+    _platformLeaderboardId: QuestDigitalNormal
+  - _difficultyBeatmapId: DigitalHard
+    _platformLeaderboardId: QuestDigitalHard
+  - _difficultyBeatmapId: DigitalExpert
+    _platformLeaderboardId: QuestDigitalExpert
+  - _difficultyBeatmapId: DigitalExpertPlus
+    _platformLeaderboardId: QuestDigitalExpertPlus
+  - _difficultyBeatmapId: Digital360DegreeExpert
+    _platformLeaderboardId: QuestDigital360DegreeExpert
+  - _difficultyBeatmapId: Digital90DegreeExpert
+    _platformLeaderboardId: QuestDigital90DegreeExpert
+  - _difficultyBeatmapId: ItsTimeEasy
+    _platformLeaderboardId: QuestItsTimeEasy
+  - _difficultyBeatmapId: ItsTimeNormal
+    _platformLeaderboardId: QuestItsTimeNormal
+  - _difficultyBeatmapId: ItsTimeHard
+    _platformLeaderboardId: QuestItsTimeHard
+  - _difficultyBeatmapId: ItsTimeExpert
+    _platformLeaderboardId: QuestItsTimeExpert
+  - _difficultyBeatmapId: ItsTimeExpertPlus
+    _platformLeaderboardId: QuestItsTimeExpertPlus
+  - _difficultyBeatmapId: MachineEasy
+    _platformLeaderboardId: QuestMachineEasy
+  - _difficultyBeatmapId: MachineNormal
+    _platformLeaderboardId: QuestMachineNormal
+  - _difficultyBeatmapId: MachineHard
+    _platformLeaderboardId: QuestMachineHard
+  - _difficultyBeatmapId: MachineExpert
+    _platformLeaderboardId: QuestMachineExpert
+  - _difficultyBeatmapId: MachineExpertPlus
+    _platformLeaderboardId: QuestMachineExpertPlus
+  - _difficultyBeatmapId: NaturalEasy
+    _platformLeaderboardId: QuestNaturalEasy
+  - _difficultyBeatmapId: NaturalNormal
+    _platformLeaderboardId: QuestNaturalNormal
+  - _difficultyBeatmapId: NaturalHard
+    _platformLeaderboardId: QuestNaturalHard
+  - _difficultyBeatmapId: NaturalExpert
+    _platformLeaderboardId: QuestNaturalExpert
+  - _difficultyBeatmapId: NaturalExpertPlus
+    _platformLeaderboardId: QuestNaturalExpertPlus
+  - _difficultyBeatmapId: RadioactiveEasy
+    _platformLeaderboardId: QuestRadioactiveEasy
+  - _difficultyBeatmapId: RadioactiveNormal
+    _platformLeaderboardId: QuestRadioactiveNormal
+  - _difficultyBeatmapId: RadioactiveHard
+    _platformLeaderboardId: QuestRadioactiveHard
+  - _difficultyBeatmapId: RadioactiveExpert
+    _platformLeaderboardId: QuestRadioactiveExpert
+  - _difficultyBeatmapId: RadioactiveExpertPlus
+    _platformLeaderboardId: QuestRadioactiveExpertPlus
+  - _difficultyBeatmapId: ThunderEasy
+    _platformLeaderboardId: QuestThunderEasy
+  - _difficultyBeatmapId: ThunderNormal
+    _platformLeaderboardId: QuestThunderNormal
+  - _difficultyBeatmapId: ThunderHard
+    _platformLeaderboardId: QuestThunderHard
+  - _difficultyBeatmapId: ThunderExpert
+    _platformLeaderboardId: QuestThunderExpert
+  - _difficultyBeatmapId: ThunderExpertPlus
+    _platformLeaderboardId: QuestThunderExpertPlus
+  - _difficultyBeatmapId: Thunder360DegreeHard
+    _platformLeaderboardId: QuestThunder360DegreeHard
+  - _difficultyBeatmapId: Thunder90DegreeHard
+    _platformLeaderboardId: QuestThunder90DegreeHard
+  - _difficultyBeatmapId: WarriorsEasy
+    _platformLeaderboardId: QuestWarriorsEasy
+  - _difficultyBeatmapId: WarriorsNormal
+    _platformLeaderboardId: QuestWarriorsNormal
+  - _difficultyBeatmapId: WarriorsHard
+    _platformLeaderboardId: QuestWarriorsHard
+  - _difficultyBeatmapId: WarriorsExpert
+    _platformLeaderboardId: QuestWarriorsExpert
+  - _difficultyBeatmapId: WarriorsExpertPlus
+    _platformLeaderboardId: QuestWarriorsExpertPlus
+  - _difficultyBeatmapId: WhateverItTakesEasy
+    _platformLeaderboardId: QuestWhateverItTakesEasy
+  - _difficultyBeatmapId: WhateverItTakesNormal
+    _platformLeaderboardId: QuestWhateverItTakesNormal
+  - _difficultyBeatmapId: WhateverItTakesHard
+    _platformLeaderboardId: QuestWhateverItTakesHard
+  - _difficultyBeatmapId: WhateverItTakesExpert
+    _platformLeaderboardId: QuestWhateverItTakesExpert
+  - _difficultyBeatmapId: WhateverItTakesExpertPlus
+    _platformLeaderboardId: QuestWhateverItTakesExpertPlus
+  - _difficultyBeatmapId: WhateverItTakesOneSaberNormal
+    _platformLeaderboardId: QuestWhateverItTakesOneSaberNormal
+  - _difficultyBeatmapId: WhateverItTakesOneSaberExpert
+    _platformLeaderboardId: QuestWhateverItTakesOneSaberExpert
+  - _difficultyBeatmapId: WhateverItTakesOneSaberExpertPlus
+    _platformLeaderboardId: QuestWhateverItTakesOneSaberExpertPlus
+  - _difficultyBeatmapId: BoundlessEasy
+    _platformLeaderboardId: QuestBoundlessEasy
+  - _difficultyBeatmapId: BoundlessNormal
+    _platformLeaderboardId: QuestBoundlessNormal
+  - _difficultyBeatmapId: BoundlessHard
+    _platformLeaderboardId: QuestBoundlessHard
+  - _difficultyBeatmapId: BoundlessExpert
+    _platformLeaderboardId: QuestBoundlessExpert
+  - _difficultyBeatmapId: BoundlessExpertPlus
+    _platformLeaderboardId: QuestBoundlessExpertPlus
+  - _difficultyBeatmapId: BoundlessOneSaberNormal
+    _platformLeaderboardId: QuestBoundlessOneSaberNormal
+  - _difficultyBeatmapId: BoundlessOneSaberExpert
+    _platformLeaderboardId: QuestBoundlessOneSaberExpert
+  - _difficultyBeatmapId: BoundlessOneSaberExpertPlus
+    _platformLeaderboardId: QuestBoundlessOneSaberExpertPlus
+  - _difficultyBeatmapId: EmojiVIPEasy
+    _platformLeaderboardId: QuestEmojiVIPEasy
+  - _difficultyBeatmapId: EmojiVIPNormal
+    _platformLeaderboardId: QuestEmojiVIPNormal
+  - _difficultyBeatmapId: EmojiVIPHard
+    _platformLeaderboardId: QuestEmojiVIPHard
+  - _difficultyBeatmapId: EmojiVIPExpert
+    _platformLeaderboardId: QuestEmojiVIPExpert
+  - _difficultyBeatmapId: EmojiVIPExpertPlus
+    _platformLeaderboardId: QuestEmojiVIPExpertPlus
+  - _difficultyBeatmapId: EpicEasy
+    _platformLeaderboardId: QuestEpicEasy
+  - _difficultyBeatmapId: EpicNormal
+    _platformLeaderboardId: QuestEpicNormal
+  - _difficultyBeatmapId: EpicHard
+    _platformLeaderboardId: QuestEpicHard
+  - _difficultyBeatmapId: EpicExpert
+    _platformLeaderboardId: QuestEpicExpert
+  - _difficultyBeatmapId: EpicExpertPlus
+    _platformLeaderboardId: QuestEpicExpertPlus
+  - _difficultyBeatmapId: Epic360DegreeExpert
+    _platformLeaderboardId: QuestEpic360DegreeExpert
+  - _difficultyBeatmapId: Epic90DegreeExpert
+    _platformLeaderboardId: QuestEpic90DegreeExpert
+  - _difficultyBeatmapId: FeelingStrongerEasy
+    _platformLeaderboardId: QuestFeelingStrongerEasy
+  - _difficultyBeatmapId: FeelingStrongerNormal
+    _platformLeaderboardId: QuestFeelingStrongerNormal
+  - _difficultyBeatmapId: FeelingStrongerHard
+    _platformLeaderboardId: QuestFeelingStrongerHard
+  - _difficultyBeatmapId: FeelingStrongerExpert
+    _platformLeaderboardId: QuestFeelingStrongerExpert
+  - _difficultyBeatmapId: FeelingStrongerExpertPlus
+    _platformLeaderboardId: QuestFeelingStrongerExpertPlus
+  - _difficultyBeatmapId: OverkillEasy
+    _platformLeaderboardId: QuestOverkillEasy
+  - _difficultyBeatmapId: OverkillNormal
+    _platformLeaderboardId: QuestOverkillNormal
+  - _difficultyBeatmapId: OverkillHard
+    _platformLeaderboardId: QuestOverkillHard
+  - _difficultyBeatmapId: OverkillExpert
+    _platformLeaderboardId: QuestOverkillExpert
+  - _difficultyBeatmapId: OverkillExpertPlus
+    _platformLeaderboardId: QuestOverkillExpertPlus
+  - _difficultyBeatmapId: Overkill360DegreeExpertPlus
+    _platformLeaderboardId: QuestOverkill360DegreeExpertPlus
+  - _difficultyBeatmapId: Overkill90DegreeExpertPlus
+    _platformLeaderboardId: QuestOverkill90DegreeExpertPlus
+  - _difficultyBeatmapId: OverkillOneSaberNormal
+    _platformLeaderboardId: QuestOverkillOneSaberNormal
+  - _difficultyBeatmapId: OverkillOneSaberExpert
+    _platformLeaderboardId: QuestOverkillOneSaberExpert
+  - _difficultyBeatmapId: OverkillOneSaberExpertPlus
+    _platformLeaderboardId: QuestOverkillOneSaberExpertPlus
+  - _difficultyBeatmapId: RattlesnakeEasy
+    _platformLeaderboardId: QuestRattlesnakeEasy
+  - _difficultyBeatmapId: RattlesnakeNormal
+    _platformLeaderboardId: QuestRattlesnakeNormal
+  - _difficultyBeatmapId: RattlesnakeHard
+    _platformLeaderboardId: QuestRattlesnakeHard
+  - _difficultyBeatmapId: RattlesnakeExpert
+    _platformLeaderboardId: QuestRattlesnakeExpert
+  - _difficultyBeatmapId: RattlesnakeExpertPlus
+    _platformLeaderboardId: QuestRattlesnakeExpertPlus
+  - _difficultyBeatmapId: Rattlesnake360DegreeExpertPlus
+    _platformLeaderboardId: QuestRattlesnake360DegreeExpertPlus
+  - _difficultyBeatmapId: Rattlesnake90DegreeExpertPlus
+    _platformLeaderboardId: QuestRattlesnake90DegreeExpertPlus
+  - _difficultyBeatmapId: StrongerEasy
+    _platformLeaderboardId: QuestStrongerEasy
+  - _difficultyBeatmapId: StrongerNormal
+    _platformLeaderboardId: QuestStrongerNormal
+  - _difficultyBeatmapId: StrongerHard
+    _platformLeaderboardId: QuestStrongerHard
+  - _difficultyBeatmapId: StrongerExpert
+    _platformLeaderboardId: QuestStrongerExpert
+  - _difficultyBeatmapId: StrongerExpertPlus
+    _platformLeaderboardId: QuestStrongerExpertPlus
+  - _difficultyBeatmapId: ThisTimeEasy
+    _platformLeaderboardId: QuestThisTimeEasy
+  - _difficultyBeatmapId: ThisTimeNormal
+    _platformLeaderboardId: QuestThisTimeNormal
+  - _difficultyBeatmapId: ThisTimeHard
+    _platformLeaderboardId: QuestThisTimeHard
+  - _difficultyBeatmapId: ThisTimeExpert
+    _platformLeaderboardId: QuestThisTimeExpert
+  - _difficultyBeatmapId: ThisTimeExpertPlus
+    _platformLeaderboardId: QuestThisTimeExpertPlus
+  - _difficultyBeatmapId: ThisTimeOneSaberNormal
+    _platformLeaderboardId: QuestThisTimeOneSaberNormal
+  - _difficultyBeatmapId: ThisTimeOneSaberExpert
+    _platformLeaderboardId: QuestThisTimeOneSaberExpert
+  - _difficultyBeatmapId: ThisTimeOneSaberExpertPlus
+    _platformLeaderboardId: QuestThisTimeOneSaberExpertPlus
+  - _difficultyBeatmapId: TillItsOverEasy
+    _platformLeaderboardId: QuestTillItsOverEasy
+  - _difficultyBeatmapId: TillItsOverNormal
+    _platformLeaderboardId: QuestTillItsOverNormal
+  - _difficultyBeatmapId: TillItsOverHard
+    _platformLeaderboardId: QuestTillItsOverHard
+  - _difficultyBeatmapId: TillItsOverExpert
+    _platformLeaderboardId: QuestTillItsOverExpert
+  - _difficultyBeatmapId: TillItsOverExpertPlus
+    _platformLeaderboardId: QuestTillItsOverExpertPlus
+  - _difficultyBeatmapId: TillItsOver360DegreeEasy
+    _platformLeaderboardId: QuestTillItsOver360DegreeEasy
+  - _difficultyBeatmapId: TillItsOver90DegreeEasy
+    _platformLeaderboardId: QuestTillItsOver90DegreeEasy
+  - _difficultyBeatmapId: WeWontBeAloneEasy
+    _platformLeaderboardId: QuestWeWontBeAloneEasy
+  - _difficultyBeatmapId: WeWontBeAloneNormal
+    _platformLeaderboardId: QuestWeWontBeAloneNormal
+  - _difficultyBeatmapId: WeWontBeAloneHard
+    _platformLeaderboardId: QuestWeWontBeAloneHard
+  - _difficultyBeatmapId: WeWontBeAloneExpert
+    _platformLeaderboardId: QuestWeWontBeAloneExpert
+  - _difficultyBeatmapId: WeWontBeAloneExpertPlus
+    _platformLeaderboardId: QuestWeWontBeAloneExpertPlus
+  - _difficultyBeatmapId: BlindingLightsOneSaberNormal
+    _platformLeaderboardId: QuestBlindingLightsOneSaberNormal
+  - _difficultyBeatmapId: BlindingLightsOneSaberExpert
+    _platformLeaderboardId: QuestBlindingLightsOneSaberExpert
+  - _difficultyBeatmapId: BlindingLightsOneSaberExpertPlus
+    _platformLeaderboardId: QuestBlindingLightsOneSaberExpertPlus
+  - _difficultyBeatmapId: BlindingLightsEasy
+    _platformLeaderboardId: QuestBlindingLightsEasy
+  - _difficultyBeatmapId: BlindingLightsNormal
+    _platformLeaderboardId: QuestBlindingLightsNormal
+  - _difficultyBeatmapId: BlindingLightsHard
+    _platformLeaderboardId: QuestBlindingLightsHard
+  - _difficultyBeatmapId: BlindingLightsExpert
+    _platformLeaderboardId: QuestBlindingLightsExpert
+  - _difficultyBeatmapId: BlindingLightsExpertPlus
+    _platformLeaderboardId: QuestBlindingLightsExpertPlus
+  - _difficultyBeatmapId: CantFeelMyFaceEasy
+    _platformLeaderboardId: QuestCantFeelMyFaceEasy
+  - _difficultyBeatmapId: CantFeelMyFaceNormal
+    _platformLeaderboardId: QuestCantFeelMyFaceNormal
+  - _difficultyBeatmapId: CantFeelMyFaceHard
+    _platformLeaderboardId: QuestCantFeelMyFaceHard
+  - _difficultyBeatmapId: CantFeelMyFaceExpert
+    _platformLeaderboardId: QuestCantFeelMyFaceExpert
+  - _difficultyBeatmapId: CantFeelMyFaceExpertPlus
+    _platformLeaderboardId: QuestCantFeelMyFaceExpertPlus
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeEasy
+    _platformLeaderboardId: QuestHowDoIMakeYouLoveMeEasy
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeNormal
+    _platformLeaderboardId: QuestHowDoIMakeYouLoveMeNormal
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeHard
+    _platformLeaderboardId: QuestHowDoIMakeYouLoveMeHard
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeExpert
+    _platformLeaderboardId: QuestHowDoIMakeYouLoveMeExpert
+  - _difficultyBeatmapId: HowDoIMakeYouLoveMeExpertPlus
+    _platformLeaderboardId: QuestHowDoIMakeYouLoveMeExpertPlus
+  - _difficultyBeatmapId: IFeelItComingEasy
+    _platformLeaderboardId: QuestIFeelItComingEasy
+  - _difficultyBeatmapId: IFeelItComingNormal
+    _platformLeaderboardId: QuestIFeelItComingNormal
+  - _difficultyBeatmapId: IFeelItComingHard
+    _platformLeaderboardId: QuestIFeelItComingHard
+  - _difficultyBeatmapId: IFeelItComingExpert
+    _platformLeaderboardId: QuestIFeelItComingExpert
+  - _difficultyBeatmapId: IFeelItComingExpertPlus
+    _platformLeaderboardId: QuestIFeelItComingExpertPlus
+  - _difficultyBeatmapId: PrayForMeEasy
+    _platformLeaderboardId: QuestPrayForMeEasy
+  - _difficultyBeatmapId: PrayForMeNormal
+    _platformLeaderboardId: QuestPrayForMeNormal
+  - _difficultyBeatmapId: PrayForMeHard
+    _platformLeaderboardId: QuestPrayForMeHard
+  - _difficultyBeatmapId: PrayForMeExpert
+    _platformLeaderboardId: QuestPrayForMeExpert
+  - _difficultyBeatmapId: PrayForMeExpertPlus
+    _platformLeaderboardId: QuestPrayForMeExpertPlus
+  - _difficultyBeatmapId: SacrificeEasy
+    _platformLeaderboardId: QuestSacrificeEasy
+  - _difficultyBeatmapId: SacrificeNormal
+    _platformLeaderboardId: QuestSacrificeNormal
+  - _difficultyBeatmapId: SacrificeHard
+    _platformLeaderboardId: QuestSacrificeHard
+  - _difficultyBeatmapId: SacrificeExpert
+    _platformLeaderboardId: QuestSacrificeExpert
+  - _difficultyBeatmapId: SacrificeExpertPlus
+    _platformLeaderboardId: QuestSacrificeExpertPlus
+  - _difficultyBeatmapId: SaveYourTearsEasy
+    _platformLeaderboardId: QuestSaveYourTearsEasy
+  - _difficultyBeatmapId: SaveYourTearsNormal
+    _platformLeaderboardId: QuestSaveYourTearsNormal
+  - _difficultyBeatmapId: SaveYourTearsHard
+    _platformLeaderboardId: QuestSaveYourTearsHard
+  - _difficultyBeatmapId: SaveYourTearsExpert
+    _platformLeaderboardId: QuestSaveYourTearsExpert
+  - _difficultyBeatmapId: SaveYourTearsExpertPlus
+    _platformLeaderboardId: QuestSaveYourTearsExpertPlus
+  - _difficultyBeatmapId: SaveYourTearsOneSaberNormal
+    _platformLeaderboardId: QuestSaveYourTearsOneSaberNormal
+  - _difficultyBeatmapId: SaveYourTearsOneSaberExpert
+    _platformLeaderboardId: QuestSaveYourTearsOneSaberExpert
+  - _difficultyBeatmapId: SaveYourTearsOneSaberExpertPlus
+    _platformLeaderboardId: QuestSaveYourTearsOneSaberExpertPlus
+  - _difficultyBeatmapId: StarboyEasy
+    _platformLeaderboardId: QuestStarboyEasy
+  - _difficultyBeatmapId: StarboyNormal
+    _platformLeaderboardId: QuestStarboyNormal
+  - _difficultyBeatmapId: StarboyHard
+    _platformLeaderboardId: QuestStarboyHard
+  - _difficultyBeatmapId: StarboyExpert
+    _platformLeaderboardId: QuestStarboyExpert
+  - _difficultyBeatmapId: StarboyExpertPlus
+    _platformLeaderboardId: QuestStarboyExpertPlus
+  - _difficultyBeatmapId: TakeMyBreathEasy
+    _platformLeaderboardId: QuestTakeMyBreathEasy
+  - _difficultyBeatmapId: TakeMyBreathNormal
+    _platformLeaderboardId: QuestTakeMyBreathNormal
+  - _difficultyBeatmapId: TakeMyBreathHard
+    _platformLeaderboardId: QuestTakeMyBreathHard
+  - _difficultyBeatmapId: TakeMyBreathExpert
+    _platformLeaderboardId: QuestTakeMyBreathExpert
+  - _difficultyBeatmapId: TakeMyBreathExpertPlus
+    _platformLeaderboardId: QuestTakeMyBreathExpertPlus
+  - _difficultyBeatmapId: TheHillsEasy
+    _platformLeaderboardId: QuestTheHillsEasy
+  - _difficultyBeatmapId: TheHillsNormal
+    _platformLeaderboardId: QuestTheHillsNormal
+  - _difficultyBeatmapId: TheHillsHard
+    _platformLeaderboardId: QuestTheHillsHard
+  - _difficultyBeatmapId: TheHillsExpert
+    _platformLeaderboardId: QuestTheHillsExpert
+  - _difficultyBeatmapId: TheHillsExpertPlus
+    _platformLeaderboardId: QuestTheHillsExpertPlus
+  - _difficultyBeatmapId: BornToBeWildEasy
+    _platformLeaderboardId: bee942e157fd4297b746c206
+  - _difficultyBeatmapId: BornToBeWildNormal
+    _platformLeaderboardId: l1ke53nnf7jka3ha7g18eake
+  - _difficultyBeatmapId: BornToBeWildHard
+    _platformLeaderboardId: 8dn4ma9167kee7cba211jh2f
+  - _difficultyBeatmapId: BornToBeWildExpert
+    _platformLeaderboardId: 2ica436a0fmba33emfd7e27g
+  - _difficultyBeatmapId: BornToBeWildExpertPlus
+    _platformLeaderboardId: lj3aib061l25cglc0k9k3k12
+  - _difficultyBeatmapId: BornToBeWildOneSaberNormal
+    _platformLeaderboardId: 9cl199k38m74n4705fi5132i
+  - _difficultyBeatmapId: BornToBeWildOneSaberExpert
+    _platformLeaderboardId: ggf6nmima8e7mc9ikba6ej36
+  - _difficultyBeatmapId: BornToBeWildOneSaberExpertPlus
+    _platformLeaderboardId: ha8lig6h7c0c58b0ni9bmf3j
+  - _difficultyBeatmapId: EyeOfTheTigerEasy
+    _platformLeaderboardId: 8ij31iakgll5meddi7h1cldm
+  - _difficultyBeatmapId: EyeOfTheTigerNormal
+    _platformLeaderboardId: 50c9ge376g64f0884di1l675
+  - _difficultyBeatmapId: EyeOfTheTigerHard
+    _platformLeaderboardId: 7keb36790ce7je9g8ajigmn8
+  - _difficultyBeatmapId: EyeOfTheTigerExpert
+    _platformLeaderboardId: m83eh04la6j5mi96c1k3bf4n
+  - _difficultyBeatmapId: EyeOfTheTigerExpertPlus
+    _platformLeaderboardId: mg34dbe6766me3n394mcnfmh
+  - _difficultyBeatmapId: FreeBirdEasy
+    _platformLeaderboardId: ihbe0ml6elfein9j4ib98032
+  - _difficultyBeatmapId: FreeBirdNormal
+    _platformLeaderboardId: mced4l35bca6indee14gj78a
+  - _difficultyBeatmapId: FreeBirdHard
+    _platformLeaderboardId: 0ckebm5lkkhgh152c43if11n
+  - _difficultyBeatmapId: FreeBirdExpert
+    _platformLeaderboardId: m6idn7g4e6m7dn113a0ljjmc
+  - _difficultyBeatmapId: FreeBirdExpertPlus
+    _platformLeaderboardId: ng8656500e5h2984nhd3h7f0
+  - _difficultyBeatmapId: IWasMadeLovingYouEasy
+    _platformLeaderboardId: gb77nh3daag75mnm70176d28
+  - _difficultyBeatmapId: IWasMadeLovingYouNormal
+    _platformLeaderboardId: d59k95ad71m7nca8bhghb5l9
+  - _difficultyBeatmapId: IWasMadeLovingYouHard
+    _platformLeaderboardId: m18hgen4hk1icn51jlianjhk
+  - _difficultyBeatmapId: IWasMadeLovingYouExpert
+    _platformLeaderboardId: l73471jlfm50j45icnh0i5n4
+  - _difficultyBeatmapId: IWasMadeLovingYouExpertPlus
+    _platformLeaderboardId: fbjid47f19lgme9i1194jb69
+  - _difficultyBeatmapId: SevenNationArmyEasy
+    _platformLeaderboardId: 6bc3m9b88m4fgfmenc7db4la
+  - _difficultyBeatmapId: SevenNationArmyNormal
+    _platformLeaderboardId: j639jn9mi9kml25a09j0i427
+  - _difficultyBeatmapId: SevenNationArmyHard
+    _platformLeaderboardId: f60ljigklc5lai521m5d7hg1
+  - _difficultyBeatmapId: SevenNationArmyExpert
+    _platformLeaderboardId: 1jdmeb1j64aj0eff0gfm44eh
+  - _difficultyBeatmapId: SevenNationArmyExpertPlus
+    _platformLeaderboardId: 53mhj9724hh02j85keedc730
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritEasy
+    _platformLeaderboardId: 60343f9e1edchjm9ch7c75nd
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritNormal
+    _platformLeaderboardId: i89346l2cn9b5413g6mingfk
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritHard
+    _platformLeaderboardId: i6bnei2gh33n8i4l91gkn111
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritExpert
+    _platformLeaderboardId: b7bcb4l4fj0fakgbnf7a4j7c
+  - _difficultyBeatmapId: SmellsLikeTeenSpiritExpertPlus
+    _platformLeaderboardId: 0j9dn9jec45lfmi1nii8522j
+  - _difficultyBeatmapId: SweetChildOMineEasy
+    _platformLeaderboardId: n7h77hg1ciai5ledklm19ch5
+  - _difficultyBeatmapId: SweetChildOMineNormal
+    _platformLeaderboardId: jbfjjic97g64inln30abke12
+  - _difficultyBeatmapId: SweetChildOMineHard
+    _platformLeaderboardId: e8lc99dl8c1jh15gk3897mhd
+  - _difficultyBeatmapId: SweetChildOMineExpert
+    _platformLeaderboardId: 11n5m7cn75h1lc5hf985inid
+  - _difficultyBeatmapId: SweetChildOMineExpertPlus
+    _platformLeaderboardId: 2lmlidge7m1dca7gabjij33l
+  - _difficultyBeatmapId: ThePretenderEasy
+    _platformLeaderboardId: j3bla7ghcn238dga64159ec8
+  - _difficultyBeatmapId: ThePretenderNormal
+    _platformLeaderboardId: fg3nlj804232l63e0mdhil75
+  - _difficultyBeatmapId: ThePretenderHard
+    _platformLeaderboardId: 3703mj2i06kkmda1g3hlnj2n
+  - _difficultyBeatmapId: ThePretenderExpert
+    _platformLeaderboardId: 9j5cb8b5cccm693ec22ibcg7
+  - _difficultyBeatmapId: ThePretenderExpertPlus
+    _platformLeaderboardId: jkiekn20kkhen32h57lf95f3
+  - _difficultyBeatmapId: ThePretenderOneSaberNormal
+    _platformLeaderboardId: 6856k3jk150a29857j9e09ll
+  - _difficultyBeatmapId: ThePretenderOneSaberExpert
+    _platformLeaderboardId: 1fdb6akl3ajc7n0aknm5chd5
+  - _difficultyBeatmapId: ThePretenderOneSaberExpertPlus
+    _platformLeaderboardId: 7eefd81ac1fe701ne9579m18
+  - _difficultyBeatmapId: BonesOneSaberNormal
+    _platformLeaderboardId: gk3bjm2mmd65cmh982ae4cak
+  - _difficultyBeatmapId: BonesOneSaberExpert
+    _platformLeaderboardId: b4emg4heceg4747jh9hmgi4m
+  - _difficultyBeatmapId: BonesOneSaberExpertPlus
+    _platformLeaderboardId: ibii1i26iiam1nflf440ja1d
+  - _difficultyBeatmapId: BonesEasy
+    _platformLeaderboardId: add08k40336j8189jm6fd4fk
+  - _difficultyBeatmapId: BonesNormal
+    _platformLeaderboardId: hi70k9739l02ijne9gb9hn78
+  - _difficultyBeatmapId: BonesHard
+    _platformLeaderboardId: 2jiic0d684l6bhdi6djnd393
+  - _difficultyBeatmapId: BonesExpert
+    _platformLeaderboardId: 0383i485ih10kdgb0adcc71f
+  - _difficultyBeatmapId: BonesExpertPlus
+    _platformLeaderboardId: 68181k7n6ie7819jhcm2l120
+  - _difficultyBeatmapId: EnemyEasy
+    _platformLeaderboardId: 8ng5728f3bld96g28a8f86fk
+  - _difficultyBeatmapId: EnemyNormal
+    _platformLeaderboardId: ijch1e3k99lfgjgmn1flhn3h
+  - _difficultyBeatmapId: EnemyHard
+    _platformLeaderboardId: gh5i2h12jelb7f0i0eml0lbh
+  - _difficultyBeatmapId: EnemyExpert
+    _platformLeaderboardId: ia70b47gdbdd38ik7ahlnlcd
+  - _difficultyBeatmapId: EnemyExpertPlus
+    _platformLeaderboardId: 5m546jia8123i7g9708843n5
+  - _difficultyBeatmapId: EnemyOneSaberNormal
+    _platformLeaderboardId: hj37g8g79gedl8e1emfbg6ah
+  - _difficultyBeatmapId: EnemyOneSaberExpert
+    _platformLeaderboardId: m703jf73j6mdccaa38h87i2f
+  - _difficultyBeatmapId: EnemyOneSaberExpertPlus
+    _platformLeaderboardId: lihjdh3hd6hlncja60h3jd6b
+  - _difficultyBeatmapId: CrazyGeniusEasy
+    _platformLeaderboardId: fh5m7a8k098mmjj6bl8dmm49
+  - _difficultyBeatmapId: CrazyGeniusNormal
+    _platformLeaderboardId: ag746b9n1j2ml7a9lfn12633
+  - _difficultyBeatmapId: CrazyGeniusHard
+    _platformLeaderboardId: 09fmn3k5nfmdki2dff3ic1mg
+  - _difficultyBeatmapId: CrazyGeniusExpert
+    _platformLeaderboardId: 9m93liilbmd110bf2056nj5g
+  - _difficultyBeatmapId: CrazyGeniusExpertPlus
+    _platformLeaderboardId: h33l6851la1jil159i27kl7j
+  - _difficultyBeatmapId: DancingsNotACrimeEasy
+    _platformLeaderboardId: ca77271ehg2b9nl385jg32ib
+  - _difficultyBeatmapId: DancingsNotACrimeNormal
+    _platformLeaderboardId: h1l43086b28eae236c4dkilj
+  - _difficultyBeatmapId: DancingsNotACrimeHard
+    _platformLeaderboardId: b9daleg45g2ehfn553eg507i
+  - _difficultyBeatmapId: DancingsNotACrimeExpert
+    _platformLeaderboardId: 0052n47d06f8iekmi4aghhg7
+  - _difficultyBeatmapId: DancingsNotACrimeExpertPlus
+    _platformLeaderboardId: 7dbmfdnf528e02je40a1202c
+  - _difficultyBeatmapId: HeyLookMaIMadeItEasy
+    _platformLeaderboardId: hgihhb3e4dne0e08d80i4d4i
+  - _difficultyBeatmapId: HeyLookMaIMadeItNormal
+    _platformLeaderboardId: nf7cmb192jgf7nkd7gm2m03g
+  - _difficultyBeatmapId: HeyLookMaIMadeItHard
+    _platformLeaderboardId: b56a10d8h570n5399kcmk637
+  - _difficultyBeatmapId: HeyLookMaIMadeItExpert
+    _platformLeaderboardId: g8mmkd1m1c0jb1n077j9bjl2
+  - _difficultyBeatmapId: HeyLookMaIMadeItExpertPlus
+    _platformLeaderboardId: 50694fnhc6jf0be4lg0nghj0
+  - _difficultyBeatmapId: SayAmenEasy
+    _platformLeaderboardId: 1kmnbd8ja2iidl2hmhg5g18d
+  - _difficultyBeatmapId: SayAmenNormal
+    _platformLeaderboardId: 0effg4g183912a3i73ji74ga
+  - _difficultyBeatmapId: SayAmenHard
+    _platformLeaderboardId: 0i5nfkj4flag4n3bmam2me23
+  - _difficultyBeatmapId: SayAmenExpert
+    _platformLeaderboardId: jeajih7j5iem6kefd7mmii20
+  - _difficultyBeatmapId: SayAmenExpertPlus
+    _platformLeaderboardId: 5163ljl7ihehihkfllik957l
+  - _difficultyBeatmapId: SugarSoakerEasy
+    _platformLeaderboardId: im28jb69eemlmkl1h6eg818e
+  - _difficultyBeatmapId: SugarSoakerNormal
+    _platformLeaderboardId: g26b8i9lneg3ejjalhhg4b5k
+  - _difficultyBeatmapId: SugarSoakerHard
+    _platformLeaderboardId: 1l64n1k337ih91k338ei1mn7
+  - _difficultyBeatmapId: SugarSoakerExpert
+    _platformLeaderboardId: 500cacb311l1di6c3d6h0nen
+  - _difficultyBeatmapId: SugarSoakerExpertPlus
+    _platformLeaderboardId: h16bg1ff53mnj2acn2blg875
+  - _difficultyBeatmapId: VivaLasVengeanceEasy
+    _platformLeaderboardId: ic7c0ja725cj1i1na04l5501
+  - _difficultyBeatmapId: VivaLasVengeanceNormal
+    _platformLeaderboardId: fg79jknd8icecg3gnc324f3f
+  - _difficultyBeatmapId: VivaLasVengeanceHard
+    _platformLeaderboardId: 0618b8b3g1la3a9m3k69902a
+  - _difficultyBeatmapId: VivaLasVengeanceExpert
+    _platformLeaderboardId: 7k42g8gf9jeee003cfkh6fmg
+  - _difficultyBeatmapId: VivaLasVengeanceExpertPlus
+    _platformLeaderboardId: hfc9d23aeh5ej5ean4h223jn

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -268055406, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: PanicAtTheDiscoPreviewBeatmapLevelPack
+  m_EditorClassIdentifier:
+  _packID: PanicAtTheDisco
+  _packName: Panic! At The Disco Music Pack
+  _shortPackName: Panic! At The Disco
+  _coverImage: {fileID: 21300000, guid: adc7b8eebf5dd614eb2bd086ddb79661, type: 2}
+  _smallCoverImage: {fileID: 21300000, guid: d11f1b063a1c5914aae32554a1047020, type: 2}
+  _previewBeatmapLevelCollection: {fileID: 11400000, guid: 1056a0b4e57e4ed4e9a5fc7d166abbb7, type: 2}

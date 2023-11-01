@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1971316557, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: StrictAnglesGameplayModifierParams
+  m_EditorClassIdentifier:
+  _modifierNameLocalizationKey: MODIFIER_STRICT_ANGLES
+  _descriptionLocalizationKey: MODIFIER_STRICT_ANGLES_HINT
+  _multiplier: 0
+  _multiplierConditionallyValid: 0
+  _icon: {fileID: 21300000, guid: 258df1239217acd4f9bd34a9d3eaee0b, type: 2}
+  _mutuallyExclusives:
+  - {fileID: 11400000, guid: dd8b156505632544fb3f18346c1107a0, type: 2}
+  - {fileID: 11400000, guid: 8cb080c3dc603dd41841e3ac840a8c58, type: 2}
+  _requires:
+  - {fileID: 11400000, guid: 55173f84355c74c4c855b590c1fc559b, type: 2}
+  _requiredBy: []
+  _isInBeta: 1

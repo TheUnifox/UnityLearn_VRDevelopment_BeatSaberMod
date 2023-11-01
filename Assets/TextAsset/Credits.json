@@ -1,0 +1,759 @@
+{
+  "creditsItems": [
+    {
+      "title": {
+        "text": "CREDITS_OG",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky, Vladimir Hrincar, Jaroslav Beck\nPeter Hrincar, Michaela Dvorakova"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_GAME_DESIGN",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nVladimir Hrincar\nJosh 'Freeek' Joynes\nPeter Hrincar\nKushal Yeole"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_SOUND",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jaroslav Beck\nCaroline Hernandez"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_PROGRAMMING",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nVladimir Hrincar\nPeter Hrincar\nMatej Osanec\nJakub Mirovsky\nMartin Novak\nTrevor Dasch\nMahmoud Afaneh\nMonte Mishkin\nJack Berreby\nNataliia Kozoriz\nJoao Bertolino de Sousa Neto\nAlberto Paz Becerril\nFilip Hauptfleisch\nRob Bogucki\nGergely Remenyi\nDanny de Bruijne\nDanni Metz\nJakub Kopriva\nLuciano Barreira\nKaren Hovhannisyan\nJakub Tkac\nJindrich Skeldal\nJaroslav Stehlik\nMartin Linda\nJacob Keen\nDavid Rysanek"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_LEVEL_CREATORS",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Josh 'Freeek' Joynes\nJan Ilavsky\nDaniel 'Kolezan' Pettersson\nGuilherme Zakka\nConnor 'ConnorJC' Comeau\nEthan 'ETAN' Nguyen\nAlistair 'Altrewin' Trewin\nJason 'GreatYazer' Planera\nErlend 'Ruckus' Skotheim\nMatt 'Purphoros' Levet\nMiroslav Mikolaj\nPeter Hrincar\nJoonas 'Rustic' Jarvinen\nBenny 'DaBeast' White"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_3D_GRAPHICS",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nMike Wasilewski\nAlessia Giammarino\nJavi Garcia\nDaniel Garcia Aranda\nAlejandro Bielsa Martin\nLaura Uson Dolsac\nPedro Solans\nArabian Art Studios"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_2D_GRAPHICS",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nPetr Stefek"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_CONCEPT_ARTIST",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Egor Grositskiy"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_UI_UX",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nNatalia Petrovska"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_VFX",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Ilavsky\nVladimir Hrincar\nTomas Bachtik"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_MARKETING",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Michaela Dvorakova\nZuzana Cinkova\nManish Tandon\nLowena Waries\nMerve Yilmazturk\nTandy Tatter"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_DESIGN_MANAGER",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Andrew Robinson"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_ENGINEERING_MANAGER",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Vaclav Samec\nPetr Tomíček"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_INTERNAL_QA_LEAD",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Rücker"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_DEVELOPMENT_PROJECT_MANAGER",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Susan Rodriguez Mata"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_RELEASE_MANAGER",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Karyna Plotnikova"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_OFFICE_MANAGER",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Karin Spieglerova"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_INTERNAL_QA_LEAD",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Jan Rücker"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_ANALYTICS",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Alexandra Sullivan\nJordan Leong\nGunjan Pandya"
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_OCULUS_STUDIOS",
+        "localized": true,
+        "style": 2
+      },
+      "rowCountOverride": 4,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "CREDITS_HEAD_OF_OCULUS_STUDIOS_OPERATIONS",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Chris Corry"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_STUDIO_MANAGER_FEMALE",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Deborah Guzman Barrios"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_EXECUTIVE_PRODUCER_FEMALE",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Ruth Bram"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_PRODUCER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Kelsey Graves\nLeslee Sullivant"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_HEAD_OF_1ST_PARTY_STUDIOS_GROUP",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Rade Stojsavljevic"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LOCALIZATION_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Glory Chan-Yang Choe"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Universally Speaking",
+        "style": 2
+      },
+      "rowCountOverride": 4,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "CREDITS_QA_HEAD_OF_SERVICES",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Mark Le Breton"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_QA_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Jack Walker"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_QA_PROJECT_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Joseph Hawley\nNaveen Yadav\nCameron Haywood"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_QA_TEAM_LEAD",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Sam Burroughes"
+          }
+        }
+      ]
+    },
+    {
+      "rowCountOverride": 1,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "CREDITS_QA_ADDITIONAL_SENIOR_TEAM",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Thomas Landtsheere\nCharlie Francis \nChloe Reilly\nFleur Bradshaw\nHelen Dickson\nMiles Leven\nMumin Haque\nSam Bassett\nSam Dos Santos\nJoseph Hawley\nRob Prendergast\nSteven Hobbs\nThomas Camp"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_QA_TESTERS",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Alessia Giardinelli\nAlex Laycock\nAlex Marshall\nAlexie Goff\nAndrea Themeli\nArchie Crampton\nChapman Lee\nDanny Butfoy\nDarius Moeni\nDylan Fleet\nElisa Seamark\nElla Francis\nEmily Crosby\nErmal Stambolliou\nEthan Curl\nEthan O’Neill\nFrancesca Alabaster\nGeorge Walker\nHala Uthman\nHayley Green\nHugo Shortall Walsh\nJames Peat Barbieri\nJames Walters\nJames Wilkes\nJordan Prior\nJoshua Green\nKieran Tongue\nKirk Connor\nLiam Whitwell \nNicholas Porras\nOliver Blackburn\nRoseanna Warr\nRosie Powell\nRyan Turner\nSebastian Amendolea-Boulton\nSteve Dutton\nSteve George\nStuart Bowater \nSuzanna Biggs"
+          }
+        }
+      ]
+    },
+    {
+      "creditsItems": [
+        {
+          "title": {
+            "text": "CREDITS_LQA_AUDIO_AND_LOCALIZATION_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Roberto Di Ciuccio"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_LOCALIZATION_PROJECT_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Alejandra Henríquez Alegría\nRory Faulkner"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_LOCALIZATION_QA_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Alcir Marques"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_QA_PROJECT_MANAGER",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Helene Hansen"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_LOCALIZATION_QA_LEAD",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Izzi Johnson"
+          }
+        }
+      ]
+    },
+    {
+      "rowCountOverride": 1,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "CREDITS_LQA_TRANSLATION_TEAM",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Illka Wegner\nFélix Braconnier\nSalvador Walker Balbuena\nSoyoung Kim \nTakashi Fujimoto\nAlexander Faisst\nDonovan Chevalier\nSound in Words\nHaejung Lee\nHaruna Yokoyama\nActive Gaming Media Inc."
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_LOCALIZATION_QA_TEAM",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Viola Rudershausen \nCharlotte Sahakian\nNoelia Ruiz Aroca\nJames Kim\nYoshino Shigihara"
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_LQA_VOICE_TALENTS",
+            "localized": true,
+            "style": 1
+          },
+          "text": {
+            "text": "Celia Charpentier\nGabriela Olarieta\nSarah Kolb\nYoung Eun Joo\nKiyomi Tanitsu\nAlice Campbell\nZoe Barker"
+          }
+        }
+      ]
+    },
+    {
+      "rowCountOverride": 2,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "Original Soundtrack Vol.I",
+            "style": 2
+          },
+          "text": {
+            "text": "Jaroslav Beck\nSummer Haze & James Ruehlmann\nGenerdyn\nBackchat\nKings & Folk\nTom Norris (Mastering)"
+          }
+        },
+        {
+          "title": {
+            "text": "Original Soundtrack Vol.II",
+            "style": 2
+          },
+          "text": {
+            "text": "Jaroslav Beck – Unlimited Power (feat. Frank Bentley)\nBoom Kitty – Rum n’ Bass\nSedliv – Be There For You (feat. Kinnie Lane)\nMord Fustang – Elixia\nMegaphonix – I Need You"
+          }
+        },
+        {
+          "title": {
+            "text": "Original Soundtrack Vol.III",
+            "style": 2
+          },
+          "text": {
+            "text": "Jaroslav Beck, Jan Ilavsky – Origins (feat. Mutrix)\nMorgan Page – Reason for Living\nPegboard Nerds – Give a Little Love\nPIXL – Full Charge\nSlippy – Immortal\nBoom Kitty – Burning Sands"
+          }
+        },
+        {
+          "title": {
+            "text": "Original Soundtrack Vol.IV",
+            "style": 2
+          },
+          "text": {
+            "text": "Jaroslav Beck - Into The Dream (feat. Jakub Tirco)\nVocal: Alanna Clarke\nMix, Mastering: Tom Norris\nCamellia - Spin Eternally\nBoom Kitty - It Takes Me (feat. Waylon Reavis)\nJaroslav Beck - LUDICROUS+\nMastering: Tom Norris"
+          }
+        },
+        {
+          "title": {
+            "text": "Original Soundtrack Vol. V",
+            "style": 2
+          },
+          "text": {
+            "text": "The Living Tombstone – I Wanna Be A Machine\nJaroslav Beck – Magic (feat. Meredith Bull)\nCamellia – Final-Boss-Chan\nTanger  –  Firestarter\nEEWK – Curtains (All Night Long)\nSchwank  – $1.78\nMixing & Mastering by Tom Norris "
+          }
+        },
+        {
+          "title": {
+            "text": "CREDITS_EXTRA_MUSIC_ARTISTS",
+            "localized": true,
+            "style": 2
+          },
+          "text": {
+            "text": "K/DA\nNoisestorm\nKnower\nVirtual Self\nCamellia\nDJ Genki\nC-Show\nTokyo Machine\nTokyo Machine appears as a courtesy of Monstercat"
+          }
+        }
+      ]
+    },
+    {
+      "rowCountOverride": 2,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "Monstercat Music Pack Vol.1",
+            "style": 2
+          },
+          "text": {
+            "text": "Artists: Aero Chord, Pegboard Nerds, Tokyo Machine, Muzzy, RIOT, Rogue, Stonebank, Kayzo, Tristam, Feint\nLabel: Monstercat"
+          }
+        },
+        {
+          "title": {
+            "text": "Imagine Dragons Music Pack",
+            "style": 2
+          },
+          "text": {
+            "text": "Natural (2018), Machine (2018), Bad Lair (2018), Thunder (2017), Believer (2017), Whatever It Takes (2017), Radioactive (2012), Digital (2018), It's Time (2012), Warriors (2015).\nArtist: Imagine Dragons\nLabel: Universal Music s.r.o.\n\nEnemy (2021), Bones (2022)\nArtists: Imagine Dragons, J.I.D\nLabel: KIDinaKORNER/Interscope Records under license from Universal Music Enterprises"
+          }
+        },
+        {
+          "title": {
+            "text": "Panic! At The Disco Music Pack",
+            "style": 2
+          },
+          "text": {
+            "text": "Courtesy of Fueled By Ramen\nBy arrangement with Warner Music Group Video Game Licensing & Elecktra Music Group"
+          }
+        },
+        {
+          "title": {
+            "text": "Rocket League x Monstercat Music Pack",
+            "style": 2
+          },
+          "text": {
+            "text": "Artists: Tokyo Machine, Stephen Walking, Slushii, Dion Timmer\nLabel: Monstercat & Psyonix"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Green Day Music Pack",
+        "style": 2
+      },
+      "creditsItems": [
+        {
+          "title": {
+            "text": "Fire, Ready, Aim",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2019 Reprise Records"
+          }
+        },
+        {
+          "title": {
+            "text": "Father of All…",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2019 Reprise Records"
+          }
+        },
+        {
+          "title": {
+            "text": "American Idiot",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2004 Reprise Records"
+          }
+        },
+        {
+          "title": {
+            "text": "Holiday",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2004 Reprise Records"
+          }
+        },
+        {
+          "title": {
+            "text": "Boulevard Of Broken Dreams",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2004 Reprise Records"
+          }
+        },
+        {
+          "title": {
+            "text": "Minority",
+            "style": 1
+          },
+          "text": {
+            "text": "Performed by Green Day\nCourtesy of Reprise Records\nBy arrangement with Warner Music Group Video Game Licensing\n(P) 2000 Reprise Records"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Timbaland Music Pack",
+        "style": 2
+      },
+      "rowCountOverride": 2,
+      "creditsItems": [
+        {
+          "title": {
+            "text": "Has A Meaning",
+            "style": 1
+          },
+          "text": {
+            "text": "Written by: Timbaland, Sid Tipton, Angel Lopez, Nash Overstreet, Larrance \"\"Rance\"\" Dopson, Leon Thomas, Jonathan Myvett\nProduced by: Timbaland for Beatclub Inc.\nCo-Produced by: Larrance \"\"Rance\"\" Dopson, Anonxmous & Angel Lopez for Beatclub Inc.\nPerformed by: Sid Tipton, Timbaland\nPublished by: Bluestone/Anthem Entertainment, Sony ATV, Blue Nike Publishing / Songs Of Volume Ventures Administered by Peermusic III Ltd., Flexitarian Music, Kobalt Music Group\nCourtesy of: Timbaland Productions, Inc."
+          }
+        },
+        {
+          "title": {
+            "text": "Famous - feat. Jake Davis",
+            "style": 1
+          },
+          "text": {
+            "text": "Written by: Adam Boukis, JoshRa Collins, Jake Davis, Bruno Martini, Timbaland,\nPerformed by: Bruno Martini, Timbaland (feat. Jake Davis)\nProduced by: Adam Boukis, Jake Davis, JoshRa Collins, Timbaland\nPublished by: Bluestone / Anthem Entertainment, Universal Music Latin Entertainment, Adam Zachary Boukis Publishing, Jake David Publishing, Joshua Trey Daniel Collins Publishing\nCourtesy of: Timbaland Productions, Inc."
+          }
+        },
+        {
+          "title": {
+            "text": "What I Like",
+            "style": 1
+          },
+          "text": {
+            "text": "Written by: KARRA, Nash Overstreet, Angel Lopez, Federico Vindver, Timbaland, Leonardo Brooks\nProduced by: Federico Vindver, Angel Lopez & Timbaland for BEATCLUB, Inc., Leonardo Brooks\nPerformed by: KARRA, Nash Overstreet, Common Strangers\nPublished by: Bluestone/Anthem Entertainment, Warner Chappell, Flexitarian Music, Leo Brooks Music, Karra Madden Publishing Administered by Ultra Music Publishing\nCourtesy of: Timbaland Productions, Inc."
+          }
+        },
+        {
+          "title": {
+            "text": "Dumb Thingz",
+            "style": 1
+          },
+          "text": {
+            "text": "Written by: Kaydence, Jeffrey Baranowski, Luke Milano, Timbaland, Rickie \"\"Caso\"\" Tice, Federico Vindver\nProduced by: Timbaland & Federico Vindver for BEATCLUB, Inc. and 9AM\nPerformed by: Kaydence, Timbaland\nPublished by: Bluestone/Anthem Entertainment, Beach Wave Publishing and Last Gang Publishing Administered by Entertainment One Music, Seven Corners Music Administered by BMG Rights Management, Pen Piper Publishing\nCourtesy of: Timbaland Productions, Inc."
+          }
+        },
+        {
+          "title": {
+            "text": "While We're Young",
+            "style": 1
+          },
+          "text": {
+            "text": "Written by: Lauren Christy, Nathan Brown, Mitchell Nugent, Jedidiah Gray, Federico Vindver,Benj Heard\nProduced by: Federico Vindver for Beatclub, Inc., Lauren Christy, Benj Heard\nPerformed by: Wavezswavesz\nPublished by: Warner Chappell, Benj Heard Music, Reservoir Media\nCourtesy of: Universal Music Group, Timbaland Productions Inc."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "text": "Linkin Park Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Bleed It Out, Breaking the Habit, Faint, Given Up, In the End, New Divide, Numb, One Step Closer, Papercut, Somewhere I Belong, What I've Done\nArtist: Linkin Park"
+      }
+    },
+    {
+      "title": {
+        "text": "BTS Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Blood Sweat & Tears, Boy With Luv (feat. Halsey), Burning Up (Fire), Dionysus, DNA, Dope, Dynamite, FAKE LOVE, IDOL, MIC Drop (Steve Aoki Remix), Not Today, UGH!\nArtists: BTS, Halsey, Steve Aoki\nLabel: Big Hit Entertainment"
+      }
+    },
+    {
+      "title": {
+        "text": "Interscope Mixtape",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: OneRepublic, Kendrick Lamar, The Pussycat Dolls, LMFAO, Lauren Bennett, GoonRock, Limp Bizkit, Maroon 5, Gwen Stefani\nLabel: Interscope Records"
+      }
+    },
+    {
+      "title": {
+        "text": "Skrillex Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: Skrillex, Starrah, Four Tet, Justin Bieber, Don Toliver, Wolfgang Gartner \nLabel: OWSLA/Atlantic Records"
+      }
+    },
+    {
+      "title": {
+        "text": "Billie Eilish Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artist: Billie Eilish \nLabel: Darkroom/Interscope Records"
+      }
+    },
+    {
+      "title": {
+        "text": "Lady Gaga Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: Lady Gaga, Ariana Grande, Beyoncé, Colby O'Donis\nLabel: Interscope Records"
+      }
+    },
+    {
+      "title": {
+        "text": "Fall Out Boy Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: Fall Out Boy\nLabel: Courtesy of Island Records under license from Universal Music Enterprises"
+      }
+    },
+    {
+      "title": {
+        "text": "Electronic Mixtape",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: Zedd, Hayley Williams, Fatboy Slim, Martin Garrix, Darude, Marshmello, Deadmau5, Rudimental, Pendulum, Madeon, Bomfunk MC’s\n\nZedd appears as a courtesy of Interscope Records under license from Universal Music Enterprises\nHayley Williams appears courtesy of Atlantic Recording Corp. By arrangement with Warner Music Group Video Game Licensing\nFatboy Slim appears as a courtesy of Astralwerks/Skint Records under license from Universal Music Enterprises\nMartin Garrix appears as a courtesy of Republic Records under license from Universal Music Enterprises\nDarude appears as a courtesy of Robbins Entertainment. By arrangement with Ocean Park Music Group\nMarshmello appears as a courtesy of Monstercat\nDeadmau5 appears as courtesy of Ultra Records, LLC\nRudimental appears as a courtesy of Warner Music UK, Ltd. By arrangement with Warner Music Group Video Game Licensing\nPendulum appears as a courtesy of Warner Music UK, Ltd. By arrangement with Warner Music Group Video Game Licensing\nMadeon appears as a courtesy of Sony Music Entertainment\nBomfunk MC’s appears as a courtesy of Sony Music Entertainment"
+      }
+    },
+    {
+      "title": {
+        "text": "Lizzo Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artist: Lizzo\nLabel: Courtesy of Atlantic Recording Corp.\nBy arrangement with Warner Music Group Videogame Licensing\nMissy Elliott appears courtesy of Atlantic Recording Corp."
+      }
+    },
+    {
+      "title": {
+        "text": "The Weeknd Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: The Weeknd\nFeaturing: Daft Punk, Kendrick Lamar\nLabel: Republic Records under license from Universal Music Enterprises"
+      }
+    },
+    {
+      "title": {
+        "text": "Rock Mixtape Music Pack",
+        "style": 2
+      },
+      "text": {
+        "text": "Artists: Steppenwolf, Survivor, Lynyrd Skynyrd, Kiss, The White Stripes, Nirvana, Guns N' Roses, Foo Fighters\nLabel: Universal Music Group, Sony Music Entertainment, MONOTONE INC MGMT, Third Man Records"
+      }
+    },
+    {
+      "text": {
+        "text": "CREDITS_THANK_YOU_NOTE",
+        "localized": true
+      }
+    },
+    {
+      "title": {
+        "text": "CREDITS_SPECIAL_THANKS",
+        "localized": true,
+        "style": 2
+      },
+      "text": {
+        "text": "Barbora Ilavska, Helena Ilavska, Zuzana Vrablova, Jan Ilavsky Sr., Rober Vojta, Pavel Barak, Pavol Buday, Michal Berlinger, Pavel Dobrovsky, Jakub Dvorsky, Lukas Macura, Matous Jezek, Peter Nagy, Jenna Seiden, Marco DeMiroz, Tipatat Chennavasin, Cix, Ruirize, Swan, AJ 'Dr Doom', Petr Sulc, Monika Hrincarova, Julie Planera, Tomas Koval"
+      }
+    }
+  ]
+}

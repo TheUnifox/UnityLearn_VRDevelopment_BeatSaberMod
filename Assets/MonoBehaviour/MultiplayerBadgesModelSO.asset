@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1044579292, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: MultiplayerBadgesModelSO
+  m_EditorClassIdentifier:
+  _positiveBadges:
+  - {fileID: 11400000, guid: 11e5f9d4ca435744292db87a747701e0, type: 2}
+  - {fileID: 11400000, guid: aba57374d589562478583f0c68beb648, type: 2}
+  - {fileID: 11400000, guid: 90ddf99445ceff746b6d82df8a1ee9cd, type: 2}
+  - {fileID: 11400000, guid: 8117b34b8e40d204a9745c2c67a6b82e, type: 2}
+  - {fileID: 11400000, guid: 3f39168d5c1f2e942a4fdac334286274, type: 2}
+  - {fileID: 11400000, guid: ebcc87ca8c0cfe548a032b97993462a3, type: 2}
+  _negativeBadges:
+  - {fileID: 11400000, guid: 2634264bf66f1894aa430fdfcaf1edd4, type: 2}
+  - {fileID: 11400000, guid: 1f99689403265c6429bb785112d58869, type: 2}
+  - {fileID: 11400000, guid: 968ca9cdc1fe12d4ea545b1c926acdba, type: 2}
+  - {fileID: 11400000, guid: 30fe1d40c0aabe9449a3d71d2b2fa644, type: 2}
+  - {fileID: 11400000, guid: c1134786687e6e44d9ef000c1aa663c6, type: 2}

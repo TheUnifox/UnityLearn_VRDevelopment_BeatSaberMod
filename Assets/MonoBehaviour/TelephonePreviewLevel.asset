@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 922324881, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: TelephonePreviewLevel
+  m_EditorClassIdentifier:
+  _levelID: Telephone
+  _songName: Telephone
+  _songSubName: (feat. Beyoncé)
+  _songAuthorName: Lady Gaga, Beyoncé
+  _levelAuthorName: Freeek
+  _previewAudioClip: {fileID: 8300000, guid: 27f538807c977b74d87e6b45d6941a9a, type: 3}
+  _beatsPerMinute: 122
+  _songTimeOffset: 0
+  _shuffle: 0
+  _shufflePeriod: 0
+  _previewStartTime: 0
+  _previewDuration: 10
+  _songDuration: 214.91808
+  _coverImage: {fileID: 21300000, guid: a67d8212dccf1d24abfc8c12fb614ff9, type: 2}
+  _environmentInfo: {fileID: 11400000, guid: 46f83404590060b498400cb0ffac4648, type: 2}
+  _allDirectionsEnvironmentInfo: {fileID: 11400000, guid: 61a2ae0832eab514491d4d620c16b561, type: 2}
+  _previewDifficultyBeatmapSets:
+  - _beatmapCharacteristic: {fileID: 11400000, guid: 7c813931bb19cb94ca6387f7e398f6c9, type: 2}
+    _beatmapDifficulties: 0000000001000000020000000300000004000000
+  _ignore360MovementBeatmaps: 0

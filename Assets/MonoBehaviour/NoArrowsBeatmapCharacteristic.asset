@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -247312371, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: NoArrowsBeatmapCharacteristic
+  m_EditorClassIdentifier:
+  _icon: {fileID: 21300000, guid: 25e99422b1d08b5489f3cb1f5957348f, type: 2}
+  _descriptionLocalizationKey: LEVEL_NO_ARROWS_HINT
+  _characteristicNameLocalizationKey: LEVEL_NO_ARROWS
+  _serializedName: NoArrows
+  _compoundIdPartName: NoArrows
+  _sortingOrder: 2
+  _containsRotationEvents: 0
+  _requires360Movement: 0
+  _numberOfColors: 2

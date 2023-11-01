@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1784233892, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: OstVol5LevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: c47f3fbb12dc15a42a74eeed91126a06, type: 2}
+  - {fileID: 11400000, guid: 0d9441278b68ab645860b3c53f44df87, type: 2}
+  - {fileID: 11400000, guid: 162ca69fc3c4a294fac401049b0f036f, type: 2}
+  - {fileID: 11400000, guid: 071a4e7e2f4b4574b9a487f33efcb8a5, type: 2}
+  - {fileID: 11400000, guid: fdd0db9e5df699d42a9b503fc00df5b0, type: 2}
+  - {fileID: 11400000, guid: 457279e93dc101f4f93640f0639d0b3b, type: 2}

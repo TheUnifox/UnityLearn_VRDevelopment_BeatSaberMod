@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1659630304, guid: a7832ca0d9db9562beaefb72c2bee2de, type: 3}
+  m_Name: ImagineDragonsPreviewBeatmapLevelCollection
+  m_EditorClassIdentifier:
+  _beatmapLevels:
+  - {fileID: 11400000, guid: b41aabd9a1485f84ba96558f06ba193b, type: 2}
+  - {fileID: 11400000, guid: ec41487789d83704297cfe0010a62155, type: 2}
+  - {fileID: 11400000, guid: ab6b3b926e8e0304fb765fb48d7b8f2f, type: 2}
+  - {fileID: 11400000, guid: 54f29693e83ac97469824361ab8867eb, type: 2}
+  - {fileID: 11400000, guid: 8eab86182adaf224b9d8c140d5a8ebc4, type: 2}
+  - {fileID: 11400000, guid: ea4321d2099621448bcd8e3accc8dd0b, type: 2}
+  - {fileID: 11400000, guid: 579dedbbf76b11b45801caa909092977, type: 2}
+  - {fileID: 11400000, guid: a632f107cd2a9c84abdd18036733aa4b, type: 2}
+  - {fileID: 11400000, guid: 503910a6c18bba74f8b87221ea7da8fe, type: 2}
+  - {fileID: 11400000, guid: 80d6180bf311c0a41b0596b99b4cfab6, type: 2}
+  - {fileID: 11400000, guid: 47e203e649aadd74da00f13248edf70d, type: 2}
+  - {fileID: 11400000, guid: 07c86528866dc9840a422ff502107bfc, type: 2}

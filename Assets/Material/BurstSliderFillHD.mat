@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BurstSliderFillHD
+  m_Shader: {fileID: 4800000, guid: 3b544ee9281508445947b8fd45d5807c, type: 3}
+  m_ShaderKeywords: ENABLE_COLOR_INSTANCING ENABLE_CUTOUT ENABLE_FOG ENABLE_RIM_DIM FOG HEIGHT_FOG _ALPHABLEND_ON _COLOR_INSTANCING _EMISSION _ENABLE_CENTER_CUTOUT _ENABLE_CUTOUT _ENABLE_FOG _ENABLE_FOG_TINT _ENABLE_RIM_COLOR _ENABLE_RIM_DIM _FOGTYPE_ALPHA
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2600
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EnvironmentReflectionCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendDstFactor: 1
+    - _BlendDstFactorA: 1
+    - _BlendSrcFactor: 1
+    - _BlendSrcFactorA: 1
+    - _BumpScale: 1
+    - _CloseToCameraCutoutOffset: 0.5
+    - _CloseToCameraCutoutScale: 0.5
+    - _ColorInstancing: 1
+    - _CubemapIntensity: 0.1
+    - _CullMode: 2
+    - _CutPlaneEdgeGlowWidth: 0.01
+    - _CutTest: 0.013
+    - _Cutoff: 0.5
+    - _CutoutTexScale: 0.5
+    - _CutoutValue: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _EnableCenterCutout: 1
+    - _EnableCloseToCameraCutout: 0
+    - _EnableColorInstancing: 1
+    - _EnableCutout: 1
+    - _EnableDirt: 0
+    - _EnableFog: 1
+    - _EnableHeightFog: 1
+    - _EnablePlaneCut: 0
+    - _EnableReflectionMap: 0
+    - _EnableReflectionProbe: 0
+    - _EnableRimColor: 1
+    - _EnableRimDim: 1
+    - _Fancy: 0
+    - _FinalColorMul: 1
+    - _FinalColorOffset: 0
+    - _FogHeightOffset: 0
+    - _FogHeightScale: 2.5
+    - _FogScale: 0.5
+    - _FogStartOffset: 100
+    - _FogType: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 2
+    - _NoteSize: 0.25
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PlaneEdgeGlowWidth: 0.02
+    - _PreciseFog: 0
+    - _ReflectionProbeIntensity: 1
+    - _RimCameraDistanceOffset: 5
+    - _RimCameraDistanceScale: 0.03
+    - _RimDarkening: 0.2
+    - _RimDarkenning: 0.5
+    - _RimOffset: -0.1
+    - _RimParam: 1.2
+    - _RimScale: 2
+    - _Smoothness: 0.95
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Test: 0
+    - _UVSec: 0
+    - _UseCubemap: 0
+    - _UseMainTex: 0
+    - _WhiteBoostType: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _AddColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.13235295, g: 0.13235295, b: 0.13235295, a: 1}
+    - _CubeMapTintColor: {r: 0, g: 0.2509804, b: 0.33333334, a: 1}
+    - _CutPlane: {r: 1, g: 0, b: 0, a: 0}
+    - _CutoutEdgeColor: {r: 0.03137255, g: 0.5019608, b: 1, a: 1}
+    - _CutoutTexCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutTexOffset: {r: 5, g: 0.772488, b: 9.79801, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Plane: {r: 1, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.03137255, g: 0.5019608, b: 1, a: 1}
+    - _SimpleColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0, g: 0.5019608, b: 1, a: 1}
