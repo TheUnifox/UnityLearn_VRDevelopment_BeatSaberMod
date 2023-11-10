@@ -45,3 +45,9 @@ Mostly settings menu stuff that I have re-added the scripts onto.
 
 Gonna be at least a few days of this adding scripts onto objects, there's a lot to do. \
 After that will be possibly fixing shaders, then *maybe* a first test build.
+
+### END OF PROJECT FOR NOW
+Unfortunately, this project was just too big for me in the end. \
+On top of that github messed up a bunch of the files somehow, and now Unity will only start in safe mode, stating infinite import loops. \
+So for now, this project is going to rest. I am working on a different idea that is much smaller and easier for now. \
+Perhaps someday I will come back to fix and finish this.
